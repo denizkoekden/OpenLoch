@@ -107,6 +107,10 @@ public:
     // Zooms by `factor` and puts the sheet point under `pixel` in the middle of the drawing area (zoom mode and wheel).
     void zoomCentred(double factor,QPointF pixel);
     double scale() const{return pixelsPerMm;}
+    // The zoom as sPlan counts and shows it: pixels per tenth of a millimetre, from 0.05 to 30; a step of the wheel or of
+    // "Vergrößern"/"Verkleinern" changes it by 1.2, a click in the zoom mode by 1.4.
+    double zoom() const{return pixelsPerMm/10;}
+    static constexpr double minScale=.5,maxScale=300,wheelStep=1.2,clickStep=1.4;
     QPointF toSheet(QPointF pixel) const;
     QPointF toPixel(QPointF mm) const;
     // A sheet position snapped as the switches and keys say; `from` is the previous point of a line being drawn.
@@ -127,6 +131,7 @@ public:
     std::function<void()> beforeChange,changed,selectionChanged;
     std::function<void()> changeCancelled;     // a change begun with beforeChange was taken back (Esc)
     std::function<void(QPointF)> pointerMoved;
+    std::function<void()> zoomChanged;
     std::function<void(Tool)> toolChanged;
     // Asked before a new text, net label or contact is placed; fills in the text and returns false to cancel.
     std::function<bool(Item&)> textRequested;
@@ -171,6 +176,7 @@ protected:
     void mouseReleaseEvent(QMouseEvent *event) override;
     void mouseDoubleClickEvent(QMouseEvent *event) override;
     void wheelEvent(QWheelEvent *event) override;
+    bool event(QEvent *event) override;              // pinching on a touchpad zooms
     void keyPressEvent(QKeyEvent *event) override;
     void resizeEvent(QResizeEvent *event) override;
     bool focusNextPrevChild(bool next) override;     // Tab chooses elements instead
@@ -188,6 +194,7 @@ private:
     Tool current=Tool::Select;
     QStringList selected;
     double pixelsPerMm=3;
+    void setScale(double pixels);                    // within sPlan's limits, told by zoomChanged
     // The rounding changer of a rectangle stands at least 10 pixels from the corner, so that the corner's handle stays
     // free; while it is dragged the rounding follows it from where it was taken (`roundingGrab` the distance beyond).
     double roundingShown(double rounding,double width) const{return std::min(std::max(rounding,10/pixelsPerMm),std::abs(width));}

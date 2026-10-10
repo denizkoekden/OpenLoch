@@ -15,6 +15,8 @@
 #include "modules/schematic/text.h"
 #include "modules/schematic/zip.h"
 #include "modules/schematic/search.h"
+#include <QNativeGestureEvent>
+#include <QWheelEvent>
 #include <QAction>
 #include <QApplication>
 #include <QCheckBox>
@@ -725,7 +727,7 @@ int schematicEditorTests(){
             const auto mode=v->tool();v->setTool(SheetView::Tool::Zoom);const double before=v->scale();const QPointF at=v->toPixel({60,60}),spot=v->toSheet(at);
             send(QEvent::MouseButtonPress,at,Qt::LeftButton,Qt::LeftButton);send(QEvent::MouseButtonRelease,at,Qt::LeftButton,Qt::NoButton);
             const QPointF now=v->toPixel(spot);
-            require(std::abs(v->scale()-before*1.5)<1e-9&&std::hypot(now.x()-middle.x(),now.y()-middle.y())<1e-6,"a click zooms in, the point in the middle");
+            require(std::abs(v->scale()-before*1.4)<1e-9&&std::hypot(now.x()-middle.x(),now.y()-middle.y())<1e-6,"a click zooms in, the point in the middle");
             send(QEvent::MouseButtonPress,middle,Qt::RightButton,Qt::RightButton);send(QEvent::MouseButtonRelease,middle,Qt::RightButton,Qt::NoButton);
             require(std::abs(v->scale()-before)<1e-9&&v->tool()==SheetView::Tool::Zoom,"the right button zooms out, the mode stays");
             v->setTool(SheetView::Tool::Select);v->fitSheet();QApplication::processEvents();
@@ -1677,6 +1679,43 @@ int schematicEditorTests(){
         // Names of styles out of range.
         {Item odd;odd.type=ItemType::Line;odd.points={QPointF(),QPointF(1,0)};odd.pen.style=PenStyle(9);assignIds(odd);
             require(itemToJson(odd)["pen"].toObject()["style"].toString()=="solid","a style out of range written as the first");}
+        // The keys of the reference's menus are shortcuts of their actions, so that tooltips and menus show them.
+        {const QList<std::pair<const char*,QKeySequence>> keys{{"new",QKeySequence(Qt::CTRL|Qt::Key_N)},{"open",QKeySequence(Qt::CTRL|Qt::Key_O)},{"save",QKeySequence(Qt::CTRL|Qt::Key_S)},
+                {"copyImage",QKeySequence(Qt::CTRL|Qt::Key_B)},{"fullScreen",QKeySequence(Qt::CTRL|Qt::Key_F11)},{"print",QKeySequence(Qt::CTRL|Qt::Key_P)},
+                {"undo",QKeySequence(Qt::CTRL|Qt::Key_Z)},{"redo",QKeySequence(Qt::CTRL|Qt::Key_Y)},{"cut",QKeySequence(Qt::CTRL|Qt::Key_X)},{"copy",QKeySequence(Qt::CTRL|Qt::Key_C)},
+                {"paste",QKeySequence(Qt::CTRL|Qt::Key_V)},{"duplicate",QKeySequence(Qt::CTRL|Qt::Key_D)},{"delete",QKeySequence(Qt::Key_Delete)},{"selectAll",QKeySequence(Qt::CTRL|Qt::Key_A)},
+                {"search",QKeySequence(Qt::CTRL|Qt::Key_F)},{"alignGrid",QKeySequence(Qt::CTRL|Qt::ALT|Qt::Key_G)},{"rotate",QKeySequence(Qt::CTRL|Qt::Key_R)},
+                {"mirror",QKeySequence(Qt::CTRL|Qt::Key_M)},{"mirrorVertical",QKeySequence(Qt::CTRL|Qt::ALT|Qt::Key_M)},{"group",QKeySequence(Qt::CTRL|Qt::Key_G)},
+                {"ungroup",QKeySequence(Qt::CTRL|Qt::Key_U)},{"colourize",QKeySequence(Qt::CTRL|Qt::ALT|Qt::Key_C)},{"helpTopics",QKeySequence(Qt::Key_F1)},
+                {"zoomSheet",QKeySequence(Qt::Key_F5)},{"zoomItems",QKeySequence(Qt::Key_F6)},{"zoomSelected",QKeySequence(Qt::Key_F7)},
+                {"toolLine",QKeySequence(Qt::Key_L)},{"toolJunction",QKeySequence(Qt::Key_P)},{"toolRectangle",QKeySequence(Qt::Key_R)},{"toolEllipse",QKeySequence(Qt::Key_K)},
+                {"toolPolygon",QKeySequence(Qt::Key_O)},{"toolText",QKeySequence(Qt::Key_T)},{"toolTextBox",QKeySequence(Qt::Key_E)},{"toolZoom",QKeySequence(Qt::Key_Z)}};
+            for(const auto &[name,key]:keys){QAction *a=x.action(QString::fromLatin1(name));
+                require(a&&a->shortcuts().contains(key),(std::string("the key of the reference as a shortcut: ")+name).c_str());}}
+        // Zoom and touchpad as in every drawing view of the suite.
+        {SheetView *v=x.view();const QPointF at(300,250);QPointF under=v->toSheet(at);double s=v->scale();
+            auto wheel=[&](QPoint pixels,QPoint angle,Qt::KeyboardModifiers mods,Qt::ScrollPhase phase){
+                QWheelEvent e(at,v->mapToGlobal(at),pixels,angle,Qt::NoButton,mods,phase,false);QApplication::sendEvent(v,&e);};
+            auto same=[](QPointF a,QPointF b){return std::abs(a.x()-b.x())<1e-6&&std::abs(a.y()-b.y())<1e-6;};
+            QNativeGestureEvent pinch(Qt::ZoomNativeGesture,QPointingDevice::primaryPointingDevice(),2,at,at,v->mapToGlobal(at),.1,QPointF());QApplication::sendEvent(v,&pinch);
+            require(std::abs(v->scale()-s*1.1)<1e-9&&same(v->toSheet(at),under),"a pinch zooms about the pointer");
+            s=v->scale();wheel(QPoint(0,30),QPoint(0,90),Qt::NoModifier,Qt::ScrollUpdate);
+            require(v->scale()==s&&same(v->toSheet(at),under-QPointF(0,30)/s),"two fingers pan");
+            under=v->toSheet(at);wheel(QPoint(),QPoint(0,120),Qt::NoModifier,Qt::ScrollUpdate);
+            require(v->scale()==s&&!same(v->toSheet(at),under),"a touchpad without steps in pixels pans too");
+            under=v->toSheet(at);wheel(QPoint(0,60),QPoint(0,120),Qt::ControlModifier,Qt::ScrollUpdate);
+            require(std::abs(v->scale()-s*1.2)<1e-9&&same(v->toSheet(at),under),"Ctrl and two fingers zoom about the pointer, by sPlan's step");
+            s=v->scale();wheel(QPoint(),QPoint(0,120),Qt::ControlModifier,Qt::NoScrollPhase);
+            require(std::abs(v->scale()-s*1.2)<1e-9&&same(v->toSheet(at),under),"Ctrl and the wheel of a mouse too");
+            s=v->scale();wheel(QPoint(),QPoint(0,-120),Qt::NoModifier,Qt::NoScrollPhase);
+            require(std::abs(v->scale()-s/1.2)<1e-9&&same(v->toSheet(at),under),"the wheel alone zooms out about the pointer");
+            // sPlan's limits and its zoom shown: pixels per tenth of a millimetre.
+            for(int k=0;k<60;k++)v->zoomAt(2,at);
+            require(v->scale()==SheetView::maxScale&&std::abs(v->zoom()-30)<1e-9,"at most sPlan's zoom 30");
+            for(int k=0;k<60;k++)v->zoomAt(.5,at);
+            require(v->scale()==SheetView::minScale&&std::abs(v->zoom()-.05)<1e-9,"at least sPlan's zoom 0.05");
+            v->zoomAt(7.6,at);x.action("zoomIn")->trigger();require(std::abs(v->zoom()-.05*7.6*1.2)<1e-9,"Vergrößern by sPlan's step");
+            QCoreApplication::processEvents();require(x.findChild<QLabel*>("zoomLabel")->text().contains(uiLocale().toString(v->zoom(),'f',2)),"the zoom shown as in sPlan");}
         x.markSaved();}
     return 0;
 }

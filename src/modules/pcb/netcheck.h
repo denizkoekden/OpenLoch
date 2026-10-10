@@ -65,16 +65,30 @@ QList<int> padsOf(const Board &board,int designator);
 bool assignPins(Board &board,int designator,const QStringList &pins,const QString &component={});
 
 // "Fehlende Bauteile setzen": what the module's library offers for a component of the schematic the board lacks, best
-// first: the footprints whose pads fit its pins (openloch::fittingParts: the same kind of designator first, then its
-// value in the footprint's), then the footprints with as many pads, their pads named after its pins in order, and a row
-// of as many pads made by the component wizard. Only a fitting footprint of the same kind is a sure choice.
+// first: a TO-92 with its pads named in the lead order of the component's type, the footprints whose pads fit its pins
+// (openloch::fittingParts: the same kind of designator first, then its value in the footprint's), then the footprints
+// with as many pads, and a row of as many pads made by the component wizard. Those are named after its pins in order,
+// except the packages of a transistor (pins B, C, E or G, D, S): those are offered in the lead orders of
+// transistorLeads and to92Orders, never in the order of the schematic's pins. Only a fitting footprint of the same kind
+// and a TO-92 in its type's order are sure choices. With a `grid`, footprints whose pads lie on it (each pad a whole
+// number of grid steps from the first) come first among those of the same kind; otherwise the order stays.
 struct PartChoice {
     int footprint=-1;           // the footprint, by its place in footprints(); -1: the wizard's row of pads
     bool inOrder=false;         // its pads named after the component's pins in their order
     bool sameKind=false;        // a footprint for the same kind of part (R, C, D and LED, T and Q, IC and U, …)
     QString label;              // as the choice is offered
+    QStringList leads;          // its pads 1, 2, … named after these pins of the component (a transistor's lead order)
+    bool sure=false;            // offered as chosen
 };
-QList<PartChoice> partChoices(const documents::TargetComponent &component);
+QList<PartChoice> partChoices(const documents::TargetComponent &component,double grid=0);
+// The component's pins, as the schematic spells them, for the leads of a transistor package (transistorLeads) from
+// lead 1. Empty unless its pins are a transistor's (B, C, E or G, D, S, each once, in any case and order) and the
+// order is known.
+QStringList usualLeads(const QString &footprint,const documents::TargetComponent &component);
+// Whether the pins are a transistor's: B, C, E or G, D, S, each once, in any case and order.
+bool transistorPins(const QStringList &pins);
+// Whether every pad of the footprint lies a whole number of `grid` steps from its first pad.
+bool padsOnGrid(const QList<Element> &elements,double grid);
 // The elements of a choice for the component: a component with its designator, value and identifier, around the origin,
 // numbered for `board`.
 QList<Element> missingPart(const PartChoice &choice,const documents::TargetComponent &component,const Board &board);

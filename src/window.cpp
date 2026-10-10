@@ -1629,9 +1629,11 @@ void Window::placeMissingParts(){
     for(int m:check.missing){
         const auto &component=t.components[m];const auto fitting=fittingParts(component,library);offers<<fitting;
         auto *box=new QComboBox(&dialog);box->setObjectName("part-"+component.designator);box->addItem(fitting.isEmpty()?ui("Kein passendes Bauteil"):ui("Nicht setzen"));
-        for(const auto &c:fitting)box->addItem(QString("%1 · %2%3").arg(titles.value(c.page),c.name,c.value.isEmpty()||c.value=="?"?QString():" ("+c.value+")"));
-        // Preselected only a part of the same kind: pins that fit do not make a resistor a diode.
-        box->setCurrentIndex(!fitting.isEmpty()&&sameKind(kindOf(component),fitting.first().id)?1:0);box->setEnabled(!fitting.isEmpty());
+        for(const auto &c:fitting)box->addItem(QString("%1 · %2%3%4").arg(titles.value(c.page),c.name,c.value.isEmpty()||c.value=="?"?QString():" ("+c.value+")",
+                                                                         c.onGrid?QString():ui(" – Anschlüsse nicht im Lochraster")));
+        // Preselected only a part of the same kind whose pins lie in holes: pins that fit do not make a resistor a
+        // diode, and a part off the grid cannot be soldered on the perfboard.
+        box->setCurrentIndex(!fitting.isEmpty()&&sameKind(kindOf(component),fitting.first().id)&&fitting.first().onGrid?1:0);box->setEnabled(!fitting.isEmpty());
         form.addRow(QString("%1 %2 (%3)").arg(component.designator,component.value,component.pins.join(", ")),box);rows<<std::pair{m,box};
     }
     QDialogButtonBox buttons(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout.addWidget(&buttons);

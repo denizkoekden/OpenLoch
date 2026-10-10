@@ -748,18 +748,24 @@ int main(int argc,char **argv){
                 require(p.builtIn&&!localized(p.name).isEmpty()&&!p.folder.isEmpty()&&p.name.count(u'\r')==2,"a page in a folder, named in three languages");
                 QSet<QString> captions;
                 for(const auto &e:p.entries){
-                    symbols++;
                     require(!e.caption.isEmpty()&&!captions.contains(e.caption)&&e.caption.count(u'\r')==2,"a caption of its own in three languages");captions.insert(e.caption);
-                    require(e.symbol.type==ItemType::Component&&!e.symbol.libraryEntry.isEmpty(),"each symbol a component");
-                    QSet<QString> names;
-                    for(const auto *c:contacts(e.symbol)){
-                        require(!names.contains(c->name),"contact names unique within a symbol");names.insert(c->name);
-                        require(c->hasPin,"each contact with a connection point");
-                        const QPointF at=placement(e.symbol).map(c->pin);
-                        require(std::abs(at.x()/2.54-std::round(at.x()/2.54))<1e-6&&std::abs(at.y()/2.54-std::round(at.y()/2.54))<1e-6,"connection points on the 2.54 mm pitch");
+                    require(e.children.isEmpty()||e.symbol.parent,"children only with a parent");
+                    // The symbol and the children kept with it, these at their places relative to it.
+                    for(const Item *symbol:QList<const Item*>{&e.symbol}+[&]{QList<const Item*> l;for(const auto &c:e.children)l<<&c;return l;}()){
+                        symbols++;
+                        require(symbol->type==ItemType::Component&&!symbol->libraryEntry.isEmpty()&&symbol->parentId.isEmpty(),"each symbol a component");
+                        if(symbol!=&e.symbol){require(!captions.contains(symbol->caption)&&symbol->caption.count(u'\r')==2&&!symbol->parent,"a child with a caption of its own");captions.insert(symbol->caption);}
+                        QSet<QString> names;
+                        for(const auto *c:contacts(*symbol)){
+                            require(!names.contains(c->name),"contact names unique within a symbol");names.insert(c->name);
+                            require(c->hasPin,"each contact with a connection point");
+                            const QPointF at=placement(*symbol).map(c->pin);
+                            require(std::abs(at.x()/2.54-std::round(at.x()/2.54))<1e-6&&std::abs(at.y()/2.54-std::round(at.y()/2.54))<1e-6,"connection points on the 2.54 mm pitch");
+                        }
                     }
-                    // In rows of fifty, within the coordinates a file allows.
-                    Item placed=placedSymbol(e,all);placed.pos=QPointF(10+std::fmod(x,1000),100+30*std::floor(x/1000));x+=20;all.sheets[0].items<<placed;
+                    // In rows of fifty, within the coordinates a file allows; a parent with its children.
+                    QList<Item> placed=placedItems(e,all);const QPointF at(10+std::fmod(x,1000),100+30*std::floor(x/1000));x+=20;
+                    for(auto &i:placed){i.pos+=at;all.sheets[0].items<<i;}
                 }
             }
             require(symbols>=1100,"more than a thousand symbols");
@@ -774,25 +780,30 @@ int main(int argc,char **argv){
             // DIL box with the same number, whose package has 14, 16, 20 or 24 pins numbered from 1.
             {const LibraryPage *dil=nullptr,*pc=nullptr;
                 for(const auto &p:pages){const QString n=p.name.section(u'\r',0,0);if(n==u"TTL-74xx")dil=&p;if(n==u"TTL-74xx (Parent/Child)")pc=&p;}
-                require(dil&&pc&&dil->entries.size()>=90&&pc->entries.size()>=300,"the two pages of the 74xx");
+                require(dil&&pc&&dil->entries.size()>=90&&pc->entries.size()==dil->entries.size(),"the two pages of the 74xx");
+                // As in the reference every entry of the parent/child page is a parent carrying its children.
+                {bool all=true;int children=0;for(const auto &e:pc->entries){all&=e.symbol.parent&&!e.children.isEmpty();children+=int(e.children.size());}
+                    require(all&&children>=250,"each IC a parent with its children");}
                 auto chipOf=[](const LibraryEntry &e){return e.caption.section(u'\r',0,0).section(u' ',0,0);};
                 QHash<QString,QSet<int>> package;
                 for(const auto &e:dil->entries){QSet<int> n;for(const auto *c:contacts(e.symbol))n<<c->name.toInt();package.insert(chipOf(e),n);
                     bool numbered=QList<int>{14,16,20,24}.contains(int(n.size()));for(int k=1;k<=int(n.size());k++)numbered&=n.contains(k);
                     require(numbered,"a DIL box with its package's pins");}
                 QHash<QString,QList<int>> used;QSet<QString> parents;
-                for(const auto &e:pc->entries){if(e.symbol.parent)parents<<chipOf(e);for(const auto *c:contacts(e.symbol))used[chipOf(e)]<<c->name.toInt();}
+                for(const auto &e:pc->entries){if(e.symbol.parent)parents<<chipOf(e);for(const auto *c:contacts(e.symbol))used[chipOf(e)]<<c->name.toInt();
+                    for(const auto &child:e.children)for(const auto *c:contacts(child))used[chipOf(e)]<<c->name.toInt();}
                 for(auto it=used.cbegin();it!=used.cend();++it){
                     const QSet<int> set(it->begin(),it->end());
                     require(set.size()==it->size(),"each pin of an IC once among its parent and children");
                     require(package.contains(it.key())&&package[it.key()].contains(set),"the pins of the package with the same number");}
                 require(parents.size()==package.size()&&QSet<QString>(package.keyBegin(),package.keyEnd())==parents,"a parent for every IC of the DIL page");
-                // As in the reference a child shows its parent's designator and its number once linked.
-                const LibraryEntry *parent=nullptr,*child=nullptr;
-                for(const auto &e:pc->entries){const QString c=e.caption.section(u'\r',0,0);if(c==u"7400 Versorgung (Parent)")parent=&e;if(c==u"7400 NAND 2 (Child)")child=&e;}
-                require(parent&&child&&child->symbol.designator==u"<PARENT_ID>-<CHILDNO>","a parent and a child of the 7400");
-                Document q=newDocument(QStringLiteral("x"));Item pa=placedSymbol(*parent,q);q.sheets[0].items<<pa;
-                Item first=placedSymbol(*child,q);first.parentId=pa.id;q.sheets[0].items<<first;Item second=placedSymbol(*child,q);second.parentId=pa.id;q.sheets[0].items<<second;
+                // As in the reference a child shows its parent's designator and its number once placed with it, linked.
+                const LibraryEntry *parent=nullptr;
+                for(const auto &e:pc->entries)if(e.caption.section(u'\r',0,0)==u"7400 Versorgung (Parent)")parent=&e;
+                require(parent&&parent->children.size()==4&&parent->children[1].caption.section(u'\r',0,0)==u"7400 NAND 2 (Child)"&&parent->children[1].designator==u"<PARENT_ID>-<CHILDNO>","a parent and its children of the 7400");
+                Document q=newDocument(QStringLiteral("x"));for(const auto &i:placedItems(*parent,q))q.sheets[0].items<<i;
+                const Item &pa=q.sheets[0].items[0];
+                require(q.sheets[0].items.size()==5&&q.sheets[0].items[2].parentId==pa.id&&q.sheets[0].items[2].pos.x()>bounds(pa).right(),"placed with its children, beside it");
                 require(shownDesignator(q.sheets[0].items[2],{&q,0,&q.sheets[0].items[2],{}})==pa.designator+QStringLiteral("-2"),"the second child of IC1 shows IC1-2");}
             // The microcontrollers: each package with its pins numbered from 1, the header of the Raspberry Pi two rows; board
             // outlines have no contacts.

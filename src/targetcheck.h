@@ -60,13 +60,14 @@ QString kindOf(const documents::TargetComponent &component);
 // Two leads numbered 1 and 2 on both sides that may be swapped: those of a resistor, capacitor or coil (kindOf R, C, L).
 bool interchangeable(const Project::Component &part,const documents::TargetComponent &component);
 // A part of a library page that may stand for a component: the page (a key the caller chooses, such as its file), its
-// place on the page, and its name, Kennung, value and pins as the page gives them.
-struct LibraryChoice {QString page;int index=-1;QString name,id,value;QStringList pins;};
+// place on the page, and its name, Kennung, value and pins as the page gives them; `onGrid`: every pin lies on the
+// hole grid of the perfboard, so that the part can be soldered there.
+struct LibraryChoice {QString page;int index=-1;QString name,id,value;QStringList pins;bool onGrid=true;};
 // The parts of an open library page (docs/open-libraries.md) as choices, in the order of the page.
 QList<LibraryChoice> openLibraryChoices(const QString &page,const QJsonObject &json);
-// The parts that fit a component, best first: all its pins and no more (assignedPins), then the same kind of Kennung
-// (R, C, L, D and LED, T and Q, IC and U, …, by kindOf), then its value in the part's name or value, then the library's
-// order.
+// The parts that fit a component, best first: all its pins and no more (assignedPins); parts whose pins all lie on the
+// hole grid before the others; then the same kind of Kennung (R, C, L, D and LED, T and Q, IC and U, …, by kindOf),
+// then its value in the part's name or value, then the library's order.
 QList<LibraryChoice> fittingParts(const documents::TargetComponent &component,const QList<LibraryChoice> &library);
 // Whether two Kennungen name the same kind of part ("Q1" and "T#", "U3" and "IC#", "LED2" and "D#").
 bool sameKind(const QString &designator,const QString &id);

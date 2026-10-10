@@ -347,6 +347,7 @@ private:
     QLabel *helpLine=nullptr;
     QTimer *helpTimer=nullptr;
     void refreshHelpLine();
+    void refreshToolKeys();
     QComboBox *selectorType=nullptr,*selectorProperty=nullptr,*selectorLayers=nullptr;
     QLabel *findingSummary=nullptr;
     QButtonGroup *toolButtons=nullptr;

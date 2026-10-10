@@ -7,6 +7,8 @@
 #include "continuity.h"
 #include "printing.h"
 #include <QPainterPathStroker>
+#include <QScrollBar>
+#include <QNativeGestureEvent>
 #include <QFontMetricsF>
 #include <QGraphicsItem>
 #include <QPainter>
@@ -650,7 +652,25 @@ void Canvas::mouseReleaseEvent(QMouseEvent *e) {
     // Reset the visual position even when a short drag snaps back to zero.
     rebuild();if(edited&&snapping()&&alignComponentItems())rebuild();if(edited&&changed)changed();
 }
-void Canvas::wheelEvent(QWheelEvent *e){if(e->modifiers()&Qt::ControlModifier||e->modifiers()&Qt::MetaModifier){double f=std::pow(1.0015,e->angleDelta().y());double s=transform().m11()*f;if(s>.001&&s<50)scale(f,f);e->accept();}else QGraphicsView::wheelEvent(e);}
+void Canvas::zoomAbout(double factor,QPointF at){
+    const double s=transform().m11()*factor;if(!(s>.001&&s<50))return;
+    const QPointF board=mapToScene(at.toPoint());
+    const auto anchor=transformationAnchor();setTransformationAnchor(NoAnchor);scale(factor,factor);setTransformationAnchor(anchor);
+    // The point under `at` back to where it was, as far as the scroll bars allow.
+    const QPointF shift=mapFromScene(board)-at;
+    horizontalScrollBar()->setValue(horizontalScrollBar()->value()+qRound(shift.x()));verticalScrollBar()->setValue(verticalScrollBar()->value()+qRound(shift.y()));
+}
+// Strg/⌘ and scrolling zoom about the pointer; scrolling without it (a mouse wheel, two fingers on a touchpad) moves.
+void Canvas::wheelEvent(QWheelEvent *e){
+    if(e->modifiers()&(Qt::ControlModifier|Qt::MetaModifier)){zoomAbout(std::pow(1.0015,e->angleDelta().y()),e->position());e->accept();}
+    else QGraphicsView::wheelEvent(e);
+}
+// A pinch on a touchpad zooms about the pointer.
+bool Canvas::viewportEvent(QEvent *e){
+    if(e->type()==QEvent::NativeGesture){auto *g=static_cast<QNativeGestureEvent*>(e);
+        if(g->gestureType()==Qt::ZoomNativeGesture){zoomAbout(1+g->value(),g->position());return true;}}
+    return QGraphicsView::viewportEvent(e);
+}
 void Canvas::keyPressEvent(QKeyEvent *e){
     if((e->key()==Qt::Key_Return||e->key()==Qt::Key_Enter)&&!contour.isEmpty()){finishContour();return;}
     if(e->key()==Qt::Key_Escape){setTool("select");return;}

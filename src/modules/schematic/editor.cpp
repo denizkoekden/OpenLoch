@@ -207,7 +207,8 @@ Editor::Editor(QWidget *parent):QMainWindow(parent){
         const auto l=uiLocale();const double f=doc.sheet().scale;const QPointF d=(p-sheetView->pressPoint())*f;p=(p-sheetView->originPoint())*f;
         coordinates->setText(QStringLiteral("X: %1\nY: %2").arg(l.toString(p.x(),'f',2),l.toString(p.y(),'f',2)));
         relative->setText(QStringLiteral("dX: %1\ndY: %2").arg(l.toString(d.x(),'f',2),l.toString(d.y(),'f',2)));
-        zoomLabel->setText(ui("Zoom: %1").arg(l.toString(sheetView->scale()/3,'f',2)));};
+        zoomLabel->setText(ui("Zoom: %1").arg(l.toString(sheetView->zoom(),'f',2)));};
+    sheetView->zoomChanged=[this]{if(zoomLabel)zoomLabel->setText(ui("Zoom: %1").arg(uiLocale().toString(sheetView->zoom(),'f',2)));};
     // A symbol brings its pictures into the document.
     auto pictures=[this](const LibraryEntry &e){for(auto it=e.resources.cbegin();it!=e.resources.cend();++it)if(!doc.resources.contains(it.key()))doc.resources.insert(it.key(),it.value());};
     // A symbol, and a parent with the children the library keeps with it (as in sPlan, placed together and linked).
@@ -450,13 +451,15 @@ void Editor::createActions(){
             if(!lost.isEmpty()&&QMessageBox::question(this,ui("Speichern"),ui("Beim Schreiben als sPlan-Datei geht verloren:")+QStringLiteral("\n• ")+lost.join(QStringLiteral("\n• "))+QStringLiteral("\n\n")+ui("Trotzdem speichern?"))!=QMessageBox::Yes)return;
         }
         QString error;if(!file.isEmpty()&&!saveSheet(file,&error))QMessageBox::warning(this,ui("Speichern"),error);});
-    add("fullScreen",ui("Vollbildansicht"),"",QKeySequence::FullScreen,[this]{if(action("fullScreen")->isChecked())showFullScreen();else showNormal();})->setCheckable(true);
+    // The system's key and, as in the reference, Ctrl+F11.
+    {auto *full=add("fullScreen",ui("Vollbildansicht"),"",QKeySequence::FullScreen,[this]{if(action("fullScreen")->isChecked())showFullScreen();else showNormal();});full->setCheckable(true);
+        auto keys=QKeySequence::keyBindings(QKeySequence::FullScreen);if(!keys.contains(QKeySequence(Qt::CTRL|Qt::Key_F11)))keys<<QKeySequence(Qt::CTRL|Qt::Key_F11);full->setShortcuts(keys);}
     // View
     add("zoomSheet",ui("Zoom Blatt"),"zoom-board",QKeySequence(Qt::Key_F5),[this]{sheetView->fitSheet();});
     add("zoomItems",ui("Zoom Elemente"),"zoom-all",QKeySequence(Qt::Key_F6),[this]{sheetView->fitItems(false);});
     add("zoomSelected",ui("Zoom markierte Elemente"),"zoom-marked",QKeySequence(Qt::Key_F7),[this]{sheetView->fitItems(true);});
-    add("zoomIn",ui("Vergrößern"),"zoom-in",QKeySequence::ZoomIn,[this]{sheetView->zoomAt(1.5,QPointF(sheetView->width()/2.,sheetView->height()/2.));});
-    add("zoomOut",ui("Verkleinern"),"zoom-out",QKeySequence::ZoomOut,[this]{sheetView->zoomAt(1/1.5,QPointF(sheetView->width()/2.,sheetView->height()/2.));});
+    add("zoomIn",ui("Vergrößern"),"zoom-in",QKeySequence::ZoomIn,[this]{sheetView->zoomAt(SheetView::wheelStep,QPointF(sheetView->width()/2.,sheetView->height()/2.));});
+    add("zoomOut",ui("Verkleinern"),"zoom-out",QKeySequence::ZoomOut,[this]{sheetView->zoomAt(1/SheetView::wheelStep,QPointF(sheetView->width()/2.,sheetView->height()/2.));});
     // The drawing modes.
     toolGroup=new QActionGroup(this);
     // The keys of the reference choose them; a key goes to a text field first when one has the focus.
@@ -1100,7 +1103,7 @@ void Editor::refreshActions(){
     action("toolContact")->setVisible(editingComponent());
     action("toolNetLabel")->setEnabled(sheetMode);action("toolSheetReference")->setEnabled(sheetMode);
     gridLabel->setText(ui("Raster: %1 %2").arg(uiLocale().toString(doc.sheet().grid*doc.sheet().scale),unitName(doc.sheet().scaleUnit)));
-    zoomLabel->setText(ui("Zoom: %1").arg(uiLocale().toString(sheetView->scale()/3,'f',2)));
+    zoomLabel->setText(ui("Zoom: %1").arg(uiLocale().toString(sheetView->zoom(),'f',2)));
     scaleLabel->setText(QStringLiteral("1:%1\n%2").arg(uiLocale().toString(doc.sheet().scale),unitName(doc.sheet().scaleUnit)));
 }
 QString Editor::displayName() const{

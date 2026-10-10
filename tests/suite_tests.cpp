@@ -242,6 +242,18 @@ int main(int argc,char **argv){
                 const auto [pcbFilter,pcbWarned]=openIn(circuitWindow,perfboardFile);
                 require(pcbFilter.startsWith("Leiterplatte")&&!pcbWarned&&suite.windows().size()==count,"a perfboard file chosen in the circuit board's Öffnen goes to its window");
             }
+            {   // The keys in the tooltips of the commands: a shortcut, or the toolTipShortcut property a module sets for a
+                // command whose keys it handles itself; a key changed later shows at once; no key twice
+                QMainWindow *probe=loch;QAction *withKey=new QAction(QStringLiteral("Drehen"),probe);withKey->setObjectName("probeTurn");
+                withKey->setShortcut(QKeySequence(QStringLiteral("Ctrl+R")));probe->addAction(withKey);
+                QAction *tool=new QAction(QStringLiteral("Werkzeug"),probe);tool->setObjectName("probeTool");tool->setProperty("toolTipShortcut",QStringLiteral("K"));probe->addAction(tool);
+                QAction *plain=new QAction(QStringLiteral("Ohne Taste"),probe);plain->setObjectName("probePlain");probe->addAction(plain);
+                showShortcutsInToolTips(probe);showShortcutsInToolTips(probe);
+                require(withKey->toolTip()==QKeySequence(QStringLiteral("Ctrl+R")).toString(QKeySequence::NativeText).prepend("Drehen (").append(')')
+                        &&tool->toolTip()=="Werkzeug (K)"&&plain->toolTip()=="Ohne Taste","the keys in the tooltips, once even after a second call");
+                tool->setProperty("toolTipShortcut",QStringLiteral("L"));showShortcutsInToolTips(probe);
+                require(tool->toolTip()=="Werkzeug (L)","a key changed later shows at once");
+                probe->removeAction(withKey);probe->removeAction(tool);probe->removeAction(plain);delete withKey;delete tool;delete plain;}
             {   // Fenster → Bibliotheken…: one row per library with the folders the modules give; a further folder that is
                 // gone is reported when it should be shown, not made anew
                 const QString gone=QDir(tmp.path()).filePath("Weg");const auto plan=schematic::libraryFolders();schematic::setLibraryFolders({plan.own,{gone}});
@@ -373,15 +385,16 @@ int main(int argc,char **argv){
         }
         { // a parent and its children are one part of the targets; with sheet numbers the kind stays that of the part
             using namespace openloch::documents;
-            const auto pages=schematic::builtInPages();const schematic::LibraryEntry *parent=nullptr,*gate1=nullptr,*gate2=nullptr,*resistor=nullptr;
+            const auto pages=schematic::builtInPages();const schematic::LibraryEntry *parent=nullptr,*resistor=nullptr;
             for(const auto &p:pages)for(const auto &e:p.entries){const QString c=e.caption.section(u'\r',0,0);
-                if(c==u"7400 Versorgung (Parent)")parent=&e;else if(c==u"7400 NAND 1 (Child)")gate1=&e;else if(c==u"7400 NAND 2 (Child)")gate2=&e;
-                else if(c==u"Widerstand"&&p.name.section(u'\r',0,0)==u"Widerstände")resistor=&e;}
-            require(parent&&gate1&&gate2&&resistor,"the 7400 and a resistor in the library");
+                if(c==u"7400 Versorgung (Parent)")parent=&e;else if(c==u"Widerstand"&&p.name.section(u'\r',0,0)==u"Widerstände")resistor=&e;}
+            require(parent&&parent->children.size()==4&&resistor,"the 7400 with its gates and a resistor in the library");
             auto plan=schematic::newDocument(QStringLiteral("x"));plan.designatorPageNumbers=true;
-            auto ic=schematic::placedSymbol(*parent,plan);ic.pos={40,40};plan.sheets[0].items<<ic;
-            auto a=schematic::placedSymbol(*gate1,plan);a.parentId=ic.id;a.pos={80,40};plan.sheets[0].items<<a;
-            auto b=schematic::placedSymbol(*gate2,plan);b.parentId=ic.id;b.pos={120,40};plan.sheets[0].items<<b;
+            // The IC placed with its gates, linked to it; the first two gates kept.
+            const auto placed=schematic::placedItems(*parent,plan);
+            auto ic=placed[0];ic.pos={40,40};plan.sheets[0].items<<ic;
+            auto a=placed[1];a.pos={80,40};plan.sheets[0].items<<a;
+            auto b=placed[2];b.pos={120,40};plan.sheets[0].items<<b;
             auto r=schematic::placedSymbol(*resistor,plan);r.pos={80,90};plan.sheets[0].items<<r;
             auto at=[](const schematic::Item &k,const QString &name){for(const auto *c:schematic::contacts(k))if(c->name==name)return schematic::placement(k).map(c->pin);return QPointF();};
             schematic::Item wire;wire.id=newId();wire.type=schematic::ItemType::Line;wire.points={at(a,"3"),at(r,"1")};plan.sheets[0].items<<wire;   // gate 1's output to R

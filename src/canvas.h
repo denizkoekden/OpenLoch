@@ -28,6 +28,9 @@ public:
     void fitObjects(bool selectedOnly);
     // Shows an area of the document, such as the board with parts beside it.
     void fitArea(const QRectF &area);
+    // Zooms by `factor` keeping the point of the board under `at` (viewport pixels) where it is (docs/suite.md, "Zoom
+    // und Touchpad"): Strg/⌘ and scrolling, and a pinch on a touchpad.
+    void zoomAbout(double factor,QPointF at);
     void realSize();
     void setTool(const QString &name);
     // A fixed snap step in 1/100 mm instead of the board's grid for the unit (0: no snapping); below 0 back to the unit's.
@@ -157,6 +160,7 @@ protected:
     void mouseReleaseEvent(QMouseEvent *) override;
     void mouseDoubleClickEvent(QMouseEvent *) override;
     void wheelEvent(QWheelEvent *) override;
+    bool viewportEvent(QEvent *) override;
     void keyPressEvent(QKeyEvent *) override;
     void drawBackground(QPainter *,const QRectF &) override;
     void drawForeground(QPainter *,const QRectF &) override;

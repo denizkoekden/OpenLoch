@@ -4,6 +4,7 @@
 #include "language.h"
 #include "targetcheck.h"
 #include <QHash>
+#include <optional>
 #include <QLineF>
 #include <QMap>
 #include <QRegularExpression>
@@ -174,20 +175,71 @@ int applyNetChanges(Board &board,const QList<NetChange> &changes){
     }
     return count;
 }
-QList<PartChoice> partChoices(const documents::TargetComponent &component){
+bool padsOnGrid(const QList<Element> &elements,double grid){
+    if(grid<=0)return true;std::optional<QPointF> first;
+    auto whole=[grid](double v){const double k=v/grid;return std::abs(k-std::round(k))<1e-6;};
+    for(const auto &e:elements)if(isPad(e)){if(!first){first=e.pos;continue;}const QPointF d=e.pos-*first;if(!whole(d.x())||!whole(d.y()))return false;}
+    return true;
+}
+namespace {
+// Whether the pins are a transistor's: B, C, E or G, D, S, each once, in any case and order; true for a field-effect one.
+std::optional<bool> transistorKind(const QStringList &pins){
+    QStringList upper;for(const auto &p:pins)upper<<p.trimmed().toUpper();
+    std::sort(upper.begin(),upper.end());
+    if(upper==QStringList{"B","C","E"})return false;
+    if(upper==QStringList{"D","G","S"})return true;
+    return std::nullopt;
+}
+// The component's pins for lead names (B, C, E, …), as spelt there; empty unless each names one of them.
+QStringList pinsFor(const QStringList &leads,const QStringList &pins){
+    QStringList out;
+    for(const auto &lead:leads){
+        QString found;for(const auto &p:pins)if(p.trimmed().compare(lead,Qt::CaseInsensitive)==0)found=p.trimmed();
+        if(found.isEmpty())return {};out<<found;
+    }
+    return out;
+}
+}
+bool transistorPins(const QStringList &pins){return transistorKind(pins).has_value();}
+QStringList usualLeads(const QString &footprint,const documents::TargetComponent &component){
+    const auto fet=transistorKind(component.pins);if(!fet)return {};
+    return pinsFor(transistorLeads(footprint,component.value,*fet),component.pins);
+}
+QList<PartChoice> partChoices(const documents::TargetComponent &component,double grid){
     const auto library=footprints();QList<LibraryChoice> choices;
     for(int i=0;i<library.size();i++){
         const auto &f=library[i];LibraryChoice c{QStringLiteral("footprint"),i,f.name,f.prefix,{},{}};
         for(const auto &e:f.elements){if(isPad(e))c.pins<<e.name.trimmed();if(e.role==TextRole::Value)c.value=e.text;}
         choices<<c;
     }
-    QList<PartChoice> fitting,ordered;QSet<int> taken;
-    for(const auto &c:fittingParts(component,choices)){fitting<<PartChoice{c.index,false,sameKind(kindOf(component),c.id),c.name};taken.insert(c.index);}
+    QList<PartChoice> typed,fitting,ordered;QSet<int> taken;const auto kind=kindOf(component);
+    for(const auto &c:fittingParts(component,choices)){const bool same=sameKind(kind,c.id);fitting<<PartChoice{c.index,false,same,c.name,{},same};taken.insert(c.index);}
+    // A transistor's packages in lead orders, never in the order of its pins: the type's or the package's order, for a
+    // TO-92 the usual ones besides. Only the type's own order in a TO-92 is sure.
+    if(const auto fet=transistorKind(component.pins))for(const auto &c:choices){
+        if(taken.contains(c.index)||c.pins.size()!=3)continue;
+        const QString id=library[c.index].id;const auto own=usualLeads(id,component);
+        QList<QStringList> orders;if(!own.isEmpty())orders<<own;
+        if(id==u"to-92")for(const auto &o:to92Orders(*fet))if(const auto p=pinsFor(o,component.pins);!p.isEmpty()&&!orders.contains(p))orders<<p;
+        if(orders.isEmpty())continue;
+        taken.insert(c.index);
+        for(const auto &o:orders){
+            const bool sure=id==u"to-92"&&o==own;const QString order=o.join(u'-');
+            const PartChoice p{c.index,false,sameKind(kind,c.id),sure?ui("%1 – Anschlussfolge %2 (%3)").arg(c.name,order,component.value.trimmed()):ui("%1 – Anschlussfolge %2").arg(c.name,order),o,sure};
+            (sure?typed:ordered)<<p;
+        }
+    }
     for(const auto &c:choices)if(!taken.contains(c.index)&&!c.pins.isEmpty()&&c.pins.size()==component.pins.size())
-        ordered<<PartChoice{c.index,true,sameKind(kindOf(component),c.id),ui("%1 – Anschlüsse der Reihe nach").arg(c.name)};
+        ordered<<PartChoice{c.index,true,sameKind(kind,c.id),ui("%1 – Anschlüsse der Reihe nach").arg(c.name),{},false};
     std::stable_sort(ordered.begin(),ordered.end(),[](const PartChoice &a,const PartChoice &b){return a.sameKind&&!b.sameKind;});
-    auto out=fitting+ordered;
-    if(!component.pins.isEmpty())out<<PartChoice{-1,true,false,ui("Reihe mit %1 Pads").arg(component.pins.size())};
+    // Among those of the same kind, footprints with their pads on the board's grid first.
+    if(grid>0){
+        auto onGrid=[&](const PartChoice &c){return c.footprint>=0&&c.footprint<library.size()&&padsOnGrid(library[c.footprint].elements,grid);};
+        for(auto *list:{&fitting,&ordered})std::stable_sort(list->begin(),list->end(),[&](const PartChoice &a,const PartChoice &b){
+            if(a.sameKind!=b.sameKind)return a.sameKind;return onGrid(a)&&!onGrid(b);});
+    }
+    auto out=typed+fitting+ordered;
+    if(!component.pins.isEmpty())out<<PartChoice{-1,true,false,ui("Reihe mit %1 Pads").arg(component.pins.size()),{},false};
     return out;
 }
 QList<Element> missingPart(const PartChoice &choice,const documents::TargetComponent &component,const Board &board){
@@ -198,7 +250,11 @@ QList<Element> missingPart(const PartChoice &choice,const documents::TargetCompo
     bool named=false;for(auto &e:part.elements)if(e.role==TextRole::Designator){e.component=component.id;named=true;}
     if(!named)return {};
     setComponentText(part,component.id,component.designator,component.value);
-    if(choice.inOrder){int k=0;for(auto &e:part.elements)if(isPad(e)&&k<component.pins.size()){e.pin=component.pins[k++].trimmed();e.name=e.pin;}}
+    if(!choice.leads.isEmpty()){
+        for(auto &e:part.elements){bool numbered=false;const int n=e.name.trimmed().toInt(&numbered);
+            if(isPad(e)&&numbered&&n>=1&&n<=choice.leads.size()){e.pin=choice.leads[n-1];e.name=e.pin;}}
+    }
+    else if(choice.inOrder){int k=0;for(auto &e:part.elements)if(isPad(e)&&k<component.pins.size()){e.pin=component.pins[k++].trimmed();e.name=e.pin;}}
     return part.elements;
 }
 QList<int> layBeside(Board &board,const QList<QList<Element>> &parts){

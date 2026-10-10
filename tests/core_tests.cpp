@@ -450,6 +450,12 @@ int main(int argc,char **argv) {
             require(!forTransistor.isEmpty()&&forTransistor[0].page=="LIB8.LIB"&&forTransistor[0].name.contains("BC546")&&sameKind("Q1",forTransistor[0].id),"a transistor of the library with its name first");
             require(!forDiode.isEmpty()&&forDiode[0].page=="LIB2.LIB"&&forDiode[0].pins==QStringList{"A","K"}&&!forResistor.isEmpty()&&forResistor[0].page=="LIB9.LIB","a diode and a resistor of the library first");
             require(fittingParts(TargetComponent{documents::newId(),"=A-2R3","10k",{"1","2"},"R"},choices).value(0).page=="LIB9.LIB"&&kindOf(TargetComponent{documents::newId(),"T1","",{}})=="T","the kind of a component by its kind, else by its designator");
+            {   // An electrolytic: parts whose pins lie in holes first, also when a page with pins off the grid comes first.
+                const auto caps=openLibraryChoices("LIB46.LIB",pageOf("46-kondensatoren-elko-rm.json"))+openLibraryChoices("LIB11.LIB",pageOf("11-kondensatoren-elko.json"));
+                const auto forElko=fittingParts(TargetComponent{documents::newId(),"C1","10µ",{"1","2"},"C"},caps);
+                bool grid=true,sorted=true;for(const auto &c:forElko){if(c.onGrid&&!grid)sorted=false;grid=c.onGrid;}
+                require(!caps[0].onGrid&&!forElko.isEmpty()&&forElko[0].onGrid&&sorted,"parts with pins off the hole grid after all others");
+            }
             Project beside;beside.width=5080;beside.height=2540;
             const QMap<QString,QByteArray> bytes{{"LIB8.LIB",openLibraryPage(pageOf("08-transistoren.json"))},{"LIB2.LIB",openLibraryPage(pageOf("02-dioden.json"))}};
             const auto placed=placeBeside(beside,{{transistor,forTransistor[0]},{diode,forDiode[0]}},bytes);const auto now=beside.components();

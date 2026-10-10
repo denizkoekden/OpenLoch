@@ -616,6 +616,16 @@ QString Editor::keyHints(BoardView::Tool tool) const{
     if(tool==T::Track||tool==T::Area||tool==T::Keepout)keys<<ui("Leertaste: Abknickart wechseln [%1/5]").arg(board->bendMode+1);
     return keys.join(QStringLiteral("   "));
 }
+// The keys of the tools for the suite's tooltips (docs/suite.md): the view keeps handling them, so they are no shortcuts
+// of actions but the property the tooltips read.
+void Editor::refreshToolKeys(){
+    using T=BoardView::Tool;
+    static const QList<std::pair<T,const char*>> tools{{T::Select,"select"},{T::Zoom,"zoom"},{T::Track,"track"},{T::Pad,"pad"},{T::Smd,"smd"},{T::Circle,"circle"},
+        {T::Rectangle,"rectangle"},{T::Area,"area"},{T::Text,"text"},{T::Airwire,"airwire"},{T::Autoroute,"autoroute"},{T::Test,"test"},{T::Measure,"measure"},{T::SolderMask,"solderMask"}};
+    auto key=[this](const char *mode){const int k=board->modeKeys.value(QString::fromLatin1(mode));return k?QKeySequence(k).toString(QKeySequence::NativeText):QString();};
+    if(toolButtons)for(const auto &[tool,mode]:tools)if(auto *b=toolButtons->button(int(tool)))b->setProperty("toolTipShortcut",key(mode));
+    for(const auto &[name,mode]:{std::pair{"specialShape","shape"},{"photo","photo"}})if(auto *a=action(name))a->setProperty("toolTipShortcut",key(mode));
+}
 void Editor::refreshHelpLine(){
     if(!helpLine)return;const auto tool=board->tool();const QString keys=keyHints(tool);
     helpLine->setText(keys.isEmpty()?toolHelp(tool):toolHelp(tool)+"\n"+keys);
@@ -721,7 +731,7 @@ QWidget *Editor::createToolPanel(){
     overview=new BoardOverview(board);v->addSpacing(6);v->addWidget(overview);v->addStretch();
     action("overview")->setChecked(true);
     board->viewChanged=[this]{overview->update();if(auto *a=action("zoomPrevious"))a->setEnabled(board->canZoomBack());};
-    panel->setMaximumWidth(220);return panel;
+    panel->setMaximumWidth(220);refreshToolKeys();return panel;
 }
 // The autorouter's options above the board, as the reference shows them in its autoroute mode.
 QWidget *Editor::createAutorouteBar(){
@@ -1776,6 +1786,7 @@ void Editor::loadPreferences(){
     // Mode keys stored as key names; missing ones keep their defaults.
     for(const auto &mode:BoardView::modes())if(s.contains("keys/"+mode)){const QKeySequence key(s.value("keys/"+mode).toString(),QKeySequence::PortableText);
         board->modeKeys[mode]=key.isEmpty()?0:key[0].key();}
+    refreshToolKeys();
     pluginList.clear();const auto names=s.value("pluginNames").toStringList(),programs=s.value("pluginPrograms").toStringList();
     for(int k=0;k<std::min(names.size(),programs.size());k++)pluginList.append({names[k],programs[k]});
     board->update();if(board->unitsChanged)board->unitsChanged();
@@ -2010,7 +2021,7 @@ void Editor::preferencesDialog(const QString &shown){
     userColours=own;setColourScheme(scheme->currentIndex());
     for(int k=0;k<5;k++)folders[k]=folderEdits[k]->text().trimmed();oneFolder=one->isChecked();
     if(macroEdit->text().trimmed()!=macroFolder){macroFolder=macroEdit->text().trimmed();macros->setFolders(macroFolder,extraMacroFolders);}
-    setUndoLimit(steps->value());copperThickness=copper->value();temperatureRise=rise->value();board->modeKeys=keys;
+    setUndoLimit(steps->value());copperThickness=copper->value();temperatureRise=rise->value();board->modeKeys=keys;refreshToolKeys();
     board->crosshair={lines->isChecked(),diagonals->isChecked(),coordinates->isChecked(),big->isChecked(),transparent->isChecked(),white->isChecked()};action("crosshair")->setChecked(lines->isChecked());
     setAutosave(saving->isChecked(),minutes->value());board->update();if(board->unitsChanged)board->unitsChanged();refreshProperties();savePreferences();
 }
@@ -2346,14 +2357,27 @@ void Editor::assignPinsDialog(){
     const auto part=*chosen;const auto &target=t.components[part.target];const auto pads=padsOf(b,part.designator);
     QDialog dialog(this);dialog.setObjectName("assignPinsDialog");dialog.setWindowTitle(ui("Anschlüsse zuordnen – %1").arg(b.elements[part.designator].text));
     auto *form=new QFormLayout(&dialog);QList<QComboBox*> boxes;QList<std::pair<int,QString>> labels;QList<int> standing;   // the pin each pad stands for now
+    // Three through-hole pads of a transistor: the lead order of its type in a TO-92 (usualLeads), lead 1 at the pad
+    // numbered 1, else at the first.
+    bool leaded=pads.size()==3;for(int i:pads)leaded=leaded&&b.elements[i].type==ElementType::Pad;
+    const auto usual=leaded?usualLeads(QStringLiteral("to-92"),target):QStringList();
+    auto lead=[&](int k){bool numbered=false;const int n=b.elements[pads[k]].name.trimmed().toInt(&numbered);return numbered&&n>=1&&n<=3?n-1:k;};
+    auto pinIndex=[&](const QString &pin){for(int n=0;n<target.pins.size();n++)if(target.pins[n].trimmed()==pin)return n;return -1;};
     for(int k=0;k<pads.size();k++){
         auto *box=new QComboBox;box->setObjectName(QStringLiteral("pin%1").arg(k+1));box->addItem(ui("kein Anschluss"));box->addItems(target.pins);
-        // What the pad stands for now; a pad named for no pin of the schematic offers the pin at its place.
+        // What the pad stands for now; a pad named for no pin of the schematic offers the pin at its place, a
+        // transistor's the pin of its lead, or none when the type's order is not known.
         int current=-1;for(int n=0;n<part.pads.size();n++)if(part.pads[n].contains(pads[k]))current=n;standing<<current;
-        if(current<0&&!b.elements[pads[k]].pin.trimmed().isEmpty()&&k<target.pins.size())current=k;
+        if(current<0&&!b.elements[pads[k]].pin.trimmed().isEmpty()&&k<target.pins.size())
+            current=!usual.isEmpty()?pinIndex(usual[lead(k)]):transistorPins(target.pins)?-1:k;
         box->setCurrentIndex(current+1);boxes<<box;
         const QString shown=b.elements[pads[k]].name.trimmed();const QString label=ui("Pad %1").arg(k+1);
         form->addRow(shown.isEmpty()?label:QStringLiteral("%1 (%2)").arg(label,shown),box);labels<<std::pair{pads[k],QString::number(k+1)};
+    }
+    if(!usual.isEmpty()){
+        auto *take=new QPushButton(ui("Übernehmen"));take->setObjectName("usualLeads");
+        form->addRow(new QLabel(ui("Übliche Anschlussfolge für %1 im TO-92: %2").arg(target.value.trimmed(),usual.join(u'-'))),take);
+        connect(take,&QPushButton::clicked,&dialog,[&]{for(int k=0;k<boxes.size();k++)boxes[k]->setCurrentIndex(pinIndex(usual[lead(k)])+1);});
     }
     auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);form->addRow(buttons);
     connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
@@ -2379,10 +2403,10 @@ void Editor::placeMissingParts(){
     intro->setWordWrap(true);layout->addWidget(intro);auto *form=new QFormLayout;layout->addLayout(form);
     QList<std::pair<int,QComboBox*>> rows;QList<QList<PartChoice>> offers;
     for(int m:missing){
-        const auto &component=t.components[m];const auto choices=partChoices(component);offers<<choices;
+        const auto &component=t.components[m];const auto choices=partChoices(component,doc.board().grid);offers<<choices;
         auto *box=new QComboBox;box->setObjectName("part-"+component.designator);box->addItem(ui("Nicht setzen"));for(const auto &c:choices)box->addItem(c.label);
-        // Preselected only a fitting footprint of the same kind: pads that fit do not make a resistor a diode.
-        box->setCurrentIndex(!choices.isEmpty()&&choices.first().sameKind&&!choices.first().inOrder?1:0);
+        // Preselected only a sure choice: pads that fit do not make a resistor a diode, a transistor's leads follow its type.
+        box->setCurrentIndex(!choices.isEmpty()&&choices.first().sure?1:0);
         form->addRow(QStringLiteral("%1 %2 (%3)").arg(component.designator,component.value,component.pins.join(QStringLiteral(", "))),box);rows<<std::pair{m,box};
     }
     auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout->addWidget(buttons);

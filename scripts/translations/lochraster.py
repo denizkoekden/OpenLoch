@@ -1,6 +1,7 @@
 # English texts of the perfboard editor (Lochraster) and the shared parts of the program, by their German text.
 # Add new pairs here (or in the table of your module) and run scripts/translations/generate.py.
 T = {
+    ' – Anschlüsse nicht im Lochraster': ' – pins off the hole grid',
     'Knoten hinzufügen': 'Add node',
     'Knoten löschen': 'Delete node',
     'Beschriftung': 'Label',

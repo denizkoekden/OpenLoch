@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Draws the schematic symbols that come with OpenLoch and writes them as library pages (one JSON file per page,
-format "OpenLoch Schematic Library", version 2) into this folder. The symbols follow DIN EN 60617; their connection
+format "OpenLoch Schematic Library", version 2, or 3 for a page whose parents carry their children) into this folder. The symbols follow DIN EN 60617; their connection
 points lie on a 2.54 mm pitch around the insertion point. Names and captions hold German, English and French,
 separated by CR. Public domain (CC0 1.0), like the pages it writes.
 
@@ -44,6 +44,12 @@ class Symbol:
         self.shown, self.value_shown = shown, shown if value_shown is None else value_shown
         self.parts = []
         self.texts = None
+        self.children = []
+
+    def attach(self, child):
+        """A child kept with this parent's library entry, as in sPlan's library: placed with the parent, beside it."""
+        self.children.append(child)
+        return child
 
     # Drawing
     def line(self, *points, w=W, start='none', end='none', size=None):
@@ -436,6 +442,53 @@ def contact(kind, caption, prefix='S', pins=('1', '2'), operated=None, numbers=F
                         'electrical': False})
     s.labels((2.6, P + 0.4), (2.6, 2 * P + 0.6))
     return s
+
+
+def extent(symbol):
+    """The smallest and largest x and y of a symbol about its insertion point: what it draws, its texts at a width
+    estimated from their length, the designator and value at room for about six characters."""
+    xs, ys = [0.0], [0.0]
+
+    def text(at, width, align, height):
+        x = at[0] - (width if align == 'right' else width / 2 if align == 'centre' else 0)
+        xs.extend([x, x + width])
+        ys.extend([at[1], at[1] + height])
+    for o in symbol.parts:
+        qs = list(o.get('points', [])) + [o[k] for k in ('pin',) if k in o]
+        if 'centre' in o:
+            c, size = o['centre'], o.get('size', [0, 0])
+            qs += [(c[0] - size[0] / 2, c[1] - size[1] / 2), (c[0] + size[0] / 2, c[1] + size[1] / 2)]
+        if o['type'] in ('text', 'contact') and (o['type'] == 'text' or o.get('visible')):
+            h = o.get('font', {}).get('height', 2.5)
+            text(o['pos'], 0.6 * h * len(o.get('text', '')), o.get('align', 'left'), h)
+        for q in qs:
+            xs.append(q[0])
+            ys.append(q[1])
+    if symbol.texts:
+        d, v, a, va = symbol.texts
+        text(d, 10, a, 2.5)
+        if v:
+            text(v, 10, va, 2.5)
+    return min(xs), min(ys), max(xs), max(ys)
+
+
+def child_places(parent):
+    """Where the children of a parent lie relative to its insertion point: in rows to the right of it, from left to
+    right with a gap of two pitches, a new row below once a row would reach beyond 120 mm; every place on the pitch,
+    so the children's contacts stay on it."""
+    on = lambda v: math.ceil(round(v / P, 6)) * P
+    right = extent(parent)[2]
+    extents = [extent(c) for c in parent.children]
+    above = -min([e[1] for e in extents] + [0])
+    x0 = on(right + 2 * P)
+    x, y, low, places = x0, 0.0, 0.0, []
+    for left, _, cr, down in extents:
+        if x > x0 and x + (cr - left) > x0 + 120:
+            x, y = x0, on(low + 2 * P + above)
+        at = (on(x - left), y)
+        places.append(at)
+        x, low = at[0] + cr + 2 * P, max(low, y + down)
+    return places
 
 
 # --- Pages
@@ -1575,8 +1628,8 @@ for chip in ttl74.CHIPS:
     add(ic74(chip.number, C(f'{chip.number} {chip.de}', f'{chip.number} {chip.en}', f'{chip.number} {chip.fr}'), chip.pins))
 
 
-# The 74xx as children of a parent that carries the supply: linked on the sheet ("Verknüpfe mit PARENT…"), each gate or
-# function block shows the pin numbers of its place in the package.
+# The 74xx as children of a parent that carries the supply, kept with the parent's entry as in sPlan's library and
+# placed with it, linked; each gate or function block shows the pin numbers of its place in the package.
 add = page(DG + '/74xx', 'TTL-74xx (Parent/Child)', 'TTL 74xx (parent/child)', 'TTL 74xx (parent/enfant)')
 
 
@@ -1660,18 +1713,18 @@ def child_block(caption, inputs, outputs, number):
 
 for chip in ttl74.CHIPS:
     number = {name: k + 1 for k, name in enumerate(chip.pins)}
-    add(supply_parent(chip.number, C(f'{chip.number} Versorgung (Parent)', f'{chip.number} supply (parent)', f'{chip.number} alimentation (parent)'), chip.pins))
+    parent = add(supply_parent(chip.number, C(f'{chip.number} Versorgung (Parent)', f'{chip.number} supply (parent)', f'{chip.number} alimentation (parent)'), chip.pins))
     if isinstance(chip.children, ttl74.Gates):
         gates = chip.children
         units = gates.units()
         for u, (ins, out) in enumerate(units, 1):
             k = f' {u}' if len(units) > 1 else ''
-            add(child_gate(gates.sign, gates.negated, gates.inputs, [number[n] for n in ins] + [number[out]],
+            parent.attach(child_gate(gates.sign, gates.negated, gates.inputs, [number[n] for n in ins] + [number[out]],
                            C(f'{chip.number} {gates.de}{k} (Child)', f'{chip.number} {gates.en}{k} (child)', f'{chip.number} {gates.fr}{k} (enfant)'), gates.mark))
     else:
         for u, block in enumerate(chip.children, 1):
             k = f' {u}' if len(chip.children) > 1 else ''
-            add(child_block(C(f'{chip.number} {block.de}{k} (Child)', f'{chip.number} {block.en}{k} (child)', f'{chip.number} {block.fr}{k} (enfant)'),
+            parent.attach(child_block(C(f'{chip.number} {block.de}{k} (Child)', f'{chip.number} {block.en}{k} (child)', f'{chip.number} {block.fr}{k} (enfant)'),
                             block.inputs, block.outputs, number))
 
 
@@ -2145,13 +2198,15 @@ def check():
         if not p['symbols']:
             problems.append(where + ': no symbols')
         captions = set()
-        for s in p['symbols']:
+        for s in [s for parent in p['symbols'] for s in [parent] + parent.children]:
             c = s.caption
             if c.count('\r') != 2 or not all(c.split('\r')):
                 problems.append(where + ': caption not in three languages: ' + repr(c))
             if c in captions:
                 problems.append(where + ': caption twice: ' + c.split('\r')[0])
             captions.add(c)
+            if s.children and not getattr(s, 'parent', False):
+                problems.append(where + ': children on a symbol that is no parent: ' + c.split('\r')[0])
             parts = s.json('x')['children']
             if not any(o['type'] != 'contact' for o in parts):
                 problems.append(where + ': nothing drawn: ' + c.split('\r')[0])
@@ -2178,11 +2233,18 @@ def main(out=HERE, only=None):
     written = set()
     for p in PAGES:
         symbols = []
+        path = 'OpenLoch/' + p['folder'] + '/' + p['name'].split('\r')[0] + '/'
         for s in p['symbols']:
-            entry = 'OpenLoch/' + p['folder'] + '/' + p['name'].split('\r')[0] + '/' + s.caption.split('\r')[0]
-            symbols.append({'caption': s.caption, 'item': s.json(entry)})
-        data = {'format': 'OpenLoch Schematic Library', 'version': 2, 'unit': 'mm', 'name': p['name'], 'folder': p['folder'],
-                'symbols': symbols}
+            o = {'caption': s.caption, 'item': s.json(path + s.caption.split('\r')[0])}
+            if s.children:
+                o['children'] = []
+                for c, at in zip(s.children, child_places(s)):
+                    item = c.json(path + c.caption.split('\r')[0])
+                    item['pos'] = pt(at)
+                    o['children'].append(item)
+            symbols.append(o)
+        data = {'format': 'OpenLoch Schematic Library', 'version': 3 if any(s.children for s in p['symbols']) else 2, 'unit': 'mm',
+                'name': p['name'], 'folder': p['folder'], 'symbols': symbols}
         name = slug(p['folder'].replace('/', ' ')) + '--' + slug(p['name']) + '.json'
         assert name not in written, name
         written.add(name)
@@ -2192,7 +2254,7 @@ def main(out=HERE, only=None):
     for old in os.listdir(out):
         if old.endswith('.json') and old not in written:
             os.remove(os.path.join(out, old))
-    print(len(written), 'pages,', sum(len(p['symbols']) for p in PAGES), 'symbols')
+    print(len(written), 'pages,', sum(len(p['symbols']) for p in PAGES), 'symbols,', sum(len(s.children) for p in PAGES for s in p['symbols']), 'children with them')
 
 
 if __name__ == '__main__':

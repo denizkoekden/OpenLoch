@@ -13,6 +13,7 @@
 #include <QMenu>
 #include <QMimeData>
 #include <QMouseEvent>
+#include <QNativeGestureEvent>
 #include <QToolTip>
 #include <QPainter>
 #include <QPainterPathStroker>
@@ -127,7 +128,7 @@ QRectF SheetView::sheetRect() const{
 void SheetView::fitSheet(){
     const QRectF r=sheetRect();const double w=width()-rulerSize-20,h=height()-rulerSize-20;
     if(r.isEmpty()||w<=0||h<=0)return;
-    pixelsPerMm=std::clamp(std::min(w/r.width(),h/r.height()),.05,200.);
+    setScale(std::min(w/r.width(),h/r.height()));
     offset=QPointF(rulerSize+10+(w-r.width()*pixelsPerMm)/2-r.left()*pixelsPerMm,rulerSize+10+(h-r.height()*pixelsPerMm)/2-r.top()*pixelsPerMm);
     fitted=true;update();
 }
@@ -139,16 +140,20 @@ void SheetView::fitItems(bool selectedOnly){
     if(r.isEmpty())return;
     r=r.adjusted(-r.width()*.05-2,-r.height()*.05-2,r.width()*.05+2,r.height()*.05+2);
     const double w=width()-rulerSize-20,h=height()-rulerSize-20;
-    pixelsPerMm=std::clamp(std::min(w/r.width(),h/r.height()),.05,200.);
+    setScale(std::min(w/r.width(),h/r.height()));
     offset=QPointF(rulerSize+10+(w-r.width()*pixelsPerMm)/2-r.left()*pixelsPerMm,rulerSize+10+(h-r.height()*pixelsPerMm)/2-r.top()*pixelsPerMm);
     update();
 }
+void SheetView::setScale(double pixels){
+    const double before=pixelsPerMm;pixelsPerMm=std::clamp(pixels,minScale,maxScale);
+    if(pixelsPerMm!=before&&zoomChanged)zoomChanged();
+}
 void SheetView::zoomAt(double factor,QPointF pixel){
-    const QPointF at=toSheet(pixel);pixelsPerMm=std::clamp(pixelsPerMm*factor,.05,200.);
+    const QPointF at=toSheet(pixel);setScale(pixelsPerMm*factor);
     offset=pixel-at*pixelsPerMm;fitted=true;update();
 }
 void SheetView::zoomCentred(double factor,QPointF pixel){
-    const QPointF at=toSheet(pixel);pixelsPerMm=std::clamp(pixelsPerMm*factor,.05,200.);
+    const QPointF at=toSheet(pixel);setScale(pixelsPerMm*factor);
     const QPointF middle(rulerSize+(width()-rulerSize)/2.,rulerSize+(height()-rulerSize)/2.);
     offset=middle-at*pixelsPerMm;fitted=true;update();
 }
@@ -727,7 +732,7 @@ void SheetView::mousePressEvent(QMouseEvent *event){
             finishDrawing(current==Tool::Polygon);return;
         }
         // In the zoom mode the right button zooms out, as in the reference; other modes end with it.
-        if(current==Tool::Zoom){zoomAt(1/1.5,event->position());return;}
+        if(current==Tool::Zoom){zoomAt(1/clickStep,event->position());return;}
         if(current!=Tool::Select){setTool(Tool::Select);return;}
         const int index=hit(mm);QString id;int node=-1;contextComponentText=-1;
         if(index>=0){
@@ -832,7 +837,7 @@ void SheetView::mousePressEvent(QMouseEvent *event){
         drag=Drag::Move;before=items();moved=QPointF();update();return;
     }
     case Tool::Zoom:
-        if(mods&Qt::ShiftModifier){zoomAt(1/1.5,event->position());return;}
+        if(mods&Qt::ShiftModifier){zoomAt(1/clickStep,event->position());return;}
         drag=Drag::Pan;return;
     case Tool::Line:case Tool::Polygon:{
         const QPointF p=drawing.isEmpty()?snapped(mm,mods):snapped(mm,mods,&drawing.last());
@@ -1072,9 +1077,9 @@ void SheetView::mouseReleaseEvent(QMouseEvent *event){
         if(current==Tool::Zoom){
             const QRectF r=QRectF(pressSheet,toSheet(event->position())).normalized();
             if(r.width()*pixelsPerMm>8&&r.height()*pixelsPerMm>8){
-                const double w=width()-rulerSize,h=height()-rulerSize;pixelsPerMm=std::clamp(std::min(w/r.width(),h/r.height()),.05,200.);
+                const double w=width()-rulerSize,h=height()-rulerSize;setScale(std::min(w/r.width(),h/r.height()));
                 offset=QPointF(rulerSize+(w-r.width()*pixelsPerMm)/2-r.left()*pixelsPerMm,rulerSize+(h-r.height()*pixelsPerMm)/2-r.top()*pixelsPerMm);update();
-            }else zoomCentred(1.5,event->position());
+            }else zoomCentred(clickStep,event->position());
         }
         break;
     case Drag::None:break;
@@ -1093,13 +1098,21 @@ void SheetView::mouseDoubleClickEvent(QMouseEvent *event){
     if(index<0){drag=Drag::Pan;pressPixel=event->position();setCursor(Qt::ClosedHandCursor);}
 }
 void SheetView::wheelEvent(QWheelEvent *event){
-    // A mouse wheel zooms about the pointer; a trackpad scrolls, and zooms with Ctrl (Cmd).
-    const QPoint pixels=event->pixelDelta();
-    if(!pixels.isNull()&&!(event->modifiers()&Qt::ControlModifier)){offset+=QPointF(pixels);fitted=true;update();return;}
+    // As in every drawing view of the suite: a touchpad (steps in pixels or scroll phases) pans; Ctrl (macOS Cmd) and
+    // scrolling zooms about the pointer, with a mouse too; the wheel alone zooms.
+    const QPoint pixels=event->pixelDelta();const bool control=event->modifiers()&Qt::ControlModifier;
+    if((!pixels.isNull()||event->phase()!=Qt::NoScrollPhase)&&!control){offset+=pixels.isNull()?QPointF(event->angleDelta())/3:QPointF(pixels);fitted=true;update();return;}
     const double steps=pixels.isNull()?event->angleDelta().y()/120.0:pixels.y()/60.0;
-    // As in the reference, zooming in with the wheel brings the point under the pointer to the middle.
-    if(steps>0&&pixels.isNull())zoomCentred(std::pow(1.25,steps),event->position());
-    else if(steps!=0)zoomAt(std::pow(1.25,steps),event->position());
+    // As in the reference, zooming in with the wheel alone brings the point under the pointer to the middle.
+    if(steps>0&&!control)zoomCentred(std::pow(wheelStep,steps),event->position());
+    else if(steps!=0)zoomAt(std::pow(wheelStep,steps),event->position());
+}
+bool SheetView::event(QEvent *event){
+    if(event->type()==QEvent::NativeGesture){
+        const auto *gesture=static_cast<QNativeGestureEvent*>(event);
+        if(gesture->gestureType()==Qt::ZoomNativeGesture){zoomAt(std::clamp(1+gesture->value(),.5,2.),gesture->position());return true;}
+    }
+    return QWidget::event(event);
 }
 void SheetView::keyPressEvent(QKeyEvent *event){
     if(!doc)return;

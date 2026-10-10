@@ -28,6 +28,7 @@
 #include <QMenu>
 #include <QMenuBar>
 #include <QMessageBox>
+#include <QToolButton>
 #include <QSettings>
 #include <QTimer>
 #include <algorithm>
@@ -120,9 +121,39 @@ QImage boardPicture(pcb::Editor &editor){
 }
 }
 
+namespace {
+// Filters the tooltip requests of every window of the suite, so that each shows its current keys.
+class ToolTipKeys : public QObject {
+protected:
+    bool eventFilter(QObject *watched,QEvent *event) override{
+        if(event->type()==QEvent::ToolTip)if(auto *w=qobject_cast<QWidget*>(watched))showShortcutsInToolTips(w->window());
+        return QObject::eventFilter(watched,event);
+    }
+};
+}
+void showShortcutsInToolTips(QWidget *window){
+    if(!window)return;
+    // The tooltip as the command had it, remembered the first time, so that the keys are added to it, never twice.
+    for(QAction *action:window->findChildren<QAction*>()){
+        if(!action->property("baseToolTip").isValid())action->setProperty("baseToolTip",action->toolTip().isEmpty()?QString(action->text()).remove(u'&'):action->toolTip());
+        const QString base=action->property("baseToolTip").toString();
+        const QString keys=!action->shortcut().isEmpty()?action->shortcut().toString(QKeySequence::NativeText):action->property("toolTipShortcut").toString();
+        if(base.isEmpty())continue;
+        action->setToolTip(keys.isEmpty()?base:QStringLiteral("%1 (%2)").arg(base,keys));
+    }
+    for(QToolButton *button:window->findChildren<QToolButton*>()){
+        if(button->defaultAction())continue;   // a button of an action takes the action's tooltip
+        const QString keys=button->property("toolTipShortcut").toString();
+        if(keys.isEmpty())continue;
+        if(!button->property("baseToolTip").isValid())button->setProperty("baseToolTip",button->toolTip());
+        const QString base=button->property("baseToolTip").toString();
+        button->setToolTip(base.isEmpty()?QString():QStringLiteral("%1 (%2)").arg(base,keys));
+    }
+}
 Suite::Suite(const QString &lochMasterAssets,QObject *parent):QObject(parent),assets(lochMasterAssets){
     // The program ends with the start screen or Beenden, not when the last document closes (that shows the start screen).
     QApplication::setQuitOnLastWindowClosed(false);
+    static auto *keys=new ToolTipKeys;qApp->installEventFilter(keys);
 }
 Suite::~Suite(){
     finished=true;

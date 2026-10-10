@@ -942,6 +942,9 @@ T = {
     'Diese Bauteile des Schaltplans fehlen auf der Platine. OpenLoch legt die gewählten Footprints neben die Platine, benannt und zugeordnet:': 'These components of the schematic are missing on the board. OpenLoch places the chosen footprints beside the board, named and assigned:',
     '%1 – Anschlüsse der Reihe nach': '%1 – pins in order',
     'Reihe mit %1 Pads': 'Row of %1 pads',
+    '%1 – Anschlussfolge %2 (%3)': '%1 – lead order %2 (%3)',
+    '%1 – Anschlussfolge %2': '%1 – lead order %2',
+    'Übliche Anschlussfolge für %1 im TO-92: %2': 'Usual lead order of the %1 in a TO-92: %2',
 }
 
 # French texts of the module by their German text. Texts that read the same in English and French are left out; the
@@ -1808,4 +1811,7 @@ FR = {
     'Diese Bauteile des Schaltplans fehlen auf der Platine. OpenLoch legt die gewählten Footprints neben die Platine, benannt und zugeordnet:': 'Ces composants du schéma manquent sur la carte. OpenLoch place les empreintes choisies à côté de la carte, nommées et affectées :',
     '%1 – Anschlüsse der Reihe nach': '%1 – broches dans l\'ordre',
     'Reihe mit %1 Pads': 'Rangée de %1 pastilles',
+    '%1 – Anschlussfolge %2 (%3)': '%1 – ordre des broches %2 (%3)',
+    '%1 – Anschlussfolge %2': '%1 – ordre des broches %2',
+    'Übliche Anschlussfolge für %1 im TO-92: %2': 'Ordre des broches habituel du %1 en TO-92 : %2',
 }

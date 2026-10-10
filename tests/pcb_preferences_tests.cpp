@@ -266,5 +266,15 @@ int preferencesTests(const QString &preferencesFile){
         require(panel->folder()==extra.path()&&panel->readOnly()&&panel->currentFolder()==own.path()&&panel->pick(foreign),"a further folder is read; macros are saved into the own one");
         require(!panel->removeMacro(foreign)&&QFile::exists(foreign),"nothing is removed there");
         {QSettings s(preferencesFile,QSettings::IniFormat);s.remove("macroFolder");s.remove("macroFolders/extra");}}
+    // --- The keys of the tools for the suite's tooltips: a property of the buttons, no second binding; a changed key
+    // follows.
+    {Editor editor;QApplication::processEvents();
+        auto *track=editor.findChild<QToolButton*>(QStringLiteral("tool-%1").arg(int(BoardView::Tool::Track)));
+        require(track&&track->property("toolTipShortcut").toString()==QKeySequence(Qt::Key_L).toString(QKeySequence::NativeText),"the track tool's key for the tooltip");
+        require(editor.action("photo")->property("toolTipShortcut").toString()==QKeySequence(Qt::Key_V).toString(QKeySequence::NativeText)&&editor.action("photo")->shortcut().isEmpty(),
+                "the photo view's, without a shortcut of its own");
+        {QSettings s(preferencesFile,QSettings::IniFormat);s.setValue("keys/track","K");}
+        editor.loadPreferences();require(track->property("toolTipShortcut").toString()==QKeySequence(Qt::Key_K).toString(QKeySequence::NativeText),"a changed key follows");
+        {QSettings s(preferencesFile,QSettings::IniFormat);s.remove("keys/track");}}
     return 0;
 }

@@ -32,6 +32,11 @@
 #include <QTemporaryDir>
 #include <QTextStream>
 #include <QTimer>
+#include <QPointingDevice>
+#include <QScrollBar>
+#include <QNativeGestureEvent>
+#include <QWheelEvent>
+#include <memory>
 #include <QTabBar>
 #include <QMenuBar>
 #include <QThread>
@@ -65,6 +70,16 @@ static QAction *action(Window &window,const QString &name){
     for(auto *a:window.findChildren<QAction*>()){bool dialog=false;for(auto *o=a->parent();o;o=o->parent())dialog|=qobject_cast<QDialog*>(o)!=nullptr;if(!dialog&&(a->objectName()==name||a->text().remove('&')==name))return a;}
     throw std::runtime_error("menu action missing");
 }
+// Acts on a context menu once it is open. A timer looks for it again and again: a single timer could fire while the
+// command before the menu still handles events, and the menu's own loop would then wait forever.
+static void whenMenuOpen(std::function<void(QMenu*)> act){
+    auto *timer=new QTimer;timer->setInterval(5);auto started=std::make_shared<QElapsedTimer>();started->start();
+    QObject::connect(timer,&QTimer::timeout,[timer,act,started]{
+        auto *menu=qobject_cast<QMenu*>(QApplication::activePopupWidget());
+        if(!menu&&started->elapsed()<30000)return;
+        timer->stop();timer->deleteLater();if(menu)act(menu);});
+    timer->start();
+}
 static void write(const QString &path,const QByteArray &bytes){QDir().mkpath(QFileInfo(path).absolutePath());QFile file(path);require(file.open(QIODevice::WriteOnly)&&file.write(bytes)==bytes.size(),"fixture could not be written");}
 int main(int argc,char **argv){
     QApplication app(argc,argv);openloch::setUiLanguage("de"); // the tests compare German texts; CI runners use English systems
@@ -75,6 +90,21 @@ int main(int argc,char **argv){
         write(tmp.filePath("drive_c/users/Public/Documents/LochMaster40/Board Layouts/Test.LMB"),fixtures::board());
         Window window(tmp.path());window.show();QApplication::processEvents();
         const auto fitted=window.canvas->mapFromScene(window.canvas->sceneRect()).boundingRect();require(fitted.width()>window.canvas->viewport()->width()/2||fitted.height()>window.canvas->viewport()->height()/2,"board was not fitted once the window appeared");
+        {   // Zoom and touchpad as the suite's rule: Strg/⌘ and scrolling and a pinch zoom about the pointer, scrolling
+            // with two fingers moves without zooming
+            Canvas *c=window.canvas;const QTransform start=c->transform();c->zoomAbout(6,QPointF(c->viewport()->width()/2.,c->viewport()->height()/2.));
+            const QPointF at(c->viewport()->width()/3.,c->viewport()->height()/3.);
+            auto stays=[&](const std::function<void()> &zoom,const char *what){
+                const double before=c->transform().m11();const QPointF board=c->mapToScene(at.toPoint());zoom();
+                const QPointF now=c->mapFromScene(board);require(c->transform().m11()>before*1.05&&std::abs(now.x()-at.x())<2.5&&std::abs(now.y()-at.y())<2.5,what);};
+            stays([&]{QWheelEvent wheel(at,c->viewport()->mapToGlobal(at),QPoint(),QPoint(0,120),Qt::NoButton,Qt::ControlModifier,Qt::NoScrollPhase,false);QApplication::sendEvent(c->viewport(),&wheel);},
+                  "Strg and scrolling zoom about the pointer");
+            stays([&]{QNativeGestureEvent pinch(Qt::ZoomNativeGesture,QPointingDevice::primaryPointingDevice(),2,at,at,c->viewport()->mapToGlobal(at),0.2,QPointF());QApplication::sendEvent(c->viewport(),&pinch);},
+                  "a pinch zooms about the pointer");
+            const double zoom=c->transform().m11();const int scrolled=c->verticalScrollBar()->value();
+            QWheelEvent swipe(at,c->viewport()->mapToGlobal(at),QPoint(0,-40),QPoint(0,-40),Qt::NoButton,Qt::NoModifier,Qt::ScrollUpdate,false);QApplication::sendEvent(c->viewport(),&swipe);
+            require(c->transform().m11()==zoom&&c->verticalScrollBar()->value()!=scrolled,"two fingers move without zooming");
+            c->setTransform(start);}
         auto *tree=window.findChild<QTreeWidget*>("projectBrowser");require(tree&&tree->topLevelItemCount()==2,"project browser missing");
         auto imagePath=tmp.filePath("empty-board.png");require(window.canvas->exportImage(imagePath),"empty board export failed");QImage image(imagePath);
         require(image.pixelColor(61,61).blue()>150&&image.pixelColor(31,31).blue()<100,"new board is missing its physical 2.54 mm hole pattern (light holes like the original)");
@@ -140,7 +170,7 @@ int main(int argc,char **argv){
         action(window,"boardDuplicate")->trigger();auto *boards=window.findChild<QTabBar*>("boardTabs");require(boards&&boards->count()==2&&boards->currentIndex()==1,"board duplication menu failed");
         action(window,"boardAdd")->trigger();require(boards->count()==3&&canvas->scene()->items().size()==1,"adding a blank board failed");boards->setCurrentIndex(0);canvas->selectObject("new",0);require(canvas->selectedNode()["id"]=="R9","board selector lost the first board");
         {   // a right click on a board's tab chooses that board for its menu
-            QTimer::singleShot(0,[]{if(auto *m=qobject_cast<QMenu*>(QApplication::activePopupWidget()))m->close();});
+            whenMenuOpen([](QMenu *m){m->close();});
             emit boards->customContextMenuRequested(boards->tabRect(2).center());
             require(boards->currentIndex()==2,"a right click on a board tab must choose that board");boards->setCurrentIndex(0);canvas->selectObject("new",0);
             auto *closeWindow=window.findChild<QAction*>("closeWindow");
@@ -194,7 +224,7 @@ int main(int argc,char **argv){
             respond([](QDialog *dialog){if(auto *field=dialog->findChild<QLineEdit*>("libraryPageName"))field->setText("Umbenannt");dialog->accept();});
             action(window,"libraryProperties")->trigger();require(pages->currentText()=="Umbenannt"&&Project::load(own).title=="Umbenannt","renaming the library page in its properties failed");
             // The part's own properties from the library list: the Bauteil dialog on the marked part
-            QTimer::singleShot(0,[]{auto *menu=qobject_cast<QMenu*>(QApplication::activePopupWidget());if(!menu)return;QAction *properties=nullptr;for(auto *a:menu->actions())if(a->text()=="Eigenschaften…")properties=a;menu->close();
+            whenMenuOpen([](QMenu *menu){QAction *properties=nullptr;for(auto *a:menu->actions())if(a->text()=="Eigenschaften…")properties=a;menu->close();
                 if(!properties)return;QTimer::singleShot(0,[]{if(auto *dialog=qobject_cast<QDialog*>(QApplication::activeModalWidget())){if(auto *field=dialog->findChild<QLineEdit*>("componentValue"))field->setText("4,7k");dialog->accept();}});properties->trigger();});
             emit parts->customContextMenuRequested(parts->visualItemRect(parts->item(0)).center());
             require(Project::load(own).legacyNode(0)["value"]=="4,7k","the part's properties from the library list were not saved");const auto secondChanged=parts->item(0)->toolTip();

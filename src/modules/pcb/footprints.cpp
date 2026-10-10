@@ -188,6 +188,29 @@ QList<Footprint> footprints(){
     out<<sot23()<<soic(8)<<soic(14);
     return out;
 }
+namespace {
+QStringList letters(const char *s){QStringList out;for(;*s;s++)out<<QString(QChar::fromLatin1(*s));return out;}
+}
+QStringList transistorLeads(const QString &footprint,const QString &value,bool fet){
+    if(footprint==u"sot-23")return letters(fet?"GSD":"BEC");
+    if(footprint==u"to-220")return letters(fet?"GDS":"BCE");
+    if(footprint!=u"to-92")return {};
+    // From the manufacturers' data sheets. Types whose makers number the leads differently (BC517, 2N2222) are left out,
+    // so that they are chosen by hand; a gain group or packing code may follow the number, another digit may not.
+    static const std::pair<QRegularExpression,const char*> types[]={
+        {QRegularExpression(QStringLiteral("^BC(32[78]|33[78]|54[6-9]|550|55[6-9]|560)(?!\\d)")),"CBE"},
+        {QRegularExpression(QStringLiteral("^(2N(3904|3906|4401|4403|5401|5551)|MPSA[49]2)(?!\\d)")),"EBC"},
+        {QRegularExpression(QStringLiteral("^BC(63[5-9]|640)(?!\\d)")),"ECB"},
+        {QRegularExpression(QStringLiteral("^2N7000(?!\\d)")),"SGD"},
+        {QRegularExpression(QStringLiteral("^BS170(?!\\d)")),"DGS"}};
+    QString type=value.toUpper();type.remove(u' ');
+    for(const auto &[pattern,leads]:types)if(pattern.match(type).hasMatch()){const auto out=letters(leads);return out.contains(QStringLiteral("G"))==fet?out:QStringList();}
+    return {};
+}
+QList<QStringList> to92Orders(bool fet){
+    if(fet)return {letters("SGD"),letters("DGS"),letters("DSG")};
+    return {letters("CBE"),letters("EBC"),letters("ECB")};
+}
 
 QList<Element> placeable(QList<Element> elements,const Board &board,const QString &prefix,bool groupLoose){
     // Fresh group numbers, or one new group for loose elements.

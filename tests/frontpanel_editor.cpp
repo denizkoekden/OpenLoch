@@ -25,6 +25,10 @@
 #include <QDragEnterEvent>
 #include <QDropEvent>
 #include <QElapsedTimer>
+#include <functional>
+#include <QPointingDevice>
+#include <QNativeGestureEvent>
+#include <QWheelEvent>
 #include <QFile>
 #include <QImage>
 #include <QJsonObject>
@@ -75,6 +79,22 @@ bool sameRect(const QRectF &a,const QRectF &b){return near(a.topLeft(),b.topLeft
 void drawingTests(PanelEditor &editor){
     Document d;d.panels[0]=newPanel("Test",100,60);editor.setDocument(d);
     PanelView *view=editor.view();view->fitPanel();auto P=[&]()->Panel&{return editor.document().panel();};
+    {   // Zoom and touchpad as the suite's rule: Strg/⌘ and scrolling and a pinch zoom about the pointer, scrolling with
+        // two fingers moves without zooming
+        // Zoomed in first, so that the scroll bars can keep the point (a fitted panel has no room to move).
+        const double start=view->zoom();view->setZoom(start*4,view->toView(QPointF(50,30)));const QPointF at=view->toView(QPointF(45,27));
+        auto stays=[&](const std::function<void()> &zoom,const char *what){
+            const double before=view->zoom();const QPointF panel=view->toPanel(at);zoom();const QPointF now=view->toView(panel);
+            require(view->zoom()>before*1.05&&std::abs(now.x()-at.x())<1.5&&std::abs(now.y()-at.y())<1.5,what);};
+        stays([&]{QWheelEvent wheel(at,view->viewport()->mapToGlobal(at),QPoint(),QPoint(0,120),Qt::NoButton,Qt::ControlModifier,Qt::NoScrollPhase,false);QApplication::sendEvent(view->viewport(),&wheel);},
+              "Strg and scrolling zoom about the pointer");
+        stays([&]{QNativeGestureEvent pinch(Qt::ZoomNativeGesture,QPointingDevice::primaryPointingDevice(),2,at,at,view->viewport()->mapToGlobal(at),0.2,QPointF());QApplication::sendEvent(view->viewport(),&pinch);},
+              "a pinch zooms about the pointer");
+        const double zoom=view->zoom();const QPointF panel=view->toPanel(at);
+        QWheelEvent swipe(at,view->viewport()->mapToGlobal(at),QPoint(0,-40),QPoint(0,-40),Qt::NoButton,Qt::NoModifier,Qt::ScrollUpdate,false);QApplication::sendEvent(view->viewport(),&swipe);
+        require(view->zoom()==zoom&&view->toPanel(at)!=panel,"two fingers move without zooming");
+        view->setZoom(start);view->fitPanel();
+    }
     // A rectangle drawn by dragging, its corners on the grid.
     view->setTool(PanelView::Rectangle);dragTo(view,{10.2,10.1},{30.3,19.8});
     require(P().elements.size()==1&&P().elements[0].type==ElementType::Rectangle,"rectangle drawn");

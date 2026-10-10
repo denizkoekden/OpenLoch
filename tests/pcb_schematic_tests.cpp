@@ -10,10 +10,16 @@
 #include <QCheckBox>
 #include <QComboBox>
 #include <QDialog>
+#include <QFile>
 #include <QHash>
+#include <QJsonArray>
+#include <QJsonDocument>
+#include <QJsonObject>
 #include <QLabel>
 #include <QLineF>
 #include <QListWidget>
+#include <QMap>
+#include <QPushButton>
 #include <QTabWidget>
 #include <QTimer>
 #include <cmath>
@@ -183,13 +189,59 @@ int schematicTests(){
     {const auto r=partChoices(part("r5","R5","4k7",{"1","2"}));
         require(!r.isEmpty()&&!r[0].inOrder&&r[0].sameKind&&footprints()[r[0].footprint].prefix=="R","a resistor's footprint first, a sure choice");
         require(r.last().footprint==-1&&r.last().inOrder&&!r.last().sameKind,"the wizard's row last");
-        const auto q=partChoices(part("q1","Q1","BC547",{"E","B","C"}));bool to92=false;
-        for(const auto &c:q)if(c.footprint>=0&&footprints()[c.footprint].id=="to-92")to92=c.inOrder&&c.sameKind;
-        require(!q.isEmpty()&&q[0].inOrder&&to92,"a transistor named E, B, C: none fits by name, the TO-92 offered with the pins in order");
+        require(r[0].sure,"and offered as chosen");
+        const auto q=partChoices(part("q1","Q1","BC547",{"E","B","C"}));
+        require(!q.isEmpty()&&footprints()[q[0].footprint].id=="to-92"&&!q[0].inOrder&&q[0].sure&&q[0].leads==QStringList({"C","B","E"}),
+            "a transistor named E, B, C: none fits by name, the TO-92 in the lead order of a BC547");
         const auto d=partChoices(part("d1","D1","1N4148",{"1","2"}));const QString first=d.isEmpty()?QString():footprints()[d[0].footprint].id;
         require(!d.isEmpty()&&!d[0].inOrder&&d[0].sameKind&&(first=="do-41"||first.startsWith("led")),"a diode's footprint fits its numbered contacts");
         const auto ic=partChoices(part("ic1","IC1","NE555",{"1","2","3","4","5","6","7","8"}));
-        require(!ic.isEmpty()&&footprints()[ic[0].footprint].prefix=="IC"&&footprints()[ic[0].footprint].elements.size()>8,"an eight-pin IC: an IC package first");}
+        require(!ic.isEmpty()&&footprints()[ic[0].footprint].prefix=="IC"&&footprints()[ic[0].footprint].elements.size()>8,"an eight-pin IC: an IC package first");
+        // With the board's grid: among those of the same kind, footprints with their pads on it first.
+        const auto cap=part("c1","C1","100n",{"1","2"});const auto plain=partChoices(cap),gridded=partChoices(cap,1.27);
+        auto onGrid=[](const PartChoice &c){return c.footprint>=0&&padsOnGrid(footprints()[c.footprint].elements,1.27);};
+        require(!gridded.isEmpty()&&gridded[0].sameKind&&onGrid(gridded[0])&&gridded.size()==plain.size(),"a capacitor with its pads on the grid first");
+        bool sorted=true,seenOff=false;for(const auto &c:gridded){if(!c.sameKind)break;if(!onGrid(c))seenOff=true;else if(seenOff)sorted=false;}
+        require(sorted,"on the grid before off it, among the same kind");
+        {int elko=-1;for(int i=0;i<footprints().size();i++)if(footprints()[i].id.startsWith("elko")){elko=i;break;}
+            require(elko>=0&&!padsOnGrid(footprints()[elko].elements,1.27),"the electrolytics' pitches are off a 1.27 mm grid");}}
+    // --- A transistor from the schematic library, its contacts B, C, E: the pads named in the lead order of its type
+    // (a BC548: collector at lead 1, the base in the middle), never in the order of the contacts.
+    {QFile file(QString(OPENLOCH_SOURCE_DIR)+"/libraries/schematic/elektro-elektronik-bauteile--transistoren.json");
+        require(file.open(QIODevice::ReadOnly),"the schematic library of transistors");
+        QStringList contacts;std::function<void(const QJsonValue&)> walk=[&](const QJsonValue &v){
+            if(v.isArray())for(const auto &x:v.toArray())walk(x);
+            else if(v.isObject()){const auto o=v.toObject();if(o["type"].toString()=="contact")contacts<<o["name"].toString();if(o.contains("children"))walk(o["children"]);}};
+        for(const auto &x:QJsonDocument::fromJson(file.readAll()).object()["symbols"].toArray())
+            if(x.toObject()["caption"].toString().section(u'\r',0,0)=="NPN-Transistor")walk(x.toObject()["item"]);
+        require(contacts==QStringList({"B","C","E"}),"the library's NPN transistor: contacts B, C, E");
+        {double flat=0,leads=0,first=0,last=0;
+            for(const auto &e:footprint("to-92").elements){
+                if(e.type==ElementType::Track&&e.layer==SilkTop&&e.points.size()==2&&e.points[0].y()==e.points[1].y())flat=e.points[0].y();
+                if(e.type==ElementType::Pad){leads=e.pos.y();if(e.name=="1")first=e.pos.x();if(e.name=="3")last=e.pos.x();}}
+            require(flat>leads&&first<last,"the TO-92 as the data sheets draw it: the flat side below the leads, lead 1 on the left");}
+        const auto bc548=part("t1","T1","BC548",contacts);const auto offers=partChoices(bc548,1.27);
+        require(!offers.isEmpty()&&offers[0].footprint>=0&&footprints()[offers[0].footprint].id=="to-92"&&offers[0].sure&&offers[0].leads==QStringList({"C","B","E"}),
+            "a BC548: the TO-92 first and sure, its leads C, B, E");
+        bool blind=false,other=false;
+        for(const auto &c:offers)if(c.footprint>=0&&footprints()[c.footprint].id=="to-92"){blind=blind||c.inOrder;other=other||(!c.sure&&c.leads==QStringList({"E","B","C"}));}
+        require(!blind&&other,"no TO-92 named in the order of the contacts, the other orders offered");
+        auto leadsOf=[](const QList<Element> &els){QMap<double,QString> byX;for(const auto &e:els)if(e.type==ElementType::Pad)byX[e.pos.x()]=e.pin;return byX.values();};
+        const Board scratch=newBoard("T",40,30);
+        require(leadsOf(missingPart(offers[0],bc548,scratch))==QStringList({"C","B","E"}),"from the left: collector, base, emitter");
+        auto first=[&](const QString &value,const QStringList &pins){const auto c=partChoices(part("t2","T2",value,pins));return c.isEmpty()?PartChoice{}:c[0];};
+        require(first("BC 547 B",contacts).leads==QStringList({"C","B","E"})&&first("bc337-40",contacts).sure,"gain groups, spaces and small letters");
+        const auto n3904=first("2N3904",contacts);
+        require(n3904.sure&&leadsOf(missingPart(n3904,part("t2","T2","2N3904",contacts),scratch))==QStringList({"E","B","C"}),"a 2N3904: emitter, base, collector");
+        require(first("BC639",contacts).leads==QStringList({"E","C","B"})&&first("MPSA42",contacts).leads==QStringList({"E","B","C"}),"a BC639 and an MPSA42");
+        require(first("2N7000",{"G","D","S"}).leads==QStringList({"S","G","D"})&&first("BS170",{"G","D","S"}).leads==QStringList({"D","G","S"}),"MOSFETs: 2N7000, BS170");
+        require(!first("BC5480",contacts).sure&&!first("2N2222",contacts).sure&&!first("2N7000",contacts).sure,
+            "not for another number, a type whose makers differ, or a FET's order for B, C, E");
+        // A type not in the table: nothing sure, the usual orders of a TO-92 offered, the SOT-23 in the order of its kind.
+        const auto unknown=partChoices(part("t3","T3","",contacts));QList<QStringList> orders;bool sure=false,sot=false;
+        for(const auto &c:unknown){sure=sure||c.sure;if(c.footprint<0)continue;const QString id=footprints()[c.footprint].id;
+            if(id=="to-92")orders<<c.leads;if(id=="sot-23")sot=c.leads==QStringList({"B","E","C"});}
+        require(!sure&&orders==QList<QStringList>({{"C","B","E"},{"E","B","C"},{"E","C","B"}})&&sot,"a type not known: the usual orders offered, none chosen");}
     {Board b=newBoard("Daneben",60,30);b.origin={0,30};b.grid=1.27;put(b,"res-0207-10",{20,10},"R1","1k","r1");
         auto beside=newElement(ElementType::Track);beside.layer=SilkTop;beside.points={{50,5},{70,5}};beside.width=.2;b.elements<<beside;
         documents::Targets t;t.components={part("r1","R1","1k",{"1","2"})};
@@ -274,10 +326,26 @@ int schematicTests(){
             offered<<box->currentText();box->setCurrentIndex(k);}});
         editor.assignPinsDialog();
         require(labels.size()==3&&labels[0].second=="1"&&view->shownPadLabels().isEmpty(),"the pads numbered while the dialog is open");
-        require(offered==QStringList({"E","B","C"}),"each pad offered the pin at its place");
+        require(offered==QStringList({"C","B","E"}),"each pad offered the pin of its lead in a BC547");
         const auto tPads=padsOf(editor.document().board(),t1);
         require(els()[tPads[0]].pin=="E"&&els()[tPads[1]].name=="B"&&els()[tPads[2]].pin=="C"&&editor.compareWithSchematic(false).unassigned.isEmpty(),"assigned, the names follow");
         editor.undo();require(els()[tPads[0]].pin=="1","one undo step for the pins");
+        // Pads named B, C, E from lead 1 on, as when they were named in the order of the contacts: the dialog shows the
+        // type's order and takes it over.
+        view->setSelection({t1});
+        inDialog([&](QDialog *x){for(int k=1;k<=3;k++)if(auto *box=x->findChild<QComboBox*>(QStringLiteral("pin%1").arg(k)))box->setCurrentText(QStringList({"B","C","E"})[k-1]);});
+        editor.assignPinsDialog();require(els()[tPads[0]].pin=="B"&&els()[tPads[2]].pin=="E","the base at lead 1");
+        QString hint;view->setSelection({t1});
+        inDialog([&](QDialog *x){for(auto *l:x->findChildren<QLabel*>())if(l->text().contains("C-B-E"))hint=l->text();if(auto *take=x->findChild<QPushButton*>("usualLeads"))take->click();});
+        editor.assignPinsDialog();
+        require(hint==ui("Übliche Anschlussfolge für %1 im TO-92: %2").arg("BC547","C-B-E"),"the type's order shown");
+        require(els()[tPads[0]].pin=="C"&&els()[tPads[1]].pin=="B"&&els()[tPads[2]].pin=="E","taken over: collector, base, emitter");
+        editor.undo();editor.undo();require(els()[tPads[0]].pin=="1","an undo step each");
+        // A type not in the table: numbered pads offered no pin.
+        {t.components[2].value="XY1";QStringList none;view->setSelection({t1});const Document before=editor.document();
+            inDialog([&](QDialog *x){for(int k=1;k<=3;k++)if(auto *box=x->findChild<QComboBox*>(QStringLiteral("pin%1").arg(k)))none<<box->currentText();});
+            editor.assignPinsDialog();if(editor.document()!=before)editor.undo();t.components[2].value="BC547";
+            require(none==QStringList(3,ui("kein Anschluss"))&&editor.document()==before,"a transistor of a type not known: no pin offered");}
         // An electrolytic left as it stands keeps its pads + and -: nothing changes, no undo step.
         view->setSelection({c2});inDialog([](QDialog *){});const Document unassigned=editor.document();editor.assignPinsDialog();
         require(editor.document()==unassigned&&els()[padsOf(editor.document().board(),c2)[0]].pin=="+","an electrolytic confirmed as it is keeps + and -");

@@ -15,6 +15,10 @@ class QMainWindow;
 class QMenu;
 class QWidget;
 namespace openloch::suite {
+// Tooltips of the commands of a window with their key in brackets, as "Drehen (Strg+R)": the key of the action's shortcut,
+// or the text of its "toolTipShortcut" property for a command whose keys a module handles itself (a tool of a drawing).
+// Called by the suite for every tooltip shown, so a changed key shows at once.
+void showShortcutsInToolTips(QWidget *window);
 class StartScreen;
 // OpenLoch as one program for the four kinds of document (docs/suite.md): the start screen and one window per
 // document, each the editor of its module, Lochraster (openloch::Window), Leiterplatte (PcbWindow) and Frontplatte

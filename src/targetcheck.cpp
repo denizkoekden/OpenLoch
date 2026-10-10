@@ -174,8 +174,13 @@ QList<LibraryChoice> openLibraryChoices(const QString &page,const QJsonObject &j
     QList<LibraryChoice> list;int index=0;
     for(const auto &part:openLibraryParts(json)){
         LibraryChoice c{page,index++,part["name"].toString(),part["id"].toString(),part["value"].toString(),{}};
-        const auto names=part["pin_names"].toArray();const int count=int(part["pins"].toArray().size());
+        const auto names=part["pin_names"].toArray();const auto pins=part["pins"].toArray();const int count=int(pins.size());
         for(int k=0;k<count;k++)c.pins<<(names.size()==count?names[k].toString():QString::number(k+1));
+        // Pins in holes: each at whole holes (an electrolytic with 1.5 mm pitch has one between them), and no part the
+        // library marks as off the grid.
+        c.onGrid=!part["off_grid"].toBool();
+        for(const auto &v:pins){const auto at=v.toObject()["at"].toArray();
+            for(int axis=0;axis<2;axis++){const double d=at.at(axis).toDouble();if(std::abs(d-std::round(d))>1e-6)c.onGrid=false;}}
         list<<c;
     }
     return list;
@@ -195,7 +200,7 @@ QList<LibraryChoice> fittingParts(const documents::TargetComponent &component,co
     for(int i=0;i<library.size();i++){
         const auto &c=library[i];if(c.pins.size()!=component.pins.size())continue;
         const auto pins=assignedPins(c.pins,component.pins);if(pins.contains(-1))continue;
-        int score=0;if(!kind.isEmpty()&&family(c.id)==kind)score+=2;
+        int score=c.onGrid?4:0;if(!kind.isEmpty()&&family(c.id)==kind)score+=2;
         if(!value.isEmpty()&&(c.name.toUpper().contains(value)||c.value.toUpper().contains(value)||(!c.value.trimmed().isEmpty()&&value.contains(c.value.trimmed().toUpper()))))score+=1;
         ranked<<Ranked{score,i,c};
     }

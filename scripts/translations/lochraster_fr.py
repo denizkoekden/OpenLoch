@@ -1,6 +1,7 @@
 # French texts of the perfboard editor (Lochraster) and the shared parts of the program, by their German text.
 # Texts without a French entry are shown in English. Run scripts/translations/generate.py after changes.
 FR = {
+    ' – Anschlüsse nicht im Lochraster': ' – broches hors de la grille',
     'Knoten hinzufügen': 'Ajouter un nœud',
     'Knoten löschen': 'Supprimer le nœud',
     'Beschriftung': 'Étiquette',

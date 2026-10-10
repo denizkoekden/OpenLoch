@@ -16,6 +16,13 @@ struct Footprint {
     QList<Element> elements;
 };
 QList<Footprint> footprints();
+// The leads of a transistor package from lead 1, as the data sheets number them (a TO-92 seen on its flat side with the
+// leads down, from the left), by the usual pin names B, C, E or G, D, S; `fet` for a field-effect transistor. A TO-92
+// has no order of its own: the order is the type's, read from the value (BC548B: C, B, E; 2N3904: E, B, C), and empty
+// for a type the table does not hold. SOT-23 transistors share B, E, C (G, S, D), TO-220 ones B, C, E (G, D, S).
+QStringList transistorLeads(const QString &footprint,const QString &value,bool fet);
+// The orders a TO-92 is offered with when its type is not known, the most common first.
+QList<QStringList> to92Orders(bool fet);
 // The footprint's elements made a component on `board`: a new component number and one new group, the designator
 // numbered with the next free number for its prefix.
 QList<Element> placeable(const Footprint &footprint,const Board &board);
