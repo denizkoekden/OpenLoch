@@ -1,0 +1,1557 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Druckventile\rPressure valves\rValves de pression",
+ "symbols": [
+  {
+   "caption": "Druckbegrenzungsventil\rPressure relief valve\rLimiteur de pression",
+   "item": {
+    "caption": "Druckbegrenzungsventil\rPressure relief valve\rLimiteur de pression",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.74,
+        9.36
+       ],
+       [
+        3.74,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       2.54,
+       12.7
+      ],
+      "pos": [
+       3.04,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "T",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.94
+      ],
+      "text": "T",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        11.43
+       ],
+       [
+        -1.6,
+        11.43
+       ],
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        11.06,
+        3.88
+       ],
+       [
+        11.96,
+        6.28
+       ],
+       [
+        12.86,
+        3.88
+       ],
+       [
+        13.76,
+        6.28
+       ],
+       [
+        14.66,
+        3.88
+       ],
+       [
+        15.56,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        7.08
+       ],
+       [
+        14.76,
+        3.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Druckventile/Druckbegrenzungsventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckregelventil\rPressure reducing valve\rRéducteur de pression",
+   "item": {
+    "caption": "Druckregelventil\rPressure reducing valve\rRéducteur de pression",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       2.54,
+       12.7
+      ],
+      "pos": [
+       3.04,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        11.43
+       ],
+       [
+        -1.6,
+        11.43
+       ],
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        11.06,
+        3.88
+       ],
+       [
+        11.96,
+        6.28
+       ],
+       [
+        12.86,
+        3.88
+       ],
+       [
+        13.76,
+        6.28
+       ],
+       [
+        14.66,
+        3.88
+       ],
+       [
+        15.56,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        7.08
+       ],
+       [
+        14.76,
+        3.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Druckventile/Druckregelventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckbegrenzungsventil, fest\rPressure relief valve, fixed\rLimiteur de pression, fixe",
+   "item": {
+    "caption": "Druckbegrenzungsventil, fest\rPressure relief valve, fixed\rLimiteur de pression, fixe",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.74,
+        9.36
+       ],
+       [
+        3.74,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       2.54,
+       12.7
+      ],
+      "pos": [
+       3.04,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "T",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.94
+      ],
+      "text": "T",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        11.43
+       ],
+       [
+        -1.6,
+        11.43
+       ],
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        11.06,
+        3.88
+       ],
+       [
+        11.96,
+        6.28
+       ],
+       [
+        12.86,
+        3.88
+       ],
+       [
+        13.76,
+        6.28
+       ],
+       [
+        14.66,
+        3.88
+       ],
+       [
+        15.56,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Druckventile/Druckbegrenzungsventil, fest",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckzuschaltventil\rSequence valve\rValve de séquence",
+   "item": {
+    "caption": "Druckzuschaltventil\rSequence valve\rValve de séquence",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       2.54,
+       12.7
+      ],
+      "pos": [
+       3.04,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        11.06,
+        3.88
+       ],
+       [
+        11.96,
+        6.28
+       ],
+       [
+        12.86,
+        3.88
+       ],
+       [
+        13.76,
+        6.28
+       ],
+       [
+        14.66,
+        3.88
+       ],
+       [
+        15.56,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        7.08
+       ],
+       [
+        14.76,
+        3.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.74,
+        9.36
+       ],
+       [
+        3.74,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        11.43
+       ],
+       [
+        -1.6,
+        11.43
+       ],
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        9.16
+       ],
+       [
+        13.16,
+        9.16
+       ],
+       [
+        13.16,
+        12.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.96,
+        11.96
+       ],
+       [
+        11.96,
+        13.16
+       ],
+       [
+        14.36,
+        13.16
+       ],
+       [
+        14.36,
+        11.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Druckventile/Druckzuschaltventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckregelventil (3-Wege)\rPressure regulator, three-way\rRégulateur de pression à trois voies",
+   "item": {
+    "caption": "Druckregelventil (3-Wege)\rPressure regulator, three-way\rRégulateur de pression à trois voies",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       12.7
+      ],
+      "pos": [
+       3.04,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       7.62,
+       12.7
+      ],
+      "pos": [
+       8.12,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.94
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        11.06,
+        3.88
+       ],
+       [
+        11.96,
+        6.28
+       ],
+       [
+        12.86,
+        3.88
+       ],
+       [
+        13.76,
+        6.28
+       ],
+       [
+        14.66,
+        3.88
+       ],
+       [
+        15.56,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        7.08
+       ],
+       [
+        14.76,
+        3.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        8.56
+       ],
+       [
+        8.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.27
+       ],
+       [
+        -1.6,
+        -1.27
+       ],
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Druckventile/Druckregelventil (3-Wege)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckregelventil mit Entlastung\rPressure regulator with relief\rRégulateur de pression à échappement",
+   "item": {
+    "caption": "Druckregelventil mit Entlastung\rPressure regulator with relief\rRégulateur de pression à échappement",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       2.54,
+       12.7
+      ],
+      "pos": [
+       3.04,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       7.62,
+       12.7
+      ],
+      "pos": [
+       8.82,
+       10.5
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        11.06,
+        3.88
+       ],
+       [
+        11.96,
+        6.28
+       ],
+       [
+        12.86,
+        3.88
+       ],
+       [
+        13.76,
+        6.28
+       ],
+       [
+        14.66,
+        3.88
+       ],
+       [
+        15.56,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        7.08
+       ],
+       [
+        14.76,
+        3.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        8.56
+       ],
+       [
+        8.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.27
+       ],
+       [
+        -1.6,
+        -1.27
+       ],
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        12.3
+       ],
+       [
+        6.82,
+        10.66
+       ],
+       [
+        8.42,
+        10.66
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Druckventile/Druckregelventil mit Entlastung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

@@ -1,0 +1,4373 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "THYRISTOR\rTHYRISTOR\rTHYRISTORS",
+ "symbols": [
+  {
+   "caption": "Thyristor (v)\rThyristor (v)\rThyristor (v)",
+   "item": {
+    "caption": "Thyristor (v)\rThyristor (v)\rThyristor (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.75,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor (h)\rThyristor (h)\rThyristor (h)",
+   "item": {
+    "caption": "Thyristor (h)\rThyristor (h)\rThyristor (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.75
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.58,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.42,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor, P-Gate (v)\rThyristor, P-gate (v)\rThyristor, gâchette P (v)",
+   "item": {
+    "caption": "Thyristor, P-Gate (v)\rThyristor, P-gate (v)\rThyristor, gâchette P (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.7,
+        6.35
+       ],
+       [
+        1.7,
+        7.62
+       ],
+       [
+        5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.48,
+       5.42
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor, P-Gate (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor, P-Gate (h)\rThyristor, P-gate (h)\rThyristor, gâchette P (h)",
+   "item": {
+    "caption": "Thyristor, P-Gate (h)\rThyristor, P-gate (h)\rThyristor, gâchette P (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.7
+       ],
+       [
+        7.62,
+        1.7
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.12,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.42,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor, P-Gate (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor, N-Gate (v)\rThyristor, N-gate (v)\rThyristor, gâchette N (v)",
+   "item": {
+    "caption": "Thyristor, N-Gate (v)\rThyristor, N-gate (v)\rThyristor, gâchette N (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1457,
+        4.41
+       ],
+       [
+        2.0457,
+        2.54
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       2.54
+      ],
+      "pos": [
+       5.48,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor, N-Gate (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor, N-Gate (h)\rThyristor, N-gate (h)\rThyristor, gâchette N (h)",
+   "item": {
+    "caption": "Thyristor, N-Gate (h)\rThyristor, N-gate (h)\rThyristor, gâchette N (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.41,
+        1.1457
+       ],
+       [
+        2.54,
+        2.0457
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       2.54,
+       5.08
+      ],
+      "pos": [
+       2.04,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.28,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor, N-Gate (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "GTO-Thyristor, P-Gate (v)\rGTO thyristor, P-gate (v)\rThyristor GTO, gâchette P (v)",
+   "item": {
+    "caption": "GTO-Thyristor, P-Gate (v)\rGTO thyristor, P-gate (v)\rThyristor GTO, gâchette P (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.7,
+        6.35
+       ],
+       [
+        1.7,
+        7.62
+       ],
+       [
+        5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.48,
+       5.42
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.78,
+        6.82
+       ],
+       [
+        3.78,
+        8.42
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/GTO-Thyristor, P-Gate (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "GTO-Thyristor, P-Gate (h)\rGTO thyristor, P-gate (h)\rThyristor GTO, gâchette P (h)",
+   "item": {
+    "caption": "GTO-Thyristor, P-Gate (h)\rGTO thyristor, P-gate (h)\rThyristor GTO, gâchette P (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.7
+       ],
+       [
+        7.62,
+        1.7
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.12,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.82,
+        3.78
+       ],
+       [
+        8.42,
+        3.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.42,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/GTO-Thyristor, P-Gate (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "GTO-Thyristor, N-Gate (v)\rGTO thyristor, N-gate (v)\rThyristor GTO, gâchette N (v)",
+   "item": {
+    "caption": "GTO-Thyristor, N-Gate (v)\rGTO thyristor, N-gate (v)\rThyristor GTO, gâchette N (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1457,
+        4.41
+       ],
+       [
+        2.0457,
+        2.54
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       2.54
+      ],
+      "pos": [
+       5.48,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.78,
+        1.74
+       ],
+       [
+        3.78,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/GTO-Thyristor, N-Gate (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "GTO-Thyristor, N-Gate (h)\rGTO thyristor, N-gate (h)\rThyristor GTO, gâchette N (h)",
+   "item": {
+    "caption": "GTO-Thyristor, N-Gate (h)\rGTO thyristor, N-gate (h)\rThyristor GTO, gâchette N (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.41,
+        1.1457
+       ],
+       [
+        2.54,
+        2.0457
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       2.54,
+       5.08
+      ],
+      "pos": [
+       2.04,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.74,
+        3.78
+       ],
+       [
+        3.34,
+        3.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.28,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/GTO-Thyristor, N-Gate (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristortetrode (v)\rTetrode thyristor (v)\rThyristor tétrode (v)",
+   "item": {
+    "caption": "Thyristortetrode (v)\rTetrode thyristor (v)\rThyristor tétrode (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.7,
+        6.35
+       ],
+       [
+        -1.7,
+        7.62
+       ],
+       [
+        -5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       -5.08,
+       7.62
+      ],
+      "pos": [
+       -4.68,
+       5.42
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1457,
+        4.41
+       ],
+       [
+        2.0457,
+        2.54
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G2",
+      "pin": [
+       5.08,
+       2.54
+      ],
+      "pos": [
+       5.48,
+       0.34
+      ],
+      "text": "G2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.0,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.0,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristortetrode (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristortetrode (h)\rTetrode thyristor (h)\rThyristor tétrode (h)",
+   "item": {
+    "caption": "Thyristortetrode (h)\rTetrode thyristor (h)\rThyristor tétrode (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        -0.7
+       ],
+       [
+        7.62,
+        -1.7
+       ],
+       [
+        7.62,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       7.62,
+       -5.08
+      ],
+      "pos": [
+       8.12,
+       -5.48
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.41,
+        1.1457
+       ],
+       [
+        2.54,
+        2.0457
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G2",
+      "pin": [
+       2.54,
+       5.08
+      ],
+      "pos": [
+       2.04,
+       2.88
+      ],
+      "text": "G2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.0,
+       -4.8
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.0,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristortetrode (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor, rückwärts leitend, P-Gate (v)\rReverse conducting thyristor, P-gate (v)\rThyristor à conduction inverse, gâchette P (v)",
+   "item": {
+    "caption": "Thyristor, rückwärts leitend, P-Gate (v)\rReverse conducting thyristor, P-gate (v)\rThyristor à conduction inverse, gâchette P (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        6.35
+       ],
+       [
+        1.5,
+        5.45
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.7,
+        6.35
+       ],
+       [
+        1.7,
+        7.62
+       ],
+       [
+        5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.48,
+       5.42
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor, rückwärts leitend, P-Gate (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor, rückwärts leitend, P-Gate (h)\rReverse conducting thyristor, P-gate (h)\rThyristor à conduction inverse, gâchette P (h)",
+   "item": {
+    "caption": "Thyristor, rückwärts leitend, P-Gate (h)\rReverse conducting thyristor, P-gate (h)\rThyristor à conduction inverse, gâchette P (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        1.5
+       ],
+       [
+        5.45,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.7
+       ],
+       [
+        7.62,
+        1.7
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.12,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.42,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Thyristor, rückwärts leitend, P-Gate (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Vierschichtdiode (v)\rFour-layer diode (v)\rDiode à quatre couches (v)",
+   "item": {
+    "caption": "Vierschichtdiode (v)\rFour-layer diode (v)\rDiode à quatre couches (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        5.08
+       ],
+       [
+        1.5,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Vierschichtdiode (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Vierschichtdiode (h)\rFour-layer diode (h)\rDiode à quatre couches (h)",
+   "item": {
+    "caption": "Vierschichtdiode (h)\rFour-layer diode (h)\rDiode à quatre couches (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.5
+       ],
+       [
+        5.08,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.28,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Vierschichtdiode (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Triac (v)\rTriac (v)\rTriac (v)",
+   "item": {
+    "caption": "Triac (v)\rTriac (v)\rTriac (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.6,
+        3.81
+       ],
+       [
+        2.6,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.6,
+        6.35
+       ],
+       [
+        2.6,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        3.81
+       ],
+       [
+        -0.1,
+        3.81
+       ],
+       [
+        -1.25,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.1,
+        6.35
+       ],
+       [
+        2.4,
+        6.35
+       ],
+       [
+        1.25,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.8,
+        6.35
+       ],
+       [
+        2.6,
+        7.62
+       ],
+       [
+        5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.48,
+       5.42
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Triac (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Triac (h)\rTriac (h)\rTriac (h)",
+   "item": {
+    "caption": "Triac (h)\rTriac (h)\rTriac (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.81,
+        -2.6
+       ],
+       [
+        3.81,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -2.6
+       ],
+       [
+        6.35,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -2.4
+       ],
+       [
+        3.81,
+        -0.1
+       ],
+       [
+        6.35,
+        -1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.1
+       ],
+       [
+        6.35,
+        2.4
+       ],
+       [
+        3.81,
+        1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        1.8
+       ],
+       [
+        7.62,
+        2.6
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.12,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.42,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "SCR?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Triac (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Diac (v)\rDiac (v)\rDiac (v)",
+   "item": {
+    "caption": "Diac (v)\rDiac (v)\rDiac (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.6,
+        3.81
+       ],
+       [
+        2.6,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.6,
+        6.35
+       ],
+       [
+        2.6,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        3.81
+       ],
+       [
+        -0.1,
+        3.81
+       ],
+       [
+        -1.25,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.1,
+        6.35
+       ],
+       [
+        2.4,
+        6.35
+       ],
+       [
+        1.25,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Diac (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Diac (h)\rDiac (h)\rDiac (h)",
+   "item": {
+    "caption": "Diac (h)\rDiac (h)\rDiac (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.81,
+        -2.6
+       ],
+       [
+        3.81,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -2.6
+       ],
+       [
+        6.35,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -2.4
+       ],
+       [
+        3.81,
+        -0.1
+       ],
+       [
+        6.35,
+        -1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.1
+       ],
+       [
+        6.35,
+        2.4
+       ],
+       [
+        3.81,
+        1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Diac (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zweirichtungs-Thyristordiode (v)\rBidirectional thyristor diode (v)\rThyristor diode bidirectionnel (v)",
+   "item": {
+    "caption": "Zweirichtungs-Thyristordiode (v)\rBidirectional thyristor diode (v)\rThyristor diode bidirectionnel (v)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.6,
+        3.81
+       ],
+       [
+        2.6,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.6,
+        6.35
+       ],
+       [
+        2.6,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        3.81
+       ],
+       [
+        -0.1,
+        3.81
+       ],
+       [
+        -1.25,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.1,
+        6.35
+       ],
+       [
+        2.4,
+        6.35
+       ],
+       [
+        1.25,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.08
+       ],
+       [
+        2.6,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Zweirichtungs-Thyristordiode (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zweirichtungs-Thyristordiode (h)\rBidirectional thyristor diode (h)\rThyristor diode bidirectionnel (h)",
+   "item": {
+    "caption": "Zweirichtungs-Thyristordiode (h)\rBidirectional thyristor diode (h)\rThyristor diode bidirectionnel (h)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.81,
+        -2.6
+       ],
+       [
+        3.81,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -2.6
+       ],
+       [
+        6.35,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -2.4
+       ],
+       [
+        3.81,
+        -0.1
+       ],
+       [
+        6.35,
+        -1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.1
+       ],
+       [
+        6.35,
+        2.4
+       ],
+       [
+        3.81,
+        1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -2.6
+       ],
+       [
+        5.08,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/USER/THYRISTOR/Zweirichtungs-Thyristordiode (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

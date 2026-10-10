@@ -1,0 +1,2918 @@
+{
+ "folder": "USER/Misc. (German)/IEC_EN61346",
+ "format": "OpenLoch Schematic Library",
+ "name": "Sensoren\rSensors\rCapteurs",
+ "symbols": [
+  {
+   "caption": "Schwimmerschalter (Schließer)\rFloat switch (make)\rInterrupteur à flotteur (fermeture)",
+   "item": {
+    "caption": "Schwimmerschalter (Schließer)\rFloat switch (make)\rInterrupteur à flotteur (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.9,
+       5.9371
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.9143,
+       3.9143
+      ],
+      "start": 39.9662,
+      "stop": 140.0338,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.9,
+       3.4229
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.9143,
+       3.9143
+      ],
+      "start": 219.9662,
+      "stop": 320.0338,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.9,
+        3.98
+       ],
+       [
+        -5.9,
+        2.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Schwimmerschalter (Schließer)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schwimmerschalter (Öffner)\rFloat switch (break)\rInterrupteur à flotteur (ouverture)",
+   "item": {
+    "caption": "Schwimmerschalter (Öffner)\rFloat switch (break)\rInterrupteur à flotteur (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1266,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.9,
+       5.9371
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.9143,
+       3.9143
+      ],
+      "start": 39.9662,
+      "stop": 140.0338,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.9,
+       3.4229
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.9143,
+       3.9143
+      ],
+      "start": 219.9662,
+      "stop": 320.0338,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.9,
+        3.98
+       ],
+       [
+        -5.9,
+        2.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Schwimmerschalter (Öffner)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckschalter (Schließer)\rPressure switch (make)\rPressostat (fermeture)",
+   "item": {
+    "caption": "Druckschalter (Schließer)\rPressure switch (make)\rPressostat (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -5.9,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -5.9,
+       3.38
+      ],
+      "text": "p",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Druckschalter (Schließer)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckschalter (Öffner)\rPressure switch (break)\rPressostat (ouverture)",
+   "item": {
+    "caption": "Druckschalter (Öffner)\rPressure switch (break)\rPressostat (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1266,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -5.9,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -5.9,
+       3.38
+      ],
+      "text": "p",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Druckschalter (Öffner)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Temperaturschalter (Schließer)\rTemperature switch (make)\rThermostat (fermeture)",
+   "item": {
+    "caption": "Temperaturschalter (Schließer)\rTemperature switch (make)\rThermostat (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -5.9,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -5.9,
+       3.38
+      ],
+      "text": "ϑ",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Temperaturschalter (Schließer)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Temperaturschalter (Öffner)\rTemperature switch (break)\rThermostat (ouverture)",
+   "item": {
+    "caption": "Temperaturschalter (Öffner)\rTemperature switch (break)\rThermostat (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1266,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -5.9,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -5.9,
+       3.38
+      ],
+      "text": "ϑ",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Temperaturschalter (Öffner)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thermoschalter (Schließer)\rThermal switch (bimetal) (make)\rInterrupteur thermique (bilame) (fermeture)",
+   "item": {
+    "caption": "Thermoschalter (Schließer)\rThermal switch (bimetal) (make)\rInterrupteur thermique (bilame) (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.4,
+        3.18
+       ],
+       [
+        -5.4,
+        3.98
+       ],
+       [
+        -4.6,
+        3.98
+       ],
+       [
+        -4.6,
+        5.38
+       ],
+       [
+        -5.4,
+        5.38
+       ],
+       [
+        -5.4,
+        6.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Thermoschalter (Schließer)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thermoschalter (Öffner)\rThermal switch (bimetal) (break)\rInterrupteur thermique (bilame) (ouverture)",
+   "item": {
+    "caption": "Thermoschalter (Öffner)\rThermal switch (bimetal) (break)\rInterrupteur thermique (bilame) (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1266,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.4,
+        3.18
+       ],
+       [
+        -5.4,
+        3.98
+       ],
+       [
+        -4.6,
+        3.98
+       ],
+       [
+        -4.6,
+        5.38
+       ],
+       [
+        -5.4,
+        5.38
+       ],
+       [
+        -5.4,
+        6.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.4,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.4,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Thermoschalter (Öffner)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Näherungsschalter (Schließer)\rProximity switch (make)\rDétecteur de proximité (fermeture)",
+   "item": {
+    "caption": "Näherungsschalter (Schließer)\rProximity switch (make)\rDétecteur de proximité (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        4.68
+       ],
+       [
+        -5.8,
+        3.28
+       ],
+       [
+        -7.2,
+        4.68
+       ],
+       [
+        -5.8,
+        6.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.0,
+        3.48
+       ],
+       [
+        -6.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.6,
+        3.48
+       ],
+       [
+        -5.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Näherungsschalter (Schließer)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Näherungsschalter (Öffner)\rProximity switch (break)\rDétecteur de proximité (ouverture)",
+   "item": {
+    "caption": "Näherungsschalter (Öffner)\rProximity switch (break)\rDétecteur de proximité (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1266,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        4.68
+       ],
+       [
+        -5.8,
+        3.28
+       ],
+       [
+        -7.2,
+        4.68
+       ],
+       [
+        -5.8,
+        6.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.0,
+        3.48
+       ],
+       [
+        -6.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.6,
+        3.48
+       ],
+       [
+        -5.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Näherungsschalter (Öffner)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Berührungsschalter (Schließer)\rTouch switch (make)\rInterrupteur tactile (fermeture)",
+   "item": {
+    "caption": "Berührungsschalter (Schließer)\rTouch switch (make)\rInterrupteur tactile (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        4.68
+       ],
+       [
+        -5.8,
+        3.28
+       ],
+       [
+        -7.2,
+        4.68
+       ],
+       [
+        -5.8,
+        6.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.0,
+        3.48
+       ],
+       [
+        -6.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.6,
+        3.48
+       ],
+       [
+        -5.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.2,
+        3.28
+       ],
+       [
+        -7.2,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Berührungsschalter (Schließer)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Berührungsschalter (Öffner)\rTouch switch (break)\rInterrupteur tactile (ouverture)",
+   "item": {
+    "caption": "Berührungsschalter (Öffner)\rTouch switch (break)\rInterrupteur tactile (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1266,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        4.68
+       ],
+       [
+        -5.8,
+        3.28
+       ],
+       [
+        -7.2,
+        4.68
+       ],
+       [
+        -5.8,
+        6.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.0,
+        3.48
+       ],
+       [
+        -6.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.6,
+        3.48
+       ],
+       [
+        -5.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.2,
+        3.28
+       ],
+       [
+        -7.2,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.2,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Berührungsschalter (Öffner)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnetschalter (Schließer)\rMagnetic proximity switch (make)\rDétecteur de proximité magnétique (fermeture)",
+   "item": {
+    "caption": "Magnetschalter (Schließer)\rMagnetic proximity switch (make)\rDétecteur de proximité magnétique (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        4.68
+       ],
+       [
+        -5.8,
+        3.28
+       ],
+       [
+        -7.2,
+        4.68
+       ],
+       [
+        -5.8,
+        6.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.0,
+        3.48
+       ],
+       [
+        -6.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.6,
+        3.48
+       ],
+       [
+        -5.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -9.2,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.8,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -9.9,
+       4.68
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -11.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -11.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Magnetschalter (Schließer)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnetschalter (Öffner)\rMagnetic proximity switch (break)\rDétecteur de proximité magnétique (ouverture)",
+   "item": {
+    "caption": "Magnetschalter (Öffner)\rMagnetic proximity switch (break)\rDétecteur de proximité magnétique (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1266,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        4.68
+       ],
+       [
+        -5.8,
+        3.28
+       ],
+       [
+        -7.2,
+        4.68
+       ],
+       [
+        -5.8,
+        6.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.0,
+        3.48
+       ],
+       [
+        -6.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.6,
+        3.48
+       ],
+       [
+        -5.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -9.2,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.8,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -9.9,
+       4.68
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -11.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -11.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Sensoren/Magnetschalter (Öffner)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

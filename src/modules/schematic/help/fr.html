@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>OpenLoch – Schéma</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+h3{font-size:14px;margin-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>Schéma – Aide</h1>
+<p>L'éditeur de schémas dessine des schémas électriques composés de feuilles, de composants avec contacts, de textes et de graphiques. Les réseaux sont déduits du dessin. L'enregistrement se fait dans le format propre au programme (<b>.olsch</b>) ; les fichiers sPlan 7 et 8 (<b>.spl7</b>, <b>.spl8</b>) peuvent être ouverts et réécrits.</p>
+<p><a href="#apercu">Aperçu</a> · <a href="#feuilles">Feuilles</a> · <a href="#cadre">Cadre de feuille</a> · <a href="#dessin">Dessiner</a> · <a href="#edition">Modifier</a> · <a href="#accroche">Accrochage et lignes magnétiques</a> · <a href="#composants">Composants et bibliothèque</a> · <a href="#listes">Listes</a> · <a href="#textes">Textes et variables</a> · <a href="#liens">Liens de texte</a> · <a href="#parent">Parent et enfant</a> · <a href="#recherche">Rechercher et remplacer</a> · <a href="#images">Images</a> · <a href="#reglages">Réglages et modèles</a> · <a href="#sortie">Sortie</a> · <a href="#splan">Fichiers sPlan</a> · <a href="#clavier">Clavier</a></p>
+
+<h2 id="apercu">Aperçu</h2>
+<p>La <b>bibliothèque</b> est à gauche, suivie de la <b>barre des modes</b> (Standard, Ligne, Point de soudure, Rectangle, Cercle, Polygone, Texte, Bloc de texte, Nom de réseau, Renvoi de feuille, Zoom ; dans l'éditeur de composants aussi Contact). Au centre se trouve la feuille avec ses règles, en dessous les onglets de feuilles (avec « Aller à la feuille » et « Ajouter rapidement une feuille »). À droite, le <b>panneau Propriétés</b> affiche les propriétés de la sélection ou, sans sélection, celles de la feuille et de son cadre. Chaque modification peut être annulée.</p>
+<p>La barre d'outils du haut contient Nouveau, Ouvrir, Enregistrer, Annuler, Rétablir, Couper, Copier, Coller, Dupliquer, Supprimer, Premier plan, Arrière-plan, Pivoter, les deux symétries, Grouper, Dissocier, Aligner, Grille, Zoom, Cadre de feuille, Éditeur de composants, Rechercher, Numéroter et Nomenclature, et à droite les commutateurs de la <b>liste des feuilles</b> et du <b>panneau Propriétés</b> ainsi que, tant qu'il y en a, le bouton <b>Problèmes</b>. Les menus sont Fichier, Éditeur de composants (seulement pendant l'édition d'un composant), Édition, Feuille, Cadre de feuille, Fonctions, Composant, Réglages et Aide. Le menu Fichier cite avant « Quitter » les huit derniers fichiers ouverts.</p>
+<p>Le panneau Propriétés et la liste des feuilles s'affichent ou se masquent et se détachent en fenêtre propre par leur barre de titre. La <b>liste des feuilles</b> montre les feuilles l'une sous l'autre avec numéro et nom : un clic choisit une feuille, faire glisser un numéro réordonne, le menu contextuel offre propriétés, suppression, une nouvelle feuille ou une copie (ici, en première ou en dernière position) ; en dessous figure « Insérer une table des matières… ».</p>
+<p><b>Problèmes :</b> lorsque des éléments se trouvent entièrement hors de la feuille ou que des images dépassent 300 dpi, le bouton « Problèmes » apparaît. Sa boîte de dialogue supprime les éléments hors de la feuille ou les déplace au bord de la feuille et ouvre le Bitmap-Explorer pour les images.</p>
+<p>La <b>barre d'état</b> affiche les coordonnées, la distance au dernier clic, l'échelle, la grille et le zoom, ainsi que les commutateurs d'accrochage à la grille, d'accrochage d'angle, d'accrochage de connexion, d'élastique, d'accrochage de rotation et du comportement des textes. Un clic sur l'échelle ouvre les propriétés de la feuille ; un clic sur la grille ou le zoom en ouvre la liste.</p>
+<p><b>Zoom :</b> en mode zoom, un clic agrandit et recentre l'endroit, un cadre tracé zoome sur sa zone, le bouton droit réduit. La molette de la souris zoome aussi. Pour déplacer la vue, maintenez le bouton central, ou double-cliquez sur un endroit vide en gardant le bouton enfoncé. <b>F5</b> affiche toute la feuille, <b>F6</b> tous les éléments, <b>F7</b> la sélection ; <b>F11</b> active le plein écran.</p>
+<p><b>Bouton droit :</b> il termine une ligne ou un polygone ; un second clic passe en mode standard. En mode standard, il ouvre le menu contextuel : sur un nœud avec « Supprimer le nœud » et « Scinder la ligne », à l'extrémité d'une ligne qui en touche une autre avec « Relier les lignes ». Pour les lignes, polygones, courbes de Bézier, rectangles et cercles, il propose aussi « Convertir en ligne », « Convertir en polygone » et « Convertir en courbe ». Un double-clic sur un composant ouvre l'éditeur de composants, sur un texte la saisie de texte étendue.</p>
+
+<h2 id="feuilles">Feuilles</h2>
+<ul>
+<li>Un document comporte autant de feuilles que souhaité, chacune avec un nom, une description, un format (Libre, A0 à A5, B4, B5, C3 à C5, Letter, Legal ; paysage ou portrait) et une échelle (« 1 mm = » 0,1 à 1000 mm, cm, m ou km ; « Réinitialiser » rétablit 1 mm). Cotations, mesures, règles, coordonnées et grille de la barre d'état affichent les longueurs multipliées par ce facteur.</li>
+<li>L'option <b>Feuille de réserve</b> exclut une feuille de l'impression de toutes les feuilles ou des feuilles choisies.</li>
+<li>Insérer des feuilles (avant ou après une feuille, en première ou dernière position, plusieurs à la fois), en ajouter rapidement (« + » près des onglets : une feuille vide ou la copie d'une feuille), copier, supprimer et trier (dans la boîte de dialogue ou en faisant glisser les onglets). « Aller à la feuille » choisit directement une feuille.</li>
+<li><b>Enregistrer la feuille</b> écrit la feuille actuelle dans un fichier à part, au choix comme fichier de feuille sPlan (<b>.blt</b>) ; ce qui serait perdu est indiqué au préalable. <b>Charger une feuille</b> insère les feuilles d'un fichier après la feuille actuelle.</li>
+</ul>
+
+<h2 id="cadre">Cadre de feuille</h2>
+<p>Chaque feuille possède un cadre : une bordure avec marge, éventuellement divisée en colonnes (1, 2, 3 …) et en lignes (A, B, C …) avec une grille, et des éléments propres comme un cartouche avec le nom et le numéro de la feuille. Il se trouve derrière le schéma et se modifie dans un mode à part (<b>Modifier le cadre de feuille</b>).</p>
+<ul>
+<li><b>Générer le cadre de feuille</b> crée la bordure à partir des valeurs de la feuille (section « Cadre de feuille » des propriétés ; une feuille sans bordure en reçoit une à 10 mm à l'intérieur). Chaque côté est annoté de rien (« --- »), de chiffres (« NUM ») ou de lettres (« CHAR », puis AA après Z), dans la police et la hauteur de votre choix ; un cartouche peut être ajouté.</li>
+<li><b>Charger le cadre de feuille</b> et <b>Enregistrer le cadre de feuille</b> lisent et écrivent des fichiers de cadre (<b>.sbk</b>).</li>
+</ul>
+
+<h2 id="dessin">Dessiner</h2>
+<p>Les modes de dessin ont des touches (voir <a href="#clavier">Clavier</a>). Tant qu'un mode de dessin est choisi et que rien n'est sélectionné, le panneau affiche son « préréglage », que reçoivent les nouveaux éléments. <b>Réglages › Préréglages</b> affiche chaque préréglage (ligne, surface, cote, point de soudure, texte, bloc de texte et les textes de composant repère, valeur et contact) dans le panneau sans changer de mode ; repère et valeur s'appliquent à « Créer un composant à partir de la sélection », le contact aux nouveaux contacts de l'éditeur de composants.</p>
+<p><b>Dans le panneau :</b> la position se rapporte à un point de référence (un coin ou le centre) à l'échelle de la feuille. Sans « Traiter comme un groupe », chaque élément sélectionné place son propre point de référence sur la valeur saisie, et « Aligner » propose les alignements ; avec la case cochée, la sélection se déplace d'un bloc. Pour une sélection de types différents, une liste en haut indique le nombre de chaque type ; en y choisissant des types, le panneau n'affiche et ne modifie que ceux-ci. Les points de soudure avec « Automatique » prennent taille et couleur de la ligne la plus large qui passe dessous (niveau XS à XL) ; « Réinitialiser » règle 1,2 mm noir. « Normaliser » redresse les textes, « Inverser le sens d’écriture » tourne un texte de 180° dans son cadre.</p>
+<ul>
+<li><b>Lignes</b> avec autant de nœuds que souhaité et extrémités au choix (triangle, flèche, flèche ouverte, cercle, point, losange, carré, trait transversal, flèche et triangle inversés). Les <b>points de soudure</b> marquent les jonctions.</li>
+<li><b>Rectangles</b> (angles droits, arrondis, biseautés), <b>cercles et ellipses</b> (entiers, arc, secteur, corde), <b>polygones</b>. Rectangles et ellipses se tracent depuis un coin ou depuis le centre (choix au triangle du bouton d'outil) ; avec la touche Maj, on obtient un carré ou un cercle. L'arrondi et les extrémités d'un arc se modifient avec des poignées rondes.</li>
+<li><b>Courbes de Bézier</b> : clic après clic (point de départ, deux points de contrôle, point d'arrivée ; pour chaque courbe suivante deux points de contrôle et un point d'arrivée) ; le bouton droit termine. <b>Lignes à main levée</b> : bouton de la souris maintenu.</li>
+<li><b>Textes</b>, <b>blocs de texte</b> (texte dans un cadre avec retour à la ligne), <b>noms de réseau</b> et <b>groupes</b>.</li>
+<li><b>Contour :</b> couleur, épaisseur et cinq styles de trait, ou sans contour. Au choix en deux couleurs, avec une bande longitudinale ou des bandes transversales, chacune avec sa couleur. <b>Remplissage :</b> plein ou hachures (horizontales, verticales, diagonales, quadrillées) avec espacement et épaisseur des lignes.</li>
+<li><b>Formes spéciales</b> affiche une liste : polygone et étoile, grille, oscillation (sinus, créneau, trapèze, triangle, dent de scie), accolade et parenthèse, triangle, triangle rectangle, quadrilatère, losange, parallélogramme, hexagone, octogone, flèches, bulle et éclair. La forme remplit le cadre tracé et se compose ensuite d'éléments ordinaires.</li>
+<li><b>Cotation</b> (touche <span class="key">B</span> ; type dans la liste du bouton : Standard, Rayon, Diamètre, Angle) : une distance se mesure avec deux clics et un troisième pour la position de la ligne de cote, un rayon ou un diamètre avec deux clics, un angle avec le sommet et un point sur chaque branche. Le bouton droit annule. La valeur cotée est la longueur multipliée par l'échelle de la feuille, avec 0 à 3 décimales, au choix avec un point au lieu de la virgule, Ø, préfixe et suffixe, ou une valeur fixe. <b>Fixer la cotation</b> (Fonctions, menu contextuel) transforme le nombre affiché en valeur fixe, <b>Annuler la fixation de la cotation</b> mesure à nouveau. La poignée au milieu de la ligne de cote la déplace.</li>
+<li><b>Mesurer</b> affiche, bouton enfoncé, la longueur, dX, dY et l'angle.</li>
+</ul>
+
+<h2 id="edition">Modifier</h2>
+<ul>
+<li><b>Sélectionner :</b> clic, Maj- ou Ctrl-clic et cadre de sélection (y compris les éléments seulement en partie dans le cadre). <span class="key">Tab</span> sélectionne l'élément suivant, <span class="key">Maj+Tab</span> le précédent.</li>
+<li><b>Étirer :</b> huit poignées autour de la sélection l'étirent. Un autre clic sur un élément sélectionné transforme les poignées en flèches : les flèches d'angle font pivoter autour du centre (par pas d'angle, <span class="key">Ctrl</span> pivote librement), les flèches latérales inclinent.</li>
+<li><b>Déplacer</b> à la souris ou aux touches fléchées (un pas de grille, avec <span class="key">Ctrl</span> 0,1 mm, avec <span class="key">Maj</span> dix pas de grille). Les nœuds et les coins se tirent ; tirer avec <span class="key">Alt</span> déplace un seul segment d'une ligne ou d'un polygone. De nouveaux nœuds se tirent depuis les « nœuds virtuels » bleus au milieu de chaque section ; supprimer des nœuds, scinder ou relier des lignes se fait dans le menu contextuel.</li>
+<li>Pivoter de 90° ou d'un angle, mettre à l'échelle d'un pourcentage, symétrie horizontale et verticale, colorer les éléments (<span class="key">Ctrl+Alt+C</span>), fixer l'épaisseur de trait ou la modifier en pourcentage, grouper, changer l'ordre (premier plan, arrière-plan, un cran avant, un cran arrière).</li>
+<li><b>Aligner sur la grille</b> place le point de référence de chaque élément sélectionné sur la grille. <b>Aligner</b> (haut, bas, gauche, droite, centré) et <b>répartir uniformément</b> se basent sur les limites de la sélection.</li>
+<li>Couper, copier, coller, dupliquer ; annuler et rétablir.</li>
+<li>Pour une ligne, une courbe ou un polygone sélectionné, le panneau indique la longueur (à l'échelle de la feuille) et le nombre de nœuds.</li>
+</ul>
+
+<h2 id="accroche">Accrochage et lignes magnétiques</h2>
+<ul>
+<li><b>Accrochage à la grille</b> (<span class="key">Ctrl</span> le suspend), <b>accrochage d'angle</b> par pas de 45° pendant le tracé de lignes (<span class="key">Maj</span> le désactive), <b>accrochage de connexion</b> sur les nœuds de ligne, points de soudure et bornes de contact avec un cercle rouge (<span class="key">Alt</span> le désactive) et <b>élastique</b> : les liaisons qui aboutissent à un composant déplacé le suivent.</li>
+<li>Les <b>lignes magnétiques</b> sont des repères verticaux et horizontaux par feuille qui attirent à moins de 8 pixels lors du déplacement, du dessin et du placement ; elles ne sont ni imprimées ni exportées. De nouvelles lignes sont créées par <b>Fonctions › Lignes magnétiques</b> ou en tirant depuis une règle. On tire une ligne pour la déplacer, on la sélectionne d'un clic et on la supprime avec « Supprimer », ou on la remet sur une règle. « Verrouiller les lignes magnétiques » les protège contre toute modification, « Masquer les lignes magnétiques » les masque avec leur attraction. L'éditeur de composants n'a pas de lignes magnétiques.</li>
+</ul>
+
+<h2 id="composants">Composants et bibliothèque</h2>
+<h3>Composants</h3>
+<p>Un composant est un groupe d'éléments de dessin avec point d'insertion, repère, valeur, quatre textes supplémentaires et contacts (bornes annotées). Repère et valeur peuvent être affichés ou masqués ; des options existent pour la numérotation automatique, la demande de la valeur lors du glissement et l'inclusion dans la nomenclature.</p>
+<ul>
+<li>Les composants viennent de la bibliothèque ou de <b>Créer un composant à partir de la sélection</b> et peuvent être dissociés.</li>
+<li>L'<b>éditeur de composants</b> (<span class="key">Alt+Entrée</span> ou double-clic ; « Enregistrer et quitter » ou « Annuler ») modifie un composant. Le point d'insertion rouge se tire à la souris vers un autre point de la grille.</li>
+<li><b>Annotation des composants</b> (menu Composant) règle police, hauteur, gras et italique des repères, valeurs et contacts dans tout le projet, sur la feuille actuelle, pour les composants sélectionnés ou sur la page de bibliothèque personnelle choisie.</li>
+<li><b>Renuméroter les composants</b> (menu Fonctions) numérote les composants avec « numérotation automatique » de façon continue par suite de lettres sur les feuilles choisies, dans l'ordre des éléments, par colonnes ou par lignes, au choix seulement les composants sélectionnés ou un seul repère, à partir d'une valeur de départ.</li>
+<li>Les textes d'un composant non sélectionné (repère, valeur, contacts) se tirent un à un par pas de grille. Le menu contextuel propose aussi « Déplacer le texte du composant » : le texte suit le pointeur, un clic le dépose, <span class="key">Échap</span> ou le bouton droit le remet en place.</li>
+</ul>
+<h3>Bibliothèque</h3>
+<ul>
+<li>La bibliothèque de gauche contient des pages de composants et de clips (groupes) : symboles fournis selon DIN EN 60617, ISO 1219 et documents de fabricants, pages d'une bibliothèque sPlan (<b>.LIB</b>) et pages personnelles dans le dossier de la bibliothèque. Noms et légendes apparaissent dans la langue de l'interface.</li>
+<li>Au-dessus de la bibliothèque, la page choisie est affichée sous forme de chemin (« Électrique &gt; Antennes »). Un clic ouvre le menu de son niveau de dossier avec « &lt;--- » (un niveau en arrière), les dossiers et les pages ; le bouton voisin affiche toutes les pages sous forme d'arbre. Colonnes (une à huit), légendes, page précédente et suivante et recherche (légende, repère ou valeur dans toutes les pages) se trouvent en dessous.</li>
+<li>Les composants se tirent sur la feuille, ou se cliquent puis se déposent ; <span class="key">Ctrl+R</span> les fait pivoter pendant ce temps.</li>
+<li>Le menu contextuel de la bibliothèque modifie les pages personnelles : propriétés, nouveau composant, dupliquer, supprimer, nouvelle page, nouveau sous-dossier, copier, renommer, vider, réordonner les composants par glisser-déposer. Sous « Extras » se trouvent <b>Créer une sauvegarde…</b> (archive ZIP du dossier de la bibliothèque) et <b>Restaurer une sauvegarde…</b>. Les pages non modifiables sont seulement affichées.</li>
+<li><b>Copier le(s) composant(s) dans la bibliothèque</b> et <b>Copier comme clip dans la bibliothèque</b> reprennent des composants ou la sélection de la feuille. <b>Copier sur une feuille</b> crée une nouvelle feuille avec les symboles d'une page ou de toutes les pages d'un niveau.</li>
+</ul>
+
+<h2 id="listes">Listes</h2>
+<ul>
+<li><b>Créer la nomenclature</b> affiche les composants marqués « Inclure dans la nomenclature » des feuilles choisies dans un tableau modifiable, groupés d'après les lettres de leurs repères (alphabétiquement ou plus grand groupe d'abord), les composants identiques au choix sur une seule ligne (« R1,R2,R3 », 3, « 1k »), avec des colonnes pour les textes supplémentaires. Elle peut être imprimée, copiée dans le presse-papiers, enregistrée et rouverte en fichier RTF, exportée en fichier texte (point-virgule ou tabulation) et placée sur la feuille sous forme de tableau de textes et de lignes (police, cadre, ombre, séparateurs, lignes alternées ; les longues listes se répartissent en tableaux côte à côte).</li>
+<li>La fenêtre de nomenclature règle la police (6 à 48 pt) de la liste, de l'impression et du RTF, ainsi que les marges d'impression et le format portrait ou paysage ; l'export affiche un aperçu, « ? » ouvre cette aide.</li>
+<li><b>Créer la liste des contacts</b> énumère tous les contacts avec feuille, composant, texte et nom ; un double-clic saute au composant, la liste va dans le presse-papiers.</li>
+<li><b>Insérer la table des matières</b> place les feuilles choisies avec numéro et nom sous forme de tableau sur la feuille actuelle.</li>
+<li><b>Créer la liste des liens</b> (Fonctions) énumère tous les liens de texte, <b>Créer la liste parent-enfant</b> tous les parents avec leurs enfants (voir plus bas).</li>
+</ul>
+
+<h2 id="textes">Textes et variables</h2>
+<p>Dans les textes, blocs de texte et textes de composants, les variables se placent entre chevrons et sont remplacées par leur valeur. La <b>saisie de texte étendue</b> (double-clic sur un texte, ou « … » dans le panneau) les insère par « Insérer une variable fixe » ; « Insérer une variable utilisateur » et « Insérer une constante de texte » proposent vos propres valeurs, chacune avec « Définir… ». « Ω » ouvre les caractères spéciaux (aussi avec <span class="key">Ctrl+Inser</span>) ; un double-clic insère un caractère.</p>
+<table>
+<tr><td class="key">&lt;PAGENO&gt;</td><td>Numéro de la feuille</td></tr>
+<tr><td class="key">&lt;PAGECOUNT&gt;</td><td>Nombre de feuilles</td></tr>
+<tr><td class="key">&lt;PAGENAME&gt;</td><td>Nom de la feuille</td></tr>
+<tr><td class="key">&lt;PAGESCALE&gt;</td><td>Nombre de millimètres que représente un millimètre de la feuille, sous forme de nombre (par exemple « 2,5 »)</td></tr>
+<tr><td class="key">&lt;PREVIOUS_PAGENO&gt;<br>&lt;NEXT_PAGENO&gt;</td><td>Numéro de la feuille précédente ou suivante qui n'est pas une feuille de réserve, sinon « - »</td></tr>
+<tr><td class="key">&lt;FILENAME&gt;</td><td>Nom du fichier</td></tr>
+<tr><td class="key">&lt;FILENAME_PURE&gt;</td><td>Nom du fichier sans extension</td></tr>
+<tr><td class="key">&lt;FILEPATH&gt;</td><td>Chemin du fichier</td></tr>
+<tr><td class="key">&lt;FILEDATE&gt;<br>&lt;FILETIME&gt;</td><td>Date et heure du fichier</td></tr>
+<tr><td class="key">&lt;DATE&gt;<br>&lt;TIME&gt;</td><td>Date et heure actuelles</td></tr>
+<tr><td class="key">&lt;VERSION&gt;</td><td>Version</td></tr>
+<tr><td class="key">&lt;BEZ&gt;, &lt;ID&gt;</td><td>Repère du composant (seulement dans les composants)</td></tr>
+<tr><td class="key">&lt;WERT&gt;, &lt;VALUE&gt;, &lt;VALEUR&gt;</td><td>Valeur du composant</td></tr>
+<tr><td class="key">&lt;Z1&gt; à &lt;Z4&gt;</td><td>Les quatre textes supplémentaires du composant</td></tr>
+<tr><td class="key">&lt;COLNUM&gt;, &lt;COLCHAR&gt;<br>&lt;ROWNUM&gt;, &lt;ROWCHAR&gt;</td><td>Colonne et ligne de la grille du cadre où se trouve le composant, en chiffre ou en lettre</td></tr>
+<tr><td class="key">&lt;PARENT_ID&gt;, &lt;PARENT_VALUE&gt;</td><td>Repère et valeur du parent (voir Parent et enfant)</td></tr>
+<tr><td class="key">&lt;PARENT_ID_NUMBER&gt;</td><td>Les chiffres à la fin du repère du parent, sous forme de nombre, sans zéros initiaux</td></tr>
+<tr><td class="key">&lt;PARENT_PAGENO&gt;<br>&lt;PARENT_PAGENAME&gt;</td><td>Numéro et nom de la feuille du parent</td></tr>
+<tr><td class="key">&lt;PARENT_Z1&gt; à &lt;PARENT_Z4&gt;<br>&lt;PARENT_CONTACT_n&gt;<br>&lt;PARENT_COLNUM&gt; etc.</td><td>Textes supplémentaires, contact n et position dans la grille du parent</td></tr>
+<tr><td class="key">&lt;CHILDNO&gt;, &lt;CHILDCHAR&gt;</td><td>Numéro de l'enfant (1, 2, 3 ou a, b, c)</td></tr>
+<tr><td class="key">&lt;CHILD_PAGENO&gt;, &lt;CHILD_PAGENAME&gt;<br>&lt;CHILD_COLNUM&gt; etc.</td><td>Données du premier enfant d'un parent ; avec <span class="key">_n</span> ajouté (par exemple &lt;CHILD_PAGENO_2&gt;) celles du n-ième</td></tr>
+<tr><td class="key">&lt;LINK_PAGENO&gt;, &lt;LINK_PAGENAME&gt;<br>&lt;LINK_TEXT&gt;, &lt;LINK_COLNUM&gt; etc.</td><td>Données de la cible du lien d'un texte</td></tr>
+<tr><td class="key">&lt;LINKFROM_PAGENO&gt;<br>&lt;LINKFROM_PAGENAME&gt;<br>&lt;LINKFROM_TEXT&gt;</td><td>Données du premier texte qui renvoie à ce texte</td></tr>
+</table>
+<p>Les <b>variables utilisateur</b> appartiennent au document et se gèrent dans la boîte de dialogue avec « Nouvelle ligne » et « Supprimer la ligne » ; un nom présent deux fois sans tenir compte des majuscules et minuscules est refusé. Les <b>constantes de texte</b> sont des textes prêts à l'emploi que la saisie de texte insère.</p>
+<h3>Repères avec numéro de page et préfixe</h3>
+<p>Si « Composants avec numéro de page » est activé sous <b>Réglages › Réglages de base</b>, chaque composant sans parent affiche son repère sous la forme préfixe, numéro de feuille et repère, sans séparateur : préfixe « =A- », feuille 2, repère R1 donne « =A-2R1 ». Si le composant change de feuille ou si l'ordre des feuilles change, le numéro change avec lui. Le repère saisi reste enregistré tel quel. Les enfants reprennent, par <span class="key">&lt;PARENT_ID&gt;</span>, le repère de leur parent avec préfixe et numéro de feuille. La nomenclature et la recherche avec variables résolues utilisent le repère complété.</p>
+
+<h2 id="liens">Liens de texte</h2>
+<p>Un texte peut porter un lien externe (adresse web ou fichier ; il apparaît souligné, un double-clic l'ouvre après confirmation) ou renvoyer à un autre texte déclaré comme cible, y compris sur une autre feuille. Un double-clic ou <span class="key">F8</span> suit le lien. À l'écran, les cibles portent une flèche vers l'intérieur à gauche, les liens une flèche vers l'extérieur à droite. Lien, cible et déclaration se règlent dans le panneau Propriétés ; une cible énumère les textes qui y renvoient.</p>
+
+<h2 id="parent">Parent et enfant</h2>
+<p>Un composant avec le statut de parent accepte des enfants, un enfant nomme son parent, également d'une feuille à l'autre (par exemple un contacteur et ses contacts, ou un circuit intégré et ses portes). Les enfants sont numérotés dans l'ordre des feuilles et de leurs éléments et affichent les données de leur parent avec les variables <span class="key">&lt;PARENT_…&gt;</span> ; un parent affiche celles de ses enfants avec les variables <span class="key">&lt;CHILD_…&gt;</span>.</p>
+<ul>
+<li>Dans le panneau Propriétés, un composant reçoit le statut de parent (<b>Définir le statut PARENT</b>) ; des composants sélectionnés sont liés à un parent par <b>Lier au PARENT…</b> (repère et valeur deviennent alors <span class="key">&lt;PARENT_ID&gt;</span> et <span class="key">&lt;PARENT_VALUE&gt;</span>). Liaison et statut peuvent être retirés.</li>
+<li>Un parent énumère ses enfants, un enfant son parent ; un double-clic y mène, aussi sur une autre feuille.</li>
+<li>Quand un parent et ses enfants sont copiés ensemble (coller, dupliquer, copier ou charger une feuille), les enfants copiés appartiennent au parent copié. Une structure entière (par exemple un 7400 avec ses quatre portes) entre dans la bibliothèque comme clip et reçoit, lors du placement, le prochain numéro libre pour chaque parent.</li>
+<li><b>Colorer les composants parent/enfant</b> teinte les parents en bleu clair et les enfants en rouge clair.</li>
+<li><b>Créer la liste parent-enfant</b> (menu Fonctions) affiche tous les parents avec leurs enfants, au choix seulement pour la feuille actuelle et avec les contacts.</li>
+<li><b>Créer la liste des enfants (miroir des contacts)</b> dans le panneau d'un parent (aussi dans le menu contextuel) place sur la feuille un tableau de ses enfants : colonnes au choix dans un ordre défini par glisser-déposer (repère, contacts, valeur, numéro de feuille, nom de feuille, position dans la grille, renvoi), avec police, cadre, ombre, séparateurs et aperçu.</li>
+</ul>
+
+<h2 id="recherche">Rechercher et remplacer</h2>
+<p><b>Édition › Rechercher/Remplacer</b> (<span class="key">Ctrl+F</span>) affiche un panneau à droite. On cherche des composants par repère et valeur, ou des textes (blocs de texte et noms de réseau compris), sur la feuille actuelle ou sur toutes, avec ou sans respect de la casse, avec variables résolues ou telles qu'écrites, au choix seulement les composants de la nomenclature. Une partie du texte suffit. Les résultats sont classés par feuille sous « Toutes les feuilles » ; un clic montre l'élément. <b>Remplacer -&gt;</b> remplace dans l'élément choisi, sur la feuille choisie ou sur toutes les feuilles, annulable en une seule étape.</p>
+
+<h2 id="images">Images</h2>
+<p><b>Insérer une image depuis un fichier</b> (PNG, JPEG, BMP ; aussi le mode « Bitmap », touche <span class="key">F</span>) place une image d'un clic. Le panneau indique taille, pixels, mémoire et résolution, et propose « Réduire la résolution », « Pivoter le bitmap de 90° », « Normaliser » (hauteur déduite de la largeur selon les proportions de l'image) et « Éclaircir ». L'<b>explorateur de bitmaps</b> (menu Fonctions) énumère les images par feuille, mémoire ou résolution et réduit l'image choisie ou toutes les images dépassant une résolution maximale (100 à 900 dpi).</p>
+
+<h2 id="reglages">Réglages et modèles</h2>
+<ul>
+<li><b>Réglages › Réglages de base</b> affiche à gauche une liste de pages. « Réglages de base » contient les options du dessin lui-même, enregistrées avec le fichier : « Feuilles avec numéro de page » (onglets affichés « 1 : Nom »), « Composants avec numéro de page » avec préfixe, et la touche supplémentaire nécessaire pour déplacer les textes de composants (Alt, Maj+Alt, Ctrl+Alt ou Méta).</li>
+<li>Autres pages : « Affichage » (fond blanc), « Dossiers » (dossiers de travail pour dessins, cadres de feuille et export graphique, dossiers des modèles et des cadres), « Bibliothèque » (dossier racine), « Grille » (contraste, repères de grille, grille de points ou de lignes, grille au-dessus du cadre), « Enregistrement automatique » (une copie « Nom.bak » toutes les n minutes ; une copie « Backup_of_Nom » à l'ouverture), « Nouvelle feuille » (format, taille, grille et cadre pour les nouveaux documents et feuilles) et « Raccourcis » (touches des modes de dessin, avec « Valeurs par défaut »).</li>
+<li><b>Nouveau à partir d'un modèle…</b> ouvre un schéma du dossier des modèles comme nouveau document non enregistré ; <b>Enregistrer comme modèle…</b> y dépose le document. <b>Explorateur…</b> affiche le dossier du document dans le gestionnaire de fichiers.</li>
+</ul>
+
+<h2 id="sortie">Sortie</h2>
+<h3>Exporter</h3>
+<p><b>Exporter…</b> demande d'abord le format de fichier (JPG, PNG, BMP, EMF, SVG, PDF), la résolution (curseur de 20 à 300 dpi, champ numérique jusqu'à 2400 dpi, avec taille d'origine et taille de l'image), couleur ou N/B, « Transparent » (PNG, SVG, EMF) et la sélection, puis le fichier. Sont exportés :</p>
+<ul>
+<li>la feuille actuelle,</li>
+<li><b>Tous les éléments</b> : le rectangle englobant tous les éléments plus 4 mm autour, avec le cadre de feuille,</li>
+<li><b>Éléments sélectionnés uniquement</b> : leur rectangle plus 4 mm,</li>
+<li><b>Toutes les feuilles</b> (si plusieurs feuilles) : chacune dans un fichier à part avec le numéro de feuille ajouté, sans les feuilles de réserve ; en PDF un seul fichier.</li>
+</ul>
+<p>SVG et EMF sont des formats vectoriels en centièmes de millimètre ; le PDF est écrit en graphique vectoriel, chaque feuille comme une page de sa taille.</p>
+<h3>Presse-papiers</h3>
+<p><b>Presse-papiers…</b> (<span class="key">Ctrl+B</span>) demande la résolution (75, 150 ou 300 dpi) et « Tout » ou « Sélection » et place dans le presse-papiers, sous forme d'image, les éléments (avec le cadre de feuille) ou les éléments sélectionnés plus 4 mm autour.</p>
+<h3>Impression et aperçu avant impression</h3>
+<p>L'impression ouvre un aperçu avec l'imprimante et « Configurer… » (ou un fichier PDF), le papier avec sa zone imprimable et le dessin, que l'on peut déplacer à la souris. Pour chaque feuille :</p>
+<ul>
+<li><b>Échelle</b> 1:1 ou libre (10 à 800 %),</li>
+<li><b>Décalage</b> avec « Réinitialiser » en quatre variantes (feuille au bord du papier, feuille à la zone imprimable, impression au bord du papier, impression à la zone imprimable),</li>
+<li><b>Format de feuille</b> (automatique, portrait, paysage) et <b>impression en bannière</b> sur plusieurs pages avec recouvrement,</li>
+<li><b>Ajuster</b> (met le contenu à 98 % de la zone imprimable et le centre) et <b>Centrer</b>, pour une ou toutes les feuilles, ainsi que la reprise d'un réglage pour toutes les feuilles.</li>
+</ul>
+<p>La feuille actuelle, toutes les feuilles ou une sélection sont imprimées ; les feuilles de réserve sont ignorées. Les feuilles dont le dessin dépasse la zone imprimable sont marquées « [!] » dans la barre des feuilles et comptées comme « Feuilles tronquées : n » ; le bouton d'impression devient alors rouge.</p>
+
+<h2 id="splan">Fichiers sPlan</h2>
+<ul>
+<li>Les fichiers <b>.spl8</b> et <b>.spl7</b> peuvent être ouverts. Un aperçu partiel indique ce qu'OpenLoch affiche différemment ou omet.</li>
+<li>L'enregistrement réécrit dans le fichier sPlan tant que rien n'est perdu.</li>
+<li>Vos propres schémas peuvent être exportés en sPlan 8 ou sPlan 7 ; une liste montre au préalable ce qui serait perdu.</li>
+<li>Les fichiers de feuille (<b>.blt</b>), cadres de feuille (<b>.sbk</b>) et bibliothèques (<b>.LIB</b>) de sPlan sont également lus.</li>
+</ul>
+
+<h2 id="clavier">Clavier</h2>
+<table>
+<tr><td class="key">L, P, R, K, O</td><td>Ligne, point de soudure, rectangle, cercle, polygone</td></tr>
+<tr><td class="key">U, H, S</td><td>Courbe de Bézier, ligne à main levée, formes spéciales</td></tr>
+<tr><td class="key">T, E</td><td>Texte, bloc de texte</td></tr>
+<tr><td class="key">B, M, Z, F</td><td>Cotation, mesure, zoom, bitmap</td></tr>
+<tr><td class="key">Échap</td><td>Mode standard</td></tr>
+<tr><td class="key">F1</td><td>Aide</td></tr>
+<tr><td class="key">F5, F6, F7</td><td>Zoom sur la feuille, tous les éléments, la sélection</td></tr>
+<tr><td class="key">F8</td><td>Suivre le lien de texte</td></tr>
+<tr><td class="key">F11</td><td>Plein écran</td></tr>
+<tr><td class="key">Tab, Maj+Tab</td><td>Sélectionner l'élément suivant, précédent</td></tr>
+<tr><td class="key">Touches fléchées</td><td>Déplacer la sélection d'un pas de grille ; <span class="key">Ctrl</span> 0,1 mm, <span class="key">Maj</span> dix pas de grille</td></tr>
+<tr><td class="key">Ctrl+Alt+C</td><td>Colorer les éléments</td></tr>
+<tr><td class="key">Ctrl+F</td><td>Rechercher/Remplacer</td></tr>
+<tr><td class="key">Ctrl+B</td><td>Presse-papiers (image)</td></tr>
+<tr><td class="key">Ctrl+R</td><td>Pivoter le composant pendant le placement</td></tr>
+<tr><td class="key">Ctrl+Inser</td><td>Caractères spéciaux dans la saisie de texte</td></tr>
+<tr><td class="key">Alt+Entrée</td><td>Éditeur de composants</td></tr>
+<tr><td class="key">Ctrl, Maj, Alt</td><td>Pendant le dessin : suspendre l'accrochage à la grille, d'angle, de connexion</td></tr>
+</table>
+<p>Les touches des modes de dessin se modifient sous <b>Réglages › Réglages de base › Raccourcis</b>.</p>
+</body>
+</html>

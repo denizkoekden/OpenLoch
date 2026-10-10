@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="utf-8"><title>OpenLoch – Schaltplan</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+h3{font-size:14px;margin-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>Schaltplan – Hilfe</h1>
+<p>Der Schaltplan-Editor zeichnet Schaltpläne aus Blättern, Bauteilen mit Kontakten, Texten und Grafik. Aus der Zeichnung werden die Netze abgeleitet. Gespeichert wird im eigenen Format (<b>.olsch</b>); Dateien von sPlan 7 und 8 (<b>.spl7</b>, <b>.spl8</b>) lassen sich öffnen und zurückschreiben.</p>
+<p><a href="#ueberblick">Überblick</a> · <a href="#blaetter">Blätter</a> · <a href="#formblatt">Formblatt</a> · <a href="#zeichnen">Zeichnen</a> · <a href="#bearbeiten">Bearbeiten</a> · <a href="#fang">Fang und Magnetlinien</a> · <a href="#bauteile">Bauteile und Bibliothek</a> · <a href="#listen">Listen</a> · <a href="#texte">Texte und Variablen</a> · <a href="#links">Text-Verlinkungen</a> · <a href="#parent">Parent und Child</a> · <a href="#suchen">Suchen und Ersetzen</a> · <a href="#bilder">Bilder</a> · <a href="#einstellungen">Einstellungen und Vorlagen</a> · <a href="#ausgabe">Ausgabe</a> · <a href="#splan">sPlan-Dateien</a> · <a href="#tasten">Tastatur</a></p>
+
+<h2 id="ueberblick">Überblick</h2>
+<p>Links steht die <b>Bibliothek</b>, daneben die <b>Modus-Leiste</b> (Standard, Linie, Lötpunkt, Rechteck, Kreis, Polygon, Text, Mengentext, Netzname, Blattverweis, Zoom; im Bauteileditor zusätzlich Kontakt). In der Mitte liegt das Blatt mit Linealen, darunter die Blattreiter mit „Gehe zu Blatt“ und „Blatt schnell hinzufügen“. Rechts zeigt das <b>Eigenschaften-Panel</b> die Eigenschaften der Auswahl oder, ohne Auswahl, des Blatts und seines Formblatts; jede Änderung ist ein Rückgängig-Schritt.</p>
+<p>Die obere Werkzeugleiste enthält Neu, Öffnen, Speichern, Rückgängig, Wiederherstellen, Ausschneiden, Kopieren, Einfügen, Duplizieren, Löschen, Nach vorn, Nach hinten, Rotieren, die beiden Spiegelungen, Gruppieren, Gruppe auflösen, Ausrichten, Raster, Zoom, Formblatt, Bauteileditor, Suchen, Nummerieren und Stückliste, dazu rechts die Schalter für die <b>Blattliste</b> und das <b>Eigenschaften-Panel</b> sowie, solange es Probleme gibt, den Knopf <b>Probleme</b>. Die Menüs heißen Datei, Bauteileditor (nur während ein Bauteil bearbeitet wird), Bearbeiten, Blatt, Formblatt, Funktionen, Bauteil, Einstellungen und Hilfe. Das Menü Datei nennt vor „Beenden“ die acht zuletzt geöffneten Dateien.</p>
+<p>Eigenschaften-Panel und Blattliste lassen sich ein- und ausblenden und über ihre Titelleiste als eigenes Fenster freistellen. Die <b>Blattliste</b> zeigt die Blätter untereinander mit Nummer und Name: Ein Klick wählt ein Blatt, Ziehen an der Nummer sortiert um, das Kontextmenü bietet Eigenschaften, Löschen, ein neues Blatt oder eine Kopie (hier, als erstes oder letztes Blatt); darunter steht „Inhaltsverzeichnis einfügen…“.</p>
+<p><b>Probleme:</b> Liegen Elemente ganz außerhalb des Blatts oder haben Bilder mehr als 300 dpi, erscheint der Knopf „Probleme“. Sein Dialog löscht die Elemente außerhalb oder verschiebt sie an den Rand des Blatts und ruft für die Bilder den Bitmap-Explorer auf.</p>
+<p>Die <b>Statusleiste</b> zeigt Koordinaten, Abstand zum letzten Klick, Maßstab, Raster und Zoom sowie die Schalter für Rasterfang, Winkelfang, Anschlussfang, Gummiband, Drehwinkelfang und das Verhalten der Texte. Ein Klick auf den Maßstab öffnet die Eigenschaften des Blatts, ein Klick auf Raster oder Zoom deren Liste.</p>
+<p><b>Zoom:</b> Im Zoom-Modus vergrößert ein Klick und rückt die Stelle in die Mitte, ein aufgezogener Rahmen zoomt auf seinen Bereich, die rechte Maustaste verkleinert. Das Mausrad zoomt ebenfalls. Verschoben wird mit gedrückter mittlerer Maustaste oder nach einem Doppelklick auf eine leere Stelle, solange die Taste gedrückt bleibt. <b>F5</b> zeigt das ganze Blatt, <b>F6</b> alle Elemente, <b>F7</b> die Markierung; <b>F11</b> schaltet die Vollbildansicht ein.</p>
+<p><b>Rechte Maustaste:</b> Sie beendet eine Linie oder ein Polygon, ein zweiter Klick wechselt in den Standardmodus. Im Standardmodus öffnet sie das Kontextmenü, auf einem Knoten mit „Knoten entfernen“ und „Linie auftrennen“, am Ende einer Linie, die eine andere berührt, mit „Linien verbinden“. Bei Linie, Polygon, Bézierkurve, Rechteck und Kreis bietet es außerdem „Wandeln in Linie“, „Wandeln in Polygon“ und „Wandeln in Kurve“. Ein Doppelklick auf ein Bauteil öffnet den Bauteileditor, auf einen Text die erweiterte Texteingabe.</p>
+
+<h2 id="blaetter">Blätter</h2>
+<ul>
+<li>Ein Dokument hat beliebig viele Blätter, jedes mit Name, Beschreibung, Größe (Frei, A0 bis A5, B4, B5, C3 bis C5, Letter, Legal; quer oder hoch) und Maßstab („1 mm =“ 0,1 bis 1000 mm, cm, m oder km; „Zurücksetzen“ stellt 1 mm ein). Bemaßungen, Messen, Lineale, die Koordinaten und das Raster in der Statusleiste zeigen Längen mal diesem Faktor.</li>
+<li>Der Schalter <b>Reserveblatt</b> nimmt ein Blatt vom Druck aller oder ausgewählter Blätter aus.</li>
+<li>Blätter einfügen (vor oder nach einem Blatt, als erstes oder letztes, mehrere auf einmal), schnell anhängen („+“ an den Reitern: ein leeres Blatt oder eine Kopie eines Blatts), kopieren, löschen und sortieren (im Dialog oder durch Ziehen der Reiter). „Gehe zu Blatt“ wählt ein Blatt direkt.</li>
+<li><b>Blatt speichern</b> schreibt das aktuelle Blatt als eigene Datei, wahlweise als sPlan-Blattdatei (<b>.blt</b>); was dabei verloren geht, wird vorher gezeigt. <b>Blatt laden</b> setzt die Blätter einer Datei hinter das aktuelle Blatt.</li>
+</ul>
+
+<h2 id="formblatt">Formblatt</h2>
+<p>Jedes Blatt hat ein Formblatt: einen Rahmen mit Rand, optional in Spalten (1, 2, 3 …) und Zeilen (A, B, C …) geteilt, mit Gitter und eigenen Elementen, etwa einem Schriftfeld mit Blattname und Blattnummer. Es liegt hinter der Schaltung und wird in einer eigenen Betriebsart bearbeitet (<b>Formblatt bearbeiten</b>).</p>
+<ul>
+<li><b>Formblatt generieren</b> erzeugt den Rahmen aus den Werten des Blatts (Abschnitt „Formblatt“ der Eigenschaften; ein Blatt ohne Rahmen bekommt einen 10 mm innerhalb). Jede Seite wird wahlweise nicht („---“), mit Zahlen („NUM“) oder mit Buchstaben („CHAR“, nach Z weiter mit AA) beschriftet, in wählbarer Schriftart und Höhe; auf Wunsch kommt ein Schriftfeld dazu.</li>
+<li><b>Formblatt laden</b> und <b>Formblatt speichern</b> lesen und schreiben Formblattdateien (<b>.sbk</b>).</li>
+</ul>
+
+<h2 id="zeichnen">Zeichnen</h2>
+<p>Die Zeichenmodi haben Tasten (siehe <a href="#tasten">Tastatur</a>). Die Eigenschaften neuer Elemente stellt das Panel als „Voreinstellung“ ein, solange ein Zeichenmodus gewählt und nichts markiert ist. <b>Einstellungen › Voreinstellungen</b> zeigt jede Voreinstellung (Linie, Fläche, Bemaßung, Lötpunkt, Text, Mengentext und die Bauteiltexte Bezeichner, Wert und Kontakt) im Panel, ohne den Zeichenmodus zu wechseln; Bezeichner und Wert gelten für „Bauteil aus Markierung erstellen“, der Kontakt für neue Kontakte im Bauteileditor.</p>
+<p><b>Im Panel:</b> Die Position gilt für einen Bezugspunkt (Ecke oder Mitte) im Maßstab des Blatts. Ohne „Als Gruppe behandeln“ setzt jedes markierte Element seinen eigenen Bezugspunkt auf den eingegebenen Wert, „Ausrichten“ bietet die Ausrichtungen; mit dem Häkchen wird die Markierung als Block verschoben. Bei einer Markierung verschiedener Arten zeigt eine Liste oben die Anzahl je Art; wählt man dort Arten, zeigt und ändert das Panel nur diese. Lötpunkte mit „Automatik“ richten Größe und Farbe nach der breitesten Linie unter ihnen (Stufe XS bis XL), „Reset“ stellt 1,2 mm schwarz ein. „Normalisieren“ stellt Texte wieder gerade, „Textrichtung umkehren“ dreht einen Text in seinem Rahmen um 180°.</p>
+<ul>
+<li><b>Linien</b> mit beliebig vielen Knoten und wählbaren Linienenden (Dreieck, Pfeil, offener Pfeil, Kreis, Punkt, Raute, Quadrat, Querstrich, Pfeil und Dreieck rückwärts). <b>Lötpunkte</b> setzen Verbindungen.</li>
+<li><b>Rechtecke</b> (eckig, abgerundet, abgeschrägt), <b>Kreise und Ellipsen</b> (ganz, Bogen, Tortenstück, Sehne), <b>Polygone</b>. Rechtecke und Ellipsen werden von einer Ecke oder vom Mittelpunkt aus aufgezogen (Wahl am Dreieck des Werkzeugknopfs); mit gedrückter Umschalttaste entsteht ein Quadrat oder Kreis. Rundung und Bogenenden lassen sich an runden Ziehpunkten ändern.</li>
+<li><b>Bézierkurven</b> entstehen Klick für Klick (Startpunkt, zwei Kontrollpunkte, Endpunkt, für jede weitere Kurve zwei Kontrollpunkte und ein Endpunkt); die rechte Maustaste beendet. <b>Freihandlinien</b> werden mit gedrückter Maustaste gezeichnet.</li>
+<li><b>Texte</b>, <b>Mengentexte</b> (Text in einem Rahmen mit Zeilenumbruch), <b>Netznamen</b> und <b>Gruppen</b>.</li>
+<li><b>Umriss:</b> Farbe, Breite und fünf Strichstile oder kein Umriss. Auf Wunsch zweifarbig, mit Längsstreifen oder Querstreifen, je mit eigener Farbe. <b>Füllung:</b> voll oder als Schraffur (waagerecht, senkrecht, diagonal, kariert) mit Linienabstand und Linienstärke.</li>
+<li><b>Spezialformen</b> zeigt eine Liste: Vieleck und Stern, Gitter, Schwingung (Sinus, Rechteck, Trapez, Dreieck, Sägezahn), geschweifte und runde Klammer, Dreieck, rechtwinkliges Dreieck, 4-Eck, Raute, Parallelogramm, 6-Eck, 8-Eck, Pfeile, Sprechblase und Blitz. Die Form füllt den aufgezogenen Rahmen und besteht danach aus gewöhnlichen Elementen.</li>
+<li><b>Bemaßung</b> (Taste <span class="key">B</span>; Art aus der Liste am Knopf: Standard, Radial, Durchmesser, Winkel): Eine Strecke misst man mit zwei Klicks und einem dritten für die Lage der Maßlinie, Radius oder Durchmesser mit zwei Klicks, einen Winkel mit Scheitel und je einem Punkt auf den beiden Schenkeln. Die rechte Maustaste bricht ab. Die Maßzahl ist die Länge mal dem Maßstab des Blatts, mit 0 bis 3 Nachkommastellen, auf Wunsch mit Punkt statt Komma, Ø, Präfix und Suffix, oder eine feste Zahl. <b>Bemaßung fixieren</b> (Funktionen, Kontextmenü) macht die angezeigte Zahl zur festen Maßzahl, <b>Bemaßung Fixierung aufheben</b> misst wieder. Der Griff in der Mitte der Maßlinie verschiebt sie.</li>
+<li><b>Messen</b> zeigt bei gedrückter Maustaste Länge, dX, dY und Winkel.</li>
+</ul>
+
+<h2 id="bearbeiten">Bearbeiten</h2>
+<ul>
+<li><b>Auswählen:</b> Klick, Umschalt- oder Strg-Klick und Aufziehen eines Rahmens (auch Elemente, die nur teilweise im Rahmen liegen). <span class="key">Tab</span> wählt das nächste Element, <span class="key">Umschalt+Tab</span> das vorige.</li>
+<li><b>Strecken:</b> Acht Ziehpunkte um die Markierung strecken sie. Ein weiterer Klick auf ein markiertes Element macht die Ziehpunkte zu Pfeilen: Die Eckpfeile drehen um die Mitte (im Drehwinkelfang, <span class="key">Strg</span> dreht frei), die Seitenpfeile scheren.</li>
+<li><b>Verschieben</b> mit der Maus oder den Pfeiltasten (ein Rasterschritt, mit <span class="key">Strg</span> 0,1 mm, mit <span class="key">Umschalt</span> zehn Rasterschritte). Knoten und Ecken lassen sich ziehen; <span class="key">Alt</span>-Ziehen verschiebt ein einzelnes Segment einer Linie oder eines Polygons. Neue Knoten zieht man aus den blauen „virtuellen Knotenpunkten“ in der Mitte jedes Abschnitts; Knoten entfernen, Linien auftrennen und verbinden stehen im Kontextmenü.</li>
+<li>Drehen um 90° oder einen Winkel, Skalieren um einen Prozentsatz, horizontal und vertikal spiegeln, Elemente einfärben (<span class="key">Strg+Alt+C</span>), Strichstärke setzen oder prozentual ändern, gruppieren, Reihenfolge ändern (nach vorne, nach hinten, eins vor, eins zurück).</li>
+<li><b>Am Raster ausrichten</b> setzt den Bezugspunkt jedes markierten Elements aufs Raster. <b>Ausrichten</b> (oben, unten, links, rechts, mittig) und <b>gleichmäßig verteilen</b> arbeiten an den Grenzen der Markierung.</li>
+<li>Ausschneiden, Kopieren, Einfügen, Duplizieren; Rückgängig und Wiederherstellen.</li>
+<li>Bei einer markierten Linie, Kurve oder einem Polygon zeigt das Panel Länge (im Maßstab des Blatts) und Zahl der Knoten.</li>
+</ul>
+
+<h2 id="fang">Fang und Magnetlinien</h2>
+<ul>
+<li><b>Rasterfang</b> (<span class="key">Strg</span> setzt frei), <b>Winkelfang</b> in 45°-Schritten beim Linienzeichnen (<span class="key">Umschalt</span> schaltet aus), <b>Anschlussfang</b> auf Linienknoten, Lötpunkte und Kontaktanschlüsse mit rotem Kreis (<span class="key">Alt</span> schaltet aus) und <b>Gummiband</b>: Leitungen, die an einem verschobenen Bauteil enden, gehen mit.</li>
+<li><b>Magnetlinien</b> sind senkrechte und waagerechte Hilfslinien je Blatt, die beim Verschieben, Zeichnen und Platzieren innerhalb von 8 Bildpunkten anziehen; sie werden nicht gedruckt oder exportiert. Neue Linien entstehen über <b>Funktionen › Magnetlinien</b> oder durch Ziehen aus einem Lineal. Eine Linie wird gezogen, um sie zu verschieben, mit einem Klick gewählt und mit „Löschen“ entfernt, oder auf ein Lineal gezogen. „Magnetlinien fixieren“ schützt sie vor Änderungen, „Magnetlinien ausblenden“ blendet sie samt Anziehung aus. Im Bauteileditor gibt es keine Magnetlinien.</li>
+</ul>
+
+<h2 id="bauteile">Bauteile und Bibliothek</h2>
+<h3>Bauteile</h3>
+<p>Ein Bauteil ist eine Gruppe von Zeichenelementen mit Einfügepunkt, Bezeichner, Wert, vier Zusatztexten und Kontakten (beschriftete Anschlüsse). Bezeichner und Wert lassen sich ein- und ausblenden; Schalter gibt es für automatisches Nummerieren, Nachfragen des Werts beim Hereinziehen und die Aufnahme in die Stückliste.</p>
+<ul>
+<li>Bauteile entstehen aus der Bibliothek oder mit <b>Bauteil aus Markierung erstellen</b> und lassen sich wieder auflösen.</li>
+<li>Der <b>Bauteileditor</b> (<span class="key">Alt+Eingabe</span> oder Doppelklick; „Speichern und Beenden“ oder „Abbrechen“) bearbeitet ein Bauteil. Der rote Einfügepunkt wird mit der Maus auf einen anderen Rasterpunkt gezogen.</li>
+<li><b>Bauteilbeschriftung</b> (Menü Bauteil) setzt Schriftart, Höhe, fett und kursiv für Bezeichner, Werte und Kontakte im ganzen Projekt, auf dem aktuellen Blatt, bei markierten Bauteilen oder auf der gewählten eigenen Bibliotheksseite.</li>
+<li><b>Bauteile neu nummerieren</b> (Menü Funktionen) nummeriert Bauteile mit „automatisch Nummerieren“ je Buchstabenfolge fortlaufend über die gewählten Blätter, in der Reihenfolge der Elemente, spalten- oder zeilenweise, auf Wunsch nur markierte Bauteile oder nur einen Bezeichner, ab einem Startwert.</li>
+<li>Texte eines nicht markierten Bauteils (Bezeichner, Wert, Kontakte) lassen sich einzeln in Rasterschritten ziehen. Im Kontextmenü gibt es dafür auch „Bauteiltext verschieben“: Der Text folgt dem Mauszeiger, ein Klick legt ihn ab, <span class="key">Esc</span> oder die rechte Maustaste legt ihn zurück.</li>
+</ul>
+<h3>Bibliothek</h3>
+<ul>
+<li>Die Bibliothek links enthält Seiten mit Bauteilen und Clips (Gruppen): mitgelieferte Symbole nach DIN EN 60617, ISO 1219 und Herstellerunterlagen, die Seiten einer sPlan-Bibliothek (<b>.LIB</b>) und eigene Seiten im Bibliotheksordner. Namen und Unterschriften erscheinen in der Sprache der Oberfläche.</li>
+<li>Über der Bibliothek steht die gewählte Seite als Pfad („Elektro &gt; Antennen“). Ein Klick öffnet das Menü ihrer Ordnerebene mit „&lt;---“ (eine Ebene zurück), den Ordnern und Seiten; der Knopf daneben zeigt alle Seiten als Baum. Spalten (eine bis acht), Unterschriften, vorherige und nächste Seite und die Suche (Unterschrift, Bezeichner oder Wert in allen Seiten) stehen darunter.</li>
+<li>Bauteile werden auf das Blatt gezogen oder angeklickt und dann abgesetzt; <span class="key">Strg+R</span> dreht sie dabei.</li>
+<li>Eigene Seiten bearbeitet das Kontextmenü der Bibliothek: Eigenschaften, neues Bauteil, duplizieren, löschen, neue Seite, neuer Unterordner, kopieren, umbenennen, leeren, Bauteile durch Ziehen umsortieren. Unter „Extras“ gibt es <b>Datensicherung erstellen…</b> (ZIP-Archiv des Bibliotheksordners) und <b>Datensicherung einspielen…</b>. Seiten, die sich nicht ändern lassen, werden nur angezeigt.</li>
+<li><b>Bauteil(e) in die Bibliothek kopieren</b> und <b>Als Clip in die Bibliothek kopieren</b> nehmen Bauteile oder die Markierung vom Blatt auf. <b>Auf Blatt kopieren</b> legt für eine oder alle Seiten einer Ebene je ein neues Blatt mit ihren Symbolen an.</li>
+</ul>
+
+<h2 id="listen">Listen</h2>
+<ul>
+<li><b>Stückliste erstellen</b> zeigt die Bauteile mit „In Stückliste aufnehmen“ der gewählten Blätter in einer bearbeitbaren Tabelle, nach den Buchstaben ihrer Bezeichner gruppiert (alphabetisch oder größte Gruppe zuerst), gleiche Bauteile auf Wunsch in einer Zeile („R1,R2,R3“, 3, „1k“), mit Spalten für die Zusatztexte. Sie lässt sich drucken, in die Zwischenablage kopieren, als RTF-Datei speichern und öffnen, als Textdatei exportieren (Semikolon oder Tabulator) und als Tabelle aus Texten und Linien auf das Blatt setzen (Schrift, Rahmen, Schatten, Trennlinien, alternierende Zeilen; lange Listen brechen in nebeneinanderliegende Tabellen um).</li>
+<li>Das Stücklistenfenster stellt die Schrift (6 bis 48 pt) für Liste, Druck und RTF ein, dazu Druckränder und Hoch- oder Querformat; der Export zeigt eine Vorschau, „?“ öffnet diese Hilfe.</li>
+<li><b>Kontaktliste erstellen</b> listet alle Kontakte mit Blatt, Bauteil, Text und Name; ein Doppelklick springt zum Bauteil, die Liste geht in die Zwischenablage.</li>
+<li><b>Inhaltsverzeichnis einfügen</b> setzt die gewählten Blätter mit Nummer und Name als Tabelle auf das aktuelle Blatt.</li>
+<li><b>Linkliste erstellen</b> (Funktionen) listet alle Text-Verlinkungen, <b>Parent-Child-Liste erstellen</b> alle Parents mit ihren Children (siehe unten).</li>
+</ul>
+
+<h2 id="texte">Texte und Variablen</h2>
+<p>In Texten, Mengentexten und Bauteiltexten stehen Variablen in spitzen Klammern; sie werden durch ihren Wert ersetzt. Die <b>erweiterte Texteingabe</b> (Doppelklick auf einen Text, oder „…“ im Panel) fügt sie über „Feste Variable einfügen“ ein; „Anwender-Variable einfügen“ und „Textkonstante einfügen“ bieten eigene Werte, jeweils mit „Definieren…“. „Ω“ öffnet die Sonderzeichen (auch mit <span class="key">Strg+Einfg</span>); ein Doppelklick übernimmt ein Zeichen.</p>
+<table>
+<tr><td class="key">&lt;PAGENO&gt;</td><td>Nummer des Blatts</td></tr>
+<tr><td class="key">&lt;PAGECOUNT&gt;</td><td>Zahl der Blätter</td></tr>
+<tr><td class="key">&lt;PAGENAME&gt;</td><td>Name des Blatts</td></tr>
+<tr><td class="key">&lt;PAGESCALE&gt;</td><td>Wie viele Millimeter ein Millimeter des Blatts darstellt, als Zahl (etwa „2,5“)</td></tr>
+<tr><td class="key">&lt;PREVIOUS_PAGENO&gt;<br>&lt;NEXT_PAGENO&gt;</td><td>Nummer des vorigen oder nächsten Blatts, das kein Reserveblatt ist, sonst „-“</td></tr>
+<tr><td class="key">&lt;FILENAME&gt;</td><td>Dateiname</td></tr>
+<tr><td class="key">&lt;FILENAME_PURE&gt;</td><td>Dateiname ohne Endung</td></tr>
+<tr><td class="key">&lt;FILEPATH&gt;</td><td>Pfad der Datei</td></tr>
+<tr><td class="key">&lt;FILEDATE&gt;<br>&lt;FILETIME&gt;</td><td>Datum und Uhrzeit der Datei</td></tr>
+<tr><td class="key">&lt;DATE&gt;<br>&lt;TIME&gt;</td><td>Aktuelles Datum und aktuelle Uhrzeit</td></tr>
+<tr><td class="key">&lt;VERSION&gt;</td><td>Version</td></tr>
+<tr><td class="key">&lt;BEZ&gt;, &lt;ID&gt;</td><td>Bezeichner des Bauteils (nur in Bauteilen)</td></tr>
+<tr><td class="key">&lt;WERT&gt;, &lt;VALUE&gt;, &lt;VALEUR&gt;</td><td>Wert des Bauteils</td></tr>
+<tr><td class="key">&lt;Z1&gt; bis &lt;Z4&gt;</td><td>Die vier Zusatztexte des Bauteils</td></tr>
+<tr><td class="key">&lt;COLNUM&gt;, &lt;COLCHAR&gt;<br>&lt;ROWNUM&gt;, &lt;ROWCHAR&gt;</td><td>Spalte und Zeile des Formblatt-Gitters, in dem das Bauteil liegt, als Zahl oder Buchstabe</td></tr>
+<tr><td class="key">&lt;PARENT_ID&gt;, &lt;PARENT_VALUE&gt;</td><td>Bezeichner und Wert des Parents (siehe Parent und Child)</td></tr>
+<tr><td class="key">&lt;PARENT_ID_NUMBER&gt;</td><td>Die Ziffern am Ende des Parent-Bezeichners als Zahl, ohne führende Nullen</td></tr>
+<tr><td class="key">&lt;PARENT_PAGENO&gt;<br>&lt;PARENT_PAGENAME&gt;</td><td>Blattnummer und Blattname des Parents</td></tr>
+<tr><td class="key">&lt;PARENT_Z1&gt; bis &lt;PARENT_Z4&gt;<br>&lt;PARENT_CONTACT_n&gt;<br>&lt;PARENT_COLNUM&gt; usw.</td><td>Zusatztexte, Kontakt n und Gitterposition des Parents</td></tr>
+<tr><td class="key">&lt;CHILDNO&gt;, &lt;CHILDCHAR&gt;</td><td>Nummer des Childs (1, 2, 3 oder a, b, c)</td></tr>
+<tr><td class="key">&lt;CHILD_PAGENO&gt;, &lt;CHILD_PAGENAME&gt;<br>&lt;CHILD_COLNUM&gt; usw.</td><td>Daten des ersten Childs eines Parents; mit angehängtem <span class="key">_n</span> (etwa &lt;CHILD_PAGENO_2&gt;) die des n-ten</td></tr>
+<tr><td class="key">&lt;LINK_PAGENO&gt;, &lt;LINK_PAGENAME&gt;<br>&lt;LINK_TEXT&gt;, &lt;LINK_COLNUM&gt; usw.</td><td>Daten des Link-Ziels eines Texts</td></tr>
+<tr><td class="key">&lt;LINKFROM_PAGENO&gt;<br>&lt;LINKFROM_PAGENAME&gt;<br>&lt;LINKFROM_TEXT&gt;</td><td>Daten des ersten Texts, der auf diesen Text verweist</td></tr>
+</table>
+<p><b>Anwender-Variablen</b> gehören zum Dokument und werden im Dialog mit „Neue Zeile“ und „Zeile löschen“ gepflegt; ein Name, der ohne Rücksicht auf Groß- und Kleinschreibung doppelt vorkommt, wird abgelehnt. <b>Textkonstanten</b> sind fertige Texte, die die Texteingabe einfügt.</p>
+<h3>Bezeichner mit Seitennummer und Präfix</h3>
+<p>Ist unter <b>Einstellungen › Grundeinstellungen</b> die Option „Bauteile mit Seitennummer“ eingeschaltet, zeigt jedes Bauteil ohne Parent seinen Bezeichner als Präfix, Blattnummer und Bezeichner, ohne Trennzeichen: Präfix „=A-“, Blatt 2, Bezeichner R1 ergibt „=A-2R1“. Wechselt das Bauteil das Blatt oder ändert sich die Blattreihenfolge, ändert sich die Nummer mit. Gespeichert bleibt der eingegebene Bezeichner. Children übernehmen über <span class="key">&lt;PARENT_ID&gt;</span> den Bezeichner ihres Parents mit Präfix und Blattnummer. Stückliste und Suche mit aufgelösten Variablen verwenden den ergänzten Bezeichner.</p>
+
+<h2 id="links">Text-Verlinkungen</h2>
+<p>Ein Text kann einen externen Link haben (Internetadresse oder Datei; er erscheint unterstrichen, ein Doppelklick öffnet ihn nach einer Rückfrage) oder auf einen anderen Text verweisen, der als Ziel freigegeben ist, auch auf einem anderen Blatt. Ein Doppelklick oder <span class="key">F8</span> folgt dem Link. Am Bildschirm tragen Ziele links einen Pfeil nach innen, Links rechts einen Pfeil nach außen. Link, Ziel und Freigabe werden im Eigenschaften-Panel gesetzt; ein Ziel listet die Texte, die auf es verweisen.</p>
+
+<h2 id="parent">Parent und Child</h2>
+<p>Ein Bauteil mit Parent-Status nimmt Children an, ein Child nennt seinen Parent, auch über Blätter hinweg (etwa ein Schütz und seine Kontakte oder ein IC und seine Gatter). Children sind in der Reihenfolge der Blätter und ihrer Elemente nummeriert und zeigen mit den <span class="key">&lt;PARENT_…&gt;</span>-Variablen die Daten ihres Parents; ein Parent zeigt mit den <span class="key">&lt;CHILD_…&gt;</span>-Variablen die seiner Children.</p>
+<ul>
+<li>Im Eigenschaften-Panel erhält ein Bauteil den Parent-Status (<b>Setze PARENT-Status</b>); markierte Bauteile werden mit <b>Verknüpfe mit PARENT…</b> an einen Parent gebunden (Bezeichner und Wert werden dabei <span class="key">&lt;PARENT_ID&gt;</span> und <span class="key">&lt;PARENT_VALUE&gt;</span>). Verknüpfung und Status lassen sich wieder entfernen.</li>
+<li>Ein Parent listet seine Children, ein Child seinen Parent; ein Doppelklick springt hin, auch auf ein anderes Blatt.</li>
+<li>Werden ein Parent und seine Children zusammen kopiert (Einfügen, Duplizieren, Blatt kopieren oder laden), gehören die kopierten Children zum kopierten Parent. Eine ganze Struktur (etwa ein 7400 mit seinen vier Gattern) kommt als Clip in die Bibliothek und erhält beim Platzieren für jeden Parent die nächste freie Nummer.</li>
+<li><b>Parent/Child-Bauteile einfärben</b> hinterlegt Parents hellblau und Children hellrot.</li>
+<li><b>Parent-Child-Liste erstellen</b> (Menü Funktionen) zeigt alle Parents mit ihren Children, auf Wunsch nur für das aktuelle Blatt und mit Kontakten.</li>
+<li><b>Erstelle Childliste (Kontaktspiegel)</b> im Panel eines Parents (auch im Kontextmenü) setzt eine Tabelle seiner Children auf das Blatt: Spalten nach Wahl in per Ziehen festgelegter Reihenfolge (Bezeichner, Kontakte, Wert, Blattnummer, Blattname, Gitterposition, Verweis), mit Schrift, Rahmen, Schatten, Trennlinien und Vorschau.</li>
+</ul>
+
+<h2 id="suchen">Suchen und Ersetzen</h2>
+<p><b>Bearbeiten › Suchen/Ersetzen</b> (<span class="key">Strg+F</span>) blendet rechts ein Panel ein. Gesucht werden Bauteile nach Bezeichner und Wert oder Texte (auch Mengentexte und Netznamen), auf dem aktuellen oder allen Blättern, mit oder ohne Groß- und Kleinschreibung, mit aufgelösten Variablen oder wie geschrieben, auf Wunsch nur Stücklistenbauteile. Ein Teil des Texts genügt. Die Treffer stehen nach Blättern geordnet unter „Alle Blätter“; ein Klick zeigt das Element. <b>Ersetzen -&gt;</b> ersetzt im gewählten Element, auf dem gewählten Blatt oder auf allen Blättern, in einem Schritt rückgängig zu machen.</p>
+
+<h2 id="bilder">Bilder</h2>
+<p><b>Bild aus Datei einfügen</b> (PNG, JPEG, BMP; ebenso der Modus „Bitmap“, Taste <span class="key">F</span>) setzt ein Bild mit einem Klick ab. Das Panel zeigt Größe, Pixel, Speicherbedarf und Auflösung und bietet „Auflösung verringern“, „Bitmap 90° rotieren“, „Normalisieren“ (Höhe aus der Breite in den Proportionen des Bildes) und „Aufhellen“. Der <b>Bitmap-Explorer</b> (Menü Funktionen) listet die Bilder nach Blatt, Speicherbedarf oder Auflösung und verringert das gewählte oder alle Bilder über einer maximalen Auflösung (100 bis 900 dpi).</p>
+
+<h2 id="einstellungen">Einstellungen und Vorlagen</h2>
+<ul>
+<li><b>Einstellungen › Grundeinstellungen</b> zeigt links eine Liste von Seiten. „Grundeinstellungen“ enthält die Optionen der Zeichnung selbst, die mit der Datei gespeichert werden: „Blätter mit Seitennummer“ (die Reiter als „1: Name“), „Bauteile mit Seitennummer“ mit Präfix und die Zusatztaste, mit der sich Bauteiltexte verschieben lassen (Alt, Umschalt+Alt, Strg+Alt oder Meta).</li>
+<li>Weitere Seiten: „Anzeige“ (weißer Hintergrund), „Verzeichnisse“ (Arbeitsordner für Zeichnungen, Formblätter und Grafik-Export, Ordner für Vorlagen und Formblätter), „Bibliothek“ (Stammverzeichnis), „Raster“ (Kontrast, Rastermarkierung, Punkt- oder Linienraster, Raster über dem Formblatt), „Autospeichern“ (alle n Minuten eine Kopie „Name.bak“; beim Öffnen eine Kopie „Backup_of_Name“), „Neues Blatt“ (Format, Größe, Raster und Formblatt für neue Dokumente und Blätter) und „Hotkeys“ (Tasten der Zeichenmodi, mit „Standardwerte setzen“).</li>
+<li><b>Neu von Vorlage…</b> öffnet einen Schaltplan aus dem Vorlagenordner als neues, noch nicht gespeichertes Dokument; <b>Als Vorlage speichern…</b> legt das Dokument dort ab. <b>Explorer…</b> zeigt den Ordner des Dokuments im Dateifenster.</li>
+</ul>
+
+<h2 id="ausgabe">Ausgabe</h2>
+<h3>Exportieren</h3>
+<p><b>Exportieren…</b> fragt zuerst nach Dateiformat (JPG, PNG, BMP, EMF, SVG, PDF), Auflösung (Schieber 20 bis 300 dpi, Zahlenfeld bis 2400 dpi, mit Originalgröße und Bildgröße), Farbe oder S/W, „Transparent“ (PNG, SVG, EMF) und Auswahl, danach nach der Datei. Exportiert wird:</p>
+<ul>
+<li>das aktuelle Blatt,</li>
+<li><b>Alle Elemente</b>: das umfassende Rechteck aller Elemente und 4 mm darum, mit Formblatt,</li>
+<li><b>Nur markierte Elemente</b>: ihr Rechteck und 4 mm darum,</li>
+<li><b>Alle Blätter</b> (bei mehreren Blättern): jedes in eine eigene Datei mit angehängter Blattnummer, Reserveblätter nicht; als PDF eine Datei.</li>
+</ul>
+<p>SVG und EMF sind Vektorformate in Hundertstel Millimetern; PDF wird als Vektorgrafik geschrieben, jedes Blatt als Seite seiner Größe.</p>
+<h3>Zwischenablage</h3>
+<p><b>Zwischenablage…</b> (<span class="key">Strg+B</span>) fragt nach der Auflösung (75, 150 oder 300 dpi) und „Alles“ oder „Markierung“ und legt die Elemente (mit Formblatt) bzw. die markierten Elemente und 4 mm darum als Bild ab.</p>
+<h3>Drucken und Druckvorschau</h3>
+<p>Drucken öffnet eine Druckvorschau mit Drucker und „Einrichten…“ (oder einer PDF-Datei), dem Papier mit bedruckbarem Bereich und der Zeichnung, die sich mit der Maus verschieben lässt. Je Blatt gibt es:</p>
+<ul>
+<li><b>Skalierung</b> 1:1 oder frei (10 bis 800 %),</li>
+<li><b>Offset</b> mit „Reset“ in vier Arten (Blatt an Papierkante, Blatt an Druckbereich, Ausdruck an Papierkante, Ausdruck an Druckbereich),</li>
+<li><b>Blattformat</b> (automatisch, hoch, quer) und <b>Bannerdruck</b> über mehrere Seiten mit Überlappung,</li>
+<li><b>Anpassen</b> (skaliert den Inhalt auf 98 % des bedruckbaren Bereichs und zentriert ihn) und <b>Zentrieren</b>, für ein oder alle Blätter, sowie das Übernehmen einer Einstellung für alle Blätter.</li>
+</ul>
+<p>Gedruckt wird das aktuelle Blatt, alle Blätter oder eine Auswahl; Reserveblätter werden übersprungen. Blätter, deren Zeichnung den bedruckbaren Bereich verlässt, sind in der Blattleiste mit „[!]“ markiert und als „Blätter abgeschnitten: n“ gezählt; der Druckknopf ist dann rot.</p>
+
+<h2 id="splan">sPlan-Dateien</h2>
+<ul>
+<li><b>.spl8</b> und <b>.spl7</b> lassen sich öffnen. Eine Teilvorschau nennt, was OpenLoch anders zeigt oder weglässt.</li>
+<li>Speichern schreibt zurück in die sPlan-Datei, solange nichts verloren geht.</li>
+<li>Eigene Schaltpläne lassen sich als sPlan 8 oder sPlan 7 exportieren; eine Liste zeigt vorher, was dabei verloren geht.</li>
+<li>Blattdateien (<b>.blt</b>), Formblätter (<b>.sbk</b>) und Bibliotheken (<b>.LIB</b>) von sPlan werden ebenfalls gelesen.</li>
+</ul>
+
+<h2 id="tasten">Tastatur</h2>
+<table>
+<tr><td class="key">L, P, R, K, O</td><td>Linie, Lötpunkt, Rechteck, Kreis, Polygon</td></tr>
+<tr><td class="key">U, H, S</td><td>Bézierkurve, Freihandlinie, Spezialformen</td></tr>
+<tr><td class="key">T, E</td><td>Text, Mengentext</td></tr>
+<tr><td class="key">B, M, Z, F</td><td>Bemaßung, Messen, Zoom, Bitmap</td></tr>
+<tr><td class="key">Esc</td><td>Standardmodus</td></tr>
+<tr><td class="key">F1</td><td>Hilfe</td></tr>
+<tr><td class="key">F5, F6, F7</td><td>Zoom auf Blatt, alle Elemente, Markierung</td></tr>
+<tr><td class="key">F8</td><td>Text-Link folgen</td></tr>
+<tr><td class="key">F11</td><td>Vollbildansicht</td></tr>
+<tr><td class="key">Tab, Umschalt+Tab</td><td>Nächstes, voriges Element wählen</td></tr>
+<tr><td class="key">Pfeiltasten</td><td>Markierung um einen Rasterschritt verschieben; <span class="key">Strg</span> 0,1 mm, <span class="key">Umschalt</span> zehn Rasterschritte</td></tr>
+<tr><td class="key">Strg+Alt+C</td><td>Elemente einfärben</td></tr>
+<tr><td class="key">Strg+F</td><td>Suchen/Ersetzen</td></tr>
+<tr><td class="key">Strg+B</td><td>Zwischenablage (Bild)</td></tr>
+<tr><td class="key">Strg+R</td><td>Bauteil beim Platzieren drehen</td></tr>
+<tr><td class="key">Strg+Einfg</td><td>Sonderzeichen in der Texteingabe</td></tr>
+<tr><td class="key">Alt+Eingabe</td><td>Bauteileditor</td></tr>
+<tr><td class="key">Strg, Umschalt, Alt</td><td>Beim Zeichnen: Rasterfang aufheben, Winkelfang aufheben, Anschlussfang aufheben</td></tr>
+</table>
+<p>Die Tasten der Zeichenmodi lassen sich unter <b>Einstellungen › Grundeinstellungen › Hotkeys</b> ändern.</p>
+</body>
+</html>

@@ -1,0 +1,6714 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile/Braun Lectron",
+ "format": "OpenLoch Schematic Library",
+ "name": "Lectron E-Mechanics\rLectron E-Mechanics\rLectron électromécanique",
+ "symbols": [
+  {
+   "caption": "Taster (Schließer)\rPush button (make)\rBouton-poussoir (travail)",
+   "item": {
+    "caption": "Taster (Schließer)\rPush button (make)\rBouton-poussoir (travail)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       7.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        13.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       13.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.16,
+        10.16
+       ],
+       [
+        7.76,
+        7.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.46,
+        8.96
+       ],
+       [
+        10.46,
+        5.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.16,
+        6.16
+       ],
+       [
+        9.16,
+        5.36
+       ],
+       [
+        11.76,
+        5.36
+       ],
+       [
+        11.76,
+        6.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Taster (Schließer)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taster (Schließer, senkrecht)\rPush button (make), vertical\rBouton-poussoir (travail) vertical",
+   "item": {
+    "caption": "Taster (Schließer, senkrecht)\rPush button (make), vertical\rBouton-poussoir (travail) vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       7.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        13.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       13.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        13.16
+       ],
+       [
+        12.56,
+        7.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        10.46
+       ],
+       [
+        14.96,
+        10.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.16,
+        9.16
+       ],
+       [
+        14.96,
+        9.16
+       ],
+       [
+        14.96,
+        11.76
+       ],
+       [
+        14.16,
+        11.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Taster (Schließer, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taster (Öffner)\rPush button (break)\rBouton-poussoir (repos)",
+   "item": {
+    "caption": "Taster (Öffner)\rPush button (break)\rBouton-poussoir (repos)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       7.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        13.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       13.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.16,
+        10.16
+       ],
+       [
+        7.16,
+        7.99
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.16,
+        10.16
+       ],
+       [
+        6.56,
+        7.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.86,
+        8.96
+       ],
+       [
+        9.86,
+        5.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.56,
+        6.16
+       ],
+       [
+        8.56,
+        5.36
+       ],
+       [
+        11.16,
+        5.36
+       ],
+       [
+        11.16,
+        6.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Taster (Öffner)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taster (Öffner, senkrecht)\rPush button (break), vertical\rBouton-poussoir (repos) vertical",
+   "item": {
+    "caption": "Taster (Öffner, senkrecht)\rPush button (break), vertical\rBouton-poussoir (repos) vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       7.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        13.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       13.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        7.16
+       ],
+       [
+        12.33,
+        7.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        13.16
+       ],
+       [
+        12.56,
+        6.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        9.86
+       ],
+       [
+        14.96,
+        9.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.16,
+        8.56
+       ],
+       [
+        14.96,
+        8.56
+       ],
+       [
+        14.96,
+        11.16
+       ],
+       [
+        14.16,
+        11.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Taster (Öffner, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schalter\rToggle switch\rInterrupteur à levier",
+   "item": {
+    "caption": "Schalter\rToggle switch\rInterrupteur à levier",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        6.76,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       6.76,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       7.36
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       12.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.76,
+        10.16
+       ],
+       [
+        9.86,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.31,
+        8.86
+       ],
+       [
+        8.31,
+        5.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.01,
+        5.36
+       ],
+       [
+        9.61,
+        5.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Schalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schalter (senkrecht)\rToggle switch, vertical\rInterrupteur à levier vertical",
+   "item": {
+    "caption": "Schalter (senkrecht)\rToggle switch, vertical\rInterrupteur à levier vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        6.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       6.76
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.96,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       12.96,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.36,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       7.36,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        6.76
+       ],
+       [
+        12.76,
+        9.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.46,
+        8.31
+       ],
+       [
+        14.96,
+        8.31
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.96,
+        7.01
+       ],
+       [
+        14.96,
+        9.61
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Schalter (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Relais\rRelay\rRelais",
+   "item": {
+    "caption": "Relais\rRelay\rRelais",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       30.48
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       60.96
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       30.48
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.8,
+       2.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.76,
+        31.88
+       ],
+       [
+        12.56,
+        29.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        30.48
+       ],
+       [
+        7.76,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W2",
+      "pin": [
+       0.0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "W2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        30.48
+       ],
+       [
+        12.56,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E2",
+      "pin": [
+       20.32,
+       30.48
+      ],
+      "pos": [
+       19.92,
+       28.28
+      ],
+      "text": "E2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        6.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       6.76
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       7.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        13.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E1",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       13.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        6.76
+       ],
+       [
+        7.36,
+        10.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.76,
+        8.46
+       ],
+       [
+        8.76,
+        29.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        60.96
+       ],
+       [
+        10.16,
+        54.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       60.96
+      ],
+      "pos": [
+       10.56,
+       58.76
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       54.2
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        50.8
+       ],
+       [
+        7.16,
+        50.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W3",
+      "pin": [
+       0.0,
+       50.8
+      ],
+      "pos": [
+       0.4,
+       48.6
+      ],
+      "text": "W3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       7.16,
+       50.8
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        50.8
+       ],
+       [
+        13.16,
+        50.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E3",
+      "pin": [
+       20.32,
+       50.8
+      ],
+      "pos": [
+       19.92,
+       48.6
+      ],
+      "text": "E3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       13.16,
+       50.8
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        54.2
+       ],
+       [
+        7.36,
+        50.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.76,
+        52.5
+       ],
+       [
+        8.76,
+        31.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       20.92
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Relais",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Relais Typ 2\rRelay, type 2\rRelais, type 2",
+   "item": {
+    "caption": "Relais Typ 2\rRelay, type 2\rRelais, type 2",
+    "children": [
+     {
+      "centre": [
+       30.48,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       60.96,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       30.48,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.8,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        29.08,
+        12.56
+       ],
+       [
+        31.88,
+        7.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.0
+       ],
+       [
+        30.48,
+        7.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N2",
+      "pin": [
+       30.48,
+       0.0
+      ],
+      "pos": [
+       30.88,
+       0.3
+      ],
+      "text": "N2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        20.32
+       ],
+       [
+        30.48,
+        12.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S2",
+      "pin": [
+       30.48,
+       20.32
+      ],
+      "pos": [
+       30.88,
+       18.12
+      ],
+      "text": "S2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       30.48,
+       6.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       30.48,
+       14.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        6.16
+       ],
+       [
+        26.48,
+        6.16
+       ],
+       [
+        26.48,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        26.48,
+        11.86
+       ],
+       [
+        26.48,
+        14.16
+       ],
+       [
+        30.48,
+        14.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        28.48,
+        8.46
+       ],
+       [
+        24.48,
+        8.46
+       ],
+       [
+        26.48,
+        11.86
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        28.48,
+        11.86
+       ],
+       [
+        24.48,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       32.48,
+       16.82
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        3.0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       3.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N1",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       7.36
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S1",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       12.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        10.16
+       ],
+       [
+        9.86,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.6,
+        11.56
+       ],
+       [
+        29.08,
+        11.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        60.96,
+        10.16
+       ],
+       [
+        57.96,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       60.96,
+       10.16
+      ],
+      "pos": [
+       60.56,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       57.96,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        0.0
+       ],
+       [
+        50.8,
+        7.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N3",
+      "pin": [
+       50.8,
+       0.0
+      ],
+      "pos": [
+       51.2,
+       0.3
+      ],
+      "text": "N3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       50.8,
+       7.36
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        20.32
+       ],
+       [
+        50.8,
+        12.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S3",
+      "pin": [
+       50.8,
+       20.32
+      ],
+      "pos": [
+       51.2,
+       18.12
+      ],
+      "text": "S3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       50.8,
+       12.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        57.96,
+        10.16
+       ],
+       [
+        51.1,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        54.36,
+        11.56
+       ],
+       [
+        31.88,
+        11.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       20.92,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Relais Typ 2",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Lautsprecher 0,2 W\rLoudspeaker 0.2 W\rHaut-parleur 0,2 W",
+   "item": {
+    "caption": "Lautsprecher 0,2 W\rLoudspeaker 0.2 W\rHaut-parleur 0,2 W",
+    "children": [
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       40.64,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.6
+      },
+      "points": [
+       [
+        12.8863,
+        3.048
+       ],
+       [
+        22.6737,
+        3.048
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.6
+      },
+      "points": [
+       [
+        11.5799,
+        5.334
+       ],
+       [
+        23.9801,
+        5.334
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.6
+      },
+      "points": [
+       [
+        10.9796,
+        7.62
+       ],
+       [
+        24.5804,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.6
+      },
+      "points": [
+       [
+        10.8981,
+        9.906
+       ],
+       [
+        24.6619,
+        9.906
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.6
+      },
+      "points": [
+       [
+        11.3158,
+        12.192
+       ],
+       [
+        24.2442,
+        12.192
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.6
+      },
+      "points": [
+       [
+        12.3465,
+        14.478
+       ],
+       [
+        23.2135,
+        14.478
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.0
+       ],
+       [
+        30.48,
+        25.31
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N2",
+      "pin": [
+       30.48,
+       0.0
+      ],
+      "pos": [
+       30.88,
+       0.3
+      ],
+      "text": "N2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        40.64
+       ],
+       [
+        30.48,
+        33.11
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S2",
+      "pin": [
+       30.48,
+       40.64
+      ],
+      "pos": [
+       30.88,
+       38.44
+      ],
+      "text": "S2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       26.285
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       28.235
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       30.185
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       32.135
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        28.08,
+        25.01
+       ],
+       [
+        28.08,
+        33.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        27.18,
+        25.01
+       ],
+       [
+        27.18,
+        33.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       24.78,
+       32.135
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       24.78,
+       30.185
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       24.78,
+       28.235
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       24.78,
+       26.285
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.95,
+       1.95
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        24.78,
+        25.31
+       ],
+       [
+        24.78,
+        24.11
+       ],
+       [
+        20.88,
+        24.11
+       ],
+       [
+        20.88,
+        26.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        24.78,
+        33.11
+       ],
+       [
+        24.78,
+        34.31
+       ],
+       [
+        20.88,
+        34.31
+       ],
+       [
+        20.88,
+        31.61
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.88,
+       29.21
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        19.38,
+        26.81
+       ],
+       [
+        15.78,
+        23.81
+       ],
+       [
+        15.78,
+        34.61
+       ],
+       [
+        19.38,
+        31.61
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       34.24
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       37.24
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "B?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Lautsprecher 0,2 W",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "0,2 W"
+   }
+  },
+  {
+   "caption": "Lautsprecher (ältere Ausführung)\rLoudspeaker (older version)\rHaut-parleur (ancienne version)",
+   "item": {
+    "caption": "Lautsprecher (ältere Ausführung)\rLoudspeaker (older version)\rHaut-parleur (ancienne version)",
+    "children": [
+     {
+      "centre": [
+       30.48,
+       30.48
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       60.96,
+       60.96
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        30.48
+       ],
+       [
+        30.48,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W2",
+      "pin": [
+       0.0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "W2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        60.96,
+        30.48
+       ],
+       [
+        30.48,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E2",
+      "pin": [
+       60.96,
+       30.48
+      ],
+      "pos": [
+       60.56,
+       28.28
+      ],
+      "text": "E2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       30.48,
+       30.48
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        30.48
+       ],
+       [
+        30.48,
+        40.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        60.96
+       ],
+       [
+        30.48,
+        50.92
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S2",
+      "pin": [
+       30.48,
+       60.96
+      ],
+      "pos": [
+       30.88,
+       58.76
+      ],
+      "text": "S2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       41.82
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       44.42
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       47.02
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.48,
+       49.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        33.68,
+        40.12
+       ],
+       [
+        33.68,
+        51.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        34.88,
+        40.12
+       ],
+       [
+        34.88,
+        51.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       38.08,
+       49.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       38.08,
+       47.02
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       38.08,
+       44.42
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       38.08,
+       41.82
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        38.08,
+        40.52
+       ],
+       [
+        38.08,
+        38.92
+       ],
+       [
+        43.28,
+        38.92
+       ],
+       [
+        43.28,
+        42.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        38.08,
+        50.92
+       ],
+       [
+        38.08,
+        52.52
+       ],
+       [
+        43.28,
+        52.52
+       ],
+       [
+        43.28,
+        48.92
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       43.28,
+       45.72
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       6.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.28,
+        42.52
+       ],
+       [
+        50.08,
+        38.52
+       ],
+       [
+        50.08,
+        52.92
+       ],
+       [
+        45.28,
+        48.92
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "B?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Lautsprecher (ältere Ausführung)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator\rTransformer\rTransformateur",
+   "item": {
+    "caption": "Transformator\rTransformer\rTransformateur",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.16,
+       17.92
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.16,
+       19.12
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.16,
+       20.32
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.16,
+       21.52
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.16,
+       22.72
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        16.32
+       ],
+       [
+        9.16,
+        16.32
+       ],
+       [
+        9.16,
+        17.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        40.64
+       ],
+       [
+        10.16,
+        24.32
+       ],
+       [
+        9.16,
+        24.32
+       ],
+       [
+        9.16,
+        23.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       40.64
+      ],
+      "pos": [
+       10.56,
+       38.44
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.76,
+        16.92
+       ],
+       [
+        10.76,
+        23.72
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        11.36,
+        16.92
+       ],
+       [
+        11.36,
+        23.72
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       12.96,
+       21.72
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       12.96,
+       20.32
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       12.96,
+       18.92
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "start": 90.0,
+      "stop": 270.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.96,
+        10.16
+       ],
+       [
+        12.96,
+        18.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E1",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        30.48
+       ],
+       [
+        12.96,
+        30.48
+       ],
+       [
+        12.96,
+        22.42
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E2",
+      "pin": [
+       20.32,
+       30.48
+      ],
+      "pos": [
+       19.92,
+       28.28
+      ],
+      "text": "E2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       19.12
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Transformator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "10:1"
+   }
+  },
+  {
+   "caption": "Hörer\rEarphone\rÉcouteur",
+   "item": {
+    "caption": "Hörer\rEarphone\rÉcouteur",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       9.56,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.8
+      },
+      "points": [
+       [
+        11.36,
+        7.56
+       ],
+       [
+        11.36,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "B?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Hörer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnet Südpol\rMagnet, south pole\rAimant, pôle sud",
+   "item": {
+    "autoNumber": false,
+    "caption": "Magnet Südpol\rMagnet, south pole\rAimant, pôle sud",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       18.52,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       22.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 5.0
+      },
+      "pos": [
+       10.16,
+       17.82
+      ],
+      "text": "S",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Magnet Südpol",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnet Nordpol\rMagnet, north pole\rAimant, pôle nord",
+   "item": {
+    "autoNumber": false,
+    "caption": "Magnet Nordpol\rMagnet, north pole\rAimant, pôle nord",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       1.8,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       22.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 5.0
+      },
+      "pos": [
+       10.16,
+       17.82
+      ],
+      "text": "N",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Magnet Nordpol",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Motor\rMotor\rMoteur",
+   "item": {
+    "caption": "Motor\rMotor\rMoteur",
+    "children": [
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       40.64,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 5.0
+      },
+      "pos": [
+       20.32,
+       17.82
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       20.32,
+       22.42
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        20.32
+       ],
+       [
+        15.24,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        10.16
+       ],
+       [
+        33.02,
+        10.16
+       ],
+       [
+        33.02,
+        20.32
+       ],
+       [
+        25.4,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E1",
+      "pin": [
+       40.64,
+       10.16
+      ],
+      "pos": [
+       40.24,
+       7.96
+      ],
+      "text": "E1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       3.556,
+       6.26
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       37.24
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Motor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schrittmotor\rStepper motor\rMoteur pas à pas",
+   "item": {
+    "caption": "Schrittmotor\rStepper motor\rMoteur pas à pas",
+    "children": [
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       40.64,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.064,
+       4.064
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        5.08,
+        10.16
+       ],
+       [
+        5.08,
+        11.684
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        30.48
+       ],
+       [
+        5.08,
+        30.48
+       ],
+       [
+        5.08,
+        28.956
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       0.0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       5.08,
+       15.24
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       7.112
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       7.112
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        18.796
+       ],
+       [
+        5.08,
+        21.844
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        20.32
+       ],
+       [
+        7.62,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        7.62,
+        19.12
+       ],
+       [
+        7.62,
+        21.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND1",
+      "pin": [
+       7.62,
+       20.32
+      ],
+      "pos": [
+       8.02,
+       18.12
+      ],
+      "text": "GND1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       6.88,
+       6.31
+      ],
+      "text": "2",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       6.88,
+       31.83
+      ],
+      "text": "4",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        10.16
+       ],
+       [
+        35.56,
+        10.16
+       ],
+       [
+        35.56,
+        11.684
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       40.64,
+       10.16
+      ],
+      "pos": [
+       40.24,
+       7.96
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        30.48
+       ],
+       [
+        35.56,
+        30.48
+       ],
+       [
+        35.56,
+        28.956
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       40.64,
+       30.48
+      ],
+      "pos": [
+       40.24,
+       28.28
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       35.56,
+       15.24
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       7.112
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       35.56,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       7.112
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        18.796
+       ],
+       [
+        35.56,
+        21.844
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        20.32
+       ],
+       [
+        33.02,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        33.02,
+        19.12
+       ],
+       [
+        33.02,
+        21.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND2",
+      "pin": [
+       33.02,
+       20.32
+      ],
+      "pos": [
+       33.42,
+       18.12
+      ],
+      "text": "GND2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       33.76,
+       6.31
+      ],
+      "text": "1",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       33.76,
+       31.83
+      ],
+      "text": "3",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       18.72,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Schrittmotor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule Mittelwelle\rCoil, medium wave\rBobine petites ondes",
+   "item": {
+    "caption": "Spule Mittelwelle\rCoil, medium wave\rBobine petites ondes",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       10.16,
+       4.064
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       17.78,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E1",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        13.47,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.47,
+        10.16
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        13.47,
+        8.56
+       ],
+       [
+        13.47,
+        11.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        14.47,
+        8.56
+       ],
+       [
+        14.47,
+        11.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        4.064
+       ],
+       [
+        12.192,
+        4.064
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.224,
+       4.064
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.064,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.256,
+        4.064
+       ],
+       [
+        17.78,
+        4.064
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.4,
+       1.486
+      ],
+      "text": "100 kΩ",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.4,
+       5.042
+      ],
+      "text": "330 pF",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       13.992
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.664,
+       3.664
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       17.656
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.664,
+       3.664
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       21.32
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.664,
+       3.664
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       24.984
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.664,
+       3.664
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       28.648
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.664,
+       3.664
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       31.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       10.16,
+       30.48
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        30.48
+       ],
+       [
+        10.16,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E2",
+      "pin": [
+       20.32,
+       30.48
+      ],
+      "pos": [
+       19.92,
+       28.28
+      ],
+      "text": "E2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        32.88
+       ],
+       [
+        10.16,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.66,
+        35.56
+       ],
+       [
+        11.66,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND2",
+      "pin": [
+       10.16,
+       35.56
+      ],
+      "pos": [
+       10.56,
+       33.36
+      ],
+      "text": "GND2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        30.48
+       ],
+       [
+        5.08,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W2",
+      "pin": [
+       0.0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "W2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       31.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        32.88
+       ],
+       [
+        5.08,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.58,
+        35.56
+       ],
+       [
+        6.58,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND1",
+      "pin": [
+       5.08,
+       35.56
+      ],
+      "pos": [
+       5.48,
+       33.36
+      ],
+      "text": "GND1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.5
+      },
+      "points": [
+       [
+        7.62,
+        12.56
+       ],
+       [
+        7.62,
+        33.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.048,
+        27.94
+       ],
+       [
+        15.24,
+        14.224
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.49,
+        13.554
+       ],
+       [
+        15.99,
+        14.894
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.716,
+       20.92
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Spule Mittelwelle",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drehkondensator\rTuning capacitor\rCondensateur variable",
+   "item": {
+    "caption": "Drehkondensator\rTuning capacitor\rCondensateur variable",
+    "children": [
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       40.64,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.12,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.12,
+        10.16
+       ],
+       [
+        20.32,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        10.16
+       ],
+       [
+        20.32,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E1",
+      "pin": [
+       40.64,
+       10.16
+      ],
+      "pos": [
+       40.24,
+       7.96
+      ],
+      "text": "E1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        7.12,
+        7.76
+       ],
+       [
+        7.12,
+        12.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.12,
+        7.76
+       ],
+       [
+        8.12,
+        12.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        20.32,
+        22.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        23.36
+       ],
+       [
+        20.32,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        18.82,
+        33.02
+       ],
+       [
+        21.82,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND",
+      "pin": [
+       20.32,
+       33.02
+      ],
+      "pos": [
+       20.72,
+       30.82
+      ],
+      "text": "GND",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        22.72,
+        22.36
+       ],
+       [
+        17.92,
+        22.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        22.72,
+        23.36
+       ],
+       [
+        17.92,
+        23.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.32,
+        25.86
+       ],
+       [
+        23.52,
+        19.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       27.94
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       8.128,
+       8.128
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        10.16,
+        27.94
+       ],
+       [
+        7.56,
+        25.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       23.72,
+       24.36
+      ],
+      "text": "220 pF",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       13.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Drehkondensator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "47 pF"
+   }
+  },
+  {
+   "caption": "Spule Langwelle\rCoil, long wave\rBobine grandes ondes",
+   "item": {
+    "caption": "Spule Langwelle\rCoil, long wave\rBobine grandes ondes",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       10.16,
+       4.064
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       17.78,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E1",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        13.47,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.47,
+        10.16
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        13.47,
+        8.56
+       ],
+       [
+        13.47,
+        11.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        14.47,
+        8.56
+       ],
+       [
+        14.47,
+        11.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        4.064
+       ],
+       [
+        12.192,
+        4.064
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.224,
+       4.064
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.064,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.256,
+        4.064
+       ],
+       [
+        17.78,
+        4.064
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.4,
+       1.486
+      ],
+      "text": "100 kΩ",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.4,
+       5.042
+      ],
+      "text": "330 pF",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       13.305
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       15.595
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       17.885
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       20.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       22.465
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       24.755
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       27.045
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       29.335
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.29,
+       2.29
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       31.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       10.16,
+       30.48
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        30.48
+       ],
+       [
+        10.16,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E2",
+      "pin": [
+       20.32,
+       30.48
+      ],
+      "pos": [
+       19.92,
+       28.28
+      ],
+      "text": "E2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        32.88
+       ],
+       [
+        10.16,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.66,
+        35.56
+       ],
+       [
+        11.66,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND2",
+      "pin": [
+       10.16,
+       35.56
+      ],
+      "pos": [
+       10.56,
+       33.36
+      ],
+      "text": "GND2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        30.48
+       ],
+       [
+        5.08,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W2",
+      "pin": [
+       0.0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "W2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       31.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        32.88
+       ],
+       [
+        5.08,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.58,
+        35.56
+       ],
+       [
+        6.58,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND1",
+      "pin": [
+       5.08,
+       35.56
+      ],
+      "pos": [
+       5.48,
+       33.36
+      ],
+      "text": "GND1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.5
+      },
+      "points": [
+       [
+        7.62,
+        12.56
+       ],
+       [
+        7.62,
+        33.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.048,
+        27.94
+       ],
+       [
+        15.24,
+        14.224
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.49,
+        13.554
+       ],
+       [
+        15.99,
+        14.894
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.716,
+       20.92
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron E-Mechanics/Spule Langwelle",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

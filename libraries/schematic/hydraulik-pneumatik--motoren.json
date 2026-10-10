@@ -1,0 +1,3339 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Motoren\rMotors\rMoteurs",
+ "symbols": [
+  {
+   "caption": "Hydromotor\rHydraulic motor\rMoteur hydraulique",
+   "item": {
+    "caption": "Hydromotor\rHydraulic motor\rMoteur hydraulique",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Hydromotor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydromotor, verstellbar\rVariable hydraulic motor\rMoteur hydraulique variable",
+   "item": {
+    "caption": "Hydromotor, verstellbar\rVariable hydraulic motor\rMoteur hydraulique variable",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Hydromotor, verstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftmotor\rPneumatic motor\rMoteur pneumatique",
+   "item": {
+    "caption": "Druckluftmotor\rPneumatic motor\rMoteur pneumatique",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Druckluftmotor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schwenkmotor\rRotary actuator\rVérin rotatif",
+   "item": {
+    "caption": "Schwenkmotor\rRotary actuator\rVérin rotatif",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.0,
+        -4.68
+       ],
+       [
+        0.2,
+        -2.68
+       ],
+       [
+        -2.2,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -2.54,
+       2.54
+      ],
+      "pos": [
+       -2.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Schwenkmotor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftmotor mit Welle\rPneumatic motor with shaft\rMoteur pneumatique avec arbre",
+   "item": {
+    "caption": "Druckluftmotor mit Welle\rPneumatic motor with shaft\rMoteur pneumatique avec arbre",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Druckluftmotor mit Welle",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftmotor, verstellbar\rVariable pneumatic motor\rMoteur pneumatique variable",
+   "item": {
+    "caption": "Druckluftmotor, verstellbar\rVariable pneumatic motor\rMoteur pneumatique variable",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Druckluftmotor, verstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftmotor, zwei Drehrichtungen\rPneumatic motor, two directions of rotation\rMoteur pneumatique, deux sens de rotation",
+   "item": {
+    "caption": "Druckluftmotor, zwei Drehrichtungen\rPneumatic motor, two directions of rotation\rMoteur pneumatique, deux sens de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Druckluftmotor, zwei Drehrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftmotor, zwei Drehrichtungen, mit Drehrichtungspfeil\rPneumatic motor, two directions of rotation, with rotation arrow\rMoteur pneumatique, deux sens de rotation, avec flèche de rotation",
+   "item": {
+    "caption": "Druckluftmotor, zwei Drehrichtungen, mit Drehrichtungspfeil\rPneumatic motor, two directions of rotation, with rotation arrow\rMoteur pneumatique, deux sens de rotation, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Druckluftmotor, zwei Drehrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftmotor, verstellbar, zwei Drehrichtungen\rVariable pneumatic motor, two directions of rotation\rMoteur pneumatique variable, deux sens de rotation",
+   "item": {
+    "caption": "Druckluftmotor, verstellbar, zwei Drehrichtungen\rVariable pneumatic motor, two directions of rotation\rMoteur pneumatique variable, deux sens de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Druckluftmotor, verstellbar, zwei Drehrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftmotor, verstellbar, zwei Drehrichtungen, mit Drehrichtungspfeil\rVariable pneumatic motor, two directions of rotation, with rotation arrow\rMoteur pneumatique variable, deux sens de rotation, avec flèche de rotation",
+   "item": {
+    "caption": "Druckluftmotor, verstellbar, zwei Drehrichtungen, mit Drehrichtungspfeil\rVariable pneumatic motor, two directions of rotation, with rotation arrow\rMoteur pneumatique variable, deux sens de rotation, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Druckluftmotor, verstellbar, zwei Drehrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydromotor mit Welle\rHydraulic motor with shaft\rMoteur hydraulique avec arbre",
+   "item": {
+    "caption": "Hydromotor mit Welle\rHydraulic motor with shaft\rMoteur hydraulique avec arbre",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Hydromotor mit Welle",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydromotor, zwei Drehrichtungen\rHydraulic motor, two directions of rotation\rMoteur hydraulique, deux sens de rotation",
+   "item": {
+    "caption": "Hydromotor, zwei Drehrichtungen\rHydraulic motor, two directions of rotation\rMoteur hydraulique, deux sens de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Hydromotor, zwei Drehrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydromotor, zwei Drehrichtungen, mit Drehrichtungspfeil\rHydraulic motor, two directions of rotation, with rotation arrow\rMoteur hydraulique, deux sens de rotation, avec flèche de rotation",
+   "item": {
+    "caption": "Hydromotor, zwei Drehrichtungen, mit Drehrichtungspfeil\rHydraulic motor, two directions of rotation, with rotation arrow\rMoteur hydraulique, deux sens de rotation, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Hydromotor, zwei Drehrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydromotor, verstellbar, zwei Drehrichtungen\rVariable hydraulic motor, two directions of rotation\rMoteur hydraulique variable, deux sens de rotation",
+   "item": {
+    "caption": "Hydromotor, verstellbar, zwei Drehrichtungen\rVariable hydraulic motor, two directions of rotation\rMoteur hydraulique variable, deux sens de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Hydromotor, verstellbar, zwei Drehrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydromotor, verstellbar, zwei Drehrichtungen, mit Drehrichtungspfeil\rVariable hydraulic motor, two directions of rotation, with rotation arrow\rMoteur hydraulique variable, deux sens de rotation, avec flèche de rotation",
+   "item": {
+    "caption": "Hydromotor, verstellbar, zwei Drehrichtungen, mit Drehrichtungspfeil\rVariable hydraulic motor, two directions of rotation, with rotation arrow\rMoteur hydraulique variable, deux sens de rotation, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.68
+       ],
+       [
+        1.4,
+        5.08
+       ],
+       [
+        -1.4,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Hydromotor, verstellbar, zwei Drehrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Elektromotor (Fluidtechnik)\rElectric motor (fluid power)\rMoteur électrique (fluidique)",
+   "item": {
+    "caption": "Elektromotor (Fluidtechnik)\rElectric motor (fluid power)\rMoteur électrique (fluidique)",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.6
+      },
+      "pos": [
+       0,
+       -2.0
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Motoren/Elektromotor (Fluidtechnik)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

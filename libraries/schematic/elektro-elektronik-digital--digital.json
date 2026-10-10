@@ -1,0 +1,3554 @@
+{
+ "folder": "Elektro/Elektronik/Digital",
+ "format": "OpenLoch Schematic Library",
+ "name": "Digital\rDigital\rNumérique",
+ "symbols": [
+  {
+   "caption": "Monoflop\rMonostable multivibrator\rMonostable",
+   "item": {
+    "caption": "Monoflop\rMonostable multivibrator\rMonostable",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       1.94,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        1.34,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "CLR",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/CLR",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "/CLR",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       4.08
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       13.3,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.9,
+        10.16
+       ],
+       [
+        15.24,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       9.16
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/Q",
+      "pin": [
+       15.24,
+       10.16
+      ],
+      "pos": [
+       14.84,
+       7.96
+      ],
+      "text": "/Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       0.6
+      ],
+      "text": "1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.88,
+        2.9
+       ],
+       [
+        7.38,
+        2.9
+       ],
+       [
+        7.38,
+        1.7
+       ],
+       [
+        8.38,
+        1.7
+       ],
+       [
+        8.38,
+        2.9
+       ],
+       [
+        8.88,
+        2.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       13.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "MF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Monoflop",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taktgeber\rClock generator\rGénérateur d'horloge",
+   "item": {
+    "caption": "Taktgeber\rClock generator\rGénérateur d'horloge",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "EN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "EN",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "EN",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       4.08
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.08,
+       0.6
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.88,
+        2.9
+       ],
+       [
+        6.38,
+        2.9
+       ],
+       [
+        6.38,
+        1.7
+       ],
+       [
+        7.38,
+        1.7
+       ],
+       [
+        7.38,
+        2.9
+       ],
+       [
+        7.88,
+        2.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.88,
+        2.9
+       ],
+       [
+        8.38,
+        2.9
+       ],
+       [
+        8.38,
+        1.7
+       ],
+       [
+        9.38,
+        1.7
+       ],
+       [
+        9.38,
+        2.9
+       ],
+       [
+        9.88,
+        2.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Taktgeber",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Treiber mit Tristate\rTri-state driver\rTampon trois états",
+   "item": {
+    "caption": "Treiber mit Tristate\rTri-state driver\rTampon trois états",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "EN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "EN",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "EN",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       4.08
+      ],
+      "text": "Y",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Y",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "Y",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       6.35,
+       0.4
+      ],
+      "text": "1",
+      "type": "text"
+     },
+     {
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.26,
+        7.02
+       ],
+       [
+        9.66,
+        7.02
+       ],
+       [
+        8.96,
+        8.22
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Treiber mit Tristate",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Inverter mit offenem Kollektor\rOpen-collector inverter\rInverseur à collecteur ouvert",
+   "item": {
+    "caption": "Inverter mit offenem Kollektor\rOpen-collector inverter\rInverseur à collecteur ouvert",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       0.8
+      ],
+      "text": "1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       8.22,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.82,
+        2.54
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       2.54
+      ],
+      "pos": [
+       9.76,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.42,
+        2.6
+       ],
+       [
+        7.12,
+        3.3
+       ],
+       [
+        6.42,
+        4.0
+       ],
+       [
+        5.72,
+        3.3
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.72,
+        4.3
+       ],
+       [
+        7.12,
+        4.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Inverter mit offenem Kollektor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Vergleicher 4 Bit\r4-bit comparator\rComparateur 4 bits",
+   "item": {
+    "caption": "Vergleicher 4 Bit\r4-bit comparator\rComparateur 4 bits",
+    "children": [
+     {
+      "centre": [
+       8.89,
+       11.43
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       12.7,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "A0",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A0",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "A0",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "A1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "A2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "A3",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A3",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "A3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "B0",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B0",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "B0",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "B1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B1",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.4,
+       13.04
+      ],
+      "text": "B1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "B2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B2",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.4,
+       15.58
+      ],
+      "text": "B2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "B3",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B3",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.4,
+       18.12
+      ],
+      "text": "B3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        7.62
+       ],
+       [
+        17.78,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       14.64,
+       6.62
+      ],
+      "text": "A>B",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A>B",
+      "pin": [
+       17.78,
+       7.62
+      ],
+      "pos": [
+       17.38,
+       5.42
+      ],
+      "text": "A>B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        10.16
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       14.64,
+       9.16
+      ],
+      "text": "A=B",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A=B",
+      "pin": [
+       17.78,
+       10.16
+      ],
+      "pos": [
+       17.38,
+       7.96
+      ],
+      "text": "A=B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        12.7
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       14.64,
+       11.7
+      ],
+      "text": "A<B",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A<B",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       17.38,
+       10.5
+      ],
+      "text": "A<B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       8.89,
+       0.4
+      ],
+      "text": "COMP",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       23.46
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Vergleicher 4 Bit",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "7-Segment-Anzeige (gemeinsame Kathode)\rSeven-segment display (common cathode)\rAfficheur 7 segments (cathode commune)",
+   "item": {
+    "caption": "7-Segment-Anzeige (gemeinsame Kathode)\rSeven-segment display (common cathode)\rAfficheur 7 segments (cathode commune)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       11.43
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "a",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "b",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "b",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "b",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "c",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "c",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "c",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "d",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "d",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "d",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "e",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "e",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "e",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "f",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.4,
+       13.04
+      ],
+      "text": "f",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "g",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.4,
+       15.58
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "dp",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "dp",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.4,
+       18.12
+      ],
+      "text": "dp",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        15.748,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        15.748,
+        5.08
+       ],
+       [
+        15.748,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        15.748,
+        10.16
+       ],
+       [
+        15.748,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        15.24
+       ],
+       [
+        15.748,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        15.748,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       16.748,
+       15.24
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        22.86
+       ],
+       [
+        10.16,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       10.16,
+       25.4
+      ],
+      "pos": [
+       10.66,
+       23.4
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       23.46
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "7SEG?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/7-Segment-Anzeige (gemeinsame Kathode)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schmitt-Trigger (Kasten)\rSchmitt trigger (box)\rTrigger de Schmitt (rectangle)",
+   "item": {
+    "caption": "Schmitt-Trigger (Kasten)\rSchmitt trigger (box)\rTrigger de Schmitt (rectangle)",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.48,
+        3.49
+       ],
+       [
+        5.08,
+        3.49
+       ],
+       [
+        5.08,
+        1.57
+       ],
+       [
+        6.68,
+        1.57
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.12,
+        3.49
+       ],
+       [
+        4.12,
+        1.57
+       ],
+       [
+        5.72,
+        1.57
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       2.54
+      ],
+      "pos": [
+       9.76,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "ST?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Schmitt-Trigger (Kasten)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Einschaltverzögerung\rOn-delay\rTemporisation à l’enclenchement",
+   "item": {
+    "autoNumber": false,
+    "caption": "Einschaltverzögerung\rOn-delay\rTemporisation à l’enclenchement",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.02,
+        5.08
+       ],
+       [
+        9.22,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.02,
+        4.18
+       ],
+       [
+        6.02,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.22,
+        4.18
+       ],
+       [
+        9.22,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       5.42,
+       4.08
+      ],
+      "text": "t1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Einschaltverzögerung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Ausschaltverzögerung\rOff-delay\rTemporisation au déclenchement",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ausschaltverzögerung\rOff-delay\rTemporisation au déclenchement",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.02,
+        5.08
+       ],
+       [
+        9.22,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.02,
+        4.18
+       ],
+       [
+        6.02,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.22,
+        4.18
+       ],
+       [
+        9.22,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.82,
+       4.08
+      ],
+      "text": "t2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Ausschaltverzögerung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Ein- und Ausschaltverzögerung\rOn- and off-delay\rTemporisation à l’enclenchement et au déclenchement",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ein- und Ausschaltverzögerung\rOn- and off-delay\rTemporisation à l’enclenchement et au déclenchement",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.02,
+        5.08
+       ],
+       [
+        9.22,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.02,
+        4.18
+       ],
+       [
+        6.02,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.22,
+        4.18
+       ],
+       [
+        9.22,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       5.42,
+       4.08
+      ],
+      "text": "t1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.82,
+       4.08
+      ],
+      "text": "t2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/Ein- und Ausschaltverzögerung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "BCD-zu-7-Segment-Decoder\rBCD to seven-segment decoder\rDécodeur BCD 7 segments",
+   "item": {
+    "caption": "BCD-zu-7-Segment-Decoder\rBCD to seven-segment decoder\rDécodeur BCD 7 segments",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       11.43
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        5.08
+       ],
+       [
+        20.32,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       17.18,
+       4.08
+      ],
+      "text": "a",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       20.32,
+       5.08
+      ],
+      "pos": [
+       19.92,
+       2.88
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        7.62
+       ],
+       [
+        20.32,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       17.18,
+       6.62
+      ],
+      "text": "b",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "b",
+      "pin": [
+       20.32,
+       7.62
+      ],
+      "pos": [
+       19.92,
+       5.42
+      ],
+      "text": "b",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        20.32,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       17.18,
+       9.16
+      ],
+      "text": "c",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "c",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "c",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        12.7
+       ],
+       [
+        20.32,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       17.18,
+       11.7
+      ],
+      "text": "d",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "d",
+      "pin": [
+       20.32,
+       12.7
+      ],
+      "pos": [
+       19.92,
+       10.5
+      ],
+      "text": "d",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        15.24
+       ],
+       [
+        20.32,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       17.18,
+       14.24
+      ],
+      "text": "e",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "e",
+      "pin": [
+       20.32,
+       15.24
+      ],
+      "pos": [
+       19.92,
+       13.04
+      ],
+      "text": "e",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        17.78
+       ],
+       [
+        20.32,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       17.18,
+       16.78
+      ],
+      "text": "f",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f",
+      "pin": [
+       20.32,
+       17.78
+      ],
+      "pos": [
+       19.92,
+       15.58
+      ],
+      "text": "f",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        20.32
+       ],
+       [
+        20.32,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       17.18,
+       19.32
+      ],
+      "text": "g",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       20.32,
+       20.32
+      ],
+      "pos": [
+       19.92,
+       18.12
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       0.4
+      ],
+      "text": "BCD/7-Seg",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       23.46
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "7SEG?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Digital/BCD-zu-7-Segment-Decoder",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

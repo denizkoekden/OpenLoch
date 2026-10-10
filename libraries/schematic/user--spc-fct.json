@@ -1,0 +1,11347 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "SPC FCT\rSPC FCT\rFCT SPÉC",
+ "symbols": [
+  {
+   "caption": "Funktionsgenerator XR2206\rFunction generator XR2206\rGénérateur de fonctions XR2206",
+   "item": {
+    "caption": "Funktionsgenerator XR2206\rFunction generator XR2206\rGénérateur de fonctions XR2206",
+    "children": [
+     {
+      "centre": [
+       11.43,
+       16.51
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       17.78,
+       33.02
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "TC1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "TC2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "TR1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "TR2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "FSKI",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "AMSI",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "WAVEA1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.2,
+       18.12
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        22.86
+       ],
+       [
+        2.54,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       21.86
+      ],
+      "text": "WAVEA2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       0,
+       22.86
+      ],
+      "pos": [
+       0.2,
+       20.66
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        25.4
+       ],
+       [
+        2.54,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       24.4
+      ],
+      "text": "SYMA1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "15",
+      "pin": [
+       0,
+       25.4
+      ],
+      "pos": [
+       0.2,
+       23.2
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        27.94
+       ],
+       [
+        2.54,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       26.94
+      ],
+      "text": "SYMA2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "16",
+      "pin": [
+       0,
+       27.94
+      ],
+      "pos": [
+       0.2,
+       25.74
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        22.86,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       4.08
+      ],
+      "text": "STO",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       22.86,
+       5.08
+      ],
+      "pos": [
+       22.66,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        7.62
+       ],
+       [
+        22.86,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       6.62
+      ],
+      "text": "MO",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       22.86,
+       7.62
+      ],
+      "pos": [
+       22.66,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        22.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       9.16
+      ],
+      "text": "SYNCO",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       22.86,
+       10.16
+      ],
+      "pos": [
+       22.66,
+       7.96
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        12.7
+       ],
+       [
+        22.86,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       11.7
+      ],
+      "text": "BIAS",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       22.86,
+       12.7
+      ],
+      "pos": [
+       22.66,
+       10.5
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       0.4
+      ],
+      "text": "VCC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.56,
+       -2.3
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        33.02
+       ],
+       [
+        10.16,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       30.62
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       10.16,
+       35.56
+      ],
+      "pos": [
+       10.56,
+       33.32
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       36.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Funktionsgenerator XR2206",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "XR2206"
+   }
+  },
+  {
+   "caption": "Timer NE555\rTimer NE555\rTemporisateur NE555",
+   "item": {
+    "caption": "Timer NE555\rTimer NE555\rTemporisateur NE555",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "TRIG",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "THRS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "DISCH",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        7.62
+       ],
+       [
+        20.32,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       6.62
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       20.32,
+       7.62
+      ],
+      "pos": [
+       20.12,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       5.08,
+       0.4
+      ],
+      "text": "V+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       5.08,
+       -2.54
+      ],
+      "pos": [
+       5.48,
+       -2.3
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       0.4
+      ],
+      "text": "RES",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.1,
+       -2.3
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        15.24
+       ],
+       [
+        5.08,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       5.08,
+       12.84
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       5.08,
+       17.78
+      ],
+      "pos": [
+       5.48,
+       15.54
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        15.24
+       ],
+       [
+        12.7,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       12.84
+      ],
+      "text": "VCTRL",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       12.7,
+       17.78
+      ],
+      "pos": [
+       13.1,
+       15.54
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       18.38
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Timer NE555",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "NE555"
+   }
+  },
+  {
+   "caption": "Effektivwertwandler AD637\rRMS-to-DC converter AD637\rConvertisseur efficace AD637",
+   "item": {
+    "caption": "Effektivwertwandler AD637\rRMS-to-DC converter AD637\rConvertisseur efficace AD637",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       11.43
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "VIN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "BUFF IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "CS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "DEN IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "OFFSET",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "CAV",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "RMS OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "BUFF OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "dB OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        15.24
+       ],
+       [
+        25.4,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       14.24
+      ],
+      "text": "NIC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       25.4,
+       15.24
+      ],
+      "pos": [
+       25.2,
+       13.04
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        17.78
+       ],
+       [
+        25.4,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       16.78
+      ],
+      "text": "NIC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       25.4,
+       17.78
+      ],
+      "pos": [
+       25.2,
+       15.58
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       0.4
+      ],
+      "text": "+VS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.1,
+       -2.3
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        22.86
+       ],
+       [
+        7.62,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       7.62,
+       20.46
+      ],
+      "text": "−VS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       7.62,
+       25.4
+      ],
+      "pos": [
+       8.02,
+       23.16
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        22.86
+       ],
+       [
+        15.24,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       15.24,
+       20.46
+      ],
+      "text": "COMMON",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       15.24,
+       25.4
+      ],
+      "pos": [
+       15.64,
+       23.16
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       26.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Effektivwertwandler AD637",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "AD637"
+   }
+  },
+  {
+   "caption": "Timer NE555 (Innenschaltung)\rTimer NE555 (internal circuit)\rTemporisateur NE555 (schéma interne)",
+   "item": {
+    "caption": "Timer NE555 (Innenschaltung)\rTimer NE555 (internal circuit)\rTemporisateur NE555 (schéma interne)",
+    "children": [
+     {
+      "centre": [
+       25.4,
+       20.32
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       45.72,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        -2.54
+       ],
+       [
+        10.16,
+        2.032
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       4.064
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       4.064
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        6.096
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       17.78
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       33.02
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        35.56
+       ],
+       [
+        10.16,
+        43.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        15.24,
+        5.08
+       ],
+       [
+        15.24,
+        15.24
+       ],
+       [
+        22.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        15.24,
+        20.32
+       ],
+       [
+        15.24,
+        30.48
+       ],
+       [
+        22.86,
+        25.4
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       15.64,
+       6.42
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       15.64,
+       11.5
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       15.64,
+       21.66
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       15.64,
+       26.74
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        15.24,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        15.24,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        22.86
+       ],
+       [
+        15.24,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        27.94
+       ],
+       [
+        15.24,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       12.7
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       10.16,
+       22.86
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ],
+       [
+        25.4,
+        15.24
+       ],
+       [
+        27.94,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        25.4
+       ],
+       [
+        27.94,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       33.02,
+       20.32
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       28.54,
+       14.24
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       28.54,
+       24.4
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       35.56,
+       13.1
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       37.5,
+       19.32
+      ],
+      "text": "Q̅",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        -2.54
+       ],
+       [
+        35.56,
+        11.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       12.1
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        38.1,
+        20.32
+       ],
+       [
+        41.656,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        41.656,
+        17.78
+       ],
+       [
+        41.656,
+        22.86
+       ],
+       [
+        44.704,
+        20.32
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       45.204,
+       20.32
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.704,
+        20.32
+       ],
+       [
+        50.8,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       39.878,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        39.878,
+        20.32
+       ],
+       [
+        39.878,
+        31.75
+       ],
+       [
+        41.91,
+        31.75
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        41.91,
+        30.226
+       ],
+       [
+        41.91,
+        33.274
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        41.91,
+        30.988
+       ],
+       [
+        43.942,
+        29.464
+       ],
+       [
+        43.942,
+        27.94
+       ],
+       [
+        50.8,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        41.91,
+        32.512
+       ],
+       [
+        43.942,
+        34.036
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.942,
+        34.036
+       ],
+       [
+        43.942,
+        38.1
+       ],
+       [
+        10.16,
+        38.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       38.1
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       2.94,
+       5.92
+      ],
+      "text": "THRS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       2.94,
+       11.0
+      ],
+      "text": "VCTRL",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       2.94,
+       26.24
+      ],
+      "text": "TRIG",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       47.86,
+       18.02
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       47.86,
+       26.24
+      ],
+      "text": "DISCH",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "V+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       35.96,
+       0.3
+      ],
+      "text": "RES",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       10.56,
+       38.94
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.56,
+       -2.3
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       35.56,
+       -2.54
+      ],
+      "pos": [
+       35.96,
+       -2.3
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       10.16,
+       43.18
+      ],
+      "pos": [
+       10.56,
+       40.94
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       27.94
+      ],
+      "pos": [
+       0.2,
+       25.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       50.8,
+       20.32
+      ],
+      "pos": [
+       50.6,
+       18.12
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       50.8,
+       27.94
+      ],
+      "pos": [
+       50.6,
+       25.74
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       43.78
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "U?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Timer NE555 (Innenschaltung)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "NE555"
+   }
+  },
+  {
+   "caption": "Frequenzzähler 8 Stellen ICM7216\r8-digit frequency counter ICM7216\rFréquencemètre 8 chiffres ICM7216",
+   "item": {
+    "caption": "Frequenzzähler 8 Stellen ICM7216\r8-digit frequency counter ICM7216\rFréquencemètre 8 chiffres ICM7216",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       24.13
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       48.26
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "INPUT A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "28",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "28",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "INPUT B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "FUNCTION",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "RANGE",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "CONTROL",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "HOLD",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "27",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "27",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "RESET",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.2,
+       18.12
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        25.4
+       ],
+       [
+        2.54,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       24.4
+      ],
+      "text": "OSC IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "25",
+      "pin": [
+       0,
+       25.4
+      ],
+      "pos": [
+       0.2,
+       23.2
+      ],
+      "text": "25",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        27.94
+       ],
+       [
+        2.54,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       26.94
+      ],
+      "text": "OSC OUT",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "26",
+      "pin": [
+       0,
+       27.94
+      ],
+      "pos": [
+       0.2,
+       25.74
+      ],
+      "text": "26",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        30.48
+       ],
+       [
+        2.54,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       29.48
+      ],
+      "text": "EXT OSC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "24",
+      "pin": [
+       0,
+       30.48
+      ],
+      "pos": [
+       0.2,
+       28.28
+      ],
+      "text": "24",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "D1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "D2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "D3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "D4",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        15.24
+       ],
+       [
+        25.4,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       14.24
+      ],
+      "text": "D5",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       25.4,
+       15.24
+      ],
+      "pos": [
+       25.2,
+       13.04
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        17.78
+       ],
+       [
+        25.4,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       16.78
+      ],
+      "text": "D6",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       25.4,
+       17.78
+      ],
+      "pos": [
+       25.2,
+       15.58
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        20.32
+       ],
+       [
+        25.4,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       19.32
+      ],
+      "text": "D7",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       25.4,
+       20.32
+      ],
+      "pos": [
+       25.2,
+       18.12
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        22.86
+       ],
+       [
+        25.4,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       21.86
+      ],
+      "text": "D8",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       25.4,
+       22.86
+      ],
+      "pos": [
+       25.2,
+       20.66
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        25.4
+       ],
+       [
+        25.4,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       24.4
+      ],
+      "text": "SEG a",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "20",
+      "pin": [
+       25.4,
+       25.4
+      ],
+      "pos": [
+       25.2,
+       23.2
+      ],
+      "text": "20",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        27.94
+       ],
+       [
+        25.4,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       26.94
+      ],
+      "text": "SEG b",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "17",
+      "pin": [
+       25.4,
+       27.94
+      ],
+      "pos": [
+       25.2,
+       25.74
+      ],
+      "text": "17",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        30.48
+       ],
+       [
+        25.4,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       29.48
+      ],
+      "text": "SEG c",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "16",
+      "pin": [
+       25.4,
+       30.48
+      ],
+      "pos": [
+       25.2,
+       28.28
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        33.02
+       ],
+       [
+        25.4,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       32.02
+      ],
+      "text": "SEG d",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "19",
+      "pin": [
+       25.4,
+       33.02
+      ],
+      "pos": [
+       25.2,
+       30.82
+      ],
+      "text": "19",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        35.56
+       ],
+       [
+        25.4,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       34.56
+      ],
+      "text": "SEG e",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "21",
+      "pin": [
+       25.4,
+       35.56
+      ],
+      "pos": [
+       25.2,
+       33.36
+      ],
+      "text": "21",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        38.1
+       ],
+       [
+        25.4,
+        38.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       37.1
+      ],
+      "text": "SEG f",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "15",
+      "pin": [
+       25.4,
+       38.1
+      ],
+      "pos": [
+       25.2,
+       35.9
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        40.64
+       ],
+       [
+        25.4,
+        40.64
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       39.64
+      ],
+      "text": "SEG g",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "22",
+      "pin": [
+       25.4,
+       40.64
+      ],
+      "pos": [
+       25.2,
+       38.44
+      ],
+      "text": "22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        43.18
+       ],
+       [
+        25.4,
+        43.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       42.18
+      ],
+      "text": "DP",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "23",
+      "pin": [
+       25.4,
+       43.18
+      ],
+      "pos": [
+       25.2,
+       40.98
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       0.4
+      ],
+      "text": "VDD",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "18",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.1,
+       -2.3
+      ],
+      "text": "18",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        48.26
+       ],
+       [
+        12.7,
+        50.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       45.86
+      ],
+      "text": "VSS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       12.7,
+       50.8
+      ],
+      "pos": [
+       13.1,
+       48.56
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       51.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Frequenzzähler 8 Stellen ICM7216",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "ICM7216B"
+   }
+  },
+  {
+   "caption": "PLL 74HC4046\rPLL 74HC4046\rPLL 74HC4046",
+   "item": {
+    "caption": "PLL 74HC4046\rPLL 74HC4046\rPLL 74HC4046",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       13.97
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       27.94
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "SIG IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "COMP IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "VCO IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "INH",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "C1A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "C1B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "R1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.2,
+       18.12
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        22.86
+       ],
+       [
+        2.54,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       21.86
+      ],
+      "text": "R2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       0,
+       22.86
+      ],
+      "pos": [
+       0.2,
+       20.66
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "PC1 OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "PC2 OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "PC3 OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "15",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "PCP OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        15.24
+       ],
+       [
+        25.4,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       14.24
+      ],
+      "text": "VCO OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       15.24
+      ],
+      "pos": [
+       25.2,
+       13.04
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        17.78
+       ],
+       [
+        25.4,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       16.78
+      ],
+      "text": "DEM OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       25.4,
+       17.78
+      ],
+      "pos": [
+       25.2,
+       15.58
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       0.4
+      ],
+      "text": "VCC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "16",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.1,
+       -2.3
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        27.94
+       ],
+       [
+        12.7,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       25.54
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       12.7,
+       30.48
+      ],
+      "pos": [
+       13.1,
+       28.24
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       31.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/PLL 74HC4046",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC4046"
+   }
+  },
+  {
+   "caption": "Effektivwertwandler AD636\rRMS-to-DC converter AD636\rConvertisseur efficace AD636",
+   "item": {
+    "caption": "Effektivwertwandler AD636\rRMS-to-DC converter AD636\rConvertisseur efficace AD636",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       8.89
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       17.78
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "VIN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "BUF IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "CAV",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "RL",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "IOUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "BUF OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "dB",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       0.4
+      ],
+      "text": "+VS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.1,
+       -2.3
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        17.78
+       ],
+       [
+        10.16,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       15.38
+      ],
+      "text": "−VS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.08
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        17.78
+       ],
+       [
+        15.24,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       15.24,
+       15.38
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       20.32
+      ],
+      "pos": [
+       15.64,
+       18.08
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       20.92
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Effektivwertwandler AD636",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "AD636JH"
+   }
+  },
+  {
+   "caption": "3½-stelliges Digitalvoltmeter-Modul (LED)\r3½-digit digital voltmeter module (LED)\rModule voltmètre numérique 3½ chiffres (DEL)",
+   "item": {
+    "caption": "3½-stelliges Digitalvoltmeter-Modul (LED)\r3½-digit digital voltmeter module (LED)\rModule voltmètre numérique 3½ chiffres (DEL)",
+    "children": [
+     {
+      "centre": [
+       19.05,
+       10.16
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       33.02,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "IN HI",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "IN HI",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "IN HI",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "IN LO",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "IN LO",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "IN LO",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "REF HI",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "REF HI",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "REF HI",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "REF LO",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "REF LO",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "REF LO",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "COMMON",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "COMMON",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "COMMON",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.78,
+       0.4
+      ],
+      "text": "V+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "V+",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       18.18,
+       -2.3
+      ],
+      "text": "V+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        20.32
+       ],
+       [
+        12.7,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       17.92
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "GND",
+      "pin": [
+       12.7,
+       22.86
+      ],
+      "pos": [
+       13.1,
+       20.62
+      ],
+      "text": "GND",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        20.32
+       ],
+       [
+        20.32,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       20.32,
+       17.92
+      ],
+      "text": "V−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "V-",
+      "pin": [
+       20.32,
+       22.86
+      ],
+      "pos": [
+       20.72,
+       20.62
+      ],
+      "text": "V-",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       20.94,
+       9.004
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       13.4,
+       6.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        16.24,
+        6.604
+       ],
+       [
+        16.24,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        18.24,
+        6.604
+       ],
+       [
+        19.84,
+        6.604
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        19.84,
+        6.604
+       ],
+       [
+        19.84,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        19.84,
+        9.004
+       ],
+       [
+        19.84,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        18.24,
+        11.404
+       ],
+       [
+        19.84,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        18.24,
+        9.004
+       ],
+       [
+        18.24,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        18.24,
+        6.604
+       ],
+       [
+        18.24,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        18.24,
+        9.004
+       ],
+       [
+        19.84,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        21.24,
+        6.604
+       ],
+       [
+        22.84,
+        6.604
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        22.84,
+        6.604
+       ],
+       [
+        22.84,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        22.84,
+        9.004
+       ],
+       [
+        22.84,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        21.24,
+        11.404
+       ],
+       [
+        22.84,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        21.24,
+        9.004
+       ],
+       [
+        21.24,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        21.24,
+        6.604
+       ],
+       [
+        21.24,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        21.24,
+        9.004
+       ],
+       [
+        22.84,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        24.24,
+        6.604
+       ],
+       [
+        25.84,
+        6.604
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        25.84,
+        6.604
+       ],
+       [
+        25.84,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        25.84,
+        9.004
+       ],
+       [
+        25.84,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        24.24,
+        11.404
+       ],
+       [
+        25.84,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        24.24,
+        9.004
+       ],
+       [
+        24.24,
+        11.404
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        24.24,
+        6.604
+       ],
+       [
+        24.24,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        24.24,
+        9.004
+       ],
+       [
+        25.84,
+        9.004
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       26.64,
+       11.404
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.5,
+       0.5
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       23.46
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "U?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/3½-stelliges Digitalvoltmeter-Modul (LED)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "DVM"
+   }
+  },
+  {
+   "caption": "3½-stelliges Digitalvoltmeter (LCD) ICL7106\r3½-digit digital voltmeter (LCD) ICL7106\rVoltmètre numérique 3½ chiffres (LCD) ICL7106",
+   "item": {
+    "caption": "3½-stelliges Digitalvoltmeter (LCD) ICL7106\r3½-digit digital voltmeter (LCD) ICL7106\rVoltmètre numérique 3½ chiffres (LCD) ICL7106",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       34.29
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       68.58
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "IN HI",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "31",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "IN LO",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "30",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "30",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "REF HI",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "36",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "36",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "REF LO",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "35",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "35",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "CREF+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "34",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "34",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "CREF−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "33",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "33",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "COMMON",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "32",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.2,
+       18.12
+      ],
+      "text": "32",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        22.86
+       ],
+       [
+        2.54,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       21.86
+      ],
+      "text": "BUFF",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "28",
+      "pin": [
+       0,
+       22.86
+      ],
+      "pos": [
+       0.2,
+       20.66
+      ],
+      "text": "28",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        25.4
+       ],
+       [
+        2.54,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       24.4
+      ],
+      "text": "A-Z",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "29",
+      "pin": [
+       0,
+       25.4
+      ],
+      "pos": [
+       0.2,
+       23.2
+      ],
+      "text": "29",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        27.94
+       ],
+       [
+        2.54,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       26.94
+      ],
+      "text": "INT",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "27",
+      "pin": [
+       0,
+       27.94
+      ],
+      "pos": [
+       0.2,
+       25.74
+      ],
+      "text": "27",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        33.02
+       ],
+       [
+        2.54,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       32.02
+      ],
+      "text": "OSC 1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "40",
+      "pin": [
+       0,
+       33.02
+      ],
+      "pos": [
+       0.2,
+       30.82
+      ],
+      "text": "40",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        35.56
+       ],
+       [
+        2.54,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       34.56
+      ],
+      "text": "OSC 2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "39",
+      "pin": [
+       0,
+       35.56
+      ],
+      "pos": [
+       0.2,
+       33.36
+      ],
+      "text": "39",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        38.1
+       ],
+       [
+        2.54,
+        38.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       37.1
+      ],
+      "text": "OSC 3",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "38",
+      "pin": [
+       0,
+       38.1
+      ],
+      "pos": [
+       0.2,
+       35.9
+      ],
+      "text": "38",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        40.64
+       ],
+       [
+        2.54,
+        40.64
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       39.64
+      ],
+      "text": "TEST",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "37",
+      "pin": [
+       0,
+       40.64
+      ],
+      "pos": [
+       0.2,
+       38.44
+      ],
+      "text": "37",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        5.08
+       ],
+       [
+        20.32,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       4.08
+      ],
+      "text": "A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       20.32,
+       5.08
+      ],
+      "pos": [
+       20.12,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        7.62
+       ],
+       [
+        20.32,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       6.62
+      ],
+      "text": "B1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       20.32,
+       7.62
+      ],
+      "pos": [
+       20.12,
+       5.42
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        20.32,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       9.16
+      ],
+      "text": "C1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       20.12,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        12.7
+       ],
+       [
+        20.32,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       11.7
+      ],
+      "text": "D1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       20.32,
+       12.7
+      ],
+      "pos": [
+       20.12,
+       10.5
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        15.24
+       ],
+       [
+        20.32,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       14.24
+      ],
+      "text": "E1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       20.32,
+       15.24
+      ],
+      "pos": [
+       20.12,
+       13.04
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        17.78
+       ],
+       [
+        20.32,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       16.78
+      ],
+      "text": "F1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       20.32,
+       17.78
+      ],
+      "pos": [
+       20.12,
+       15.58
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        20.32
+       ],
+       [
+        20.32,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       19.32
+      ],
+      "text": "G1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       20.32,
+       20.32
+      ],
+      "pos": [
+       20.12,
+       18.12
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        22.86
+       ],
+       [
+        20.32,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       21.86
+      ],
+      "text": "A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       20.32,
+       22.86
+      ],
+      "pos": [
+       20.12,
+       20.66
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        25.4
+       ],
+       [
+        20.32,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       24.4
+      ],
+      "text": "B2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       20.32,
+       25.4
+      ],
+      "pos": [
+       20.12,
+       23.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        27.94
+       ],
+       [
+        20.32,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       26.94
+      ],
+      "text": "C2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       20.32,
+       27.94
+      ],
+      "pos": [
+       20.12,
+       25.74
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        30.48
+       ],
+       [
+        20.32,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       29.48
+      ],
+      "text": "D2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       20.32,
+       30.48
+      ],
+      "pos": [
+       20.12,
+       28.28
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        33.02
+       ],
+       [
+        20.32,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       32.02
+      ],
+      "text": "E2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       20.32,
+       33.02
+      ],
+      "pos": [
+       20.12,
+       30.82
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        35.56
+       ],
+       [
+        20.32,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       34.56
+      ],
+      "text": "F2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       20.32,
+       35.56
+      ],
+      "pos": [
+       20.12,
+       33.36
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        38.1
+       ],
+       [
+        20.32,
+        38.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       37.1
+      ],
+      "text": "G2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "25",
+      "pin": [
+       20.32,
+       38.1
+      ],
+      "pos": [
+       20.12,
+       35.9
+      ],
+      "text": "25",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        40.64
+       ],
+       [
+        20.32,
+        40.64
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       39.64
+      ],
+      "text": "A3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "23",
+      "pin": [
+       20.32,
+       40.64
+      ],
+      "pos": [
+       20.12,
+       38.44
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        43.18
+       ],
+       [
+        20.32,
+        43.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       42.18
+      ],
+      "text": "B3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "16",
+      "pin": [
+       20.32,
+       43.18
+      ],
+      "pos": [
+       20.12,
+       40.98
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        45.72
+       ],
+       [
+        20.32,
+        45.72
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       44.72
+      ],
+      "text": "C3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "24",
+      "pin": [
+       20.32,
+       45.72
+      ],
+      "pos": [
+       20.12,
+       43.52
+      ],
+      "text": "24",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        48.26
+       ],
+       [
+        20.32,
+        48.26
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       47.26
+      ],
+      "text": "D3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "15",
+      "pin": [
+       20.32,
+       48.26
+      ],
+      "pos": [
+       20.12,
+       46.06
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        50.8
+       ],
+       [
+        20.32,
+        50.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       49.8
+      ],
+      "text": "E3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "18",
+      "pin": [
+       20.32,
+       50.8
+      ],
+      "pos": [
+       20.12,
+       48.6
+      ],
+      "text": "18",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        53.34
+       ],
+       [
+        20.32,
+        53.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       52.34
+      ],
+      "text": "F3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "17",
+      "pin": [
+       20.32,
+       53.34
+      ],
+      "pos": [
+       20.12,
+       51.14
+      ],
+      "text": "17",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        55.88
+       ],
+       [
+        20.32,
+        55.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       54.88
+      ],
+      "text": "G3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "22",
+      "pin": [
+       20.32,
+       55.88
+      ],
+      "pos": [
+       20.12,
+       53.68
+      ],
+      "text": "22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        58.42
+       ],
+       [
+        20.32,
+        58.42
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       57.42
+      ],
+      "text": "AB4",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "19",
+      "pin": [
+       20.32,
+       58.42
+      ],
+      "pos": [
+       20.12,
+       56.22
+      ],
+      "text": "19",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        60.96
+       ],
+       [
+        20.32,
+        60.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       59.96
+      ],
+      "text": "POL",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "20",
+      "pin": [
+       20.32,
+       60.96
+      ],
+      "pos": [
+       20.12,
+       58.76
+      ],
+      "text": "20",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        63.5
+       ],
+       [
+        20.32,
+        63.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       62.5
+      ],
+      "text": "BP",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "21",
+      "pin": [
+       20.32,
+       63.5
+      ],
+      "pos": [
+       20.12,
+       61.3
+      ],
+      "text": "21",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       0.4
+      ],
+      "text": "V+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.56,
+       -2.3
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        68.58
+       ],
+       [
+        10.16,
+        71.12
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       66.18
+      ],
+      "text": "V−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "26",
+      "pin": [
+       10.16,
+       71.12
+      ],
+      "pos": [
+       10.56,
+       68.88
+      ],
+      "text": "26",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       71.72
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "U?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/3½-stelliges Digitalvoltmeter (LCD) ICL7106",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "ICL7106"
+   }
+  },
+  {
+   "caption": "Kopfhörerverstärker\rHeadphone amplifier\rAmplificateur pour casque",
+   "item": {
+    "caption": "Kopfhörerverstärker\rHeadphone amplifier\rAmplificateur pour casque",
+    "children": [
+     {
+      "centre": [
+       11.43,
+       15.24
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       17.78,
+       30.48
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        12.7
+       ],
+       [
+        15.24,
+        7.62
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       3.88
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       8.96
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       6.72
+      ],
+      "text": "A",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        7.62
+       ],
+       [
+        22.86,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       22.86,
+       7.62
+      ],
+      "pos": [
+       22.66,
+       5.42
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        7.62,
+        15.24
+       ],
+       [
+        7.62,
+        25.4
+       ],
+       [
+        15.24,
+        20.32
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       16.58
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       21.66
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       19.42
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        7.62,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        22.86
+       ],
+       [
+        7.62,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       0,
+       22.86
+      ],
+      "pos": [
+       0.2,
+       20.66
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        20.32
+       ],
+       [
+        22.86,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       22.86,
+       20.32
+      ],
+      "pos": [
+       22.66,
+       18.12
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       0.4
+      ],
+      "text": "VDD",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.1,
+       -2.3
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        30.48
+       ],
+       [
+        12.7,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       28.08
+      ],
+      "text": "VSS",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       12.7,
+       33.02
+      ],
+      "pos": [
+       13.1,
+       30.78
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       33.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "U?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Kopfhörerverstärker",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TDA1308"
+   }
+  },
+  {
+   "caption": "Analoge Verzögerungsleitung SAD1024\rAnalog delay line SAD1024\rLigne à retard analogique SAD1024",
+   "item": {
+    "caption": "Analoge Verzögerungsleitung SAD1024\rAnalog delay line SAD1024\rLigne à retard analogique SAD1024",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       17.78
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       35.56
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "IN A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "φ1A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "φ2A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "IN B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "15",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "φ1B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "φ2B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.2,
+       18.12
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        5.08
+       ],
+       [
+        20.32,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       4.08
+      ],
+      "text": "OUT A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       20.32,
+       5.08
+      ],
+      "pos": [
+       20.12,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        7.62
+       ],
+       [
+        20.32,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       6.62
+      ],
+      "text": "OUT A'",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       20.32,
+       7.62
+      ],
+      "pos": [
+       20.12,
+       5.42
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        15.24
+       ],
+       [
+        20.32,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       14.24
+      ],
+      "text": "OUT B",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       20.32,
+       15.24
+      ],
+      "pos": [
+       20.12,
+       13.04
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        17.78
+       ],
+       [
+        20.32,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       16.78
+      ],
+      "text": "OUT B'",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       20.32,
+       17.78
+      ],
+      "pos": [
+       20.12,
+       15.58
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        25.4
+       ],
+       [
+        20.32,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       24.4
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       20.32,
+       25.4
+      ],
+      "pos": [
+       20.12,
+       23.2
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        27.94
+       ],
+       [
+        20.32,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       26.94
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       20.32,
+       27.94
+      ],
+      "pos": [
+       20.12,
+       25.74
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        30.48
+       ],
+       [
+        20.32,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       17.18,
+       29.48
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "16",
+      "pin": [
+       20.32,
+       30.48
+      ],
+      "pos": [
+       20.12,
+       28.28
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        12.7
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        22.86
+       ],
+       [
+        17.78,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       7.62,
+       0.4
+      ],
+      "text": "VDD",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       7.62,
+       -2.54
+      ],
+      "pos": [
+       8.02,
+       -2.3
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       12.7,
+       0.4
+      ],
+      "text": "VBB",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.1,
+       -2.3
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        35.56
+       ],
+       [
+        10.16,
+        38.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       33.16
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       10.16,
+       38.1
+      ],
+      "pos": [
+       10.56,
+       35.86
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       38.7
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Analoge Verzögerungsleitung SAD1024",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "SAD1024"
+   }
+  },
+  {
+   "caption": "CCD-Verzögerungsleitung TDA1022\rBucket-brigade delay line TDA1022\rLigne à retard à transfert de charges TDA1022",
+   "item": {
+    "caption": "CCD-Verzögerungsleitung TDA1022\rBucket-brigade delay line TDA1022\rLigne à retard à transfert de charges TDA1022",
+    "children": [
+     {
+      "centre": [
+       11.43,
+       15.24
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       17.78,
+       30.48
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "φ1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "φ2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "GATE",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.2,
+       18.12
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        22.86
+       ],
+       [
+        2.54,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       21.86
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       22.86
+      ],
+      "pos": [
+       0.2,
+       20.66
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        25.4
+       ],
+       [
+        2.54,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       24.4
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       0,
+       25.4
+      ],
+      "pos": [
+       0.2,
+       23.2
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        22.86,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       4.08
+      ],
+      "text": "OUT 512",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       22.86,
+       5.08
+      ],
+      "pos": [
+       22.66,
+       2.88
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        7.62
+       ],
+       [
+        22.86,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       6.62
+      ],
+      "text": "OUT 513",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       22.86,
+       7.62
+      ],
+      "pos": [
+       22.66,
+       5.42
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        17.78
+       ],
+       [
+        22.86,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       16.78
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       22.86,
+       17.78
+      ],
+      "pos": [
+       22.66,
+       15.58
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        20.32
+       ],
+       [
+        22.86,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       19.32
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       22.86,
+       20.32
+      ],
+      "pos": [
+       22.66,
+       18.12
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        22.86
+       ],
+       [
+        22.86,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       21.86
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       22.86,
+       22.86
+      ],
+      "pos": [
+       22.66,
+       20.66
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        25.4
+       ],
+       [
+        22.86,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       24.4
+      ],
+      "text": "NC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "15",
+      "pin": [
+       22.86,
+       25.4
+      ],
+      "pos": [
+       22.66,
+       23.2
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        15.24
+       ],
+       [
+        20.32,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       0.4
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "16",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.56,
+       -2.3
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        30.48
+       ],
+       [
+        10.16,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       28.08
+      ],
+      "text": "VDD",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       10.16,
+       33.02
+      ],
+      "pos": [
+       10.56,
+       30.78
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       33.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/CCD-Verzögerungsleitung TDA1022",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TDA1022"
+   }
+  },
+  {
+   "caption": "Kompander NE570\rCompander NE570\rCompresseur-extenseur NE570",
+   "item": {
+    "caption": "Kompander NE570\rCompander NE570\rCompresseur-extenseur NE570",
+    "children": [
+     {
+      "centre": [
+       11.43,
+       20.32
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       17.78,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "RECT IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "ΔG IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "INV IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "R3",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "RECT CAP",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.2,
+       13.04
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "THD TRIM",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        22.86
+       ],
+       [
+        2.54,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       21.86
+      ],
+      "text": "RECT IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "15",
+      "pin": [
+       0,
+       22.86
+      ],
+      "pos": [
+       0.2,
+       20.66
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        25.4
+       ],
+       [
+        2.54,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       24.4
+      ],
+      "text": "ΔG IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "14",
+      "pin": [
+       0,
+       25.4
+      ],
+      "pos": [
+       0.2,
+       23.2
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        27.94
+       ],
+       [
+        2.54,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       26.94
+      ],
+      "text": "INV IN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "12",
+      "pin": [
+       0,
+       27.94
+      ],
+      "pos": [
+       0.2,
+       25.74
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        30.48
+       ],
+       [
+        2.54,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       29.48
+      ],
+      "text": "R3",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "11",
+      "pin": [
+       0,
+       30.48
+      ],
+      "pos": [
+       0.2,
+       28.28
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        33.02
+       ],
+       [
+        2.54,
+        33.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       32.02
+      ],
+      "text": "RECT CAP",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "16",
+      "pin": [
+       0,
+       33.02
+      ],
+      "pos": [
+       0.2,
+       30.82
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        35.56
+       ],
+       [
+        2.54,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       34.56
+      ],
+      "text": "THD TRIM",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "9",
+      "pin": [
+       0,
+       35.56
+      ],
+      "pos": [
+       0.2,
+       33.36
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        22.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       9.16
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       22.86,
+       10.16
+      ],
+      "pos": [
+       22.66,
+       7.96
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        27.94
+       ],
+       [
+        22.86,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       19.72,
+       26.94
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "10",
+      "pin": [
+       22.86,
+       27.94
+      ],
+      "pos": [
+       22.66,
+       25.74
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        20.32
+       ],
+       [
+        20.32,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       0.4
+      ],
+      "text": "VCC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "13",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.56,
+       -2.3
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        40.64
+       ],
+       [
+        10.16,
+        43.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.16,
+       38.24
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       43.18
+      ],
+      "pos": [
+       10.56,
+       40.94
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       43.78
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/SPC FCT/Kompander NE570",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "NE570"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

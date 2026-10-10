@@ -1,0 +1,3867 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile",
+ "format": "OpenLoch Schematic Library",
+ "name": "Dioden\rDiodes\rDiodes",
+ "symbols": [
+  {
+   "caption": "Diode\rDiode\rDiode",
+   "item": {
+    "caption": "Diode\rDiode\rDiode",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Diode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Z-Diode\rZener diode\rDiode Zener",
+   "item": {
+    "caption": "Z-Diode\rZener diode\rDiode Zener",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        5.55,
+        -1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Z-Diode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schottky-Diode\rSchottky diode\rDiode Schottky",
+   "item": {
+    "caption": "Schottky-Diode\rSchottky diode\rDiode Schottky",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.05,
+        -1.0
+       ],
+       [
+        7.05,
+        -1.5
+       ],
+       [
+        6.35,
+        -1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        1.5
+       ],
+       [
+        5.65,
+        1.5
+       ],
+       [
+        5.65,
+        1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Schottky-Diode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kapazitätsdiode\rVaricap diode\rDiode varicap",
+   "item": {
+    "caption": "Kapazitätsdiode\rVaricap diode\rDiode varicap",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.175,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.515,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.175,
+        -1.5
+       ],
+       [
+        3.175,
+        1.5
+       ],
+       [
+        5.715,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        5.715,
+        -1.5
+       ],
+       [
+        5.715,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.515,
+        -1.5
+       ],
+       [
+        6.515,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Kapazitätsdiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Tunneldiode\rTunnel diode\rDiode tunnel",
+   "item": {
+    "caption": "Tunneldiode\rTunnel diode\rDiode tunnel",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.65,
+        -1.5
+       ],
+       [
+        6.35,
+        -1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.65,
+        1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Tunneldiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fotodiode\rPhotodiode\rPhotodiode",
+   "item": {
+    "caption": "Fotodiode\rPhotodiode\rPhotodiode",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.5771,
+        -3.2971
+       ],
+       [
+        4.88,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.9771,
+        -3.2971
+       ],
+       [
+        6.28,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -7.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Fotodiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Diode vertikal\rDiode, vertical\rDiode verticale",
+   "item": {
+    "caption": "Diode vertikal\rDiode, vertical\rDiode verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Diode vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Brückengleichrichter\rBridge rectifier\rPont redresseur",
+   "item": {
+    "caption": "Brückengleichrichter\rBridge rectifier\rPont redresseur",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.4693,
+        3.8835
+       ],
+       [
+        3.8835,
+        2.4693
+       ],
+       [
+        1.9036,
+        1.9036
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.1965,
+        2.6107
+       ],
+       [
+        2.6107,
+        1.1965
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.2765,
+        2.4693
+       ],
+       [
+        7.6907,
+        3.8835
+       ],
+       [
+        8.2564,
+        1.9036
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        7.5493,
+        1.1965
+       ],
+       [
+        8.9635,
+        2.6107
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1965,
+        -2.6107
+       ],
+       [
+        2.6107,
+        -1.1965
+       ],
+       [
+        3.1764,
+        -3.1764
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.4693,
+        -3.8835
+       ],
+       [
+        3.8835,
+        -2.4693
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.5493,
+        -1.1965
+       ],
+       [
+        8.9635,
+        -2.6107
+       ],
+       [
+        6.9836,
+        -3.1764
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.2765,
+        -2.4693
+       ],
+       [
+        7.6907,
+        -3.8835
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "~1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "~2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.68,
+       -5.08
+      ],
+      "text": "+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.68,
+       2.88
+      ],
+      "text": "-",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       9.56,
+       0.6
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       6.08,
+       -4.88
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       6.08,
+       2.48
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.76,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.76,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Brückengleichrichter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED\rLED\rDEL",
+   "item": {
+    "caption": "LED\rLED\rDEL",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.68,
+        -1.8
+       ],
+       [
+        6.3771,
+        -3.4971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.08,
+        -1.8
+       ],
+       [
+        7.7771,
+        -3.4971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -7.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "LED?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/LED",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED (senkrecht)\rLED, vertical\rDEL verticale",
+   "item": {
+    "caption": "LED (senkrecht)\rLED, vertical\rDEL verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        3.81
+       ],
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        6.35
+       ],
+       [
+        -1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        4.68
+       ],
+       [
+        3.2971,
+        2.9829
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        4.68
+       ],
+       [
+        4.6971,
+        2.9829
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.0,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.0,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "LED?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/LED (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Z-Diode (senkrecht)\rZener diode, vertical\rDiode Zener verticale",
+   "item": {
+    "caption": "Z-Diode (senkrecht)\rZener diode, vertical\rDiode Zener verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        3.81
+       ],
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        6.35
+       ],
+       [
+        -1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        6.35
+       ],
+       [
+        1.5,
+        5.55
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Z-Diode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schottky-Diode (senkrecht)\rSchottky diode, vertical\rDiode Schottky verticale",
+   "item": {
+    "caption": "Schottky-Diode (senkrecht)\rSchottky diode, vertical\rDiode Schottky verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        3.81
+       ],
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        6.35
+       ],
+       [
+        -1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.0,
+        7.05
+       ],
+       [
+        1.5,
+        7.05
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        -1.5,
+        5.65
+       ],
+       [
+        -1.0,
+        5.65
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Schottky-Diode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Tunneldiode (senkrecht)\rTunnel diode, vertical\rDiode tunnel verticale",
+   "item": {
+    "caption": "Tunneldiode (senkrecht)\rTunnel diode, vertical\rDiode tunnel verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        3.81
+       ],
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        6.35
+       ],
+       [
+        -1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        5.65
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        5.65
+       ],
+       [
+        -1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Tunneldiode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kapazitätsdiode (senkrecht)\rVaricap diode, vertical\rDiode varicap verticale",
+   "item": {
+    "caption": "Kapazitätsdiode (senkrecht)\rVaricap diode, vertical\rDiode varicap verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.175
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.515
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        3.175
+       ],
+       [
+        -1.5,
+        3.175
+       ],
+       [
+        0,
+        5.715
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        5.715
+       ],
+       [
+        -1.5,
+        5.715
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        6.515
+       ],
+       [
+        -1.5,
+        6.515
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Kapazitätsdiode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fotodiode (senkrecht)\rPhotodiode, vertical\rPhotodiode verticale",
+   "item": {
+    "caption": "Fotodiode (senkrecht)\rPhotodiode, vertical\rPhotodiode verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        3.81
+       ],
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        6.35
+       ],
+       [
+        -1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.6,
+        2.31
+       ],
+       [
+        1.9,
+        4.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.6,
+        3.71
+       ],
+       [
+        1.9,
+        5.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Fotodiode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Suppressordiode\rBidirectional TVS diode\rDiode TVS bidirectionnelle",
+   "item": {
+    "caption": "Suppressordiode\rBidirectional TVS diode\rDiode TVS bidirectionnelle",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.5
+       ],
+       [
+        2.54,
+        1.5
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -1.5
+       ],
+       [
+        7.62,
+        1.5
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        5.08,
+        -1.5
+       ],
+       [
+        5.08,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.5
+       ],
+       [
+        4.28,
+        -1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.5
+       ],
+       [
+        5.88,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Suppressordiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Suppressordiode (senkrecht)\rBidirectional TVS diode, vertical\rDiode TVS bidirectionnelle verticale",
+   "item": {
+    "caption": "Suppressordiode (senkrecht)\rBidirectional TVS diode, vertical\rDiode TVS bidirectionnelle verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        2.54
+       ],
+       [
+        -1.5,
+        2.54
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        7.62
+       ],
+       [
+        -1.5,
+        7.62
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.5,
+        5.08
+       ],
+       [
+        -1.5,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        5.08
+       ],
+       [
+        1.5,
+        4.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        5.08
+       ],
+       [
+        -1.5,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Suppressordiode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Diac\rDiac\rDiac",
+   "item": {
+    "caption": "Diac\rDiac\rDiac",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.81,
+        -2.6
+       ],
+       [
+        3.81,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -2.6
+       ],
+       [
+        6.35,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -2.4
+       ],
+       [
+        3.81,
+        -0.1
+       ],
+       [
+        6.35,
+        -1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.1
+       ],
+       [
+        6.35,
+        2.4
+       ],
+       [
+        3.81,
+        1.25
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Diac",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Diac (senkrecht)\rDiac, vertical\rDiac vertical",
+   "item": {
+    "caption": "Diac (senkrecht)\rDiac, vertical\rDiac vertical",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.6,
+        3.81
+       ],
+       [
+        -2.6,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.6,
+        6.35
+       ],
+       [
+        -2.6,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.4,
+        3.81
+       ],
+       [
+        0.1,
+        3.81
+       ],
+       [
+        1.25,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.1,
+        6.35
+       ],
+       [
+        -2.4,
+        6.35
+       ],
+       [
+        -1.25,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Diac (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Brückengleichrichter (Block)\rBridge rectifier (block)\rPont redresseur (bloc)",
+   "item": {
+    "caption": "Brückengleichrichter (Block)\rBridge rectifier (block)\rPont redresseur (bloc)",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       3.14,
+       1.34
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "~1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       3.14,
+       3.88
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "~2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       9.56,
+       1.34
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       9.56,
+       3.88
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "-",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Dioden/Brückengleichrichter (Block)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

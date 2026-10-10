@@ -1,0 +1,6953 @@
+{
+ "folder": "Elektro/Elektroinstallation",
+ "format": "OpenLoch Schematic Library",
+ "name": "Elektroinstallation\rElectrical installation\rInstallation électrique",
+ "symbols": [
+  {
+   "caption": "Steckdose\rSocket outlet\rPrise de courant",
+   "item": {
+    "caption": "Steckdose\rSocket outlet\rPrise de courant",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.2,
+       5.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Steckdose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schutzkontaktsteckdose\rSocket outlet with earth\rPrise avec terre",
+   "item": {
+    "caption": "Schutzkontaktsteckdose\rSocket outlet with earth\rPrise avec terre",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.2,
+       5.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Schutzkontaktsteckdose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchte\rLuminaire\rLuminaire",
+   "item": {
+    "caption": "Leuchte\rLuminaire\rLuminaire",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        4.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        5.9542
+       ],
+       [
+        1.4142,
+        3.1258
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        3.1258
+       ],
+       [
+        1.4142,
+        5.9542
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.8,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.8,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Leuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Ausschalter\rOne-way switch\rInterrupteur simple",
+   "item": {
+    "caption": "Ausschalter\rOne-way switch\rInterrupteur simple",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        -3.2527
+       ],
+       [
+        4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       3.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Ausschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechselschalter\rTwo-way switch\rInterrupteur va-et-vient",
+   "item": {
+    "caption": "Wechselschalter\rTwo-way switch\rInterrupteur va-et-vient",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        -3.2527
+       ],
+       [
+        4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.5657,
+        0.5657
+       ],
+       [
+        -3.2527,
+        3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.2527,
+        3.2527
+       ],
+       [
+        -4.1012,
+        2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       3.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Wechselschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taster (Installation)\rPush button (installation)\rBouton-poussoir (installation)",
+   "item": {
+    "caption": "Taster (Installation)\rPush button (installation)\rBouton-poussoir (installation)",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       3.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Taster (Installation)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wandleuchte\rLuminaire outlet on wall\rPoint d’éclairage mural",
+   "item": {
+    "caption": "Wandleuchte\rLuminaire outlet on wall\rPoint d’éclairage mural",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -2.6,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Wandleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wandleuchte (an der Wand)\rWall-mounted luminaire\rApplique murale",
+   "item": {
+    "caption": "Wandleuchte (an der Wand)\rWall-mounted luminaire\rApplique murale",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -2.0,
+        -2.0
+       ],
+       [
+        -2.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Wandleuchte (an der Wand)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Deckenleuchte (Einbau)\rRecessed ceiling luminaire\rLuminaire encastré au plafond",
+   "item": {
+    "caption": "Deckenleuchte (Einbau)\rRecessed ceiling luminaire\rLuminaire encastré au plafond",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Deckenleuchte (Einbau)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Lampe\rLamp\rLampe",
+   "item": {
+    "caption": "Lampe\rLamp\rLampe",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Lampe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Scheinwerfer\rProjector\rProjecteur",
+   "item": {
+    "caption": "Scheinwerfer\rProjector\rProjecteur",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "start": 110,
+      "stop": 250,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Scheinwerfer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Punktleuchte\rSpotlight\rProjecteur à faisceau serré",
+   "item": {
+    "caption": "Punktleuchte\rSpotlight\rProjecteur à faisceau serré",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.3,
+        -0.9
+       ],
+       [
+        5.4,
+        -0.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.3,
+        0.9
+       ],
+       [
+        5.4,
+        0.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Punktleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Flutlicht\rFloodlight\rProjecteur à faisceau large",
+   "item": {
+    "caption": "Flutlicht\rFloodlight\rProjecteur à faisceau large",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "start": 110,
+      "stop": 250,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.3,
+        -0.7
+       ],
+       [
+        4.9,
+        -2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.3,
+        0.7
+       ],
+       [
+        4.9,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.7,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.7,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Flutlicht",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sicherheitsleuchte\rEmergency luminaire\rLuminaire de sécurité",
+   "item": {
+    "caption": "Sicherheitsleuchte\rEmergency luminaire\rLuminaire de sécurité",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Sicherheitsleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sicherheitsleuchte (Einbau)\rEmergency luminaire, recessed\rLuminaire de sécurité encastré",
+   "item": {
+    "caption": "Sicherheitsleuchte (Einbau)\rEmergency luminaire, recessed\rLuminaire de sécurité encastré",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        -1.4142
+       ],
+       [
+        1.4142,
+        1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4142,
+        1.4142
+       ],
+       [
+        1.4142,
+        -1.4142
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Sicherheitsleuchte (Einbau)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sicherheitsleuchte mit eigener Stromversorgung\rSelf-contained emergency luminaire\rBloc autonome d’éclairage de sécurité",
+   "item": {
+    "caption": "Sicherheitsleuchte mit eigener Stromversorgung\rSelf-contained emergency luminaire\rBloc autonome d’éclairage de sécurité",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.0,
+        -1.6
+       ],
+       [
+        -2.0,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.0,
+        -1.6
+       ],
+       [
+        2.0,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -1.6
+       ],
+       [
+        2.0,
+        -1.6
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        1.6
+       ],
+       [
+        2.0,
+        1.6
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Sicherheitsleuchte mit eigener Stromversorgung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Leuchtstofflampe\rFluorescent lamp\rLampe fluorescente",
+   "item": {
+    "caption": "Leuchtstofflampe\rFluorescent lamp\rLampe fluorescente",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -5.0,
+        0
+       ],
+       [
+        5.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.0,
+        -1.0
+       ],
+       [
+        -5.0,
+        1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.0,
+        -1.0
+       ],
+       [
+        5.0,
+        1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.8,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.8,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Leuchtstofflampe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Steckdose (zweifach)\rSocket outlet, double\rPrise de courant double",
+   "item": {
+    "caption": "Steckdose (zweifach)\rSocket outlet, double\rPrise de courant double",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.2,
+       5.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.0,
+        1.87
+       ],
+       [
+        1.0,
+        0.67
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.2,
+       -1.2
+      ],
+      "text": "2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Steckdose (zweifach)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Steckdose (dreifach)\rSocket outlet, triple\rPrise de courant triple",
+   "item": {
+    "caption": "Steckdose (dreifach)\rSocket outlet, triple\rPrise de courant triple",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.2,
+       5.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.0,
+        1.87
+       ],
+       [
+        1.0,
+        0.67
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.2,
+       -1.2
+      ],
+      "text": "3",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Steckdose (dreifach)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Steckdose (vierfach)\rSocket outlet, quadruple\rPrise de courant quadruple",
+   "item": {
+    "caption": "Steckdose (vierfach)\rSocket outlet, quadruple\rPrise de courant quadruple",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.2,
+       5.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.0,
+        1.87
+       ],
+       [
+        1.0,
+        0.67
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.2,
+       -1.2
+      ],
+      "text": "4",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Steckdose (vierfach)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Steckdose, schaltbar\rSwitched socket outlet\rPrise de courant commandée",
+   "item": {
+    "caption": "Steckdose, schaltbar\rSwitched socket outlet\rPrise de courant commandée",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.2,
+       5.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.8385,
+        3.3015
+       ],
+       [
+        4.1012,
+        1.0388
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.1012,
+        1.0388
+       ],
+       [
+        4.9497,
+        1.8873
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.8,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.8,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Steckdose, schaltbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Steckdose mit Trenntransformator\rSocket outlet with isolating transformer\rPrise de courant avec transformateur de séparation",
+   "item": {
+    "caption": "Steckdose mit Trenntransformator\rSocket outlet with isolating transformer\rPrise de courant avec transformateur de séparation",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.2,
+       5.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.8,
+       4.24
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0.8,
+       4.24
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Steckdose mit Trenntransformator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Fernmeldedose\rTelecommunication outlet\rPrise de télécommunication",
+   "item": {
+    "caption": "Fernmeldedose\rTelecommunication outlet\rPrise de télécommunication",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        -2.6,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Fernmeldedose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Antennendose\rAerial outlet\rPrise d’antenne",
+   "item": {
+    "caption": "Antennendose\rAerial outlet\rPrise d’antenne",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        -2.6,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.8,
+        5.14
+       ],
+       [
+        -1.8,
+        3.34
+       ],
+       [
+        1.8,
+        3.34
+       ],
+       [
+        1.8,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Antennendose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Datendose\rData outlet\rPrise informatique",
+   "item": {
+    "caption": "Datendose\rData outlet\rPrise informatique",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.14
+       ],
+       [
+        -2.6,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ],
+       [
+        2.6,
+        5.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       4.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.44
+       ],
+       [
+        1.6,
+        4.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        4.84
+       ],
+       [
+        1.6,
+        3.44
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Datendose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Abzweigdose\rJunction box\rBoîte de dérivation",
+   "item": {
+    "autoNumber": false,
+    "caption": "Abzweigdose\rJunction box\rBoîte de dérivation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.3,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.3,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Abzweigdose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Anschlussdose\rConnection box\rBoîte de raccordement",
+   "item": {
+    "autoNumber": false,
+    "caption": "Anschlussdose\rConnection box\rBoîte de raccordement",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.3,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.3,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Anschlussdose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schalter\rSwitch, general\rInterrupteur, général",
+   "item": {
+    "caption": "Schalter\rSwitch, general\rInterrupteur, général",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Schalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Leuchtschalter\rSwitch with pilot lamp\rInterrupteur à voyant",
+   "item": {
+    "caption": "Leuchtschalter\rSwitch with pilot lamp\rInterrupteur à voyant",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8485,
+        -0.8485
+       ],
+       [
+        0.8485,
+        0.8485
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8485,
+        0.8485
+       ],
+       [
+        0.8485,
+        -0.8485
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.8485,
+        -0.8485
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        -3.2527
+       ],
+       [
+        4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Leuchtschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ausschalter, zweipolig\rOne-way switch, two-pole\rInterrupteur bipolaire",
+   "item": {
+    "caption": "Ausschalter, zweipolig\rOne-way switch, two-pole\rInterrupteur bipolaire",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        -3.2527
+       ],
+       [
+        4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6163,
+        -2.6163
+       ],
+       [
+        3.4648,
+        -1.7678
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Ausschalter, zweipolig",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ausschalter, dreipolig\rOne-way switch, three-pole\rInterrupteur tripolaire",
+   "item": {
+    "caption": "Ausschalter, dreipolig\rOne-way switch, three-pole\rInterrupteur tripolaire",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        -3.2527
+       ],
+       [
+        4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6163,
+        -2.6163
+       ],
+       [
+        3.4648,
+        -1.7678
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.9799,
+        -1.9799
+       ],
+       [
+        2.8284,
+        -1.1314
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Ausschalter, dreipolig",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Zeitschalter\rTime switch\rInterrupteur temporisé",
+   "item": {
+    "caption": "Zeitschalter\rTime switch\rInterrupteur temporisé",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Zeitschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Serienschalter\rSeries switch\rInterrupteur double allumage",
+   "item": {
+    "caption": "Serienschalter\rSeries switch\rInterrupteur double allumage",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.4,
+        -0.6928
+       ],
+       [
+        2.3,
+        -3.9837
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.3,
+        -3.9837
+       ],
+       [
+        3.3392,
+        -3.3837
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.4,
+        -0.6928
+       ],
+       [
+        -2.3,
+        -3.9837
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.3,
+        -3.9837
+       ],
+       [
+        -3.3392,
+        -3.3837
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Serienschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Kreuzschalter\rIntermediate switch\rPermutateur",
+   "item": {
+    "caption": "Kreuzschalter\rIntermediate switch\rPermutateur",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        -3.2527
+       ],
+       [
+        4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.5657,
+        0.5657
+       ],
+       [
+        -3.2527,
+        3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.2527,
+        3.2527
+       ],
+       [
+        -4.1012,
+        2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.5657,
+        -0.5657
+       ],
+       [
+        -3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.2527,
+        -3.2527
+       ],
+       [
+        -4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        0.5657
+       ],
+       [
+        3.2527,
+        3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        3.2527
+       ],
+       [
+        4.1012,
+        2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Kreuzschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Dimmer\rDimmer\rVariateur",
+   "item": {
+    "caption": "Dimmer\rDimmer\rVariateur",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5657,
+        -0.5657
+       ],
+       [
+        3.2527,
+        -3.2527
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2527,
+        -3.2527
+       ],
+       [
+        4.1012,
+        -2.4042
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1314,
+        -1.1314
+       ],
+       [
+        2.8284,
+        -2.8284
+       ],
+       [
+        2.1213,
+        -3.5355
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Dimmer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schlüsselschalter\rKey-operated switch\rInterrupteur à clé",
+   "item": {
+    "caption": "Schlüsselschalter\rKey-operated switch\rInterrupteur à clé",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       -0.5
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -0.4
+       ],
+       [
+        0.5,
+        1.0
+       ],
+       [
+        -0.5,
+        1.0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Schlüsselschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Leuchttaster\rPush button with pilot lamp\rBouton-poussoir lumineux",
+   "item": {
+    "caption": "Leuchttaster\rPush button with pilot lamp\rBouton-poussoir lumineux",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.8,
+       1.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.6364,
+        -0.6364
+       ],
+       [
+        0.6364,
+        0.6364
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.6364,
+        0.6364
+       ],
+       [
+        0.6364,
+        -0.6364
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.3,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.3,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Leuchttaster",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Vorschaltgerät\rBallast\rBallast",
+   "item": {
+    "caption": "Vorschaltgerät\rBallast\rBallast",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       3.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "VG?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Vorschaltgerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Türöffner\rElectric door opener\rGâche électrique",
+   "item": {
+    "caption": "Türöffner\rElectric door opener\rGâche électrique",
+    "children": [
+     {
+      "centre": [
+       -1.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.9333,
+       0.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9333,
+       0.9333
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.0,
+       0.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9333,
+       0.9333
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -0.0667,
+       0.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9333,
+       0.9333
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.0,
+        -1.2
+       ],
+       [
+        1.0,
+        1.2
+       ],
+       [
+        3.4,
+        1.2
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Tür?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Türöffner",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Zeitrelais\rTimer relay (staircase timer)\rMinuterie",
+   "item": {
+    "caption": "Zeitrelais\rTimer relay (staircase timer)\rMinuterie",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       4.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.8,
+       2.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -0.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0.77,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "ZR?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Zeitrelais",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Elektrogerät\rElectrical appliance\rAppareil électrique",
+   "item": {
+    "caption": "Elektrogerät\rElectrical appliance\rAppareil électrique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       0,
+       -1.5
+      ],
+      "text": "E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Elektrogerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Küchenmaschine\rFood processor\rRobot de cuisine",
+   "item": {
+    "caption": "Küchenmaschine\rFood processor\rRobot de cuisine",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -0.8
+       ],
+       [
+        2.0,
+        -0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -0.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       3.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.5,
+        0.7
+       ],
+       [
+        0.5,
+        0.7
+       ],
+       [
+        1.0,
+        1.8
+       ],
+       [
+        -1.0,
+        1.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Küchenmaschine",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Elektroherd\rElectric cooker\rCuisinière électrique",
+   "item": {
+    "caption": "Elektroherd\rElectric cooker\rCuisinière électrique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       -1.3
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       -1.3,
+       1.1
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       1.3,
+       1.1
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Elektroherd",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Mikrowellengerät\rMicrowave oven\rFour à micro-ondes",
+   "item": {
+    "caption": "Mikrowellengerät\rMicrowave oven\rFour à micro-ondes",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.0,
+       -1.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       1.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       -1.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       1.2
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       1.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       1.2
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.0,
+       1.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       1.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       1.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       1.2
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Mikrowellengerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Backofen\rOven\rFour",
+   "item": {
+    "caption": "Backofen\rOven\rFour",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        -1.6
+       ],
+       [
+        3.0,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       0.8
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Backofen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wärmeplatte\rWarming plate\rChauffe-plat",
+   "item": {
+    "caption": "Wärmeplatte\rWarming plate\rChauffe-plat",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Wärmeplatte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Infrarotgrill\rInfrared grill\rGril infrarouge",
+   "item": {
+    "caption": "Infrarotgrill\rInfrared grill\rGril infrarouge",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4,
+        -2.2
+       ],
+       [
+        1.4,
+        -2.2
+       ],
+       [
+        2.4,
+        -0.6
+       ],
+       [
+        -2.4,
+        -0.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        0.8
+       ],
+       [
+        -1.6,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       0.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        0.8
+       ],
+       [
+        3.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Infrarotgrill",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Waschmaschine\rWashing machine\rLave-linge",
+   "item": {
+    "caption": "Waschmaschine\rWashing machine\rLave-linge",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Waschmaschine",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Geschirrspüler\rDishwasher\rLave-vaisselle",
+   "item": {
+    "caption": "Geschirrspüler\rDishwasher\rLave-vaisselle",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        -3.0
+       ],
+       [
+        -1.06,
+        -1.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        3.0
+       ],
+       [
+        -1.06,
+        1.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        -3.0
+       ],
+       [
+        1.06,
+        -1.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        3.0
+       ],
+       [
+        1.06,
+        1.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Geschirrspüler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wäschetrockner\rTumble dryer\rSèche-linge",
+   "item": {
+    "caption": "Wäschetrockner\rTumble dryer\rSèche-linge",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       -1.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.65,
+        0.1258
+       ],
+       [
+        0,
+        -2.3
+       ],
+       [
+        0.65,
+        0.1258
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       1.7
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Wäschetrockner",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Händetrockner\rHand dryer\rSèche-mains",
+   "item": {
+    "caption": "Händetrockner\rHand dryer\rSèche-mains",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        -1.8
+       ],
+       [
+        3.0,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        -3.0
+       ],
+       [
+        -1.5,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.0
+       ],
+       [
+        0,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        -3.0
+       ],
+       [
+        1.5,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       0.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.75,
+        1.899
+       ],
+       [
+        0,
+        -0.9
+       ],
+       [
+        0.75,
+        1.899
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Händetrockner",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Klimagerät\rAir conditioner\rClimatiseur",
+   "item": {
+    "caption": "Klimagerät\rAir conditioner\rClimatiseur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        -1.8
+       ],
+       [
+        3.0,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        -3.0
+       ],
+       [
+        -1.5,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.0
+       ],
+       [
+        0,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5,
+        -3.0
+       ],
+       [
+        1.5,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.0,
+        1.8
+       ],
+       [
+        0.0,
+        -0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.0392,
+        1.2
+       ],
+       [
+        1.0392,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.0392,
+        1.2
+       ],
+       [
+        -1.0392,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Klimagerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Kühlgerät\rRefrigerator\rRéfrigérateur",
+   "item": {
+    "caption": "Kühlgerät\rRefrigerator\rRéfrigérateur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.0,
+        1.0
+       ],
+       [
+        0.0,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.866,
+        0.5
+       ],
+       [
+        0.866,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.866,
+        0.5
+       ],
+       [
+        -0.866,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Kühlgerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tiefkühlgerät\rFreezer compartment\rConservateur",
+   "item": {
+    "caption": "Tiefkühlgerät\rFreezer compartment\rConservateur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.25,
+        0.9
+       ],
+       [
+        -1.25,
+        -0.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0294,
+        0.45
+       ],
+       [
+        -0.4706,
+        -0.45
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.4706,
+        0.45
+       ],
+       [
+        -2.0294,
+        -0.45
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.25,
+        0.9
+       ],
+       [
+        1.25,
+        -0.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.4706,
+        0.45
+       ],
+       [
+        2.0294,
+        -0.45
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0294,
+        0.45
+       ],
+       [
+        0.4706,
+        -0.45
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Tiefkühlgerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Gefriergerät\rFreezer\rCongélateur",
+   "item": {
+    "caption": "Gefriergerät\rFreezer\rCongélateur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.9,
+        0.75
+       ],
+       [
+        -1.9,
+        -0.75
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.5495,
+        0.375
+       ],
+       [
+        -1.2505,
+        -0.375
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2505,
+        0.375
+       ],
+       [
+        -2.5495,
+        -0.375
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.0,
+        0.75
+       ],
+       [
+        0.0,
+        -0.75
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.6495,
+        0.375
+       ],
+       [
+        0.6495,
+        -0.375
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.6495,
+        0.375
+       ],
+       [
+        -0.6495,
+        -0.375
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.9,
+        0.75
+       ],
+       [
+        1.9,
+        -0.75
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.2505,
+        0.375
+       ],
+       [
+        2.5495,
+        -0.375
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.5495,
+        0.375
+       ],
+       [
+        1.2505,
+        -0.375
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       0.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Gefriergerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Heißwasserspeicher\rHot water storage heater\rChauffe-eau à accumulation",
+   "item": {
+    "caption": "Heißwasserspeicher\rHot water storage heater\rChauffe-eau à accumulation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.6,
+        -0.6
+       ],
+       [
+        3.6,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Heißwasserspeicher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Durchlauferhitzer\rInstantaneous water heater\rChauffe-eau instantané",
+   "item": {
+    "caption": "Durchlauferhitzer\rInstantaneous water heater\rChauffe-eau instantané",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       -0.7
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        0
+       ],
+       [
+        3.6,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.6,
+        -0.6
+       ],
+       [
+        3.6,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.3,
+        0.8
+       ],
+       [
+        1.3,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Durchlauferhitzer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Uhr\rClock\rHorloge",
+   "item": {
+    "caption": "Uhr\rClock\rHorloge",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.1,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.8,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.8,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Uhr?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Uhr",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Hauptuhr\rMaster clock\rHorloge mère",
+   "item": {
+    "caption": "Hauptuhr\rMaster clock\rHorloge mère",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.1,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.3,
+       -2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.3,
+       1.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Uhr?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Hauptuhr",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Kartenleser\rCard reader (time recorder)\rLecteur de cartes (pointeuse)",
+   "item": {
+    "caption": "Kartenleser\rCard reader (time recorder)\rLecteur de cartes (pointeuse)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.4,
+       6.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.2,
+        -2.2
+       ],
+       [
+        1.2,
+        -2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       0.9
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.8,
+       2.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.9
+       ],
+       [
+        0,
+        -0.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.9
+       ],
+       [
+        0.77,
+        0.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.0,
+       -3.2
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.0,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Elektroinstallation/Kartenleser",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

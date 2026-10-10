@@ -1,0 +1,1346 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile",
+ "format": "OpenLoch Schematic Library",
+ "name": "OP's\rOp-amps\rAmplis op",
+ "symbols": [
+  {
+   "caption": "Operationsverstärker\rOperational amplifier\rAmplificateur opérationnel",
+   "item": {
+    "caption": "Operationsverstärker\rOperational amplifier\rAmplificateur opérationnel",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/OP's/Operationsverstärker",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Operationsverstärker mit Versorgung\rOp-amp with supply\rAmpli op avec alimentation",
+   "item": {
+    "caption": "Operationsverstärker mit Versorgung\rOp-amp with supply\rAmpli op avec alimentation",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -2.54
+       ],
+       [
+        7.62,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       7.62,
+       -5.08
+      ],
+      "pos": [
+       8.02,
+       -5.08
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.02,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/OP's/Operationsverstärker mit Versorgung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Komparator\rComparator\rComparateur",
+   "item": {
+    "caption": "Komparator\rComparator\rComparateur",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.096,
+        -0.5
+       ],
+       [
+        7.366,
+        -0.5
+       ],
+       [
+        7.366,
+        0.5
+       ],
+       [
+        8.636,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/OP's/Komparator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Operationsverstärker (nichtinvertierender Eingang oben)\rOp-amp (non-inverting input at the top)\rAmpli op (entrée non inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker (nichtinvertierender Eingang oben)\rOp-amp (non-inverting input at the top)\rAmpli op (entrée non inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/OP's/Operationsverstärker (nichtinvertierender Eingang oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Operationsverstärker mit Versorgung (nichtinvertierender Eingang oben)\rOp-amp with supply (non-inverting input at the top)\rAmpli op avec alimentation (entrée non inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker mit Versorgung (nichtinvertierender Eingang oben)\rOp-amp with supply (non-inverting input at the top)\rAmpli op avec alimentation (entrée non inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -2.54
+       ],
+       [
+        7.62,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       7.62,
+       -5.08
+      ],
+      "pos": [
+       8.02,
+       -5.08
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.02,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/OP's/Operationsverstärker mit Versorgung (nichtinvertierender Eingang oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Operationsverstärker (Kastenform)\rOp-amp (rectangular form)\rAmpli op (forme rectangulaire)",
+   "item": {
+    "caption": "Operationsverstärker (Kastenform)\rOp-amp (rectangular form)\rAmpli op (forme rectangulaire)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.42,
+        -4.38
+       ],
+       [
+        5.42,
+        -2.58
+       ],
+       [
+        7.02,
+        -3.48
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -4.78
+      ],
+      "text": "∞",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "K?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/OP's/Operationsverstärker (Kastenform)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

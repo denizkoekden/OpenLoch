@@ -1,0 +1,2714 @@
+{
+ "folder": "Elektro",
+ "format": "OpenLoch Schematic Library",
+ "name": "Symbole\rSymbols\rSymboles",
+ "symbols": [
+  {
+   "caption": "Gleichstrom\rDirect current\rCourant continu",
+   "item": {
+    "autoNumber": false,
+    "caption": "Gleichstrom\rDirect current\rCourant continu",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        4.0,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Gleichstrom",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wechselstrom\rAlternating current\rCourant alternatif",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wechselstrom\rAlternating current\rCourant alternatif",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Wechselstrom",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Pfeil\rArrow\rFlèche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Pfeil\rArrow\rFlèche",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        6.0,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Pfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Doppelpfeil\rDouble arrow\rDouble flèche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Doppelpfeil\rDouble arrow\rDouble flèche",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        6.0,
+        0
+       ]
+      ],
+      "startEnd": "arrow",
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Doppelpfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Einstellbarkeit\rAdjustability\rRéglabilité",
+   "item": {
+    "autoNumber": false,
+    "caption": "Einstellbarkeit\rAdjustability\rRéglabilité",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        3.0
+       ],
+       [
+        5.0,
+        -2.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Einstellbarkeit",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Licht (einfallend)\rLight (incoming)\rLumière (entrante)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Licht (einfallend)\rLight (incoming)\rLumière (entrante)",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.6971,
+        -1.6971
+       ],
+       [
+        3.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0971,
+        -1.6971
+       ],
+       [
+        4.4,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Licht (einfallend)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Licht (ausgesandt)\rLight (emitted)\rLumière (émise)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Licht (ausgesandt)\rLight (emitted)\rLumière (émise)",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        1.6971,
+        -1.6971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.4,
+        0
+       ],
+       [
+        3.0971,
+        -1.6971
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Licht (ausgesandt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wärme\rHeat\rChaleur",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wärme\rHeat\rChaleur",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.0,
+        -1.2
+       ],
+       [
+        -1.0,
+        -2.4
+       ],
+       [
+        0,
+        -3.6
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        0
+       ],
+       [
+        2.6,
+        -1.2
+       ],
+       [
+        0.6,
+        -2.4
+       ],
+       [
+        1.6,
+        -3.6
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2,
+        0
+       ],
+       [
+        4.2,
+        -1.2
+       ],
+       [
+        2.2,
+        -2.4
+       ],
+       [
+        3.2,
+        -3.6
+       ]
+      ],
+      "type": "bezier"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Wärme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Abschirmung\rScreen\rBlindage",
+   "item": {
+    "autoNumber": false,
+    "caption": "Abschirmung\rScreen\rBlindage",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Abschirmung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Plus\rPlus\rPlus",
+   "item": {
+    "autoNumber": false,
+    "caption": "Plus\rPlus\rPlus",
+    "children": [
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       0,
+       -1.6
+      ],
+      "text": "+",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Plus",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Minus\rMinus\rMoins",
+   "item": {
+    "autoNumber": false,
+    "caption": "Minus\rMinus\rMoins",
+    "children": [
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       0,
+       -1.6
+      ],
+      "text": "−",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Minus",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Hochspannung\rHigh voltage\rHaute tension",
+   "item": {
+    "autoNumber": false,
+    "caption": "Hochspannung\rHigh voltage\rHaute tension",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        -3.4
+       ],
+       [
+        0,
+        0.2
+       ],
+       [
+        2.2,
+        -0.4
+       ],
+       [
+        0.6,
+        3.2
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Hochspannung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Warnung (allgemein)\rGeneral warning\rAvertissement général",
+   "item": {
+    "autoNumber": false,
+    "caption": "Warnung (allgemein)\rGeneral warning\rAvertissement général",
+    "children": [
+     {
+      "pen": {
+       "width": 0.6
+      },
+      "points": [
+       [
+        0,
+        -5.6
+       ],
+       [
+        5.5,
+        3.9
+       ],
+       [
+        -5.5,
+        3.9
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "points": [
+       [
+        -0.55,
+        -2.6
+       ],
+       [
+        0.55,
+        -2.6
+       ],
+       [
+        0.3,
+        1.0
+       ],
+       [
+        -0.3,
+        1.0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       2.2
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       1.1,
+       1.1
+      ],
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Warnung (allgemein)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Blitzpfeil (Umriss)\rLightning arrow (outline)\rFlèche éclair (contour)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Blitzpfeil (Umriss)\rLightning arrow (outline)\rFlèche éclair (contour)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.8927,
+        -4.8124
+       ],
+       [
+        -0.331,
+        0.4997
+       ],
+       [
+        1.6475,
+        0.0051
+       ],
+       [
+        0.6961,
+        2.1795
+       ],
+       [
+        0.009,
+        1.8789
+       ],
+       [
+        0.3984,
+        4.2323
+       ],
+       [
+        2.391,
+        2.9211
+       ],
+       [
+        1.7039,
+        2.6205
+       ],
+       [
+        3.5525,
+        -1.6051
+       ],
+       [
+        1.531,
+        -1.0997
+       ],
+       [
+        2.9073,
+        -4.3876
+       ]
+      ],
+      "type": "polygon"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Blitzpfeil (Umriss)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Gefährliche Spannung\rDangerous voltage\rTension dangereuse",
+   "item": {
+    "autoNumber": false,
+    "caption": "Gefährliche Spannung\rDangerous voltage\rTension dangereuse",
+    "children": [
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "points": [
+       [
+        1.8927,
+        -4.8124
+       ],
+       [
+        -0.331,
+        0.4997
+       ],
+       [
+        1.6475,
+        0.0051
+       ],
+       [
+        0.6961,
+        2.1795
+       ],
+       [
+        0.009,
+        1.8789
+       ],
+       [
+        0.3984,
+        4.2323
+       ],
+       [
+        2.391,
+        2.9211
+       ],
+       [
+        1.7039,
+        2.6205
+       ],
+       [
+        3.5525,
+        -1.6051
+       ],
+       [
+        1.531,
+        -1.0997
+       ],
+       [
+        2.9073,
+        -4.3876
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.0,
+        -5.0
+       ],
+       [
+        3.8,
+        -5.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Gefährliche Spannung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Signalfahne\rSignal flag\rÉtiquette de signal",
+   "item": {
+    "autoNumber": false,
+    "caption": "Signalfahne\rSignal flag\rÉtiquette de signal",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -1.8
+       ],
+       [
+        9.0,
+        -1.8
+       ],
+       [
+        11.0,
+        0
+       ],
+       [
+        9.0,
+        1.8
+       ],
+       [
+        0,
+        1.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       0.8,
+       -1.1
+      ],
+      "text": "abc...",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Signalfahne",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Anschlusspunkt (klein)\rConnection point (small)\rPoint de connexion (petit)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Anschlusspunkt (klein)\rConnection point (small)\rPoint de connexion (petit)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.94,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Anschlusspunkt (klein)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Anschlusspunkt (groß)\rConnection point (large)\rPoint de connexion (grand)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Anschlusspunkt (groß)\rConnection point (large)\rPoint de connexion (grand)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.44,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.2,
+       2.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Anschlusspunkt (groß)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Masseanschluss (Kreis)\rGround connection (circle)\rConnexion de masse (cercle)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Masseanschluss (Kreis)\rGround connection (circle)\rConnexion de masse (cercle)",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -1.8
+       ],
+       [
+        0,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.6,
+        0.6
+       ],
+       [
+        1.6,
+        0.6
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Masseanschluss (Kreis)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wechselstrom, zwei Frequenzen\rAlternating current, two frequencies\rCourant alternatif, deux fréquences",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wechselstrom, zwei Frequenzen\rAlternating current, two frequencies\rCourant alternatif, deux fréquences",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       -0.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.0,
+       -0.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       0.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.0,
+       0.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Wechselstrom, zwei Frequenzen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Hochfrequenz\rHigh frequency\rHaute fréquence",
+   "item": {
+    "autoNumber": false,
+    "caption": "Hochfrequenz\rHigh frequency\rHaute fréquence",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       -1.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.0,
+       -1.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       1.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.0,
+       1.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Hochfrequenz",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Funk (Piktogramm)\rRadio (pictogram)\rRadio (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Funk (Piktogramm)\rRadio (pictogram)\rRadio (pictogramme)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -4.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.4,
+        0
+       ],
+       [
+        1.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       -4.4
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -4.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.8,
+       4.8
+      ],
+      "start": -45,
+      "stop": 45,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -4.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.8,
+       4.8
+      ],
+      "start": 135,
+      "stop": 225,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Funk (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Funkwellen (Piktogramm)\rRadio waves (pictogram)\rOndes radio (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Funkwellen (Piktogramm)\rRadio waves (pictogram)\rOndes radio (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 35,
+      "stop": 145,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.8,
+       6.8
+      ],
+      "start": 35,
+      "stop": 145,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.6,
+       9.6
+      ],
+      "start": 35,
+      "stop": 145,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Funkwellen (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Funkwellen fett (Piktogramm)\rRadio waves, bold (pictogram)\rOndes radio, gras (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Funkwellen fett (Piktogramm)\rRadio waves, bold (pictogram)\rOndes radio, gras (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.8,
+       1.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.7
+      },
+      "size": [
+       4.4,
+       4.4
+      ],
+      "start": 35,
+      "stop": 145,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.7
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "start": 35,
+      "stop": 145,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.7
+      },
+      "size": [
+       10.8,
+       10.8
+      ],
+      "start": 35,
+      "stop": 145,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Funkwellen fett (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sendemast (Piktogramm)\rTransmitter mast (pictogram)\rPylône émetteur (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Sendemast (Piktogramm)\rTransmitter mast (pictogram)\rPylône émetteur (pictogramme)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.4,
+        0
+       ],
+       [
+        -0.4,
+        -12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.4,
+        0
+       ],
+       [
+        0.4,
+        -12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        -0.0
+       ],
+       [
+        1.9,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.4,
+        -0.0
+       ],
+       [
+        -1.9,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.9,
+        -3.0
+       ],
+       [
+        1.9,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.9,
+        -3.0
+       ],
+       [
+        1.4,
+        -6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.9,
+        -3.0
+       ],
+       [
+        -1.4,
+        -6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4,
+        -6.0
+       ],
+       [
+        1.4,
+        -6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4,
+        -6.0
+       ],
+       [
+        0.9,
+        -9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.4,
+        -6.0
+       ],
+       [
+        -0.9,
+        -9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.9,
+        -9.0
+       ],
+       [
+        0.9,
+        -9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.9,
+        -9.0
+       ],
+       [
+        0.4,
+        -12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.9,
+        -9.0
+       ],
+       [
+        -0.4,
+        -12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.4,
+        -12.0
+       ],
+       [
+        0.4,
+        -12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       -12.8
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -12.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": -40,
+      "stop": 40,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -12.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.8,
+       6.8
+      ],
+      "start": -40,
+      "stop": 40,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -12.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 140,
+      "stop": 220,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -12.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.8,
+       6.8
+      ],
+      "start": 140,
+      "stop": 220,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Sendemast (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Satellitenschüssel (Piktogramm)\rSatellite dish (pictogram)\rParabole satellite (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Satellitenschüssel (Piktogramm)\rSatellite dish (pictogram)\rParabole satellite (pictogramme)",
+    "children": [
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.1113,
+        -2.8887
+       ],
+       [
+        3.3347,
+        -3.3242
+       ],
+       [
+        3.3308,
+        -3.942
+       ],
+       [
+        3.1,
+        -4.7
+       ],
+       [
+        2.6579,
+        -5.5466
+       ],
+       [
+        2.0347,
+        -6.4242
+       ],
+       [
+        1.2728,
+        -7.2728
+       ],
+       [
+        0.4242,
+        -8.0347
+       ],
+       [
+        -0.4534,
+        -8.6579
+       ],
+       [
+        -1.3,
+        -9.1
+       ],
+       [
+        -2.058,
+        -9.3308
+       ],
+       [
+        -2.6758,
+        -9.3347
+       ],
+       [
+        -3.1113,
+        -9.1113
+       ],
+       [
+        -3.3347,
+        -8.6758
+       ],
+       [
+        -3.3308,
+        -8.058
+       ],
+       [
+        -3.1,
+        -7.3
+       ],
+       [
+        -2.6579,
+        -6.4534
+       ],
+       [
+        -2.0347,
+        -5.5758
+       ],
+       [
+        -1.2728,
+        -4.7272
+       ],
+       [
+        -0.4242,
+        -3.9653
+       ],
+       [
+        0.4534,
+        -3.3421
+       ],
+       [
+        1.3,
+        -2.9
+       ],
+       [
+        2.058,
+        -2.6692
+       ],
+       [
+        2.6758,
+        -2.6653
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -6.0
+       ],
+       [
+        3.4,
+        -9.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       3.6,
+       -9.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -0.6,
+        -5.4
+       ],
+       [
+        -0.6,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -3.0,
+        0
+       ],
+       [
+        1.8,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Satellitenschüssel (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Akku (Piktogramm)\rAccumulator (pictogram)\rAccumulateur (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Akku (Piktogramm)\rAccumulator (pictogram)\rAccumulateur (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.5
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       6.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -3.0,
+       -3.1
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       1.6,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       3.0,
+       -3.1
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       1.6,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       -3.0,
+       -2.0
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       3.0,
+       -2.0
+      ],
+      "text": "−",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Akku (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Batterie laden (Piktogramm)\rBattery charging (pictogram)\rBatterie en charge (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Batterie laden (Piktogramm)\rBattery charging (pictogram)\rBatterie en charge (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.2
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       5.2,
+       8.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -4.7
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       2.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "points": [
+       [
+        0.3846,
+        -3.3731
+       ],
+       [
+        -1.4667,
+        1.0702
+       ],
+       [
+        0.0011,
+        0.6788
+       ],
+       [
+        -0.5104,
+        1.8153
+       ],
+       [
+        -1.0119,
+        1.5896
+       ],
+       [
+        -0.6745,
+        3.2767
+       ],
+       [
+        0.8119,
+        2.4104
+       ],
+       [
+        0.3104,
+        2.1847
+       ],
+       [
+        1.5989,
+        -0.6788
+       ],
+       [
+        0.0667,
+        -0.2702
+       ],
+       [
+        1.2154,
+        -3.0269
+       ]
+      ],
+      "type": "polygon"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Batterie laden (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Batterie voll (Piktogramm)\rBattery full (pictogram)\rBatterie pleine (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Batterie voll (Piktogramm)\rBattery full (pictogram)\rBatterie pleine (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.2
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       5.2,
+       8.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -4.7
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       2.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       3.5
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.6,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       1.9
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.6,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0.3
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.6,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -1.3
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.6,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -2.9
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.6,
+       1.0
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Batterie voll (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Batterie schwach (Piktogramm)\rBattery low (pictogram)\rBatterie faible (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Batterie schwach (Piktogramm)\rBattery low (pictogram)\rBatterie faible (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.2
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       5.2,
+       8.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -4.7
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       2.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       3.5
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.6,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       1.9
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.6,
+       1.0
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Batterie schwach (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Batterie leer (Piktogramm)\rBattery empty (pictogram)\rBatterie vide (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Batterie leer (Piktogramm)\rBattery empty (pictogram)\rBatterie vide (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.2
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       5.2,
+       8.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -4.7
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       2.4,
+       1.0
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Batterie leer (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Rollstuhl (Piktogramm)\rWheelchair (pictogram)\rFauteuil roulant (pictogramme)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Rollstuhl (Piktogramm)\rWheelchair (pictogram)\rFauteuil roulant (pictogramme)",
+    "children": [
+     {
+      "centre": [
+       1.0,
+       -6.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 1.0
+      },
+      "points": [
+       [
+        0.8,
+        -5.0
+       ],
+       [
+        0.2,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.8
+      },
+      "points": [
+       [
+        0.6,
+        -3.6
+       ],
+       [
+        2.6,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 1.0
+      },
+      "points": [
+       [
+        0.2,
+        -1.2
+       ],
+       [
+        3.0,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 1.0
+      },
+      "points": [
+       [
+        3.0,
+        -1.2
+       ],
+       [
+        4.0,
+        2.2
+       ],
+       [
+        4.8,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -0.2,
+       1.4
+      ],
+      "pen": {
+       "width": 0.9
+      },
+      "size": [
+       7.0,
+       7.0
+      ],
+      "start": 80,
+      "stop": 390,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Symbole/Rollstuhl (Piktogramm)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

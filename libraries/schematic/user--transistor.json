@@ -1,0 +1,3690 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "TRANSISTOR\rTRANSISTOR\rTRANSISTORS",
+ "symbols": [
+  {
+   "caption": "NPN-Transistor (v)\rNPN transistor (v)\rTransistor NPN (v)",
+   "item": {
+    "caption": "NPN-Transistor (v)\rNPN transistor (v)\rTransistor NPN (v)",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.0,
+        -2.0
+       ],
+       [
+        3.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        -0.9
+       ],
+       [
+        5.08,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -3.0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        0.9
+       ],
+       [
+        5.08,
+        3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/NPN-Transistor (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BC546"
+   }
+  },
+  {
+   "caption": "PNP-Transistor (v)\rPNP transistor (v)\rTransistor PNP (v)",
+   "item": {
+    "caption": "PNP-Transistor (v)\rPNP transistor (v)\rTransistor PNP (v)",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.0,
+        -2.0
+       ],
+       [
+        3.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        -0.9
+       ],
+       [
+        5.08,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -3.0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.0
+       ],
+       [
+        3.0,
+        0.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/PNP-Transistor (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BC556"
+   }
+  },
+  {
+   "caption": "NPN-Transistor (h)\rNPN transistor (h)\rTransistor NPN (h)",
+   "item": {
+    "caption": "NPN-Transistor (h)\rNPN transistor (h)\rTransistor NPN (h)",
+    "children": [
+     {
+      "centre": [
+       0,
+       -4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -2.0,
+        -3.0
+       ],
+       [
+        2.0,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.9,
+        -3.0
+       ],
+       [
+        -3.0,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        -5.08
+       ],
+       [
+        -5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.9,
+        -3.0
+       ],
+       [
+        3.0,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        -5.08
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       -5.08,
+       -5.08
+      ],
+      "pos": [
+       -4.68,
+       -7.28
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -14.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -11.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/NPN-Transistor (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BC546"
+   }
+  },
+  {
+   "caption": "PNP-Transistor (h)\rPNP transistor (h)\rTransistor PNP (h)",
+   "item": {
+    "caption": "PNP-Transistor (h)\rPNP transistor (h)\rTransistor PNP (h)",
+    "children": [
+     {
+      "centre": [
+       0,
+       -4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -2.0,
+        -3.0
+       ],
+       [
+        2.0,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.9,
+        -3.0
+       ],
+       [
+        -3.0,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.0,
+        -5.08
+       ],
+       [
+        -5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        -5.08
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        -5.08
+       ],
+       [
+        0.9,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       -5.08,
+       -5.08
+      ],
+      "pos": [
+       -4.68,
+       -7.28
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -14.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -11.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/PNP-Transistor (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BC556"
+   }
+  },
+  {
+   "caption": "J-FET N-Kanal (v)\rN-channel JFET (v)\rJFET canal N (v)",
+   "item": {
+    "caption": "J-FET N-Kanal (v)\rN-channel JFET (v)\rJFET canal N (v)",
+    "children": [
+     {
+      "centre": [
+       4.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        3.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -3.0
+       ],
+       [
+        3.4,
+        3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.6
+       ],
+       [
+        5.08,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.6
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.6
+       ],
+       [
+        5.08,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.6
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/J-FET N-Kanal (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BF245"
+   }
+  },
+  {
+   "caption": "J-FET N-Kanal (h)\rN-channel JFET (h)\rJFET canal N (h)",
+   "item": {
+    "caption": "J-FET N-Kanal (h)\rN-channel JFET (h)\rJFET canal N (h)",
+    "children": [
+     {
+      "centre": [
+       0,
+       -4.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -3.0,
+        -3.4
+       ],
+       [
+        3.0,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        -3.4
+       ],
+       [
+        -1.6,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        -5.08
+       ],
+       [
+        -5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        -3.4
+       ],
+       [
+        1.6,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        -5.08
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       -2.2
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       -5.08,
+       -5.08
+      ],
+      "pos": [
+       -4.68,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -14.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -11.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/J-FET N-Kanal (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BF245"
+   }
+  },
+  {
+   "caption": "N-Kanal-VMOS (v)\rN-channel VMOS (v)\rVMOS canal N (v)",
+   "item": {
+    "caption": "N-Kanal-VMOS (v)\rN-channel VMOS (v)\rVMOS canal N (v)",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        -1.9
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -0.5
+       ],
+       [
+        3.4,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        1.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        3.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        7.0,
+        -1.7
+       ],
+       [
+        7.0,
+        -0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.0,
+        0.6
+       ],
+       [
+        7.0,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.2,
+        0.6
+       ],
+       [
+        7.8,
+        0.6
+       ],
+       [
+        7.0,
+        -0.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.2,
+        -0.6
+       ],
+       [
+        7.8,
+        -0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/N-Kanal-VMOS (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BS170"
+   }
+  },
+  {
+   "caption": "N-Kanal-VMOS (h)\rN-channel VMOS (h)\rVMOS canal N (h)",
+   "item": {
+    "caption": "N-Kanal-VMOS (h)\rN-channel VMOS (h)\rVMOS canal N (h)",
+    "children": [
+     {
+      "centre": [
+       0,
+       -4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.9,
+        -2.6
+       ],
+       [
+        2.54,
+        -2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -2.2,
+        -3.4
+       ],
+       [
+        -1.2,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -0.5,
+        -3.4
+       ],
+       [
+        0.5,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.2,
+        -3.4
+       ],
+       [
+        2.2,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        -3.4
+       ],
+       [
+        -1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        -5.08
+       ],
+       [
+        -5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        -3.4
+       ],
+       [
+        1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        -5.08
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       -2.2
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       -5.08,
+       -5.08
+      ],
+      "pos": [
+       -4.68,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        -5.08
+       ],
+       [
+        -1.7,
+        -7.0
+       ],
+       [
+        -0.6,
+        -7.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.6,
+        -7.0
+       ],
+       [
+        1.7,
+        -7.0
+       ],
+       [
+        1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.6,
+        -6.2
+       ],
+       [
+        0.6,
+        -7.8
+       ],
+       [
+        -0.6,
+        -7.0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -0.6,
+        -6.2
+       ],
+       [
+        -0.6,
+        -7.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -14.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -11.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/N-Kanal-VMOS (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BS170"
+   }
+  },
+  {
+   "caption": "P-Kanal-VMOS (v)\rP-channel VMOS (v)\rVMOS canal P (v)",
+   "item": {
+    "caption": "P-Kanal-VMOS (v)\rP-channel VMOS (v)\rVMOS canal P (v)",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        -1.9
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -0.5
+       ],
+       [
+        3.4,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        1.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        7.0,
+        -1.7
+       ],
+       [
+        7.0,
+        -0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.0,
+        0.6
+       ],
+       [
+        7.0,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.2,
+        -0.6
+       ],
+       [
+        7.8,
+        -0.6
+       ],
+       [
+        7.0,
+        0.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.2,
+        0.6
+       ],
+       [
+        7.8,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/P-Kanal-VMOS (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BS250"
+   }
+  },
+  {
+   "caption": "P-Kanal-VMOS (h)\rP-channel VMOS (h)\rVMOS canal P (h)",
+   "item": {
+    "caption": "P-Kanal-VMOS (h)\rP-channel VMOS (h)\rVMOS canal P (h)",
+    "children": [
+     {
+      "centre": [
+       0,
+       -4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.9,
+        -2.6
+       ],
+       [
+        2.54,
+        -2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -2.2,
+        -3.4
+       ],
+       [
+        -1.2,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -0.5,
+        -3.4
+       ],
+       [
+        0.5,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.2,
+        -3.4
+       ],
+       [
+        2.2,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        -3.4
+       ],
+       [
+        -1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        -5.08
+       ],
+       [
+        -5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        -3.4
+       ],
+       [
+        1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        -5.08
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.4
+       ],
+       [
+        0,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       -2.2
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       -5.08,
+       -5.08
+      ],
+      "pos": [
+       -4.68,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        -5.08
+       ],
+       [
+        -1.7,
+        -7.0
+       ],
+       [
+        -0.6,
+        -7.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.6,
+        -7.0
+       ],
+       [
+        1.7,
+        -7.0
+       ],
+       [
+        1.7,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.6,
+        -6.2
+       ],
+       [
+        -0.6,
+        -7.8
+       ],
+       [
+        0.6,
+        -7.0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0.6,
+        -6.2
+       ],
+       [
+        0.6,
+        -7.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -14.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -11.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/P-Kanal-VMOS (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BS250"
+   }
+  },
+  {
+   "caption": "Dual-Gate-MOSFET (v)\rDual-gate MOSFET (v)\rMOSFET double grille (v)",
+   "item": {
+    "caption": "Dual-Gate-MOSFET (v)\rDual-gate MOSFET (v)\rMOSFET double grille (v)",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.6,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        -2.2
+       ],
+       [
+        2.6,
+        -0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        0.4
+       ],
+       [
+        2.6,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        3.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "G2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/Dual-Gate-MOSFET (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BF960"
+   }
+  },
+  {
+   "caption": "Unijunction-Transistor (v)\rUnijunction transistor (v)\rTransistor unijonction (v)",
+   "item": {
+    "caption": "Unijunction-Transistor (v)\rUnijunction transistor (v)\rTransistor unijonction (v)",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.2,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.2,
+        2.54
+       ],
+       [
+        3.4,
+        -0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B2",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "B2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B1",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "B1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/Unijunction-Transistor (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2N2646"
+   }
+  },
+  {
+   "caption": "NPN-Transistor, groß (v)\rNPN transistor, large (v)\rTransistor NPN, grand (v)",
+   "item": {
+    "caption": "NPN-Transistor, groß (v)\rNPN transistor, large (v)\rTransistor NPN, grand (v)",
+    "children": [
+     {
+      "centre": [
+       5.8,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.4,
+       10.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        4.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.0,
+        -2.8
+       ],
+       [
+        4.0,
+        2.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.0,
+        -1.2
+       ],
+       [
+        7.62,
+        -4.0
+       ],
+       [
+        7.62,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.0,
+        1.2
+       ],
+       [
+        7.62,
+        4.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        4.0
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       7.62,
+       -7.62
+      ],
+      "pos": [
+       8.02,
+       -9.82
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.42
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.8,
+       0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/NPN-Transistor, groß (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BC546C"
+   }
+  },
+  {
+   "caption": "J-FET N-Kanal, groß (v)\rN-channel JFET, large (v)\rJFET canal N, grand (v)",
+   "item": {
+    "caption": "J-FET N-Kanal, groß (v)\rN-channel JFET, large (v)\rJFET canal N, grand (v)",
+    "children": [
+     {
+      "centre": [
+       5.8,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.4,
+       10.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        4.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.4,
+        -4.0
+       ],
+       [
+        4.4,
+        4.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.4,
+        -2.4
+       ],
+       [
+        7.62,
+        -2.4
+       ],
+       [
+        7.62,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.4,
+        2.54
+       ],
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       7.62,
+       -7.62
+      ],
+      "pos": [
+       8.02,
+       -9.82
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.42
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.8,
+       -3.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.8,
+       0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/TRANSISTOR/J-FET N-Kanal, groß (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2SK30A"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

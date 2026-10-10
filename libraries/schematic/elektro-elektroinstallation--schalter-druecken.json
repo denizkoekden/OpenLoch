@@ -1,0 +1,2080 @@
+{
+ "folder": "Elektro/Elektroinstallation",
+ "format": "OpenLoch Schematic Library",
+ "name": "Schalter (drücken)\rSwitches (push)\rCommutateurs (pousser)",
+ "symbols": [
+  {
+   "caption": "Taster (Schließer)\rPush button (make)\rBouton-poussoir (travail)",
+   "item": {
+    "caption": "Taster (Schließer)\rPush button (make)\rBouton-poussoir (travail)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.95,
+        4.68
+       ],
+       [
+        -4.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.48
+       ],
+       [
+        -4.4,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.48
+       ],
+       [
+        -3.6,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        5.88
+       ],
+       [
+        -3.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Taster (Schließer)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taster (Öffner)\rPush button (break)\rBouton-poussoir (repos)",
+   "item": {
+    "caption": "Taster (Öffner)\rPush button (break)\rBouton-poussoir (repos)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.05,
+        4.48
+       ],
+       [
+        -4.4,
+        4.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.28
+       ],
+       [
+        -4.4,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.28
+       ],
+       [
+        -3.6,
+        3.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        5.68
+       ],
+       [
+        -3.6,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Taster (Öffner)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taster (Wechsler)\rPush button (change-over)\rBouton-poussoir (inverseur)",
+   "item": {
+    "caption": "Taster (Wechsler)\rPush button (change-over)\rBouton-poussoir (inverseur)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       -2.94,
+       0.2
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.05,
+        4.48
+       ],
+       [
+        -4.4,
+        4.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.28
+       ],
+       [
+        -4.4,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.28
+       ],
+       [
+        -3.6,
+        3.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        5.68
+       ],
+       [
+        -3.6,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Taster (Wechsler)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Handschalter (Schließer)\rManual switch (make)\rInterrupteur manuel (fermeture)",
+   "item": {
+    "caption": "Handschalter (Schließer)\rManual switch (make)\rInterrupteur manuel (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        0.0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        -4.4,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.38
+       ],
+       [
+        -4.4,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Handschalter (Schließer)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Handschalter (Öffner)\rManual switch (break)\rInterrupteur manuel (ouverture)",
+   "item": {
+    "caption": "Handschalter (Öffner)\rManual switch (break)\rInterrupteur manuel (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        0.0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.165,
+        4.58
+       ],
+       [
+        -4.4,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        3.38
+       ],
+       [
+        -4.4,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Handschalter (Öffner)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckschalter mit Rastung (Schließer)\rPush switch, latching (make)\rInterrupteur poussoir à accrochage (fermeture)",
+   "item": {
+    "caption": "Druckschalter mit Rastung (Schließer)\rPush switch, latching (make)\rInterrupteur poussoir à accrochage (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        0.0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        -3.2446,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.2446,
+        4.58
+       ],
+       [
+        -3.9446,
+        5.48
+       ],
+       [
+        -4.6446,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6446,
+        4.58
+       ],
+       [
+        -6.6,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.8,
+        3.38
+       ],
+       [
+        -6.6,
+        3.38
+       ],
+       [
+        -6.6,
+        5.78
+       ],
+       [
+        -5.8,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Druckschalter mit Rastung (Schließer)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckschalter mit Rastung (Öffner)\rPush switch, latching (break)\rInterrupteur poussoir à accrochage (ouverture)",
+   "item": {
+    "caption": "Druckschalter mit Rastung (Öffner)\rPush switch, latching (break)\rInterrupteur poussoir à accrochage (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        0.0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.165,
+        4.58
+       ],
+       [
+        -2.0175,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0175,
+        4.58
+       ],
+       [
+        -2.7175,
+        5.48
+       ],
+       [
+        -3.4175,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.4175,
+        4.58
+       ],
+       [
+        -6.6,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.8,
+        3.38
+       ],
+       [
+        -6.6,
+        3.38
+       ],
+       [
+        -6.6,
+        5.78
+       ],
+       [
+        -5.8,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Druckschalter mit Rastung (Öffner)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckschalter mit Rastung (Schließer und Öffner)\rPush switch, latching (make and break)\rInterrupteur poussoir à accrochage (fermeture et ouverture)",
+   "item": {
+    "caption": "Druckschalter mit Rastung (Schließer und Öffner)\rPush switch, latching (make and break)\rInterrupteur poussoir à accrochage (fermeture et ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.88,
+       0.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.88,
+       7.76
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        2.54
+       ],
+       [
+        6.68,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        7.18,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        -3.2446,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.2446,
+        4.58
+       ],
+       [
+        -3.9446,
+        5.48
+       ],
+       [
+        -4.6446,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6446,
+        4.58
+       ],
+       [
+        -6.6,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        6.245,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.8,
+        3.38
+       ],
+       [
+        -6.6,
+        3.38
+       ],
+       [
+        -6.6,
+        5.78
+       ],
+       [
+        -5.8,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.68,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.68,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Druckschalter mit Rastung (Schließer und Öffner)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Taster (Schließer und Öffner)\rPush button (make and break)\rBouton-poussoir (travail et repos)",
+   "item": {
+    "caption": "Taster (Schließer und Öffner)\rPush button (make and break)\rBouton-poussoir (travail et repos)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.88,
+       0.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.88,
+       7.76
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        2.54
+       ],
+       [
+        6.68,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        7.18,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        -4.4,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        6.245,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.38
+       ],
+       [
+        -4.4,
+        3.38
+       ],
+       [
+        -4.4,
+        5.78
+       ],
+       [
+        -3.6,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.68,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.68,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schalter (drücken)/Taster (Schließer und Öffner)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

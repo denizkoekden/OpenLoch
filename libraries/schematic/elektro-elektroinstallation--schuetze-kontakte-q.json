@@ -1,0 +1,5429 @@
+{
+ "folder": "Elektro/Elektroinstallation",
+ "format": "OpenLoch Schematic Library",
+ "name": "Schütze + Kontakte [Q]\rContactors + contacts [Q]\rContacteurs + contacts [Q]",
+ "symbols": [
+  {
+   "caption": "Schützspule\rContactor coil\rBobine de contacteur",
+   "item": {
+    "caption": "Schützspule\rContactor coil\rBobine de contacteur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schützspule",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Relaisspule\rRelay coil\rBobine de relais",
+   "item": {
+    "caption": "Relaisspule\rRelay coil\rBobine de relais",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        7.62
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Relaisspule",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer (Schütz)\rMake contact (contactor)\rContact à fermeture (contacteur)",
+   "item": {
+    "caption": "Schließer (Schütz)\rMake contact (contactor)\rContact à fermeture (contacteur)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.95,
+        4.68
+       ],
+       [
+        -5.0,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer (Schütz)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öffner (Schütz)\rBreak contact (contactor)\rContact à ouverture (contacteur)",
+   "item": {
+    "caption": "Öffner (Schütz)\rBreak contact (contactor)\rContact à ouverture (contacteur)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "21",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "21",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "22",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.05,
+        4.48
+       ],
+       [
+        -5.0,
+        4.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Öffner (Schütz)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (Schütz)\rChange-over contact (contactor)\rContact inverseur (contacteur)",
+   "item": {
+    "caption": "Wechsler (Schütz)\rChange-over contact (contactor)\rContact inverseur (contacteur)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       -2.94,
+       0.2
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.05,
+        4.48
+       ],
+       [
+        -5.0,
+        4.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Wechsler (Schütz)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer\rMake contact\rContact à fermeture",
+   "item": {
+    "caption": "Schließer\rMake contact\rContact à fermeture",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler ohne Unterbrechung\rChange-over contact, make-before-break\rContact inverseur avec chevauchement",
+   "item": {
+    "caption": "Wechsler ohne Unterbrechung\rChange-over contact, make-before-break\rContact inverseur avec chevauchement",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        4.1
+       ],
+       [
+        0.45,
+        4.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        1.5,
+        2.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.2148,
+        3.1272
+       ],
+       [
+        0.7852,
+        2.6728
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.94,
+       3.74
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.94,
+       6.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Wechsler ohne Unterbrechung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (Brücke)\rChange-over contact, make-before-break (bridge form)\rContact inverseur avec chevauchement (forme à pont)",
+   "item": {
+    "caption": "Wechsler (Brücke)\rChange-over contact, make-before-break (bridge form)\rContact inverseur avec chevauchement (forme à pont)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.0
+       ],
+       [
+        -0.8,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        1.85,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.94,
+       3.74
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.94,
+       6.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Wechsler (Brücke)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler mit Mittelstellung\rChange-over contact with centre-off position\rContact inverseur avec position médiane d'ouverture",
+   "item": {
+    "caption": "Wechsler mit Mittelstellung\rChange-over contact with centre-off position\rContact inverseur avec position médiane d'ouverture",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       -2.94,
+       0.2
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        8.12
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.12
+       ],
+       [
+        0,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.94,
+       3.74
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.94,
+       6.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Wechsler mit Mittelstellung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer mit Leistungsschalterfunktion\rMake contact, circuit-breaker function\rContact à fermeture, fonction disjoncteur",
+   "item": {
+    "caption": "Schließer mit Leistungsschalterfunktion\rMake contact, circuit-breaker function\rContact à fermeture, fonction disjoncteur",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.9,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        1.74
+       ],
+       [
+        0.8,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        3.34
+       ],
+       [
+        0.8,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer mit Leistungsschalterfunktion",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer mit Trennerfunktion\rMake contact, disconnector function\rContact à fermeture, fonction sectionneur",
+   "item": {
+    "caption": "Schließer mit Trennerfunktion\rMake contact, disconnector function\rContact à fermeture, fonction sectionneur",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        2.54
+       ],
+       [
+        0.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer mit Trennerfunktion",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer mit Lasttrennerfunktion\rMake contact, switch-disconnector function\rContact à fermeture, fonction interrupteur-sectionneur",
+   "item": {
+    "caption": "Schließer mit Lasttrennerfunktion\rMake contact, switch-disconnector function\rContact à fermeture, fonction interrupteur-sectionneur",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        2.54
+       ],
+       [
+        0.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       3.09
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.1,
+       1.1
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer mit Lasttrennerfunktion",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer mit Schützfunktion und selbsttätiger Auslösung\rMake contact, contactor function, automatic tripping\rContact à fermeture, fonction contacteur, déclenchement automatique",
+   "item": {
+    "caption": "Schließer mit Schützfunktion und selbsttätiger Auslösung\rMake contact, contactor function, automatic tripping\rContact à fermeture, fonction contacteur, déclenchement automatique",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       1.84
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.9828,
+        5.3027
+       ],
+       [
+        -1.3732,
+        4.3821
+       ],
+       [
+        -2.2938,
+        4.7725
+       ],
+       [
+        -1.9034,
+        5.6932
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer mit Schützfunktion und selbsttätiger Auslösung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer mit Lasttrennerfunktion und selbsttätiger Auslösung\rMake contact, switch-disconnector function, automatic tripping\rContact à fermeture, fonction interrupteur-sectionneur, déclenchement automatique",
+   "item": {
+    "caption": "Schließer mit Lasttrennerfunktion und selbsttätiger Auslösung\rMake contact, switch-disconnector function, automatic tripping\rContact à fermeture, fonction interrupteur-sectionneur, déclenchement automatique",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        2.54
+       ],
+       [
+        0.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       3.09
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.1,
+       1.1
+      ],
+      "type": "ellipse"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.9828,
+        5.3027
+       ],
+       [
+        -1.3732,
+        4.3821
+       ],
+       [
+        -2.2938,
+        4.7725
+       ],
+       [
+        -1.9034,
+        5.6932
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer mit Lasttrennerfunktion und selbsttätiger Auslösung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer mit selbsttätigem Rückgang\rMake contact with automatic return\rContact à fermeture à retour automatique",
+   "item": {
+    "caption": "Schließer mit selbsttätigem Rückgang\rMake contact with automatic return\rContact à fermeture à retour automatique",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.34
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        -1.1,
+        1.94
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schließer mit selbsttätigem Rückgang",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Positionsschalter (Schließer)\rPosition switch (make)\rInterrupteur de position (fermeture)",
+   "item": {
+    "caption": "Positionsschalter (Schließer)\rPosition switch (make)\rInterrupteur de position (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.8677,
+        6.0335
+       ],
+       [
+        -1.1283,
+        4.9596
+       ],
+       [
+        -0.5817,
+        6.2484
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Positionsschalter (Schließer)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öffner mit Schützfunktion\rBreak contact, contactor function\rContact à ouverture, fonction contacteur",
+   "item": {
+    "caption": "Öffner mit Schützfunktion\rBreak contact, contactor function\rContact à ouverture, fonction contacteur",
+    "children": [
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       1.84
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Öffner mit Schützfunktion",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öffner mit selbsttätigem Rückgang\rBreak contact with automatic return\rContact à ouverture à retour automatique",
+   "item": {
+    "caption": "Öffner mit selbsttätigem Rückgang\rBreak contact with automatic return\rContact à ouverture à retour automatique",
+    "children": [
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.34
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        1.1,
+        1.94
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Öffner mit selbsttätigem Rückgang",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Positionsschalter (Öffner)\rPosition switch (break)\rInterrupteur de position (ouverture)",
+   "item": {
+    "caption": "Positionsschalter (Öffner)\rPosition switch (break)\rInterrupteur de position (ouverture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.0822,
+        4.7604
+       ],
+       [
+        1.1955,
+        4.5004
+       ],
+       [
+        0.6945,
+        5.8076
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Positionsschalter (Öffner)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schützspule (betätigter Zustand)\rContactor coil (operated state)\rBobine de contacteur (état actionné)",
+   "item": {
+    "caption": "Schützspule (betätigter Zustand)\rContactor coil (operated state)\rBobine de contacteur (état actionné)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.58,
+        3.14
+       ],
+       [
+        -6.68,
+        1.94
+       ],
+       [
+        -5.78,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.03,
+        2.41
+       ],
+       [
+        -7.03,
+        6.08
+       ],
+       [
+        -6.33,
+        6.08
+       ],
+       [
+        -6.33,
+        2.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schützspule (betätigter Zustand)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines Thermorelais\rCoil of a thermal relay\rBobine d'un relais thermique",
+   "item": {
+    "caption": "Spule eines Thermorelais\rCoil of a thermal relay\rBobine d'un relais thermique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        0,
+        3.54
+       ],
+       [
+        -1.6,
+        3.54
+       ],
+       [
+        -1.6,
+        6.62
+       ],
+       [
+        0,
+        6.62
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines Thermorelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines Stromstoßrelais\rCoil of an impulse relay\rBobine d'un télérupteur",
+   "item": {
+    "caption": "Spule eines Stromstoßrelais\rCoil of an impulse relay\rBobine d'un télérupteur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        5.88
+       ],
+       [
+        0,
+        5.88
+       ],
+       [
+        0,
+        4.28
+       ],
+       [
+        2.4,
+        4.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines Stromstoßrelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schützspule mit zwei Wicklungen\rContactor coil with two windings\rBobine de contacteur à deux enroulements",
+   "item": {
+    "caption": "Schützspule mit zwei Wicklungen\rContactor coil with two windings\rBobine de contacteur à deux enroulements",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        7.62
+       ],
+       [
+        -1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        7.62
+       ],
+       [
+        3.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schützspule mit zwei Wicklungen",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schützspule, abfallverzögert\rContactor coil, slow-releasing\rBobine de contacteur, mise au repos retardée",
+   "item": {
+    "caption": "Schützspule, abfallverzögert\rContactor coil, slow-releasing\rBobine de contacteur, mise au repos retardée",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schützspule, abfallverzögert",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schützspule, ansprechverzögert\rContactor coil, slow-operating\rBobine de contacteur, mise au travail retardée",
+   "item": {
+    "caption": "Schützspule, ansprechverzögert\rContactor coil, slow-operating\rBobine de contacteur, mise au travail retardée",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.62,
+        2.54
+       ],
+       [
+        -5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.62,
+        7.62
+       ],
+       [
+        -5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schützspule, ansprechverzögert",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schützspule, ansprech- und abfallverzögert\rContactor coil, slow-operating and slow-releasing\rBobine de contacteur, mise au travail et au repos retardées",
+   "item": {
+    "caption": "Schützspule, ansprech- und abfallverzögert\rContactor coil, slow-operating and slow-releasing\rBobine de contacteur, mise au travail et au repos retardées",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -8.89,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -10.16,
+        2.54
+       ],
+       [
+        -7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -10.16,
+        7.62
+       ],
+       [
+        -7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Schützspule, ansprech- und abfallverzögert",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines Blinkrelais\rCoil of a flasher relay\rBobine d'un relais clignoteur",
+   "item": {
+    "caption": "Spule eines Blinkrelais\rCoil of a flasher relay\rBobine d'un relais clignoteur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.35,
+        5.68
+       ],
+       [
+        -6.75,
+        5.68
+       ],
+       [
+        -6.75,
+        4.48
+       ],
+       [
+        -5.95,
+        4.48
+       ],
+       [
+        -5.95,
+        5.68
+       ],
+       [
+        -5.35,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines Blinkrelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines Wechselstromrelais\rCoil of an AC relay\rBobine d'un relais à courant alternatif",
+   "item": {
+    "caption": "Spule eines Wechselstromrelais\rCoil of an AC relay\rBobine d'un relais à courant alternatif",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -6.85,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.85,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines Wechselstromrelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines schnell schaltenden Relais\rCoil of a high-speed relay\rBobine d'un relais rapide",
+   "item": {
+    "caption": "Spule eines schnell schaltenden Relais\rCoil of a high-speed relay\rBobine d'un relais rapide",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.75,
+        3.14
+       ],
+       [
+        -6.75,
+        7.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.95,
+        3.14
+       ],
+       [
+        -5.95,
+        7.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines schnell schaltenden Relais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines Remanenzrelais\rCoil of a remanent relay\rBobine d'un relais rémanent",
+   "item": {
+    "caption": "Spule eines Remanenzrelais\rCoil of a remanent relay\rBobine d'un relais rémanent",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.62,
+        7.62
+       ],
+       [
+        -5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines Remanenzrelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines Stützrelais\rCoil of a mechanically latched relay\rBobine d'un relais à verrouillage mécanique",
+   "item": {
+    "caption": "Spule eines Stützrelais\rCoil of a mechanically latched relay\rBobine d'un relais à verrouillage mécanique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        2.54
+       ],
+       [
+        -7.62,
+        5.08
+       ],
+       [
+        -5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines Stützrelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines wechselstromunempfindlichen Relais\rCoil of a relay unaffected by AC\rBobine d'un relais insensible au courant alternatif",
+   "item": {
+    "caption": "Spule eines wechselstromunempfindlichen Relais\rCoil of a relay unaffected by AC\rBobine d'un relais insensible au courant alternatif",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       0.0,
+       2.99
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       7.17
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines wechselstromunempfindlichen Relais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule eines gepolten Relais\rCoil of a polarized relay\rBobine d'un relais polarisé",
+   "item": {
+    "caption": "Spule eines gepolten Relais\rCoil of a polarized relay\rBobine d'un relais polarisé",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -0.9,
+       1.64
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.88,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Schütze + Kontakte [Q]/Spule eines gepolten Relais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

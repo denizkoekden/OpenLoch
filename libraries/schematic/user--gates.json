@@ -1,0 +1,2957 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "GATEs\rGATEs\rPORTES",
+ "symbols": [
+  {
+   "caption": "Inverter (HC04)\rInverter (HC04)\rInverseur (HC04)",
+   "item": {
+    "caption": "Inverter (HC04)\rInverter (HC04)\rInverseur (HC04)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        6.08
+       ],
+       [
+        8.14,
+        2.54
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       8.74,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.34,
+        2.54
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       2.54
+      ],
+      "pos": [
+       9.76,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/Inverter (HC04)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC04"
+   }
+  },
+  {
+   "caption": "Schmitt-Trigger-Inverter (HC14)\rSchmitt trigger inverter (HC14)\rInverseur trigger de Schmitt (HC14)",
+   "item": {
+    "caption": "Schmitt-Trigger-Inverter (HC14)\rSchmitt trigger inverter (HC14)\rInverseur trigger de Schmitt (HC14)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        6.08
+       ],
+       [
+        8.14,
+        2.54
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       8.74,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.34,
+        2.54
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       2.54
+      ],
+      "pos": [
+       9.76,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.24,
+        3.09
+       ],
+       [
+        4.14,
+        3.09
+       ],
+       [
+        4.14,
+        2.01
+       ],
+       [
+        5.04,
+        2.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.6,
+        3.09
+       ],
+       [
+        3.6,
+        2.01
+       ],
+       [
+        4.5,
+        2.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/Schmitt-Trigger-Inverter (HC14)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC14"
+   }
+  },
+  {
+   "caption": "NAND 2 (¼ HC00)\rNAND 2 (¼ HC00)\rNON-ET 2 (¼ HC00)",
+   "item": {
+    "caption": "NAND 2 (¼ HC00)\rNAND 2 (¼ HC00)\rNON-ET 2 (¼ HC00)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.54,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.54,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.08,
+       7.08
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       9.68,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.28,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/NAND 2 (¼ HC00)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC00"
+   }
+  },
+  {
+   "caption": "NOR 2 (¼ HC02)\rNOR 2 (¼ HC02)\rNON-OU 2 (¼ HC02)",
+   "item": {
+    "caption": "NOR 2 (¼ HC02)\rNOR 2 (¼ HC02)\rNON-OU 2 (¼ HC02)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        3.94,
+        0.6
+       ],
+       [
+        3.94,
+        4.48
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.74,
+        -1.0
+       ],
+       [
+        7.94,
+        0.2
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.74,
+        6.08
+       ],
+       [
+        7.94,
+        4.88
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       9.74,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.34,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/NOR 2 (¼ HC02)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC02"
+   }
+  },
+  {
+   "caption": "UND 2 (¼ HC08)\rAND 2 (¼ HC08)\rET 2 (¼ HC08)",
+   "item": {
+    "caption": "UND 2 (¼ HC08)\rAND 2 (¼ HC08)\rET 2 (¼ HC08)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.54,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.54,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.08,
+       7.08
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.08,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/UND 2 (¼ HC08)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC08"
+   }
+  },
+  {
+   "caption": "ODER 2 (¼ HC32)\rOR 2 (¼ HC32)\rOU 2 (¼ HC32)",
+   "item": {
+    "caption": "ODER 2 (¼ HC32)\rOR 2 (¼ HC32)\rOU 2 (¼ HC32)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        3.94,
+        0.6
+       ],
+       [
+        3.94,
+        4.48
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.74,
+        -1.0
+       ],
+       [
+        7.94,
+        0.2
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.74,
+        6.08
+       ],
+       [
+        7.94,
+        4.88
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.14,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/ODER 2 (¼ HC32)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC32"
+   }
+  },
+  {
+   "caption": "XNOR 2 (¼ HC266)\rXNOR 2 (¼ HC266)\rNON-OU exclusif 2 (¼ HC266)",
+   "item": {
+    "caption": "XNOR 2 (¼ HC266)\rXNOR 2 (¼ HC266)\rNON-OU exclusif 2 (¼ HC266)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.74,
+        -1.0
+       ],
+       [
+        3.14,
+        0.6
+       ],
+       [
+        3.14,
+        4.48
+       ],
+       [
+        1.74,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        3.94,
+        0.6
+       ],
+       [
+        3.94,
+        4.48
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.74,
+        -1.0
+       ],
+       [
+        7.94,
+        0.2
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.74,
+        6.08
+       ],
+       [
+        7.94,
+        4.88
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       9.74,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.34,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.68,
+        1.54
+       ],
+       [
+        6.38,
+        2.24
+       ],
+       [
+        5.68,
+        2.94
+       ],
+       [
+        4.98,
+        2.24
+       ],
+       [
+        5.68,
+        1.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.98,
+        3.24
+       ],
+       [
+        6.38,
+        3.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/XNOR 2 (¼ HC266)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC266"
+   }
+  },
+  {
+   "caption": "XOR 2 (¼ HC86)\rXOR 2 (¼ HC86)\rOU exclusif 2 (¼ HC86)",
+   "item": {
+    "caption": "XOR 2 (¼ HC86)\rXOR 2 (¼ HC86)\rOU exclusif 2 (¼ HC86)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.74,
+        -1.0
+       ],
+       [
+        3.14,
+        0.6
+       ],
+       [
+        3.14,
+        4.48
+       ],
+       [
+        1.74,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        3.94,
+        0.6
+       ],
+       [
+        3.94,
+        4.48
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.74,
+        -1.0
+       ],
+       [
+        7.94,
+        0.2
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.74,
+        6.08
+       ],
+       [
+        7.94,
+        4.88
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.14,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/XOR 2 (¼ HC86)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC86"
+   }
+  },
+  {
+   "caption": "NAND 3 (HC10)\rNAND 3 (HC10)\rNON-ET 3 (HC10)",
+   "item": {
+    "caption": "NAND 3 (HC10)\rNAND 3 (HC10)\rNON-ET 3 (HC10)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.54,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.54,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.08,
+       7.08
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       9.68,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.28,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/NAND 3 (HC10)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC10"
+   }
+  },
+  {
+   "caption": "NOR 3 (HC27)\rNOR 3 (HC27)\rNON-OU 3 (HC27)",
+   "item": {
+    "caption": "NOR 3 (HC27)\rNOR 3 (HC27)\rNON-OU 3 (HC27)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        3.94,
+        0.6
+       ],
+       [
+        3.94,
+        4.48
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.74,
+        -1.0
+       ],
+       [
+        7.94,
+        0.2
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.74,
+        6.08
+       ],
+       [
+        7.94,
+        4.88
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       9.74,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.34,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        3.59,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/NOR 3 (HC27)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC27"
+   }
+  },
+  {
+   "caption": "UND 3 (HC11)\rAND 3 (HC11)\rET 3 (HC11)",
+   "item": {
+    "caption": "UND 3 (HC11)\rAND 3 (HC11)\rET 3 (HC11)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.54,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.54,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.54,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.08,
+       7.08
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.08,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/UND 3 (HC11)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC11"
+   }
+  },
+  {
+   "caption": "ODER 3 (HC4075)\rOR 3 (HC4075)\rOU 3 (HC4075)",
+   "item": {
+    "caption": "ODER 3 (HC4075)\rOR 3 (HC4075)\rOU 3 (HC4075)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        3.94,
+        0.6
+       ],
+       [
+        3.94,
+        4.48
+       ],
+       [
+        2.54,
+        6.08
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        5.74,
+        -1.0
+       ],
+       [
+        7.94,
+        0.2
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.08
+       ],
+       [
+        5.74,
+        6.08
+       ],
+       [
+        7.94,
+        4.88
+       ],
+       [
+        9.14,
+        2.54
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.14,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        3.59,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/ODER 3 (HC4075)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "74HC4075"
+   }
+  },
+  {
+   "caption": "Treiber\rBuffer\rTampon",
+   "item": {
+    "caption": "Treiber\rBuffer\rTampon",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        6.08
+       ],
+       [
+        8.14,
+        2.54
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.14,
+        2.54
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       2.54
+      ],
+      "pos": [
+       9.76,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       6.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "N?",
+    "libraryEntry": "OpenLoch/USER/GATEs/Treiber",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

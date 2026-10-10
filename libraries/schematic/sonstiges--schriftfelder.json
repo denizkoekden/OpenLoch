@@ -1,0 +1,5339 @@
+{
+ "folder": "Sonstiges",
+ "format": "OpenLoch Schematic Library",
+ "name": "Schriftfelder\rTitle blocks\rBlocs de titre",
+ "symbols": [
+  {
+   "caption": "Schriftfeld klein\rSmall title block\rPetit cartouche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld klein\rSmall title block\rPetit cartouche",
+    "children": [
+     {
+      "centre": [
+       40.0,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       80,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        0.0
+       ],
+       [
+        22,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       1.0
+      ],
+      "text": "Blatt",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       0.8
+      ],
+      "text": "<PAGENAME>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        80,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        5.08
+       ],
+       [
+        22,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       6.08
+      ],
+      "text": "Datei",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       5.88
+      ],
+      "text": "<FILENAME>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        80,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        10.16
+       ],
+       [
+        22,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       11.16
+      ],
+      "text": "Seite",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       10.96
+      ],
+      "text": "<PAGENO> / <PAGECOUNT>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld klein",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld groß\rLarge title block\rGrand cartouche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld groß\rLarge title block\rGrand cartouche",
+    "children": [
+     {
+      "centre": [
+       60.0,
+       12.7
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       120,
+       25.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        0.0
+       ],
+       [
+        22,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       1.0
+      ],
+      "text": "Projekt",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       0.8
+      ],
+      "text": "<FILENAME_PURE>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        120,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        5.08
+       ],
+       [
+        22,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       6.08
+      ],
+      "text": "Blatt",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       5.88
+      ],
+      "text": "<PAGENAME>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        120,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        10.16
+       ],
+       [
+        22,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       11.16
+      ],
+      "text": "Datum",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       10.96
+      ],
+      "text": "<FILEDATE>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        120,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        15.24
+       ],
+       [
+        22,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       16.24
+      ],
+      "text": "Bearbeiter",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       16.04
+      ],
+      "text": "",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        120,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        20.32
+       ],
+       [
+        22,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       21.32
+      ],
+      "text": "Seite",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       21.12
+      ],
+      "text": "<PAGENO> / <PAGECOUNT>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld groß",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Änderungsfeld\rRevision block\rBloc de révision",
+   "item": {
+    "autoNumber": false,
+    "caption": "Änderungsfeld\rRevision block\rBloc de révision",
+    "children": [
+     {
+      "centre": [
+       60.0,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       120,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        0.0
+       ],
+       [
+        22,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       1.0
+      ],
+      "text": "Änderung",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       0.8
+      ],
+      "text": "",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        120,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        5.08
+       ],
+       [
+        22,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       6.08
+      ],
+      "text": "Datum",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       5.88
+      ],
+      "text": "",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        120,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22,
+        10.16
+       ],
+       [
+        22,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       1.0,
+       11.16
+      ],
+      "text": "Name",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.0,
+       10.96
+      ],
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Änderungsfeld",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld DIN EN ISO 7200 (Deutsch)\rTitle block ISO 7200 (German)\rCartouche ISO 7200 (allemand)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld DIN EN ISO 7200 (Deutsch)\rTitle block ISO 7200 (German)\rCartouche ISO 7200 (allemand)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       13.5
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       180.0,
+       27.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        0
+       ],
+       [
+        -16.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        9.0
+       ],
+       [
+        -16.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -89.2,
+       0.7
+      ],
+      "text": "Abteilung",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        9.0
+       ],
+       [
+        90.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       0.7
+      ],
+      "text": "Dokumentenart",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -58.0,
+        9.0
+       ],
+       [
+        -58.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -89.2,
+       9.7
+      ],
+      "text": "Firma",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        9.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -58.0,
+        18.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -57.2,
+       9.7
+      ],
+      "text": "Erstellt durch",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        18.0
+       ],
+       [
+        -16.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -57.2,
+       18.7
+      ],
+      "text": "Genehmigt von",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.0,
+        9.0
+       ],
+       [
+        40.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       9.7
+      ],
+      "text": "Titel",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.0,
+        18.0
+       ],
+       [
+        90.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       40.8,
+       9.7
+      ],
+      "text": "Sachnummer",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        53.0,
+        18.0
+       ],
+       [
+        53.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       40.8,
+       18.7
+      ],
+      "text": "Maßstab",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        72.0,
+        18.0
+       ],
+       [
+        72.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       53.8,
+       18.7
+      ],
+      "text": "Ausgabedatum",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       72.8,
+       18.7
+      ],
+      "text": "Blatt",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       73.0,
+       22.2
+      ],
+      "text": "<PAGENO>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld DIN EN ISO 7200 (Deutsch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld DIN EN ISO 7200 (Englisch)\rTitle block ISO 7200 (English)\rCartouche ISO 7200 (anglais)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld DIN EN ISO 7200 (Englisch)\rTitle block ISO 7200 (English)\rCartouche ISO 7200 (anglais)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       13.5
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       180.0,
+       27.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        0
+       ],
+       [
+        -16.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        9.0
+       ],
+       [
+        -16.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -89.2,
+       0.7
+      ],
+      "text": "Department",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        9.0
+       ],
+       [
+        90.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       0.7
+      ],
+      "text": "Type",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -58.0,
+        9.0
+       ],
+       [
+        -58.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -89.2,
+       9.7
+      ],
+      "text": "Company",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        9.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -58.0,
+        18.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -57.2,
+       9.7
+      ],
+      "text": "Created by",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        18.0
+       ],
+       [
+        -16.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -57.2,
+       18.7
+      ],
+      "text": "Approved by",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.0,
+        9.0
+       ],
+       [
+        40.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       9.7
+      ],
+      "text": "Title",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.0,
+        18.0
+       ],
+       [
+        90.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       40.8,
+       9.7
+      ],
+      "text": "Number",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        53.0,
+        18.0
+       ],
+       [
+        53.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       40.8,
+       18.7
+      ],
+      "text": "Scale",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        72.0,
+        18.0
+       ],
+       [
+        72.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       53.8,
+       18.7
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       72.8,
+       18.7
+      ],
+      "text": "Page",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       73.0,
+       22.2
+      ],
+      "text": "<PAGENO>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld DIN EN ISO 7200 (Englisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld DIN EN ISO 7200 (Französisch)\rTitle block ISO 7200 (French)\rCartouche ISO 7200 (français)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld DIN EN ISO 7200 (Französisch)\rTitle block ISO 7200 (French)\rCartouche ISO 7200 (français)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       13.5
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       180.0,
+       27.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        0
+       ],
+       [
+        -16.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        9.0
+       ],
+       [
+        -16.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -89.2,
+       0.7
+      ],
+      "text": "Département",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        9.0
+       ],
+       [
+        90.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       0.7
+      ],
+      "text": "Type",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -58.0,
+        9.0
+       ],
+       [
+        -58.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -89.2,
+       9.7
+      ],
+      "text": "Société",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        9.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -58.0,
+        18.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -57.2,
+       9.7
+      ],
+      "text": "Créé par",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        18.0
+       ],
+       [
+        -16.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -57.2,
+       18.7
+      ],
+      "text": "Approuvé par",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.0,
+        9.0
+       ],
+       [
+        40.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       9.7
+      ],
+      "text": "Titre",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.0,
+        18.0
+       ],
+       [
+        90.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       40.8,
+       9.7
+      ],
+      "text": "Numéro",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        53.0,
+        18.0
+       ],
+       [
+        53.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       40.8,
+       18.7
+      ],
+      "text": "Échelle",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        72.0,
+        18.0
+       ],
+       [
+        72.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       53.8,
+       18.7
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       72.8,
+       18.7
+      ],
+      "text": "Page",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       73.0,
+       22.2
+      ],
+      "text": "<PAGENO>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld DIN EN ISO 7200 (Französisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld mit Änderungsfeld (Deutsch)\rTitle block with revisions (German)\rCartouche avec modifications (allemand)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld mit Änderungsfeld (Deutsch)\rTitle block with revisions (German)\rCartouche avec modifications (allemand)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       9.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       180.0,
+       18.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        0
+       ],
+       [
+        -80.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        6.0
+       ],
+       [
+        -80.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        6.0
+       ],
+       [
+        -80.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        12.0
+       ],
+       [
+        -80.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        12.0
+       ],
+       [
+        -80.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        0
+       ],
+       [
+        -48.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        6.0
+       ],
+       [
+        -48.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        6.0
+       ],
+       [
+        -48.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        12.0
+       ],
+       [
+        -48.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        12.0
+       ],
+       [
+        -48.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        0
+       ],
+       [
+        -32.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        6.0
+       ],
+       [
+        -32.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        6.0
+       ],
+       [
+        -32.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        12.0
+       ],
+       [
+        -32.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        12.0
+       ],
+       [
+        -32.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        0
+       ],
+       [
+        -16.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        6.0
+       ],
+       [
+        -16.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        6.0
+       ],
+       [
+        -16.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        12.0
+       ],
+       [
+        -16.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        12.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        0
+       ],
+       [
+        -4.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        6.0
+       ],
+       [
+        -4.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        6.0
+       ],
+       [
+        -4.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        12.0
+       ],
+       [
+        -4.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        12.0
+       ],
+       [
+        -4.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        0
+       ],
+       [
+        12.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        6.0
+       ],
+       [
+        12.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        6.0
+       ],
+       [
+        12.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        12.0
+       ],
+       [
+        12.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        12.0
+       ],
+       [
+        12.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        0
+       ],
+       [
+        30.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        6.0
+       ],
+       [
+        30.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        6.0
+       ],
+       [
+        30.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        12.0
+       ],
+       [
+        30.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        12.0
+       ],
+       [
+        30.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        0
+       ],
+       [
+        68.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        12.0
+       ],
+       [
+        68.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       30.8,
+       0.7
+      ],
+      "text": "Bezeichnung",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        12.0
+       ],
+       [
+        68.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       30.8,
+       12.7
+      ],
+      "text": "Zeichnungs-Nr.",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        9.0
+       ],
+       [
+        90.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       68.8,
+       0.7
+      ],
+      "text": "Blatt-Nr.",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       68.8,
+       9.7
+      ],
+      "text": "Blattzahl",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -85.0,
+       14.1
+      ],
+      "text": "Zustand",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -64.0,
+       14.1
+      ],
+      "text": "Änderung",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -40.0,
+       14.1
+      ],
+      "text": "Datum",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.0,
+       14.1
+      ],
+      "text": "Name",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       4.0,
+       2.1
+      ],
+      "text": "Datum",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       21.0,
+       2.1
+      ],
+      "text": "Name",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       8.1
+      ],
+      "text": "gez.",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       14.1
+      ],
+      "text": "gepr.",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld mit Änderungsfeld (Deutsch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld mit Änderungsfeld (Englisch)\rTitle block with revisions (English)\rCartouche avec modifications (anglais)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld mit Änderungsfeld (Englisch)\rTitle block with revisions (English)\rCartouche avec modifications (anglais)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       9.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       180.0,
+       18.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        0
+       ],
+       [
+        -80.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        6.0
+       ],
+       [
+        -80.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        6.0
+       ],
+       [
+        -80.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        12.0
+       ],
+       [
+        -80.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        12.0
+       ],
+       [
+        -80.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        0
+       ],
+       [
+        -48.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        6.0
+       ],
+       [
+        -48.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        6.0
+       ],
+       [
+        -48.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        12.0
+       ],
+       [
+        -48.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        12.0
+       ],
+       [
+        -48.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        0
+       ],
+       [
+        -32.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        6.0
+       ],
+       [
+        -32.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        6.0
+       ],
+       [
+        -32.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        12.0
+       ],
+       [
+        -32.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        12.0
+       ],
+       [
+        -32.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        0
+       ],
+       [
+        -16.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        6.0
+       ],
+       [
+        -16.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        6.0
+       ],
+       [
+        -16.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        12.0
+       ],
+       [
+        -16.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        12.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        0
+       ],
+       [
+        -4.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        6.0
+       ],
+       [
+        -4.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        6.0
+       ],
+       [
+        -4.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        12.0
+       ],
+       [
+        -4.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        12.0
+       ],
+       [
+        -4.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        0
+       ],
+       [
+        12.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        6.0
+       ],
+       [
+        12.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        6.0
+       ],
+       [
+        12.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        12.0
+       ],
+       [
+        12.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        12.0
+       ],
+       [
+        12.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        0
+       ],
+       [
+        30.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        6.0
+       ],
+       [
+        30.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        6.0
+       ],
+       [
+        30.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        12.0
+       ],
+       [
+        30.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        12.0
+       ],
+       [
+        30.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        0
+       ],
+       [
+        68.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        12.0
+       ],
+       [
+        68.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       30.8,
+       0.7
+      ],
+      "text": "Title",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        12.0
+       ],
+       [
+        68.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       30.8,
+       12.7
+      ],
+      "text": "Drawing No.",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        9.0
+       ],
+       [
+        90.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       68.8,
+       0.7
+      ],
+      "text": "Page",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       68.8,
+       9.7
+      ],
+      "text": "Pages total",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -85.0,
+       14.1
+      ],
+      "text": "Rev.",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -64.0,
+       14.1
+      ],
+      "text": "Changes",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -40.0,
+       14.1
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.0,
+       14.1
+      ],
+      "text": "Name",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       4.0,
+       2.1
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       21.0,
+       2.1
+      ],
+      "text": "Name",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       8.1
+      ],
+      "text": "drawn",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       14.1
+      ],
+      "text": "checked",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld mit Änderungsfeld (Englisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld mit Änderungsfeld (Französisch)\rTitle block with revisions (French)\rCartouche avec modifications (français)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld mit Änderungsfeld (Französisch)\rTitle block with revisions (French)\rCartouche avec modifications (français)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       9.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       180.0,
+       18.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        0
+       ],
+       [
+        -80.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        6.0
+       ],
+       [
+        -80.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        6.0
+       ],
+       [
+        -80.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -90.0,
+        12.0
+       ],
+       [
+        -80.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        12.0
+       ],
+       [
+        -80.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        0
+       ],
+       [
+        -48.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        6.0
+       ],
+       [
+        -48.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        6.0
+       ],
+       [
+        -48.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -80.0,
+        12.0
+       ],
+       [
+        -48.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        12.0
+       ],
+       [
+        -48.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        0
+       ],
+       [
+        -32.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        6.0
+       ],
+       [
+        -32.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        6.0
+       ],
+       [
+        -32.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -48.0,
+        12.0
+       ],
+       [
+        -32.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        12.0
+       ],
+       [
+        -32.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        0
+       ],
+       [
+        -16.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        6.0
+       ],
+       [
+        -16.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        6.0
+       ],
+       [
+        -16.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -32.0,
+        12.0
+       ],
+       [
+        -16.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        12.0
+       ],
+       [
+        -16.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        0
+       ],
+       [
+        -4.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        6.0
+       ],
+       [
+        -4.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        6.0
+       ],
+       [
+        -4.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.0,
+        12.0
+       ],
+       [
+        -4.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        12.0
+       ],
+       [
+        -4.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        0
+       ],
+       [
+        12.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        6.0
+       ],
+       [
+        12.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        6.0
+       ],
+       [
+        12.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        12.0
+       ],
+       [
+        12.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        12.0
+       ],
+       [
+        12.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        0
+       ],
+       [
+        30.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        6.0
+       ],
+       [
+        30.0,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        6.0
+       ],
+       [
+        30.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        12.0
+       ],
+       [
+        30.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        12.0
+       ],
+       [
+        30.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        0
+       ],
+       [
+        68.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.0,
+        12.0
+       ],
+       [
+        68.0,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       30.8,
+       0.7
+      ],
+      "text": "Titre",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        12.0
+       ],
+       [
+        68.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       30.8,
+       12.7
+      ],
+      "text": "N° de plan",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        68.0,
+        9.0
+       ],
+       [
+        90.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       68.8,
+       0.7
+      ],
+      "text": "Page",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       68.8,
+       9.7
+      ],
+      "text": "Nombre de pages",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -85.0,
+       14.1
+      ],
+      "text": "Ind.",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -64.0,
+       14.1
+      ],
+      "text": "Modifications",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -40.0,
+       14.1
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.0,
+       14.1
+      ],
+      "text": "Nom",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       4.0,
+       2.1
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       21.0,
+       2.1
+      ],
+      "text": "Nom",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       8.1
+      ],
+      "text": "dessiné",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -15.2,
+       14.1
+      ],
+      "text": "vérifié",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld mit Änderungsfeld (Französisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld DIN EN ISO 7200, breit (Deutsch)\rTitle block ISO 7200, wide (German)\rCartouche ISO 7200 large (allemand)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld DIN EN ISO 7200, breit (Deutsch)\rTitle block ISO 7200, wide (German)\rCartouche ISO 7200 large (allemand)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       13.5
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       198.0,
+       27.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        0
+       ],
+       [
+        -25.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -99.0,
+        9.0
+       ],
+       [
+        -25.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -98.2,
+       0.7
+      ],
+      "text": "Abteilung",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        9.0
+       ],
+       [
+        99.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.2,
+       0.7
+      ],
+      "text": "Dokumentenart",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -67.0,
+        9.0
+       ],
+       [
+        -67.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -98.2,
+       9.7
+      ],
+      "text": "Firma",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        9.0
+       ],
+       [
+        -25.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -67.0,
+        18.0
+       ],
+       [
+        -25.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -66.2,
+       9.7
+      ],
+      "text": "Erstellt durch",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        18.0
+       ],
+       [
+        -25.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -66.2,
+       18.7
+      ],
+      "text": "Genehmigt von",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        31.0,
+        9.0
+       ],
+       [
+        31.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.2,
+       9.7
+      ],
+      "text": "Titel",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        31.0,
+        18.0
+       ],
+       [
+        99.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       31.8,
+       9.7
+      ],
+      "text": "Sachnummer",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        48.68,
+        18.0
+       ],
+       [
+        48.68,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       31.8,
+       18.7
+      ],
+      "text": "Maßstab",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        74.52,
+        18.0
+       ],
+       [
+        74.52,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       49.48,
+       18.7
+      ],
+      "text": "Ausgabedatum",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       75.32,
+       18.7
+      ],
+      "text": "Blatt",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       75.52,
+       22.2
+      ],
+      "text": "<PAGENO>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld DIN EN ISO 7200, breit (Deutsch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld DIN EN ISO 7200, breit (Englisch)\rTitle block ISO 7200, wide (English)\rCartouche ISO 7200 large (anglais)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld DIN EN ISO 7200, breit (Englisch)\rTitle block ISO 7200, wide (English)\rCartouche ISO 7200 large (anglais)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       13.5
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       198.0,
+       27.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        0
+       ],
+       [
+        -25.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -99.0,
+        9.0
+       ],
+       [
+        -25.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -98.2,
+       0.7
+      ],
+      "text": "Department",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        9.0
+       ],
+       [
+        99.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.2,
+       0.7
+      ],
+      "text": "Type",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -67.0,
+        9.0
+       ],
+       [
+        -67.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -98.2,
+       9.7
+      ],
+      "text": "Company",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        9.0
+       ],
+       [
+        -25.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -67.0,
+        18.0
+       ],
+       [
+        -25.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -66.2,
+       9.7
+      ],
+      "text": "Created by",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        18.0
+       ],
+       [
+        -25.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -66.2,
+       18.7
+      ],
+      "text": "Approved by",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        31.0,
+        9.0
+       ],
+       [
+        31.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.2,
+       9.7
+      ],
+      "text": "Title",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        31.0,
+        18.0
+       ],
+       [
+        99.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       31.8,
+       9.7
+      ],
+      "text": "Number",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        48.68,
+        18.0
+       ],
+       [
+        48.68,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       31.8,
+       18.7
+      ],
+      "text": "Scale",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        74.52,
+        18.0
+       ],
+       [
+        74.52,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       49.48,
+       18.7
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       75.32,
+       18.7
+      ],
+      "text": "Page",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       75.52,
+       22.2
+      ],
+      "text": "<PAGENO>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld DIN EN ISO 7200, breit (Englisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schriftfeld DIN EN ISO 7200, breit (Französisch)\rTitle block ISO 7200, wide (French)\rCartouche ISO 7200 large (français)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schriftfeld DIN EN ISO 7200, breit (Französisch)\rTitle block ISO 7200, wide (French)\rCartouche ISO 7200 large (français)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       13.5
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       198.0,
+       27.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        0
+       ],
+       [
+        -25.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -99.0,
+        9.0
+       ],
+       [
+        -25.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -98.2,
+       0.7
+      ],
+      "text": "Département",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        9.0
+       ],
+       [
+        99.0,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.2,
+       0.7
+      ],
+      "text": "Type",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -67.0,
+        9.0
+       ],
+       [
+        -67.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -98.2,
+       9.7
+      ],
+      "text": "Société",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        9.0
+       ],
+       [
+        -25.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -67.0,
+        18.0
+       ],
+       [
+        -25.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -66.2,
+       9.7
+      ],
+      "text": "Créé par",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -25.0,
+        18.0
+       ],
+       [
+        -25.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -66.2,
+       18.7
+      ],
+      "text": "Approuvé par",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        31.0,
+        9.0
+       ],
+       [
+        31.0,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       -24.2,
+       9.7
+      ],
+      "text": "Titre",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        31.0,
+        18.0
+       ],
+       [
+        99.0,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       31.8,
+       9.7
+      ],
+      "text": "Numéro",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        48.68,
+        18.0
+       ],
+       [
+        48.68,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       31.8,
+       18.7
+      ],
+      "text": "Échelle",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        74.52,
+        18.0
+       ],
+       [
+        74.52,
+        27.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       49.48,
+       18.7
+      ],
+      "text": "Date",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       75.32,
+       18.7
+      ],
+      "text": "Page",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       75.52,
+       22.2
+      ],
+      "text": "<PAGENO>",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Schriftfelder/Schriftfeld DIN EN ISO 7200, breit (Französisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

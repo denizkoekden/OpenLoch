@@ -1,0 +1,4936 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Wegeventile\rDirectional valves\rDistributeurs",
+ "symbols": [
+  {
+   "caption": "2/2-Wegeventil\r2/2 directional valve\rDistributeur 2/2",
+   "item": {
+    "caption": "2/2-Wegeventil\r2/2 directional valve\rDistributeur 2/2",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.7,
+        8.56
+       ],
+       [
+        13.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.7,
+        1.6
+       ],
+       [
+        13.7,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -1.3,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        6.88
+       ],
+       [
+        0.0,
+        3.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        21.22,
+        3.88
+       ],
+       [
+        22.12,
+        6.28
+       ],
+       [
+        23.02,
+        3.88
+       ],
+       [
+        23.92,
+        6.28
+       ],
+       [
+        24.82,
+        3.88
+       ],
+       [
+        25.72,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/2/2-Wegeventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "3/2-Wegeventil\r3/2 directional valve\rDistributeur 3/2",
+   "item": {
+    "caption": "3/2-Wegeventil\r3/2 directional valve\rDistributeur 3/2",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        8.56
+       ],
+       [
+        8.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.7,
+        8.56
+       ],
+       [
+        13.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       18.28,
+       10.5
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -1.3,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        6.88
+       ],
+       [
+        0.0,
+        3.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        21.22,
+        3.88
+       ],
+       [
+        22.12,
+        6.28
+       ],
+       [
+        23.02,
+        3.88
+       ],
+       [
+        23.92,
+        6.28
+       ],
+       [
+        24.82,
+        3.88
+       ],
+       [
+        25.72,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/3/2-Wegeventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "3/2-Wegeventil, Handbetätigung\r3/2 valve, push button\rDistributeur 3/2, bouton-poussoir",
+   "item": {
+    "caption": "3/2-Wegeventil, Handbetätigung\r3/2 valve, push button\rDistributeur 3/2, bouton-poussoir",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        8.56
+       ],
+       [
+        8.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.7,
+        8.56
+       ],
+       [
+        13.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       18.28,
+       10.5
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -2.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        3.88
+       ],
+       [
+        -2.4,
+        6.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        3.88
+       ],
+       [
+        -3.2,
+        3.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        6.28
+       ],
+       [
+        -3.2,
+        6.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        21.22,
+        3.88
+       ],
+       [
+        22.12,
+        6.28
+       ],
+       [
+        23.02,
+        3.88
+       ],
+       [
+        23.92,
+        6.28
+       ],
+       [
+        24.82,
+        3.88
+       ],
+       [
+        25.72,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/3/2-Wegeventil, Handbetätigung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "4/2-Wegeventil\r4/2 directional valve\rDistributeur 4/2",
+   "item": {
+    "caption": "4/2-Wegeventil\r4/2 directional valve\rDistributeur 4/2",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       18.28,
+       -2.94
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "T",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       18.28,
+       10.5
+      ],
+      "text": "T",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -1.3,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        6.88
+       ],
+       [
+        0.0,
+        3.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        21.22,
+        3.88
+       ],
+       [
+        22.12,
+        6.28
+       ],
+       [
+        23.02,
+        3.88
+       ],
+       [
+        23.92,
+        6.28
+       ],
+       [
+        24.82,
+        3.88
+       ],
+       [
+        25.72,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/4/2-Wegeventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "4/2-Wegeventil, Hebel\r4/2 valve, lever\rDistributeur 4/2, levier",
+   "item": {
+    "caption": "4/2-Wegeventil, Hebel\r4/2 valve, lever\rDistributeur 4/2, levier",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       18.28,
+       -2.94
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "T",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       18.28,
+       10.5
+      ],
+      "text": "T",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -2.6,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        5.08
+       ],
+       [
+        -4.0,
+        3.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -4.0,
+       3.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        21.22,
+        3.88
+       ],
+       [
+        22.12,
+        6.28
+       ],
+       [
+        23.02,
+        3.88
+       ],
+       [
+        23.92,
+        6.28
+       ],
+       [
+        24.82,
+        3.88
+       ],
+       [
+        25.72,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/4/2-Wegeventil, Hebel",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "4/2-Wegeventil, Vorsteuerung\r4/2 valve, pilot operated\rDistributeur 4/2, pilotage",
+   "item": {
+    "caption": "4/2-Wegeventil, Vorsteuerung\r4/2 valve, pilot operated\rDistributeur 4/2, pilotage",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       18.28,
+       -2.94
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "T",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       18.28,
+       10.5
+      ],
+      "text": "T",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -3.0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2,
+        5.08
+       ],
+       [
+        -2.6,
+        5.98
+       ],
+       [
+        -2.6,
+        4.18
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        5.08
+       ],
+       [
+        21.22,
+        3.88
+       ],
+       [
+        22.12,
+        6.28
+       ],
+       [
+        23.02,
+        3.88
+       ],
+       [
+        23.92,
+        6.28
+       ],
+       [
+        24.82,
+        3.88
+       ],
+       [
+        25.72,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/4/2-Wegeventil, Vorsteuerung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "4/3-Wegeventil, Mittelstellung gesperrt\r4/3 valve, closed centre\rDistributeur 4/3, centre fermé",
+   "item": {
+    "caption": "4/3-Wegeventil, Mittelstellung gesperrt\r4/3 valve, closed centre\rDistributeur 4/3, centre fermé",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.7,
+        8.56
+       ],
+       [
+        13.7,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.7,
+        1.6
+       ],
+       [
+        13.7,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.78,
+        8.56
+       ],
+       [
+        18.78,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.78,
+        1.6
+       ],
+       [
+        18.78,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        27.94,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        0
+       ],
+       [
+        27.94,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       18.28,
+       -2.94
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "P",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "P",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "T",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       18.28,
+       10.5
+      ],
+      "text": "T",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -1.3,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        6.88
+       ],
+       [
+        0.0,
+        3.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       31.78,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        6.88
+       ],
+       [
+        33.08,
+        3.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       36.88,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       36.88,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/4/3-Wegeventil, Mittelstellung gesperrt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Ventilkasten, 2 Schaltstellungen\rValve body, 2 positions\rCorps de distributeur, 2 positions",
+   "item": {
+    "caption": "Ventilkasten, 2 Schaltstellungen\rValve body, 2 positions\rCorps de distributeur, 2 positions",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Ventilkasten, 2 Schaltstellungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Ventilkasten, 3 Schaltstellungen\rValve body, 3 positions\rCorps de distributeur, 3 positions",
+   "item": {
+    "caption": "Ventilkasten, 3 Schaltstellungen\rValve body, 3 positions\rCorps de distributeur, 3 positions",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       25.4,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       36.88,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       36.88,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Ventilkasten, 3 Schaltstellungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Ventilkasten, 3 Schaltstellungen mit Anschlüssen\rValve body, 3 positions with ports\rCorps de distributeur, 3 positions avec orifices",
+   "item": {
+    "caption": "Ventilkasten, 3 Schaltstellungen mit Anschlüssen\rValve body, 3 positions with ports\rCorps de distributeur, 3 positions avec orifices",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       25.4,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       13.2,
+       -2.94
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       18.28,
+       -2.94
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       13.2,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       17.78,
+       12.7
+      ],
+      "pos": [
+       18.28,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       36.88,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       36.88,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Ventilkasten, 3 Schaltstellungen mit Anschlüssen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Ventilkasten, stufenlos verstellbar\rValve body, infinite positioning\rCorps de distributeur, positionnement continu",
+   "item": {
+    "caption": "Ventilkasten, stufenlos verstellbar\rValve body, infinite positioning\rCorps de distributeur, positionnement continu",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -1.0
+       ],
+       [
+        20.32,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        11.16
+       ],
+       [
+        20.32,
+        11.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.72,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Ventilkasten, stufenlos verstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: Durchfluss nach oben\rSwitching position: flow upwards\rPosition : passage vers le haut",
+   "item": {
+    "caption": "Schaltstellung: Durchfluss nach oben\rSwitching position: flow upwards\rPosition : passage vers le haut",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        10.16
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: Durchfluss nach oben",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: Durchfluss nach unten\rSwitching position: flow downwards\rPosition : passage vers le bas",
+   "item": {
+    "caption": "Schaltstellung: Durchfluss nach unten\rSwitching position: flow downwards\rPosition : passage vers le bas",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: Durchfluss nach unten",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: zwei Anschlüsse gesperrt\rSwitching position: two ports closed\rPosition : deux orifices fermés",
+   "item": {
+    "caption": "Schaltstellung: zwei Anschlüsse gesperrt\rSwitching position: two ports closed\rPosition : deux orifices fermés",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        10.16
+       ],
+       [
+        5.08,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.08,
+        8.56
+       ],
+       [
+        6.08,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.08,
+        1.6
+       ],
+       [
+        6.08,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: zwei Anschlüsse gesperrt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: vier Anschlüsse gesperrt\rSwitching position: four ports closed\rPosition : quatre orifices fermés",
+   "item": {
+    "caption": "Schaltstellung: vier Anschlüsse gesperrt\rSwitching position: four ports closed\rPosition : quatre orifices fermés",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.54,
+        8.56
+       ],
+       [
+        3.54,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.54,
+        1.6
+       ],
+       [
+        3.54,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        8.56
+       ],
+       [
+        8.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        1.6
+       ],
+       [
+        8.62,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: vier Anschlüsse gesperrt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: zwei parallele Durchflüsse\rSwitching position: two parallel flows\rPosition : deux passages parallèles",
+   "item": {
+    "caption": "Schaltstellung: zwei parallele Durchflüsse\rSwitching position: two parallel flows\rPosition : deux passages parallèles",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: zwei parallele Durchflüsse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: gekreuzte Durchflüsse\rSwitching position: crossed flows\rPosition : passages croisés",
+   "item": {
+    "caption": "Schaltstellung: gekreuzte Durchflüsse\rSwitching position: crossed flows\rPosition : passages croisés",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: gekreuzte Durchflüsse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: Durchfluss schräg, Anschluss gesperrt\rSwitching position: oblique flow, one port closed\rPosition : passage oblique, un orifice fermé",
+   "item": {
+    "caption": "Schaltstellung: Durchfluss schräg, Anschluss gesperrt\rSwitching position: oblique flow, one port closed\rPosition : passage oblique, un orifice fermé",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.54,
+        8.56
+       ],
+       [
+        3.54,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        10.16
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: Durchfluss schräg, Anschluss gesperrt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: Durchfluss schräg (gespiegelt)\rSwitching position: oblique flow (mirrored)\rPosition : passage oblique (inversé)",
+   "item": {
+    "caption": "Schaltstellung: Durchfluss schräg (gespiegelt)\rSwitching position: oblique flow (mirrored)\rPosition : passage oblique (inversé)",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        8.56
+       ],
+       [
+        8.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        10.16
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: Durchfluss schräg (gespiegelt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: alle Anschlüsse verbunden\rSwitching position: all ports connected\rPosition : tous orifices reliés",
+   "item": {
+    "caption": "Schaltstellung: alle Anschlüsse verbunden\rSwitching position: all ports connected\rPosition : tous orifices reliés",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        5.08
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: alle Anschlüsse verbunden",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schaltstellung: Umlauf, zwei gesperrt\rSwitching position: bypass, two ports closed\rPosition : dérivation, deux orifices fermés",
+   "item": {
+    "caption": "Schaltstellung: Umlauf, zwei gesperrt\rSwitching position: bypass, two ports closed\rPosition : dérivation, deux orifices fermés",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        4.064
+       ],
+       [
+        7.62,
+        4.064
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        4.064
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.54,
+        8.56
+       ],
+       [
+        3.54,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        8.56
+       ],
+       [
+        8.62,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.56,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Schaltstellung: Umlauf, zwei gesperrt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Sperre (oben)\rClosed port (top bar)\rOrifice fermé (barre en haut)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Sperre (oben)\rClosed port (top bar)\rOrifice fermé (barre en haut)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.0,
+        -1.6
+       ],
+       [
+        1.0,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Sperre (oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sperre (unten)\rClosed port (bottom bar)\rOrifice fermé (barre en bas)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Sperre (unten)\rClosed port (bottom bar)\rOrifice fermé (barre en bas)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.0,
+        1.6
+       ],
+       [
+        1.0,
+        1.6
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Sperre (unten)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Durchflusspfeil nach oben\rFlow arrow up\rFlèche de passage vers le haut",
+   "item": {
+    "autoNumber": false,
+    "caption": "Durchflusspfeil nach oben\rFlow arrow up\rFlèche de passage vers le haut",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Durchflusspfeil nach oben",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Durchflusspfeil nach unten\rFlow arrow down\rFlèche de passage vers le bas",
+   "item": {
+    "autoNumber": false,
+    "caption": "Durchflusspfeil nach unten\rFlow arrow down\rFlèche de passage vers le bas",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Durchflusspfeil nach unten",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Durchflusspfeil schräg nach rechts unten\rFlow arrow oblique, down right\rFlèche de passage oblique vers le bas à droite",
+   "item": {
+    "autoNumber": false,
+    "caption": "Durchflusspfeil schräg nach rechts unten\rFlow arrow oblique, down right\rFlèche de passage oblique vers le bas à droite",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Durchflusspfeil schräg nach rechts unten",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Durchflusspfeil schräg nach rechts oben\rFlow arrow oblique, up right\rFlèche de passage oblique vers le haut à droite",
+   "item": {
+    "autoNumber": false,
+    "caption": "Durchflusspfeil schräg nach rechts oben\rFlow arrow oblique, up right\rFlèche de passage oblique vers le haut à droite",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        10.16
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Durchflusspfeil schräg nach rechts oben",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Durchflusspfeil schräg nach links oben\rFlow arrow oblique, up left\rFlèche de passage oblique vers le haut à gauche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Durchflusspfeil schräg nach links oben\rFlow arrow oblique, up left\rFlèche de passage oblique vers le haut à gauche",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        10.16
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Durchflusspfeil schräg nach links oben",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Durchflusspfeil schräg nach links unten\rFlow arrow oblique, down left\rFlèche de passage oblique vers le bas à gauche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Durchflusspfeil schräg nach links unten\rFlow arrow oblique, down left\rFlèche de passage oblique vers le bas à gauche",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.4,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        -5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Durchflusspfeil schräg nach links unten",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Feder (waagerecht)\rSpring, horizontal\rRessort horizontal",
+   "item": {
+    "autoNumber": false,
+    "caption": "Feder (waagerecht)\rSpring, horizontal\rRessort horizontal",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0.9,
+        -1.2
+       ],
+       [
+        1.8,
+        1.2
+       ],
+       [
+        2.7,
+        -1.2
+       ],
+       [
+        3.6,
+        1.2
+       ],
+       [
+        4.5,
+        -1.2
+       ],
+       [
+        5.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Feder (waagerecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Feder (waagerecht, fett)\rSpring, horizontal, heavy\rRessort horizontal, gras",
+   "item": {
+    "autoNumber": false,
+    "caption": "Feder (waagerecht, fett)\rSpring, horizontal, heavy\rRessort horizontal, gras",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0.9,
+        -1.2
+       ],
+       [
+        1.8,
+        1.2
+       ],
+       [
+        2.7,
+        -1.2
+       ],
+       [
+        3.6,
+        1.2
+       ],
+       [
+        4.5,
+        -1.2
+       ],
+       [
+        5.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Feder (waagerecht, fett)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Feder (senkrecht)\rSpring, vertical\rRessort vertical",
+   "item": {
+    "autoNumber": false,
+    "caption": "Feder (senkrecht)\rSpring, vertical\rRessort vertical",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.2,
+        0.9
+       ],
+       [
+        -1.2,
+        1.8
+       ],
+       [
+        1.2,
+        2.7
+       ],
+       [
+        -1.2,
+        3.6
+       ],
+       [
+        1.2,
+        4.5
+       ],
+       [
+        0.0,
+        5.4
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Feder (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Feder (senkrecht, fett)\rSpring, vertical, heavy\rRessort vertical, gras",
+   "item": {
+    "autoNumber": false,
+    "caption": "Feder (senkrecht, fett)\rSpring, vertical, heavy\rRessort vertical, gras",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.2,
+        0.9
+       ],
+       [
+        -1.2,
+        1.8
+       ],
+       [
+        1.2,
+        2.7
+       ],
+       [
+        -1.2,
+        3.6
+       ],
+       [
+        1.2,
+        4.5
+       ],
+       [
+        0.0,
+        5.4
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Feder (senkrecht, fett)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Druckquelle (Dreieck)\rPressure source (triangle)\rSource de pression (triangle)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Druckquelle (Dreieck)\rPressure source (triangle)\rSource de pression (triangle)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.2,
+        2.0
+       ],
+       [
+        -1.2,
+        2.0
+       ]
+      ],
+      "type": "polygon"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Wegeventile/Druckquelle (Dreieck)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

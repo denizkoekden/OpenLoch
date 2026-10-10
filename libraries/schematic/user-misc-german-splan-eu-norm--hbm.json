@@ -1,0 +1,573 @@
+{
+ "folder": "USER/Misc. (German)/sPlan - EU-Norm",
+ "format": "OpenLoch Schematic Library",
+ "name": "HBM\rHBM\rHBM",
+ "symbols": [
+  {
+   "caption": "Wägezelle PW6C (5 kg)\rLoad cell PW6C (5 kg)\rCellule de pesée PW6C (5 kg)",
+   "item": {
+    "caption": "Wägezelle PW6C (5 kg)\rLoad cell PW6C (5 kg)\rCellule de pesée PW6C (5 kg)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.5501,
+        -3.5299
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.5299,
+        -1.5501
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.939,
+        -3.9189
+       ],
+       [
+        3.9189,
+        -1.939
+       ],
+       [
+        3.141,
+        -1.1611
+       ],
+       [
+        1.1611,
+        -3.141
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        3.5299,
+        1.5501
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.5501,
+        3.5299
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.9189,
+        1.939
+       ],
+       [
+        1.939,
+        3.9189
+       ],
+       [
+        1.1611,
+        3.141
+       ],
+       [
+        3.141,
+        1.1611
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.5501,
+        3.5299
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.5299,
+        1.5501
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.939,
+        3.9189
+       ],
+       [
+        -3.9189,
+        1.939
+       ],
+       [
+        -3.141,
+        1.1611
+       ],
+       [
+        -1.1611,
+        3.141
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -3.5299,
+        -1.5501
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5501,
+        -3.5299
+       ],
+       [
+        0,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.9189,
+        -1.939
+       ],
+       [
+        -1.939,
+        -3.9189
+       ],
+       [
+        -1.1611,
+        -3.141
+       ],
+       [
+        -3.141,
+        -1.1611
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       12.56,
+       12.56
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       -5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+E",
+      "pin": [
+       0,
+       -10.16
+      ],
+      "pos": [
+       0.6,
+       -12.16
+      ],
+      "text": "+E",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.6,
+       -9.12
+      ],
+      "text": "bl",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-E",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       10.36
+      ],
+      "text": "−E",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.6,
+       7.32
+      ],
+      "text": "sw",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -5.08,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-S",
+      "pin": [
+       -10.16,
+       0
+      ],
+      "pos": [
+       -10.16,
+       -2.3
+      ],
+      "text": "−S",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       -8.22,
+       0.4
+      ],
+      "text": "rt",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+S",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.16,
+       -2.3
+      ],
+      "text": "+S",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       8.22,
+       0.4
+      ],
+      "text": "ws",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.28,
+       -10.16
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.28,
+       -7.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-B?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/HBM/Wägezelle PW6C (5 kg)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "PW6C/5kg"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

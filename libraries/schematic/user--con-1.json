@@ -1,0 +1,688 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "CON 1\rCON 1\rConnecteurs 1",
+ "symbols": [
+  {
+   "caption": "Lötstützpunkt (eckig)\rSolder point (square)\rPoint de soudure (carré)",
+   "item": {
+    "caption": "Lötstützpunkt (eckig)\rSolder point (square)\rPoint de soudure (carré)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       1.4,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       1.4,
+       0.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/USER/CON 1/Lötstützpunkt (eckig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Buchse\rSocket\rPrise",
+   "item": {
+    "caption": "Buchse\rSocket\rPrise",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.14,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       2.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "J?",
+    "libraryEntry": "OpenLoch/USER/CON 1/Buchse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stecker\rPlug\rFiche",
+   "item": {
+    "caption": "Stecker\rPlug\rFiche",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        4.14,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       4.94,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       1.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/USER/CON 1/Stecker",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Nicht bestückt\rNot fitted\rNon monté",
+   "item": {
+    "autoNumber": false,
+    "caption": "Nicht bestückt\rNot fitted\rNon monté",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -5.08,
+        5.08
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/CON 1/Nicht bestückt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Jumper\rJumper\rCavalier",
+   "item": {
+    "caption": "Jumper\rJumper\rCavalier",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        -0.8
+       ],
+       [
+        0,
+        -1.8
+       ],
+       [
+        5.08,
+        -1.8
+       ],
+       [
+        5.08,
+        -0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       4.68,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       1.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Jp?",
+    "libraryEntry": "OpenLoch/USER/CON 1/Jumper",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schraubklemme\rScrew terminal\rBorne à vis",
+   "item": {
+    "caption": "Schraubklemme\rScrew terminal\rBorne à vis",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       4.04,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       4.04,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.2,
+       2.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.2622,
+        0.7778
+       ],
+       [
+        4.8178,
+        -0.7778
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "CN?",
+    "libraryEntry": "OpenLoch/USER/CON 1/Schraubklemme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Messpunkt\rTest point\rPoint de test",
+   "item": {
+    "caption": "Messpunkt\rTest point\rPoint de test",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       3.74,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       3.74,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       1.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "MP?",
+    "libraryEntry": "OpenLoch/USER/CON 1/Messpunkt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

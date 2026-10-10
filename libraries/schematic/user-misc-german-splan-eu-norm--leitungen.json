@@ -1,0 +1,613 @@
+{
+ "folder": "USER/Misc. (German)/sPlan - EU-Norm",
+ "format": "OpenLoch Schematic Library",
+ "name": "Leitungen\rLeitungen\rConducteurs",
+ "symbols": [
+  {
+   "caption": "Schiene 24 V und 0 V\rRails 24 V and 0 V\rBarres 24 V et 0 V",
+   "item": {
+    "askValue": true,
+    "autoNumber": false,
+    "caption": "Schiene 24 V und 0 V\rRails 24 V and 0 V\rBarres 24 V et 0 V",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        50.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       -1.0
+      ],
+      "text": "24V",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        50.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       1.54
+      ],
+      "text": "0V",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Leitungen/Schiene 24 V und 0 V",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "1,5 mm²"
+   }
+  },
+  {
+   "caption": "Schiene L1 L2 L3 N PE\rRails L1 L2 L3 N PE\rBarres L1 L2 L3 N PE",
+   "item": {
+    "askValue": true,
+    "autoNumber": false,
+    "caption": "Schiene L1 L2 L3 N PE\rRails L1 L2 L3 N PE\rBarres L1 L2 L3 N PE",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        50.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       -1.0
+      ],
+      "text": "L1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        50.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       1.54
+      ],
+      "text": "L2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        50.8,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       4.08
+      ],
+      "text": "L3",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        50.8,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       6.62
+      ],
+      "text": "N",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        50.8,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       9.16
+      ],
+      "text": "PE",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Leitungen/Schiene L1 L2 L3 N PE",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2,5 mm²"
+   }
+  },
+  {
+   "caption": "Schiene N PE\rRails N PE\rBarres N PE",
+   "item": {
+    "askValue": true,
+    "autoNumber": false,
+    "caption": "Schiene N PE\rRails N PE\rBarres N PE",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        50.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       -1.0
+      ],
+      "text": "N",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        50.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       1.54
+      ],
+      "text": "PE",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Leitungen/Schiene N PE",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2,5 mm²"
+   }
+  },
+  {
+   "caption": "Schiene L1 L2 L3\rRails L1 L2 L3\rBarres L1 L2 L3",
+   "item": {
+    "askValue": true,
+    "autoNumber": false,
+    "caption": "Schiene L1 L2 L3\rRails L1 L2 L3\rBarres L1 L2 L3",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        50.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       -1.0
+      ],
+      "text": "L1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        50.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       1.54
+      ],
+      "text": "L2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        50.8,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -0.8,
+       4.08
+      ],
+      "text": "L3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       50.8,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Leitungen/Schiene L1 L2 L3",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2,5 mm²"
+   }
+  },
+  {
+   "caption": "Abzweig\rBranch\rDérivation",
+   "item": {
+    "autoNumber": false,
+    "caption": "Abzweig\rBranch\rDérivation",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Leitungen/Abzweig",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

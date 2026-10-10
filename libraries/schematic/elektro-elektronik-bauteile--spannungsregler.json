@@ -1,0 +1,403 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile",
+ "format": "OpenLoch Schematic Library",
+ "name": "Spannungsregler\rVoltage regulators\rRégulateurs de tension",
+ "symbols": [
+  {
+   "caption": "Festspannungsregler\rFixed voltage regulator\rRégulateur fixe",
+   "item": {
+    "caption": "Festspannungsregler\rFixed voltage regulator\rRégulateur fixe",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       1.27
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        5.08
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.04,
+       -1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.2,
+       -1.0
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       7.62,
+       2.48
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "IN",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "IN",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "OUT",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "OUT",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.42
+      ],
+      "text": "GND",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.02
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spannungsregler/Festspannungsregler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "7805"
+   }
+  },
+  {
+   "caption": "Einstellbarer Spannungsregler\rAdjustable voltage regulator\rRégulateur ajustable",
+   "item": {
+    "caption": "Einstellbarer Spannungsregler\rAdjustable voltage regulator\rRégulateur ajustable",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       1.27
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        5.08
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.04,
+       -1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.2,
+       -1.0
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       7.62,
+       2.48
+      ],
+      "text": "ADJ",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "IN",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "IN",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "OUT",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "OUT",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "ADJ",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.42
+      ],
+      "text": "ADJ",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.02
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spannungsregler/Einstellbarer Spannungsregler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LM317"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

@@ -1,0 +1,2712 @@
+{
+ "folder": "USER/Misc. (German)/IEC_EN61346",
+ "format": "OpenLoch Schematic Library",
+ "name": "Motoren, Ventile, Magnete\rMotors, valves, magnets\rMoteurs, vannes, électroaimants",
+ "symbols": [
+  {
+   "caption": "Gleichstrommotor\rDC motor\rMoteur à courant continu",
+   "item": {
+    "caption": "Gleichstrommotor\rDC motor\rMoteur à courant continu",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.32
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       0,
+       2.58
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.1,
+        5.48
+       ],
+       [
+        1.1,
+        5.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.1,
+        6.08
+       ],
+       [
+        -0.6,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.25,
+        6.08
+       ],
+       [
+        0.25,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.6,
+        6.08
+       ],
+       [
+        1.1,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.24,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.24,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Gleichstrommotor",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Gleichstrommotor mit PE\rDC motor with PE\rMoteur à courant continu avec PE",
+   "item": {
+    "caption": "Gleichstrommotor mit PE\rDC motor with PE\rMoteur à courant continu avec PE",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.32
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       0,
+       2.58
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.1,
+        5.48
+       ],
+       [
+        1.1,
+        5.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.1,
+        6.08
+       ],
+       [
+        -0.6,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.25,
+        6.08
+       ],
+       [
+        0.25,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.6,
+        6.08
+       ],
+       [
+        1.1,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.24,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       4.88,
+       2.88
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.24,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.24,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Gleichstrommotor mit PE",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechselstrommotor mit PE\rAC motor with PE\rMoteur monophasé avec PE",
+   "item": {
+    "caption": "Wechselstrommotor mit PE\rAC motor with PE\rMoteur monophasé avec PE",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.32
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       0,
+       2.58
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       0,
+       4.88
+      ],
+      "text": "1~",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.24,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       4.88,
+       2.88
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.24,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.24,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Wechselstrommotor mit PE",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechselstrommotor mit PE (Anschlüsse oben)\rAC motor with PE (terminals at the top)\rMoteur monophasé avec PE (bornes en haut)",
+   "item": {
+    "caption": "Wechselstrommotor mit PE (Anschlüsse oben)\rAC motor with PE (terminals at the top)\rMoteur monophasé avec PE (bornes en haut)",
+    "children": [
+     {
+      "centre": [
+       2.54,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.56,
+       9.56
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       2.54,
+       4.02
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       7.82
+      ],
+      "text": "1~",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.5707
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.3,
+       -2.4
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.84,
+       -2.4
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        3.5707
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.38,
+       -2.4
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.24,
+       4.32
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.24,
+       8.42
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Wechselstrommotor mit PE (Anschlüsse oben)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drehstrommotor mit PE\rThree-phase motor with PE\rMoteur triphasé avec PE",
+   "item": {
+    "caption": "Drehstrommotor mit PE\rThree-phase motor with PE\rMoteur triphasé avec PE",
+    "children": [
+     {
+      "centre": [
+       2.54,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.56,
+       9.56
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       2.54,
+       -3.6
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       0.2
+      ],
+      "text": "3~",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        4.0493
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "U1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.3,
+       8.22
+      ],
+      "text": "U1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        4.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "V1",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.84,
+       8.22
+      ],
+      "text": "V1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        5.08,
+        4.0493
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.38,
+       8.22
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.32,
+        0
+       ],
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       10.16,
+       7.62
+      ],
+      "pos": [
+       10.46,
+       8.22
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.24,
+       -3.3
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.24,
+       0.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Drehstrommotor mit PE",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drehstrommotor mit PE (Anschlüsse oben)\rThree-phase motor with PE (terminals at the top)\rMoteur triphasé avec PE (bornes en haut)",
+   "item": {
+    "caption": "Drehstrommotor mit PE (Anschlüsse oben)\rThree-phase motor with PE (terminals at the top)\rMoteur triphasé avec PE (bornes en haut)",
+    "children": [
+     {
+      "centre": [
+       2.54,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.56,
+       9.56
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       2.54,
+       4.02
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       7.82
+      ],
+      "text": "3~",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.5707
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "U1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.3,
+       -2.4
+      ],
+      "text": "U1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "V1",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.84,
+       -2.4
+      ],
+      "text": "V1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        3.5707
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.38,
+       -2.4
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.32,
+        7.62
+       ],
+       [
+        10.16,
+        7.62
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.46,
+       -2.4
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.24,
+       4.32
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.24,
+       8.42
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Drehstrommotor mit PE (Anschlüsse oben)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drehstrommotor, sechs Anschlüsse, mit PE\rThree-phase motor, six terminals, with PE\rMoteur triphasé, six bornes, avec PE",
+   "item": {
+    "caption": "Drehstrommotor, sechs Anschlüsse, mit PE\rThree-phase motor, six terminals, with PE\rMoteur triphasé, six bornes, avec PE",
+    "children": [
+     {
+      "centre": [
+       2.54,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.56,
+       9.56
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       2.54,
+       4.02
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       7.82
+      ],
+      "text": "3~",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.5707
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "U1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.3,
+       -2.4
+      ],
+      "text": "U1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "V1",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.84,
+       -2.4
+      ],
+      "text": "V1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        3.5707
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W1",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.38,
+       -2.4
+      ],
+      "text": "W1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        0,
+        11.6693
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "U2",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.3,
+       15.84
+      ],
+      "text": "U2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        15.24
+       ],
+       [
+        2.54,
+        12.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "V2",
+      "pin": [
+       2.54,
+       15.24
+      ],
+      "pos": [
+       2.84,
+       15.84
+      ],
+      "text": "V2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        15.24
+       ],
+       [
+        5.08,
+        11.6693
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W2",
+      "pin": [
+       5.08,
+       15.24
+      ],
+      "pos": [
+       5.38,
+       15.84
+      ],
+      "text": "W2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.32,
+        7.62
+       ],
+       [
+        10.16,
+        7.62
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       10.16,
+       15.24
+      ],
+      "pos": [
+       10.46,
+       15.84
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.24,
+       4.32
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.24,
+       8.42
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Drehstrommotor, sechs Anschlüsse, mit PE",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drehstrommotor, polumschaltbar\rThree-phase motor, pole-changing\rMoteur triphasé à changement de polarité",
+   "item": {
+    "caption": "Drehstrommotor, polumschaltbar\rThree-phase motor, pole-changing\rMoteur triphasé à changement de polarité",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       14.64,
+       14.64
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       6.35,
+       6.56
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.35,
+       10.36
+      ],
+      "text": "3~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       6.35,
+       13.76
+      ],
+      "text": "Δ/YY",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        6.5186
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "name": "1U",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.3,
+       -2.4
+      ],
+      "text": "1U",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        3.9097
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "name": "1V",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.84,
+       -2.4
+      ],
+      "text": "1V",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        2.951
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "name": "1W",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.38,
+       -2.4
+      ],
+      "text": "1W",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        2.951
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "name": "2U",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.92,
+       -2.4
+      ],
+      "text": "2U",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        3.9097
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "name": "2V",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.46,
+       -2.4
+      ],
+      "text": "2V",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        6.5186
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "name": "2W",
+      "pin": [
+       12.7,
+       0
+      ],
+      "pos": [
+       13.0,
+       -2.4
+      ],
+      "text": "2W",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.67,
+        10.16
+       ],
+       [
+        17.78,
+        10.16
+       ],
+       [
+        17.78,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "name": "PE",
+      "pin": [
+       17.78,
+       0
+      ],
+      "pos": [
+       18.08,
+       -2.4
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -1.97,
+       6.86
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.97,
+       10.96
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Drehstrommotor, polumschaltbar",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnetventil\rSolenoid valve\rÉlectrovanne",
+   "item": {
+    "caption": "Magnetventil\rSolenoid valve\rÉlectrovanne",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.82,
+        3.88
+       ],
+       [
+        5.82,
+        6.28
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.42,
+        3.88
+       ],
+       [
+        9.42,
+        6.28
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -6.08,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Magnetventil",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnetbremse\rElectromagnetic brake\rFrein électromagnétique",
+   "item": {
+    "caption": "Magnetbremse\rElectromagnetic brake\rFrein électromagnétique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       5.58
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       7.62,
+       3.93
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -6.08,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-Q?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Magnetbremse",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnetkupplung\rElectromagnetic clutch\rEmbrayage électromagnétique",
+   "item": {
+    "caption": "Magnetkupplung\rElectromagnetic clutch\rEmbrayage électromagnétique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.62,
+        5.08
+       ],
+       [
+        7.22,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.02,
+        5.08
+       ],
+       [
+        9.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        7.22,
+        3.68
+       ],
+       [
+        7.22,
+        6.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.02,
+        3.68
+       ],
+       [
+        8.02,
+        6.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -6.08,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-Q?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Magnetkupplung",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Auslösemagnet\rTrip magnet\rÉlectroaimant de déclenchement",
+   "item": {
+    "caption": "Auslösemagnet\rTrip magnet\rÉlectroaimant de déclenchement",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.6,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.42,
+        5.78
+       ],
+       [
+        9.82,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        5.78
+       ],
+       [
+        7.02,
+        4.78
+       ],
+       [
+        8.82,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.72,
+        4.68
+       ],
+       [
+        6.72,
+        3.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -6.08,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-M?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Motoren, Ventile, Magnete/Auslösemagnet",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

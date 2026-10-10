@@ -1,0 +1,5645 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile/Braun Lectron",
+ "format": "OpenLoch Schematic Library",
+ "name": "Lectron Active\rLectron Active\rLectron composants actifs",
+ "symbols": [
+  {
+   "caption": "NPN-Transistor\rNPN transistor\rTransistor NPN",
+   "item": {
+    "caption": "NPN-Transistor\rNPN transistor\rTransistor NPN",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.16,
+        8.16
+       ],
+       [
+        8.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        9.26
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        11.06
+       ],
+       [
+        10.16,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/NPN-Transistor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "PNP-Transistor\rPNP transistor\rTransistor PNP",
+   "item": {
+    "caption": "PNP-Transistor\rPNP transistor\rTransistor PNP",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.16,
+        8.16
+       ],
+       [
+        8.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        7.56
+       ],
+       [
+        8.16,
+        9.26
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        11.06
+       ],
+       [
+        10.16,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/PNP-Transistor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "PNP-Transistor mit Basiswiderstand 100 kΩ\rPNP transistor with 100 kΩ base resistor\rTransistor PNP avec résistance de base 100 kΩ",
+   "item": {
+    "caption": "PNP-Transistor mit Basiswiderstand 100 kΩ\rPNP transistor with 100 kΩ base resistor\rTransistor PNP avec résistance de base 100 kΩ",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.16,
+        8.16
+       ],
+       [
+        8.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        9.26
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.76
+       ],
+       [
+        8.16,
+        11.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        10.16
+       ],
+       [
+        2.0,
+        2.6
+       ],
+       [
+        3.0,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.1,
+       2.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.2,
+        2.6
+       ],
+       [
+        10.16,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       2.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       17.12
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.76,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/PNP-Transistor mit Basiswiderstand 100 kΩ",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100 kΩ"
+   }
+  },
+  {
+   "caption": "PNP-Transistor mit Basiswiderstand 330 kΩ\rPNP transistor with 330 kΩ base resistor\rTransistor PNP avec résistance de base 330 kΩ",
+   "item": {
+    "caption": "PNP-Transistor mit Basiswiderstand 330 kΩ\rPNP transistor with 330 kΩ base resistor\rTransistor PNP avec résistance de base 330 kΩ",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.16,
+        8.16
+       ],
+       [
+        8.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        9.26
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.76
+       ],
+       [
+        8.16,
+        11.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        10.16
+       ],
+       [
+        2.0,
+        2.6
+       ],
+       [
+        3.0,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.1,
+       2.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.2,
+        2.6
+       ],
+       [
+        10.16,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       2.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       17.12
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.76,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/PNP-Transistor mit Basiswiderstand 330 kΩ",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "330 kΩ"
+   }
+  },
+  {
+   "caption": "PNP-Transistor mit Basiswiderstand 330 kΩ, Emitter an Masse\rPNP transistor with 330 kΩ base resistor, emitter to ground\rTransistor PNP avec résistance de base 330 kΩ, émetteur à la masse",
+   "item": {
+    "caption": "PNP-Transistor mit Basiswiderstand 330 kΩ, Emitter an Masse\rPNP transistor with 330 kΩ base resistor, emitter to ground\rTransistor PNP avec résistance de base 330 kΩ, émetteur à la masse",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.16,
+        8.16
+       ],
+       [
+        8.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        9.26
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.76
+       ],
+       [
+        8.16,
+        11.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        10.16
+       ],
+       [
+        2.0,
+        2.6
+       ],
+       [
+        3.0,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.1,
+       2.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.2,
+        2.6
+       ],
+       [
+        10.16,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       2.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.76
+       ],
+       [
+        10.16,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.66,
+        17.78
+       ],
+       [
+        11.66,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND",
+      "pin": [
+       10.16,
+       17.78
+      ],
+      "pos": [
+       10.56,
+       15.58
+      ],
+      "text": "GND",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       17.12
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.76,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/PNP-Transistor mit Basiswiderstand 330 kΩ, Emitter an Masse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "330 kΩ"
+   }
+  },
+  {
+   "caption": "PNP-Transistor mit Basiswiderstand 680 kΩ, Abschirmung an Masse\rPNP transistor with 680 kΩ base resistor, screen to ground\rTransistor PNP avec résistance de base 680 kΩ, blindage à la masse",
+   "item": {
+    "caption": "PNP-Transistor mit Basiswiderstand 680 kΩ, Abschirmung an Masse\rPNP transistor with 680 kΩ base resistor, screen to ground\rTransistor PNP avec résistance de base 680 kΩ, blindage à la masse",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.16,
+        8.16
+       ],
+       [
+        8.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        9.26
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.76
+       ],
+       [
+        8.16,
+        11.06
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        10.16
+       ],
+       [
+        2.0,
+        2.6
+       ],
+       [
+        3.0,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.1,
+       2.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.2,
+        2.6
+       ],
+       [
+        10.16,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       2.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "size": [
+       9.6,
+       9.6
+      ],
+      "start": 200.0,
+      "stop": 276.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        14.64
+       ],
+       [
+        7.62,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.12,
+        17.78
+       ],
+       [
+        9.12,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND",
+      "pin": [
+       7.62,
+       17.78
+      ],
+      "pos": [
+       8.02,
+       15.58
+      ],
+      "text": "GND",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       17.12
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.76,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/PNP-Transistor mit Basiswiderstand 680 kΩ, Abschirmung an Masse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "680 kΩ"
+   }
+  },
+  {
+   "caption": "Feldeffekttransistor\rField-effect transistor\rTransistor à effet de champ",
+   "item": {
+    "caption": "Feldeffekttransistor\rField-effect transistor\rTransistor à effet de champ",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.56,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.36,
+        7.16
+       ],
+       [
+        8.36,
+        13.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.36,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.36
+       ],
+       [
+        8.36,
+        8.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.96
+       ],
+       [
+        8.36,
+        11.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       2.4,
+       7.56
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       1.0
+      ],
+      "text": "D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       17.32
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Feldeffekttransistor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Unijunction-Transistor\rUnijunction transistor\rTransistor unijonction",
+   "item": {
+    "caption": "Unijunction-Transistor\rUnijunction transistor\rTransistor unijonction",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.56,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.56,
+        7.96
+       ],
+       [
+        8.56,
+        12.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        5.36,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.36,
+        10.16
+       ],
+       [
+        8.56,
+        9.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ],
+       [
+        8.56,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ],
+       [
+        8.56,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       2.4,
+       7.56
+      ],
+      "text": "E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       1.0
+      ],
+      "text": "B2",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       17.32
+      ],
+      "text": "B1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Unijunction-Transistor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET N-Kanal\rMOSFET, N-channel\rMOSFET canal N",
+   "item": {
+    "caption": "MOSFET N-Kanal\rMOSFET, N-channel\rMOSFET canal N",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.56,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.56,
+        8.16
+       ],
+       [
+        7.56,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.36,
+        7.96
+       ],
+       [
+        8.36,
+        8.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.36,
+        9.66
+       ],
+       [
+        8.36,
+        10.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.36,
+        11.36
+       ],
+       [
+        8.36,
+        12.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.36,
+        8.46
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.36,
+        11.86
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        8.36,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.56,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       2.4,
+       7.56
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       1.0
+      ],
+      "text": "D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       17.32
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/MOSFET N-Kanal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET P-Kanal\rMOSFET, P-channel\rMOSFET canal P",
+   "item": {
+    "caption": "MOSFET P-Kanal\rMOSFET, P-channel\rMOSFET canal P",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.56,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.6,
+       7.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.56,
+        8.16
+       ],
+       [
+        7.56,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.36,
+        7.96
+       ],
+       [
+        8.36,
+        8.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.36,
+        9.66
+       ],
+       [
+        8.36,
+        10.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.36,
+        11.36
+       ],
+       [
+        8.36,
+        12.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.36,
+        8.46
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.36,
+        11.86
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.36,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.56,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       2.4,
+       7.56
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       1.0
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.56,
+       17.32
+      ],
+      "text": "D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/MOSFET P-Kanal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Germaniumdiode\rGermanium diode\rDiode au germanium",
+   "item": {
+    "caption": "Germaniumdiode\rGermanium diode\rDiode au germanium",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       13.56,
+       5.66
+      ],
+      "text": "Ge",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Germaniumdiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Germaniumdiode (senkrecht)\rGermanium diode, vertical\rDiode au germanium verticale",
+   "item": {
+    "caption": "Germaniumdiode (senkrecht)\rGermanium diode, vertical\rDiode au germanium verticale",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        11.86
+       ],
+       [
+        12.16,
+        11.86
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        8.16,
+        8.46
+       ],
+       [
+        12.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       12.96,
+       5.66
+      ],
+      "text": "Ge",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.96,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Germaniumdiode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Siliziumdiode\rSilicon diode\rDiode au silicium",
+   "item": {
+    "caption": "Siliziumdiode\rSilicon diode\rDiode au silicium",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Siliziumdiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchtdiode (senkrecht)\rLED, vertical\rDEL verticale",
+   "item": {
+    "caption": "Leuchtdiode (senkrecht)\rLED, vertical\rDEL verticale",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        8.46
+       ],
+       [
+        8.16,
+        8.46
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        12.16,
+        11.86
+       ],
+       [
+        8.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.36,
+        8.76
+       ],
+       [
+        4.76,
+        8.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.36,
+        10.16
+       ],
+       [
+        4.76,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       12.56,
+       1.9
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.96,
+       8.91
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Leuchtdiode (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leistungsdiode\rPower diode\rDiode de puissance",
+   "item": {
+    "caption": "Leistungsdiode\rPower diode\rDiode de puissance",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Leistungsdiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schottky-Diode\rSchottky diode\rDiode Schottky",
+   "item": {
+    "caption": "Schottky-Diode\rSchottky diode\rDiode Schottky",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.66,
+        8.76
+       ],
+       [
+        12.66,
+        8.16
+       ],
+       [
+        11.86,
+        8.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.86,
+        12.16
+       ],
+       [
+        11.06,
+        12.16
+       ],
+       [
+        11.06,
+        11.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Schottky-Diode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Doppeldiode\rDual diode\rDouble diode",
+   "item": {
+    "caption": "Doppeldiode\rDual diode\rDouble diode",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.86,
+        4.16
+       ],
+       [
+        8.46,
+        4.16
+       ],
+       [
+        10.16,
+        6.96
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        6.96
+       ],
+       [
+        8.46,
+        6.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.86,
+        13.36
+       ],
+       [
+        8.46,
+        13.36
+       ],
+       [
+        10.16,
+        16.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        16.16
+       ],
+       [
+        8.46,
+        16.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        4.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        6.96
+       ],
+       [
+        10.16,
+        13.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        16.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        20.32,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Doppeldiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor\rThyristor\rThyristor",
+   "item": {
+    "caption": "Thyristor\rThyristor\rThyristor",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        13.56
+       ],
+       [
+        11.86,
+        10.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.16,
+       5.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "TH?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Thyristor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Thyristor (senkrecht)\rThyristor, vertical\rThyristor vertical",
+   "item": {
+    "caption": "Thyristor (senkrecht)\rThyristor, vertical\rThyristor vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        11.86
+       ],
+       [
+        8.16,
+        11.86
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        12.16,
+        8.46
+       ],
+       [
+        8.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        6.76,
+        10.16
+       ],
+       [
+        9.56,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.96,
+       13.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "TH?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Thyristor (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Z-Diode 5,1 V\rZener diode 5.1 V\rDiode Zener 5,1 V",
+   "item": {
+    "caption": "Z-Diode 5,1 V\rZener diode 5.1 V\rDiode Zener 5,1 V",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        8.46
+       ],
+       [
+        8.16,
+        8.46
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        12.16,
+        11.86
+       ],
+       [
+        8.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        11.86
+       ],
+       [
+        12.16,
+        10.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.96,
+       8.91
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Z-Diode 5,1 V",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "C5V1"
+   }
+  },
+  {
+   "caption": "Diode (senkrecht, gefüllt)\rDiode, vertical (filled)\rDiode verticale (pleine)",
+   "item": {
+    "caption": "Diode (senkrecht, gefüllt)\rDiode, vertical (filled)\rDiode verticale (pleine)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        8.46
+       ],
+       [
+        8.16,
+        8.46
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        12.16,
+        11.86
+       ],
+       [
+        8.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       12.76,
+       12.26
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.96,
+       8.91
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Diode (senkrecht, gefüllt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Z-Diode 5,1 V (gefüllt)\rZener diode 5.1 V (filled)\rDiode Zener 5,1 V (pleine)",
+   "item": {
+    "caption": "Z-Diode 5,1 V (gefüllt)\rZener diode 5.1 V (filled)\rDiode Zener 5,1 V (pleine)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        8.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        8.46
+       ],
+       [
+        8.16,
+        8.46
+       ],
+       [
+        10.16,
+        11.86
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        12.16,
+        11.86
+       ],
+       [
+        8.16,
+        11.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        11.86
+       ],
+       [
+        12.16,
+        10.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.96,
+       8.91
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Z-Diode 5,1 V (gefüllt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "C5V1"
+   }
+  },
+  {
+   "caption": "Diode (gefüllt)\rDiode (filled)\rDiode (pleine)",
+   "item": {
+    "caption": "Diode (gefüllt)\rDiode (filled)\rDiode (pleine)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       13.76,
+       5.46
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Diode (gefüllt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchtdiode\rLED\rDEL",
+   "item": {
+    "caption": "Leuchtdiode\rLED\rDEL",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.76,
+        12.96
+       ],
+       [
+        8.76,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.96
+       ],
+       [
+        10.16,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       6.56,
+       5.66
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.56,
+       13.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Active/Leuchtdiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

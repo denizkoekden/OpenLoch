@@ -1,0 +1,7189 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile",
+ "format": "OpenLoch Schematic Library",
+ "name": "Transformatoren\rTransformers\rTransformateurs",
+ "symbols": [
+  {
+   "caption": "Transformator\rTransformer\rTransformateur",
+   "item": {
+    "caption": "Transformator\rTransformer\rTransformateur",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator mit Mittelanzapfung\rCentre-tapped transformer\rTransformateur à point milieu",
+   "item": {
+    "caption": "Transformator mit Mittelanzapfung\rCentre-tapped transformer\rTransformateur à point milieu",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        5.08
+       ],
+       [
+        10.16,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       10.16,
+       5.08
+      ],
+      "pos": [
+       9.76,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator mit Mittelanzapfung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Übertrager (ohne Kern)\rAir-core transformer\rTransformateur à air",
+   "item": {
+    "caption": "Übertrager (ohne Kern)\rAir-core transformer\rTransformateur à air",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Übertrager (ohne Kern)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator mit Ferritkern\rTransformer with ferrite core\rTransformateur à noyau de ferrite",
+   "item": {
+    "caption": "Transformator mit Ferritkern\rTransformer with ferrite core\rTransformateur à noyau de ferrite",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        3.028
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        4.328
+       ],
+       [
+        4.48,
+        5.832
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        7.132
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        3.028
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        4.328
+       ],
+       [
+        5.68,
+        5.832
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        7.132
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator mit Ferritkern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator (Blockdarstellung) ohne Kern\rTransformer (block form), air core\rTransformateur (forme bloc) sans noyau",
+   "item": {
+    "caption": "Transformator (Blockdarstellung) ohne Kern\rTransformer (block form), air core\rTransformateur (forme bloc) sans noyau",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.54,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator (Blockdarstellung) ohne Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator (Blockdarstellung) mit Ferritkern\rTransformer (block form), with ferrite core\rTransformateur (forme bloc) à noyau de ferrite",
+   "item": {
+    "caption": "Transformator (Blockdarstellung) mit Ferritkern\rTransformer (block form), with ferrite core\rTransformateur (forme bloc) à noyau de ferrite",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.54,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        3.028
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        4.328
+       ],
+       [
+        4.48,
+        5.832
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        7.132
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        3.028
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        4.328
+       ],
+       [
+        5.68,
+        5.832
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        7.132
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator (Blockdarstellung) mit Ferritkern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator (Blockdarstellung) mit Kern\rTransformer (block form), with magnetic core\rTransformateur (forme bloc) à noyau magnétique",
+   "item": {
+    "caption": "Transformator (Blockdarstellung) mit Kern\rTransformer (block form), with magnetic core\rTransformateur (forme bloc) à noyau magnétique",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.54,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator (Blockdarstellung) mit Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator mit zwei Sekundärwicklungen (Blockdarstellung) ohne Kern\rTransformer with two secondary windings (block form), air core\rTransformateur à deux enroulements secondaires (forme bloc) sans noyau",
+   "item": {
+    "caption": "Transformator mit zwei Sekundärwicklungen (Blockdarstellung) ohne Kern\rTransformer with two secondary windings (block form), air core\rTransformateur à deux enroulements secondaires (forme bloc) sans noyau",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        16.51
+       ],
+       [
+        2.54,
+        17.78
+       ],
+       [
+        0,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.4,
+       15.58
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        6.35
+       ],
+       [
+        7.62,
+        7.62
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       7.62
+      ],
+      "pos": [
+       9.76,
+       5.42
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        11.43
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        16.51
+       ],
+       [
+        7.62,
+        17.78
+       ],
+       [
+        10.16,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       10.16,
+       17.78
+      ],
+      "pos": [
+       9.76,
+       15.58
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.54,
+       8.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       3.81
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       13.97
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator mit zwei Sekundärwicklungen (Blockdarstellung) ohne Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator mit zwei Sekundärwicklungen (Blockdarstellung) mit Ferritkern\rTransformer with two secondary windings (block form), with ferrite core\rTransformateur à deux enroulements secondaires (forme bloc) à noyau de ferrite",
+   "item": {
+    "caption": "Transformator mit zwei Sekundärwicklungen (Blockdarstellung) mit Ferritkern\rTransformer with two secondary windings (block form), with ferrite core\rTransformateur à deux enroulements secondaires (forme bloc) à noyau de ferrite",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        16.51
+       ],
+       [
+        2.54,
+        17.78
+       ],
+       [
+        0,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.4,
+       15.58
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        6.35
+       ],
+       [
+        7.62,
+        7.62
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       7.62
+      ],
+      "pos": [
+       9.76,
+       5.42
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        11.43
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        16.51
+       ],
+       [
+        7.62,
+        17.78
+       ],
+       [
+        10.16,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       10.16,
+       17.78
+      ],
+      "pos": [
+       9.76,
+       15.58
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.54,
+       8.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       3.81
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       13.97
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        0.254
+       ],
+       [
+        4.48,
+        1.2755
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        2.5755
+       ],
+       [
+        4.48,
+        3.597
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        4.897
+       ],
+       [
+        4.48,
+        5.9185
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        7.2185
+       ],
+       [
+        4.48,
+        8.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        9.54
+       ],
+       [
+        4.48,
+        10.5615
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        11.8615
+       ],
+       [
+        4.48,
+        12.883
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        14.183
+       ],
+       [
+        4.48,
+        15.2045
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        16.5045
+       ],
+       [
+        4.48,
+        17.526
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        0.254
+       ],
+       [
+        5.68,
+        1.2755
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        2.5755
+       ],
+       [
+        5.68,
+        3.597
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        4.897
+       ],
+       [
+        5.68,
+        5.9185
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        7.2185
+       ],
+       [
+        5.68,
+        8.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        9.54
+       ],
+       [
+        5.68,
+        10.5615
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        11.8615
+       ],
+       [
+        5.68,
+        12.883
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        14.183
+       ],
+       [
+        5.68,
+        15.2045
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        16.5045
+       ],
+       [
+        5.68,
+        17.526
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator mit zwei Sekundärwicklungen (Blockdarstellung) mit Ferritkern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator mit zwei Sekundärwicklungen (Blockdarstellung) mit Kern\rTransformer with two secondary windings (block form), with magnetic core\rTransformateur à deux enroulements secondaires (forme bloc) à noyau magnétique",
+   "item": {
+    "caption": "Transformator mit zwei Sekundärwicklungen (Blockdarstellung) mit Kern\rTransformer with two secondary windings (block form), with magnetic core\rTransformateur à deux enroulements secondaires (forme bloc) à noyau magnétique",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        16.51
+       ],
+       [
+        2.54,
+        17.78
+       ],
+       [
+        0,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.4,
+       15.58
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        6.35
+       ],
+       [
+        7.62,
+        7.62
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       7.62
+      ],
+      "pos": [
+       9.76,
+       5.42
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        7.62,
+        11.43
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        16.51
+       ],
+       [
+        7.62,
+        17.78
+       ],
+       [
+        10.16,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       10.16,
+       17.78
+      ],
+      "pos": [
+       9.76,
+       15.58
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       2.54,
+       8.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       3.81
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       7.62,
+       13.97
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        0.254
+       ],
+       [
+        4.48,
+        17.526
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        0.254
+       ],
+       [
+        5.68,
+        17.526
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator mit zwei Sekundärwicklungen (Blockdarstellung) mit Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator (Wendeldarstellung) ohne Kern\rTransformer (helix form), air core\rTransformateur (forme hélicoïdale) sans noyau",
+   "item": {
+    "caption": "Transformator (Wendeldarstellung) ohne Kern\rTransformer (helix form), air core\rTransformateur (forme hélicoïdale) sans noyau",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        2.54
+       ],
+       [
+        2.7756,
+        2.5886
+       ],
+       [
+        3.0098,
+        2.691
+       ],
+       [
+        3.1764,
+        2.8322
+       ],
+       [
+        3.343,
+        2.9733
+       ],
+       [
+        3.44,
+        3.152
+       ],
+       [
+        3.44,
+        3.3314
+       ],
+       [
+        3.44,
+        3.5109
+       ],
+       [
+        3.343,
+        3.6896
+       ],
+       [
+        3.1764,
+        3.8307
+       ],
+       [
+        3.0098,
+        3.9718
+       ],
+       [
+        2.7756,
+        4.0743
+       ],
+       [
+        2.54,
+        4.1229
+       ],
+       [
+        2.3044,
+        4.1714
+       ],
+       [
+        2.0702,
+        4.1661
+       ],
+       [
+        1.9036,
+        4.1221
+       ],
+       [
+        1.737,
+        4.0781
+       ],
+       [
+        1.64,
+        3.9966
+       ],
+       [
+        1.64,
+        3.9143
+       ],
+       [
+        1.64,
+        3.832
+       ],
+       [
+        1.737,
+        3.7504
+       ],
+       [
+        1.9036,
+        3.7064
+       ],
+       [
+        2.0702,
+        3.6625
+       ],
+       [
+        2.3044,
+        3.6571
+       ],
+       [
+        2.54,
+        3.7057
+       ],
+       [
+        2.7756,
+        3.7543
+       ],
+       [
+        3.0098,
+        3.8567
+       ],
+       [
+        3.1764,
+        3.9979
+       ],
+       [
+        3.343,
+        4.139
+       ],
+       [
+        3.44,
+        4.3177
+       ],
+       [
+        3.44,
+        4.4971
+       ],
+       [
+        3.44,
+        4.6766
+       ],
+       [
+        3.343,
+        4.8553
+       ],
+       [
+        3.1764,
+        4.9964
+       ],
+       [
+        3.0098,
+        5.1375
+       ],
+       [
+        2.7756,
+        5.24
+       ],
+       [
+        2.54,
+        5.2886
+       ],
+       [
+        2.3044,
+        5.3371
+       ],
+       [
+        2.0702,
+        5.3318
+       ],
+       [
+        1.9036,
+        5.2878
+       ],
+       [
+        1.737,
+        5.2439
+       ],
+       [
+        1.64,
+        5.1623
+       ],
+       [
+        1.64,
+        5.08
+       ],
+       [
+        1.64,
+        4.9977
+       ],
+       [
+        1.737,
+        4.9161
+       ],
+       [
+        1.9036,
+        4.8722
+       ],
+       [
+        2.0702,
+        4.8282
+       ],
+       [
+        2.3044,
+        4.8229
+       ],
+       [
+        2.54,
+        4.8714
+       ],
+       [
+        2.7756,
+        4.92
+       ],
+       [
+        3.0098,
+        5.0225
+       ],
+       [
+        3.1764,
+        5.1636
+       ],
+       [
+        3.343,
+        5.3047
+       ],
+       [
+        3.44,
+        5.4834
+       ],
+       [
+        3.44,
+        5.6629
+       ],
+       [
+        3.44,
+        5.8423
+       ],
+       [
+        3.343,
+        6.021
+       ],
+       [
+        3.1764,
+        6.1621
+       ],
+       [
+        3.0098,
+        6.3033
+       ],
+       [
+        2.7756,
+        6.4057
+       ],
+       [
+        2.54,
+        6.4543
+       ],
+       [
+        2.3044,
+        6.5029
+       ],
+       [
+        2.0702,
+        6.4975
+       ],
+       [
+        1.9036,
+        6.4536
+       ],
+       [
+        1.737,
+        6.4096
+       ],
+       [
+        1.64,
+        6.328
+       ],
+       [
+        1.64,
+        6.2457
+       ],
+       [
+        1.64,
+        6.1634
+       ],
+       [
+        1.737,
+        6.0819
+       ],
+       [
+        1.9036,
+        6.0379
+       ],
+       [
+        2.0702,
+        5.9939
+       ],
+       [
+        2.3044,
+        5.9886
+       ],
+       [
+        2.54,
+        6.0371
+       ],
+       [
+        2.7756,
+        6.0857
+       ],
+       [
+        3.0098,
+        6.1882
+       ],
+       [
+        3.1764,
+        6.3293
+       ],
+       [
+        3.343,
+        6.4704
+       ],
+       [
+        3.44,
+        6.6491
+       ],
+       [
+        3.44,
+        6.8286
+       ],
+       [
+        3.44,
+        7.008
+       ],
+       [
+        3.343,
+        7.1867
+       ],
+       [
+        3.1764,
+        7.3278
+       ],
+       [
+        3.0098,
+        7.469
+       ],
+       [
+        2.7756,
+        7.5714
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.3844,
+        2.5886
+       ],
+       [
+        7.1502,
+        2.691
+       ],
+       [
+        6.9836,
+        2.8322
+       ],
+       [
+        6.817,
+        2.9733
+       ],
+       [
+        6.72,
+        3.152
+       ],
+       [
+        6.72,
+        3.3314
+       ],
+       [
+        6.72,
+        3.5109
+       ],
+       [
+        6.817,
+        3.6896
+       ],
+       [
+        6.9836,
+        3.8307
+       ],
+       [
+        7.1502,
+        3.9718
+       ],
+       [
+        7.3844,
+        4.0743
+       ],
+       [
+        7.62,
+        4.1229
+       ],
+       [
+        7.8556,
+        4.1714
+       ],
+       [
+        8.0898,
+        4.1661
+       ],
+       [
+        8.2564,
+        4.1221
+       ],
+       [
+        8.423,
+        4.0781
+       ],
+       [
+        8.52,
+        3.9966
+       ],
+       [
+        8.52,
+        3.9143
+       ],
+       [
+        8.52,
+        3.832
+       ],
+       [
+        8.423,
+        3.7504
+       ],
+       [
+        8.2564,
+        3.7064
+       ],
+       [
+        8.0898,
+        3.6625
+       ],
+       [
+        7.8556,
+        3.6571
+       ],
+       [
+        7.62,
+        3.7057
+       ],
+       [
+        7.3844,
+        3.7543
+       ],
+       [
+        7.1502,
+        3.8567
+       ],
+       [
+        6.9836,
+        3.9979
+       ],
+       [
+        6.817,
+        4.139
+       ],
+       [
+        6.72,
+        4.3177
+       ],
+       [
+        6.72,
+        4.4971
+       ],
+       [
+        6.72,
+        4.6766
+       ],
+       [
+        6.817,
+        4.8553
+       ],
+       [
+        6.9836,
+        4.9964
+       ],
+       [
+        7.1502,
+        5.1375
+       ],
+       [
+        7.3844,
+        5.24
+       ],
+       [
+        7.62,
+        5.2886
+       ],
+       [
+        7.8556,
+        5.3371
+       ],
+       [
+        8.0898,
+        5.3318
+       ],
+       [
+        8.2564,
+        5.2878
+       ],
+       [
+        8.423,
+        5.2439
+       ],
+       [
+        8.52,
+        5.1623
+       ],
+       [
+        8.52,
+        5.08
+       ],
+       [
+        8.52,
+        4.9977
+       ],
+       [
+        8.423,
+        4.9161
+       ],
+       [
+        8.2564,
+        4.8722
+       ],
+       [
+        8.0898,
+        4.8282
+       ],
+       [
+        7.8556,
+        4.8229
+       ],
+       [
+        7.62,
+        4.8714
+       ],
+       [
+        7.3844,
+        4.92
+       ],
+       [
+        7.1502,
+        5.0225
+       ],
+       [
+        6.9836,
+        5.1636
+       ],
+       [
+        6.817,
+        5.3047
+       ],
+       [
+        6.72,
+        5.4834
+       ],
+       [
+        6.72,
+        5.6629
+       ],
+       [
+        6.72,
+        5.8423
+       ],
+       [
+        6.817,
+        6.021
+       ],
+       [
+        6.9836,
+        6.1621
+       ],
+       [
+        7.1502,
+        6.3033
+       ],
+       [
+        7.3844,
+        6.4057
+       ],
+       [
+        7.62,
+        6.4543
+       ],
+       [
+        7.8556,
+        6.5029
+       ],
+       [
+        8.0898,
+        6.4975
+       ],
+       [
+        8.2564,
+        6.4536
+       ],
+       [
+        8.423,
+        6.4096
+       ],
+       [
+        8.52,
+        6.328
+       ],
+       [
+        8.52,
+        6.2457
+       ],
+       [
+        8.52,
+        6.1634
+       ],
+       [
+        8.423,
+        6.0819
+       ],
+       [
+        8.2564,
+        6.0379
+       ],
+       [
+        8.0898,
+        5.9939
+       ],
+       [
+        7.8556,
+        5.9886
+       ],
+       [
+        7.62,
+        6.0371
+       ],
+       [
+        7.3844,
+        6.0857
+       ],
+       [
+        7.1502,
+        6.1882
+       ],
+       [
+        6.9836,
+        6.3293
+       ],
+       [
+        6.817,
+        6.4704
+       ],
+       [
+        6.72,
+        6.6491
+       ],
+       [
+        6.72,
+        6.8286
+       ],
+       [
+        6.72,
+        7.008
+       ],
+       [
+        6.817,
+        7.1867
+       ],
+       [
+        6.9836,
+        7.3278
+       ],
+       [
+        7.1502,
+        7.469
+       ],
+       [
+        7.3844,
+        7.5714
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator (Wendeldarstellung) ohne Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator (Wendeldarstellung) mit Ferritkern\rTransformer (helix form), with ferrite core\rTransformateur (forme hélicoïdale) à noyau de ferrite",
+   "item": {
+    "caption": "Transformator (Wendeldarstellung) mit Ferritkern\rTransformer (helix form), with ferrite core\rTransformateur (forme hélicoïdale) à noyau de ferrite",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        2.54
+       ],
+       [
+        2.7756,
+        2.5886
+       ],
+       [
+        3.0098,
+        2.691
+       ],
+       [
+        3.1764,
+        2.8322
+       ],
+       [
+        3.343,
+        2.9733
+       ],
+       [
+        3.44,
+        3.152
+       ],
+       [
+        3.44,
+        3.3314
+       ],
+       [
+        3.44,
+        3.5109
+       ],
+       [
+        3.343,
+        3.6896
+       ],
+       [
+        3.1764,
+        3.8307
+       ],
+       [
+        3.0098,
+        3.9718
+       ],
+       [
+        2.7756,
+        4.0743
+       ],
+       [
+        2.54,
+        4.1229
+       ],
+       [
+        2.3044,
+        4.1714
+       ],
+       [
+        2.0702,
+        4.1661
+       ],
+       [
+        1.9036,
+        4.1221
+       ],
+       [
+        1.737,
+        4.0781
+       ],
+       [
+        1.64,
+        3.9966
+       ],
+       [
+        1.64,
+        3.9143
+       ],
+       [
+        1.64,
+        3.832
+       ],
+       [
+        1.737,
+        3.7504
+       ],
+       [
+        1.9036,
+        3.7064
+       ],
+       [
+        2.0702,
+        3.6625
+       ],
+       [
+        2.3044,
+        3.6571
+       ],
+       [
+        2.54,
+        3.7057
+       ],
+       [
+        2.7756,
+        3.7543
+       ],
+       [
+        3.0098,
+        3.8567
+       ],
+       [
+        3.1764,
+        3.9979
+       ],
+       [
+        3.343,
+        4.139
+       ],
+       [
+        3.44,
+        4.3177
+       ],
+       [
+        3.44,
+        4.4971
+       ],
+       [
+        3.44,
+        4.6766
+       ],
+       [
+        3.343,
+        4.8553
+       ],
+       [
+        3.1764,
+        4.9964
+       ],
+       [
+        3.0098,
+        5.1375
+       ],
+       [
+        2.7756,
+        5.24
+       ],
+       [
+        2.54,
+        5.2886
+       ],
+       [
+        2.3044,
+        5.3371
+       ],
+       [
+        2.0702,
+        5.3318
+       ],
+       [
+        1.9036,
+        5.2878
+       ],
+       [
+        1.737,
+        5.2439
+       ],
+       [
+        1.64,
+        5.1623
+       ],
+       [
+        1.64,
+        5.08
+       ],
+       [
+        1.64,
+        4.9977
+       ],
+       [
+        1.737,
+        4.9161
+       ],
+       [
+        1.9036,
+        4.8722
+       ],
+       [
+        2.0702,
+        4.8282
+       ],
+       [
+        2.3044,
+        4.8229
+       ],
+       [
+        2.54,
+        4.8714
+       ],
+       [
+        2.7756,
+        4.92
+       ],
+       [
+        3.0098,
+        5.0225
+       ],
+       [
+        3.1764,
+        5.1636
+       ],
+       [
+        3.343,
+        5.3047
+       ],
+       [
+        3.44,
+        5.4834
+       ],
+       [
+        3.44,
+        5.6629
+       ],
+       [
+        3.44,
+        5.8423
+       ],
+       [
+        3.343,
+        6.021
+       ],
+       [
+        3.1764,
+        6.1621
+       ],
+       [
+        3.0098,
+        6.3033
+       ],
+       [
+        2.7756,
+        6.4057
+       ],
+       [
+        2.54,
+        6.4543
+       ],
+       [
+        2.3044,
+        6.5029
+       ],
+       [
+        2.0702,
+        6.4975
+       ],
+       [
+        1.9036,
+        6.4536
+       ],
+       [
+        1.737,
+        6.4096
+       ],
+       [
+        1.64,
+        6.328
+       ],
+       [
+        1.64,
+        6.2457
+       ],
+       [
+        1.64,
+        6.1634
+       ],
+       [
+        1.737,
+        6.0819
+       ],
+       [
+        1.9036,
+        6.0379
+       ],
+       [
+        2.0702,
+        5.9939
+       ],
+       [
+        2.3044,
+        5.9886
+       ],
+       [
+        2.54,
+        6.0371
+       ],
+       [
+        2.7756,
+        6.0857
+       ],
+       [
+        3.0098,
+        6.1882
+       ],
+       [
+        3.1764,
+        6.3293
+       ],
+       [
+        3.343,
+        6.4704
+       ],
+       [
+        3.44,
+        6.6491
+       ],
+       [
+        3.44,
+        6.8286
+       ],
+       [
+        3.44,
+        7.008
+       ],
+       [
+        3.343,
+        7.1867
+       ],
+       [
+        3.1764,
+        7.3278
+       ],
+       [
+        3.0098,
+        7.469
+       ],
+       [
+        2.7756,
+        7.5714
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.3844,
+        2.5886
+       ],
+       [
+        7.1502,
+        2.691
+       ],
+       [
+        6.9836,
+        2.8322
+       ],
+       [
+        6.817,
+        2.9733
+       ],
+       [
+        6.72,
+        3.152
+       ],
+       [
+        6.72,
+        3.3314
+       ],
+       [
+        6.72,
+        3.5109
+       ],
+       [
+        6.817,
+        3.6896
+       ],
+       [
+        6.9836,
+        3.8307
+       ],
+       [
+        7.1502,
+        3.9718
+       ],
+       [
+        7.3844,
+        4.0743
+       ],
+       [
+        7.62,
+        4.1229
+       ],
+       [
+        7.8556,
+        4.1714
+       ],
+       [
+        8.0898,
+        4.1661
+       ],
+       [
+        8.2564,
+        4.1221
+       ],
+       [
+        8.423,
+        4.0781
+       ],
+       [
+        8.52,
+        3.9966
+       ],
+       [
+        8.52,
+        3.9143
+       ],
+       [
+        8.52,
+        3.832
+       ],
+       [
+        8.423,
+        3.7504
+       ],
+       [
+        8.2564,
+        3.7064
+       ],
+       [
+        8.0898,
+        3.6625
+       ],
+       [
+        7.8556,
+        3.6571
+       ],
+       [
+        7.62,
+        3.7057
+       ],
+       [
+        7.3844,
+        3.7543
+       ],
+       [
+        7.1502,
+        3.8567
+       ],
+       [
+        6.9836,
+        3.9979
+       ],
+       [
+        6.817,
+        4.139
+       ],
+       [
+        6.72,
+        4.3177
+       ],
+       [
+        6.72,
+        4.4971
+       ],
+       [
+        6.72,
+        4.6766
+       ],
+       [
+        6.817,
+        4.8553
+       ],
+       [
+        6.9836,
+        4.9964
+       ],
+       [
+        7.1502,
+        5.1375
+       ],
+       [
+        7.3844,
+        5.24
+       ],
+       [
+        7.62,
+        5.2886
+       ],
+       [
+        7.8556,
+        5.3371
+       ],
+       [
+        8.0898,
+        5.3318
+       ],
+       [
+        8.2564,
+        5.2878
+       ],
+       [
+        8.423,
+        5.2439
+       ],
+       [
+        8.52,
+        5.1623
+       ],
+       [
+        8.52,
+        5.08
+       ],
+       [
+        8.52,
+        4.9977
+       ],
+       [
+        8.423,
+        4.9161
+       ],
+       [
+        8.2564,
+        4.8722
+       ],
+       [
+        8.0898,
+        4.8282
+       ],
+       [
+        7.8556,
+        4.8229
+       ],
+       [
+        7.62,
+        4.8714
+       ],
+       [
+        7.3844,
+        4.92
+       ],
+       [
+        7.1502,
+        5.0225
+       ],
+       [
+        6.9836,
+        5.1636
+       ],
+       [
+        6.817,
+        5.3047
+       ],
+       [
+        6.72,
+        5.4834
+       ],
+       [
+        6.72,
+        5.6629
+       ],
+       [
+        6.72,
+        5.8423
+       ],
+       [
+        6.817,
+        6.021
+       ],
+       [
+        6.9836,
+        6.1621
+       ],
+       [
+        7.1502,
+        6.3033
+       ],
+       [
+        7.3844,
+        6.4057
+       ],
+       [
+        7.62,
+        6.4543
+       ],
+       [
+        7.8556,
+        6.5029
+       ],
+       [
+        8.0898,
+        6.4975
+       ],
+       [
+        8.2564,
+        6.4536
+       ],
+       [
+        8.423,
+        6.4096
+       ],
+       [
+        8.52,
+        6.328
+       ],
+       [
+        8.52,
+        6.2457
+       ],
+       [
+        8.52,
+        6.1634
+       ],
+       [
+        8.423,
+        6.0819
+       ],
+       [
+        8.2564,
+        6.0379
+       ],
+       [
+        8.0898,
+        5.9939
+       ],
+       [
+        7.8556,
+        5.9886
+       ],
+       [
+        7.62,
+        6.0371
+       ],
+       [
+        7.3844,
+        6.0857
+       ],
+       [
+        7.1502,
+        6.1882
+       ],
+       [
+        6.9836,
+        6.3293
+       ],
+       [
+        6.817,
+        6.4704
+       ],
+       [
+        6.72,
+        6.6491
+       ],
+       [
+        6.72,
+        6.8286
+       ],
+       [
+        6.72,
+        7.008
+       ],
+       [
+        6.817,
+        7.1867
+       ],
+       [
+        6.9836,
+        7.3278
+       ],
+       [
+        7.1502,
+        7.469
+       ],
+       [
+        7.3844,
+        7.5714
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        3.028
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        4.328
+       ],
+       [
+        4.48,
+        5.832
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        7.132
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        3.028
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        4.328
+       ],
+       [
+        5.68,
+        5.832
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        7.132
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator (Wendeldarstellung) mit Ferritkern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator (Wendeldarstellung) mit Kern\rTransformer (helix form), with magnetic core\rTransformateur (forme hélicoïdale) à noyau magnétique",
+   "item": {
+    "caption": "Transformator (Wendeldarstellung) mit Kern\rTransformer (helix form), with magnetic core\rTransformateur (forme hélicoïdale) à noyau magnétique",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        2.54,
+        0.0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        2.54
+       ],
+       [
+        2.7756,
+        2.5886
+       ],
+       [
+        3.0098,
+        2.691
+       ],
+       [
+        3.1764,
+        2.8322
+       ],
+       [
+        3.343,
+        2.9733
+       ],
+       [
+        3.44,
+        3.152
+       ],
+       [
+        3.44,
+        3.3314
+       ],
+       [
+        3.44,
+        3.5109
+       ],
+       [
+        3.343,
+        3.6896
+       ],
+       [
+        3.1764,
+        3.8307
+       ],
+       [
+        3.0098,
+        3.9718
+       ],
+       [
+        2.7756,
+        4.0743
+       ],
+       [
+        2.54,
+        4.1229
+       ],
+       [
+        2.3044,
+        4.1714
+       ],
+       [
+        2.0702,
+        4.1661
+       ],
+       [
+        1.9036,
+        4.1221
+       ],
+       [
+        1.737,
+        4.0781
+       ],
+       [
+        1.64,
+        3.9966
+       ],
+       [
+        1.64,
+        3.9143
+       ],
+       [
+        1.64,
+        3.832
+       ],
+       [
+        1.737,
+        3.7504
+       ],
+       [
+        1.9036,
+        3.7064
+       ],
+       [
+        2.0702,
+        3.6625
+       ],
+       [
+        2.3044,
+        3.6571
+       ],
+       [
+        2.54,
+        3.7057
+       ],
+       [
+        2.7756,
+        3.7543
+       ],
+       [
+        3.0098,
+        3.8567
+       ],
+       [
+        3.1764,
+        3.9979
+       ],
+       [
+        3.343,
+        4.139
+       ],
+       [
+        3.44,
+        4.3177
+       ],
+       [
+        3.44,
+        4.4971
+       ],
+       [
+        3.44,
+        4.6766
+       ],
+       [
+        3.343,
+        4.8553
+       ],
+       [
+        3.1764,
+        4.9964
+       ],
+       [
+        3.0098,
+        5.1375
+       ],
+       [
+        2.7756,
+        5.24
+       ],
+       [
+        2.54,
+        5.2886
+       ],
+       [
+        2.3044,
+        5.3371
+       ],
+       [
+        2.0702,
+        5.3318
+       ],
+       [
+        1.9036,
+        5.2878
+       ],
+       [
+        1.737,
+        5.2439
+       ],
+       [
+        1.64,
+        5.1623
+       ],
+       [
+        1.64,
+        5.08
+       ],
+       [
+        1.64,
+        4.9977
+       ],
+       [
+        1.737,
+        4.9161
+       ],
+       [
+        1.9036,
+        4.8722
+       ],
+       [
+        2.0702,
+        4.8282
+       ],
+       [
+        2.3044,
+        4.8229
+       ],
+       [
+        2.54,
+        4.8714
+       ],
+       [
+        2.7756,
+        4.92
+       ],
+       [
+        3.0098,
+        5.0225
+       ],
+       [
+        3.1764,
+        5.1636
+       ],
+       [
+        3.343,
+        5.3047
+       ],
+       [
+        3.44,
+        5.4834
+       ],
+       [
+        3.44,
+        5.6629
+       ],
+       [
+        3.44,
+        5.8423
+       ],
+       [
+        3.343,
+        6.021
+       ],
+       [
+        3.1764,
+        6.1621
+       ],
+       [
+        3.0098,
+        6.3033
+       ],
+       [
+        2.7756,
+        6.4057
+       ],
+       [
+        2.54,
+        6.4543
+       ],
+       [
+        2.3044,
+        6.5029
+       ],
+       [
+        2.0702,
+        6.4975
+       ],
+       [
+        1.9036,
+        6.4536
+       ],
+       [
+        1.737,
+        6.4096
+       ],
+       [
+        1.64,
+        6.328
+       ],
+       [
+        1.64,
+        6.2457
+       ],
+       [
+        1.64,
+        6.1634
+       ],
+       [
+        1.737,
+        6.0819
+       ],
+       [
+        1.9036,
+        6.0379
+       ],
+       [
+        2.0702,
+        5.9939
+       ],
+       [
+        2.3044,
+        5.9886
+       ],
+       [
+        2.54,
+        6.0371
+       ],
+       [
+        2.7756,
+        6.0857
+       ],
+       [
+        3.0098,
+        6.1882
+       ],
+       [
+        3.1764,
+        6.3293
+       ],
+       [
+        3.343,
+        6.4704
+       ],
+       [
+        3.44,
+        6.6491
+       ],
+       [
+        3.44,
+        6.8286
+       ],
+       [
+        3.44,
+        7.008
+       ],
+       [
+        3.343,
+        7.1867
+       ],
+       [
+        3.1764,
+        7.3278
+       ],
+       [
+        3.0098,
+        7.469
+       ],
+       [
+        2.7756,
+        7.5714
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.3844,
+        2.5886
+       ],
+       [
+        7.1502,
+        2.691
+       ],
+       [
+        6.9836,
+        2.8322
+       ],
+       [
+        6.817,
+        2.9733
+       ],
+       [
+        6.72,
+        3.152
+       ],
+       [
+        6.72,
+        3.3314
+       ],
+       [
+        6.72,
+        3.5109
+       ],
+       [
+        6.817,
+        3.6896
+       ],
+       [
+        6.9836,
+        3.8307
+       ],
+       [
+        7.1502,
+        3.9718
+       ],
+       [
+        7.3844,
+        4.0743
+       ],
+       [
+        7.62,
+        4.1229
+       ],
+       [
+        7.8556,
+        4.1714
+       ],
+       [
+        8.0898,
+        4.1661
+       ],
+       [
+        8.2564,
+        4.1221
+       ],
+       [
+        8.423,
+        4.0781
+       ],
+       [
+        8.52,
+        3.9966
+       ],
+       [
+        8.52,
+        3.9143
+       ],
+       [
+        8.52,
+        3.832
+       ],
+       [
+        8.423,
+        3.7504
+       ],
+       [
+        8.2564,
+        3.7064
+       ],
+       [
+        8.0898,
+        3.6625
+       ],
+       [
+        7.8556,
+        3.6571
+       ],
+       [
+        7.62,
+        3.7057
+       ],
+       [
+        7.3844,
+        3.7543
+       ],
+       [
+        7.1502,
+        3.8567
+       ],
+       [
+        6.9836,
+        3.9979
+       ],
+       [
+        6.817,
+        4.139
+       ],
+       [
+        6.72,
+        4.3177
+       ],
+       [
+        6.72,
+        4.4971
+       ],
+       [
+        6.72,
+        4.6766
+       ],
+       [
+        6.817,
+        4.8553
+       ],
+       [
+        6.9836,
+        4.9964
+       ],
+       [
+        7.1502,
+        5.1375
+       ],
+       [
+        7.3844,
+        5.24
+       ],
+       [
+        7.62,
+        5.2886
+       ],
+       [
+        7.8556,
+        5.3371
+       ],
+       [
+        8.0898,
+        5.3318
+       ],
+       [
+        8.2564,
+        5.2878
+       ],
+       [
+        8.423,
+        5.2439
+       ],
+       [
+        8.52,
+        5.1623
+       ],
+       [
+        8.52,
+        5.08
+       ],
+       [
+        8.52,
+        4.9977
+       ],
+       [
+        8.423,
+        4.9161
+       ],
+       [
+        8.2564,
+        4.8722
+       ],
+       [
+        8.0898,
+        4.8282
+       ],
+       [
+        7.8556,
+        4.8229
+       ],
+       [
+        7.62,
+        4.8714
+       ],
+       [
+        7.3844,
+        4.92
+       ],
+       [
+        7.1502,
+        5.0225
+       ],
+       [
+        6.9836,
+        5.1636
+       ],
+       [
+        6.817,
+        5.3047
+       ],
+       [
+        6.72,
+        5.4834
+       ],
+       [
+        6.72,
+        5.6629
+       ],
+       [
+        6.72,
+        5.8423
+       ],
+       [
+        6.817,
+        6.021
+       ],
+       [
+        6.9836,
+        6.1621
+       ],
+       [
+        7.1502,
+        6.3033
+       ],
+       [
+        7.3844,
+        6.4057
+       ],
+       [
+        7.62,
+        6.4543
+       ],
+       [
+        7.8556,
+        6.5029
+       ],
+       [
+        8.0898,
+        6.4975
+       ],
+       [
+        8.2564,
+        6.4536
+       ],
+       [
+        8.423,
+        6.4096
+       ],
+       [
+        8.52,
+        6.328
+       ],
+       [
+        8.52,
+        6.2457
+       ],
+       [
+        8.52,
+        6.1634
+       ],
+       [
+        8.423,
+        6.0819
+       ],
+       [
+        8.2564,
+        6.0379
+       ],
+       [
+        8.0898,
+        5.9939
+       ],
+       [
+        7.8556,
+        5.9886
+       ],
+       [
+        7.62,
+        6.0371
+       ],
+       [
+        7.3844,
+        6.0857
+       ],
+       [
+        7.1502,
+        6.1882
+       ],
+       [
+        6.9836,
+        6.3293
+       ],
+       [
+        6.817,
+        6.4704
+       ],
+       [
+        6.72,
+        6.6491
+       ],
+       [
+        6.72,
+        6.8286
+       ],
+       [
+        6.72,
+        7.008
+       ],
+       [
+        6.817,
+        7.1867
+       ],
+       [
+        6.9836,
+        7.3278
+       ],
+       [
+        7.1502,
+        7.469
+       ],
+       [
+        7.3844,
+        7.5714
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator (Wendeldarstellung) mit Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Transformator (Kreisdarstellung)\rTransformer (circle form)\rTransformateur (forme à cercles)",
+   "item": {
+    "caption": "Transformator (Kreisdarstellung)\rTransformer (circle form)\rTransformateur (forme à cercles)",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.65
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       8.05
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.85
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       2.15
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       5.15
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Transformator (Kreisdarstellung)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stelltransformator (Kreisdarstellung)\rAdjustable transformer (circle form)\rTransformateur réglable (forme à cercles)",
+   "item": {
+    "caption": "Stelltransformator (Kreisdarstellung)\rAdjustable transformer (circle form)\rTransformateur réglable (forme à cercles)",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.65
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       8.05
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.85
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        9.95
+       ],
+       [
+        3.8,
+        2.55
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       4.95
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       7.95
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Stelltransformator (Kreisdarstellung)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stromwandler mit zwei Sekundärwicklungen auf einem Kern\rCurrent transformer with two secondary windings on one core\rTransformateur de courant à deux enroulements secondaires sur un même noyau",
+   "item": {
+    "caption": "Stromwandler mit zwei Sekundärwicklungen auf einem Kern\rCurrent transformer with two secondary windings on one core\rTransformateur de courant à deux enroulements secondaires sur un même noyau",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.65
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       8.05
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       2.15
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.8,
+       5.15
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Stromwandler mit zwei Sekundärwicklungen auf einem Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Dreiwicklungstransformator (Kreisdarstellung)\rThree-winding transformer (circle form)\rTransformateur à trois enroulements (forme à cercles)",
+   "item": {
+    "caption": "Dreiwicklungstransformator (Kreisdarstellung)\rThree-winding transformer (circle form)\rTransformateur à trois enroulements (forme à cercles)",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       -1.8,
+       7.7177
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       1.8,
+       7.7177
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        10.4181
+       ],
+       [
+        -2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.4181
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       -2.54,
+       12.7
+      ],
+      "pos": [
+       -2.94,
+       10.5
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       2.54,
+       12.7
+      ],
+      "pos": [
+       2.94,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.6,
+       2.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.6,
+       5.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Dreiwicklungstransformator (Kreisdarstellung)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Printtransformator (Draufsicht)\rPCB transformer (top view)\rTransformateur pour circuit imprimé (vue de dessus)",
+   "item": {
+    "caption": "Printtransformator (Draufsicht)\rPCB transformer (top view)\rTransformateur pour circuit imprimé (vue de dessus)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "corner": 10,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       28.0,
+       23.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#a0a0a0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       26.0,
+       10.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       15.0,
+       -11.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       15.0,
+       -8.5
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Transformatoren/Printtransformator (Draufsicht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

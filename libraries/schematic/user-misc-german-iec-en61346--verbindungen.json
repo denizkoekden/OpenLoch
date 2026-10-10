@@ -1,0 +1,403 @@
+{
+ "folder": "USER/Misc. (German)/IEC_EN61346",
+ "format": "OpenLoch Schematic Library",
+ "name": "Verbindungen\rConnections\rConnexions",
+ "symbols": [
+  {
+   "caption": "Hängekabel\rHanging cable\rCâble suspendu",
+   "item": {
+    "autoNumber": false,
+    "caption": "Hängekabel\rHanging cable\rCâble suspendu",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.56,
+       0.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.0,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.0,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-W",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Verbindungen/Hängekabel",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Abbruchstelle\rContinuation mark\rRenvoi",
+   "item": {
+    "autoNumber": false,
+    "caption": "Abbruchstelle\rContinuation mark\rRenvoi",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        1.0
+       ],
+       [
+        4.34,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.94,
+       0.3
+      ],
+      "text": "/<PAGENO>",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.94,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.94,
+       -2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Verbindungen/Abbruchstelle",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "-Abb"
+   }
+  },
+  {
+   "caption": "Abbruchstelle mit Ziel\rContinuation mark with target\rRenvoi avec cible",
+   "item": {
+    "autoNumber": false,
+    "caption": "Abbruchstelle mit Ziel\rContinuation mark with target\rRenvoi avec cible",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.0
+       ],
+       [
+        2.54,
+        1.0
+       ],
+       [
+        4.34,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.94,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.94,
+       0.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "<PARENT_ID>",
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Verbindungen/Abbruchstelle mit Ziel",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "<PARENT_VALUE>"
+   }
+  },
+  {
+   "caption": "Gerätebezeichnung\rDevice designation\rDésignation d'appareil",
+   "item": {
+    "autoNumber": false,
+    "caption": "Gerätebezeichnung\rDevice designation\rDésignation d'appareil",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-A49.0",
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Verbindungen/Gerätebezeichnung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "CUS-99"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

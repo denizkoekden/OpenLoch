@@ -1,0 +1,2047 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile",
+ "format": "OpenLoch Schematic Library",
+ "name": "Widerstände (abhängig)\rResistors (dependent)\rRésistances (dépendantes)",
+ "symbols": [
+  {
+   "caption": "Heißleiter (NTC)\rThermistor (NTC)\rThermistance (CTN)",
+   "item": {
+    "askValue": true,
+    "caption": "Heißleiter (NTC)\rThermistor (NTC)\rThermistance (CTN)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.94,
+        2.4
+       ],
+       [
+        2.94,
+        2.4
+       ],
+       [
+        7.82,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       0.6
+      ],
+      "text": "-ϑ",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Heißleiter (NTC)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kaltleiter (PTC)\rThermistor (PTC)\rThermistance (CTP)",
+   "item": {
+    "askValue": true,
+    "caption": "Kaltleiter (PTC)\rThermistor (PTC)\rThermistance (CTP)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.94,
+        2.4
+       ],
+       [
+        2.94,
+        2.4
+       ],
+       [
+        7.82,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       0.6
+      ],
+      "text": "+ϑ",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Kaltleiter (PTC)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Varistor (VDR)\rVaristor (VDR)\rVaristance",
+   "item": {
+    "askValue": true,
+    "caption": "Varistor (VDR)\rVaristor (VDR)\rVaristance",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.94,
+        2.4
+       ],
+       [
+        2.94,
+        2.4
+       ],
+       [
+        7.82,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       0.6
+      ],
+      "text": "U",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Varistor (VDR)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fotowiderstand (LDR)\rPhotoresistor (LDR)\rPhotorésistance",
+   "item": {
+    "askValue": true,
+    "caption": "Fotowiderstand (LDR)\rPhotoresistor (LDR)\rPhotorésistance",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0771,
+        -2.9971
+       ],
+       [
+        4.38,
+        -1.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.4771,
+        -2.9971
+       ],
+       [
+        5.78,
+        -1.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -7.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Fotowiderstand (LDR)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Magnetfeldabhängiger Widerstand\rMagnetoresistor\rMagnétorésistance",
+   "item": {
+    "askValue": true,
+    "caption": "Magnetfeldabhängiger Widerstand\rMagnetoresistor\rMagnétorésistance",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.94,
+        2.4
+       ],
+       [
+        2.94,
+        2.4
+       ],
+       [
+        7.82,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       0.6
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Magnetfeldabhängiger Widerstand",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Heißleiter (NTC, senkrecht)\rThermistor (NTC), vertical\rThermistance (CTN) verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Heißleiter (NTC, senkrecht)\rThermistor (NTC), vertical\rThermistance (CTN) verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.14,
+        7.48
+       ],
+       [
+        -2.14,
+        7.48
+       ],
+       [
+        2.74,
+        2.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -3.6,
+       3.48
+      ],
+      "text": "-ϑ",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Heißleiter (NTC, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kaltleiter (PTC, senkrecht)\rThermistor (PTC), vertical\rThermistance (CTP) verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Kaltleiter (PTC, senkrecht)\rThermistor (PTC), vertical\rThermistance (CTP) verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.14,
+        7.48
+       ],
+       [
+        -2.14,
+        7.48
+       ],
+       [
+        2.74,
+        2.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -3.6,
+       3.48
+      ],
+      "text": "+ϑ",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Kaltleiter (PTC, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Varistor (senkrecht)\rVaristor (VDR), vertical\rVaristance verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Varistor (senkrecht)\rVaristor (VDR), vertical\rVaristance verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.14,
+        7.48
+       ],
+       [
+        -2.14,
+        7.48
+       ],
+       [
+        2.74,
+        2.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       -3.6,
+       3.48
+      ],
+      "text": "U",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Varistor (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fotowiderstand (LDR, senkrecht)\rPhotoresistor (LDR), vertical\rPhotorésistance verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Fotowiderstand (LDR, senkrecht)\rPhotoresistor (LDR), vertical\rPhotorésistance verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.997,
+        1.883
+       ],
+       [
+        1.3,
+        3.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.997,
+        3.483
+       ],
+       [
+        1.3,
+        5.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Fotowiderstand (LDR, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fotowiderstand (LDR) mit Gehäuse\rPhotoresistor (LDR) with envelope\rPhotorésistance avec enveloppe",
+   "item": {
+    "askValue": true,
+    "caption": "Fotowiderstand (LDR) mit Gehäuse\rPhotoresistor (LDR) with envelope\rPhotorésistance avec enveloppe",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.0084,
+        -4.2284
+       ],
+       [
+        4.18,
+        -1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.4084,
+        -4.2284
+       ],
+       [
+        5.58,
+        -1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.48,
+       -7.2
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       4.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Fotowiderstand (LDR) mit Gehäuse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fotowiderstand (LDR) mit Gehäuse (senkrecht)\rPhotoresistor (LDR) with envelope, vertical\rPhotorésistance avec enveloppe verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Fotowiderstand (LDR) mit Gehäuse (senkrecht)\rPhotoresistor (LDR) with envelope, vertical\rPhotorésistance avec enveloppe verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.2284,
+        0.6516
+       ],
+       [
+        1.4,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.2284,
+        2.0516
+       ],
+       [
+        1.4,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.0,
+       2.2
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.0,
+       6.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Fotowiderstand (LDR) mit Gehäuse (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fotowiderstand (Bauform)\rPhotoresistor (package)\rPhotorésistance (boîtier)",
+   "item": {
+    "askValue": true,
+    "caption": "Fotowiderstand (Bauform)\rPhotoresistor (package)\rPhotorésistance (boîtier)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.68,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.48,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.68,
+        0
+       ],
+       [
+        2.68,
+        -1.8
+       ],
+       [
+        3.48,
+        -1.8
+       ],
+       [
+        3.48,
+        1.8
+       ],
+       [
+        4.28,
+        1.8
+       ],
+       [
+        4.28,
+        -1.8
+       ],
+       [
+        5.08,
+        -1.8
+       ],
+       [
+        5.08,
+        1.8
+       ],
+       [
+        5.88,
+        1.8
+       ],
+       [
+        5.88,
+        -1.8
+       ],
+       [
+        6.68,
+        -1.8
+       ],
+       [
+        6.68,
+        1.8
+       ],
+       [
+        7.48,
+        1.8
+       ],
+       [
+        7.48,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.177,
+        -5.097
+       ],
+       [
+        6.48,
+        -3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.577,
+        -4.097
+       ],
+       [
+        7.88,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.48,
+       -7.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       4.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Widerstände (abhängig)/Fotowiderstand (Bauform)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

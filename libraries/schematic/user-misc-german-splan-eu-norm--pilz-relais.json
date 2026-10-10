@@ -1,0 +1,8423 @@
+{
+ "folder": "USER/Misc. (German)/sPlan - EU-Norm",
+ "format": "OpenLoch Schematic Library",
+ "name": "Pilz Relais\rPilz Relais\rRelais Pilz",
+ "symbols": [
+  {
+   "caption": "Sicherheitsschaltgerät PNOZ XV3\rSafety relay PNOZ XV3\rRelais de sécurité PNOZ XV3",
+   "item": {
+    "caption": "Sicherheitsschaltgerät PNOZ XV3\rSafety relay PNOZ XV3\rRelais de sécurité PNOZ XV3",
+    "children": [
+     {
+      "centre": [
+       36.63,
+       12.7
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       78.34,
+       25.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        -0.7
+       ],
+       [
+        0.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0.0,
+       -2.54
+      ],
+      "pos": [
+       0.0,
+       -4.84
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0.7
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.7
+       ],
+       [
+        5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       5.08,
+       -2.54
+      ],
+      "pos": [
+       5.08,
+       -4.84
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.7
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        -0.7
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S11",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.16,
+       -4.84
+      ],
+      "text": "S11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.7
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        26.1
+       ],
+       [
+        10.16,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S13",
+      "pin": [
+       10.16,
+       27.94
+      ],
+      "pos": [
+       10.16,
+       28.24
+      ],
+      "text": "S13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        24.7
+       ],
+       [
+        10.16,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        -0.7
+       ],
+       [
+        15.24,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S12",
+      "pin": [
+       15.24,
+       -2.54
+      ],
+      "pos": [
+       15.24,
+       -4.84
+      ],
+      "text": "S12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0.7
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        26.1
+       ],
+       [
+        15.24,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S14",
+      "pin": [
+       15.24,
+       27.94
+      ],
+      "pos": [
+       15.24,
+       28.24
+      ],
+      "text": "S14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        24.7
+       ],
+       [
+        15.24,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        -0.7
+       ],
+       [
+        20.32,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S21",
+      "pin": [
+       20.32,
+       -2.54
+      ],
+      "pos": [
+       20.32,
+       -4.84
+      ],
+      "text": "S21",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        0.7
+       ],
+       [
+        20.32,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        26.1
+       ],
+       [
+        20.32,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S33",
+      "pin": [
+       20.32,
+       27.94
+      ],
+      "pos": [
+       20.32,
+       28.24
+      ],
+      "text": "S33",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        24.7
+       ],
+       [
+        20.32,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        -0.7
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S22",
+      "pin": [
+       25.4,
+       -2.54
+      ],
+      "pos": [
+       25.4,
+       -4.84
+      ],
+      "text": "S22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        0.7
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        26.1
+       ],
+       [
+        25.4,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S34",
+      "pin": [
+       25.4,
+       27.94
+      ],
+      "pos": [
+       25.4,
+       28.24
+      ],
+      "text": "S34",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        24.7
+       ],
+       [
+        25.4,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        -0.7
+       ],
+       [
+        30.48,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S31",
+      "pin": [
+       30.48,
+       -2.54
+      ],
+      "pos": [
+       30.48,
+       -4.84
+      ],
+      "text": "S31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.7
+       ],
+       [
+        30.48,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        26.1
+       ],
+       [
+        30.48,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Y39",
+      "pin": [
+       30.48,
+       27.94
+      ],
+      "pos": [
+       30.48,
+       28.24
+      ],
+      "text": "Y39",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        24.7
+       ],
+       [
+        30.48,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        -0.7
+       ],
+       [
+        35.56,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S32",
+      "pin": [
+       35.56,
+       -2.54
+      ],
+      "pos": [
+       35.56,
+       -4.84
+      ],
+      "text": "S32",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        0.7
+       ],
+       [
+        35.56,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        26.1
+       ],
+       [
+        35.56,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Y40",
+      "pin": [
+       35.56,
+       27.94
+      ],
+      "pos": [
+       35.56,
+       28.24
+      ],
+      "text": "Y40",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        24.7
+       ],
+       [
+        35.56,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       8.96,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       2.54,
+       11.7
+      ],
+      "text": "Power",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        12.1
+       ],
+       [
+        8.22,
+        12.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        13.3
+       ],
+       [
+        8.22,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       23.46,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       30.48,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       13.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.56,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       13.0,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "centre": [
+       22.86,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.86,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "centre": [
+       33.02,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       33.02,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "bold": true,
+       "height": 2.2
+      },
+      "pos": [
+       9.62,
+       9.144
+      ],
+      "text": "PNOZ XV3",
+      "type": "text"
+     },
+     {
+      "centre": [
+       10.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       11.52,
+       12.408
+      ],
+      "text": "POWER",
+      "type": "text"
+     },
+     {
+      "centre": [
+       10.32,
+       15.608
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       11.52,
+       14.808
+      ],
+      "text": "START",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       20.52,
+       12.408
+      ],
+      "text": "CH.1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.32,
+       15.608
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       20.52,
+       14.808
+      ],
+      "text": "CH.2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       28.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       29.52,
+       12.408
+      ],
+      "text": "CH.1 [t]",
+      "type": "text"
+     },
+     {
+      "centre": [
+       28.32,
+       15.608
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       29.52,
+       14.808
+      ],
+      "text": "CH.2 [t]",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        -0.7
+       ],
+       [
+        45.72,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       45.72,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       45.72,
+       -2.54
+      ],
+      "pos": [
+       45.72,
+       -4.84
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        26.1
+       ],
+       [
+        45.72,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       45.72,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       45.72,
+       27.94
+      ],
+      "pos": [
+       45.72,
+       28.24
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        0.7
+       ],
+       [
+        45.72,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        12.7
+       ],
+       [
+        43.82,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        12.7
+       ],
+       [
+        45.72,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        22.86
+       ],
+       [
+        43.82,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        22.86
+       ],
+       [
+        45.72,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        -0.7
+       ],
+       [
+        50.8,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       50.8,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "23",
+      "pin": [
+       50.8,
+       -2.54
+      ],
+      "pos": [
+       50.8,
+       -4.84
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        26.1
+       ],
+       [
+        50.8,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       50.8,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "24",
+      "pin": [
+       50.8,
+       27.94
+      ],
+      "pos": [
+       50.8,
+       28.24
+      ],
+      "text": "24",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        0.7
+       ],
+       [
+        50.8,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        12.7
+       ],
+       [
+        48.9,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        12.7
+       ],
+       [
+        50.8,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        22.86
+       ],
+       [
+        48.9,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        22.86
+       ],
+       [
+        50.8,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        -0.7
+       ],
+       [
+        55.88,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       55.88,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "33",
+      "pin": [
+       55.88,
+       -2.54
+      ],
+      "pos": [
+       55.88,
+       -4.84
+      ],
+      "text": "33",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        26.1
+       ],
+       [
+        55.88,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       55.88,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "34",
+      "pin": [
+       55.88,
+       27.94
+      ],
+      "pos": [
+       55.88,
+       28.24
+      ],
+      "text": "34",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        0.7
+       ],
+       [
+        55.88,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        12.7
+       ],
+       [
+        53.98,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        12.7
+       ],
+       [
+        55.88,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        22.86
+       ],
+       [
+        53.98,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        22.86
+       ],
+       [
+        55.88,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        -0.7
+       ],
+       [
+        66.04,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       66.04,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "47",
+      "pin": [
+       66.04,
+       -2.54
+      ],
+      "pos": [
+       66.04,
+       -4.84
+      ],
+      "text": "47",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        26.1
+       ],
+       [
+        66.04,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       66.04,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "48",
+      "pin": [
+       66.04,
+       27.94
+      ],
+      "pos": [
+       66.04,
+       28.24
+      ],
+      "text": "48",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        0.7
+       ],
+       [
+        66.04,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        7.62
+       ],
+       [
+        64.14,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        7.62
+       ],
+       [
+        66.04,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        17.78
+       ],
+       [
+        64.14,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        17.78
+       ],
+       [
+        66.04,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        -0.7
+       ],
+       [
+        71.12,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       71.12,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "57",
+      "pin": [
+       71.12,
+       -2.54
+      ],
+      "pos": [
+       71.12,
+       -4.84
+      ],
+      "text": "57",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        26.1
+       ],
+       [
+        71.12,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       71.12,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "58",
+      "pin": [
+       71.12,
+       27.94
+      ],
+      "pos": [
+       71.12,
+       28.24
+      ],
+      "text": "58",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        0.7
+       ],
+       [
+        71.12,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        7.62
+       ],
+       [
+        69.22,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        7.62
+       ],
+       [
+        71.12,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        17.78
+       ],
+       [
+        69.22,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        17.78
+       ],
+       [
+        71.12,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       4.08
+      ],
+      "text": "K3",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        5.08
+       ],
+       [
+        62.9628,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       61.7628,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": -60,
+      "stop": 60,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        62.9628,
+        5.08
+       ],
+       [
+        64.9628,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       64.9628,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       70.0428,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        4.78
+       ],
+       [
+        70.0428,
+        4.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        5.38
+       ],
+       [
+        70.0428,
+        5.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       9.16
+      ],
+      "text": "K1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        10.16
+       ],
+       [
+        44.6428,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       44.6428,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       49.7228,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       54.8028,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        9.86
+       ],
+       [
+        54.8028,
+        9.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        10.46
+       ],
+       [
+        54.8028,
+        10.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       14.24
+      ],
+      "text": "K4",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        15.24
+       ],
+       [
+        62.9628,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       61.7628,
+       15.24
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": -60,
+      "stop": 60,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        62.9628,
+        15.24
+       ],
+       [
+        64.9628,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       64.9628,
+       15.24
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       70.0428,
+       15.24
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        14.94
+       ],
+       [
+        70.0428,
+        14.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        15.54
+       ],
+       [
+        70.0428,
+        15.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       19.32
+      ],
+      "text": "K2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        20.32
+       ],
+       [
+        44.6428,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       44.6428,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       49.7228,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       54.8028,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        20.02
+       ],
+       [
+        54.8028,
+        20.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        20.62
+       ],
+       [
+        54.8028,
+        20.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       76.8,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       76.8,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-KN?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Pilz Relais/Sicherheitsschaltgerät PNOZ XV3",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "PNOZ XV3"
+   }
+  },
+  {
+   "caption": "Sicherheitsschaltgerät PNOZ X3.2\rSafety relay PNOZ X3.2\rRelais de sécurité PNOZ X3.2",
+   "item": {
+    "caption": "Sicherheitsschaltgerät PNOZ X3.2\rSafety relay PNOZ X3.2\rRelais de sécurité PNOZ X3.2",
+    "children": [
+     {
+      "centre": [
+       45.72,
+       12.7
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       96.52,
+       25.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        -0.7
+       ],
+       [
+        0.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0.0,
+       -2.54
+      ],
+      "pos": [
+       0.0,
+       -4.84
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0.7
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        26.1
+       ],
+       [
+        0.0,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B1",
+      "pin": [
+       0.0,
+       27.94
+      ],
+      "pos": [
+       0.0,
+       28.24
+      ],
+      "text": "B1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        24.7
+       ],
+       [
+        0.0,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.7
+       ],
+       [
+        5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       5.08,
+       -2.54
+      ],
+      "pos": [
+       5.08,
+       -4.84
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.7
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        26.1
+       ],
+       [
+        5.08,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B2",
+      "pin": [
+       5.08,
+       27.94
+      ],
+      "pos": [
+       5.08,
+       28.24
+      ],
+      "text": "B2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        24.7
+       ],
+       [
+        5.08,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        -0.7
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S11",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.16,
+       -4.84
+      ],
+      "text": "S11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.7
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        -0.7
+       ],
+       [
+        15.24,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S12",
+      "pin": [
+       15.24,
+       -2.54
+      ],
+      "pos": [
+       15.24,
+       -4.84
+      ],
+      "text": "S12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0.7
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        -0.7
+       ],
+       [
+        20.32,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S21",
+      "pin": [
+       20.32,
+       -2.54
+      ],
+      "pos": [
+       20.32,
+       -4.84
+      ],
+      "text": "S21",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        0.7
+       ],
+       [
+        20.32,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        26.1
+       ],
+       [
+        20.32,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Y31",
+      "pin": [
+       20.32,
+       27.94
+      ],
+      "pos": [
+       20.32,
+       28.24
+      ],
+      "text": "Y31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        24.7
+       ],
+       [
+        20.32,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        -0.7
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S22",
+      "pin": [
+       25.4,
+       -2.54
+      ],
+      "pos": [
+       25.4,
+       -4.84
+      ],
+      "text": "S22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        0.7
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        26.1
+       ],
+       [
+        25.4,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Y32",
+      "pin": [
+       25.4,
+       27.94
+      ],
+      "pos": [
+       25.4,
+       28.24
+      ],
+      "text": "Y32",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        24.7
+       ],
+       [
+        25.4,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        -0.7
+       ],
+       [
+        30.48,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S31",
+      "pin": [
+       30.48,
+       -2.54
+      ],
+      "pos": [
+       30.48,
+       -4.84
+      ],
+      "text": "S31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.7
+       ],
+       [
+        30.48,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        -0.7
+       ],
+       [
+        35.56,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S32",
+      "pin": [
+       35.56,
+       -2.54
+      ],
+      "pos": [
+       35.56,
+       -4.84
+      ],
+      "text": "S32",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        0.7
+       ],
+       [
+        35.56,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        -0.7
+       ],
+       [
+        40.64,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       40.64,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S13",
+      "pin": [
+       40.64,
+       -2.54
+      ],
+      "pos": [
+       40.64,
+       -4.84
+      ],
+      "text": "S13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        0.7
+       ],
+       [
+        40.64,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        -0.7
+       ],
+       [
+        45.72,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       45.72,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S14",
+      "pin": [
+       45.72,
+       -2.54
+      ],
+      "pos": [
+       45.72,
+       -4.84
+      ],
+      "text": "S14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        0.7
+       ],
+       [
+        45.72,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        -0.7
+       ],
+       [
+        50.8,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       50.8,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S33",
+      "pin": [
+       50.8,
+       -2.54
+      ],
+      "pos": [
+       50.8,
+       -4.84
+      ],
+      "text": "S33",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        0.7
+       ],
+       [
+        50.8,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        -0.7
+       ],
+       [
+        55.88,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       55.88,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S34",
+      "pin": [
+       55.88,
+       -2.54
+      ],
+      "pos": [
+       55.88,
+       -4.84
+      ],
+      "text": "S34",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        0.7
+       ],
+       [
+        55.88,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       8.96,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       2.54,
+       11.7
+      ],
+      "text": "Power",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        12.1
+       ],
+       [
+        8.22,
+        12.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        13.3
+       ],
+       [
+        8.22,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       33.62,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       50.8,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       13.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.56,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       13.0,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "centre": [
+       22.86,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.86,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "centre": [
+       33.02,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       33.02,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "centre": [
+       43.18,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       43.18,
+       4.08
+      ],
+      "text": "Start",
+      "type": "text"
+     },
+     {
+      "centre": [
+       53.34,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       53.34,
+       4.08
+      ],
+      "text": "Start",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "bold": true,
+       "height": 2.2
+      },
+      "pos": [
+       9.62,
+       9.144
+      ],
+      "text": "PNOZ X3.2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       10.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       11.52,
+       12.408
+      ],
+      "text": "POWER",
+      "type": "text"
+     },
+     {
+      "centre": [
+       10.32,
+       15.608
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       11.52,
+       14.808
+      ],
+      "text": "CH.1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       20.52,
+       12.408
+      ],
+      "text": "CH.2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       22.86,
+       19.304
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.08,
+       7.112
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       18.92,
+       20.12
+      ],
+      "text": "24 V",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.6,
+        17.78
+       ],
+       [
+        24.2,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        24.2,
+        16.78
+       ],
+       [
+        24.2,
+        18.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.7,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        24.2,
+        17.28
+       ],
+       [
+        25.4,
+        16.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        24.2,
+        18.28
+       ],
+       [
+        25.4,
+        19.08
+       ],
+       [
+        25.4,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        22.86
+       ],
+       [
+        20.32,
+        21.336
+       ],
+       [
+        22.6,
+        21.336
+       ],
+       [
+        22.6,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        -0.7
+       ],
+       [
+        66.04,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       66.04,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       66.04,
+       -2.54
+      ],
+      "pos": [
+       66.04,
+       -4.84
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        26.1
+       ],
+       [
+        66.04,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       66.04,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       66.04,
+       27.94
+      ],
+      "pos": [
+       66.04,
+       28.24
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        0.7
+       ],
+       [
+        66.04,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        12.7
+       ],
+       [
+        64.14,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        12.7
+       ],
+       [
+        66.04,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        22.86
+       ],
+       [
+        64.14,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        22.86
+       ],
+       [
+        66.04,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        -0.7
+       ],
+       [
+        71.12,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       71.12,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "23",
+      "pin": [
+       71.12,
+       -2.54
+      ],
+      "pos": [
+       71.12,
+       -4.84
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        26.1
+       ],
+       [
+        71.12,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       71.12,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "24",
+      "pin": [
+       71.12,
+       27.94
+      ],
+      "pos": [
+       71.12,
+       28.24
+      ],
+      "text": "24",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        0.7
+       ],
+       [
+        71.12,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        12.7
+       ],
+       [
+        69.22,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        12.7
+       ],
+       [
+        71.12,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        22.86
+       ],
+       [
+        69.22,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        22.86
+       ],
+       [
+        71.12,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        76.2,
+        -0.7
+       ],
+       [
+        76.2,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       76.2,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "33",
+      "pin": [
+       76.2,
+       -2.54
+      ],
+      "pos": [
+       76.2,
+       -4.84
+      ],
+      "text": "33",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        76.2,
+        26.1
+       ],
+       [
+        76.2,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       76.2,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "34",
+      "pin": [
+       76.2,
+       27.94
+      ],
+      "pos": [
+       76.2,
+       28.24
+      ],
+      "text": "34",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        76.2,
+        0.7
+       ],
+       [
+        76.2,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        76.2,
+        12.7
+       ],
+       [
+        74.3,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        76.2,
+        12.7
+       ],
+       [
+        76.2,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        76.2,
+        22.86
+       ],
+       [
+        74.3,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        76.2,
+        22.86
+       ],
+       [
+        76.2,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        86.36,
+        -0.7
+       ],
+       [
+        86.36,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       86.36,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "41",
+      "pin": [
+       86.36,
+       -2.54
+      ],
+      "pos": [
+       86.36,
+       -4.84
+      ],
+      "text": "41",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        86.36,
+        26.1
+       ],
+       [
+        86.36,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       86.36,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "42",
+      "pin": [
+       86.36,
+       27.94
+      ],
+      "pos": [
+       86.36,
+       28.24
+      ],
+      "text": "42",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        86.36,
+        0.7
+       ],
+       [
+        86.36,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        86.36,
+        6.096
+       ],
+       [
+        88.9,
+        6.096
+       ],
+       [
+        88.9,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        88.9,
+        7.62
+       ],
+       [
+        90.5,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        88.9,
+        12.7
+       ],
+       [
+        91.0,
+        7.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        88.9,
+        12.7
+       ],
+       [
+        88.9,
+        24.384
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        86.36,
+        17.78
+       ],
+       [
+        87.96,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        86.36,
+        22.86
+       ],
+       [
+        88.46,
+        17.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        86.36,
+        22.86
+       ],
+       [
+        86.36,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        88.9,
+        24.384
+       ],
+       [
+        86.36,
+        24.384
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       86.36,
+       6.096
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       86.36,
+       24.384
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       63.1,
+       9.16
+      ],
+      "text": "K1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        63.5,
+        10.16
+       ],
+       [
+        64.9628,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       64.9628,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       70.0428,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       75.1228,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       89.8734,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        9.86
+       ],
+       [
+        89.8734,
+        9.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        10.46
+       ],
+       [
+        89.8734,
+        10.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       63.1,
+       19.32
+      ],
+      "text": "K2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        63.5,
+        20.32
+       ],
+       [
+        64.9628,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       64.9628,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       70.0428,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       75.1228,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       87.3334,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        20.02
+       ],
+       [
+        87.3334,
+        20.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        20.62
+       ],
+       [
+        87.3334,
+        20.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       94.98,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       94.98,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-KN?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Pilz Relais/Sicherheitsschaltgerät PNOZ X3.2",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "PNOZ X3.2"
+   }
+  },
+  {
+   "caption": "Sicherheitsschaltgerät PNOZ XV3.1\rSafety relay PNOZ XV3.1\rRelais de sécurité PNOZ XV3.1",
+   "item": {
+    "caption": "Sicherheitsschaltgerät PNOZ XV3.1\rSafety relay PNOZ XV3.1\rRelais de sécurité PNOZ XV3.1",
+    "children": [
+     {
+      "centre": [
+       43.18,
+       12.7
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       91.44,
+       25.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        -0.7
+       ],
+       [
+        0.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0.0,
+       -2.54
+      ],
+      "pos": [
+       0.0,
+       -4.84
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0.7
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.7
+       ],
+       [
+        5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       5.08,
+       -2.54
+      ],
+      "pos": [
+       5.08,
+       -4.84
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.7
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        -0.7
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S11",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.16,
+       -4.84
+      ],
+      "text": "S11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.7
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        26.1
+       ],
+       [
+        10.16,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S13",
+      "pin": [
+       10.16,
+       27.94
+      ],
+      "pos": [
+       10.16,
+       28.24
+      ],
+      "text": "S13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        24.7
+       ],
+       [
+        10.16,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        -0.7
+       ],
+       [
+        15.24,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S12",
+      "pin": [
+       15.24,
+       -2.54
+      ],
+      "pos": [
+       15.24,
+       -4.84
+      ],
+      "text": "S12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0.7
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        26.1
+       ],
+       [
+        15.24,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S14",
+      "pin": [
+       15.24,
+       27.94
+      ],
+      "pos": [
+       15.24,
+       28.24
+      ],
+      "text": "S14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        24.7
+       ],
+       [
+        15.24,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        -0.7
+       ],
+       [
+        20.32,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S21",
+      "pin": [
+       20.32,
+       -2.54
+      ],
+      "pos": [
+       20.32,
+       -4.84
+      ],
+      "text": "S21",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        0.7
+       ],
+       [
+        20.32,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        26.1
+       ],
+       [
+        20.32,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S33",
+      "pin": [
+       20.32,
+       27.94
+      ],
+      "pos": [
+       20.32,
+       28.24
+      ],
+      "text": "S33",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        24.7
+       ],
+       [
+        20.32,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        -0.7
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S22",
+      "pin": [
+       25.4,
+       -2.54
+      ],
+      "pos": [
+       25.4,
+       -4.84
+      ],
+      "text": "S22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        0.7
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        26.1
+       ],
+       [
+        25.4,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S34",
+      "pin": [
+       25.4,
+       27.94
+      ],
+      "pos": [
+       25.4,
+       28.24
+      ],
+      "text": "S34",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        24.7
+       ],
+       [
+        25.4,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        -0.7
+       ],
+       [
+        30.48,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S31",
+      "pin": [
+       30.48,
+       -2.54
+      ],
+      "pos": [
+       30.48,
+       -4.84
+      ],
+      "text": "S31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.7
+       ],
+       [
+        30.48,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        26.1
+       ],
+       [
+        30.48,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Y39",
+      "pin": [
+       30.48,
+       27.94
+      ],
+      "pos": [
+       30.48,
+       28.24
+      ],
+      "text": "Y39",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        24.7
+       ],
+       [
+        30.48,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        -0.7
+       ],
+       [
+        35.56,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S32",
+      "pin": [
+       35.56,
+       -2.54
+      ],
+      "pos": [
+       35.56,
+       -4.84
+      ],
+      "text": "S32",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        0.7
+       ],
+       [
+        35.56,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        26.1
+       ],
+       [
+        35.56,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Y40",
+      "pin": [
+       35.56,
+       27.94
+      ],
+      "pos": [
+       35.56,
+       28.24
+      ],
+      "text": "Y40",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        24.7
+       ],
+       [
+        35.56,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       8.96,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       2.54,
+       11.7
+      ],
+      "text": "Power",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        12.1
+       ],
+       [
+        8.22,
+        12.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        13.3
+       ],
+       [
+        8.22,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       23.46,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       30.48,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       13.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.56,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       13.0,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "centre": [
+       22.86,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.86,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "centre": [
+       33.02,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       33.02,
+       4.08
+      ],
+      "text": "Input",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "bold": true,
+       "height": 2.2
+      },
+      "pos": [
+       9.62,
+       9.144
+      ],
+      "text": "PNOZ XV3.1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       10.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       11.52,
+       12.408
+      ],
+      "text": "POWER",
+      "type": "text"
+     },
+     {
+      "centre": [
+       10.32,
+       15.608
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       11.52,
+       14.808
+      ],
+      "text": "START",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       20.52,
+       12.408
+      ],
+      "text": "CH.1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.32,
+       15.608
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       20.52,
+       14.808
+      ],
+      "text": "CH.2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       28.32,
+       13.208
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       29.52,
+       12.408
+      ],
+      "text": "CH.1 [t]",
+      "type": "text"
+     },
+     {
+      "centre": [
+       28.32,
+       15.608
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       29.52,
+       14.808
+      ],
+      "text": "CH.2 [t]",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        -0.7
+       ],
+       [
+        45.72,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       45.72,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       45.72,
+       -2.54
+      ],
+      "pos": [
+       45.72,
+       -4.84
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        26.1
+       ],
+       [
+        45.72,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       45.72,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       45.72,
+       27.94
+      ],
+      "pos": [
+       45.72,
+       28.24
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        0.7
+       ],
+       [
+        45.72,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        12.7
+       ],
+       [
+        43.82,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        12.7
+       ],
+       [
+        45.72,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        22.86
+       ],
+       [
+        43.82,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        22.86
+       ],
+       [
+        45.72,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        -0.7
+       ],
+       [
+        50.8,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       50.8,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "23",
+      "pin": [
+       50.8,
+       -2.54
+      ],
+      "pos": [
+       50.8,
+       -4.84
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        26.1
+       ],
+       [
+        50.8,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       50.8,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "24",
+      "pin": [
+       50.8,
+       27.94
+      ],
+      "pos": [
+       50.8,
+       28.24
+      ],
+      "text": "24",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        0.7
+       ],
+       [
+        50.8,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        12.7
+       ],
+       [
+        48.9,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        12.7
+       ],
+       [
+        50.8,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        22.86
+       ],
+       [
+        48.9,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        22.86
+       ],
+       [
+        50.8,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        -0.7
+       ],
+       [
+        55.88,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       55.88,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "33",
+      "pin": [
+       55.88,
+       -2.54
+      ],
+      "pos": [
+       55.88,
+       -4.84
+      ],
+      "text": "33",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        26.1
+       ],
+       [
+        55.88,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       55.88,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "34",
+      "pin": [
+       55.88,
+       27.94
+      ],
+      "pos": [
+       55.88,
+       28.24
+      ],
+      "text": "34",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        0.7
+       ],
+       [
+        55.88,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        12.7
+       ],
+       [
+        53.98,
+        8.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        12.7
+       ],
+       [
+        55.88,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        22.86
+       ],
+       [
+        53.98,
+        18.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        22.86
+       ],
+       [
+        55.88,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        -0.7
+       ],
+       [
+        66.04,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       66.04,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "57",
+      "pin": [
+       66.04,
+       -2.54
+      ],
+      "pos": [
+       66.04,
+       -4.84
+      ],
+      "text": "57",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        26.1
+       ],
+       [
+        66.04,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       66.04,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "58",
+      "pin": [
+       66.04,
+       27.94
+      ],
+      "pos": [
+       66.04,
+       28.24
+      ],
+      "text": "58",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        0.7
+       ],
+       [
+        66.04,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        7.62
+       ],
+       [
+        64.14,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        7.62
+       ],
+       [
+        66.04,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        17.78
+       ],
+       [
+        64.14,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        17.78
+       ],
+       [
+        66.04,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        -0.7
+       ],
+       [
+        71.12,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       71.12,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "67",
+      "pin": [
+       71.12,
+       -2.54
+      ],
+      "pos": [
+       71.12,
+       -4.84
+      ],
+      "text": "67",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        26.1
+       ],
+       [
+        71.12,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       71.12,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "68",
+      "pin": [
+       71.12,
+       27.94
+      ],
+      "pos": [
+       71.12,
+       28.24
+      ],
+      "text": "68",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        0.7
+       ],
+       [
+        71.12,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        7.62
+       ],
+       [
+        69.22,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        7.62
+       ],
+       [
+        71.12,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        17.78
+       ],
+       [
+        69.22,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        71.12,
+        17.78
+       ],
+       [
+        71.12,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        81.28,
+        -0.7
+       ],
+       [
+        81.28,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       81.28,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "41",
+      "pin": [
+       81.28,
+       -2.54
+      ],
+      "pos": [
+       81.28,
+       -4.84
+      ],
+      "text": "41",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        81.28,
+        26.1
+       ],
+       [
+        81.28,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       81.28,
+       25.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "42",
+      "pin": [
+       81.28,
+       27.94
+      ],
+      "pos": [
+       81.28,
+       28.24
+      ],
+      "text": "42",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        81.28,
+        0.7
+       ],
+       [
+        81.28,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        81.28,
+        6.096
+       ],
+       [
+        83.82,
+        6.096
+       ],
+       [
+        83.82,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        83.82,
+        7.62
+       ],
+       [
+        85.42,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        83.82,
+        12.7
+       ],
+       [
+        85.92,
+        7.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        83.82,
+        12.7
+       ],
+       [
+        83.82,
+        24.384
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        81.28,
+        17.78
+       ],
+       [
+        82.88,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        81.28,
+        22.86
+       ],
+       [
+        83.38,
+        17.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        81.28,
+        22.86
+       ],
+       [
+        81.28,
+        24.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        83.82,
+        24.384
+       ],
+       [
+        81.28,
+        24.384
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       81.28,
+       6.096
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       81.28,
+       24.384
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       4.08
+      ],
+      "text": "K3",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        5.08
+       ],
+       [
+        62.9628,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       61.7628,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": -60,
+      "stop": 60,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        62.9628,
+        5.08
+       ],
+       [
+        64.9628,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       64.9628,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       70.0428,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        4.78
+       ],
+       [
+        70.0428,
+        4.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        5.38
+       ],
+       [
+        70.0428,
+        5.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       9.16
+      ],
+      "text": "K1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        10.16
+       ],
+       [
+        44.6428,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       44.6428,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       49.7228,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       54.8028,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       84.7934,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        9.86
+       ],
+       [
+        84.7934,
+        9.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        10.46
+       ],
+       [
+        84.7934,
+        10.46
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       14.24
+      ],
+      "text": "K4",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        15.24
+       ],
+       [
+        62.9628,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       61.7628,
+       15.24
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": -60,
+      "stop": 60,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        62.9628,
+        15.24
+       ],
+       [
+        64.9628,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       64.9628,
+       15.24
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       70.0428,
+       15.24
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        14.94
+       ],
+       [
+        70.0428,
+        14.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        64.9628,
+        15.54
+       ],
+       [
+        70.0428,
+        15.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       42.78,
+       19.32
+      ],
+      "text": "K2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        20.32
+       ],
+       [
+        44.6428,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       44.6428,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       49.7228,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       54.8028,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       82.2534,
+       20.32
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        20.02
+       ],
+       [
+        82.2534,
+        20.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        44.6428,
+        20.62
+       ],
+       [
+        82.2534,
+        20.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       89.9,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       89.9,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-KN?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Pilz Relais/Sicherheitsschaltgerät PNOZ XV3.1",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "PNOZ XV3.1"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

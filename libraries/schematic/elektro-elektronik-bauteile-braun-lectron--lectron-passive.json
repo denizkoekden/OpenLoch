@@ -1,0 +1,3307 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile/Braun Lectron",
+ "format": "OpenLoch Schematic Library",
+ "name": "Lectron Passive\rLectron Passive\rLectron composants passifs",
+ "symbols": [
+  {
+   "caption": "Widerstand\rResistor\rRésistance",
+   "item": {
+    "askValue": true,
+    "caption": "Widerstand\rResistor\rRésistance",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.06,
+       12.16
+      ],
+      "text": "Ω",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.76,
+       12.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Widerstand",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Widerstand (senkrecht)\rResistor, vertical\rRésistance verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Widerstand (senkrecht)\rResistor, vertical\rRésistance verticale",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       18.22,
+       8.91
+      ],
+      "text": "Ω",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       17.92,
+       8.91
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Widerstand (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Potentiometer (senkrecht)\rPotentiometer, vertical\rPotentiomètre vertical",
+   "item": {
+    "askValue": true,
+    "caption": "Potentiometer (senkrecht)\rPotentiometer, vertical\rPotentiomètre vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.16,
+        10.16
+       ],
+       [
+        11.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.96,
+       16.72
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Potentiometer (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Potentiometer\rPotentiometer\rPotentiomètre",
+   "item": {
+    "askValue": true,
+    "caption": "Potentiometer\rPotentiometer\rPotentiomètre",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        11.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        13.16
+       ],
+       [
+        10.16,
+        11.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       5.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Potentiometer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Einstellbarer Widerstand\rVariable resistor\rRésistance variable",
+   "item": {
+    "caption": "Einstellbarer Widerstand\rVariable resistor\rRésistance variable",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.76,
+        13.16
+       ],
+       [
+        13.76,
+        6.96
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       16.12
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Einstellbarer Widerstand",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "10 kΩ"
+   }
+  },
+  {
+   "caption": "Fotowiderstand\rPhotoresistor\rPhotorésistance",
+   "item": {
+    "caption": "Fotowiderstand\rPhotoresistor\rPhotorésistance",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.48,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.16,
+        5.96
+       ],
+       [
+        9.16,
+        8.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.56,
+        5.96
+       ],
+       [
+        10.56,
+        8.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Fotowiderstand",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Heißleiter 15 kΩ\rThermistor (NTC) 15 kΩ\rThermistance (CTN) 15 kΩ",
+   "item": {
+    "caption": "Heißleiter 15 kΩ\rThermistor (NTC) 15 kΩ\rThermistance (CTN) 15 kΩ",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.76,
+        13.16
+       ],
+       [
+        13.76,
+        6.96
+       ]
+      ],
+      "startEnd": "arrow",
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       16.12
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Heißleiter 15 kΩ",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "15 kΩ"
+   }
+  },
+  {
+   "caption": "Heißleiter 15 kΩ (senkrecht)\rThermistor (NTC) 15 kΩ, vertical\rThermistance (CTN) 15 kΩ verticale",
+   "item": {
+    "caption": "Heißleiter 15 kΩ (senkrecht)\rThermistor (NTC) 15 kΩ, vertical\rThermistance (CTN) 15 kΩ verticale",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.16,
+        6.76
+       ],
+       [
+        13.36,
+        13.76
+       ]
+      ],
+      "startEnd": "arrow",
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.76,
+       16.92
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Heißleiter 15 kΩ (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "15 kΩ"
+   }
+  },
+  {
+   "caption": "Elektrolytkondensator\rElectrolytic capacitor\rCondensateur électrolytique",
+   "item": {
+    "askValue": true,
+    "caption": "Elektrolytkondensator\rElectrolytic capacitor\rCondensateur électrolytique",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        9.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        10.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       9.36,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.96,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       7.56,
+       5.06
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Elektrolytkondensator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Elektrolytkondensator (senkrecht)\rElectrolytic capacitor, vertical\rCondensateur électrolytique vertical",
+   "item": {
+    "askValue": true,
+    "caption": "Elektrolytkondensator (senkrecht)\rElectrolytic capacitor, vertical\rCondensateur électrolytique vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        9.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        10.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       9.36
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.8,
+       0.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       10.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.8,
+       0.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       13.76,
+       6.06
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.56,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Elektrolytkondensator (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kondensator\rCapacitor\rCondensateur",
+   "item": {
+    "askValue": true,
+    "caption": "Kondensator\rCapacitor\rCondensateur",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        9.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        10.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        9.66,
+        7.76
+       ],
+       [
+        9.66,
+        12.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.66,
+        7.76
+       ],
+       [
+        10.66,
+        12.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Kondensator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kondensator (senkrecht)\rCapacitor, vertical\rCondensateur vertical",
+   "item": {
+    "askValue": true,
+    "caption": "Kondensator (senkrecht)\rCapacitor, vertical\rCondensateur vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        9.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        10.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        12.56,
+        9.66
+       ],
+       [
+        7.76,
+        9.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        12.56,
+        10.66
+       ],
+       [
+        7.76,
+        10.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.56,
+       8.91
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Kondensator (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kondensator 0,47 µF (senkrecht)\rCapacitor 0.47 µF, vertical\rCondensateur 0,47 µF vertical",
+   "item": {
+    "caption": "Kondensator 0,47 µF (senkrecht)\rCapacitor 0.47 µF, vertical\rCondensateur 0,47 µF vertical",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        9.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        10.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        12.56,
+        9.66
+       ],
+       [
+        7.76,
+        9.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        12.56,
+        10.66
+       ],
+       [
+        7.76,
+        10.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.8,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.96,
+        3.56
+       ],
+       [
+        12.76,
+        5.36
+       ],
+       [
+        13.96,
+        5.16
+       ],
+       [
+        13.16,
+        6.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       19.92,
+       13.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Kondensator 0,47 µF (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "0,47 µF"
+   }
+  },
+  {
+   "caption": "Kondensator 0,47 µF\rCapacitor 0.47 µF\rCondensateur 0,47 µF",
+   "item": {
+    "caption": "Kondensator 0,47 µF\rCapacitor 0.47 µF\rCondensateur 0,47 µF",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        9.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        10.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        9.66,
+        7.76
+       ],
+       [
+        9.66,
+        12.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.66,
+        7.76
+       ],
+       [
+        10.66,
+        12.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.8,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.36,
+        4.16
+       ],
+       [
+        13.16,
+        5.96
+       ],
+       [
+        14.36,
+        5.76
+       ],
+       [
+        13.56,
+        7.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/Kondensator 0,47 µF",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "0,47 µF"
+   }
+  },
+  {
+   "caption": "HF-Spule\rRF choke\rBobine HF",
+   "item": {
+    "askValue": true,
+    "caption": "HF-Spule\rRF choke\rBobine HF",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.62,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       8.255,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0.0,
+      "stop": 180.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.525,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0.0,
+      "stop": 180.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.795,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0.0,
+      "stop": 180.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       12.065,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0.0,
+      "stop": 180.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        7.92,
+        11.26
+       ],
+       [
+        9.0133,
+        11.26
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        9.6133,
+        11.26
+       ],
+       [
+        10.7067,
+        11.26
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        11.3067,
+        11.26
+       ],
+       [
+        12.4,
+        11.26
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       13.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/HF-Spule",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "HF-Spule (senkrecht)\rRF choke, vertical\rBobine HF verticale",
+   "item": {
+    "askValue": true,
+    "caption": "HF-Spule (senkrecht)\rRF choke, vertical\rBobine HF verticale",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       8.255
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       9.525
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       10.795
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       12.065
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270.0,
+      "stop": 450.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        9.06,
+        7.92
+       ],
+       [
+        9.06,
+        9.0133
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        9.06,
+        9.6133
+       ],
+       [
+        9.06,
+        10.7067
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        9.06,
+        11.3067
+       ],
+       [
+        9.06,
+        12.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.96,
+       8.91
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/HF-Spule (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "RC-Siebglied\rRC filter\rFiltre RC",
+   "item": {
+    "caption": "RC-Siebglied\rRC filter\rFiltre RC",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        12.66,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       14.77
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       0.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       13.17
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       0.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        10.16
+       ],
+       [
+        5.08,
+        12.87
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        15.07
+       ],
+       [
+        5.08,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.58,
+        17.78
+       ],
+       [
+        6.58,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND1",
+      "pin": [
+       5.08,
+       17.78
+      ],
+      "pos": [
+       5.48,
+       15.58
+      ],
+      "text": "GND1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       6.48,
+       14.77
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "centre": [
+       15.24,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       15.24,
+       14.77
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       0.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       15.24,
+       13.17
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       0.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        10.16
+       ],
+       [
+        15.24,
+        12.87
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        15.07
+       ],
+       [
+        15.24,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        13.74,
+        17.78
+       ],
+       [
+        16.74,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND2",
+      "pin": [
+       15.24,
+       17.78
+      ],
+      "pos": [
+       15.64,
+       15.58
+      ],
+      "text": "GND2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       16.64,
+       14.77
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.5
+      },
+      "pos": [
+       10.16,
+       0.65
+      ],
+      "text": "2 × 100 µF",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       17.12
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       5.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RC?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Passive/RC-Siebglied",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "220 Ω"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

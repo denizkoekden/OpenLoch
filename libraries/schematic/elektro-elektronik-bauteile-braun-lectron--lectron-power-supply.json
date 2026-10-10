@@ -1,0 +1,1012 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile/Braun Lectron",
+ "format": "OpenLoch Schematic Library",
+ "name": "Lectron Power supply\rLectron Power supply\rLectron alimentation",
+ "symbols": [
+  {
+   "caption": "Batterie 9 V\rBattery 9 V\rPile 9 V",
+   "item": {
+    "autoNumber": false,
+    "caption": "Batterie 9 V\rBattery 9 V\rPile 9 V",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       30.48
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       60.96
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.36,
+        22.86
+       ],
+       [
+        12.96,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.8
+      },
+      "points": [
+       [
+        8.76,
+        23.86
+       ],
+       [
+        11.56,
+        23.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.36,
+        35.56
+       ],
+       [
+        12.96,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.8
+      },
+      "points": [
+       [
+        8.76,
+        36.56
+       ],
+       [
+        11.56,
+        36.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        23.86
+       ],
+       [
+        10.16,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        60.96
+       ],
+       [
+        10.16,
+        36.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       60.96
+      ],
+      "pos": [
+       10.56,
+       58.76
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       13.36,
+       18.82
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       13.36,
+       40.156
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.76,
+       29.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Power supply/Batterie 9 V",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "9 V"
+   }
+  },
+  {
+   "caption": "Netzteil\rPower supply unit\rBloc d'alimentation",
+   "item": {
+    "autoNumber": false,
+    "caption": "Netzteil\rPower supply unit\rBloc d'alimentation",
+    "children": [
+     {
+      "centre": [
+       30.48,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       60.96,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        26.88,
+        10.16
+       ],
+       [
+        30.48,
+        6.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        27.5486,
+        8.2186
+       ],
+       [
+        28.8214,
+        9.4914
+       ],
+       [
+        29.175,
+        7.865
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        28.5386,
+        7.2286
+       ],
+       [
+        29.8114,
+        8.5014
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        34.08,
+        10.16
+       ],
+       [
+        30.48,
+        6.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        32.1386,
+        9.4914
+       ],
+       [
+        33.4114,
+        8.2186
+       ],
+       [
+        31.785,
+        7.865
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        31.1486,
+        8.5014
+       ],
+       [
+        32.4214,
+        7.2286
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        13.76
+       ],
+       [
+        26.88,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        28.5386,
+        13.0914
+       ],
+       [
+        29.8114,
+        11.8186
+       ],
+       [
+        28.185,
+        11.465
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        27.5486,
+        12.1014
+       ],
+       [
+        28.8214,
+        10.8286
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        13.76
+       ],
+       [
+        34.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        31.1486,
+        11.8186
+       ],
+       [
+        32.4214,
+        13.0914
+       ],
+       [
+        32.775,
+        11.465
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        32.1386,
+        10.8286
+       ],
+       [
+        33.4114,
+        12.1014
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        26.88,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        60.96,
+        10.16
+       ],
+       [
+        34.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       60.96,
+       10.16
+      ],
+      "pos": [
+       60.56,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        1.2
+       ],
+       [
+        30.48,
+        1.2
+       ],
+       [
+        30.48,
+        6.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N1",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        20.32
+       ],
+       [
+        50.8,
+        19.12
+       ],
+       [
+        30.48,
+        19.12
+       ],
+       [
+        30.48,
+        13.76
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S3",
+      "pin": [
+       50.8,
+       20.32
+      ],
+      "pos": [
+       51.2,
+       18.12
+      ],
+      "text": "S3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       43.18,
+       6.096
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        41.18,
+        8.096
+       ],
+       [
+        45.38,
+        3.896
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       0.4,
+       7.56
+      ],
+      "text": "12 V~",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       60.56,
+       7.56
+      ],
+      "text": "12 V~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       11.16,
+       1.2
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       51.8,
+       17.12
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       50.8,
+       13.732
+      ],
+      "text": "1,25…12 V",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Power supply/Netzteil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Batterie 9 V (ältere Ausführung)\rBattery 9 V (older version)\rPile 9 V (ancienne version)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Batterie 9 V (ältere Ausführung)\rBattery 9 V (older version)\rPile 9 V (ancienne version)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       30.48
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       60.96
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.36,
+        23.86
+       ],
+       [
+        12.96,
+        23.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.8
+      },
+      "points": [
+       [
+        8.76,
+        22.86
+       ],
+       [
+        11.56,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.36,
+        36.56
+       ],
+       [
+        12.96,
+        36.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.8
+      },
+      "points": [
+       [
+        8.76,
+        35.56
+       ],
+       [
+        11.56,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        23.86
+       ],
+       [
+        10.16,
+        35.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        36.56
+       ],
+       [
+        10.16,
+        55.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.66,
+        55.88
+       ],
+       [
+        11.66,
+        55.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND",
+      "pin": [
+       10.16,
+       55.88
+      ],
+      "pos": [
+       10.56,
+       53.68
+      ],
+      "text": "GND",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       13.36,
+       18.82
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       13.36,
+       40.156
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.76,
+       29.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Power supply/Batterie 9 V (ältere Ausführung)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "9 V"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

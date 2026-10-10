@@ -1,0 +1,2253 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "IND\rIND\rIND",
+ "symbols": [
+  {
+   "caption": "Spule (v)\rInductor, vertical\rBobine, verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule (v)\rInductor, vertical\rBobine, verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Spule (h)\rInductor, horizontal\rBobine, horizontale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule (h)\rInductor, horizontal\rBobine, horizontale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Spule mit Kern (v)\rInductor with core, vertical\rBobine avec noyau, verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Kern (v)\rInductor with core, vertical\rBobine avec noyau, verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.9,
+        2.54
+       ],
+       [
+        1.9,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.2,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.2,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule mit Kern (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Spule mit Kern (h)\rInductor with core, horizontal\rBobine avec noyau, horizontale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Kern (h)\rInductor with core, horizontal\rBobine avec noyau, horizontale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -1.9
+       ],
+       [
+        7.62,
+        -1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule mit Kern (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Spule mit Ferritkern (v)\rInductor with ferrite core, vertical\rBobine à noyau de ferrite, verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Ferritkern (v)\rInductor with ferrite core, vertical\rBobine à noyau de ferrite, verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.9,
+        2.54
+       ],
+       [
+        1.9,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.9,
+        4.445
+       ],
+       [
+        1.9,
+        5.715
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.9,
+        6.35
+       ],
+       [
+        1.9,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.2,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.2,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule mit Ferritkern (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Spule mit Ferritkern (h)\rInductor with ferrite core, horizontal\rBobine à noyau de ferrite, horizontale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Ferritkern (h)\rInductor with ferrite core, horizontal\rBobine à noyau de ferrite, horizontale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -1.9
+       ],
+       [
+        3.81,
+        -1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.445,
+        -1.9
+       ],
+       [
+        5.715,
+        -1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.35,
+        -1.9
+       ],
+       [
+        7.62,
+        -1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule mit Ferritkern (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Drossel (v)\rChoke, vertical\rSelf, verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel (v)\rChoke, vertical\rSelf, verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Drossel (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Drossel (h)\rChoke, horizontal\rSelf, horizontale",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel (h)\rChoke, horizontal\rSelf, horizontale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Drossel (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Drossel, lang (v)\rChoke, long, vertical\rSelf, longue, verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel, lang (v)\rChoke, long, vertical\rSelf, longue, verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       2.8,
+       13.84
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        0,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       7.62
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       4.68
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       8.02
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Drossel, lang (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Drossel, lang (h)\rChoke, long, horizontal\rSelf, longue, horizontale",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel, lang (h)\rChoke, long, horizontal\rSelf, longue, horizontale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Drossel, lang (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Spule, lang (v)\rInductor, long, vertical\rBobine, longue, verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule, lang (v)\rInductor, long, vertical\rBobine, longue, verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       2.8,
+       13.84
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        0,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       8.255
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       9.525
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       10.795
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       12.065
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       4.68
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       8.02
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule, lang (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  },
+  {
+   "caption": "Spule, lang (h)\rInductor, long, horizontal\rBobine, longue, horizontale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule, lang (h)\rInductor, long, horizontal\rBobine, longue, horizontale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       8.255,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       9.525,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.795,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       12.065,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/USER/IND/Spule, lang (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100µH"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

@@ -1,0 +1,3950 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile/Alt",
+ "format": "OpenLoch Schematic Library",
+ "name": "Alte Radios\rOld radios\rAnciennes radios",
+ "symbols": [
+  {
+   "caption": "Elektrolytkondensator, axial (senkrecht)\rElectrolytic capacitor, axial (vertical)\rCondensateur électrolytique axial (vertical)",
+   "item": {
+    "askValue": true,
+    "caption": "Elektrolytkondensator, axial (senkrecht)\rElectrolytic capacitor, axial (vertical)\rCondensateur électrolytique axial (vertical)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       15.54
+      ],
+      "corner": 15,
+      "corners": "round",
+      "fill": {
+       "color": "#3561b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       6.4,
+       21.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       4.4
+      ],
+      "fill": {
+       "color": "#505050",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.6,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#1d3c78",
+       "width": 0.3
+      },
+      "points": [
+       [
+        3.2,
+        6.2
+       ],
+       [
+        -3.2,
+        6.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        1.8,
+        7.0
+       ],
+       [
+        1.8,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        2.4,
+        7.6
+       ],
+       [
+        1.2,
+        7.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        -1.8,
+        7.0
+       ],
+       [
+        -1.8,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        -1.2,
+        7.6
+       ],
+       [
+        -2.4,
+        7.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       13.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#ffffff",
+       "height": 2.5
+      },
+      "pos": [
+       -1.25,
+       16.84
+      ],
+      "role": "value",
+      "rotation": 90,
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Elektrolytkondensator, axial (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "22 µF / 63 V"
+   }
+  },
+  {
+   "caption": "Elektrolytkondensator, axial mit Becher (senkrecht)\rElectrolytic capacitor, axial with metal can (vertical)\rCondensateur électrolytique axial à godet métallique (vertical)",
+   "item": {
+    "askValue": true,
+    "caption": "Elektrolytkondensator, axial mit Becher (senkrecht)\rElectrolytic capacitor, axial with metal can (vertical)\rCondensateur électrolytique axial à godet métallique (vertical)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       15.54
+      ],
+      "corner": 15,
+      "corners": "round",
+      "fill": {
+       "color": "#3561b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       6.4,
+       21.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       4.4
+      ],
+      "fill": {
+       "color": "#505050",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.6,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       6.4
+      ],
+      "fill": {
+       "color": "#c8c8c8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       6.4,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.2,
+        5.6
+       ],
+       [
+        -3.2,
+        5.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.2,
+        6.4
+       ],
+       [
+        -3.2,
+        6.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        1.8,
+        8.4
+       ],
+       [
+        1.8,
+        9.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        2.4,
+        9.0
+       ],
+       [
+        1.2,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        -1.8,
+        8.4
+       ],
+       [
+        -1.8,
+        9.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        -1.2,
+        9.0
+       ],
+       [
+        -2.4,
+        9.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.2,
+       13.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#ffffff",
+       "height": 2.5
+      },
+      "pos": [
+       -1.25,
+       17.64
+      ],
+      "role": "value",
+      "rotation": 90,
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Elektrolytkondensator, axial mit Becher (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "22 µF / 63 V"
+   }
+  },
+  {
+   "caption": "Elektrolytkondensator, axial\rElectrolytic capacitor, axial\rCondensateur électrolytique axial",
+   "item": {
+    "askValue": true,
+    "caption": "Elektrolytkondensator, axial\rElectrolytic capacitor, axial\rCondensateur électrolytique axial",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        30.48,
+        0
+       ],
+       [
+        0.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.94,
+       0.0
+      ],
+      "corner": 15,
+      "corners": "round",
+      "fill": {
+       "color": "#3561b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       21.88,
+       6.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       26.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#505050",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       0.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#1d3c78",
+       "width": 0.3
+      },
+      "points": [
+       [
+        24.28,
+        -3.2
+       ],
+       [
+        24.28,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        23.48,
+        -1.8
+       ],
+       [
+        22.28,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        22.88,
+        -2.4
+       ],
+       [
+        22.88,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        23.48,
+        1.8
+       ],
+       [
+        22.28,
+        1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        22.88,
+        1.2
+       ],
+       [
+        22.88,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       30.48,
+       0
+      ],
+      "pos": [
+       30.88,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       15.24,
+       -6.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#ffffff",
+       "height": 2.5
+      },
+      "pos": [
+       13.64,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Elektrolytkondensator, axial",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "22 µF / 63 V"
+   }
+  },
+  {
+   "caption": "Elektrolytkondensator, axial (Pluspol links)\rElectrolytic capacitor, axial (positive end left)\rCondensateur électrolytique axial (pôle positif à gauche)",
+   "item": {
+    "askValue": true,
+    "caption": "Elektrolytkondensator, axial (Pluspol links)\rElectrolytic capacitor, axial (positive end left)\rCondensateur électrolytique axial (pôle positif à gauche)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        30.48,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.54,
+       0.0
+      ],
+      "corner": 15,
+      "corners": "round",
+      "fill": {
+       "color": "#3561b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       21.88,
+       6.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       4.4,
+       0.0
+      ],
+      "fill": {
+       "color": "#505050",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       0.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#1d3c78",
+       "width": 0.3
+      },
+      "points": [
+       [
+        6.2,
+        -3.2
+       ],
+       [
+        6.2,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        7.0,
+        -1.8
+       ],
+       [
+        8.2,
+        -1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        7.6,
+        -2.4
+       ],
+       [
+        7.6,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        7.0,
+        1.8
+       ],
+       [
+        8.2,
+        1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.3
+      },
+      "points": [
+       [
+        7.6,
+        1.2
+       ],
+       [
+        7.6,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       30.48,
+       0
+      ],
+      "pos": [
+       30.88,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       15.24,
+       -6.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#ffffff",
+       "height": 2.5
+      },
+      "pos": [
+       16.84,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Elektrolytkondensator, axial (Pluspol links)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "22 µF / 63 V"
+   }
+  },
+  {
+   "caption": "Papierkondensator\rPaper capacitor\rCondensateur au papier",
+   "item": {
+    "askValue": true,
+    "caption": "Papierkondensator\rPaper capacitor\rCondensateur au papier",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        30.48,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       4.4,
+       0
+      ],
+      "fill": {
+       "color": "#d4b04a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       2.6,
+       6.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       26.08,
+       0
+      ],
+      "fill": {
+       "color": "#d4b04a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       2.6,
+       6.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       15.24,
+       0.0
+      ],
+      "fill": {
+       "color": "#ecd77e",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       21.68,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       30.48,
+       0
+      ],
+      "pos": [
+       30.88,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       15.24,
+       -6.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       15.24,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Papierkondensator",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "0,047 µF / 630 V"
+   }
+  },
+  {
+   "caption": "Papierkondensator (senkrecht)\rPaper capacitor (vertical)\rCondensateur au papier (vertical)",
+   "item": {
+    "askValue": true,
+    "caption": "Papierkondensator (senkrecht)\rPaper capacitor (vertical)\rCondensateur au papier (vertical)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       4.4
+      ],
+      "fill": {
+       "color": "#d4b04a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       6.0,
+       2.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       26.08
+      ],
+      "fill": {
+       "color": "#d4b04a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       6.0,
+       2.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0.0,
+       15.24
+      ],
+      "fill": {
+       "color": "#ecd77e",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       6.0,
+       21.68
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.0,
+       13.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.25,
+       15.24
+      ],
+      "role": "value",
+      "rotation": 90,
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "C?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Papierkondensator (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "0,047 µF / 630 V"
+   }
+  },
+  {
+   "caption": "Schichtwiderstand (braun)\rCarbon film resistor (brown)\rRésistance à couche (marron)",
+   "item": {
+    "askValue": true,
+    "caption": "Schichtwiderstand (braun)\rCarbon film resistor (brown)\rRésistance à couche (marron)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        20.32,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0.0
+      ],
+      "corner": 30,
+      "corners": "round",
+      "fill": {
+       "color": "#874a28",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       13.52,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       4.2,
+       0.0
+      ],
+      "corner": 30,
+      "corners": "round",
+      "fill": {
+       "color": "#74401f",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       16.12,
+       0.0
+      ],
+      "corner": 30,
+      "corners": "round",
+      "fill": {
+       "color": "#74401f",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       0.0
+      ],
+      "fill": {
+       "color": "#874a28",
+       "style": "solid"
+      },
+      "pen": {
+       "color": "#874a28",
+       "width": 0.18
+      },
+      "size": [
+       11.52,
+       4.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       20.32,
+       0
+      ],
+      "pos": [
+       20.72,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -5.7
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#f4ead2",
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Schichtwiderstand (braun)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "47 kΩ"
+   }
+  },
+  {
+   "caption": "Schichtwiderstand (braun, senkrecht)\rCarbon film resistor (brown, vertical)\rRésistance à couche (marron, verticale)",
+   "item": {
+    "askValue": true,
+    "caption": "Schichtwiderstand (braun, senkrecht)\rCarbon film resistor (brown, vertical)\rRésistance à couche (marron, verticale)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       10.16
+      ],
+      "corner": 30,
+      "corners": "round",
+      "fill": {
+       "color": "#874a28",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.6,
+       13.52
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       4.2
+      ],
+      "corner": 30,
+      "corners": "round",
+      "fill": {
+       "color": "#74401f",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.6,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       16.12
+      ],
+      "corner": 30,
+      "corners": "round",
+      "fill": {
+       "color": "#74401f",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.6,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#874a28",
+       "style": "solid"
+      },
+      "pen": {
+       "color": "#874a28",
+       "width": 0.18
+      },
+      "size": [
+       4.0,
+       11.52
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.4,
+       18.12
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.3,
+       8.86
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#f4ead2",
+       "height": 2.5
+      },
+      "pos": [
+       -1.25,
+       10.16
+      ],
+      "role": "value",
+      "rotation": 90,
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Schichtwiderstand (braun, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "47 kΩ"
+   }
+  },
+  {
+   "caption": "Massewiderstand (rot)\rComposition resistor (red)\rRésistance agglomérée (rouge)",
+   "item": {
+    "askValue": true,
+    "caption": "Massewiderstand (rot)\rComposition resistor (red)\rRésistance agglomérée (rouge)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        20.32,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0.0
+      ],
+      "fill": {
+       "color": "#c4342a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       11.92,
+       4.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       4.0,
+       0.0
+      ],
+      "corner": 20,
+      "corners": "round",
+      "fill": {
+       "color": "#b8b8b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       16.32,
+       0.0
+      ],
+      "corner": 20,
+      "corners": "round",
+      "fill": {
+       "color": "#b8b8b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       20.32,
+       0
+      ],
+      "pos": [
+       20.72,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -5.8
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#ffffff",
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Massewiderstand (rot)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2,2 kΩ"
+   }
+  },
+  {
+   "caption": "Massewiderstand (rot, senkrecht)\rComposition resistor (red, vertical)\rRésistance agglomérée (rouge, verticale)",
+   "item": {
+    "askValue": true,
+    "caption": "Massewiderstand (rot, senkrecht)\rComposition resistor (red, vertical)\rRésistance agglomérée (rouge, verticale)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#c4342a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.0,
+       11.92
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       4.0
+      ],
+      "corner": 20,
+      "corners": "round",
+      "fill": {
+       "color": "#b8b8b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.8,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       16.32
+      ],
+      "corner": 20,
+      "corners": "round",
+      "fill": {
+       "color": "#b8b8b8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       4.8,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.4,
+       18.12
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       8.86
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "color": "#ffffff",
+       "height": 2.5
+      },
+      "pos": [
+       -1.25,
+       10.16
+      ],
+      "role": "value",
+      "rotation": 90,
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Massewiderstand (rot, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2,2 kΩ"
+   }
+  },
+  {
+   "caption": "Widerstand (beige)\rResistor (beige)\rRésistance (beige)",
+   "item": {
+    "askValue": true,
+    "caption": "Widerstand (beige)\rResistor (beige)\rRésistance (beige)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        20.32,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.0,
+       0
+      ],
+      "fill": {
+       "color": "#dcc898",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       3.8,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       15.32,
+       0
+      ],
+      "fill": {
+       "color": "#dcc898",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       3.8,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       10.16,
+       0.0
+      ],
+      "fill": {
+       "color": "#e2d0a2",
+       "style": "solid"
+      },
+      "pen": {
+       "color": "#e2d0a2",
+       "width": 0.18
+      },
+      "size": [
+       10.32,
+       3.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.0,
+        -1.9
+       ],
+       [
+        15.32,
+        -1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.0,
+        1.9
+       ],
+       [
+        15.32,
+        1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       20.32,
+       0
+      ],
+      "pos": [
+       20.72,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -5.9
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Widerstand (beige)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100 kΩ"
+   }
+  },
+  {
+   "caption": "Widerstand (beige, senkrecht)\rResistor (beige, vertical)\rRésistance (beige, verticale)",
+   "item": {
+    "askValue": true,
+    "caption": "Widerstand (beige, senkrecht)\rResistor (beige, vertical)\rRésistance (beige, verticale)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#a0a0a0",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       5.0
+      ],
+      "fill": {
+       "color": "#dcc898",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       5.0,
+       3.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       15.32
+      ],
+      "fill": {
+       "color": "#dcc898",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       5.0,
+       3.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0.0,
+       10.16
+      ],
+      "fill": {
+       "color": "#e2d0a2",
+       "style": "solid"
+      },
+      "pen": {
+       "color": "#e2d0a2",
+       "width": 0.18
+      },
+      "size": [
+       3.8,
+       10.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.9,
+        5.0
+       ],
+       [
+        1.9,
+        15.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        -1.9,
+        5.0
+       ],
+       [
+        -1.9,
+        15.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.4,
+       18.12
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.5,
+       8.86
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.25,
+       10.16
+      ],
+      "role": "value",
+      "rotation": 90,
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "R?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Widerstand (beige, senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100 kΩ"
+   }
+  },
+  {
+   "caption": "Potentiometer (Lötösen oben)\rPotentiometer (solder lugs at the top)\rPotentiomètre (cosses en haut)",
+   "item": {
+    "askValue": true,
+    "caption": "Potentiometer (Lötösen oben)\rPotentiometer (solder lugs at the top)\rPotentiomètre (cosses en haut)",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       14.0
+      ],
+      "fill": {
+       "color": "#c0c0c0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       21.0,
+       21.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       14.0
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       17.4,
+       17.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       -3.407,
+       9.1
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       13.567,
+       9.1
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       23.8
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       14.0
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       3.8
+      ],
+      "fill": {
+       "color": "#7a4a20",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       13.36,
+       2.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       2.3
+      ],
+      "fill": {
+       "color": "#dcdcdc",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       1.2
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       5.08,
+       2.3
+      ],
+      "fill": {
+       "color": "#dcdcdc",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       1.2
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.48,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       2.3
+      ],
+      "fill": {
+       "color": "#dcdcdc",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       1.2
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.56,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.68,
+       5.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       16.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Potentiometer (Lötösen oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "1 MΩ log"
+   }
+  },
+  {
+   "caption": "Potentiometer (Lötösen unten)\rPotentiometer (solder lugs at the bottom)\rPotentiomètre (cosses en bas)",
+   "item": {
+    "askValue": true,
+    "caption": "Potentiometer (Lötösen unten)\rPotentiometer (solder lugs at the bottom)\rPotentiomètre (cosses en bas)",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       -14.0
+      ],
+      "fill": {
+       "color": "#c0c0c0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       21.0,
+       21.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       -14.0
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       17.4,
+       17.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       13.567,
+       -9.1
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       -3.407,
+       -9.1
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       -23.8
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       -14.0
+      ],
+      "fill": {
+       "color": "#a8a8a8",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       -3.8
+      ],
+      "fill": {
+       "color": "#7a4a20",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       13.36,
+       2.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       -2.3
+      ],
+      "fill": {
+       "color": "#dcdcdc",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       -1.2
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.56,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       5.08,
+       -2.3
+      ],
+      "fill": {
+       "color": "#dcdcdc",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       -1.2
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.48,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       0.0,
+       -2.3
+      ],
+      "fill": {
+       "color": "#dcdcdc",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       1.8,
+       4.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -1.2
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.68,
+       -23.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -11.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Potentiometer (Lötösen unten)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "1 MΩ log"
+   }
+  },
+  {
+   "caption": "Magisches Auge\rMagic eye\rŒil magique",
+   "item": {
+    "caption": "Magisches Auge\rMagic eye\rŒil magique",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#dfe6e2",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       17.0,
+       17.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#46d96e",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       14.6,
+       14.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "points": [
+       [
+        -2.8523,
+        -6.7197
+       ],
+       [
+        -2.1648,
+        -6.9716
+       ],
+       [
+        -1.4554,
+        -7.1535
+       ],
+       [
+        -0.7314,
+        -7.2633
+       ],
+       [
+        0.0,
+        -7.3
+       ],
+       [
+        0.7314,
+        -7.2633
+       ],
+       [
+        1.4554,
+        -7.1535
+       ],
+       [
+        2.1648,
+        -6.9716
+       ],
+       [
+        2.8523,
+        -6.7197
+       ],
+       [
+        1.0159,
+        -2.3933
+       ],
+       [
+        0.771,
+        -2.4831
+       ],
+       [
+        0.5184,
+        -2.5478
+       ],
+       [
+        0.2605,
+        -2.5869
+       ],
+       [
+        0.0,
+        -2.6
+       ],
+       [
+        -0.2605,
+        -2.5869
+       ],
+       [
+        -0.5184,
+        -2.5478
+       ],
+       [
+        -0.771,
+        -2.4831
+       ],
+       [
+        -1.0159,
+        -2.3933
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "points": [
+       [
+        4.9786,
+        5.3389
+       ],
+       [
+        3.8954,
+        6.1738
+       ],
+       [
+        2.6755,
+        6.792
+       ],
+       [
+        1.3616,
+        7.1719
+       ],
+       [
+        0.0,
+        7.3
+       ],
+       [
+        -1.3616,
+        7.1719
+       ],
+       [
+        -2.6755,
+        6.792
+       ],
+       [
+        -3.8954,
+        6.1738
+       ],
+       [
+        -4.9786,
+        5.3389
+       ],
+       [
+        -1.7732,
+        1.9015
+       ],
+       [
+        -1.3874,
+        2.1989
+       ],
+       [
+        -0.9529,
+        2.4191
+       ],
+       [
+        -0.485,
+        2.5544
+       ],
+       [
+        0.0,
+        2.6
+       ],
+       [
+        0.485,
+        2.5544
+       ],
+       [
+        0.9529,
+        2.4191
+       ],
+       [
+        1.3874,
+        2.1989
+       ],
+       [
+        1.7732,
+        1.9015
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       -4.9,
+       0.0
+      ],
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "size": [
+       4.6,
+       0.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       4.9,
+       0.0
+      ],
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "size": [
+       4.6,
+       0.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#101010",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.2
+      },
+      "size": [
+       5.4,
+       5.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.6,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.6,
+       -3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "La?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Magisches Auge",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "EM34"
+   }
+  },
+  {
+   "caption": "Magischer Fächer\rMagic fan\rÉventail magique",
+   "item": {
+    "autoNumber": false,
+    "caption": "Magischer Fächer\rMagic fan\rÉventail magique",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#dfe6e2",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       18.0,
+       18.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#46d96e",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.15
+      },
+      "size": [
+       15.0,
+       15.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "points": [
+       [
+        -1.9411,
+        -7.2444
+       ],
+       [
+        -1.4632,
+        -7.3559
+       ],
+       [
+        -0.9789,
+        -7.4358
+       ],
+       [
+        -0.4905,
+        -7.4839
+       ],
+       [
+        0.0,
+        -7.5
+       ],
+       [
+        0.4905,
+        -7.4839
+       ],
+       [
+        0.9789,
+        -7.4358
+       ],
+       [
+        1.4632,
+        -7.3559
+       ],
+       [
+        1.9411,
+        -7.2444
+       ],
+       [
+        0.6212,
+        -2.3182
+       ],
+       [
+        0.4682,
+        -2.3539
+       ],
+       [
+        0.3133,
+        -2.3795
+       ],
+       [
+        0.157,
+        -2.3949
+       ],
+       [
+        0.0,
+        -2.4
+       ],
+       [
+        -0.157,
+        -2.3949
+       ],
+       [
+        -0.3133,
+        -2.3795
+       ],
+       [
+        -0.4682,
+        -2.3539
+       ],
+       [
+        -0.6212,
+        -2.3182
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "points": [
+       [
+        1.9411,
+        7.2444
+       ],
+       [
+        1.4632,
+        7.3559
+       ],
+       [
+        0.9789,
+        7.4358
+       ],
+       [
+        0.4905,
+        7.4839
+       ],
+       [
+        0.0,
+        7.5
+       ],
+       [
+        -0.4905,
+        7.4839
+       ],
+       [
+        -0.9789,
+        7.4358
+       ],
+       [
+        -1.4632,
+        7.3559
+       ],
+       [
+        -1.9411,
+        7.2444
+       ],
+       [
+        -0.6212,
+        2.3182
+       ],
+       [
+        -0.4682,
+        2.3539
+       ],
+       [
+        -0.3133,
+        2.3795
+       ],
+       [
+        -0.157,
+        2.3949
+       ],
+       [
+        0.0,
+        2.4
+       ],
+       [
+        0.157,
+        2.3949
+       ],
+       [
+        0.3133,
+        2.3795
+       ],
+       [
+        0.4682,
+        2.3539
+       ],
+       [
+        0.6212,
+        2.3182
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "points": [
+       [
+        6.1436,
+        -4.3018
+       ],
+       [
+        6.7265,
+        -3.3172
+       ],
+       [
+        7.1529,
+        -2.2553
+       ],
+       [
+        7.4127,
+        -1.1409
+       ],
+       [
+        7.5,
+        -0.0
+       ],
+       [
+        7.4127,
+        1.1409
+       ],
+       [
+        7.1529,
+        2.2553
+       ],
+       [
+        6.7265,
+        3.3172
+       ],
+       [
+        6.1436,
+        4.3018
+       ],
+       [
+        1.966,
+        1.3766
+       ],
+       [
+        2.1525,
+        1.0615
+       ],
+       [
+        2.2889,
+        0.7217
+       ],
+       [
+        2.3721,
+        0.3651
+       ],
+       [
+        2.4,
+        -0.0
+       ],
+       [
+        2.3721,
+        -0.3651
+       ],
+       [
+        2.2889,
+        -0.7217
+       ],
+       [
+        2.1525,
+        -1.0615
+       ],
+       [
+        1.966,
+        -1.3766
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "points": [
+       [
+        -6.1436,
+        4.3018
+       ],
+       [
+        -6.7265,
+        3.3172
+       ],
+       [
+        -7.1529,
+        2.2553
+       ],
+       [
+        -7.4127,
+        1.1409
+       ],
+       [
+        -7.5,
+        0.0
+       ],
+       [
+        -7.4127,
+        -1.1409
+       ],
+       [
+        -7.1529,
+        -2.2553
+       ],
+       [
+        -6.7265,
+        -3.3172
+       ],
+       [
+        -6.1436,
+        -4.3018
+       ],
+       [
+        -1.966,
+        -1.3766
+       ],
+       [
+        -2.1525,
+        -1.0615
+       ],
+       [
+        -2.2889,
+        -0.7217
+       ],
+       [
+        -2.3721,
+        -0.3651
+       ],
+       [
+        -2.4,
+        0.0
+       ],
+       [
+        -2.3721,
+        0.3651
+       ],
+       [
+        -2.2889,
+        0.7217
+       ],
+       [
+        -2.1525,
+        1.0615
+       ],
+       [
+        -1.966,
+        1.3766
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#101010",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.2
+      },
+      "size": [
+       4.8,
+       4.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.6
+      },
+      "size": [
+       16.4,
+       16.4
+      ],
+      "start": 110,
+      "stop": 160,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.0,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.0,
+       -3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "La",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Magischer Fächer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "EM11"
+   }
+  },
+  {
+   "caption": "Magischer Balken\rMagic bar\rBarre magique",
+   "item": {
+    "caption": "Magischer Balken\rMagic bar\rBarre magique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "corner": 45,
+      "corners": "round",
+      "fill": {
+       "color": "#dfe6e2",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       9.2,
+       26.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       3.2,
+       20.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#46d96e",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "size": [
+       2.6,
+       19.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#b4ffc4",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "size": [
+       2.6,
+       4.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.0,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.0,
+       -3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "La?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Magischer Balken",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "EM84"
+   }
+  },
+  {
+   "caption": "Magische Waage\rMagic balance\rBalance magique",
+   "item": {
+    "caption": "Magische Waage\rMagic balance\rBalance magique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "corner": 45,
+      "corners": "round",
+      "fill": {
+       "color": "#dfe6e2",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       11.2,
+       26.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -2.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       2.8,
+       19.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -2.0,
+       2.65
+      ],
+      "fill": {
+       "color": "#46d96e",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "size": [
+       2.2,
+       13.3
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       2.0,
+       0.0
+      ],
+      "fill": {
+       "color": "#17402a",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       2.8,
+       19.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       2.0,
+       5.4
+      ],
+      "fill": {
+       "color": "#46d96e",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.05
+      },
+      "size": [
+       2.2,
+       7.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.0,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.0,
+       -3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "La?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Alte Radios/Magische Waage",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "EM83"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

@@ -1,0 +1,1854 @@
+{
+ "folder": "USER/Misc. (German)/IEC_EN61346",
+ "format": "OpenLoch Schematic Library",
+ "name": "Diverses\rMiscellaneous\rDivers",
+ "symbols": [
+  {
+   "caption": "Leuchttaster (Schließer)\rIlluminated push button (make)\rBouton-poussoir lumineux (fermeture)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Leuchttaster (Schließer)\rIlluminated push button (make)\rBouton-poussoir lumineux (fermeture)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.8,
+       10.3
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        -1.9,
+        4.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        5.85
+       ],
+       [
+        -4.4,
+        5.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        4.65
+       ],
+       [
+        -4.4,
+        4.65
+       ],
+       [
+        -4.4,
+        7.05
+       ],
+       [
+        -3.6,
+        7.05
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        4.11
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        8.59
+       ],
+       [
+        7.62,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.62,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0361,
+        4.7661
+       ],
+       [
+        9.2039,
+        7.9339
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0361,
+        7.9339
+       ],
+       [
+        9.2039,
+        4.7661
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X1",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       8.42,
+       0.2
+      ],
+      "text": "X1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X2",
+      "pin": [
+       7.62,
+       12.7
+      ],
+      "pos": [
+       8.42,
+       10.3
+      ],
+      "text": "X2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       2.68,
+       6.35
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       16.16,
+       6.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -6.4,
+       3.05
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.4,
+       7.15
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-S",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Diverses/Leuchttaster (Schließer)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schlüsselschalter mit Leuchte\rKey switch with lamp\rInterrupteur à clé avec voyant",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schlüsselschalter mit Leuchte\rKey switch with lamp\rInterrupteur à clé avec voyant",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.8,
+       10.3
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        -1.9,
+        4.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        5.85
+       ],
+       [
+        -4.4,
+        5.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -4.75,
+       5.05
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.1,
+        5.85
+       ],
+       [
+        -4.4,
+        5.85
+       ],
+       [
+        -3.95,
+        7.65
+       ],
+       [
+        -5.55,
+        7.65
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        4.11
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        8.59
+       ],
+       [
+        7.62,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.62,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0361,
+        4.7661
+       ],
+       [
+        9.2039,
+        7.9339
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0361,
+        7.9339
+       ],
+       [
+        9.2039,
+        4.7661
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X1",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       8.42,
+       0.2
+      ],
+      "text": "X1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X2",
+      "pin": [
+       7.62,
+       12.7
+      ],
+      "pos": [
+       8.42,
+       10.3
+      ],
+      "text": "X2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       2.105,
+       6.35
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       17.31,
+       6.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -7.55,
+       3.05
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -7.55,
+       7.15
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-S",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Diverses/Schlüsselschalter mit Leuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchttaster (kompakt)\rIlluminated push button (compact)\rBouton-poussoir lumineux (compact)",
+   "item": {
+    "caption": "Leuchttaster (kompakt)\rIlluminated push button (compact)\rBouton-poussoir lumineux (compact)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        -4.4,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.38
+       ],
+       [
+        -4.4,
+        3.38
+       ],
+       [
+        -4.4,
+        5.78
+       ],
+       [
+        -3.6,
+        5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.32
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        3.4961
+       ],
+       [
+        6.6639,
+        6.6639
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        6.6639
+       ],
+       [
+        6.6639,
+        3.4961
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X1",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.88,
+       0.2
+      ],
+      "text": "X1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X2",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.88,
+       7.76
+      ],
+      "text": "X2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -5.4,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.4,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-S?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Diverses/Leuchttaster (kompakt)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchttaster (Rahmen)\rIlluminated push button (framed)\rBouton-poussoir lumineux (cadre)",
+   "item": {
+    "caption": "Leuchttaster (Rahmen)\rIlluminated push button (framed)\rBouton-poussoir lumineux (cadre)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.8,
+       10.3
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        -1.9,
+        4.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        5.85
+       ],
+       [
+        -4.4,
+        5.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        4.65
+       ],
+       [
+        -4.4,
+        4.65
+       ],
+       [
+        -4.4,
+        7.05
+       ],
+       [
+        -3.6,
+        7.05
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        4.11
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        8.59
+       ],
+       [
+        5.08,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        4.7661
+       ],
+       [
+        6.6639,
+        7.9339
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        7.9339
+       ],
+       [
+        6.6639,
+        4.7661
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X1",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.88,
+       0.2
+      ],
+      "text": "X1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X2",
+      "pin": [
+       5.08,
+       12.7
+      ],
+      "pos": [
+       5.88,
+       10.3
+      ],
+      "text": "X2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.41,
+       6.35
+      ],
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "size": [
+       13.62,
+       6.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -6.4,
+       3.05
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.4,
+       7.15
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-S?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Diverses/Leuchttaster (Rahmen)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schlüsselschalter mit Leuchte (kompakt)\rKey switch with lamp (compact)\rInterrupteur à clé avec voyant (compact)",
+   "item": {
+    "caption": "Schlüsselschalter mit Leuchte (kompakt)\rKey switch with lamp (compact)\rInterrupteur à clé avec voyant (compact)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        4.58
+       ],
+       [
+        -4.4,
+        4.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -4.75,
+       3.78
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.1,
+        4.58
+       ],
+       [
+        -4.4,
+        4.58
+       ],
+       [
+        -3.95,
+        6.38
+       ],
+       [
+        -5.55,
+        6.38
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        2.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.32
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        3.4961
+       ],
+       [
+        6.6639,
+        6.6639
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        6.6639
+       ],
+       [
+        6.6639,
+        3.4961
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X1",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.88,
+       0.2
+      ],
+      "text": "X1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X2",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.88,
+       7.76
+      ],
+      "text": "X2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -6.55,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.55,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-S?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Diverses/Schlüsselschalter mit Leuchte (kompakt)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schlüsselschalter mit Leuchte (Rahmen)\rKey switch with lamp (framed)\rInterrupteur à clé avec voyant (cadre)",
+   "item": {
+    "caption": "Schlüsselschalter mit Leuchte (Rahmen)\rKey switch with lamp (framed)\rInterrupteur à clé avec voyant (cadre)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.8,
+       10.3
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        -1.9,
+        4.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2893,
+        5.85
+       ],
+       [
+        -4.4,
+        5.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -4.75,
+       5.05
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.1,
+        5.85
+       ],
+       [
+        -4.4,
+        5.85
+       ],
+       [
+        -3.95,
+        7.65
+       ],
+       [
+        -5.55,
+        7.65
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        4.11
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        8.59
+       ],
+       [
+        5.08,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        4.7661
+       ],
+       [
+        6.6639,
+        7.9339
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4961,
+        7.9339
+       ],
+       [
+        6.6639,
+        4.7661
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X1",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.88,
+       0.2
+      ],
+      "text": "X1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "X2",
+      "pin": [
+       5.08,
+       12.7
+      ],
+      "pos": [
+       5.88,
+       10.3
+      ],
+      "text": "X2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       0.835,
+       6.35
+      ],
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "size": [
+       14.77,
+       6.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -7.55,
+       3.05
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -7.55,
+       7.15
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-S?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Diverses/Schlüsselschalter mit Leuchte (Rahmen)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

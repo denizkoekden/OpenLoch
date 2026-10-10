@@ -1,0 +1,1209 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "PWR\rPWR\rSymboles d'alimentation",
+ "symbols": [
+  {
+   "caption": "Versorgung V1 (Strich)\rSupply V1 (bar)\rAlimentation V1 (barre)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Versorgung V1 (Strich)\rSupply V1 (bar)\rAlimentation V1 (barre)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.8,
+        -2.54
+       ],
+       [
+        1.8,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.74
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.74
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Versorgung V1 (Strich)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "V1"
+   }
+  },
+  {
+   "caption": "Versorgung V1 (waagerecht)\rSupply V1 (horizontal)\rAlimentation V1 (horizontale)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Versorgung V1 (waagerecht)\rSupply V1 (horizontal)\rAlimentation V1 (horizontale)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -1.8
+       ],
+       [
+        2.54,
+        1.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.34,
+       -1.25
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.34,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Versorgung V1 (waagerecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "V1"
+   }
+  },
+  {
+   "caption": "Versorgung V2 (Pfeil)\rSupply V2 (arrow)\rAlimentation V2 (flèche)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Versorgung V2 (Pfeil)\rSupply V2 (arrow)\rAlimentation V2 (flèche)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.2,
+        -0.94
+       ],
+       [
+        0,
+        -2.54
+       ],
+       [
+        1.2,
+        -0.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.74
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.74
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Versorgung V2 (Pfeil)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "V2"
+   }
+  },
+  {
+   "caption": "Versorgung V2 (Pfeil, waagerecht)\rSupply V2 (arrow, horizontal)\rAlimentation V2 (flèche, horizontale)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Versorgung V2 (Pfeil, waagerecht)\rSupply V2 (arrow, horizontal)\rAlimentation V2 (flèche, horizontale)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0.94,
+        -1.2
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        0.94,
+        1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.34,
+       -1.25
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.34,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Versorgung V2 (Pfeil, waagerecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "V2"
+   }
+  },
+  {
+   "caption": "Masse (Balken)\rGround (bar)\rMasse (barre)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Masse (Balken)\rGround (bar)\rMasse (barre)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       2.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       4.0,
+       0.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       3.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       3.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Masse (Balken)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "GND"
+   }
+  },
+  {
+   "caption": "Masse (Gehäuse)\rChassis ground\rMasse (châssis)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Masse (Gehäuse)\rChassis ground\rMasse (châssis)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.0,
+        2.54
+       ],
+       [
+        2.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        2.54
+       ],
+       [
+        -3.0,
+        3.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        -1.0,
+        3.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        2.54
+       ],
+       [
+        1.0,
+        3.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       4.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       4.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Masse (Gehäuse)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "GND"
+   }
+  },
+  {
+   "caption": "Erde\rEarth\rTerre",
+   "item": {
+    "autoNumber": false,
+    "caption": "Erde\rEarth\rTerre",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.0,
+        2.54
+       ],
+       [
+        2.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.3,
+        3.34
+       ],
+       [
+        1.3,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -0.6,
+        4.14
+       ],
+       [
+        0.6,
+        4.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       4.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       4.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Erde",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "E"
+   }
+  },
+  {
+   "caption": "Schutzerde\rProtective earth\rTerre de protection",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schutzerde\rProtective earth\rTerre de protection",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       3.64
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.4,
+       4.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.6,
+        2.94
+       ],
+       [
+        1.6,
+        2.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.0,
+        3.64
+       ],
+       [
+        1.0,
+        3.64
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -0.4,
+        4.34
+       ],
+       [
+        0.4,
+        4.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       6.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       6.14
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Schutzerde",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "PE"
+   }
+  },
+  {
+   "caption": "Plus (Kreis)\rPlus (circle)\rPlus (cercle)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Plus (Kreis)\rPlus (circle)\rPlus (cercle)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Plus (Kreis)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "+"
+   }
+  },
+  {
+   "caption": "Minus (Kreis)\rMinus (circle)\rMoins (cercle)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Minus (Kreis)\rMinus (circle)\rMoins (cercle)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/Minus (Kreis)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "-"
+   }
+  },
+  {
+   "caption": "S+ (Kreis)\rS+ sense plus (circle)\rS+ détection plus (cercle)",
+   "item": {
+    "autoNumber": false,
+    "caption": "S+ (Kreis)\rS+ sense plus (circle)\rS+ détection plus (cercle)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR/S+ (Kreis)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "S+"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

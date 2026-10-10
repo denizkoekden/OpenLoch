@@ -1,0 +1,3911 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Pumpen + Kompressoren\rPumps + compressors\rPompes + compresseurs",
+ "symbols": [
+  {
+   "caption": "Hydropumpe\rHydraulic pump\rPompe hydraulique",
+   "item": {
+    "caption": "Hydropumpe\rHydraulic pump\rPompe hydraulique",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Hydropumpe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydropumpe, verstellbar\rVariable hydraulic pump\rPompe hydraulique variable",
+   "item": {
+    "caption": "Hydropumpe, verstellbar\rVariable hydraulic pump\rPompe hydraulique variable",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Hydropumpe, verstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydropumpe, zwei Förderrichtungen\rHydraulic pump, two directions\rPompe hydraulique, deux sens",
+   "item": {
+    "caption": "Hydropumpe, zwei Förderrichtungen\rHydraulic pump, two directions\rPompe hydraulique, deux sens",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Hydropumpe, zwei Förderrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kompressor\rCompressor\rCompresseur",
+   "item": {
+    "caption": "Kompressor\rCompressor\rCompresseur",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Kompressor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Vakuumpumpe\rVacuum pump\rPompe à vide",
+   "item": {
+    "caption": "Vakuumpumpe\rVacuum pump\rPompe à vide",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.68
+       ],
+       [
+        -1.4,
+        -5.08
+       ],
+       [
+        1.4,
+        -5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Vakuumpumpe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kompressor mit Welle\rCompressor with shaft\rCompresseur avec arbre",
+   "item": {
+    "caption": "Kompressor mit Welle\rCompressor with shaft\rCompresseur avec arbre",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Kompressor mit Welle",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kompressor, verstellbar\rVariable compressor\rCompresseur variable",
+   "item": {
+    "caption": "Kompressor, verstellbar\rVariable compressor\rCompresseur variable",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Kompressor, verstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kompressor, zwei Förderrichtungen\rCompressor, two directions\rCompresseur, deux sens",
+   "item": {
+    "caption": "Kompressor, zwei Förderrichtungen\rCompressor, two directions\rCompresseur, deux sens",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Kompressor, zwei Förderrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kompressor, zwei Förderrichtungen, mit Drehrichtungspfeil\rCompressor, two directions, with rotation arrow\rCompresseur, deux sens, avec flèche de rotation",
+   "item": {
+    "caption": "Kompressor, zwei Förderrichtungen, mit Drehrichtungspfeil\rCompressor, two directions, with rotation arrow\rCompresseur, deux sens, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Kompressor, zwei Förderrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kompressor, verstellbar, zwei Förderrichtungen\rVariable compressor, two directions\rCompresseur variable, deux sens",
+   "item": {
+    "caption": "Kompressor, verstellbar, zwei Förderrichtungen\rVariable compressor, two directions\rCompresseur variable, deux sens",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Kompressor, verstellbar, zwei Förderrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kompressor, verstellbar, zwei Förderrichtungen, mit Drehrichtungspfeil\rVariable compressor, two directions, with rotation arrow\rCompresseur variable, deux sens, avec flèche de rotation",
+   "item": {
+    "caption": "Kompressor, verstellbar, zwei Förderrichtungen, mit Drehrichtungspfeil\rVariable compressor, two directions, with rotation arrow\rCompresseur variable, deux sens, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Kompressor, verstellbar, zwei Förderrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydropumpe mit Welle\rHydraulic pump with shaft\rPompe hydraulique avec arbre",
+   "item": {
+    "caption": "Hydropumpe mit Welle\rHydraulic pump with shaft\rPompe hydraulique avec arbre",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Hydropumpe mit Welle",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Handpumpe\rHand pump\rPompe à main",
+   "item": {
+    "caption": "Handpumpe\rHand pump\rPompe à main",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        7.62,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        7.62,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.62,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.62,
+       -2.4
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.62,
+       -8.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.62,
+       -5.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Handpumpe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydropumpe, zwei Förderrichtungen, mit Drehrichtungspfeil\rHydraulic pump, two directions, with rotation arrow\rPompe hydraulique, deux sens, avec flèche de rotation",
+   "item": {
+    "caption": "Hydropumpe, zwei Förderrichtungen, mit Drehrichtungspfeil\rHydraulic pump, two directions, with rotation arrow\rPompe hydraulique, deux sens, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Hydropumpe, zwei Förderrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydropumpe, verstellbar, zwei Förderrichtungen\rVariable hydraulic pump, two directions\rPompe hydraulique variable, deux sens",
+   "item": {
+    "caption": "Hydropumpe, verstellbar, zwei Förderrichtungen\rVariable hydraulic pump, two directions\rPompe hydraulique variable, deux sens",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.08,
+        -0.6
+       ],
+       [
+        7.08,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Hydropumpe, verstellbar, zwei Förderrichtungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydropumpe, verstellbar, zwei Förderrichtungen, mit Drehrichtungspfeil\rVariable hydraulic pump, two directions, with rotation arrow\rPompe hydraulique variable, deux sens, avec flèche de rotation",
+   "item": {
+    "caption": "Hydropumpe, verstellbar, zwei Förderrichtungen, mit Drehrichtungspfeil\rVariable hydraulic pump, two directions, with rotation arrow\rPompe hydraulique variable, deux sens, avec flèche de rotation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.4,
+        2.68
+       ],
+       [
+        1.4,
+        2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.6,
+        3.6
+       ],
+       [
+        3.6,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        10.16,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        10.16,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       11.836,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "start": 136,
+      "stop": 224,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        -1.6957
+       ],
+       [
+        9.5341,
+        -2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1222,
+        1.6957
+       ],
+       [
+        9.5341,
+        2.2229
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Hydropumpe, verstellbar, zwei Förderrichtungen, mit Drehrichtungspfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schwenkantrieb\rSemi-rotary actuator\rActionneur oscillant",
+   "item": {
+    "caption": "Schwenkantrieb\rSemi-rotary actuator\rActionneur oscillant",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.5,
+        -5.08
+       ],
+       [
+        -0.5,
+        -7.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.5,
+        -5.08
+       ],
+       [
+        0.5,
+        -7.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "start": 35,
+      "stop": 145,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.046,
+        -2.1941
+       ],
+       [
+        2.4575,
+        -1.7207
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.046,
+        -2.1941
+       ],
+       [
+        -2.4575,
+        -1.7207
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -2.54,
+       2.54
+      ],
+      "pos": [
+       -2.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Schwenkantrieb",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Motor-Pumpen-Einheit\rMotor-pump unit\rGroupe motopompe",
+   "item": {
+    "caption": "Motor-Pumpen-Einheit\rMotor-pump unit\rGroupe motopompe",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.5,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        1.4,
+        -2.68
+       ],
+       [
+        -1.4,
+        -2.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -0.5
+       ],
+       [
+        7.62,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        7.62,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       12.7,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.6
+      },
+      "pos": [
+       12.7,
+       -2.0
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       18.78,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       18.78,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Pumpen + Kompressoren/Motor-Pumpen-Einheit",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

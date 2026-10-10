@@ -1,0 +1,2207 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "FLIP FLOP\rFLIP FLOP\rBASCULES",
+ "symbols": [
+  {
+   "caption": "D-Flipflop mit Setzen und Rücksetzen (½ 74HC74)\rD flip-flop with set and reset (½ 74HC74)\rBascule D avec mise à 1 et à 0 (½ 74HC74)",
+   "item": {
+    "caption": "D-Flipflop mit Setzen und Rücksetzen (½ 74HC74)\rD flip-flop with set and reset (½ 74HC74)\rBascule D avec mise à 1 et à 0 (½ 74HC74)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       6.35
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       1.94,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.34,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "D",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.72
+       ],
+       [
+        3.74,
+        7.62
+       ],
+       [
+        2.54,
+        8.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       6.62
+      ],
+      "text": "CK",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "CK",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        1.34,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/R",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        2.54
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "Q",
+      "pin": [
+       15.24,
+       2.54
+      ],
+      "pos": [
+       15.04,
+       0.34
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       13.3,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.9,
+        10.16
+       ],
+       [
+        15.24,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       9.16
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/Q",
+      "pin": [
+       15.24,
+       10.16
+      ],
+      "pos": [
+       15.04,
+       7.96
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       13.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/FLIP FLOP/D-Flipflop mit Setzen und Rücksetzen (½ 74HC74)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "½ 74HC74"
+   }
+  },
+  {
+   "caption": "JK-Flipflop mit Setzen und Rücksetzen (½ 74HC76)\rJK flip-flop with set and reset (½ 74HC76)\rBascule JK avec mise à 1 et à 0 (½ 74HC76)",
+   "item": {
+    "caption": "JK-Flipflop mit Setzen und Rücksetzen (½ 74HC76)\rJK flip-flop with set and reset (½ 74HC76)\rBascule JK avec mise à 1 et à 0 (½ 74HC76)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       1.94,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.34,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "J",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "J",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        1.34,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.72
+       ],
+       [
+        3.74,
+        7.62
+       ],
+       [
+        2.54,
+        8.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       6.62
+      ],
+      "text": "CK",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "CK",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "K",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        1.34,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/R",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        2.54
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "Q",
+      "pin": [
+       15.24,
+       2.54
+      ],
+      "pos": [
+       15.04,
+       0.34
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       13.3,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.9,
+        12.7
+       ],
+       [
+        15.24,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       11.7
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/Q",
+      "pin": [
+       15.24,
+       12.7
+      ],
+      "pos": [
+       15.04,
+       10.5
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/FLIP FLOP/JK-Flipflop mit Setzen und Rücksetzen (½ 74HC76)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "½ 74HC76"
+   }
+  },
+  {
+   "caption": "J/K-Flipflop mit Setzen und Rücksetzen (½ 74HC109)\rJ/K flip-flop with set and reset (½ 74HC109)\rBascule J/K avec mise à 1 et à 0 (½ 74HC109)",
+   "item": {
+    "caption": "J/K-Flipflop mit Setzen und Rücksetzen (½ 74HC109)\rJ/K flip-flop with set and reset (½ 74HC109)\rBascule J/K avec mise à 1 et à 0 (½ 74HC109)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       1.94,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.34,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "J",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "J",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.72
+       ],
+       [
+        3.74,
+        7.62
+       ],
+       [
+        2.54,
+        8.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       6.62
+      ],
+      "text": "CK",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "CK",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        1.34,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "K",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        1.34,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/R",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        2.54
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "Q",
+      "pin": [
+       15.24,
+       2.54
+      ],
+      "pos": [
+       15.04,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       13.3,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.9,
+        12.7
+       ],
+       [
+        15.24,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       11.7
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/Q",
+      "pin": [
+       15.24,
+       12.7
+      ],
+      "pos": [
+       15.04,
+       10.5
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/FLIP FLOP/J/K-Flipflop mit Setzen und Rücksetzen (½ 74HC109)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "½ 74HC109"
+   }
+  },
+  {
+   "caption": "JK-Flipflop mit Rücksetzen (½ 74HC73)\rJK flip-flop with reset (½ 74HC73)\rBascule JK avec mise à 0 (½ 74HC73)",
+   "item": {
+    "caption": "JK-Flipflop mit Rücksetzen (½ 74HC73)\rJK flip-flop with reset (½ 74HC73)\rBascule JK avec mise à 0 (½ 74HC73)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       6.35
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "J",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "J",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        1.34,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "CK",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/CK",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "K",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "K",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        1.34,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/R",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        2.54
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "Q",
+      "pin": [
+       15.24,
+       2.54
+      ],
+      "pos": [
+       15.04,
+       0.34
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       13.3,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.9,
+        10.16
+       ],
+       [
+        15.24,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       9.16
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/Q",
+      "pin": [
+       15.24,
+       10.16
+      ],
+      "pos": [
+       15.04,
+       7.96
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       13.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/FLIP FLOP/JK-Flipflop mit Rücksetzen (½ 74HC73)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "½ 74HC73"
+   }
+  },
+  {
+   "caption": "Monoflop mit Rücksetzen (½ 74HC221)\rMonostable with reset (½ 74HC221)\rMonostable avec remise à zéro (½ 74HC221)",
+   "item": {
+    "caption": "Monoflop mit Rücksetzen (½ 74HC221)\rMonostable with reset (½ 74HC221)\rMonostable avec remise à zéro (½ 74HC221)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "R-C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "R-C",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "C",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        1.34,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "A",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/A",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "B",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       1.94,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        1.34,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/R",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        7.62
+       ],
+       [
+        15.24,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       6.62
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "Q",
+      "pin": [
+       15.24,
+       7.62
+      ],
+      "pos": [
+       15.04,
+       5.42
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       13.3,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.9,
+        10.16
+       ],
+       [
+        15.24,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       9.16
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "/Q",
+      "pin": [
+       15.24,
+       10.16
+      ],
+      "pos": [
+       15.04,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.1,
+       0.4
+      ],
+      "text": "1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.5,
+        2.2
+       ],
+       [
+        10.0,
+        2.2
+       ],
+       [
+        10.0,
+        0.8
+       ],
+       [
+        11.2,
+        0.8
+       ],
+       [
+        11.2,
+        2.2
+       ],
+       [
+        11.7,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/FLIP FLOP/Monoflop mit Rücksetzen (½ 74HC221)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "½ 74HC221"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

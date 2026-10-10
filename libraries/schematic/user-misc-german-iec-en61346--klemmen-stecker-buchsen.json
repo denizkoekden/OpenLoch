@@ -1,0 +1,2717 @@
+{
+ "folder": "USER/Misc. (German)/IEC_EN61346",
+ "format": "OpenLoch Schematic Library",
+ "name": "Klemmen, Stecker, Buchsen\rTerminals, plugs, sockets\rBornes, fiches, prises",
+ "symbols": [
+  {
+   "caption": "Klemme\rTerminal\rBorne",
+   "item": {
+    "caption": "Klemme\rTerminal\rBorne",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -1.8,
+       -0.76
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.8,
+       3.34
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Klemme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Steckklemme\rPlug-in terminal\rBorne enfichable",
+   "item": {
+    "caption": "Steckklemme\rPlug-in terminal\rBorne enfichable",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.14
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0.0,
+       5.74
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.54
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -2.2,
+       1.24
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.2,
+       5.34
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Steckklemme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Steckklemme (gesteckt)\rPlug-in terminal (plugged)\rBorne enfichable (enfichée)",
+   "item": {
+    "caption": "Steckklemme (gesteckt)\rPlug-in terminal (plugged)\rBorne enfichable (enfichée)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.14
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0.0,
+       4.24
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.04
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -2.2,
+       1.24
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.2,
+       5.34
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Steckklemme (gesteckt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Geräteklemme\rDevice terminal\rBorne d'appareil",
+   "item": {
+    "caption": "Geräteklemme\rDevice terminal\rBorne d'appareil",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "100",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -1.8,
+       -0.76
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.8,
+       3.34
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Geräteklemme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "Port[]"
+   }
+  },
+  {
+   "caption": "Buchse\rSocket\rPrise",
+   "item": {
+    "caption": "Buchse\rSocket\rPrise",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.14,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       5.08,
+       -5.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Buchse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stecker\rPlug\rFiche",
+   "item": {
+    "caption": "Stecker\rPlug\rFiche",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        4.14,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       4.94,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       5.08,
+       -5.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Stecker",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Steckverbindung\rPlug and socket\rConnecteur",
+   "item": {
+    "caption": "Steckverbindung\rPlug and socket\rConnecteur",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        4.28,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.68,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       5.08,
+       -5.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Steckverbindung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Steckverbindung (umgekehrt)\rPlug and socket (reversed)\rConnecteur (inversé)",
+   "item": {
+    "caption": "Steckverbindung (umgekehrt)\rPlug and socket (reversed)\rConnecteur (inversé)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.48,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.88,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       5.08,
+       -5.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Steckverbindung (umgekehrt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Steckdose (Gerät)\rSocket outlet (device)\rPrise de courant (appareil)",
+   "item": {
+    "caption": "Steckdose (Gerät)\rSocket outlet (device)\rPrise de courant (appareil)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.68
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "L",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "L",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       6.68
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.68,
+       0.2
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       10.16,
+       6.68
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.76,
+       0.2
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.08,
+       5.98
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       15.36,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.6,
+       2.68
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.6,
+       6.78
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Steckdose (Gerät)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stecker (Gerät)\rPlug (device)\rFiche (appareil)",
+   "item": {
+    "caption": "Stecker (Gerät)\rPlug (device)\rFiche (appareil)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        5.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       6.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "L",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.6,
+       0.2
+      ],
+      "text": "L",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        5.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       6.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.68,
+       0.2
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        5.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       6.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.76,
+       0.2
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.08,
+       5.98
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       15.36,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.6,
+       2.68
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.6,
+       6.78
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Stecker (Gerät)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "PE-Anschluss\rPE connection\rRaccordement PE",
+   "item": {
+    "autoNumber": false,
+    "caption": "PE-Anschluss\rPE connection\rRaccordement PE",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.0,
+        2.54
+       ],
+       [
+        2.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.3,
+        3.34
+       ],
+       [
+        1.3,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -0.6,
+        4.14
+       ],
+       [
+        0.6,
+        4.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -2.6,
+       -0.36
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.6,
+       3.74
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "PE",
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/PE-Anschluss",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "PE-Geräteanschluss\rPE device connection\rRaccordement PE d'appareil",
+   "item": {
+    "autoNumber": false,
+    "caption": "PE-Geräteanschluss\rPE device connection\rRaccordement PE d'appareil",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       2.94
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.8,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -3.0,
+       -0.36
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.0,
+       3.74
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "PE",
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/PE-Geräteanschluss",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "PE-Klemme\rPE terminal\rBorne PE",
+   "item": {
+    "autoNumber": false,
+    "caption": "PE-Klemme\rPE terminal\rBorne PE",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.74,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.94,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.94,
+        -2.0
+       ],
+       [
+        5.94,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        4.64,
+        -0.5
+       ],
+       [
+        7.24,
+        -0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        5.09,
+        0.1
+       ],
+       [
+        6.79,
+        0.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        5.54,
+        0.7
+       ],
+       [
+        6.34,
+        0.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       4.14,
+       -5.9
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.14,
+       2.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "PE",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/PE-Klemme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "PE-Klemme (senkrecht)\rPE terminal (vertical)\rBorne PE (verticale)",
+   "item": {
+    "autoNumber": false,
+    "caption": "PE-Klemme (senkrecht)\rPE terminal (vertical)\rBorne PE (verticale)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       3.4,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        0.54
+       ],
+       [
+        3.4,
+        2.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.1,
+        2.04
+       ],
+       [
+        4.7,
+        2.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.55,
+        2.64
+       ],
+       [
+        4.25,
+        2.64
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.0,
+        3.24
+       ],
+       [
+        3.8,
+        3.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -2.2,
+       -0.76
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.2,
+       3.34
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "PE",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/PE-Klemme (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Sicherungsklemme\rFuse terminal\rBorne à fusible",
+   "item": {
+    "caption": "Sicherungsklemme\rFuse terminal\rBorne à fusible",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.32
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        3.24
+       ],
+       [
+        0,
+        6.92
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       2.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -2.2,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.2,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Sicherungsklemme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "1,6 AT"
+   }
+  },
+  {
+   "caption": "Trennklemme\rDisconnect terminal\rBorne sectionnable",
+   "item": {
+    "caption": "Trennklemme\rDisconnect terminal\rBorne sectionnable",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.32
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        6.92
+       ],
+       [
+        0,
+        3.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -2.6,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.6,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Trennklemme",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Trennklemme (offen)\rDisconnect terminal (open)\rBorne sectionnable (ouverte)",
+   "item": {
+    "caption": "Trennklemme (offen)\rDisconnect terminal (open)\rBorne sectionnable (ouverte)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.84
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.32
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        6.92
+       ],
+       [
+        -1.7,
+        3.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       -2.6,
+       1.78
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.6,
+       5.88
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Trennklemme (offen)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Buchse (Variante)\rSocket (variant)\rPrise (variante)",
+   "item": {
+    "caption": "Buchse (Variante)\rSocket (variant)\rPrise (variante)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        4.14,
+        -1.4
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        4.14,
+        1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       5.08,
+       -5.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Buchse (Variante)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stecker (Variante)\rPlug (variant)\rFiche (variante)",
+   "item": {
+    "caption": "Stecker (Variante)\rPlug (variant)\rFiche (variante)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        4.14,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.94,
+        -1.2
+       ],
+       [
+        4.14,
+        0
+       ],
+       [
+        2.94,
+        1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       5.08,
+       -5.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Stecker (Variante)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Steckverbindung (Variante)\rPlug and socket (variant)\rConnecteur (variante)",
+   "item": {
+    "caption": "Steckverbindung (Variante)\rPlug and socket (variant)\rConnecteur (variante)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.88,
+        -1.2
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        3.88,
+        1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        4.68,
+        -1.2
+       ],
+       [
+        5.88,
+        0
+       ],
+       [
+        4.68,
+        1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.88,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       5.08,
+       -5.5
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "X?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Klemmen, Stecker, Buchsen/Steckverbindung (Variante)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

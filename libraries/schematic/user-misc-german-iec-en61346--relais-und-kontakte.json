@@ -1,0 +1,5155 @@
+{
+ "folder": "USER/Misc. (German)/IEC_EN61346",
+ "format": "OpenLoch Schematic Library",
+ "name": "Relais und -kontakte\rRelays and relay contacts\rRelais et contacts de relais",
+ "symbols": [
+  {
+   "caption": "Relais AC\rAC relay\rRelais CA",
+   "item": {
+    "caption": "Relais AC\rAC relay\rRelais CA",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.27
+       ],
+       [
+        7.62,
+        1.27
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        8.89
+       ],
+       [
+        0,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       1.27
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       8.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       7.62,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       2.54
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        5.08
+       ],
+       [
+        7.62,
+        5.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        6.85
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.22,
+        5.85
+       ],
+       [
+        9.02,
+        5.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.22,
+        6.85
+       ],
+       [
+        9.02,
+        6.85
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Relais AC",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Relais DC\rDC relay\rRelais CC",
+   "item": {
+    "caption": "Relais DC\rDC relay\rRelais CC",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.27
+       ],
+       [
+        7.62,
+        1.27
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        8.89
+       ],
+       [
+        0,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       1.27
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       8.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        6.35
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.12,
+        6.35
+       ],
+       [
+        9.12,
+        6.35
+       ],
+       [
+        7.62,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.12,
+        3.81
+       ],
+       [
+        9.12,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Relais DC",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Relais DC (A2 oben)\rDC relay (A2 at top)\rRelais CC (A2 en haut)",
+   "item": {
+    "caption": "Relais DC (A2 oben)\rDC relay (A2 at top)\rRelais CC (A2 en haut)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.27
+       ],
+       [
+        7.62,
+        1.27
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        8.89
+       ],
+       [
+        0,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       1.27
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       8.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        6.35
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.12,
+        3.81
+       ],
+       [
+        9.12,
+        3.81
+       ],
+       [
+        7.62,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.12,
+        6.35
+       ],
+       [
+        9.12,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Relais DC (A2 oben)",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stromstoßrelais\rImpulse relay\rTélérupteur",
+   "item": {
+    "caption": "Stromstoßrelais\rImpulse relay\rTélérupteur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.4,
+        5.88
+       ],
+       [
+        0,
+        5.88
+       ],
+       [
+        0,
+        4.28
+       ],
+       [
+        2.4,
+        4.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -6.08,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Stromstoßrelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Blinkrelais\rFlasher relay\rRelais clignoteur",
+   "item": {
+    "caption": "Blinkrelais\rFlasher relay\rRelais clignoteur",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        -7.45,
+        5.68
+       ],
+       [
+        -7.05,
+        5.68
+       ],
+       [
+        -7.05,
+        4.48
+       ],
+       [
+        -6.65,
+        4.48
+       ],
+       [
+        -6.65,
+        5.68
+       ],
+       [
+        -6.05,
+        5.68
+       ],
+       [
+        -6.05,
+        4.48
+       ],
+       [
+        -5.65,
+        4.48
+       ],
+       [
+        -5.65,
+        5.68
+       ],
+       [
+        -5.25,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.62,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.62,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Blinkrelais",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zeitrelais, rückfallverzögert\rTime relay, off-delay\rRelais temporisé au repos",
+   "item": {
+    "caption": "Zeitrelais, rückfallverzögert\rTime relay, off-delay\rRelais temporisé au repos",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B1",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       7.42,
+       2.88
+      ],
+      "text": "B1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.62,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.62,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Zeitrelais, rückfallverzögert",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zeitrelais, ansprechverzögert\rTime relay, on-delay\rRelais temporisé au travail",
+   "item": {
+    "caption": "Zeitrelais, ansprechverzögert\rTime relay, on-delay\rRelais temporisé au travail",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.62,
+        2.54
+       ],
+       [
+        -5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.62,
+        7.62
+       ],
+       [
+        -5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B1",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       7.42,
+       2.88
+      ],
+      "text": "B1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.62,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -8.62,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Zeitrelais, ansprechverzögert",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zeitrelais, ansprech- und rückfallverzögert\rTime relay, on-delay and off-delay\rRelais temporisé au travail et au repos",
+   "item": {
+    "caption": "Zeitrelais, ansprech- und rückfallverzögert\rTime relay, on-delay and off-delay\rRelais temporisé au travail et au repos",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "A1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       7.76
+      ],
+      "text": "A2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       -6.35,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -8.89,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -10.16,
+        2.54
+       ],
+       [
+        -7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -10.16,
+        7.62
+       ],
+       [
+        -7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B1",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       7.42,
+       2.88
+      ],
+      "text": "B1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -11.16,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -11.16,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Zeitrelais, ansprech- und rückfallverzögert",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer, öffnet verzögert\rMake contact, delayed opening\rContact à fermeture, ouverture temporisée",
+   "item": {
+    "caption": "Schließer, öffnet verzögert\rMake contact, delayed opening\rContact à fermeture, ouverture temporisée",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.1621,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8228,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.96,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 306.8699,
+      "stop": 413.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Schließer, öffnet verzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer, schließt verzögert\rMake contact, delayed closing\rContact à fermeture, fermeture temporisée",
+   "item": {
+    "caption": "Schließer, schließt verzögert\rMake contact, delayed closing\rContact à fermeture, fermeture temporisée",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.1621,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8228,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -2.04,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 126.8699,
+      "stop": 233.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Schließer, schließt verzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließer, schließt und öffnet verzögert\rMake contact, delayed closing and opening\rContact à fermeture, fermeture et ouverture temporisées",
+   "item": {
+    "caption": "Schließer, schließt und öffnet verzögert\rMake contact, delayed closing and opening\rContact à fermeture, fermeture et ouverture temporisées",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.1621,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8228,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -2.04,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 126.8699,
+      "stop": 233.1301,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.96,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 306.8699,
+      "stop": 413.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Schließer, schließt und öffnet verzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öffner, schließt verzögert\rBreak contact, delayed closing\rContact à ouverture, fermeture temporisée",
+   "item": {
+    "caption": "Öffner, schließt verzögert\rBreak contact, delayed closing\rContact à ouverture, fermeture temporisée",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.05,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.7434,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.96,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 306.8699,
+      "stop": 413.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Öffner, schließt verzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öffner, öffnet verzögert\rBreak contact, delayed opening\rContact à ouverture, ouverture temporisée",
+   "item": {
+    "caption": "Öffner, öffnet verzögert\rBreak contact, delayed opening\rContact à ouverture, ouverture temporisée",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.05,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.7434,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -2.04,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 126.8699,
+      "stop": 233.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Öffner, öffnet verzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öffner, öffnet und schließt verzögert\rBreak contact, delayed opening and closing\rContact à ouverture, ouverture et fermeture temporisées",
+   "item": {
+    "caption": "Öffner, öffnet und schließt verzögert\rBreak contact, delayed opening and closing\rContact à ouverture, ouverture et fermeture temporisées",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.05,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.7434,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -2.04,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 126.8699,
+      "stop": 233.1301,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.96,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 306.8699,
+      "stop": 413.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Öffner, öffnet und schließt verzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler, rückfallverzögert\rChange-over contact, off-delay\rContact inverseur temporisé au repos",
+   "item": {
+    "caption": "Wechsler, rückfallverzögert\rChange-over contact, off-delay\rContact inverseur temporisé au repos",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        -1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "15",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "16",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       -0.3
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "18",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "18",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.05,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.7434,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.96,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 306.8699,
+      "stop": 413.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler, rückfallverzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler, ansprechverzögert\rChange-over contact, on-delay\rContact inverseur temporisé au travail",
+   "item": {
+    "caption": "Wechsler, ansprechverzögert\rChange-over contact, on-delay\rContact inverseur temporisé au travail",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        -1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "15",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "16",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       -0.3
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "18",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "18",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.05,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.7434,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -2.04,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 126.8699,
+      "stop": 233.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler, ansprechverzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler, ansprech- und rückfallverzögert\rChange-over contact, on-delay and off-delay\rContact inverseur temporisé au travail et au repos",
+   "item": {
+    "caption": "Wechsler, ansprech- und rückfallverzögert\rChange-over contact, on-delay and off-delay\rContact inverseur temporisé au travail et au repos",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        -1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "15",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "16",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       -0.3
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "18",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "18",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.05,
+        4.88
+       ],
+       [
+        -4.0,
+        4.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.7434,
+        5.68
+       ],
+       [
+        -4.0,
+        5.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -2.04,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 126.8699,
+      "stop": 233.1301,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -5.96,
+       5.28
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 306.8699,
+      "stop": 413.1301,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -5.6,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler, ansprech- und rückfallverzögert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (12/14 oben)\rChange-over contact (12/14 at top)\rContact inverseur (12/14 en haut)",
+   "item": {
+    "caption": "Wechsler (12/14 oben)\rChange-over contact (12/14 at top)\rContact inverseur (12/14 en haut)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ],
+       [
+        2.921,
+        1.778
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       -2.94,
+       0.2
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.54,
+       3.34
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.54,
+       6.34
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (12/14 oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (12/14 oben, schmal)\rChange-over contact (12/14 at top, narrow)\rContact inverseur (12/14 en haut, étroit)",
+   "item": {
+    "caption": "Wechsler (12/14 oben, schmal)\rChange-over contact (12/14 at top, narrow)\rContact inverseur (12/14 en haut, étroit)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       -2.94,
+       0.2
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.54,
+       3.34
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.54,
+       6.34
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (12/14 oben, schmal)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (waagerecht)\rChange-over contact, horizontal\rContact inverseur horizontal",
+   "item": {
+    "caption": "Wechsler (waagerecht)\rChange-over contact, horizontal\rContact inverseur horizontal",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        8.02,
+        2.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        -2.54
+       ],
+       [
+        7.02,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.96,
+       -2.09
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       9.76,
+       -4.74
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (waagerecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (waagerecht, gespiegelt)\rChange-over contact, horizontal, mirrored\rContact inverseur horizontal, en miroir",
+   "item": {
+    "caption": "Wechsler (waagerecht, gespiegelt)\rChange-over contact, horizontal, mirrored\rContact inverseur horizontal, en miroir",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        2.14,
+        -2.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        3.14,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.2,
+       0.37
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       2.84
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (waagerecht, gespiegelt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (waagerecht, 11 rechts)\rChange-over contact, horizontal, 11 on the right\rContact inverseur horizontal, 11 à droite",
+   "item": {
+    "caption": "Wechsler (waagerecht, 11 rechts)\rChange-over contact, horizontal, 11 on the right\rContact inverseur horizontal, 11 à droite",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        2.14,
+        2.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        3.14,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.2,
+       -2.09
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (waagerecht, 11 rechts)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (11 unten)\rChange-over contact (11 at bottom)\rContact inverseur (11 en bas)",
+   "item": {
+    "caption": "Wechsler (11 unten)\rChange-over contact (11 at bottom)\rContact inverseur (11 en bas)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -2.1,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        -1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       -0.4,
+       -0.3
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       2.94,
+       0.2
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.0,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.0,
+       5.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (11 unten)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (gedreht)\rChange-over contact, upside down\rContact inverseur retourné",
+   "item": {
+    "caption": "Wechsler (gedreht)\rChange-over contact, upside down\rContact inverseur retourné",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        -2.1,
+        8.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.6,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        2.54,
+        7.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       -0.4,
+       8.16
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       2.54,
+       10.16
+      ],
+      "pos": [
+       2.94,
+       8.16
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.0,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.0,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (gedreht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (gedreht, gespiegelt)\rChange-over contact, upside down, mirrored\rContact inverseur retourné, en miroir",
+   "item": {
+    "caption": "Wechsler (gedreht, gespiegelt)\rChange-over contact, upside down, mirrored\rContact inverseur retourné, en miroir",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.1,
+        8.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        7.62
+       ],
+       [
+        1.6,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        10.16
+       ],
+       [
+        -2.54,
+        7.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       -0.4,
+       0.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       8.16
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       -2.54,
+       10.16
+      ],
+      "pos": [
+       -2.94,
+       8.16
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.54,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -3.54,
+       5.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (gedreht, gespiegelt)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechsler (waagerecht, 14 unten)\rChange-over contact, horizontal, 14 at bottom\rContact inverseur horizontal, 14 en bas",
+   "item": {
+    "caption": "Wechsler (waagerecht, 14 unten)\rChange-over contact, horizontal, 14 at bottom\rContact inverseur horizontal, 14 en bas",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        8.02,
+        -2.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        7.02,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.96,
+       0.37
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       10.16,
+       2.54
+      ],
+      "pos": [
+       9.76,
+       2.84
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -0.6,
+       -2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-K?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/IEC_EN61346/Relais und -kontakte/Wechsler (waagerecht, 14 unten)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

@@ -1,0 +1,4713 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile/Alt",
+ "format": "OpenLoch Schematic Library",
+ "name": "Roehren\rValves\rTubes",
+ "symbols": [
+  {
+   "caption": "Diode (Röhre)\rDiode valve\rTube diode",
+   "item": {
+    "caption": "Diode (Röhre)\rDiode valve\rTube diode",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "F1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "F2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Diode (Röhre)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Triode\rTriode\rTriode",
+   "item": {
+    "caption": "Triode\rTriode\rTriode",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "F1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "F2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -8.02,
+       -2.2
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Triode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Tetrode\rTetrode\rTétrode",
+   "item": {
+    "caption": "Tetrode\rTetrode\rTétrode",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "F1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "F2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -8.02,
+       -2.2
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -1.27
+       ],
+       [
+        2.0,
+        -1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        -1.27
+       ],
+       [
+        2.8,
+        -1.27
+       ],
+       [
+        2.8,
+        -2.54
+       ],
+       [
+        7.62,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G2",
+      "pin": [
+       7.62,
+       -2.54
+      ],
+      "pos": [
+       7.22,
+       -4.74
+      ],
+      "text": "G2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Tetrode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Pentode\rPentode\rPentode",
+   "item": {
+    "caption": "Pentode\rPentode\rPentode",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "F1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "F2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "F2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -8.02,
+       -2.2
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -1.27
+       ],
+       [
+        2.0,
+        -1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        -1.27
+       ],
+       [
+        2.8,
+        -1.27
+       ],
+       [
+        2.8,
+        -2.54
+       ],
+       [
+        7.62,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G2",
+      "pin": [
+       7.62,
+       -2.54
+      ],
+      "pos": [
+       7.22,
+       -4.74
+      ],
+      "text": "G2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -2.54
+       ],
+       [
+        2.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -2.54
+       ],
+       [
+        -7.62,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G3",
+      "pin": [
+       -7.62,
+       -2.54
+      ],
+      "pos": [
+       -8.02,
+       -4.74
+      ],
+      "text": "G3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Pentode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "REN1004\rREN1004\rREN1004",
+   "item": {
+    "caption": "REN1004\rREN1004\rREN1004",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "k",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/REN1004",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "REN1004"
+   }
+  },
+  {
+   "caption": "REN304\rREN304\rREN304",
+   "item": {
+    "caption": "REN304\rREN304\rREN304",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        4.2
+       ],
+       [
+        0,
+        2.2
+       ],
+       [
+        2.54,
+        4.2
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/REN304",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "REN304"
+   }
+  },
+  {
+   "caption": "AC2\rAC2\rAC2",
+   "item": {
+    "caption": "AC2\rAC2\rAC2",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "k",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/AC2",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "AC2"
+   }
+  },
+  {
+   "caption": "RGN354\rRGN354\rRGN354",
+   "item": {
+    "caption": "RGN354\rRGN354\rRGN354",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -2.6
+       ],
+       [
+        1.8,
+        -2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        4.2
+       ],
+       [
+        0,
+        2.2
+       ],
+       [
+        2.54,
+        4.2
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/RGN354",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "RGN354"
+   }
+  },
+  {
+   "caption": "AB1\rAB1\rAB1",
+   "item": {
+    "caption": "AB1\rAB1\rAB1",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -3.74,
+        -3.0
+       ],
+       [
+        -1.34,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        -3.0
+       ],
+       [
+        -2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       -2.54,
+       -7.62
+      ],
+      "pos": [
+       -1.94,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.34,
+        -3.0
+       ],
+       [
+        3.74,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -3.0
+       ],
+       [
+        2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a'",
+      "pin": [
+       2.54,
+       -7.62
+      ],
+      "pos": [
+       3.14,
+       -8.02
+      ],
+      "text": "a'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.8,
+        1.8
+       ],
+       [
+        3.2,
+        1.8
+       ],
+       [
+        3.6,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "k",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/AB1",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "AB1"
+   }
+  },
+  {
+   "caption": "EYY13\rEYY13\rEYY13",
+   "item": {
+    "caption": "EYY13\rEYY13\rEYY13",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -3.74,
+        -3.0
+       ],
+       [
+        -1.34,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        -3.0
+       ],
+       [
+        -2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       -2.54,
+       -7.62
+      ],
+      "pos": [
+       -1.94,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.34,
+        -3.0
+       ],
+       [
+        3.74,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -3.0
+       ],
+       [
+        2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a'",
+      "pin": [
+       2.54,
+       -7.62
+      ],
+      "pos": [
+       3.14,
+       -8.02
+      ],
+      "text": "a'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        7.62
+       ],
+       [
+        -5.08,
+        1.8
+       ],
+       [
+        -0.9,
+        1.8
+       ],
+       [
+        -0.5,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        3.8
+       ],
+       [
+        -3.81,
+        3.0
+       ],
+       [
+        -2.54,
+        3.8
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -5.08,
+       3.8
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.7,
+       0.7
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k",
+      "pin": [
+       -5.08,
+       7.62
+      ],
+      "pos": [
+       -5.48,
+       7.82
+      ],
+      "text": "k",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.14,
+       7.82
+      ],
+      "text": "f",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        5.08,
+        1.8
+       ],
+       [
+        0.9,
+        1.8
+       ],
+       [
+        0.5,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.8
+       ],
+       [
+        3.81,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       3.8
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.1
+      },
+      "size": [
+       0.7,
+       0.7
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k'",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.48,
+       7.82
+      ],
+      "text": "k'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f'",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.14,
+       7.82
+      ],
+      "text": "f'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/EYY13",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "EYY13"
+   }
+  },
+  {
+   "caption": "AZ11\rAZ11\rAZ11",
+   "item": {
+    "caption": "AZ11\rAZ11\rAZ11",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -3.74,
+        -3.0
+       ],
+       [
+        -1.34,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        -3.0
+       ],
+       [
+        -2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       -2.54,
+       -7.62
+      ],
+      "pos": [
+       -1.94,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.34,
+        -3.0
+       ],
+       [
+        3.74,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -3.0
+       ],
+       [
+        2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a'",
+      "pin": [
+       2.54,
+       -7.62
+      ],
+      "pos": [
+       3.14,
+       -8.02
+      ],
+      "text": "a'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        4.2
+       ],
+       [
+        0,
+        2.2
+       ],
+       [
+        2.54,
+        4.2
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/AZ11",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "AZ11"
+   }
+  },
+  {
+   "caption": "ABC1\rABC1\rABC1",
+   "item": {
+    "caption": "ABC1\rABC1\rABC1",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -4.0
+       ],
+       [
+        1.8,
+        -4.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -4.0
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -2.54
+       ],
+       [
+        2.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -2.54
+       ],
+       [
+        -7.62,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       -7.62,
+       -2.54
+      ],
+      "pos": [
+       -7.22,
+       -4.74
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -3.8,
+        0
+       ],
+       [
+        -2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.8,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a'",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       0.4
+      ],
+      "text": "a'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.0,
+        0
+       ],
+       [
+        3.8,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.8,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a''",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       0.4
+      ],
+      "text": "a''",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.8,
+        1.8
+       ],
+       [
+        3.2,
+        1.8
+       ],
+       [
+        3.6,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "k",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/ABC1",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "ABC1"
+   }
+  },
+  {
+   "caption": "RENS1204\rRENS1204\rRENS1204",
+   "item": {
+    "caption": "RENS1204\rRENS1204\rRENS1204",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "g1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        -1.27
+       ],
+       [
+        2.0,
+        -1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        -1.27
+       ],
+       [
+        2.8,
+        -1.27
+       ],
+       [
+        2.8,
+        -2.54
+       ],
+       [
+        7.62,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g2",
+      "pin": [
+       7.62,
+       -2.54
+      ],
+      "pos": [
+       7.22,
+       -4.74
+      ],
+      "text": "g2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "k",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        3.8
+       ],
+       [
+        1.27,
+        3.0
+       ],
+       [
+        2.54,
+        3.8
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/RENS1204",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "RENS1204"
+   }
+  },
+  {
+   "caption": "KDD1\rKDD1\rKDD1",
+   "item": {
+    "caption": "KDD1\rKDD1\rKDD1",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -3.74,
+        -3.0
+       ],
+       [
+        -1.34,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        -3.0
+       ],
+       [
+        -2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       -2.54,
+       -7.62
+      ],
+      "pos": [
+       -1.94,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.34,
+        -3.0
+       ],
+       [
+        3.74,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -3.0
+       ],
+       [
+        2.54,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a'",
+      "pin": [
+       2.54,
+       -7.62
+      ],
+      "pos": [
+       3.14,
+       -8.02
+      ],
+      "text": "a'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.8,
+        0
+       ],
+       [
+        -1.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.8,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.0,
+        0
+       ],
+       [
+        3.8,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.8,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g'",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "g'",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        7.62
+       ],
+       [
+        -2.54,
+        4.2
+       ],
+       [
+        0,
+        2.2
+       ],
+       [
+        2.54,
+        4.2
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f1",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       7.82
+      ],
+      "text": "f1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f2",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       7.82
+      ],
+      "text": "f2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RO?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/KDD1",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "KDD1"
+   }
+  },
+  {
+   "caption": "Triode (zweites System)\rTriode (second system)\rTriode (deuxième système)",
+   "item": {
+    "caption": "Triode (zweites System)\rTriode (second system)\rTriode (deuxième système)",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       15.24,
+       15.24
+      ],
+      "start": 45,
+      "stop": 315,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.8,
+        -3.6
+       ],
+       [
+        1.8,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.6
+       ],
+       [
+        0,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.6,
+       -8.02
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        1.6,
+        1.8
+       ],
+       [
+        2.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        1.8
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "k",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.22
+      ],
+      "text": "k",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.62,
+       4.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Triode (zweites System)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Heizfaden\rHeater\rFilament de chauffage",
+   "item": {
+    "autoNumber": false,
+    "caption": "Heizfaden\rHeater\rFilament de chauffage",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        3.3867,
+        -1.0
+       ],
+       [
+        4.2333,
+        1.0
+       ],
+       [
+        5.08,
+        -1.0
+       ],
+       [
+        5.9267,
+        1.0
+       ],
+       [
+        6.7733,
+        -1.0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Heizfaden",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Heizfaden mit Mittelanzapfung\rHeater with centre tap\rFilament de chauffage à prise médiane",
+   "item": {
+    "caption": "Heizfaden mit Mittelanzapfung\rHeater with centre tap\rFilament de chauffage à prise médiane",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        5.08,
+        2.54
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       -0.4,
+       2.68
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.74
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.68
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.08,
+       -1.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.08,
+       1.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Heizfaden mit Mittelanzapfung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Heizfaden (Dach)\rHeater (inverted V)\rFilament de chauffage (en V inversé)",
+   "item": {
+    "caption": "Heizfaden (Dach)\rHeater (inverted V)\rFilament de chauffage (en V inversé)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        5.08,
+        2.54
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       -0.4,
+       2.68
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.68
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.08,
+       -1.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.08,
+       1.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Alt/Roehren/Heizfaden (Dach)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

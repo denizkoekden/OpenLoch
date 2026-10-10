@@ -1,0 +1,4012 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Übertragung + Aufbereitung\rTransfer + conditioning\rTransfert + conditionnement",
+ "symbols": [
+  {
+   "caption": "Behälter\rTank\rRéservoir",
+   "item": {
+    "caption": "Behälter\rTank\rRéservoir",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        -5.08
+       ],
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Behälter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Filter\rFilter\rFiltre",
+   "item": {
+    "caption": "Filter\rFilter\rFiltre",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -4.48
+       ],
+       [
+        0,
+        4.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Filter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wasserabscheider\rWater separator\rSéparateur d’eau",
+   "item": {
+    "caption": "Wasserabscheider\rWater separator\rSéparateur d’eau",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.48
+       ],
+       [
+        1.6,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Wasserabscheider",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öler\rLubricator\rLubrificateur",
+   "item": {
+    "caption": "Öler\rLubricator\rLubrificateur",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2,
+        -1.2
+       ],
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Öler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kühler\rCooler\rRefroidisseur",
+   "item": {
+    "caption": "Kühler\rCooler\rRefroidisseur",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2,
+        -1.4
+       ],
+       [
+        0,
+        -2.6
+       ],
+       [
+        1.2,
+        -1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Kühler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schalldämpfer\rSilencer\rSilencieux",
+   "item": {
+    "caption": "Schalldämpfer\rSilencer\rSilencieux",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       -4.34
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.2,
+       -6.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.2,
+       -3.14
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Schalldämpfer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Filter mit Verschmutzungsanzeige\rFilter with clogging indicator\rFiltre avec indicateur de colmatage",
+   "item": {
+    "caption": "Filter mit Verschmutzungsanzeige\rFilter with clogging indicator\rFiltre avec indicateur de colmatage",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -4.48
+       ],
+       [
+        0,
+        4.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       -6.98
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.8,
+       1.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.64,
+        -7.62
+       ],
+       [
+        0.64,
+        -6.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.64,
+        -6.34
+       ],
+       [
+        0.64,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       1.6,
+       -8.68
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Filter mit Verschmutzungsanzeige",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Filter mit Wasserabscheider\rFilter with water separator\rFiltre avec séparateur d’eau",
+   "item": {
+    "caption": "Filter mit Wasserabscheider\rFilter with water separator\rFiltre avec séparateur d’eau",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -4.48
+       ],
+       [
+        0,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.48
+       ],
+       [
+        1.6,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Filter mit Wasserabscheider",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wasserabscheider, automatisch\rWater separator, automatic drain\rSéparateur d’eau à purge automatique",
+   "item": {
+    "caption": "Wasserabscheider, automatisch\rWater separator, automatic drain\rSéparateur d’eau à purge automatique",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.48
+       ],
+       [
+        1.6,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.7,
+        3.75
+       ],
+       [
+        0,
+        4.45
+       ],
+       [
+        0.7,
+        3.75
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Wasserabscheider, automatisch",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Filter mit automatischem Wasserabscheider\rFilter with automatic water separator\rFiltre avec séparateur d’eau automatique",
+   "item": {
+    "caption": "Filter mit automatischem Wasserabscheider\rFilter with automatic water separator\rFiltre avec séparateur d’eau automatique",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -4.48
+       ],
+       [
+        0,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.48
+       ],
+       [
+        1.6,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.7,
+        3.75
+       ],
+       [
+        0,
+        4.45
+       ],
+       [
+        0.7,
+        3.75
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Filter mit automatischem Wasserabscheider",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Lufttrockner (Variante)\rAir dryer (variant)\rSécheur d’air (variante)",
+   "item": {
+    "caption": "Lufttrockner (Variante)\rAir dryer (variant)\rSécheur d’air (variante)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       1.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.4,
+       4.4
+      ],
+      "start": 200,
+      "stop": 340,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Lufttrockner (Variante)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Aufbereitungseinheit (allgemein)\rConditioning unit, general\rAppareil de conditionnement, général",
+   "item": {
+    "caption": "Aufbereitungseinheit (allgemein)\rConditioning unit, general\rAppareil de conditionnement, général",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Aufbereitungseinheit (allgemein)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Lufttrockner\rAir dryer\rSécheur d’air",
+   "item": {
+    "caption": "Lufttrockner\rAir dryer\rSécheur d’air",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        -3.48
+       ],
+       [
+        1.6,
+        -3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.48
+       ],
+       [
+        1.6,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Lufttrockner",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kühler (Variante)\rCooler (variant)\rRefroidisseur (variante)",
+   "item": {
+    "caption": "Kühler (Variante)\rCooler (variant)\rRefroidisseur (variante)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Kühler (Variante)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kühler mit Kühlmittelleitungen\rCooler with coolant lines\rRefroidisseur avec circuit de refroidissement",
+   "item": {
+    "caption": "Kühler mit Kühlmittelleitungen\rCooler with coolant lines\rRefroidisseur avec circuit de refroidissement",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        2.54
+       ],
+       [
+        -2.54,
+        6.096
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        6.096
+       ],
+       [
+        -2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        4.826
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.826
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       -2.54,
+       7.62
+      ],
+      "pos": [
+       -2.94,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       2.54,
+       7.62
+      ],
+      "pos": [
+       2.94,
+       5.42
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Kühler mit Kühlmittelleitungen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Erhitzer\rHeater\rRéchauffeur",
+   "item": {
+    "caption": "Erhitzer\rHeater\rRéchauffeur",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -0.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        0.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Erhitzer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Temperaturregler\rTemperature controller\rRégulateur de température",
+   "item": {
+    "caption": "Temperaturregler\rTemperature controller\rRégulateur de température",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        -7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        -0.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Temperaturregler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftbehälter (liegend)\rAir receiver, horizontal\rRéservoir d’air horizontal",
+   "item": {
+    "caption": "Druckluftbehälter (liegend)\rAir receiver, horizontal\rRéservoir d’air horizontal",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.62,
+        0
+       ],
+       [
+        -5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        7.62,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       -7.62,
+       0
+      ],
+      "pos": [
+       -7.22,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       7.22,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       3.14
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Druckluftbehälter (liegend)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckregler mit Manometer\rPressure regulator with gauge\rRégulateur de pression avec manomètre",
+   "item": {
+    "caption": "Druckregler mit Manometer\rPressure regulator with gauge\rRégulateur de pression avec manomètre",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       7.62,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.04,
+        0
+       ],
+       [
+        9.66,
+        0
+       ]
+      ],
+      "startEnd": "arrow",
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        -2.54
+       ],
+       [
+        5.63,
+        -3.08
+       ],
+       [
+        7.07,
+        -3.62
+       ],
+       [
+        5.63,
+        -4.16
+       ],
+       [
+        7.07,
+        -4.7
+       ],
+       [
+        5.63,
+        -5.24
+       ],
+       [
+        6.35,
+        -5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.75,
+        -2.94
+       ],
+       [
+        8.15,
+        -6.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.43,
+        0
+       ],
+       [
+        11.43,
+        3.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.43,
+        3.74
+       ],
+       [
+        8.128,
+        3.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.128,
+        3.74
+       ],
+       [
+        8.128,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        17.78,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.97,
+        0
+       ],
+       [
+        13.97,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       13.97,
+       -4.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       13.97,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.8,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.866,
+        -3.244
+       ],
+       [
+        13.074,
+        -5.036
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        2.54
+       ],
+       [
+        5.08,
+        4.445
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        4.445
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       17.78,
+       0
+      ],
+      "pos": [
+       17.38,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.51,
+       -7.68
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       16.51,
+       -4.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Druckregler mit Manometer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wartungseinheit (ausführlich)\rAir service unit, detailed\rUnité de conditionnement, détaillée",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wartungseinheit (ausführlich)\rAir service unit, detailed\rUnité de conditionnement, détaillée",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        5.08,
+        -3.048
+       ],
+       [
+        8.128,
+        0
+       ],
+       [
+        5.08,
+        3.048
+       ],
+       [
+        2.032,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        21.844,
+        -3.048
+       ],
+       [
+        24.892,
+        0
+       ],
+       [
+        21.844,
+        3.048
+       ],
+       [
+        18.796,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -2.548
+       ],
+       [
+        5.08,
+        1.848
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.88,
+        1.848
+       ],
+       [
+        6.28,
+        1.848
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.048
+       ],
+       [
+        5.08,
+        5.648
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        21.844,
+        -3.048
+       ],
+       [
+        21.844,
+        -1.848
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       12.7,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.66,
+        0
+       ],
+       [
+        14.74,
+        0
+       ]
+      ],
+      "startEnd": "arrow",
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        -2.54
+       ],
+       [
+        11.98,
+        -3.08
+       ],
+       [
+        13.42,
+        -3.62
+       ],
+       [
+        11.98,
+        -4.16
+       ],
+       [
+        13.42,
+        -4.7
+       ],
+       [
+        11.98,
+        -5.24
+       ],
+       [
+        12.7,
+        -5.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.1,
+        -2.94
+       ],
+       [
+        14.5,
+        -6.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.51,
+        0
+       ],
+       [
+        16.51,
+        3.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.51,
+        3.74
+       ],
+       [
+        13.208,
+        3.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.208,
+        3.74
+       ],
+       [
+        13.208,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.96,
+        -1.397
+       ],
+       [
+        10.16,
+        -1.997
+       ],
+       [
+        10.16,
+        -0.797
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       17.78,
+       -4.14
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       17.78,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.8,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        18.676,
+        -3.244
+       ],
+       [
+        16.884,
+        -5.036
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.032,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.128,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0
+       ],
+       [
+        18.796,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        24.892,
+        0
+       ],
+       [
+        27.94,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       13.97,
+       -1.541
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       25.4,
+       11.718
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       27.94,
+       0
+      ],
+      "pos": [
+       27.54,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       1.27,
+       -10.8
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -10.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Übertragung + Aufbereitung/Wartungseinheit (ausführlich)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

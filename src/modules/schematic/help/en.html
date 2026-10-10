@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>OpenLoch – Schematic</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+h3{font-size:14px;margin-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>Schematic – Help</h1>
+<p>The schematic editor draws circuit diagrams made of sheets, components with contacts, texts and graphics. The nets are derived from the drawing. Files are saved in the program's own format (<b>.olsch</b>); sPlan 7 and 8 files (<b>.spl7</b>, <b>.spl8</b>) can be opened and written back.</p>
+<p><a href="#overview">Overview</a> · <a href="#sheets">Sheets</a> · <a href="#frame">Sheet frame</a> · <a href="#draw">Drawing</a> · <a href="#edit">Editing</a> · <a href="#snap">Snapping and magnet lines</a> · <a href="#parts">Components and library</a> · <a href="#lists">Lists</a> · <a href="#text">Texts and variables</a> · <a href="#links">Text links</a> · <a href="#parent">Parent and child</a> · <a href="#find">Find and replace</a> · <a href="#images">Images</a> · <a href="#settings">Settings and templates</a> · <a href="#output">Output</a> · <a href="#splan">sPlan files</a> · <a href="#keys">Keyboard</a></p>
+
+<h2 id="overview">Overview</h2>
+<p>The <b>library</b> is on the left, next to it the <b>mode bar</b> (Standard, Line, Solder dot, Rectangle, Circle, Polygon, Text, Text block, Net name, Sheet reference, Zoom; in the component editor also Contact). The sheet with its rulers is in the middle, with the sheet tabs below it (including &quot;Go to sheet&quot; and &quot;Quickly add sheet&quot;). On the right the <b>Properties panel</b> shows the properties of the selection or, with nothing selected, of the sheet and its sheet frame. Every change is an undo step.</p>
+<p>The toolbar at the top holds New, Open, Save, Undo, Redo, Cut, Copy, Paste, Duplicate, Delete, Bring to front, Send to back, Rotate, the two mirror functions, Group, Ungroup, Align, Grid, Zoom, Sheet frame, Component editor, Search, Renumber and Parts list, and at its right the switches for the <b>sheet list</b> and the <b>Properties panel</b> and, while there are any, the <b>Problems</b> button. The menus are File, Component editor (only while a component is being edited), Edit, Sheet, Sheet frame, Functions, Component, Settings and Help. The File menu lists the eight most recently opened files before &quot;Exit&quot;.</p>
+<p>The Properties panel and the sheet list can be shown or hidden and set free as windows of their own by their title bars. The <b>sheet list</b> shows the sheets one below the other with number and name: a click picks a sheet, dragging a number reorders, the context menu offers properties, delete, a new sheet or a copy (here, as first or as last sheet); below it is &quot;Insert table of contents…&quot;.</p>
+<p><b>Problems:</b> when elements lie wholly outside the sheet or pictures have more than 300 dpi, the &quot;Problems&quot; button appears. Its dialog deletes the elements outside or moves them to the sheet&#39;s edge, and opens the Bitmap-Explorer for the pictures.</p>
+<p>The <b>status bar</b> shows coordinates, distance from the last click, scale, grid and zoom, plus the switches for grid snap, angle snap, connection snap, rubber band, rotation snap and text behaviour. Clicking the scale opens the sheet properties; clicking grid or zoom opens their lists.</p>
+<p><b>Zoom:</b> in zoom mode a click zooms in and centres that spot, a dragged rectangle zooms to its area, the right mouse button zooms out. The mouse wheel zooms as well. To pan, hold the middle mouse button, or double-click an empty spot and keep the button pressed. <b>F5</b> shows the whole sheet, <b>F6</b> all elements, <b>F7</b> the selection; <b>F11</b> switches to full-screen view.</p>
+<p><b>Right mouse button:</b> it ends a line or polygon; a second click switches to standard mode. In standard mode it opens the context menu: on a node with &quot;Remove node&quot; and &quot;Split line&quot;, at the end of a line that touches another with &quot;Join lines&quot;. For lines, polygons, Bézier curves, rectangles and circles it also offers &quot;Convert to line&quot;, &quot;Convert to polygon&quot; and &quot;Convert to curve&quot;. Double-clicking a component opens the component editor, double-clicking a text opens the extended text input.</p>
+
+<h2 id="sheets">Sheets</h2>
+<ul>
+<li>A document has any number of sheets, each with a name, description, size (Free, A0 to A5, B4, B5, C3 to C5, Letter, Legal; landscape or portrait) and scale (&quot;1 mm =&quot; 0.1 to 1000 mm, cm, m or km; &quot;Reset&quot; sets 1 mm). Dimensions, measuring, rulers, the coordinates and the grid in the status bar show lengths multiplied by this factor.</li>
+<li>The <b>Spare sheet</b> switch excludes a sheet when all or selected sheets are printed.</li>
+<li>Insert sheets (before or after a sheet, as first or last, several at once), append quickly (&quot;+&quot; at the tabs: an empty sheet or a copy of a sheet), copy, delete and sort (in the dialog or by dragging the tabs). &quot;Go to sheet&quot; picks a sheet directly.</li>
+<li><b>Save sheet</b> writes the current sheet to a file of its own, optionally as an sPlan sheet file (<b>.blt</b>); what would be lost is shown first. <b>Load sheet</b> inserts the sheets of a file after the current sheet.</li>
+</ul>
+
+<h2 id="frame">Sheet frame</h2>
+<p>Every sheet has a sheet frame: a border with margin, optionally divided into columns (1, 2, 3 …) and rows (A, B, C …) with a grid, and elements of its own such as a title block with sheet name and sheet number. It lies behind the circuit and is edited in a mode of its own (<b>Edit sheet frame</b>).</p>
+<ul>
+<li><b>Generate sheet frame</b> creates the border from the sheet's values (&quot;Sheet frame&quot; section of the properties; a sheet without a border gets one 10 mm inside). Each side is labelled with nothing (&quot;---&quot;), numbers (&quot;NUM&quot;) or letters (&quot;CHAR&quot;, continuing with AA after Z), in a font and height of your choice; a title block can be added on request.</li>
+<li><b>Load sheet frame</b> and <b>Save sheet frame</b> read and write sheet frame files (<b>.sbk</b>).</li>
+</ul>
+
+<h2 id="draw">Drawing</h2>
+<p>The drawing modes have keys (see <a href="#keys">Keyboard</a>). While a drawing mode is selected and nothing is marked, the panel shows its &quot;preset&quot;, which new elements receive. <b>Settings › Presets</b> shows each preset (line, area, dimension, junction, text, text block and the component texts designator, value and contact) in the panel without changing the drawing mode; designator and value apply to &quot;Make component from selection&quot;, the contact to new contacts in the component editor.</p>
+<p><b>In the panel:</b> the position refers to a reference point (a corner or the centre) in the sheet&#39;s scale. Without &quot;Treat as group&quot; each selected element puts its own reference point on the value typed, and &quot;Align&quot; offers the alignments; with the tick the selection moves as one block. For a selection of different kinds a list at the top shows the number of each kind; choosing kinds there makes the panel show and change only those. Junctions with &quot;Automatic&quot; take size and colour from the widest line under them (step XS to XL); &quot;Reset&quot; sets 1.2 mm black. &quot;Normalise&quot; sets texts upright again, &quot;Reverse writing direction&quot; turns a text by 180° within its frame.</p>
+<ul>
+<li><b>Lines</b> with any number of nodes and selectable line ends (triangle, arrow, open arrow, circle, dot, diamond, square, cross stroke, reversed arrow and triangle). <b>Solder dots</b> mark junctions.</li>
+<li><b>Rectangles</b> (square, rounded, chamfered), <b>circles and ellipses</b> (full, arc, pie, chord), <b>polygons</b>. Rectangles and ellipses are dragged from a corner or from the centre (choice at the triangle on the tool button); with Shift held you get a square or circle. Corner rounding and arc ends can be changed with round handles.</li>
+<li><b>Bézier curves</b> are made click by click (start point, two control points, end point; for each further curve two control points and an end point); the right mouse button finishes. <b>Freehand lines</b> are drawn with the mouse button held.</li>
+<li><b>Texts</b>, <b>text blocks</b> (text in a frame with line wrapping), <b>net names</b> and <b>groups</b>.</li>
+<li><b>Outline:</b> colour, width and five dash styles, or no outline. Optionally two-coloured, with a longitudinal or cross stripes, each with its own colour. <b>Fill:</b> solid or hatched (horizontal, vertical, diagonal, crosshatch) with line spacing and line width.</li>
+<li><b>Special shapes</b> shows a list: polygon and star, grid, waveform (sine, square, trapezoid, triangle, sawtooth), curly and round bracket, triangle, right triangle, quadrilateral, diamond, parallelogram, hexagon, octagon, arrows, speech bubble and lightning bolt. The shape fills the dragged rectangle and afterwards consists of ordinary elements.</li>
+<li><b>Dimension</b> (key <span class="key">B</span>; type from the list on the button: Standard, Radial, Diameter, Angle): measure a distance with two clicks and a third for the position of the dimension line, a radius or diameter with two clicks, an angle with the vertex and one point on each leg. The right mouse button cancels. The dimension value is the length times the sheet scale, with 0 to 3 decimals, optionally with a point instead of a comma, Ø, prefix and suffix, or a fixed number. <b>Fix dimension</b> (Functions, context menu) turns the displayed number into a fixed value, <b>Release dimension</b> measures again. The handle in the middle of the dimension line moves it.</li>
+<li><b>Measure</b> shows length, dX, dY and angle while the mouse button is held.</li>
+</ul>
+
+<h2 id="edit">Editing</h2>
+<ul>
+<li><b>Selecting:</b> click, Shift- or Ctrl-click and dragging a rectangle (this also catches elements that lie only partly inside). <span class="key">Tab</span> selects the next element, <span class="key">Shift+Tab</span> the previous one.</li>
+<li><b>Resizing:</b> eight handles around the selection stretch it. Another click on a selected element turns the handles into arrows: the corner arrows rotate about the centre (in rotation-snap steps, <span class="key">Ctrl</span> rotates freely), the side arrows shear.</li>
+<li><b>Moving</b> with the mouse or arrow keys (one grid step, with <span class="key">Ctrl</span> 0.1 mm, with <span class="key">Shift</span> ten grid steps). Nodes and corners can be dragged; dragging with <span class="key">Alt</span> moves a single segment of a line or polygon. New nodes are dragged from the blue &quot;virtual nodes&quot; in the middle of each section; removing nodes and splitting or joining lines are in the context menu.</li>
+<li>Rotate by 90° or an angle, scale by a percentage, mirror horizontally and vertically, recolour elements (<span class="key">Ctrl+Alt+C</span>), set line width or change it by a percentage, group, change the order (to front, to back, one forward, one back).</li>
+<li><b>Align to grid</b> puts the reference point of each selected element on the grid. <b>Align</b> (top, bottom, left, right, centred) and <b>distribute evenly</b> work on the bounds of the selection.</li>
+<li>Cut, copy, paste, duplicate; undo and redo.</li>
+<li>For a selected line, curve or polygon the panel shows the length (in sheet scale) and number of nodes.</li>
+</ul>
+
+<h2 id="snap">Snapping and magnet lines</h2>
+<ul>
+<li><b>Grid snap</b> (<span class="key">Ctrl</span> releases it), <b>angle snap</b> in 45° steps while drawing lines (<span class="key">Shift</span> turns it off), <b>connection snap</b> to line nodes, solder dots and contact terminals with a red circle (<span class="key">Alt</span> turns it off) and <b>rubber band</b>: wires ending at a moved component follow it.</li>
+<li><b>Magnet lines</b> are vertical and horizontal guide lines per sheet that attract within 8 pixels when moving, drawing and placing; they are neither printed nor exported. New lines are created with <b>Functions › Magnet lines</b> or by dragging from a ruler. Drag a line to move it, click it to select it and press Delete to remove it, or drag it back onto a ruler. &quot;Lock magnet lines&quot; protects them against changes, &quot;Hide magnet lines&quot; hides them together with their attraction. There are no magnet lines in the component editor.</li>
+</ul>
+
+<h2 id="parts">Components and library</h2>
+<h3>Components</h3>
+<p>A component is a group of drawing elements with an insertion point, designator, value, four additional texts and contacts (labelled terminals). Designator and value can be shown or hidden; there are switches for automatic numbering, asking for the value when dragging in, and inclusion in the parts list.</p>
+<ul>
+<li>Components come from the library or from <b>Create component from selection</b> and can be dissolved again.</li>
+<li>The <b>component editor</b> (<span class="key">Alt+Enter</span> or double-click; &quot;Save and exit&quot; or &quot;Cancel&quot;) edits a component. The red insertion point is dragged with the mouse to another grid point.</li>
+<li><b>Component labelling</b> (Component menu) sets font, height, bold and italic for designators, values and contacts in the whole project, on the current sheet, for selected components or on the chosen custom library page.</li>
+<li><b>Renumber components</b> (Functions menu) numbers components with &quot;automatic numbering&quot; consecutively per letter sequence across the chosen sheets, in element order, column-wise or row-wise, optionally only selected components or only one designator, from a start value.</li>
+<li>The texts of an unselected component (designator, value, contacts) can be dragged one by one in grid steps. The context menu also offers &quot;Move component text&quot;: the text follows the mouse pointer, a click drops it, <span class="key">Esc</span> or the right mouse button puts it back.</li>
+</ul>
+<h3>Library</h3>
+<ul>
+<li>The library on the left holds pages of components and clips (groups): bundled symbols following DIN EN 60617, ISO 1219 and manufacturer documents, the pages of an sPlan library (<b>.LIB</b>) and custom pages in the library folder. Names and captions appear in the language of the interface.</li>
+<li>Above the library the chosen page is shown as a path (&quot;Electrical &gt; Antennas&quot;). A click opens the menu of its folder level with &quot;&lt;---&quot; (one level back), the folders and pages; the button next to it shows all pages as a tree. Columns (one to eight), captions, previous and next page and the search (caption, designator or value in all pages) are below.</li>
+<li>Components are dragged onto the sheet, or clicked and then placed; <span class="key">Ctrl+R</span> rotates them meanwhile.</li>
+<li>The library context menu edits custom pages: properties, new component, duplicate, delete, new page, new subfolder, copy, rename, empty, reorder components by dragging. Under &quot;Extras&quot; there are <b>Create backup…</b> (ZIP archive of the library folder) and <b>Restore backup…</b>. Pages that cannot be changed are display-only.</li>
+<li><b>Copy component(s) to library</b> and <b>Copy as clip to library</b> take components or the selection from the sheet. <b>Copy to sheet</b> creates a new sheet with the symbols for one or all pages of a level.</li>
+</ul>
+
+<h2 id="lists">Lists</h2>
+<ul>
+<li><b>Create parts list</b> shows the components marked &quot;Include in parts list&quot; on the chosen sheets in an editable table, grouped by the letters of their designators (alphabetically or largest group first), identical components optionally in one row (&quot;R1,R2,R3&quot;, 3, &quot;1k&quot;), with columns for the additional texts. It can be printed, copied to the clipboard, saved and opened as an RTF file, exported as a text file (semicolon or tab) and placed on the sheet as a table of texts and lines (font, frame, shadow, separators, alternating rows; long lists wrap into side-by-side tables).</li>
+<li>The parts list window sets the font (6 to 48 pt) for the list, printing and RTF, as well as print margins and portrait or landscape; the export shows a preview, &quot;?&quot; opens this help.</li>
+<li><b>Create contact list</b> lists all contacts with sheet, component, text and name; a double-click jumps to the component, the list goes to the clipboard.</li>
+<li><b>Insert table of contents</b> places the chosen sheets with number and name as a table on the current sheet.</li>
+<li><b>Create link list</b> (Functions) lists all text links, <b>Create parent-child list</b> all parents with their children (see below).</li>
+</ul>
+
+<h2 id="text">Texts and variables</h2>
+<p>In texts, text blocks and component texts, variables stand in angle brackets and are replaced by their value. The <b>extended text input</b> (double-click a text, or &quot;…&quot; in the panel) inserts them via &quot;Insert fixed variable&quot;; &quot;Insert user variable&quot; and &quot;Insert text constant&quot; offer your own values, each with &quot;Define…&quot;. &quot;Ω&quot; opens the special characters (also with <span class="key">Ctrl+Ins</span>); a double-click inserts a character.</p>
+<table>
+<tr><td class="key">&lt;PAGENO&gt;</td><td>Number of the sheet</td></tr>
+<tr><td class="key">&lt;PAGECOUNT&gt;</td><td>Number of sheets</td></tr>
+<tr><td class="key">&lt;PAGENAME&gt;</td><td>Name of the sheet</td></tr>
+<tr><td class="key">&lt;PAGESCALE&gt;</td><td>How many millimetres one millimetre of the sheet represents, as a number (for example &quot;2.5&quot;)</td></tr>
+<tr><td class="key">&lt;PREVIOUS_PAGENO&gt;<br>&lt;NEXT_PAGENO&gt;</td><td>Number of the previous or next sheet that is not a spare sheet, otherwise &quot;-&quot;</td></tr>
+<tr><td class="key">&lt;FILENAME&gt;</td><td>File name</td></tr>
+<tr><td class="key">&lt;FILENAME_PURE&gt;</td><td>File name without extension</td></tr>
+<tr><td class="key">&lt;FILEPATH&gt;</td><td>Path of the file</td></tr>
+<tr><td class="key">&lt;FILEDATE&gt;<br>&lt;FILETIME&gt;</td><td>Date and time of the file</td></tr>
+<tr><td class="key">&lt;DATE&gt;<br>&lt;TIME&gt;</td><td>Current date and time</td></tr>
+<tr><td class="key">&lt;VERSION&gt;</td><td>Version</td></tr>
+<tr><td class="key">&lt;BEZ&gt;, &lt;ID&gt;</td><td>Designator of the component (only in components)</td></tr>
+<tr><td class="key">&lt;WERT&gt;, &lt;VALUE&gt;, &lt;VALEUR&gt;</td><td>Value of the component</td></tr>
+<tr><td class="key">&lt;Z1&gt; to &lt;Z4&gt;</td><td>The four additional texts of the component</td></tr>
+<tr><td class="key">&lt;COLNUM&gt;, &lt;COLCHAR&gt;<br>&lt;ROWNUM&gt;, &lt;ROWCHAR&gt;</td><td>Column and row of the sheet-frame grid in which the component lies, as number or letter</td></tr>
+<tr><td class="key">&lt;PARENT_ID&gt;, &lt;PARENT_VALUE&gt;</td><td>Designator and value of the parent (see Parent and child)</td></tr>
+<tr><td class="key">&lt;PARENT_ID_NUMBER&gt;</td><td>The digits at the end of the parent's designator as a number, without leading zeros</td></tr>
+<tr><td class="key">&lt;PARENT_PAGENO&gt;<br>&lt;PARENT_PAGENAME&gt;</td><td>Sheet number and sheet name of the parent</td></tr>
+<tr><td class="key">&lt;PARENT_Z1&gt; to &lt;PARENT_Z4&gt;<br>&lt;PARENT_CONTACT_n&gt;<br>&lt;PARENT_COLNUM&gt; etc.</td><td>Additional texts, contact n and grid position of the parent</td></tr>
+<tr><td class="key">&lt;CHILDNO&gt;, &lt;CHILDCHAR&gt;</td><td>Number of the child (1, 2, 3 or a, b, c)</td></tr>
+<tr><td class="key">&lt;CHILD_PAGENO&gt;, &lt;CHILD_PAGENAME&gt;<br>&lt;CHILD_COLNUM&gt; etc.</td><td>Data of a parent's first child; with <span class="key">_n</span> appended (for example &lt;CHILD_PAGENO_2&gt;) those of the nth</td></tr>
+<tr><td class="key">&lt;LINK_PAGENO&gt;, &lt;LINK_PAGENAME&gt;<br>&lt;LINK_TEXT&gt;, &lt;LINK_COLNUM&gt; etc.</td><td>Data of the link target of a text</td></tr>
+<tr><td class="key">&lt;LINKFROM_PAGENO&gt;<br>&lt;LINKFROM_PAGENAME&gt;<br>&lt;LINKFROM_TEXT&gt;</td><td>Data of the first text that points to this text</td></tr>
+</table>
+<p><b>User variables</b> belong to the document and are maintained in the dialog with &quot;New row&quot; and &quot;Delete row&quot;; a name that appears twice regardless of upper or lower case is rejected. <b>Text constants</b> are ready-made texts that the text input inserts.</p>
+<h3>Designators with page number and prefix</h3>
+<p>If &quot;Components with page number&quot; is switched on under <b>Settings › Basic settings</b>, every component without a parent shows its designator as prefix, sheet number and designator, without separator: prefix &quot;=A-&quot;, sheet 2, designator R1 gives &quot;=A-2R1&quot;. If the component moves to another sheet or the sheet order changes, the number changes with it. The designator as entered stays stored. Children take their parent's designator with prefix and sheet number through <span class="key">&lt;PARENT_ID&gt;</span>. The parts list and a search with resolved variables use the extended designator.</p>
+
+<h2 id="links">Text links</h2>
+<p>A text can carry an external link (web address or file; it appears underlined, a double-click opens it after a confirmation) or point to another text that has been released as a target, also on another sheet. A double-click or <span class="key">F8</span> follows the link. On screen, targets carry an inward arrow on the left, links an outward arrow on the right. Link, target and release are set in the Properties panel; a target lists the texts that point to it.</p>
+
+<h2 id="parent">Parent and child</h2>
+<p>A component with parent status accepts children, a child names its parent, also across sheets (for example a contactor and its contacts, or an IC and its gates). Children are numbered in the order of the sheets and their elements and show the data of their parent through the <span class="key">&lt;PARENT_…&gt;</span> variables; a parent shows the data of its children through the <span class="key">&lt;CHILD_…&gt;</span> variables.</p>
+<ul>
+<li>In the Properties panel a component gets parent status (<b>Set PARENT status</b>); selected components are bound to a parent with <b>Link to PARENT…</b> (designator and value then become <span class="key">&lt;PARENT_ID&gt;</span> and <span class="key">&lt;PARENT_VALUE&gt;</span>). Link and status can be removed again.</li>
+<li>A parent lists its children, a child its parent; a double-click jumps there, also to another sheet.</li>
+<li>When a parent and its children are copied together (paste, duplicate, copy or load sheet), the copied children belong to the copied parent. A whole structure (for example a 7400 with its four gates) goes into the library as a clip and gets the next free number for each parent when placed.</li>
+<li><b>Colour parent/child components</b> shades parents light blue and children light red.</li>
+<li><b>Create parent-child list</b> (Functions menu) shows all parents with their children, optionally only for the current sheet and with contacts.</li>
+<li><b>Create child list (contact mirror)</b> in a parent's panel (also in the context menu) places a table of its children on the sheet: columns of your choice in an order set by dragging (designator, contacts, value, sheet number, sheet name, grid position, reference), with font, frame, shadow, separators and a preview.</li>
+</ul>
+
+<h2 id="find">Find and replace</h2>
+<p><b>Edit › Find/Replace</b> (<span class="key">Ctrl+F</span>) shows a panel on the right. You can search components by designator and value, or texts (including text blocks and net names), on the current or all sheets, with or without case sensitivity, with resolved variables or as written, optionally only parts-list components. Part of the text is enough. Hits are listed by sheet under &quot;All sheets&quot;; a click shows the element. <b>Replace -&gt;</b> replaces in the chosen element, on the chosen sheet or on all sheets, undoable in one step.</p>
+
+<h2 id="images">Images</h2>
+<p><b>Insert image from file</b> (PNG, JPEG, BMP; also the &quot;Bitmap&quot; mode, key <span class="key">F</span>) places an image with one click. The panel shows size, pixels, memory use and resolution, and offers &quot;Reduce resolution&quot;, &quot;Rotate bitmap 90°&quot;, &quot;Normalize&quot; (height from width in the image's proportions) and &quot;Lighten&quot;. The <b>Bitmap explorer</b> (Functions menu) lists the images by sheet, memory use or resolution and reduces the chosen or all images above a maximum resolution (100 to 900 dpi).</p>
+
+<h2 id="settings">Settings and templates</h2>
+<ul>
+<li><b>Settings › Basic settings</b> shows a list of pages on the left. &quot;Basic settings&quot; holds the options of the drawing itself, which are saved with the file: &quot;Sheets with page number&quot; (tabs shown as &quot;1: Name&quot;), &quot;Components with page number&quot; with prefix, and the modifier key needed to move component texts (Alt, Shift+Alt, Ctrl+Alt or Meta).</li>
+<li>Further pages: &quot;Display&quot; (white background), &quot;Directories&quot; (working folders for drawings, sheet frames and graphics export, folders for templates and sheet frames), &quot;Library&quot; (root directory), &quot;Grid&quot; (contrast, grid marks, dot or line grid, grid above the sheet frame), &quot;Autosave&quot; (a &quot;Name.bak&quot; copy every n minutes; a &quot;Backup_of_Name&quot; copy on opening), &quot;New sheet&quot; (format, size, grid and sheet frame for new documents and sheets) and &quot;Hotkeys&quot; (keys of the drawing modes, with &quot;Restore defaults&quot;).</li>
+<li><b>New from template…</b> opens a schematic from the template folder as a new, unsaved document; <b>Save as template…</b> stores the document there. <b>Explorer…</b> shows the document's folder in the file manager.</li>
+</ul>
+
+<h2 id="output">Output</h2>
+<h3>Export</h3>
+<p><b>Export…</b> first asks for the file format (JPG, PNG, BMP, EMF, SVG, PDF), resolution (slider 20 to 300 dpi, number field up to 2400 dpi, with original size and image size), colour or B/W, &quot;Transparent&quot; (PNG, SVG, EMF) and selection, then for the file. What is exported:</p>
+<ul>
+<li>the current sheet,</li>
+<li><b>All elements</b>: the bounding rectangle of all elements plus 4 mm around it, with the sheet frame,</li>
+<li><b>Selected elements only</b>: their rectangle plus 4 mm,</li>
+<li><b>All sheets</b> (with several sheets): each into its own file with the sheet number appended, spare sheets excluded; as PDF a single file.</li>
+</ul>
+<p>SVG and EMF are vector formats in hundredths of a millimetre; PDF is written as vector graphics, each sheet as a page of its size.</p>
+<h3>Clipboard</h3>
+<p><b>Clipboard…</b> (<span class="key">Ctrl+B</span>) asks for the resolution (75, 150 or 300 dpi) and &quot;Everything&quot; or &quot;Selection&quot; and puts the elements (with the sheet frame) or the selected elements plus 4 mm around them on the clipboard as an image.</p>
+<h3>Printing and print preview</h3>
+<p>Printing opens a print preview with printer and &quot;Setup…&quot; (or a PDF file), the paper with its printable area, and the drawing, which can be moved with the mouse. Per sheet there are:</p>
+<ul>
+<li><b>Scaling</b> 1:1 or free (10 to 800 %),</li>
+<li><b>Offset</b> with &quot;Reset&quot; in four kinds (sheet to paper edge, sheet to printable area, printout to paper edge, printout to printable area),</li>
+<li><b>Sheet format</b> (automatic, portrait, landscape) and <b>banner printing</b> across several pages with overlap,</li>
+<li><b>Fit</b> (scales the content to 98 % of the printable area and centres it) and <b>Centre</b>, for one or all sheets, and applying a setting to all sheets.</li>
+</ul>
+<p>The current sheet, all sheets or a selection are printed; spare sheets are skipped. Sheets whose drawing leaves the printable area are marked &quot;[!]&quot; in the sheet bar and counted as &quot;Sheets clipped: n&quot;; the print button then turns red.</p>
+
+<h2 id="splan">sPlan files</h2>
+<ul>
+<li><b>.spl8</b> and <b>.spl7</b> files can be opened. A preview tells you what OpenLoch shows differently or leaves out.</li>
+<li>Saving writes back into the sPlan file as long as nothing is lost.</li>
+<li>Your own schematics can be exported as sPlan 8 or sPlan 7; a list shows beforehand what would be lost.</li>
+<li>sPlan sheet files (<b>.blt</b>), sheet frames (<b>.sbk</b>) and libraries (<b>.LIB</b>) are read as well.</li>
+</ul>
+
+<h2 id="keys">Keyboard</h2>
+<table>
+<tr><td class="key">L, P, R, K, O</td><td>Line, solder dot, rectangle, circle, polygon</td></tr>
+<tr><td class="key">U, H, S</td><td>Bézier curve, freehand line, special shapes</td></tr>
+<tr><td class="key">T, E</td><td>Text, text block</td></tr>
+<tr><td class="key">B, M, Z, F</td><td>Dimension, measure, zoom, bitmap</td></tr>
+<tr><td class="key">Esc</td><td>Standard mode</td></tr>
+<tr><td class="key">F1</td><td>Help</td></tr>
+<tr><td class="key">F5, F6, F7</td><td>Zoom to sheet, all elements, selection</td></tr>
+<tr><td class="key">F8</td><td>Follow text link</td></tr>
+<tr><td class="key">F11</td><td>Full-screen view</td></tr>
+<tr><td class="key">Tab, Shift+Tab</td><td>Select next, previous element</td></tr>
+<tr><td class="key">Arrow keys</td><td>Move the selection by one grid step; <span class="key">Ctrl</span> 0.1 mm, <span class="key">Shift</span> ten grid steps</td></tr>
+<tr><td class="key">Ctrl+Alt+C</td><td>Recolour elements</td></tr>
+<tr><td class="key">Ctrl+F</td><td>Find/Replace</td></tr>
+<tr><td class="key">Ctrl+B</td><td>Clipboard (image)</td></tr>
+<tr><td class="key">Ctrl+R</td><td>Rotate component while placing</td></tr>
+<tr><td class="key">Ctrl+Ins</td><td>Special characters in the text input</td></tr>
+<tr><td class="key">Alt+Enter</td><td>Component editor</td></tr>
+<tr><td class="key">Ctrl, Shift, Alt</td><td>While drawing: release grid snap, angle snap, connection snap</td></tr>
+</table>
+<p>The keys of the drawing modes can be changed under <b>Settings › Basic settings › Hotkeys</b>.</p>
+</body>
+</html>

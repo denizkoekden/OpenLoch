@@ -1,0 +1,1947 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Zylinder\rCylinders\rVérins",
+ "symbols": [
+  {
+   "caption": "Einfachwirkender Zylinder, Federrückstellung\rSingle-acting cylinder, spring return\rVérin simple effet, rappel par ressort",
+   "item": {
+    "caption": "Einfachwirkender Zylinder, Federrückstellung\rSingle-acting cylinder, spring return\rVérin simple effet, rappel par ressort",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.48,
+        -4.48
+       ],
+       [
+        6.48,
+        -0.6
+       ],
+       [
+        7.88,
+        -4.48
+       ],
+       [
+        9.28,
+        -0.6
+       ],
+       [
+        10.68,
+        -4.48
+       ],
+       [
+        12.08,
+        -0.6
+       ],
+       [
+        13.48,
+        -4.48
+       ],
+       [
+        14.88,
+        -0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Einfachwirkender Zylinder, Federrückstellung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Doppeltwirkender Zylinder\rDouble-acting cylinder\rVérin double effet",
+   "item": {
+    "caption": "Doppeltwirkender Zylinder\rDouble-acting cylinder\rVérin double effet",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       17.78,
+       2.54
+      ],
+      "pos": [
+       18.28,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Doppeltwirkender Zylinder",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Doppeltwirkender Zylinder, durchgehende Kolbenstange\rDouble-acting cylinder, through rod\rVérin double effet, tige traversante",
+   "item": {
+    "caption": "Doppeltwirkender Zylinder, durchgehende Kolbenstange\rDouble-acting cylinder, through rod\rVérin double effet, tige traversante",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        -5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       17.78,
+       2.54
+      ],
+      "pos": [
+       18.28,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Doppeltwirkender Zylinder, durchgehende Kolbenstange",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Doppeltwirkender Zylinder mit Endlagendämpfung\rDouble-acting cylinder with cushioning\rVérin double effet amorti",
+   "item": {
+    "caption": "Doppeltwirkender Zylinder mit Endlagendämpfung\rDouble-acting cylinder with cushioning\rVérin double effet amorti",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       17.78,
+       2.54
+      ],
+      "pos": [
+       18.28,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       4.38,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       3.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       18.82,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       3.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Doppeltwirkender Zylinder mit Endlagendämpfung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Doppeltwirkender Zylinder mit Magnetkolben\rDouble-acting cylinder with magnetic piston\rVérin double effet à piston magnétique",
+   "item": {
+    "caption": "Doppeltwirkender Zylinder mit Magnetkolben\rDouble-acting cylinder with magnetic piston\rVérin double effet à piston magnétique",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       17.78,
+       2.54
+      ],
+      "pos": [
+       18.28,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.08,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       1.4,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       -2.54
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.7,
+       3.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Doppeltwirkender Zylinder mit Magnetkolben",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Doppeltwirkender Zylinder mit Endlagendämpfung (einseitig)\rDouble-acting cylinder with cushioning on one side\rVérin double effet amorti d’un côté",
+   "item": {
+    "caption": "Doppeltwirkender Zylinder mit Endlagendämpfung (einseitig)\rDouble-acting cylinder with cushioning on one side\rVérin double effet amorti d’un côté",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       17.78,
+       2.54
+      ],
+      "pos": [
+       18.28,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       4.38,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       3.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Doppeltwirkender Zylinder mit Endlagendämpfung (einseitig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Doppeltwirkender Zylinder mit einstellbarer Endlagendämpfung\rDouble-acting cylinder with adjustable cushioning\rVérin double effet à amortissement réglable",
+   "item": {
+    "caption": "Doppeltwirkender Zylinder mit einstellbarer Endlagendämpfung\rDouble-acting cylinder with adjustable cushioning\rVérin double effet à amortissement réglable",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       17.78,
+       2.54
+      ],
+      "pos": [
+       18.28,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       4.38,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       3.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.78,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       3.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.6,
+        1.8
+       ],
+       [
+        8.0,
+        -7.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Doppeltwirkender Zylinder mit einstellbarer Endlagendämpfung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Teleskopzylinder, einfachwirkend\rTelescopic cylinder, single-acting\rVérin télescopique simple effet",
+   "item": {
+    "caption": "Teleskopzylinder, einfachwirkend\rTelescopic cylinder, single-acting\rVérin télescopique simple effet",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        15.24,
+        -4.28
+       ],
+       [
+        15.24,
+        -5.08
+       ],
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        15.24,
+        0
+       ],
+       [
+        15.24,
+        -0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        20.32,
+        -3.48
+       ],
+       [
+        20.32,
+        -4.28
+       ],
+       [
+        5.08,
+        -4.28
+       ],
+       [
+        5.08,
+        -0.8
+       ],
+       [
+        20.32,
+        -0.8
+       ],
+       [
+        20.32,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       17.145,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       16.51,
+       1.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Teleskopzylinder, einfachwirkend",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Teleskopzylinder, doppeltwirkend\rTelescopic cylinder, double-acting\rVérin télescopique double effet",
+   "item": {
+    "caption": "Teleskopzylinder, doppeltwirkend\rTelescopic cylinder, double-acting\rVérin télescopique double effet",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        15.24,
+        -4.28
+       ],
+       [
+        15.24,
+        -5.08
+       ],
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        15.24,
+        0
+       ],
+       [
+        15.24,
+        -0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        20.32,
+        -3.48
+       ],
+       [
+        20.32,
+        -4.28
+       ],
+       [
+        5.08,
+        -4.28
+       ],
+       [
+        5.08,
+        -0.8
+       ],
+       [
+        20.32,
+        -0.8
+       ],
+       [
+        20.32,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       17.145,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       16.51,
+       1.88
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.68,
+       -4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.68,
+       -0.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.49,
+       -3.88
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.49,
+       -1.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       13.2,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Teleskopzylinder, doppeltwirkend",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Membranzylinder\rDiaphragm cylinder\rVérin à membrane",
+   "item": {
+    "caption": "Membranzylinder\rDiaphragm cylinder\rVérin à membrane",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       -2.54
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.08,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.46,
+       6.46
+      ],
+      "start": -51.8,
+      "stop": 51.8,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -5.08,
+        -2.54
+       ],
+       [
+        15.24,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -0.3
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -0.3
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       7.62,
+       2.54
+      ],
+      "pos": [
+       8.12,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Membranzylinder",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Tauchkolbenzylinder\rPlunger cylinder\rVérin plongeur",
+   "item": {
+    "caption": "Tauchkolbenzylinder\rPlunger cylinder\rVérin plongeur",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        15.24,
+        -4.28
+       ],
+       [
+        15.24,
+        -5.08
+       ],
+       [
+        0,
+        -5.08
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        15.24,
+        0
+       ],
+       [
+        15.24,
+        -0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       13.97,
+       -2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       17.78,
+       3.48
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       2.54,
+       2.54
+      ],
+      "pos": [
+       3.04,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Z?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Zylinder/Tauchkolbenzylinder",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

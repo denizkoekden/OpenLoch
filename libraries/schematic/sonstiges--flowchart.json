@@ -1,0 +1,2610 @@
+{
+ "folder": "Sonstiges",
+ "format": "OpenLoch Schematic Library",
+ "name": "Flowchart\rFlowchart\rOrganigramme",
+ "symbols": [
+  {
+   "caption": "Start / Ende\rStart / end\rDébut / fin",
+   "item": {
+    "autoNumber": false,
+    "caption": "Start / Ende\rStart / end\rDébut / fin",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       3.81
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Start / Ende",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Verarbeitung\rProcess\rTraitement",
+   "item": {
+    "autoNumber": false,
+    "caption": "Verarbeitung\rProcess\rTraitement",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Verarbeitung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Verzweigung\rDecision\rDécision",
+   "item": {
+    "autoNumber": false,
+    "caption": "Verzweigung\rDecision\rDécision",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        10.16,
+        0
+       ],
+       [
+        20.32,
+        5.08
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Verzweigung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ein- / Ausgabe\rInput / output\rEntrée / sortie",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ein- / Ausgabe\rInput / output\rEntrée / sortie",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        20.32,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Ein- / Ausgabe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Unterprogramm\rSubroutine\rSous-programme",
+   "item": {
+    "autoNumber": false,
+    "caption": "Unterprogramm\rSubroutine\rSous-programme",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Unterprogramm",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Verbinder\rConnector\rConnecteur",
+   "item": {
+    "autoNumber": false,
+    "caption": "Verbinder\rConnector\rConnecteur",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Verbinder",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Dokument\rDocument\rDocument",
+   "item": {
+    "autoNumber": false,
+    "caption": "Dokument\rDocument\rDocument",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        20.32,
+        0
+       ],
+       [
+        20.32,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        6.604,
+        12.7
+       ],
+       [
+        13.716,
+        5.08
+       ],
+       [
+        20.32,
+        8.89
+       ]
+      ],
+      "type": "bezier"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Dokument",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Daten\rData\rDonnées",
+   "item": {
+    "autoNumber": false,
+    "caption": "Daten\rData\rDonnées",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.524
+       ],
+       [
+        0,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        1.524
+       ],
+       [
+        15.24,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       1.524
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       3.048
+      ],
+      "start": 0,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       8.636
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       3.048
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Daten",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ablaufpfeil\rFlow arrow\rFlèche de flux",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ablaufpfeil\rFlow arrow\rFlèche de flux",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Ablaufpfeil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ablaufpfeil nach oben\rFlow arrow up\rFlèche de flux vers le haut",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ablaufpfeil nach oben\rFlow arrow up\rFlèche de flux vers le haut",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Ablaufpfeil nach oben",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ablaufpfeil nach links\rFlow arrow to the left\rFlèche de flux vers la gauche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ablaufpfeil nach links\rFlow arrow to the left\rFlèche de flux vers la gauche",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Ablaufpfeil nach links",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ablaufpfeil nach rechts\rFlow arrow to the right\rFlèche de flux vers la droite",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ablaufpfeil nach rechts\rFlow arrow to the right\rFlèche de flux vers la droite",
+    "children": [
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Ablaufpfeil nach rechts",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Nein\rNo\rNon",
+   "item": {
+    "autoNumber": false,
+    "caption": "Nein\rNo\rNon",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       0,
+       0
+      ],
+      "text": "Nein",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Nein",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ja\rYes\rOui",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ja\rYes\rOui",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 3.5
+      },
+      "pos": [
+       0,
+       0
+      ],
+      "text": "Ja",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Ja",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ende (mit Text)\rEnd (with text)\rFin (avec texte)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Ende (mit Text)\rEnd (with text)\rFin (avec texte)",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       3.81
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       2.56
+      ],
+      "text": "Ende",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Ende (mit Text)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Interner Speicher\rInternal storage\rMémoire interne",
+   "item": {
+    "autoNumber": false,
+    "caption": "Interner Speicher\rInternal storage\rMémoire interne",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.524
+       ],
+       [
+        20.32,
+        1.524
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.524,
+        0
+       ],
+       [
+        1.524,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.922,
+       4.592
+      ],
+      "text": "Text",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Interner Speicher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Manuelle Eingabe\rManual input\rEntrée manuelle",
+   "item": {
+    "autoNumber": false,
+    "caption": "Manuelle Eingabe\rManual input\rEntrée manuelle",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        3.556
+       ],
+       [
+        20.32,
+        0
+       ],
+       [
+        20.32,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       4.846
+      ],
+      "text": "Text",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Manuelle Eingabe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Verzögerung\rDelay\rDélai",
+   "item": {
+    "autoNumber": false,
+    "caption": "Verzögerung\rDelay\rDélai",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        10.16
+       ],
+       [
+        15.24,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       15.24,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "start": -90,
+      "stop": 90,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Verzögerung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Manuelle Verarbeitung\rManual operation\rOpération manuelle",
+   "item": {
+    "autoNumber": false,
+    "caption": "Manuelle Verarbeitung\rManual operation\rOpération manuelle",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        20.32,
+        0
+       ],
+       [
+        17.78,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Manuelle Verarbeitung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Vorbereitung\rPreparation\rPréparation",
+   "item": {
+    "autoNumber": false,
+    "caption": "Vorbereitung\rPreparation\rPréparation",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        17.78,
+        0
+       ],
+       [
+        20.32,
+        5.08
+       ],
+       [
+        17.78,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Vorbereitung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Mehrere Dokumente\rMultiple documents\rDocuments multiples",
+   "item": {
+    "autoNumber": false,
+    "caption": "Mehrere Dokumente\rMultiple documents\rDocuments multiples",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        1.27
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        20.32,
+        0
+       ],
+       [
+        20.32,
+        8.128
+       ],
+       [
+        19.05,
+        8.128
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.27,
+        2.54
+       ],
+       [
+        1.27,
+        1.27
+       ],
+       [
+        19.05,
+        1.27
+       ],
+       [
+        19.05,
+        9.398
+       ],
+       [
+        17.78,
+        9.398
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.668
+       ],
+       [
+        0,
+        2.54
+       ],
+       [
+        17.78,
+        2.54
+       ],
+       [
+        17.78,
+        10.668
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.668
+       ],
+       [
+        5.7785,
+        14.478
+       ],
+       [
+        12.0015,
+        6.858
+       ],
+       [
+        17.78,
+        10.668
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.89,
+       5.354
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Mehrere Dokumente",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Lochstreifen\rPunched tape\rBande perforée",
+   "item": {
+    "autoNumber": false,
+    "caption": "Lochstreifen\rPunched tape\rBande perforée",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.27
+       ],
+       [
+        6.604,
+        4.318
+       ],
+       [
+        13.716,
+        -1.778
+       ],
+       [
+        20.32,
+        1.27
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.89
+       ],
+       [
+        6.604,
+        11.938
+       ],
+       [
+        13.716,
+        5.842
+       ],
+       [
+        20.32,
+        8.89
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.27
+       ],
+       [
+        0,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        1.27
+       ],
+       [
+        20.32,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        8.89
+       ],
+       [
+        10.16,
+        13.97
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Lochstreifen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Speicher mit Direktzugriff\rDirect access storage\rMémoire à accès direct",
+   "item": {
+    "autoNumber": false,
+    "caption": "Speicher mit Direktzugriff\rDirect access storage\rMémoire à accès direct",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.524,
+        0
+       ],
+       [
+        18.796,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.524,
+        10.16
+       ],
+       [
+        18.796,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.524,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.048,
+       10.16
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       18.796,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.048,
+       10.16
+      ],
+      "start": 0,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.652,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Speicher mit Direktzugriff",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Gespeicherte Daten\rStored data\rDonnées mémorisées",
+   "item": {
+    "autoNumber": false,
+    "caption": "Gespeicherte Daten\rStored data\rDonnées mémorisées",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        20.32,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        10.16
+       ],
+       [
+        20.32,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       10.16
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       20.32,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       10.16
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.668,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Gespeicherte Daten",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Anzeige\rDisplay\rAffichage",
+   "item": {
+    "autoNumber": false,
+    "caption": "Anzeige\rDisplay\rAffichage",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.51,
+        0
+       ],
+       [
+        3.81,
+        0
+       ],
+       [
+        0,
+        5.08
+       ],
+       [
+        3.81,
+        10.16
+       ],
+       [
+        16.51,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       16.51,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       10.16
+      ],
+      "start": -90,
+      "stop": 90,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.668,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Anzeige",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wolke\rCloud\rNuage",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wolke\rCloud\rNuage",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.4669,
+        8.0635
+       ],
+       [
+        6.5429,
+        10.5312
+       ],
+       [
+        2.0562,
+        8.8512
+       ],
+       [
+        2.9802,
+        6.3835
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.9802,
+        6.3835
+       ],
+       [
+        2.0686,
+        6.7384
+       ],
+       [
+        1.4235,
+        5.0809
+       ],
+       [
+        2.3351,
+        4.7261
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.3351,
+        4.7261
+       ],
+       [
+        1.1373,
+        3.0359
+       ],
+       [
+        4.2104,
+        0.8581
+       ],
+       [
+        5.4081,
+        2.5483
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.4081,
+        2.5483
+       ],
+       [
+        5.0611,
+        0.3153
+       ],
+       [
+        9.1212,
+        -0.3158
+       ],
+       [
+        9.4683,
+        1.9173
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.4683,
+        1.9173
+       ],
+       [
+        9.9584,
+        -1.4889
+       ],
+       [
+        16.1514,
+        -0.5977
+       ],
+       [
+        15.6613,
+        2.8084
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.6613,
+        2.8084
+       ],
+       [
+        16.5428,
+        1.6006
+       ],
+       [
+        18.7389,
+        3.2034
+       ],
+       [
+        17.8573,
+        4.4112
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.8573,
+        4.4112
+       ],
+       [
+        19.1915,
+        5.0376
+       ],
+       [
+        18.0526,
+        7.4634
+       ],
+       [
+        16.7184,
+        6.837
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.7184,
+        6.837
+       ],
+       [
+        17.3433,
+        8.6606
+       ],
+       [
+        14.0277,
+        9.7969
+       ],
+       [
+        13.4028,
+        7.9732
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.4028,
+        7.9732
+       ],
+       [
+        13.4524,
+        11.238
+       ],
+       [
+        7.5166,
+        11.3282
+       ],
+       [
+        7.4669,
+        8.0635
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       3.83
+      ],
+      "text": "Text",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.4721,
+        10.4669
+       ],
+       [
+        10.4721,
+        15.5469
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Wolke",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Plattenspeicher\rDisk storage\rMémoire à disques",
+   "item": {
+    "autoNumber": false,
+    "caption": "Plattenspeicher\rDisk storage\rMémoire à disques",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.524
+       ],
+       [
+        0,
+        9.144
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        1.524
+       ],
+       [
+        15.24,
+        9.144
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       1.524
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       3.048
+      ],
+      "start": 0,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       2.667
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       3.048
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       3.048
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       9.144
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       3.048
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       5.862
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Plattenspeicher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Summierstelle\rSumming junction\rPoint de sommation",
+   "item": {
+    "autoNumber": false,
+    "caption": "Summierstelle\rSumming junction\rPoint de sommation",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6941,
+        -2.6941
+       ],
+       [
+        2.6941,
+        2.6941
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6941,
+        2.6941
+       ],
+       [
+        2.6941,
+        -2.6941
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Summierstelle",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Oder-Verknüpfung\rLogical OR\rOU logique",
+   "item": {
+    "autoNumber": false,
+    "caption": "Oder-Verknüpfung\rLogical OR\rOU logique",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.81,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -3.81
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Oder-Verknüpfung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Verbinder mit Nummer\rNumbered connector\rConnecteur numéroté",
+   "item": {
+    "autoNumber": false,
+    "caption": "Verbinder mit Nummer\rNumbered connector\rConnecteur numéroté",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.096,
+       6.096
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -1.25
+      ],
+      "text": "1",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Verbinder mit Nummer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Seitenverbinder\rOff-page connector\rConnecteur hors page",
+   "item": {
+    "autoNumber": false,
+    "caption": "Seitenverbinder\rOff-page connector\rConnecteur hors page",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        2.54
+       ],
+       [
+        12.7,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.604,
+       1.29
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Seitenverbinder",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Fahne\rFlag\rFanion",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fahne\rFlag\rFanion",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        15.24,
+        0
+       ],
+       [
+        13.208,
+        2.54
+       ],
+       [
+        15.24,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.858,
+       1.29
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Fahne",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Pfeilkasten\rBlock arrow\rFlèche bloc",
+   "item": {
+    "autoNumber": false,
+    "caption": "Pfeilkasten\rBlock arrow\rFlèche bloc",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.27
+       ],
+       [
+        13.97,
+        1.27
+       ],
+       [
+        13.97,
+        0
+       ],
+       [
+        17.78,
+        3.81
+       ],
+       [
+        13.97,
+        7.62
+       ],
+       [
+        13.97,
+        6.35
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.985,
+       2.56
+      ],
+      "text": "Text",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Pfeilkasten",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Dreieck nach links\rTriangle pointing left\rTriangle vers la gauche",
+   "item": {
+    "autoNumber": false,
+    "caption": "Dreieck nach links\rTriangle pointing left\rTriangle vers la gauche",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        8.89,
+        0
+       ],
+       [
+        8.89,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.9267,
+       3.83
+      ],
+      "text": "...",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Dreieck nach links",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Dreieck nach rechts\rTriangle pointing right\rTriangle vers la droite",
+   "item": {
+    "autoNumber": false,
+    "caption": "Dreieck nach rechts\rTriangle pointing right\rTriangle vers la droite",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        8.89,
+        5.08
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.9633,
+       3.83
+      ],
+      "text": "...",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Dreieck nach rechts",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Zusammenführen\rMerge\rFusion",
+   "item": {
+    "autoNumber": false,
+    "caption": "Zusammenführen\rMerge\rFusion",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        10.16,
+        0
+       ],
+       [
+        5.08,
+        8.89
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       1.7133
+      ],
+      "text": "...",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Sonstiges/Flowchart/Zusammenführen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

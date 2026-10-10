@@ -1,0 +1,1136 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Stromventile\rFlow control valves\rRégulateurs de débit",
+ "symbols": [
+  {
+   "caption": "Drosselventil\rThrottle valve\rÉtrangleur",
+   "item": {
+    "caption": "Drosselventil\rThrottle valve\rÉtrangleur",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": -50,
+      "stop": 50,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": 130,
+      "stop": 230,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -0.4
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.96
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Stromventile/Drosselventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drosselventil, einstellbar\rAdjustable throttle\rÉtrangleur réglable",
+   "item": {
+    "caption": "Drosselventil, einstellbar\rAdjustable throttle\rÉtrangleur réglable",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": -50,
+      "stop": 50,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": 130,
+      "stop": 230,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        7.62
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -0.4
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.96
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Stromventile/Drosselventil, einstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drosselrückschlagventil\rOne-way flow control valve\rRéducteur de débit unidirectionnel",
+   "item": {
+    "caption": "Drosselrückschlagventil\rOne-way flow control valve\rRéducteur de débit unidirectionnel",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": -50,
+      "stop": 50,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": 130,
+      "stop": 230,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        7.62
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        5.08,
+        2.54
+       ],
+       [
+        5.08,
+        3.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        6.68
+       ],
+       [
+        5.08,
+        7.62
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.68,
+        6.08
+       ],
+       [
+        5.08,
+        4.68
+       ],
+       [
+        6.48,
+        6.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       3.88
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -0.4
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.96
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Stromventile/Drosselrückschlagventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drosselventil, einstellbar, handbetätigt\rAdjustable throttle, manually operated\rÉtrangleur réglable, manuel",
+   "item": {
+    "caption": "Drosselventil, einstellbar, handbetätigt\rAdjustable throttle, manually operated\rÉtrangleur réglable, manuel",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       -1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": -50,
+      "stop": 50,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.6,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "start": 130,
+      "stop": 230,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.6,
+        7.62
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -0.4
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.9,
+        5.08
+       ],
+       [
+        -3.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.4,
+        3.88
+       ],
+       [
+        -3.4,
+        6.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Stromventile/Drosselventil, einstellbar, handbetätigt",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Blende\rOrifice\rDiaphragme",
+   "item": {
+    "caption": "Blende\rOrifice\rDiaphragme",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        3.58
+       ],
+       [
+        -0.5,
+        5.08
+       ],
+       [
+        -2.0,
+        6.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        3.58
+       ],
+       [
+        0.5,
+        5.08
+       ],
+       [
+        2.0,
+        6.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -0.4
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Stromventile/Blende",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Stromregelventil\rFlow control valve\rRégulateur de débit",
+   "item": {
+    "caption": "Stromregelventil\rFlow control valve\rRégulateur de débit",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        3.58
+       ],
+       [
+        -0.5,
+        5.08
+       ],
+       [
+        -2.0,
+        6.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        3.58
+       ],
+       [
+        0.5,
+        5.08
+       ],
+       [
+        2.0,
+        6.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       6.096,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        7.18
+       ],
+       [
+        2.0,
+        2.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -0.4
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "V?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Stromventile/Stromregelventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

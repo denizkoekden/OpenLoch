@@ -1,0 +1,1460 @@
+{
+ "folder": "USER/Misc. (German)/sPlan - EU-Norm",
+ "format": "OpenLoch Schematic Library",
+ "name": "Motorschutzschalter\rMotorschutzschalter\rDisjoncteurs-moteurs",
+ "symbols": [
+  {
+   "caption": "Motorschutzschalter einpolig\rMotor protection switch, single-pole\rDisjoncteur-moteur unipolaire",
+   "item": {
+    "caption": "Motorschutzschalter einpolig\rMotor protection switch, single-pole\rDisjoncteur-moteur unipolaire",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        10.795
+       ],
+       [
+        -2.54,
+        10.795
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        14.605
+       ],
+       [
+        -2.54,
+        14.605
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        14.605
+       ],
+       [
+        -4.6,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.0,
+        4.68
+       ],
+       [
+        -1.2469,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        0.0,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        1.74
+       ],
+       [
+        0.8,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        3.34
+       ],
+       [
+        0.8,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       10.795
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        8.89
+       ],
+       [
+        0.0,
+        9.69
+       ],
+       [
+        -0.7,
+        9.69
+       ],
+       [
+        -0.7,
+        11.9
+       ],
+       [
+        0.0,
+        11.9
+       ],
+       [
+        0.0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       14.605
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.0,
+       13.6
+      ],
+      "text": "I>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        16.51
+       ],
+       [
+        0.0,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.9,
+       -0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       20.32
+      ],
+      "pos": [
+       0.8,
+       17.92
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.0,
+        3.48
+       ],
+       [
+        -8.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -4.6,
+       4.68
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.8,
+        4.68
+       ],
+       [
+        -3.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        3.48
+       ],
+       [
+        -4.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-Q?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Motorschutzschalter/Motorschutzschalter einpolig",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "10–30 A / 10 A"
+   }
+  },
+  {
+   "caption": "Motorschutzschalter dreipolig\rMotor protection switch, three-pole\rDisjoncteur-moteur tripolaire",
+   "item": {
+    "caption": "Motorschutzschalter dreipolig\rMotor protection switch, three-pole\rDisjoncteur-moteur tripolaire",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        10.795
+       ],
+       [
+        -2.54,
+        10.795
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        14.605
+       ],
+       [
+        -2.54,
+        14.605
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        14.605
+       ],
+       [
+        -4.6,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.0,
+        4.68
+       ],
+       [
+        8.9131,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        0.0,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        1.74
+       ],
+       [
+        0.8,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.8,
+        3.34
+       ],
+       [
+        0.8,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       10.795
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        8.89
+       ],
+       [
+        0.0,
+        9.69
+       ],
+       [
+        -0.7,
+        9.69
+       ],
+       [
+        -0.7,
+        11.9
+       ],
+       [
+        0.0,
+        11.9
+       ],
+       [
+        0.0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       14.605
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.0,
+       13.6
+      ],
+      "text": "I>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        16.51
+       ],
+       [
+        0.0,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.9,
+       -0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0.0,
+       20.32
+      ],
+      "pos": [
+       0.8,
+       17.92
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        5.08,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        3.18,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.28,
+        1.74
+       ],
+       [
+        5.88,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.28,
+        3.34
+       ],
+       [
+        5.88,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       10.795
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        8.89
+       ],
+       [
+        5.08,
+        9.69
+       ],
+       [
+        4.38,
+        9.69
+       ],
+       [
+        4.38,
+        11.9
+       ],
+       [
+        5.08,
+        11.9
+       ],
+       [
+        5.08,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       14.605
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       5.08,
+       13.6
+      ],
+      "text": "I>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        16.51
+       ],
+       [
+        5.08,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.98,
+       -0.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       5.08,
+       20.32
+      ],
+      "pos": [
+       5.88,
+       17.92
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        7.62
+       ],
+       [
+        10.16,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        7.62
+       ],
+       [
+        8.26,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.36,
+        1.74
+       ],
+       [
+        10.96,
+        3.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.36,
+        3.34
+       ],
+       [
+        10.96,
+        1.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       10.795
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        8.89
+       ],
+       [
+        10.16,
+        9.69
+       ],
+       [
+        9.46,
+        9.69
+       ],
+       [
+        9.46,
+        11.9
+       ],
+       [
+        10.16,
+        11.9
+       ],
+       [
+        10.16,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       14.605
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       3.81
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       10.16,
+       13.6
+      ],
+      "text": "I>",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        16.51
+       ],
+       [
+        10.16,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       11.06,
+       -0.2
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.96,
+       17.92
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.0,
+        3.48
+       ],
+       [
+        -8.0,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -4.6,
+       4.68
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.8,
+        4.68
+       ],
+       [
+        -3.4,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.6,
+        3.48
+       ],
+       [
+        -4.6,
+        5.88
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.76,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.76,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-Q?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Motorschutzschalter/Motorschutzschalter dreipolig",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "30–50 A / 40 A"
+   }
+  },
+  {
+   "caption": "Hilfskontakte 13/14, 21/22\rAuxiliary contacts 13/14, 21/22\rContacts auxiliaires 13/14, 21/22",
+   "item": {
+    "autoNumber": false,
+    "caption": "Hilfskontakte 13/14, 21/22\rAuxiliary contacts 13/14, 21/22\rContacts auxiliaires 13/14, 21/22",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        2.54
+       ],
+       [
+        6.68,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        7.18,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.4,
+        4.68
+       ],
+       [
+        6.2066,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.8,
+       0.2
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.8,
+       7.76
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "21",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.88,
+       0.2
+      ],
+      "text": "21",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "22",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.88,
+       7.76
+      ],
+      "text": "22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       8.08,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "<PARENT_ID>",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Motorschutzschalter/Hilfskontakte 13/14, 21/22",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "<PARENT_VALUE>"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

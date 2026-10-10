@@ -1,0 +1,2892 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "PWR SUPPLY\rPWR SUPPLY\rAlimentations",
+ "symbols": [
+  {
+   "caption": "Batterie 9 V (mehrzellig, v)\r9 V battery (several cells, vertical)\rPile 9 V (plusieurs éléments, verticale)",
+   "item": {
+    "caption": "Batterie 9 V (mehrzellig, v)\r9 V battery (several cells, vertical)\rPile 9 V (plusieurs éléments, verticale)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       9.56
+      ],
+      "text": "−",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        1.6
+       ],
+       [
+        -2.6,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.7
+      },
+      "points": [
+       [
+        1.3,
+        2.6
+       ],
+       [
+        -1.3,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        7.56
+       ],
+       [
+        -2.6,
+        7.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.7
+      },
+      "points": [
+       [
+        1.3,
+        8.56
+       ],
+       [
+        -1.3,
+        8.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        8.56
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        3.2
+       ],
+       [
+        0,
+        4.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        4.65
+       ],
+       [
+        0,
+        5.55
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.1
+       ],
+       [
+        0,
+        7.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -3.4,
+       -0.8
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       2.28
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       5.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "BAT?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Batterie 9 V (mehrzellig, v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "9 V"
+   }
+  },
+  {
+   "caption": "Batterie 9 V (v)\r9 V battery (vertical)\rPile 9 V (verticale)",
+   "item": {
+    "caption": "Batterie 9 V (v)\r9 V battery (vertical)\rPile 9 V (verticale)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       9.56
+      ],
+      "text": "−",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        3.04
+       ],
+       [
+        -2.6,
+        3.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.7
+      },
+      "points": [
+       [
+        1.3,
+        4.04
+       ],
+       [
+        -1.3,
+        4.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        4.04
+       ],
+       [
+        0,
+        5.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        5.38
+       ],
+       [
+        -2.6,
+        5.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.7
+      },
+      "points": [
+       [
+        1.3,
+        6.38
+       ],
+       [
+        -1.3,
+        6.38
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.38
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -3.4,
+       0.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       2.28
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       5.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "BAT?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Batterie 9 V (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "9 V"
+   }
+  },
+  {
+   "caption": "Batterie 9 V (kurz, v)\r9 V battery (short, vertical)\rPile 9 V (courte, verticale)",
+   "item": {
+    "caption": "Batterie 9 V (kurz, v)\r9 V battery (short, vertical)\rPile 9 V (courte, verticale)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       2.8,
+       4.48
+      ],
+      "text": "−",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        2.04
+       ],
+       [
+        -2.6,
+        2.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.7
+      },
+      "points": [
+       [
+        1.3,
+        3.04
+       ],
+       [
+        -1.3,
+        3.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        3.04
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -3.4,
+       -0.36
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -0.26
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       2.74
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "BAT?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Batterie 9 V (kurz, v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "9 V"
+   }
+  },
+  {
+   "caption": "Brückengleichrichter B30C2000 (Block)\rBridge rectifier B30C2000 (block)\rPont redresseur B30C2000 (bloc)",
+   "item": {
+    "caption": "Brückengleichrichter B30C2000 (Block)\rBridge rectifier B30C2000 (block)\rPont redresseur B30C2000 (bloc)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       3.14,
+       1.34
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "~1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       3.14,
+       3.88
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "~2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        2.54
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       12.1,
+       1.34
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+",
+      "pin": [
+       15.24,
+       2.54
+      ],
+      "pos": [
+       14.84,
+       0.34
+      ],
+      "text": "+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       12.1,
+       3.88
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "−",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.096,
+        3.81
+       ],
+       [
+        6.858,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.382,
+        3.81
+       ],
+       [
+        9.144,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.858,
+        2.91
+       ],
+       [
+        6.858,
+        4.71
+       ],
+       [
+        8.382,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        8.382,
+        2.91
+       ],
+       [
+        8.382,
+        4.71
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "BR?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Brückengleichrichter B30C2000 (Block)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "B30C2000"
+   }
+  },
+  {
+   "caption": "Brückengleichrichter B30C2000\rBridge rectifier B30C2000\rPont redresseur B30C2000",
+   "item": {
+    "caption": "Brückengleichrichter B30C2000\rBridge rectifier B30C2000\rPont redresseur B30C2000",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.4693,
+        3.8835
+       ],
+       [
+        3.8835,
+        2.4693
+       ],
+       [
+        1.9036,
+        1.9036
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.1965,
+        2.6107
+       ],
+       [
+        2.6107,
+        1.1965
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.2765,
+        2.4693
+       ],
+       [
+        7.6907,
+        3.8835
+       ],
+       [
+        8.2564,
+        1.9036
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        7.5493,
+        1.1965
+       ],
+       [
+        8.9635,
+        2.6107
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.1965,
+        -2.6107
+       ],
+       [
+        2.6107,
+        -1.1965
+       ],
+       [
+        3.1764,
+        -3.1764
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.4693,
+        -3.8835
+       ],
+       [
+        3.8835,
+        -2.4693
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.5493,
+        -1.1965
+       ],
+       [
+        8.9635,
+        -2.6107
+       ],
+       [
+        6.9836,
+        -3.1764
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.2765,
+        -2.4693
+       ],
+       [
+        7.6907,
+        -3.8835
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "~1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "~2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.68,
+       -5.08
+      ],
+      "text": "+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.68,
+       2.88
+      ],
+      "text": "−",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       -0.5,
+       -2.8
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       10.66,
+       -2.8
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       5.78,
+       -7.68
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       5.78,
+       5.28
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       3.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "BR?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Brückengleichrichter B30C2000",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "B30C2000"
+   }
+  },
+  {
+   "caption": "Einstellbare Referenz TL431\rAdjustable shunt reference TL431\rRéférence ajustable TL431",
+   "item": {
+    "caption": "Einstellbare Referenz TL431\rAdjustable shunt reference TL431\rRéférence ajustable TL431",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        4.51
+       ],
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        1.5,
+        4.51
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        5.08
+       ],
+       [
+        -0.75,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -0.2
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.76
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -4.78,
+       2.88
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Einstellbare Referenz TL431",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TL431"
+   }
+  },
+  {
+   "caption": "Festspannungsregler 7805\rFixed voltage regulator 7805\rRégulateur fixe 7805",
+   "item": {
+    "caption": "Festspannungsregler 7805\rFixed voltage regulator 7805\rRégulateur fixe 7805",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       1.27
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        5.08
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.04,
+       -1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.2,
+       -1.0
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       7.62,
+       2.48
+      ],
+      "text": "GND",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "IN",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "IN",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "OUT",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "OUT",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "GND",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.42
+      ],
+      "text": "GND",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.02
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "VR?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Festspannungsregler 7805",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "7805"
+   }
+  },
+  {
+   "caption": "Einstellbarer Spannungsregler LM317\rAdjustable voltage regulator LM317\rRégulateur ajustable LM317",
+   "item": {
+    "caption": "Einstellbarer Spannungsregler LM317\rAdjustable voltage regulator LM317\rRégulateur ajustable LM317",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       1.27
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        5.08
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.04,
+       -1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.2,
+       -1.0
+      ],
+      "text": "OUT",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       7.62,
+       2.48
+      ],
+      "text": "ADJ",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "IN",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "IN",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "OUT",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "OUT",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "ADJ",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.42
+      ],
+      "text": "ADJ",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.02
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "VR?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Einstellbarer Spannungsregler LM317",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LM317"
+   }
+  },
+  {
+   "caption": "Polaritätszeichen Hohlstecker\rDC plug polarity sign\rSymbole de polarité de fiche d'alimentation",
+   "item": {
+    "autoNumber": false,
+    "caption": "Polaritätszeichen Hohlstecker\rDC plug polarity sign\rSymbole de polarité de fiche d'alimentation",
+    "children": [
+     {
+      "centre": [
+       -7.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.4,
+        0
+       ],
+       [
+        -6.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -7.4,
+        -1.0
+       ],
+       [
+        -7.4,
+        1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.4,
+        0
+       ],
+       [
+        8.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.7,
+        0
+       ],
+       [
+        -2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 45,
+      "stop": 315,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        5.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -9.0,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Polaritätszeichen Hohlstecker",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Netzstecker (h)\rMains plug (horizontal)\rFiche secteur (horizontale)",
+   "item": {
+    "caption": "Netzstecker (h)\rMains plug (horizontal)\rFiche secteur (horizontale)",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       1.27
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       4.94
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       -2.3
+      ],
+      "text": "L",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "L",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "L",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       8.89,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.54,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       0.24
+      ],
+      "text": "N",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       8.89,
+       2.54
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.54,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -4.8
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.684,
+       0.02
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Netzstecker (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "230 VAC"
+   }
+  },
+  {
+   "caption": "Sicherung 1 A (h)\rFuse 1 A (horizontal)\rFusible 1 A (horizontal)",
+   "item": {
+    "caption": "Sicherung 1 A (h)\rFuse 1 A (horizontal)\rFusible 1 A (horizontal)",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       1.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "F?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Sicherung 1 A (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "1 A"
+   }
+  },
+  {
+   "caption": "Netzstecker mit Schutzleiter\rMains plug with protective earth\rFiche secteur avec terre",
+   "item": {
+    "autoNumber": false,
+    "caption": "Netzstecker mit Schutzleiter\rMains plug with protective earth\rFiche secteur avec terre",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.54,
+       7.48
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       -2.3
+      ],
+      "text": "L",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "L",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "L",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        7.62,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       8.89,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.54,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       0.24
+      ],
+      "text": "E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       9.398,
+       2.54
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.556,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       2.78
+      ],
+      "text": "N",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       8.89,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.54,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -4.8
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.684,
+       1.29
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Netzstecker mit Schutzleiter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Netzausgang (Kaltgerätebuchse)\rMains outlet (IEC appliance socket)\rSortie secteur (embase CEI femelle)",
+   "item": {
+    "caption": "Netzausgang (Kaltgerätebuchse)\rMains outlet (IEC appliance socket)\rSortie secteur (embase CEI femelle)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        5.08,
+        -1.6
+       ],
+       [
+        9.144,
+        -1.6
+       ],
+       [
+        10.16,
+        -0.6
+       ],
+       [
+        10.16,
+        5.68
+       ],
+       [
+        9.144,
+        6.68
+       ],
+       [
+        5.08,
+        6.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       -2.3
+      ],
+      "text": "L",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "L",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "L",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        6.62,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       0.24
+      ],
+      "text": "E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "PE",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "PE",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        6.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       2.54
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.6,
+       2.78
+      ],
+      "text": "N",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        6.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -4.8
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.684,
+       1.29
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "J?",
+    "libraryEntry": "OpenLoch/USER/PWR SUPPLY/Netzausgang (Kaltgerätebuchse)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "230 VAC"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

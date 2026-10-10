@@ -1,0 +1,2415 @@
+{
+ "folder": "Elektro/Elektronik/Digital",
+ "format": "OpenLoch Schematic Library",
+ "name": "Zähler\rCounters\rCompteurs",
+ "symbols": [
+  {
+   "caption": "Binärzähler 4 Bit\r4-bit binary counter\rCompteur binaire 4 bits",
+   "item": {
+    "caption": "Binärzähler 4 Bit\r4-bit binary counter\rCompteur binaire 4 bits",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        1.64
+       ],
+       [
+        3.74,
+        2.54
+       ],
+       [
+        2.54,
+        3.44
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       1.54
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        2.54
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       1.54
+      ],
+      "text": "Q0",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q0",
+      "pin": [
+       15.24,
+       2.54
+      ],
+      "pos": [
+       14.84,
+       0.34
+      ],
+      "text": "Q0",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       4.08
+      ],
+      "text": "Q1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q1",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "Q1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        7.62
+       ],
+       [
+        15.24,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       6.62
+      ],
+      "text": "Q2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q2",
+      "pin": [
+       15.24,
+       7.62
+      ],
+      "pos": [
+       14.84,
+       5.42
+      ],
+      "text": "Q2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        15.24,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       9.16
+      ],
+      "text": "Q3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q3",
+      "pin": [
+       15.24,
+       10.16
+      ],
+      "pos": [
+       14.84,
+       7.96
+      ],
+      "text": "Q3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0.4
+      ],
+      "text": "CTR4",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       13.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "CNTR?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Zähler/Binärzähler 4 Bit",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Dezimalzähler\rDecade counter\rCompteur décimal",
+   "item": {
+    "caption": "Dezimalzähler\rDecade counter\rCompteur décimal",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        1.64
+       ],
+       [
+        3.74,
+        2.54
+       ],
+       [
+        2.54,
+        3.44
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       1.54
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "EN",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "EN",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "EN",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        2.54
+       ],
+       [
+        15.24,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       1.54
+      ],
+      "text": "Q0",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q0",
+      "pin": [
+       15.24,
+       2.54
+      ],
+      "pos": [
+       14.84,
+       0.34
+      ],
+      "text": "Q0",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        5.08
+       ],
+       [
+        15.24,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       4.08
+      ],
+      "text": "Q1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q1",
+      "pin": [
+       15.24,
+       5.08
+      ],
+      "pos": [
+       14.84,
+       2.88
+      ],
+      "text": "Q1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        7.62
+       ],
+       [
+        15.24,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       6.62
+      ],
+      "text": "Q2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q2",
+      "pin": [
+       15.24,
+       7.62
+      ],
+      "pos": [
+       14.84,
+       5.42
+      ],
+      "text": "Q2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        10.16
+       ],
+       [
+        15.24,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       9.16
+      ],
+      "text": "Q3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q3",
+      "pin": [
+       15.24,
+       10.16
+      ],
+      "pos": [
+       14.84,
+       7.96
+      ],
+      "text": "Q3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0.4
+      ],
+      "text": "CTR10",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       13.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "CNTR?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Zähler/Dezimalzähler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Binärzähler 4 Bit (QA–QD)\r4-bit binary counter (QA–QD)\rCompteur binaire 4 bits (QA–QD)",
+   "item": {
+    "caption": "Binärzähler 4 Bit (QA–QD)\r4-bit binary counter (QA–QD)\rCompteur binaire 4 bits (QA–QD)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.54,
+        10.16
+       ],
+       [
+        3.54,
+        9.16
+       ],
+       [
+        2.54,
+        9.16
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        9.16
+       ],
+       [
+        11.7,
+        9.16
+       ],
+       [
+        11.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.62,
+       16.51
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0.4
+      ],
+      "text": "CTR4",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        12.7
+       ],
+       [
+        15.24,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       11.7
+      ],
+      "text": "QA",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QA",
+      "pin": [
+       15.24,
+       12.7
+      ],
+      "pos": [
+       14.84,
+       10.5
+      ],
+      "text": "QA",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        15.24
+       ],
+       [
+        15.24,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       14.24
+      ],
+      "text": "QB",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QB",
+      "pin": [
+       15.24,
+       15.24
+      ],
+      "pos": [
+       14.84,
+       13.04
+      ],
+      "text": "QB",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        17.78
+       ],
+       [
+        15.24,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       16.78
+      ],
+      "text": "QC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QC",
+      "pin": [
+       15.24,
+       17.78
+      ],
+      "pos": [
+       14.84,
+       15.58
+      ],
+      "text": "QC",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        20.32
+       ],
+       [
+        15.24,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       19.32
+      ],
+      "text": "QD",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QD",
+      "pin": [
+       15.24,
+       20.32
+      ],
+      "pos": [
+       14.84,
+       18.12
+      ],
+      "text": "QD",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       23.46
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "CNTR?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Zähler/Binärzähler 4 Bit (QA–QD)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Binärzähler 8 Bit\r8-bit binary counter\rCompteur binaire 8 bits",
+   "item": {
+    "caption": "Binärzähler 8 Bit\r8-bit binary counter\rCompteur binaire 8 bits",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.54,
+        10.16
+       ],
+       [
+        3.54,
+        9.16
+       ],
+       [
+        2.54,
+        9.16
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        9.16
+       ],
+       [
+        11.7,
+        9.16
+       ],
+       [
+        11.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.62,
+       21.59
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0.4
+      ],
+      "text": "CTR8",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        12.7
+       ],
+       [
+        15.24,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       11.7
+      ],
+      "text": "Q0",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q0",
+      "pin": [
+       15.24,
+       12.7
+      ],
+      "pos": [
+       14.84,
+       10.5
+      ],
+      "text": "Q0",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        15.24
+       ],
+       [
+        15.24,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       14.24
+      ],
+      "text": "Q1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q1",
+      "pin": [
+       15.24,
+       15.24
+      ],
+      "pos": [
+       14.84,
+       13.04
+      ],
+      "text": "Q1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        17.78
+       ],
+       [
+        15.24,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       16.78
+      ],
+      "text": "Q2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q2",
+      "pin": [
+       15.24,
+       17.78
+      ],
+      "pos": [
+       14.84,
+       15.58
+      ],
+      "text": "Q2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        20.32
+       ],
+       [
+        15.24,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       19.32
+      ],
+      "text": "Q3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q3",
+      "pin": [
+       15.24,
+       20.32
+      ],
+      "pos": [
+       14.84,
+       18.12
+      ],
+      "text": "Q3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        22.86
+       ],
+       [
+        15.24,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       21.86
+      ],
+      "text": "Q4",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q4",
+      "pin": [
+       15.24,
+       22.86
+      ],
+      "pos": [
+       14.84,
+       20.66
+      ],
+      "text": "Q4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        25.4
+       ],
+       [
+        15.24,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       24.4
+      ],
+      "text": "Q5",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q5",
+      "pin": [
+       15.24,
+       25.4
+      ],
+      "pos": [
+       14.84,
+       23.2
+      ],
+      "text": "Q5",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        27.94
+       ],
+       [
+        15.24,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       26.94
+      ],
+      "text": "Q6",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q6",
+      "pin": [
+       15.24,
+       27.94
+      ],
+      "pos": [
+       14.84,
+       25.74
+      ],
+      "text": "Q6",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        30.48
+       ],
+       [
+        15.24,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       29.48
+      ],
+      "text": "Q7",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q7",
+      "pin": [
+       15.24,
+       30.48
+      ],
+      "pos": [
+       14.84,
+       28.28
+      ],
+      "text": "Q7",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       33.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "CNTR?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Zähler/Binärzähler 8 Bit",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Binärzähler 8 Bit (QA–QH)\r8-bit binary counter (QA–QH)\rCompteur binaire 8 bits (QA–QH)",
+   "item": {
+    "caption": "Binärzähler 8 Bit (QA–QH)\r8-bit binary counter (QA–QH)\rCompteur binaire 8 bits (QA–QH)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.54,
+        10.16
+       ],
+       [
+        3.54,
+        9.16
+       ],
+       [
+        2.54,
+        9.16
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        12.7,
+        0
+       ],
+       [
+        12.7,
+        9.16
+       ],
+       [
+        11.7,
+        9.16
+       ],
+       [
+        11.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.62,
+       21.59
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       0.4
+      ],
+      "text": "CTR8",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        12.7
+       ],
+       [
+        15.24,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       11.7
+      ],
+      "text": "QA",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QA",
+      "pin": [
+       15.24,
+       12.7
+      ],
+      "pos": [
+       14.84,
+       10.5
+      ],
+      "text": "QA",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        15.24
+       ],
+       [
+        15.24,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       14.24
+      ],
+      "text": "QB",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QB",
+      "pin": [
+       15.24,
+       15.24
+      ],
+      "pos": [
+       14.84,
+       13.04
+      ],
+      "text": "QB",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        17.78
+       ],
+       [
+        15.24,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       16.78
+      ],
+      "text": "QC",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QC",
+      "pin": [
+       15.24,
+       17.78
+      ],
+      "pos": [
+       14.84,
+       15.58
+      ],
+      "text": "QC",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        20.32
+       ],
+       [
+        15.24,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       19.32
+      ],
+      "text": "QD",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QD",
+      "pin": [
+       15.24,
+       20.32
+      ],
+      "pos": [
+       14.84,
+       18.12
+      ],
+      "text": "QD",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        22.86
+       ],
+       [
+        15.24,
+        22.86
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       21.86
+      ],
+      "text": "QE",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QE",
+      "pin": [
+       15.24,
+       22.86
+      ],
+      "pos": [
+       14.84,
+       20.66
+      ],
+      "text": "QE",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        25.4
+       ],
+       [
+        15.24,
+        25.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       24.4
+      ],
+      "text": "QF",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QF",
+      "pin": [
+       15.24,
+       25.4
+      ],
+      "pos": [
+       14.84,
+       23.2
+      ],
+      "text": "QF",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        27.94
+       ],
+       [
+        15.24,
+        27.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       26.94
+      ],
+      "text": "QG",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QG",
+      "pin": [
+       15.24,
+       27.94
+      ],
+      "pos": [
+       14.84,
+       25.74
+      ],
+      "text": "QG",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        30.48
+       ],
+       [
+        15.24,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       12.1,
+       29.48
+      ],
+      "text": "QH",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "QH",
+      "pin": [
+       15.24,
+       30.48
+      ],
+      "pos": [
+       14.84,
+       28.28
+      ],
+      "text": "QH",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       33.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "CNTR?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Zähler/Binärzähler 8 Bit (QA–QH)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

@@ -1,0 +1,2906 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile/Braun Lectron",
+ "format": "OpenLoch Schematic Library",
+ "name": "Lectron Indicators\rLectron Indicators\rLectron indicateurs",
+ "symbols": [
+  {
+   "caption": "Glühlampe\rIncandescent lamp\rLampe à incandescence",
+   "item": {
+    "caption": "Glühlampe\rIncandescent lamp\rLampe à incandescence",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.0
+       ],
+       [
+        10.16,
+        7.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N",
+      "pin": [
+       10.16,
+       0.0
+      ],
+      "pos": [
+       10.56,
+       0.3
+      ],
+      "text": "N",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        20.32
+       ],
+       [
+        10.16,
+        13.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       10.16,
+       20.32
+      ],
+      "pos": [
+       10.56,
+       18.12
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.2813,
+        8.0387
+       ],
+       [
+        8.0387,
+        12.2813
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.0387,
+        8.0387
+       ],
+       [
+        12.2813,
+        12.2813
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       14.16,
+       13.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "LA?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Glühlampe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Glühlampe (waagerecht)\rIncandescent lamp, horizontal\rLampe à incandescence horizontale",
+   "item": {
+    "caption": "Glühlampe (waagerecht)\rIncandescent lamp, horizontal\rLampe à incandescence horizontale",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        7.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        13.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.0387,
+        8.0387
+       ],
+       [
+        12.2813,
+        12.2813
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.0387,
+        12.2813
+       ],
+       [
+        12.2813,
+        8.0387
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       14.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "LA?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Glühlampe (waagerecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchtdiode\rLED\rDEL",
+   "item": {
+    "caption": "Leuchtdiode\rLED\rDEL",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.76,
+        12.96
+       ],
+       [
+        8.76,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.96
+       ],
+       [
+        10.16,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.56,
+       5.56
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Leuchtdiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchtdiode sehr hell\rLED, very bright\rDEL très lumineuse",
+   "item": {
+    "caption": "Leuchtdiode sehr hell\rLED, very bright\rDEL très lumineuse",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        8.46,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        8.16
+       ],
+       [
+        8.46,
+        12.16
+       ],
+       [
+        11.86,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.86,
+        8.16
+       ],
+       [
+        11.86,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.76,
+        12.96
+       ],
+       [
+        8.76,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        12.96
+       ],
+       [
+        10.16,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.56,
+       5.56
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        12.76,
+        18.52
+       ],
+       [
+        17.76,
+        18.52
+       ],
+       [
+        15.26,
+        14.22
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        14.06,
+        17.02
+       ],
+       [
+        16.46,
+        17.02
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        14.4115,
+        16.1715
+       ],
+       [
+        16.1085,
+        17.8685
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        15.26,
+        15.82
+       ],
+       [
+        15.26,
+        18.22
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        16.1085,
+        16.1715
+       ],
+       [
+        14.4115,
+        17.8685
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.26,
+       17.02
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Leuchtdiode sehr hell",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchtdiode mit Vorwiderstand, rot\rLED with series resistor, red\rDEL avec résistance série, rouge",
+   "item": {
+    "caption": "Leuchtdiode mit Vorwiderstand, rot\rLED with series resistor, red\rDEL avec résistance série, rouge",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        4.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       6.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       1.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        10.16
+       ],
+       [
+        11.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        14.56,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.16,
+        8.16
+       ],
+       [
+        11.16,
+        12.16
+       ],
+       [
+        14.56,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        14.56,
+        8.16
+       ],
+       [
+        14.56,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        12.96
+       ],
+       [
+        10.76,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        12.96
+       ],
+       [
+        12.16,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.56,
+       5.36
+      ],
+      "fill": {
+       "color": "#d00000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Leuchtdiode mit Vorwiderstand, rot",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchtdiode mit Vorwiderstand, gelb\rLED with series resistor, yellow\rDEL avec résistance série, jaune",
+   "item": {
+    "caption": "Leuchtdiode mit Vorwiderstand, gelb\rLED with series resistor, yellow\rDEL avec résistance série, jaune",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        4.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       6.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       1.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        10.16
+       ],
+       [
+        11.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        14.56,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.16,
+        8.16
+       ],
+       [
+        11.16,
+        12.16
+       ],
+       [
+        14.56,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        14.56,
+        8.16
+       ],
+       [
+        14.56,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        12.96
+       ],
+       [
+        10.76,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        12.96
+       ],
+       [
+        12.16,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.56,
+       5.36
+      ],
+      "fill": {
+       "color": "#e8b000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Leuchtdiode mit Vorwiderstand, gelb",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Leuchtdiode mit Vorwiderstand, grün\rLED with series resistor, green\rDEL avec résistance série, verte",
+   "item": {
+    "caption": "Leuchtdiode mit Vorwiderstand, grün\rLED with series resistor, green\rDEL avec résistance série, verte",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        4.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       6.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       1.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.16,
+        10.16
+       ],
+       [
+        11.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        14.56,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.16,
+        8.16
+       ],
+       [
+        11.16,
+        12.16
+       ],
+       [
+        14.56,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        14.56,
+        8.16
+       ],
+       [
+        14.56,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.76,
+        12.96
+       ],
+       [
+        10.76,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.16,
+        12.96
+       ],
+       [
+        12.16,
+        15.56
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.56,
+       5.36
+      ],
+      "fill": {
+       "color": "#00a000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Leuchtdiode mit Vorwiderstand, grün",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Glimmlampe\rNeon lamp\rLampe au néon",
+   "item": {
+    "caption": "Glimmlampe\rNeon lamp\rLampe au néon",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        9.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        11.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        9.16,
+        8.16
+       ],
+       [
+        9.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.16,
+        8.16
+       ],
+       [
+        11.16,
+        12.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       11.76,
+       12.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.7,
+       0.7
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "LA?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Glimmlampe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Messinstrument\rMeasuring instrument\rAppareil de mesure",
+   "item": {
+    "autoNumber": false,
+    "caption": "Messinstrument\rMeasuring instrument\rAppareil de mesure",
+    "children": [
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       40.64,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       14.732,
+       10.16
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       24.384,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       14.732,
+       29.21
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       30.48,
+       30.48
+      ],
+      "start": 52.0,
+      "stop": 128.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.3493,
+        17.2007
+       ],
+       [
+        4.7337,
+        16.4127
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.02,
+        16.0653
+       ],
+       [
+        6.7164,
+        15.5478
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.8263,
+        15.1608
+       ],
+       [
+        8.5938,
+        14.6077
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        10.7362,
+        14.5031
+       ],
+       [
+        10.5789,
+        13.9241
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        12.7164,
+        14.1039
+       ],
+       [
+        12.6371,
+        13.5091
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        14.732,
+        13.97
+       ],
+       [
+        14.732,
+        12.97
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        16.7476,
+        14.1039
+       ],
+       [
+        16.8269,
+        13.5091
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        18.7278,
+        14.5031
+       ],
+       [
+        18.8851,
+        13.9241
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        20.6377,
+        15.1608
+       ],
+       [
+        20.8702,
+        14.6077
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        22.444,
+        16.0653
+       ],
+       [
+        22.7476,
+        15.5478
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        24.1147,
+        17.2007
+       ],
+       [
+        24.7303,
+        16.4127
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       3.9949,
+       14.6671
+      ],
+      "text": "0",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       14.732,
+       10.97
+      ],
+      "text": "5",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       25.4691,
+       14.6671
+      ],
+      "text": "10",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        10.3747,
+        17.2383
+       ],
+       [
+        9.3144,
+        14.3253
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.0
+       ],
+       [
+        30.48,
+        24.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "N2",
+      "pin": [
+       30.48,
+       0.0
+      ],
+      "pos": [
+       30.88,
+       0.3
+      ],
+      "text": "N2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        40.64
+       ],
+       [
+        30.48,
+        31.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S2",
+      "pin": [
+       30.48,
+       40.64
+      ],
+      "pos": [
+       30.88,
+       38.44
+      ],
+      "text": "S2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       30.48,
+       27.94
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        28.78,
+        29.64
+       ],
+       [
+        32.28,
+        26.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       37.24
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       34.04
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Messinstrument",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100 µA"
+   }
+  },
+  {
+   "caption": "Messwerk Typ 1\rMeter movement, type 1\rGalvanomètre, type 1",
+   "item": {
+    "autoNumber": false,
+    "caption": "Messwerk Typ 1\rMeter movement, type 1\rGalvanomètre, type 1",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.32,
+       20.32
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        10.16
+       ],
+       [
+        6.96,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "W",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        10.16
+       ],
+       [
+        13.36,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E",
+      "pin": [
+       20.32,
+       10.16
+      ],
+      "pos": [
+       19.92,
+       7.96
+      ],
+      "text": "E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        11.86
+       ],
+       [
+        11.96,
+        8.36
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       0.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Messwerk Typ 1",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Messwerk Typ 2\rMeter movement, type 2\rGalvanomètre, type 2",
+   "item": {
+    "autoNumber": false,
+    "caption": "Messwerk Typ 2\rMeter movement, type 2\rGalvanomètre, type 2",
+    "children": [
+     {
+      "centre": [
+       20.32,
+       20.32
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       40.64,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       20.32,
+       10.16
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       35.56,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       20.32,
+       38.1
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       50.8,
+       50.8
+      ],
+      "start": 55.0,
+      "stop": 125.0,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.7512,
+        17.2935
+       ],
+       [
+        5.1776,
+        16.4744
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.3954,
+        15.6731
+       ],
+       [
+        8.1137,
+        15.1434
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        11.2175,
+        14.3871
+       ],
+       [
+        11.0024,
+        13.8269
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        14.1752,
+        13.4545
+       ],
+       [
+        14.03,
+        12.8723
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        17.2245,
+        12.8893
+       ],
+       [
+        17.1514,
+        12.2938
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        20.32,
+        12.7
+       ],
+       [
+        20.32,
+        11.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        23.4155,
+        12.8893
+       ],
+       [
+        23.4886,
+        12.2938
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        26.4648,
+        13.4545
+       ],
+       [
+        26.61,
+        12.8723
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        29.4225,
+        14.3871
+       ],
+       [
+        29.6376,
+        13.8269
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        32.2446,
+        15.6731
+       ],
+       [
+        32.5263,
+        15.1434
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        34.8888,
+        17.2935
+       ],
+       [
+        35.4624,
+        16.4744
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       4.4893,
+       14.6914
+      ],
+      "text": "10",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       20.32,
+       9.7
+      ],
+      "text": "0",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       36.1507,
+       14.6914
+      ],
+      "text": "10",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        20.32,
+        15.2
+       ],
+       [
+        20.32,
+        12.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        30.48
+       ],
+       [
+        10.16,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "W2",
+      "pin": [
+       0.0,
+       30.48
+      ],
+      "pos": [
+       0.4,
+       28.28
+      ],
+      "text": "W2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       30.48
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        30.48
+       ],
+       [
+        17.12,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        23.52,
+        30.48
+       ],
+       [
+        30.48,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       30.48
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        30.48
+       ],
+       [
+        30.48,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E2",
+      "pin": [
+       40.64,
+       30.48
+      ],
+      "pos": [
+       40.24,
+       28.28
+      ],
+      "text": "E2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        40.64
+       ],
+       [
+        10.16,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S1",
+      "pin": [
+       10.16,
+       40.64
+      ],
+      "pos": [
+       10.56,
+       38.44
+      ],
+      "text": "S1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        40.64
+       ],
+       [
+        30.48,
+        30.48
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S2",
+      "pin": [
+       30.48,
+       40.64
+      ],
+      "pos": [
+       30.88,
+       38.44
+      ],
+      "text": "S2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       20.32,
+       30.48
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        18.62,
+        32.18
+       ],
+       [
+        22.12,
+        28.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       20.72
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0.6,
+       23.72
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Braun Lectron/Lectron Indicators/Messwerk Typ 2",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "100 µA"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

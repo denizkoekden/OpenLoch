@@ -1,0 +1,3976 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile",
+ "format": "OpenLoch Schematic Library",
+ "name": "Spulen\rInductors\rBobines",
+ "symbols": [
+  {
+   "caption": "Spule\rInductor\rBobine",
+   "item": {
+    "askValue": true,
+    "caption": "Spule\rInductor\rBobine",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule vertikal\rInductor, vertical\rBobine verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule vertikal\rInductor, vertical\rBobine verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule mit Kern\rInductor with core\rBobine avec noyau",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Kern\rInductor with core\rBobine avec noyau",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -1.9
+       ],
+       [
+        7.62,
+        -1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule mit Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule mit Ferritkern\rInductor with ferrite core\rBobine à noyau de ferrite",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Ferritkern\rInductor with ferrite core\rBobine à noyau de ferrite",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -1.9
+       ],
+       [
+        7.62,
+        -1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule mit Ferritkern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Einstellbare Spule\rVariable inductor\rBobine variable",
+   "item": {
+    "askValue": true,
+    "caption": "Einstellbare Spule\rVariable inductor\rBobine variable",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.74,
+        2.0
+       ],
+       [
+        7.42,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Einstellbare Spule",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule mit Anzapfung\rTapped inductor\rBobine à prise",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Anzapfung\rTapped inductor\rBobine à prise",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.58,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule mit Anzapfung",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drossel (Rechteck)\rChoke (block)\rSelf (rectangle)",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel (Rechteck)\rChoke (block)\rSelf (rectangle)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Drossel (Rechteck)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drossel (Wert im Symbol)\rChoke (value inside)\rSelf (valeur à l’intérieur)",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel (Wert im Symbol)\rChoke (value inside)\rSelf (valeur à l’intérieur)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        1.27,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       7.62,
+       3.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.89,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -1.25
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Drossel (Wert im Symbol)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drossel (Rechteck) vertikal\rChoke (block), vertical\rSelf (rectangle) verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel (Rechteck) vertikal\rChoke (block), vertical\rSelf (rectangle) verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Drossel (Rechteck) vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drossel mit Kern\rChoke with core\rSelf avec noyau",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel mit Kern\rChoke with core\rSelf avec noyau",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -2.0
+       ],
+       [
+        7.62,
+        -2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Drossel mit Kern",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drossel mit Kern vertikal\rChoke with core, vertical\rSelf avec noyau verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel mit Kern vertikal\rChoke with core, vertical\rSelf avec noyau verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.0,
+        2.54
+       ],
+       [
+        2.0,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.2,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.2,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Drossel mit Kern vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Einstellbare Drossel\rVariable choke\rSelf variable",
+   "item": {
+    "askValue": true,
+    "caption": "Einstellbare Drossel\rVariable choke\rSelf variable",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.74,
+        2.0
+       ],
+       [
+        7.42,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Einstellbare Drossel",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drossel, voreinstellbar\rPreset choke\rSelf préréglable",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel, voreinstellbar\rPreset choke\rSelf préréglable",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "bar",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.74,
+        2.0
+       ],
+       [
+        7.42,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Drossel, voreinstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Einstellbare Drossel vertikal\rVariable choke, vertical\rSelf variable verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Einstellbare Drossel vertikal\rVariable choke, vertical\rSelf variable verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.34,
+        7.08
+       ],
+       [
+        2.34,
+        2.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Einstellbare Drossel vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drossel, voreinstellbar, vertikal\rPreset choke, vertical\rSelf préréglable verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Drossel, voreinstellbar, vertikal\rPreset choke, vertical\rSelf préréglable verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -0.0,
+       5.08
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "bar",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.34,
+        7.08
+       ],
+       [
+        2.34,
+        2.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Drossel, voreinstellbar, vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule mit Kern vertikal\rInductor with core, vertical\rBobine avec noyau verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Kern vertikal\rInductor with core, vertical\rBobine avec noyau verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.9,
+        2.54
+       ],
+       [
+        1.9,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.0,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.0,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule mit Kern vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule mit Ferritkern vertikal\rInductor with ferrite core, vertical\rBobine à noyau de ferrite verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule mit Ferritkern vertikal\rInductor with ferrite core, vertical\rBobine à noyau de ferrite verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.9,
+        2.54
+       ],
+       [
+        1.9,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.0,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.0,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule mit Ferritkern vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule, voreinstellbar\rPreset inductor\rBobine préréglable",
+   "item": {
+    "askValue": true,
+    "caption": "Spule, voreinstellbar\rPreset inductor\rBobine préréglable",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.175,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.445,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.715,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       6.985,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "bar",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.74,
+        2.0
+       ],
+       [
+        7.42,
+        -3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule, voreinstellbar",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Einstellbare Spule vertikal\rVariable inductor, vertical\rBobine variable verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Einstellbare Spule vertikal\rVariable inductor, vertical\rBobine variable verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.34,
+        7.08
+       ],
+       [
+        2.34,
+        2.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Einstellbare Spule vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule, voreinstellbar, vertikal\rPreset inductor, vertical\rBobine préréglable verticale",
+   "item": {
+    "askValue": true,
+    "caption": "Spule, voreinstellbar, vertikal\rPreset inductor, vertical\rBobine préréglable verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       2.8,
+       -0.6
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       2.8,
+       8.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "bar",
+      "endSize": 1.6,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.34,
+        7.08
+       ],
+       [
+        2.34,
+        2.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       2.14
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule, voreinstellbar, vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Spule (Wendel)\rInductor (helix)\rBobine (hélice)",
+   "item": {
+    "askValue": true,
+    "caption": "Spule (Wendel)\rInductor (helix)\rBobine (hélice)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -0.0
+       ],
+       [
+        2.36,
+        -0.0307
+       ],
+       [
+        2.1958,
+        -0.1206
+       ],
+       [
+        2.0624,
+        -0.2636
+       ],
+       [
+        1.9722,
+        -0.45
+       ],
+       [
+        1.9353,
+        -0.6671
+       ],
+       [
+        1.9575,
+        -0.9
+       ],
+       [
+        2.0411,
+        -1.1329
+       ],
+       [
+        2.1839,
+        -1.35
+       ],
+       [
+        2.3799,
+        -1.5364
+       ],
+       [
+        2.6192,
+        -1.6794
+       ],
+       [
+        2.8891,
+        -1.7693
+       ],
+       [
+        3.175,
+        -1.8
+       ],
+       [
+        3.4609,
+        -1.7693
+       ],
+       [
+        3.7308,
+        -1.6794
+       ],
+       [
+        3.9701,
+        -1.5364
+       ],
+       [
+        4.1661,
+        -1.35
+       ],
+       [
+        4.3089,
+        -1.1329
+       ],
+       [
+        4.3925,
+        -0.9
+       ],
+       [
+        4.4147,
+        -0.6671
+       ],
+       [
+        4.3778,
+        -0.45
+       ],
+       [
+        4.2876,
+        -0.2636
+       ],
+       [
+        4.1542,
+        -0.1206
+       ],
+       [
+        3.99,
+        -0.0307
+       ],
+       [
+        3.81,
+        -0.0
+       ],
+       [
+        3.63,
+        -0.0307
+       ],
+       [
+        3.4658,
+        -0.1206
+       ],
+       [
+        3.3324,
+        -0.2636
+       ],
+       [
+        3.2422,
+        -0.45
+       ],
+       [
+        3.2053,
+        -0.6671
+       ],
+       [
+        3.2275,
+        -0.9
+       ],
+       [
+        3.3111,
+        -1.1329
+       ],
+       [
+        3.4539,
+        -1.35
+       ],
+       [
+        3.6499,
+        -1.5364
+       ],
+       [
+        3.8892,
+        -1.6794
+       ],
+       [
+        4.1591,
+        -1.7693
+       ],
+       [
+        4.445,
+        -1.8
+       ],
+       [
+        4.7309,
+        -1.7693
+       ],
+       [
+        5.0008,
+        -1.6794
+       ],
+       [
+        5.2401,
+        -1.5364
+       ],
+       [
+        5.4361,
+        -1.35
+       ],
+       [
+        5.5789,
+        -1.1329
+       ],
+       [
+        5.6625,
+        -0.9
+       ],
+       [
+        5.6847,
+        -0.6671
+       ],
+       [
+        5.6478,
+        -0.45
+       ],
+       [
+        5.5576,
+        -0.2636
+       ],
+       [
+        5.4242,
+        -0.1206
+       ],
+       [
+        5.26,
+        -0.0307
+       ],
+       [
+        5.08,
+        -0.0
+       ],
+       [
+        4.9,
+        -0.0307
+       ],
+       [
+        4.7358,
+        -0.1206
+       ],
+       [
+        4.6024,
+        -0.2636
+       ],
+       [
+        4.5122,
+        -0.45
+       ],
+       [
+        4.4753,
+        -0.6671
+       ],
+       [
+        4.4975,
+        -0.9
+       ],
+       [
+        4.5811,
+        -1.1329
+       ],
+       [
+        4.7239,
+        -1.35
+       ],
+       [
+        4.9199,
+        -1.5364
+       ],
+       [
+        5.1592,
+        -1.6794
+       ],
+       [
+        5.4291,
+        -1.7693
+       ],
+       [
+        5.715,
+        -1.8
+       ],
+       [
+        6.0009,
+        -1.7693
+       ],
+       [
+        6.2708,
+        -1.6794
+       ],
+       [
+        6.5101,
+        -1.5364
+       ],
+       [
+        6.7061,
+        -1.35
+       ],
+       [
+        6.8489,
+        -1.1329
+       ],
+       [
+        6.9325,
+        -0.9
+       ],
+       [
+        6.9547,
+        -0.6671
+       ],
+       [
+        6.9178,
+        -0.45
+       ],
+       [
+        6.8276,
+        -0.2636
+       ],
+       [
+        6.6942,
+        -0.1206
+       ],
+       [
+        6.53,
+        -0.0307
+       ],
+       [
+        6.35,
+        -0.0
+       ],
+       [
+        6.17,
+        -0.0307
+       ],
+       [
+        6.0058,
+        -0.1206
+       ],
+       [
+        5.8724,
+        -0.2636
+       ],
+       [
+        5.7822,
+        -0.45
+       ],
+       [
+        5.7453,
+        -0.6671
+       ],
+       [
+        5.7675,
+        -0.9
+       ],
+       [
+        5.8511,
+        -1.1329
+       ],
+       [
+        5.9939,
+        -1.35
+       ],
+       [
+        6.1899,
+        -1.5364
+       ],
+       [
+        6.4292,
+        -1.6794
+       ],
+       [
+        6.6991,
+        -1.7693
+       ],
+       [
+        6.985,
+        -1.8
+       ],
+       [
+        7.2709,
+        -1.7693
+       ],
+       [
+        7.5408,
+        -1.6794
+       ],
+       [
+        7.7801,
+        -1.5364
+       ],
+       [
+        7.9761,
+        -1.35
+       ],
+       [
+        8.1189,
+        -1.1329
+       ],
+       [
+        8.2025,
+        -0.9
+       ],
+       [
+        8.2247,
+        -0.6671
+       ],
+       [
+        8.1878,
+        -0.45
+       ],
+       [
+        8.0976,
+        -0.2636
+       ],
+       [
+        7.9642,
+        -0.1206
+       ],
+       [
+        7.8,
+        -0.0307
+       ],
+       [
+        7.62,
+        -0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "L?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/Spulen/Spule (Wendel)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

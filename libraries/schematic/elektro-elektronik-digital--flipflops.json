@@ -1,0 +1,3597 @@
+{
+ "folder": "Elektro/Elektronik/Digital",
+ "format": "OpenLoch Schematic Library",
+ "name": "Flipflops\rFlip-flops\rBascules",
+ "symbols": [
+  {
+   "caption": "RS-Flipflop\rSR flip-flop\rBascule RS",
+   "item": {
+    "caption": "RS-Flipflop\rSR flip-flop\rBascule RS",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       4.08
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/Q",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "/Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RS-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/RS-Flipflop",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "D-Flipflop\rD flip-flop\rBascule D",
+   "item": {
+    "caption": "D-Flipflop\rD flip-flop\rBascule D",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       4.08
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/Q",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "/Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/D-Flipflop",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "JK-Flipflop\rJK flip-flop\rBascule JK",
+   "item": {
+    "caption": "JK-Flipflop\rJK flip-flop\rBascule JK",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "J",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "J",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "J",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "K",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        7.62
+       ],
+       [
+        12.7,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       6.62
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/Q",
+      "pin": [
+       12.7,
+       7.62
+      ],
+      "pos": [
+       12.3,
+       5.42
+      ],
+      "text": "/Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "JK-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/JK-Flipflop",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "T-Flipflop\rT flip-flop\rBascule T",
+   "item": {
+    "caption": "T-Flipflop\rT flip-flop\rBascule T",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "T",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "T",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "T",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       4.08
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/Q",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "/Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "T-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/T-Flipflop",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "D-Flipflop mit Setzen und Rücksetzen\rD flip-flop with set and reset\rBascule D avec mise à 1 et à 0",
+   "item": {
+    "caption": "D-Flipflop mit Setzen und Rücksetzen\rD flip-flop with set and reset\rBascule D avec mise à 1 et à 0",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       1.94,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.34,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "/S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        6.72
+       ],
+       [
+        3.74,
+        7.62
+       ],
+       [
+        2.54,
+        8.52
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       6.62
+      ],
+      "text": "C",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "C",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       1.94,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        1.34,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/R",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "/R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        10.16
+       ],
+       [
+        12.7,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       9.16
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "/Q",
+      "pin": [
+       12.7,
+       10.16
+      ],
+      "pos": [
+       12.3,
+       7.96
+      ],
+      "text": "/Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       13.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/D-Flipflop mit Setzen und Rücksetzen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "RS-Flipflop, zustandsgesteuert\rSR flip-flop, level-triggered\rBascule RS, déclenchement sur niveau",
+   "item": {
+    "caption": "RS-Flipflop, zustandsgesteuert\rSR flip-flop, level-triggered\rBascule RS, déclenchement sur niveau",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "1S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "C1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "1R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1R",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "1R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        7.62
+       ],
+       [
+        12.7,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       6.62
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~Q",
+      "pin": [
+       12.7,
+       7.62
+      ],
+      "pos": [
+       12.3,
+       5.42
+      ],
+      "text": "~Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RS-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/RS-Flipflop, zustandsgesteuert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "RS-Flipflop, flankengesteuert\rSR flip-flop, edge-triggered\rBascule RS, déclenchement sur front",
+   "item": {
+    "caption": "RS-Flipflop, flankengesteuert\rSR flip-flop, edge-triggered\rBascule RS, déclenchement sur front",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "1S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "C1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "1R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1R",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "1R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        7.62
+       ],
+       [
+        12.7,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       6.62
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~Q",
+      "pin": [
+       12.7,
+       7.62
+      ],
+      "pos": [
+       12.3,
+       5.42
+      ],
+      "text": "~Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "RS-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/RS-Flipflop, flankengesteuert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "D-Flipflop, zustandsgesteuert\rD flip-flop, level-triggered (D latch)\rBascule D, déclenchement sur niveau",
+   "item": {
+    "caption": "D-Flipflop, zustandsgesteuert\rD flip-flop, level-triggered (D latch)\rBascule D, déclenchement sur niveau",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "1D",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1D",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "C1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       4.08
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~Q",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "~Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/D-Flipflop, zustandsgesteuert",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "JK-Flipflop, Master-Slave\rJK flip-flop, master-slave\rBascule JK maître-esclave",
+   "item": {
+    "caption": "JK-Flipflop, Master-Slave\rJK flip-flop, master-slave\rBascule JK maître-esclave",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "1J",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1J",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1J",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "C1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "1K",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1K",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "1K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        1.64
+       ],
+       [
+        9.56,
+        1.64
+       ],
+       [
+        9.56,
+        2.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.06,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        7.62
+       ],
+       [
+        12.7,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        6.72
+       ],
+       [
+        9.56,
+        6.72
+       ],
+       [
+        9.56,
+        7.82
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.06,
+       6.62
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~Q",
+      "pin": [
+       12.7,
+       7.62
+      ],
+      "pos": [
+       12.3,
+       5.42
+      ],
+      "text": "~Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "JK-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/JK-Flipflop, Master-Slave",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "JK-Flipflop, negative Flanke\rJK flip-flop, negative edge\rBascule JK, front descendant",
+   "item": {
+    "caption": "JK-Flipflop, negative Flanke\rJK flip-flop, negative edge\rBascule JK, front descendant",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "1J",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1J",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1J",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       1.94,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        1.34,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.18
+       ],
+       [
+        3.74,
+        5.08
+       ],
+       [
+        2.54,
+        5.98
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       4.04,
+       4.08
+      ],
+      "text": "C1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "C1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "1K",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1K",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "1K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        7.62
+       ],
+       [
+        12.7,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.56,
+       6.62
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~Q",
+      "pin": [
+       12.7,
+       7.62
+      ],
+      "pos": [
+       12.3,
+       5.42
+      ],
+      "text": "~Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "JK-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/JK-Flipflop, negative Flanke",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "JK-Flipflop mit Setzen und Rücksetzen\rJK flip-flop with set and reset\rBascule JK avec mise à 1 et à 0",
+   "item": {
+    "caption": "JK-Flipflop mit Setzen und Rücksetzen\rJK flip-flop with set and reset\rBascule JK avec mise à 1 et à 0",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       1.94,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        1.34,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "S",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "1J",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1J",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "1J",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "C1",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "C1",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "C1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "1K",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1K",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "1K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       1.94,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        1.34,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        2.54
+       ],
+       [
+        12.7,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        1.64
+       ],
+       [
+        9.56,
+        1.64
+       ],
+       [
+        9.56,
+        2.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.06,
+       1.54
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "Q",
+      "pin": [
+       12.7,
+       2.54
+      ],
+      "pos": [
+       12.3,
+       0.34
+      ],
+      "text": "Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.76,
+       12.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.36,
+        12.7
+       ],
+       [
+        12.7,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.46,
+        11.8
+       ],
+       [
+        9.56,
+        11.8
+       ],
+       [
+        9.56,
+        12.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.06,
+       11.7
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "~Q",
+      "pin": [
+       12.7,
+       12.7
+      ],
+      "pos": [
+       12.3,
+       10.5
+      ],
+      "text": "~Q",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "JK-FF?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Digital/Flipflops/JK-Flipflop mit Setzen und Rücksetzen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

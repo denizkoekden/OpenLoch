@@ -1,0 +1,833 @@
+{
+ "folder": "USER/Misc. (German)/sPlan - EU-Norm",
+ "format": "OpenLoch Schematic Library",
+ "name": "Siemens NET\rSiemens NET\rSiemens NET",
+ "symbols": [
+  {
+   "caption": "SCALANCE XB005\rSCALANCE XB005\rSCALANCE XB005",
+   "item": {
+    "caption": "SCALANCE XB005\rSCALANCE XB005\rSCALANCE XB005",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       20.32
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       25.4,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "bold": true,
+       "height": 1.6
+      },
+      "pos": [
+       0.8,
+       0.8
+      ],
+      "text": "SCALANCE XB005",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       0.8,
+       3.0
+      ],
+      "text": "6GK5005-0BA00-1AB2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       20.32,
+       3.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.1,
+       1.1
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       21.32,
+       3.0
+      ],
+      "text": "L",
+      "type": "text"
+     },
+     {
+      "centre": [
+       3.5,
+       10.944
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       3.5,
+       12.294
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       1.4,
+       7.544
+      ],
+      "text": "P1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       16.2,
+       10.944
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       16.2,
+       12.294
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.1,
+       7.544
+      ],
+      "text": "P2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       3.5,
+       19.58
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       3.5,
+       20.93
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       1.4,
+       16.18
+      ],
+      "text": "P3",
+      "type": "text"
+     },
+     {
+      "centre": [
+       16.2,
+       19.58
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       16.2,
+       20.93
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.1,
+       16.18
+      ],
+      "text": "P4",
+      "type": "text"
+     },
+     {
+      "centre": [
+       3.5,
+       28.216
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.2,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       3.5,
+       29.566
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.6,
+       0.9
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       1.4,
+       24.816
+      ],
+      "text": "P5",
+      "type": "text"
+     },
+     {
+      "centre": [
+       7.62,
+       40.64
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        41.34
+       ],
+       [
+        7.62,
+        43.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        38.04
+       ],
+       [
+        7.62,
+        38.64
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.82,
+        38.64
+       ],
+       [
+        8.42,
+        38.64
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.12,
+        39.04
+       ],
+       [
+        8.12,
+        39.04
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.42,
+        39.44
+       ],
+       [
+        7.82,
+        39.44
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "FE",
+      "pin": [
+       7.62,
+       43.18
+      ],
+      "pos": [
+       8.02,
+       40.98
+      ],
+      "text": "FE",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       12.7,
+       40.64
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        41.34
+       ],
+       [
+        12.7,
+        43.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       12.7,
+       38.04
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "M",
+      "pin": [
+       12.7,
+       43.18
+      ],
+      "pos": [
+       13.1,
+       40.98
+      ],
+      "text": "M",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       17.78,
+       40.64
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        41.34
+       ],
+       [
+        17.78,
+        43.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       17.78,
+       38.04
+      ],
+      "text": "L+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "L+",
+      "pin": [
+       17.78,
+       43.18
+      ],
+      "pos": [
+       18.18,
+       40.98
+      ],
+      "text": "L+",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       12.7,
+       36.04
+      ],
+      "text": "24 V DC",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.4,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.4,
+       3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-A?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Siemens NET/SCALANCE XB005",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "XB005"
+   }
+  },
+  {
+   "caption": "SCALANCE XB005 (Versorgung)\rSCALANCE XB005 (supply)\rSCALANCE XB005 (alimentation)",
+   "item": {
+    "autoNumber": false,
+    "caption": "SCALANCE XB005 (Versorgung)\rSCALANCE XB005 (supply)\rSCALANCE XB005 (alimentation)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       0.0,
+       2.94
+      ],
+      "text": "1",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.3
+      },
+      "pos": [
+       0.0,
+       4.94
+      ],
+      "text": "FE",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "FE",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       5.08,
+       2.94
+      ],
+      "text": "2",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.3
+      },
+      "pos": [
+       5.08,
+       4.94
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "M",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.48,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       10.16,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       10.16,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       10.16,
+       2.94
+      ],
+      "text": "3",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.3
+      },
+      "pos": [
+       10.16,
+       4.94
+      ],
+      "text": "L+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "L+",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       10.56,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       13.7,
+       -0.7
+      ],
+      "text": "XB005",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.54,
+       6.94
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "<PARENT_ID>",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/Siemens NET/SCALANCE XB005 (Versorgung)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "<PARENT_VALUE>"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

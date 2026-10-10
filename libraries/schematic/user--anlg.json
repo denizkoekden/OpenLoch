@@ -1,0 +1,2402 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "ANLG\rANLG\rANLG",
+ "symbols": [
+  {
+   "caption": "Operationsverstärker µA741 (− oben)\rOp-amp µA741 (inverting input at the top)\rAmpli op µA741 (entrée inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker µA741 (− oben)\rOp-amp µA741 (inverting input at the top)\rAmpli op µA741 (entrée inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker µA741 (− oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "µA741"
+   }
+  },
+  {
+   "caption": "Operationsverstärker µA741 (+ oben)\rOp-amp µA741 (non-inverting input at the top)\rAmpli op µA741 (entrée non inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker µA741 (+ oben)\rOp-amp µA741 (non-inverting input at the top)\rAmpli op µA741 (entrée non inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker µA741 (+ oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "µA741"
+   }
+  },
+  {
+   "caption": "Operationsverstärker LF355 mit Versorgung (− oben)\rOp-amp LF355 with supply (inverting input at the top)\rAmpli op LF355 avec alimentation (entrée inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker LF355 mit Versorgung (− oben)\rOp-amp LF355 with supply (inverting input at the top)\rAmpli op LF355 avec alimentation (entrée inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -2.54
+       ],
+       [
+        7.62,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       7.62,
+       -5.08
+      ],
+      "pos": [
+       8.02,
+       -5.08
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.02,
+       3.08
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.22,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.22,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker LF355 mit Versorgung (− oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LF355"
+   }
+  },
+  {
+   "caption": "Operationsverstärker LF355 mit Versorgung (+ oben)\rOp-amp LF355 with supply (non-inverting input at the top)\rAmpli op LF355 avec alimentation (entrée non inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker LF355 mit Versorgung (+ oben)\rOp-amp LF355 with supply (non-inverting input at the top)\rAmpli op LF355 avec alimentation (entrée non inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -2.54
+       ],
+       [
+        7.62,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       7.62,
+       -5.08
+      ],
+      "pos": [
+       8.02,
+       -5.08
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.02,
+       3.08
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.22,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.22,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker LF355 mit Versorgung (+ oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LF355"
+   }
+  },
+  {
+   "caption": "Operationsverstärker LM348 (− oben)\rOp-amp LM348 (inverting input at the top)\rAmpli op LM348 (entrée inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker LM348 (− oben)\rOp-amp LM348 (inverting input at the top)\rAmpli op LM348 (entrée inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker LM348 (− oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LM348"
+   }
+  },
+  {
+   "caption": "Operationsverstärker LM348 (+ oben)\rOp-amp LM348 (non-inverting input at the top)\rAmpli op LM348 (entrée non inverseuse en haut)",
+   "item": {
+    "caption": "Operationsverstärker LM348 (+ oben)\rOp-amp LM348 (non-inverting input at the top)\rAmpli op LM348 (entrée non inverseuse en haut)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.144,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker LM348 (+ oben)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LM348"
+   }
+  },
+  {
+   "caption": "Operationsverstärker LM301 mit Kompensation\rOp-amp LM301 with compensation\rAmpli op LM301 avec compensation",
+   "item": {
+    "caption": "Operationsverstärker LM301 mit Kompensation\rOp-amp LM301 with compensation\rAmpli op LM301 avec compensation",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -3.81
+       ],
+       [
+        5.08,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       5.08,
+       -7.62
+      ],
+      "pos": [
+       5.48,
+       -7.62
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -2.54
+       ],
+       [
+        7.62,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       7.62,
+       -7.62
+      ],
+      "pos": [
+       8.02,
+       -7.62
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        -1.27
+       ],
+       [
+        10.16,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       10.16,
+       -7.62
+      ],
+      "pos": [
+       10.56,
+       -7.62
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.62
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.76,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.76,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker LM301 mit Kompensation",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LM301"
+   }
+  },
+  {
+   "caption": "Operationsverstärker TLC271 (programmierbar)\rOp-amp TLC271 (programmable)\rAmpli op TLC271 (programmable)",
+   "item": {
+    "caption": "Operationsverstärker TLC271 (programmierbar)\rOp-amp TLC271 (programmable)\rAmpli op TLC271 (programmable)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       -3.94
+      ],
+      "text": "−",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.04,
+       1.14
+      ],
+      "text": "+",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.2,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "3",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "6",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -2.54
+       ],
+       [
+        7.62,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       7.62,
+       -7.62
+      ],
+      "pos": [
+       8.02,
+       -7.62
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        -1.27
+       ],
+       [
+        10.16,
+        -7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       10.16,
+       -7.62
+      ],
+      "pos": [
+       10.56,
+       -7.62
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.81
+       ],
+       [
+        5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.48,
+       5.62
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.02,
+       5.62
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        1.27
+       ],
+       [
+        10.16,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "5",
+      "pin": [
+       10.16,
+       7.62
+      ],
+      "pos": [
+       10.56,
+       5.62
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.76,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.76,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "A?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Operationsverstärker TLC271 (programmierbar)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TLC271"
+   }
+  },
+  {
+   "caption": "Pufferverstärker EL2001\rBuffer amplifier EL2001\rAmplificateur tampon EL2001",
+   "item": {
+    "caption": "Pufferverstärker EL2001\rBuffer amplifier EL2001\rAmplificateur tampon EL2001",
+    "children": [
+     {
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        2.54,
+        -5.08
+       ],
+       [
+        2.54,
+        5.08
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.48,
+       -1.25
+      ],
+      "text": "+1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -2.54
+       ],
+       [
+        7.62,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        2.54
+       ],
+       [
+        7.62,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "2",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.2,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "name": "7",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       15.04,
+       -2.2
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "1",
+      "pin": [
+       7.62,
+       -5.08
+      ],
+      "pos": [
+       8.02,
+       -5.08
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       7.62,
+       5.08
+      ],
+      "pos": [
+       8.02,
+       3.08
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.744,
+       -6.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.744,
+       3.28
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "IC?",
+    "libraryEntry": "OpenLoch/USER/ANLG/Pufferverstärker EL2001",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "EL2001"
+   }
+  },
+  {
+   "caption": "Versorgung Operationsverstärker\rOp-amp supply\rAlimentation ampli op",
+   "item": {
+    "autoNumber": false,
+    "caption": "Versorgung Operationsverstärker\rOp-amp supply\rAlimentation ampli op",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.8,
+        -2.54
+       ],
+       [
+        1.8,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.54
+      ],
+      "text": "+9 V",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.0,
+        12.7
+       ],
+       [
+        2.0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.3,
+        13.5
+       ],
+       [
+        1.3,
+        13.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -0.6,
+        14.3
+       ],
+       [
+        0.6,
+        14.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "8",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.0
+      ],
+      "text": "8",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.6
+      },
+      "name": "4",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       10.36
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/USER/ANLG/Versorgung Operationsverstärker",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

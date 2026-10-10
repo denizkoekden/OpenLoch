@@ -1,0 +1,9712 @@
+{
+ "folder": "Elektro",
+ "format": "OpenLoch Schematic Library",
+ "name": "Kfz\rMotor vehicle\rVéhicule automobile",
+ "symbols": [
+  {
+   "caption": "Lichtmaschine\rAlternator\rAlternateur",
+   "item": {
+    "caption": "Lichtmaschine\rAlternator\rAlternateur",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.84,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.32,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.6
+      },
+      "pos": [
+       5.08,
+       -2.6
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       5.08,
+       0.0
+      ],
+      "text": "3~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Lichtmaschine",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Anlasser\rStarter motor\rDémarreur",
+   "item": {
+    "caption": "Anlasser\rStarter motor\rDémarreur",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.84,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.32,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       5.08,
+       -1.6
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "centre": [
+       5.08,
+       3.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "M?",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Anlasser",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zündkerze\rSpark plug\rBougie d’allumage",
+   "item": {
+    "caption": "Zündkerze\rSpark plug\rBougie d’allumage",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.54
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        6.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.2,
+        7.08
+       ],
+       [
+        1.2,
+        7.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.2,
+        7.08
+       ],
+       [
+        1.2,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.0,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.0,
+       3.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "E?",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Zündkerze",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zündspule\rIgnition coil\rBobine d’allumage",
+   "item": {
+    "caption": "Zündspule\rIgnition coil\rBobine d’allumage",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        7.62
+       ],
+       [
+        2.54,
+        10.16
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.54,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        4.48,
+        1.524
+       ],
+       [
+        4.48,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.68,
+        1.524
+       ],
+       [
+        5.68,
+        8.636
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        7.62,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       3.175
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       4.445
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       5.715
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.62,
+       6.985
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.27,
+       1.27
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       9.76,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       2.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.96,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "?",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Zündspule",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Glühlampe (Kfz)\rBulb (vehicle)\rAmpoule (véhicule)",
+   "item": {
+    "caption": "Glühlampe (Kfz)\rBulb (vehicle)\rAmpoule (véhicule)",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.84,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.32,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.7465,
+        2.3335
+       ],
+       [
+        7.4135,
+        -2.3335
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.7465,
+        -2.3335
+       ],
+       [
+        7.4135,
+        2.3335
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "H?",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Glühlampe (Kfz)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fahrzeugmasse\rVehicle chassis\rMasse du véhicule",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fahrzeugmasse\rVehicle chassis\rMasse du véhicule",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -2.0,
+        2.54
+       ],
+       [
+        2.0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        2.54
+       ],
+       [
+        -3.0,
+        3.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        -1.0,
+        3.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.0,
+        2.54
+       ],
+       [
+        1.0,
+        3.94
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.2,
+       0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Fahrzeugmasse",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Zündschloss\rIgnition switch\rContacteur d’allumage",
+   "item": {
+    "caption": "Zündschloss\rIgnition switch\rContacteur d’allumage",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        7.22,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       -3.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -2.6
+       ],
+       [
+        5.08,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.8
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "S?",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Zündschloss",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wechselrelais\rChange-over relay\rRelais inverseur",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wechselrelais\rChange-over relay\rRelais inverseur",
+    "children": [
+     {
+      "centre": [
+       3.94,
+       5.08
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       12.96,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.5
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        9.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        7.62
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        9.66
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0.5
+       ],
+       [
+        7.62,
+        2.54
+       ],
+       [
+        9.22,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        5.08,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        7.62
+       ],
+       [
+        9.72,
+        2.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        4.68
+       ],
+       [
+        8.7466,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "86",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.3
+      ],
+      "text": "86",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       0,
+       10.16
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "85",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       10.56
+      ],
+      "text": "85",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       7.62,
+       10.16
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "30",
+      "pin": [
+       7.62,
+       10.16
+      ],
+      "pos": [
+       8.02,
+       10.56
+      ],
+      "text": "30",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "87",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.48,
+       -2.3
+      ],
+      "text": "87",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       7.62,
+       0
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "87a",
+      "pin": [
+       7.62,
+       0
+      ],
+      "pos": [
+       8.02,
+       -2.3
+      ],
+      "text": "87a",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.42,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.42,
+       3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Wechselrelais",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Schließerrelais\rMake-contact relay\rRelais à contact de travail",
+   "item": {
+    "autoNumber": false,
+    "caption": "Schließerrelais\rMake-contact relay\rRelais à contact de travail",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       13.36,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.5
+       ],
+       [
+        0,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        9.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.2,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        7.62
+       ],
+       [
+        1.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        1.27
+       ],
+       [
+        -5.08,
+        1.27
+       ],
+       [
+        -5.08,
+        2.74
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       4.68
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        7.42
+       ],
+       [
+        -5.08,
+        8.89
+       ],
+       [
+        0,
+        8.89
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       1.27
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.7,
+       0.7
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       8.89
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.7,
+       0.7
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        9.66
+       ],
+       [
+        5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.5
+       ],
+       [
+        5.08,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        7.62
+       ],
+       [
+        3.18,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        4.68
+       ],
+       [
+        3.8331,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "86",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.3
+      ],
+      "text": "86",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       0,
+       10.16
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "85",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       10.56
+      ],
+      "text": "85",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.08,
+       10.16
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "30",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.48,
+       10.56
+      ],
+      "text": "30",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "fill": {
+       "color": "#ffffff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "87",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.48,
+       -2.3
+      ],
+      "text": "87",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.68,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.68,
+       3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Schließerrelais",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Öldruck-Kontrollleuchte\rOil pressure warning lamp\rTémoin de pression d’huile",
+   "item": {
+    "autoNumber": false,
+    "caption": "Öldruck-Kontrollleuchte\rOil pressure warning lamp\rTémoin de pression d’huile",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.4,
+        7.2
+       ],
+       [
+        2.4,
+        4.8
+       ],
+       [
+        3.6,
+        4.8
+       ],
+       [
+        3.6,
+        4.2
+       ],
+       [
+        4.8,
+        4.2
+       ],
+       [
+        4.8,
+        4.8
+       ],
+       [
+        6.2,
+        4.8
+       ],
+       [
+        8.6,
+        3.3
+       ],
+       [
+        8.7,
+        3.8
+       ],
+       [
+        6.6,
+        5.8
+       ],
+       [
+        6.6,
+        7.2
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       2.4,
+       6.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       2.4
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.7,
+        4.7
+       ],
+       [
+        8.25,
+        5.6
+       ],
+       [
+        9.15,
+        5.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       8.7,
+       5.75
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.95,
+       0.95
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Öldruck-Kontrollleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kühlmitteltemperatur-Anzeige\rCoolant temperature indicator\rIndicateur de température du liquide de refroidissement",
+   "item": {
+    "autoNumber": false,
+    "caption": "Kühlmitteltemperatur-Anzeige\rCoolant temperature indicator\rIndicateur de température du liquide de refroidissement",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       3.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       6.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.9,
+       1.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.58,
+        2.2
+       ],
+       [
+        6.78,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.58,
+        3.2
+       ],
+       [
+        6.78,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.58,
+        4.2
+       ],
+       [
+        6.78,
+        4.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.82,
+       6.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.24,
+       1.24
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.06,
+       6.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.24,
+       1.24
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.1,
+       6.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.24,
+       1.24
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       8.34,
+       6.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.24,
+       1.24
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.8467,
+       8.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2933,
+       1.2933
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       3.14,
+       8.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2933,
+       1.2933
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       4.4333,
+       8.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2933,
+       1.2933
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.7267,
+       8.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2933,
+       1.2933
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       7.02,
+       8.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2933,
+       1.2933
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       8.3133,
+       8.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2933,
+       1.2933
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Kühlmitteltemperatur-Anzeige",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Allradantrieb (4WD)\rFour-wheel drive (4WD)\rTransmission intégrale (4WD)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Allradantrieb (4WD)\rFour-wheel drive (4WD)\rTransmission intégrale (4WD)",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 3.0
+      },
+      "pos": [
+       5.08,
+       3.58
+      ],
+      "text": "4WD",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Allradantrieb (4WD)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Warnblinklicht\rHazard warning lights\rFeux de détresse",
+   "item": {
+    "autoNumber": false,
+    "caption": "Warnblinklicht\rHazard warning lights\rFeux de détresse",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       6.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       8.6,
+       8.6
+      ],
+      "start": 135,
+      "stop": 225,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       8.6,
+       8.6
+      ],
+      "start": 315,
+      "stop": 405,
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        2.38
+       ],
+       [
+        2.58,
+        6.68
+       ],
+       [
+        7.58,
+        6.68
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        3.68
+       ],
+       [
+        5.08,
+        5.18
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       5.88
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.5,
+       0.5
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Warnblinklicht",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Motorkontrollleuchte\rEngine malfunction indicator\rTémoin de défaillance moteur",
+   "item": {
+    "autoNumber": false,
+    "caption": "Motorkontrollleuchte\rEngine malfunction indicator\rTémoin de défaillance moteur",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.8,
+        3.8
+       ],
+       [
+        7.4,
+        3.8
+       ],
+       [
+        7.4,
+        4.6
+       ],
+       [
+        8.4,
+        4.6
+       ],
+       [
+        8.4,
+        3.9
+       ],
+       [
+        9.0,
+        3.9
+       ],
+       [
+        9.0,
+        7.0
+       ],
+       [
+        8.4,
+        7.0
+       ],
+       [
+        8.4,
+        6.2
+       ],
+       [
+        7.4,
+        6.2
+       ],
+       [
+        7.4,
+        7.6
+       ],
+       [
+        3.8,
+        7.6
+       ],
+       [
+        2.8,
+        6.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       5.1,
+       2.5
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.2,
+       0.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.1,
+       3.3
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.4,
+        4.4
+       ],
+       [
+        1.4,
+        6.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.4,
+        5.6
+       ],
+       [
+        2.8,
+        5.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Motorkontrollleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Tachometer (LCD)\rSpeedometer (LCD)\rCompteur de vitesse (LCD)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tachometer (LCD)\rSpeedometer (LCD)\rCompteur de vitesse (LCD)",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.88,
+        1.4
+       ],
+       [
+        1.88,
+        3.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.88,
+        3.3
+       ],
+       [
+        1.88,
+        5.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.88,
+        1.4
+       ],
+       [
+        5.08,
+        1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        1.4
+       ],
+       [
+        5.08,
+        3.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.08,
+        3.3
+       ],
+       [
+        5.08,
+        5.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.88,
+        5.2
+       ],
+       [
+        5.08,
+        5.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.88,
+        3.3
+       ],
+       [
+        2.88,
+        5.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.88,
+        1.4
+       ],
+       [
+        2.88,
+        3.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.88,
+        3.3
+       ],
+       [
+        5.08,
+        3.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.08,
+        1.4
+       ],
+       [
+        8.28,
+        1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.28,
+        1.4
+       ],
+       [
+        8.28,
+        3.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        8.28,
+        3.3
+       ],
+       [
+        8.28,
+        5.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.08,
+        5.2
+       ],
+       [
+        8.28,
+        5.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.08,
+        3.3
+       ],
+       [
+        6.08,
+        5.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.08,
+        1.4
+       ],
+       [
+        6.08,
+        3.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        6.08,
+        3.3
+       ],
+       [
+        8.28,
+        3.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.68,
+        6.8
+       ],
+       [
+        2.48,
+        6.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.48,
+        6.8
+       ],
+       [
+        2.48,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.48,
+        7.5
+       ],
+       [
+        2.48,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.68,
+        8.2
+       ],
+       [
+        2.48,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.68,
+        7.5
+       ],
+       [
+        1.68,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.68,
+        6.8
+       ],
+       [
+        1.68,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.68,
+        7.5
+       ],
+       [
+        2.48,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.88,
+        6.8
+       ],
+       [
+        3.68,
+        6.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.68,
+        6.8
+       ],
+       [
+        3.68,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.68,
+        7.5
+       ],
+       [
+        3.68,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.88,
+        8.2
+       ],
+       [
+        3.68,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.88,
+        7.5
+       ],
+       [
+        2.88,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.88,
+        6.8
+       ],
+       [
+        2.88,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.88,
+        7.5
+       ],
+       [
+        3.68,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.08,
+        6.8
+       ],
+       [
+        4.88,
+        6.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.88,
+        6.8
+       ],
+       [
+        4.88,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.88,
+        7.5
+       ],
+       [
+        4.88,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.08,
+        8.2
+       ],
+       [
+        4.88,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.08,
+        7.5
+       ],
+       [
+        4.08,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.08,
+        6.8
+       ],
+       [
+        4.08,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.08,
+        7.5
+       ],
+       [
+        4.88,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.28,
+        6.8
+       ],
+       [
+        6.08,
+        6.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.08,
+        6.8
+       ],
+       [
+        6.08,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.08,
+        7.5
+       ],
+       [
+        6.08,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.28,
+        8.2
+       ],
+       [
+        6.08,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.28,
+        7.5
+       ],
+       [
+        5.28,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.28,
+        6.8
+       ],
+       [
+        5.28,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        5.28,
+        7.5
+       ],
+       [
+        6.08,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.48,
+        6.8
+       ],
+       [
+        7.28,
+        6.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.28,
+        6.8
+       ],
+       [
+        7.28,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.28,
+        7.5
+       ],
+       [
+        7.28,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.48,
+        8.2
+       ],
+       [
+        7.28,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.48,
+        7.5
+       ],
+       [
+        6.48,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.48,
+        6.8
+       ],
+       [
+        6.48,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.48,
+        7.5
+       ],
+       [
+        7.28,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.68,
+        6.8
+       ],
+       [
+        8.48,
+        6.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.48,
+        6.8
+       ],
+       [
+        8.48,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.48,
+        7.5
+       ],
+       [
+        8.48,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.68,
+        8.2
+       ],
+       [
+        8.48,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.68,
+        7.5
+       ],
+       [
+        7.68,
+        8.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.68,
+        6.8
+       ],
+       [
+        7.68,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.68,
+        7.5
+       ],
+       [
+        8.48,
+        7.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Tachometer (LCD)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kraftstoff-Kontrollleuchte\rLow fuel warning lamp\rTémoin de réserve de carburant",
+   "item": {
+    "autoNumber": false,
+    "caption": "Kraftstoff-Kontrollleuchte\rLow fuel warning lamp\rTémoin de réserve de carburant",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       4.2,
+       5.2
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.6,
+       6.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       4.2,
+       3.7
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.4,
+       1.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        1.8,
+        8.4
+       ],
+       [
+        6.6,
+        8.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0,
+        3.2
+       ],
+       [
+        7.0,
+        3.2
+       ],
+       [
+        7.8,
+        4.0
+       ],
+       [
+        7.8,
+        6.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.8,
+       7.2
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Kraftstoff-Kontrollleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fernlicht-Kontrollleuchte\rMain beam indicator\rTémoin de feux de route",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fernlicht-Kontrollleuchte\rMain beam indicator\rTémoin de feux de route",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.4,
+        2.6
+       ],
+       [
+        5.4,
+        7.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.4,
+       5.1
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.4,
+       5.0
+      ],
+      "start": 270,
+      "stop": 450,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.4,
+        3.1
+       ],
+       [
+        4.4,
+        3.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.4,
+        4.1
+       ],
+       [
+        4.4,
+        4.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.4,
+        5.1
+       ],
+       [
+        4.4,
+        5.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.4,
+        6.1
+       ],
+       [
+        4.4,
+        6.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.4,
+        7.1
+       ],
+       [
+        4.4,
+        7.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Fernlicht-Kontrollleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kraftstoffanzeige\rFuel gauge\rJauge de carburant",
+   "item": {
+    "autoNumber": false,
+    "caption": "Kraftstoffanzeige\rFuel gauge\rJauge de carburant",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       1.88,
+       8.0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       3.48,
+       7.4
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       6.8
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       3.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       6.68,
+       6.2
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       8.28,
+       5.6
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       6.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Kraftstoffanzeige",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Blinkgeber\rFlasher unit\rCentrale clignotante",
+   "item": {
+    "autoNumber": false,
+    "caption": "Blinkgeber\rFlasher unit\rCentrale clignotante",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       8.128,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -4.28
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.62,
+        2.0
+       ],
+       [
+        5.12,
+        2.0
+       ],
+       [
+        5.12,
+        0.4
+       ],
+       [
+        6.12,
+        0.4
+       ],
+       [
+        6.12,
+        2.0
+       ],
+       [
+        7.12,
+        2.0
+       ],
+       [
+        7.12,
+        0.4
+       ],
+       [
+        8.12,
+        0.4
+       ],
+       [
+        8.12,
+        2.0
+       ],
+       [
+        9.12,
+        2.0
+       ],
+       [
+        9.12,
+        0.4
+       ],
+       [
+        10.12,
+        0.4
+       ],
+       [
+        10.12,
+        2.0
+       ],
+       [
+        10.62,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.556,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "49",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "49",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.684,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "49a",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "49a",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        5.08
+       ],
+       [
+        7.62,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "31",
+      "pin": [
+       7.62,
+       7.62
+      ],
+      "pos": [
+       8.12,
+       5.22
+      ],
+      "text": "31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.556,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.684,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Blinkgeber",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zusatzluftschieber\rAuxiliary air valve\rVanne d'air additionnel",
+   "item": {
+    "autoNumber": false,
+    "caption": "Zusatzluftschieber\rAuxiliary air valve\rVanne d'air additionnel",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       12.7,
+       0
+      ],
+      "pos": [
+       12.3,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        3.94,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       6.35,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.82,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.76,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.14,
+        -1.6
+       ],
+       [
+        6.35,
+        -1.6
+       ],
+       [
+        6.35,
+        -2.8
+       ],
+       [
+        8.56,
+        -2.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Zusatzluftschieber",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Diebstahlwarnanlage\rAnti-theft alarm system\rAlarme antivol",
+   "item": {
+    "autoNumber": false,
+    "caption": "Diebstahlwarnanlage\rAnti-theft alarm system\rAlarme antivol",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.4,
+       0
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       1.2
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "start": 135,
+      "stop": 225,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.6,
+       4.6
+      ],
+      "start": 140,
+      "stop": 220,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       8.1,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.6,
+        -0.9
+       ],
+       [
+        11.6,
+        -2.4
+       ],
+       [
+        11.6,
+        2.4
+       ],
+       [
+        8.6,
+        0.9
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.7,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Diebstahlwarnanlage",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drehstromgenerator mit Regler\rAlternator with regulator\rAlternateur avec régulateur",
+   "item": {
+    "autoNumber": false,
+    "caption": "Drehstromgenerator mit Regler\rAlternator with regulator\rAlternateur avec régulateur",
+    "children": [
+     {
+      "centre": [
+       6.985,
+       0.0
+      ],
+      "pen": {
+       "style": "dashDot",
+       "width": 0.25
+      },
+      "size": [
+       13.97,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.6
+      },
+      "pos": [
+       5.08,
+       -2.6
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       5.08,
+       0.2
+      ],
+      "text": "3~",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.6764,
+        -2.54
+       ],
+       [
+        9.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.16,
+        -2.54
+       ],
+       [
+        13.97,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.6764,
+        2.54
+       ],
+       [
+        13.97,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.16,
+        -3.74
+       ],
+       [
+        9.16,
+        -1.34
+       ],
+       [
+        11.16,
+        -2.54
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        11.16,
+        -3.74
+       ],
+       [
+        11.16,
+        -1.34
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.97,
+        -2.54
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B+",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       17.38,
+       -4.74
+      ],
+      "text": "B+",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.97,
+        2.54
+       ],
+       [
+        17.78,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D+",
+      "pin": [
+       17.78,
+       2.54
+      ],
+      "pos": [
+       17.38,
+       0.34
+      ],
+      "text": "D+",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        5.08,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "31",
+      "pin": [
+       5.08,
+       7.62
+      ],
+      "pos": [
+       5.58,
+       5.22
+      ],
+      "text": "31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -8.48
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.97,
+       -8.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Drehstromgenerator mit Regler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drosselklappenschalter\rThrottle valve switch\rContacteur de papillon",
+   "item": {
+    "autoNumber": false,
+    "caption": "Drosselklappenschalter\rThrottle valve switch\rContacteur de papillon",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        -1.9,
+        3.14
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.5,
+       7.76
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.2469,
+        4.68
+       ],
+       [
+        -4.0,
+        4.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       -4.9,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.8,
+       1.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       -7.6,
+       4.68
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       -8.2,
+       4.68
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       2.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.6,
+       5.68
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Drosselklappenschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Drucksteuerventil\rPressure control valve\rValve de régulation de pression",
+   "item": {
+    "autoNumber": false,
+    "caption": "Drucksteuerventil\rPressure control valve\rValve de régulation de pression",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        1.2
+       ],
+       [
+        7.62,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.2
+       ],
+       [
+        5.08,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       4.74
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.84,
+        6.68
+       ],
+       [
+        3.84,
+        2.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.32,
+        2.8
+       ],
+       [
+        6.32,
+        6.68
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -4.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Drucksteuerventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Elektrokraftstoffpumpe\rElectric fuel pump\rPompe à carburant électrique",
+   "item": {
+    "autoNumber": false,
+    "caption": "Elektrokraftstoffpumpe\rElectric fuel pump\rPompe à carburant électrique",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.6
+      },
+      "pos": [
+       5.08,
+       -0.7
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -3.0
+       ],
+       [
+        5.98,
+        -1.6
+       ],
+       [
+        4.18,
+        -1.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.08,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.08,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -6.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Elektrokraftstoffpumpe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fahrtschreiber\rTachograph\rChronotachygraphe",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fahrtschreiber\rTachograph\rChronotachygraphe",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       6.28
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.34,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.34,
+        0
+       ],
+       [
+        5.34,
+        -1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.34,
+        0
+       ],
+       [
+        6.34,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       9.9,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        0
+       ],
+       [
+        9.9,
+        -1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        0
+       ],
+       [
+        10.9,
+        0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -6.54
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.7,
+       -6.54
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Fahrtschreiber",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Fanfare\rAir horn\rAvertisseur à trompe",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fanfare\rAir horn\rAvertisseur à trompe",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       12.7,
+       0
+      ],
+      "pos": [
+       12.3,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.54,
+        -0.4
+       ],
+       [
+        5.88,
+        -0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.54,
+        0.4
+       ],
+       [
+        5.88,
+        0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.54,
+        -0.4
+       ],
+       [
+        3.54,
+        0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.88,
+        -0.4
+       ],
+       [
+        7.7,
+        -0.5
+       ],
+       [
+        8.48,
+        -1.68
+       ],
+       [
+        8.74,
+        -2.4
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.88,
+        0.4
+       ],
+       [
+        7.7,
+        0.5
+       ],
+       [
+        8.48,
+        1.68
+       ],
+       [
+        8.74,
+        2.4
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.74,
+        -2.4
+       ],
+       [
+        8.74,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Fanfare",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hallgeber\rHall-effect sender\rCapteur à effet Hall",
+   "item": {
+    "autoNumber": false,
+    "caption": "Hallgeber\rHall-effect sender\rCapteur à effet Hall",
+    "children": [
+     {
+      "centre": [
+       2.54,
+       -6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        -2.54
+       ],
+       [
+        0.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0.0,
+       0
+      ],
+      "pos": [
+       0.5,
+       -2.4
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -2.54
+       ],
+       [
+        2.54,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       3.04,
+       -2.4
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -2.54
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       0
+      ],
+      "pos": [
+       5.58,
+       -2.4
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       0.1,
+       -6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       2.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4,
+        -7.65
+       ],
+       [
+        1.6,
+        -5.05
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4,
+        -5.05
+       ],
+       [
+        1.6,
+        -7.65
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.28,
+       -6.35
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "start": 10,
+      "stop": 80,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.28,
+       -6.35
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "start": 100,
+      "stop": 170,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.28,
+       -6.35
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "start": 190,
+      "stop": 260,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.28,
+       -6.35
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "start": 280,
+      "stop": 350,
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.28,
+       -6.35
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -2.54,
+       -13.56
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -13.56
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Hallgeber",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Induktionsgeber\rInductive sender\rCapteur inductif",
+   "item": {
+    "autoNumber": false,
+    "caption": "Induktionsgeber\rInductive sender\rCapteur inductif",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.0,
+       -1.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       5.0,
+       1.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "start": 90,
+      "stop": 270,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.0,
+        -1.5
+       ],
+       [
+        5.0,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.0,
+        1.5
+       ],
+       [
+        5.0,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        5.8,
+        -2.2
+       ],
+       [
+        5.8,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       9.8,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.6,
+       3.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.463,
+        -0.6888
+       ],
+       [
+        12.1097,
+        -0.9567
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.4888,
+        -1.663
+       ],
+       [
+        10.7567,
+        -2.3097
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1112,
+        -1.663
+       ],
+       [
+        8.8433,
+        -2.3097
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.137,
+        -0.6888
+       ],
+       [
+        7.4903,
+        -0.9567
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.137,
+        0.6888
+       ],
+       [
+        7.4903,
+        0.9567
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.1112,
+        1.663
+       ],
+       [
+        8.8433,
+        2.3097
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.4888,
+        1.663
+       ],
+       [
+        10.7567,
+        2.3097
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.463,
+        0.6888
+       ],
+       [
+        12.1097,
+        0.9567
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.7,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Induktionsgeber",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Klimaanlage\rAir conditioning\rClimatisation",
+   "item": {
+    "autoNumber": false,
+    "caption": "Klimaanlage\rAir conditioning\rClimatisation",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0
+       ],
+       [
+        20.32,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       20.32,
+       0
+      ],
+      "pos": [
+       19.92,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.6,
+        0.8
+       ],
+       [
+        4.6,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.6,
+        0.8
+       ],
+       [
+        6.8,
+        -0.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.6,
+        0.8
+       ],
+       [
+        7.6,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.2,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.4,
+       3.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.0,
+        1.6
+       ],
+       [
+        11.4,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       14.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.4,
+       4.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.6,
+        0
+       ],
+       [
+        16.1429,
+        -0.9271
+       ],
+       [
+        15.5271,
+        -1.5429
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.6,
+        0
+       ],
+       [
+        13.6729,
+        -1.5429
+       ],
+       [
+        13.0571,
+        -0.9271
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.6,
+        0
+       ],
+       [
+        13.0571,
+        0.9271
+       ],
+       [
+        13.6729,
+        1.5429
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        14.6,
+        0
+       ],
+       [
+        15.5271,
+        1.5429
+       ],
+       [
+        16.1429,
+        0.9271
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       17.78,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Klimaanlage",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Lambdasonde\rLambda sensor\rSonde lambda",
+   "item": {
+    "autoNumber": false,
+    "caption": "Lambdasonde\rLambda sensor\rSonde lambda",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       5.08,
+       -1.5
+      ],
+      "text": "λ",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.84,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.32,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -6.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Lambdasonde",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Lautsprecher (Kfz)\rLoudspeaker (vehicle)\rHaut-parleur (véhicule)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Lautsprecher (Kfz)\rLoudspeaker (vehicle)\rHaut-parleur (véhicule)",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       12.7,
+       0
+      ],
+      "pos": [
+       12.3,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       5.05,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.2,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.65,
+        -1.0
+       ],
+       [
+        8.45,
+        -2.4
+       ],
+       [
+        8.45,
+        2.4
+       ],
+       [
+        5.65,
+        1.0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Lautsprecher (Kfz)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Luftmassenmesser\rAir mass meter\rDébitmètre massique d'air",
+   "item": {
+    "autoNumber": false,
+    "caption": "Luftmassenmesser\rAir mass meter\rDébitmètre massique d'air",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.94,
+        2.4
+       ],
+       [
+        2.94,
+        2.4
+       ],
+       [
+        7.82,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       8.02,
+       0.6
+      ],
+      "text": "m, t°",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.58,
+       2.68
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -5.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Luftmassenmesser",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Luftmengenmesser\rAir flow meter\rDébitmètre d'air volumétrique",
+   "item": {
+    "autoNumber": false,
+    "caption": "Luftmengenmesser\rAir flow meter\rDébitmètre d'air volumétrique",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.08,
+       2.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        5.08
+       ],
+       [
+        5.08,
+        1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.2
+      },
+      "pos": [
+       8.02,
+       0.6
+      ],
+      "text": "Q",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.5
+      },
+      "pos": [
+       9.62,
+       1.8
+      ],
+      "text": "L",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.58,
+       2.68
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       0,
+       -5.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -5.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Luftmengenmesser",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kaltstartventil\rCold start valve\rInjecteur de départ à froid",
+   "item": {
+    "autoNumber": false,
+    "caption": "Kaltstartventil\rCold start valve\rInjecteur de départ à froid",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        1.2
+       ],
+       [
+        7.62,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.2
+       ],
+       [
+        5.08,
+        3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.88,
+        2.4
+       ],
+       [
+        2.88,
+        4.8
+       ],
+       [
+        5.08,
+        3.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.28,
+        2.4
+       ],
+       [
+        7.28,
+        4.8
+       ],
+       [
+        5.08,
+        3.6
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -4.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       7.62,
+       -4.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Kaltstartventil",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Starter mit Einrückrelais\rStarter with solenoid switch\rDémarreur avec contacteur à solénoïde",
+   "item": {
+    "autoNumber": false,
+    "caption": "Starter mit Einrückrelais\rStarter with solenoid switch\rDémarreur avec contacteur à solénoïde",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        1.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.2
+       ],
+       [
+        1.04,
+        1.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        4.2
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       7.62,
+       2.0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       2.0,
+       2.4
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        3.2
+       ],
+       [
+        8.62,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        3.2
+       ],
+       [
+        7.62,
+        4.2
+       ],
+       [
+        2.54,
+        4.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       4.2
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.7,
+       0.7
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.62,
+        2.6
+       ],
+       [
+        1.4965,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       2.54,
+       8.89
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.48,
+       4.48
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       2.54,
+       7.39
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        5.08
+       ],
+       [
+        2.54,
+        6.65
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "30",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       3.04,
+       -2.34
+      ],
+      "text": "30",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "50",
+      "pin": [
+       7.62,
+       -2.54
+      ],
+      "pos": [
+       8.12,
+       -2.34
+      ],
+      "text": "50",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        11.13
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "31",
+      "pin": [
+       2.54,
+       15.24
+      ],
+      "pos": [
+       3.04,
+       12.84
+      ],
+      "text": "31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       11.16,
+       3.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Starter mit Einrückrelais",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Steuergerät\rElectronic control unit\rCalculateur électronique",
+   "item": {
+    "autoNumber": false,
+    "caption": "Steuergerät\rElectronic control unit\rCalculateur électronique",
+    "children": [
+     {
+      "centre": [
+       6.35,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.62,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       12.7,
+       0
+      ],
+      "pos": [
+       12.3,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.8,
+        2.4
+       ],
+       [
+        4.8,
+        -0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -2.4
+       ],
+       [
+        4.8,
+        -0.4
+       ],
+       [
+        6.2,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.2,
+        0.8
+       ],
+       [
+        9.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       10.16,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Steuergerät",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Temperaturfühler (NTC)\rTemperature sensor (NTC)\rSonde de température (CTN)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Temperaturfühler (NTC)\rTemperature sensor (NTC)\rSonde de température (CTN)",
+    "children": [
+     {
+      "centre": [
+       7.62,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       10.16,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0
+       ],
+       [
+        15.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       15.24,
+       0
+      ],
+      "pos": [
+       14.84,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        4.2,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       6.4,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.4,
+       1.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.6,
+        0
+       ],
+       [
+        12.7,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.6,
+        2.2
+       ],
+       [
+        4.6,
+        2.2
+       ],
+       [
+        9.0,
+        -2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       9.4,
+       0.8
+      ],
+      "text": "t°",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -7.21
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.7,
+       -7.21
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Temperaturfühler (NTC)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Wischermotor\rWiper motor\rMoteur d'essuie-glace",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wischermotor\rWiper motor\rMoteur d'essuie-glace",
+    "children": [
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.0,
+       6.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 3.0
+      },
+      "pos": [
+       5.08,
+       -1.5
+      ],
+      "text": "M",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        -1.5964
+       ],
+       [
+        2.54,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -3.0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        -1.5964
+       ],
+       [
+        7.62,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "53a",
+      "pin": [
+       2.54,
+       -5.08
+      ],
+      "pos": [
+       2.04,
+       -4.88
+      ],
+      "text": "53a",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "53",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.08,
+       -7.28
+      ],
+      "text": "53",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "53b",
+      "pin": [
+       7.62,
+       -5.08
+      ],
+      "pos": [
+       8.12,
+       -4.88
+      ],
+      "text": "53b",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.0
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "31",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.58,
+       2.68
+      ],
+      "text": "31",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.08,
+        0
+       ],
+       [
+        11.24,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.84,
+        -2.4
+       ],
+       [
+        11.44,
+        1.6
+       ],
+       [
+        19.04,
+        1.6
+       ],
+       [
+        19.64,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.84,
+        -2.4
+       ],
+       [
+        13.64,
+        -3.3
+       ],
+       [
+        16.84,
+        -3.3
+       ],
+       [
+        19.64,
+        -2.4
+       ]
+      ],
+      "type": "bezier"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.24,
+        1.1
+       ],
+       [
+        11.74,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.7
+      },
+      "points": [
+       [
+        12.64,
+        0.0
+       ],
+       [
+        11.74,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       13.24,
+       1.1
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.04,
+        1.1
+       ],
+       [
+        15.54,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.7
+      },
+      "points": [
+       [
+        16.44,
+        0.0
+       ],
+       [
+        15.54,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       17.04,
+       1.1
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.0,
+       -1.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       -1.0,
+       1.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Wischermotor",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Zündunterbrecher\rContact breaker\rRupteur",
+   "item": {
+    "autoNumber": false,
+    "caption": "Zündunterbrecher\rContact breaker\rRupteur",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        7.62,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        8.02,
+        2.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.62,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -2.8
+       ],
+       [
+        5.08,
+        0.9734
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       -4.2
+      ],
+      "corner": 40,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.8,
+       2.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       5.08,
+       -4.2
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.5,
+       0.5
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       5.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "",
+    "libraryEntry": "OpenLoch/Elektro/Kfz/Zündunterbrecher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

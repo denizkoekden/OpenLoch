@@ -1,0 +1,7481 @@
+{
+ "folder": "Elektro/Elektroinstallation",
+ "format": "OpenLoch Schematic Library",
+ "name": "Grundriss\rFloor plan\rPlan architectural",
+ "symbols": [
+  {
+   "caption": "Leuchte\rLuminaire\rLuminaire",
+   "item": {
+    "caption": "Leuchte\rLuminaire\rLuminaire",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.41,
+        -1.41
+       ],
+       [
+        1.41,
+        1.41
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.41,
+        1.41
+       ],
+       [
+        1.41,
+        -1.41
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Leuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Leuchtstoffleuchte\rFluorescent luminaire\rLuminaire fluorescent",
+   "item": {
+    "caption": "Leuchtstoffleuchte\rFluorescent luminaire\rLuminaire fluorescent",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -5.0,
+        0
+       ],
+       [
+        5.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.0,
+        -1.0
+       ],
+       [
+        -5.0,
+        1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.0,
+        -1.0
+       ],
+       [
+        5.0,
+        1.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Leuchtstoffleuchte",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ausschalter\rOne-way switch\rInterrupteur simple",
+   "item": {
+    "caption": "Ausschalter\rOne-way switch\rInterrupteur simple",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.57,
+        -0.57
+       ],
+       [
+        2.8284,
+        -2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.8284,
+        -2.8284
+       ],
+       [
+        3.4584,
+        -2.1984
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Ausschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Ausschalter zweipolig\rOne-way switch, two-pole\rInterrupteur bipolaire",
+   "item": {
+    "caption": "Ausschalter zweipolig\rOne-way switch, two-pole\rInterrupteur bipolaire",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.57,
+        -0.57
+       ],
+       [
+        2.8284,
+        -2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.8284,
+        -2.8284
+       ],
+       [
+        3.4584,
+        -2.1984
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.1984,
+        -2.1984
+       ],
+       [
+        2.8284,
+        -1.5684
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Ausschalter zweipolig",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wechselschalter\rTwo-way switch\rInterrupteur va-et-vient",
+   "item": {
+    "caption": "Wechselschalter\rTwo-way switch\rInterrupteur va-et-vient",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.57,
+        -0.57
+       ],
+       [
+        2.8284,
+        -2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.8284,
+        -2.8284
+       ],
+       [
+        3.4584,
+        -2.1984
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.57,
+        0.57
+       ],
+       [
+        -2.8284,
+        2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.8284,
+        2.8284
+       ],
+       [
+        -3.4584,
+        2.1984
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Wechselschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Kreuzschalter\rIntermediate switch\rPermutateur",
+   "item": {
+    "caption": "Kreuzschalter\rIntermediate switch\rPermutateur",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.57,
+        -0.57
+       ],
+       [
+        2.8284,
+        -2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.8284,
+        -2.8284
+       ],
+       [
+        3.4584,
+        -2.1984
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.57,
+        0.57
+       ],
+       [
+        -2.8284,
+        2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.8284,
+        2.8284
+       ],
+       [
+        -3.4584,
+        2.1984
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -0.57,
+        -0.57
+       ],
+       [
+        -2.8284,
+        -2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.57,
+        0.57
+       ],
+       [
+        2.8284,
+        2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.8284,
+        -2.8284
+       ],
+       [
+        -3.4584,
+        -2.1984
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.8284,
+        2.8284
+       ],
+       [
+        3.4584,
+        2.1984
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Kreuzschalter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Taster\rPush button\rBouton-poussoir",
+   "item": {
+    "caption": "Taster\rPush button\rBouton-poussoir",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.0,
+       3.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Taster",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Dimmer\rDimmer\rVariateur",
+   "item": {
+    "caption": "Dimmer\rDimmer\rVariateur",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.6,
+       1.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.57,
+        -0.57
+       ],
+       [
+        2.8284,
+        -2.8284
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.8284,
+        -2.8284
+       ],
+       [
+        3.4584,
+        -2.1984
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.0,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.2,
+        1.6
+       ],
+       [
+        2.4,
+        -2.4
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Dimmer",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Steckdose\rSocket outlet\rPrise de courant",
+   "item": {
+    "caption": "Steckdose\rSocket outlet\rPrise de courant",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.0
+       ],
+       [
+        0,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Steckdose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schutzkontaktsteckdose\rSocket outlet with protective contact\rPrise de courant avec terre",
+   "item": {
+    "caption": "Schutzkontaktsteckdose\rSocket outlet with protective contact\rPrise de courant avec terre",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.0
+       ],
+       [
+        0,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4,
+        -2.0
+       ],
+       [
+        1.4,
+        -2.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Schutzkontaktsteckdose",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Schutzkontaktsteckdose zweifach\rDouble socket outlet with protective contact\rPrise double avec terre",
+   "item": {
+    "caption": "Schutzkontaktsteckdose zweifach\rDouble socket outlet with protective contact\rPrise double avec terre",
+    "children": [
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       4.0,
+       4.0
+      ],
+      "start": 0,
+      "stop": 180,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.0,
+        0
+       ],
+       [
+        2.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.0
+       ],
+       [
+        0,
+        -3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.4,
+        -2.0
+       ],
+       [
+        1.4,
+        -2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       2.4,
+       -2.4
+      ],
+      "text": "2",
+      "type": "text"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Schutzkontaktsteckdose zweifach",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Verteiler\rDistribution board\rTableau de distribution",
+   "item": {
+    "caption": "Verteiler\rDistribution board\rTableau de distribution",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       8.0,
+       4.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.0,
+        2.0
+       ],
+       [
+        4.0,
+        -2.0
+       ],
+       [
+        4.0,
+        2.0
+       ]
+      ],
+      "type": "polygon"
+     }
+    ],
+    "designator": "E?",
+    "designatorVisible": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Verteiler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wand (senkrecht)\rWall (vertical)\rMur (vertical)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wand (senkrecht)\rWall (vertical)\rMur (vertical)",
+    "children": [
+     {
+      "centre": [
+       2.4,
+       20.0
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       4.8,
+       40.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        2.4
+       ],
+       [
+        2.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        3.6
+       ],
+       [
+        3.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        4.8
+       ],
+       [
+        4.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        6.0
+       ],
+       [
+        4.8,
+        1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        7.2
+       ],
+       [
+        4.8,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        8.4
+       ],
+       [
+        4.8,
+        3.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        9.6
+       ],
+       [
+        4.8,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        10.8
+       ],
+       [
+        4.8,
+        6.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        12.0
+       ],
+       [
+        4.8,
+        7.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        13.2
+       ],
+       [
+        4.8,
+        8.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        14.4
+       ],
+       [
+        4.8,
+        9.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        15.6
+       ],
+       [
+        4.8,
+        10.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        16.8
+       ],
+       [
+        4.8,
+        12.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        18.0
+       ],
+       [
+        4.8,
+        13.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        19.2
+       ],
+       [
+        4.8,
+        14.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        20.4
+       ],
+       [
+        4.8,
+        15.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        21.6
+       ],
+       [
+        4.8,
+        16.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        22.8
+       ],
+       [
+        4.8,
+        18.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        24.0
+       ],
+       [
+        4.8,
+        19.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        25.2
+       ],
+       [
+        4.8,
+        20.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        26.4
+       ],
+       [
+        4.8,
+        21.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        27.6
+       ],
+       [
+        4.8,
+        22.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        28.8
+       ],
+       [
+        4.8,
+        24.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        30.0
+       ],
+       [
+        4.8,
+        25.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        31.2
+       ],
+       [
+        4.8,
+        26.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        32.4
+       ],
+       [
+        4.8,
+        27.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        33.6
+       ],
+       [
+        4.8,
+        28.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        34.8
+       ],
+       [
+        4.8,
+        30.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        36.0
+       ],
+       [
+        4.8,
+        31.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        37.2
+       ],
+       [
+        4.8,
+        32.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        38.4
+       ],
+       [
+        4.8,
+        33.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        39.6
+       ],
+       [
+        4.8,
+        34.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0.8,
+        40.0
+       ],
+       [
+        4.8,
+        36.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.0,
+        40.0
+       ],
+       [
+        4.8,
+        37.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.2,
+        40.0
+       ],
+       [
+        4.8,
+        38.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.4,
+        40.0
+       ],
+       [
+        4.8,
+        39.6
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Wand (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wand (waagerecht)\rWall (horizontal)\rMur (horizontal)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wand (waagerecht)\rWall (horizontal)\rMur (horizontal)",
+    "children": [
+     {
+      "centre": [
+       20.0,
+       2.4
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       40.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        2.4
+       ],
+       [
+        2.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        3.6
+       ],
+       [
+        3.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        4.8
+       ],
+       [
+        4.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.2,
+        4.8
+       ],
+       [
+        6.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.4,
+        4.8
+       ],
+       [
+        7.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.6,
+        4.8
+       ],
+       [
+        8.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.8,
+        4.8
+       ],
+       [
+        9.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.0,
+        4.8
+       ],
+       [
+        10.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.2,
+        4.8
+       ],
+       [
+        12.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.4,
+        4.8
+       ],
+       [
+        13.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.6,
+        4.8
+       ],
+       [
+        14.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        10.8,
+        4.8
+       ],
+       [
+        15.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        12.0,
+        4.8
+       ],
+       [
+        16.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        13.2,
+        4.8
+       ],
+       [
+        18.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        14.4,
+        4.8
+       ],
+       [
+        19.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        15.6,
+        4.8
+       ],
+       [
+        20.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        16.8,
+        4.8
+       ],
+       [
+        21.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        18.0,
+        4.8
+       ],
+       [
+        22.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        19.2,
+        4.8
+       ],
+       [
+        24.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        20.4,
+        4.8
+       ],
+       [
+        25.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        21.6,
+        4.8
+       ],
+       [
+        26.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        22.8,
+        4.8
+       ],
+       [
+        27.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        24.0,
+        4.8
+       ],
+       [
+        28.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        25.2,
+        4.8
+       ],
+       [
+        30.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        26.4,
+        4.8
+       ],
+       [
+        31.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        27.6,
+        4.8
+       ],
+       [
+        32.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        28.8,
+        4.8
+       ],
+       [
+        33.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        4.8
+       ],
+       [
+        34.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        31.2,
+        4.8
+       ],
+       [
+        36.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        32.4,
+        4.8
+       ],
+       [
+        37.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        33.6,
+        4.8
+       ],
+       [
+        38.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        34.8,
+        4.8
+       ],
+       [
+        39.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        36.0,
+        4.8
+       ],
+       [
+        40.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        37.2,
+        4.8
+       ],
+       [
+        40.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        38.4,
+        4.8
+       ],
+       [
+        40.0,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        39.6,
+        4.8
+       ],
+       [
+        40.0,
+        4.4
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Wand (waagerecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Fenster\rWindow\rFenêtre",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fenster\rWindow\rFenêtre",
+    "children": [
+     {
+      "centre": [
+       5.0,
+       2.4
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        2.4
+       ],
+       [
+        2.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        3.6
+       ],
+       [
+        3.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        4.8
+       ],
+       [
+        4.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.2,
+        4.8
+       ],
+       [
+        6.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.4,
+        4.8
+       ],
+       [
+        7.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.6,
+        4.8
+       ],
+       [
+        8.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.8,
+        4.8
+       ],
+       [
+        9.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.0,
+        4.8
+       ],
+       [
+        10.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.2,
+        4.8
+       ],
+       [
+        10.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.4,
+        4.8
+       ],
+       [
+        10.0,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.6,
+        4.8
+       ],
+       [
+        10.0,
+        4.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.0,
+       2.4
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        1.2
+       ],
+       [
+        31.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        2.4
+       ],
+       [
+        32.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        3.6
+       ],
+       [
+        33.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        4.8
+       ],
+       [
+        34.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        31.2,
+        4.8
+       ],
+       [
+        36.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        32.4,
+        4.8
+       ],
+       [
+        37.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        33.6,
+        4.8
+       ],
+       [
+        38.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        34.8,
+        4.8
+       ],
+       [
+        39.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        36.0,
+        4.8
+       ],
+       [
+        40.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        37.2,
+        4.8
+       ],
+       [
+        40.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        38.4,
+        4.8
+       ],
+       [
+        40.0,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        39.6,
+        4.8
+       ],
+       [
+        40.0,
+        4.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        0
+       ],
+       [
+        30.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        4.8
+       ],
+       [
+        30.0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.0,
+       2.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.0,
+       1.2
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Fenster",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Fenster mit Glasscheibe\rWindow with glazing\rFenêtre avec vitrage",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fenster mit Glasscheibe\rWindow with glazing\rFenêtre avec vitrage",
+    "children": [
+     {
+      "centre": [
+       5.0,
+       2.4
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        2.4
+       ],
+       [
+        2.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        3.6
+       ],
+       [
+        3.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        4.8
+       ],
+       [
+        4.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.2,
+        4.8
+       ],
+       [
+        6.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.4,
+        4.8
+       ],
+       [
+        7.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.6,
+        4.8
+       ],
+       [
+        8.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.8,
+        4.8
+       ],
+       [
+        9.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.0,
+        4.8
+       ],
+       [
+        10.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.2,
+        4.8
+       ],
+       [
+        10.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.4,
+        4.8
+       ],
+       [
+        10.0,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.6,
+        4.8
+       ],
+       [
+        10.0,
+        4.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.0,
+       2.4
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        1.2
+       ],
+       [
+        31.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        2.4
+       ],
+       [
+        32.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        3.6
+       ],
+       [
+        33.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        4.8
+       ],
+       [
+        34.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        31.2,
+        4.8
+       ],
+       [
+        36.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        32.4,
+        4.8
+       ],
+       [
+        37.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        33.6,
+        4.8
+       ],
+       [
+        38.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        34.8,
+        4.8
+       ],
+       [
+        39.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        36.0,
+        4.8
+       ],
+       [
+        40.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        37.2,
+        4.8
+       ],
+       [
+        40.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        38.4,
+        4.8
+       ],
+       [
+        40.0,
+        3.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        39.6,
+        4.8
+       ],
+       [
+        40.0,
+        4.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        0
+       ],
+       [
+        30.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        4.8
+       ],
+       [
+        30.0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.0,
+       2.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.0,
+       1.2
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       20.0,
+       2.4
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.0,
+       0.4
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Fenster mit Glasscheibe",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wand, dünn (senkrecht)\rPartition wall (vertical)\rCloison (verticale)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wand, dünn (senkrecht)\rPartition wall (vertical)\rCloison (verticale)",
+    "children": [
+     {
+      "centre": [
+       1.15,
+       20.0
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       2.3,
+       40.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        2.4
+       ],
+       [
+        2.3,
+        0.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        3.6
+       ],
+       [
+        2.3,
+        1.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        4.8
+       ],
+       [
+        2.3,
+        2.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        6.0
+       ],
+       [
+        2.3,
+        3.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        7.2
+       ],
+       [
+        2.3,
+        4.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        8.4
+       ],
+       [
+        2.3,
+        6.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        9.6
+       ],
+       [
+        2.3,
+        7.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        10.8
+       ],
+       [
+        2.3,
+        8.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        12.0
+       ],
+       [
+        2.3,
+        9.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        13.2
+       ],
+       [
+        2.3,
+        10.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        14.4
+       ],
+       [
+        2.3,
+        12.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        15.6
+       ],
+       [
+        2.3,
+        13.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        16.8
+       ],
+       [
+        2.3,
+        14.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        18.0
+       ],
+       [
+        2.3,
+        15.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        19.2
+       ],
+       [
+        2.3,
+        16.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        20.4
+       ],
+       [
+        2.3,
+        18.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        21.6
+       ],
+       [
+        2.3,
+        19.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        22.8
+       ],
+       [
+        2.3,
+        20.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        24.0
+       ],
+       [
+        2.3,
+        21.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        25.2
+       ],
+       [
+        2.3,
+        22.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        26.4
+       ],
+       [
+        2.3,
+        24.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        27.6
+       ],
+       [
+        2.3,
+        25.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        28.8
+       ],
+       [
+        2.3,
+        26.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        30.0
+       ],
+       [
+        2.3,
+        27.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        31.2
+       ],
+       [
+        2.3,
+        28.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        32.4
+       ],
+       [
+        2.3,
+        30.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        33.6
+       ],
+       [
+        2.3,
+        31.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        34.8
+       ],
+       [
+        2.3,
+        32.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        36.0
+       ],
+       [
+        2.3,
+        33.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        37.2
+       ],
+       [
+        2.3,
+        34.9
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        38.4
+       ],
+       [
+        2.3,
+        36.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        39.6
+       ],
+       [
+        2.3,
+        37.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0.8,
+        40.0
+       ],
+       [
+        2.3,
+        38.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.0,
+        40.0
+       ],
+       [
+        2.3,
+        39.7
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Wand, dünn (senkrecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Wand, dünn (waagerecht)\rPartition wall (horizontal)\rCloison (horizontale)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Wand, dünn (waagerecht)\rPartition wall (horizontal)\rCloison (horizontale)",
+    "children": [
+     {
+      "centre": [
+       20.0,
+       1.15
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       40.0,
+       2.3
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0.1,
+        2.3
+       ],
+       [
+        2.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.3,
+        2.3
+       ],
+       [
+        3.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.5,
+        2.3
+       ],
+       [
+        4.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.7,
+        2.3
+       ],
+       [
+        6.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.9,
+        2.3
+       ],
+       [
+        7.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.1,
+        2.3
+       ],
+       [
+        8.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.3,
+        2.3
+       ],
+       [
+        9.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.5,
+        2.3
+       ],
+       [
+        10.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.7,
+        2.3
+       ],
+       [
+        12.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        10.9,
+        2.3
+       ],
+       [
+        13.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        12.1,
+        2.3
+       ],
+       [
+        14.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        13.3,
+        2.3
+       ],
+       [
+        15.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        14.5,
+        2.3
+       ],
+       [
+        16.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        15.7,
+        2.3
+       ],
+       [
+        18.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        16.9,
+        2.3
+       ],
+       [
+        19.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        18.1,
+        2.3
+       ],
+       [
+        20.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        19.3,
+        2.3
+       ],
+       [
+        21.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        20.5,
+        2.3
+       ],
+       [
+        22.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        21.7,
+        2.3
+       ],
+       [
+        24.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        22.9,
+        2.3
+       ],
+       [
+        25.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        24.1,
+        2.3
+       ],
+       [
+        26.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        25.3,
+        2.3
+       ],
+       [
+        27.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        26.5,
+        2.3
+       ],
+       [
+        28.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        27.7,
+        2.3
+       ],
+       [
+        30.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        28.9,
+        2.3
+       ],
+       [
+        31.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.1,
+        2.3
+       ],
+       [
+        32.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        31.3,
+        2.3
+       ],
+       [
+        33.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        32.5,
+        2.3
+       ],
+       [
+        34.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        33.7,
+        2.3
+       ],
+       [
+        36.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        34.9,
+        2.3
+       ],
+       [
+        37.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        36.1,
+        2.3
+       ],
+       [
+        38.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        37.3,
+        2.3
+       ],
+       [
+        39.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        38.5,
+        2.3
+       ],
+       [
+        40.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        39.7,
+        2.3
+       ],
+       [
+        40.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Wand, dünn (waagerecht)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Fenster (dünne Wand)\rWindow (partition wall)\rFenêtre (cloison)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fenster (dünne Wand)\rWindow (partition wall)\rFenêtre (cloison)",
+    "children": [
+     {
+      "centre": [
+       5.0,
+       1.15
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       2.3
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0.1,
+        2.3
+       ],
+       [
+        2.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.3,
+        2.3
+       ],
+       [
+        3.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.5,
+        2.3
+       ],
+       [
+        4.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.7,
+        2.3
+       ],
+       [
+        6.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.9,
+        2.3
+       ],
+       [
+        7.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.1,
+        2.3
+       ],
+       [
+        8.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.3,
+        2.3
+       ],
+       [
+        9.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.5,
+        2.3
+       ],
+       [
+        10.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.7,
+        2.3
+       ],
+       [
+        10.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.0,
+       1.15
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       2.3
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        1.2
+       ],
+       [
+        31.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.1,
+        2.3
+       ],
+       [
+        32.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        31.3,
+        2.3
+       ],
+       [
+        33.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        32.5,
+        2.3
+       ],
+       [
+        34.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        33.7,
+        2.3
+       ],
+       [
+        36.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        34.9,
+        2.3
+       ],
+       [
+        37.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        36.1,
+        2.3
+       ],
+       [
+        38.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        37.3,
+        2.3
+       ],
+       [
+        39.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        38.5,
+        2.3
+       ],
+       [
+        40.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        39.7,
+        2.3
+       ],
+       [
+        40.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        0
+       ],
+       [
+        30.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        2.3
+       ],
+       [
+        30.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.0,
+       1.15
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.0,
+       1.0
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Fenster (dünne Wand)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Fenster mit Glasscheibe (dünne Wand)\rWindow with glazing (partition wall)\rFenêtre avec vitrage (cloison)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Fenster mit Glasscheibe (dünne Wand)\rWindow with glazing (partition wall)\rFenêtre avec vitrage (cloison)",
+    "children": [
+     {
+      "centre": [
+       5.0,
+       1.15
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       2.3
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0,
+        1.2
+       ],
+       [
+        1.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        0.1,
+        2.3
+       ],
+       [
+        2.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        1.3,
+        2.3
+       ],
+       [
+        3.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        2.5,
+        2.3
+       ],
+       [
+        4.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        3.7,
+        2.3
+       ],
+       [
+        6.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        4.9,
+        2.3
+       ],
+       [
+        7.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        6.1,
+        2.3
+       ],
+       [
+        8.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        7.3,
+        2.3
+       ],
+       [
+        9.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        8.5,
+        2.3
+       ],
+       [
+        10.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.7,
+        2.3
+       ],
+       [
+        10.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.0,
+       1.15
+      ],
+      "pen": {
+       "width": 0.5
+      },
+      "size": [
+       10.0,
+       2.3
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.0,
+        1.2
+       ],
+       [
+        31.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        30.1,
+        2.3
+       ],
+       [
+        32.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        31.3,
+        2.3
+       ],
+       [
+        33.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        32.5,
+        2.3
+       ],
+       [
+        34.8,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        33.7,
+        2.3
+       ],
+       [
+        36.0,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        34.9,
+        2.3
+       ],
+       [
+        37.2,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        36.1,
+        2.3
+       ],
+       [
+        38.4,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        37.3,
+        2.3
+       ],
+       [
+        39.6,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        38.5,
+        2.3
+       ],
+       [
+        40.0,
+        0.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        39.7,
+        2.3
+       ],
+       [
+        40.0,
+        2.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        0
+       ],
+       [
+        30.0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.0,
+        2.3
+       ],
+       [
+        30.0,
+        2.3
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.0,
+       1.15
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.0,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       20.0,
+       1.15
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       20.0,
+       0.4
+      ],
+      "type": "rectangle"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Fenster mit Glasscheibe (dünne Wand)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tür (einflügelig)\rDoor (single leaf)\rPorte (un vantail)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tür (einflügelig)\rDoor (single leaf)\rPorte (un vantail)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        20.0,
+        0
+       ],
+       [
+        20.0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        4.8
+       ],
+       [
+        0,
+        24.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       40.0,
+       40.0
+      ],
+      "start": 270,
+      "stop": 360,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tür (einflügelig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tür (zweiflügelig)\rDoor (double leaf)\rPorte (deux vantaux)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tür (zweiflügelig)\rDoor (double leaf)\rPorte (deux vantaux)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        30.0,
+        0
+       ],
+       [
+        30.0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        0,
+        4.8
+       ],
+       [
+        0,
+        19.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       4.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       30.0,
+       30.0
+      ],
+      "start": 270,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        30.0,
+        4.8
+       ],
+       [
+        30.0,
+        19.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       30.0,
+       4.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       30.0,
+       30.0
+      ],
+      "start": 180,
+      "stop": 270,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tür (zweiflügelig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tür mit Zarge (einflügelig)\rDoor with frame (single leaf)\rPorte avec huisserie (un vantail)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tür mit Zarge (einflügelig)\rDoor with frame (single leaf)\rPorte avec huisserie (un vantail)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        20.0,
+        0
+       ],
+       [
+        20.0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.5,
+       2.4
+      ],
+      "fill": {
+       "color": "#a0a0a0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       19.5,
+       2.4
+      ],
+      "fill": {
+       "color": "#a0a0a0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.0,
+        2.4
+       ],
+       [
+        19.0,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.0,
+        4.8
+       ],
+       [
+        1.0,
+        22.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       4.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       36.0,
+       36.0
+      ],
+      "start": 270,
+      "stop": 360,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tür mit Zarge (einflügelig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tür mit Zarge (zweiflügelig)\rDoor with frame (double leaf)\rPorte avec huisserie (deux vantaux)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tür mit Zarge (zweiflügelig)\rDoor with frame (double leaf)\rPorte avec huisserie (deux vantaux)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        30.0,
+        0
+       ],
+       [
+        30.0,
+        4.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.5,
+       2.4
+      ],
+      "fill": {
+       "color": "#a0a0a0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       29.5,
+       2.4
+      ],
+      "fill": {
+       "color": "#a0a0a0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       4.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "style": "dash",
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.0,
+        2.4
+       ],
+       [
+        29.0,
+        2.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        1.0,
+        4.8
+       ],
+       [
+        1.0,
+        18.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       1.0,
+       4.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       28.0,
+       28.0
+      ],
+      "start": 270,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        29.0,
+        4.8
+       ],
+       [
+        29.0,
+        18.8
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       29.0,
+       4.8
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       28.0,
+       28.0
+      ],
+      "start": 180,
+      "stop": 270,
+      "type": "ellipse"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tür mit Zarge (zweiflügelig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tisch quadratisch mit 4 Stühlen\rSquare table with 4 chairs\rTable carrée avec 4 chaises",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tisch quadratisch mit 4 Stühlen\rSquare table with 4 chairs\rTable carrée avec 4 chaises",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       16.0,
+       16.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.8,
+        -4.5
+       ],
+       [
+        17.8,
+        -4.5
+       ],
+       [
+        17.8,
+        4.5
+       ],
+       [
+        8.8,
+        4.5
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.4,
+        -4.5
+       ],
+       [
+        16.4,
+        4.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.5,
+        -8.8
+       ],
+       [
+        -4.5,
+        -17.8
+       ],
+       [
+        4.5,
+        -17.8
+       ],
+       [
+        4.5,
+        -8.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.5,
+        -16.4
+       ],
+       [
+        4.5,
+        -16.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.8,
+        4.5
+       ],
+       [
+        -17.8,
+        4.5
+       ],
+       [
+        -17.8,
+        -4.5
+       ],
+       [
+        -8.8,
+        -4.5
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.4,
+        4.5
+       ],
+       [
+        -16.4,
+        -4.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.5,
+        8.8
+       ],
+       [
+        4.5,
+        17.8
+       ],
+       [
+        -4.5,
+        17.8
+       ],
+       [
+        -4.5,
+        8.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.5,
+        16.4
+       ],
+       [
+        -4.5,
+        16.4
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tisch quadratisch mit 4 Stühlen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tisch rechteckig mit 6 Stühlen\rRectangular table with 6 chairs\rTable rectangulaire avec 6 chaises",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tisch rechteckig mit 6 Stühlen\rRectangular table with 6 chairs\rTable rectangulaire avec 6 chaises",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       32.0,
+       18.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -12.5,
+        -9.8
+       ],
+       [
+        -12.5,
+        -18.8
+       ],
+       [
+        -3.5,
+        -18.8
+       ],
+       [
+        -3.5,
+        -9.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -12.5,
+        -17.4
+       ],
+       [
+        -3.5,
+        -17.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.5,
+        9.8
+       ],
+       [
+        -3.5,
+        18.8
+       ],
+       [
+        -12.5,
+        18.8
+       ],
+       [
+        -12.5,
+        9.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -3.5,
+        17.4
+       ],
+       [
+        -12.5,
+        17.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.5,
+        -9.8
+       ],
+       [
+        3.5,
+        -18.8
+       ],
+       [
+        12.5,
+        -18.8
+       ],
+       [
+        12.5,
+        -9.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.5,
+        -17.4
+       ],
+       [
+        12.5,
+        -17.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.5,
+        9.8
+       ],
+       [
+        12.5,
+        18.8
+       ],
+       [
+        3.5,
+        18.8
+       ],
+       [
+        3.5,
+        9.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.5,
+        17.4
+       ],
+       [
+        3.5,
+        17.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        16.8,
+        -4.5
+       ],
+       [
+        25.8,
+        -4.5
+       ],
+       [
+        25.8,
+        4.5
+       ],
+       [
+        16.8,
+        4.5
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        24.4,
+        -4.5
+       ],
+       [
+        24.4,
+        4.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -16.8,
+        4.5
+       ],
+       [
+        -25.8,
+        4.5
+       ],
+       [
+        -25.8,
+        -4.5
+       ],
+       [
+        -16.8,
+        -4.5
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -24.4,
+        4.5
+       ],
+       [
+        -24.4,
+        -4.5
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tisch rechteckig mit 6 Stühlen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tisch rund mit 4 Stühlen\rRound table with 4 chairs\rTable ronde avec 4 chaises",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tisch rund mit 4 Stühlen\rRound table with 4 chairs\rTable ronde avec 4 chaises",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       20.0,
+       20.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.5,
+        -10.8
+       ],
+       [
+        -4.5,
+        -19.8
+       ],
+       [
+        4.5,
+        -19.8
+       ],
+       [
+        4.5,
+        -10.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.5,
+        -18.4
+       ],
+       [
+        4.5,
+        -18.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -10.8,
+        4.5
+       ],
+       [
+        -19.8,
+        4.5
+       ],
+       [
+        -19.8,
+        -4.5
+       ],
+       [
+        -10.8,
+        -4.5
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -18.4,
+        4.5
+       ],
+       [
+        -18.4,
+        -4.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.5,
+        10.8
+       ],
+       [
+        4.5,
+        19.8
+       ],
+       [
+        -4.5,
+        19.8
+       ],
+       [
+        -4.5,
+        10.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.5,
+        18.4
+       ],
+       [
+        -4.5,
+        18.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.8,
+        -4.5
+       ],
+       [
+        19.8,
+        -4.5
+       ],
+       [
+        19.8,
+        4.5
+       ],
+       [
+        10.8,
+        4.5
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        18.4,
+        -4.5
+       ],
+       [
+        18.4,
+        4.5
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tisch rund mit 4 Stühlen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Tisch rund mit 6 Stühlen\rRound table with 6 chairs\rTable ronde avec 6 chaises",
+   "item": {
+    "autoNumber": false,
+    "caption": "Tisch rund mit 6 Stühlen\rRound table with 6 chairs\rTable ronde avec 6 chaises",
+    "children": [
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       24.0,
+       24.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.5,
+        -12.8
+       ],
+       [
+        -4.5,
+        -21.8
+       ],
+       [
+        4.5,
+        -21.8
+       ],
+       [
+        4.5,
+        -12.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -4.5,
+        -20.4
+       ],
+       [
+        4.5,
+        -20.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -13.3351,
+        -2.5029
+       ],
+       [
+        -21.1294,
+        -7.0029
+       ],
+       [
+        -16.6294,
+        -14.7971
+       ],
+       [
+        -8.8351,
+        -10.2971
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -19.9169,
+        -6.3029
+       ],
+       [
+        -15.4169,
+        -14.0971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.8351,
+        10.2971
+       ],
+       [
+        -16.6294,
+        14.7971
+       ],
+       [
+        -21.1294,
+        7.0029
+       ],
+       [
+        -13.3351,
+        2.5029
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -15.4169,
+        14.0971
+       ],
+       [
+        -19.9169,
+        6.3029
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.5,
+        12.8
+       ],
+       [
+        4.5,
+        21.8
+       ],
+       [
+        -4.5,
+        21.8
+       ],
+       [
+        -4.5,
+        12.8
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.5,
+        20.4
+       ],
+       [
+        -4.5,
+        20.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        13.3351,
+        2.5029
+       ],
+       [
+        21.1294,
+        7.0029
+       ],
+       [
+        16.6294,
+        14.7971
+       ],
+       [
+        8.8351,
+        10.2971
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        19.9169,
+        6.3029
+       ],
+       [
+        15.4169,
+        14.0971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.8351,
+        -10.2971
+       ],
+       [
+        16.6294,
+        -14.7971
+       ],
+       [
+        21.1294,
+        -7.0029
+       ],
+       [
+        13.3351,
+        -2.5029
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.4169,
+        -14.0971
+       ],
+       [
+        19.9169,
+        -6.3029
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Tisch rund mit 6 Stühlen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sessel\rArmchair\rFauteuil",
+   "item": {
+    "autoNumber": false,
+    "caption": "Sessel\rArmchair\rFauteuil",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "corner": 10,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       16.0,
+       16.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -8.0,
+        -5.0
+       ],
+       [
+        8.0,
+        -5.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.4,
+        -5.0
+       ],
+       [
+        -5.4,
+        8.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.4,
+        -5.0
+       ],
+       [
+        5.4,
+        8.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Sessel",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sofa (zweisitzig)\rSofa (two-seater)\rCanapé (deux places)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Sofa (zweisitzig)\rSofa (two-seater)\rCanapé (deux places)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "corner": 8,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       30.0,
+       17.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -15.0,
+        -5.1
+       ],
+       [
+        15.0,
+        -5.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -12.0,
+        -5.1
+       ],
+       [
+        -12.0,
+        8.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        -5.1
+       ],
+       [
+        12.0,
+        8.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        -5.1
+       ],
+       [
+        0.0,
+        8.5
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Sofa (zweisitzig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Sofa (dreisitzig)\rSofa (three-seater)\rCanapé (trois places)",
+   "item": {
+    "autoNumber": false,
+    "caption": "Sofa (dreisitzig)\rSofa (three-seater)\rCanapé (trois places)",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "corner": 8,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       42.0,
+       17.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -21.0,
+        -5.1
+       ],
+       [
+        21.0,
+        -5.1
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -18.0,
+        -5.1
+       ],
+       [
+        -18.0,
+        8.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        18.0,
+        -5.1
+       ],
+       [
+        18.0,
+        8.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -6.0,
+        -5.1
+       ],
+       [
+        -6.0,
+        8.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.0,
+        -5.1
+       ],
+       [
+        6.0,
+        8.5
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Sofa (dreisitzig)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Bett\rSingle bed\rLit simple",
+   "item": {
+    "autoNumber": false,
+    "caption": "Bett\rSingle bed\rLit simple",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       18.0,
+       40.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -14.4
+      ],
+      "corner": 30,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       14.0,
+       8.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -9.0,
+        -8.0
+       ],
+       [
+        9.0,
+        -8.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        -8.0
+       ],
+       [
+        9.0,
+        -2.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Bett",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  },
+  {
+   "caption": "Doppelbett\rDouble bed\rLit double",
+   "item": {
+    "autoNumber": false,
+    "caption": "Doppelbett\rDouble bed\rLit double",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       0.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       36.0,
+       40.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       -9.0,
+       -14.4
+      ],
+      "corner": 30,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       14.0,
+       8.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       9.0,
+       -14.4
+      ],
+      "corner": 30,
+      "corners": "round",
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       14.0,
+       8.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -18.0,
+        -8.0
+       ],
+       [
+        18.0,
+        -8.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.0,
+        -8.0
+       ],
+       [
+        18.0,
+        -2.0
+       ]
+      ],
+      "type": "line"
+     }
+    ],
+    "designator": "",
+    "designatorVisible": false,
+    "inPartsList": false,
+    "libraryEntry": "OpenLoch/Elektro/Elektroinstallation/Grundriss/Doppelbett",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "",
+    "valueVisible": false
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

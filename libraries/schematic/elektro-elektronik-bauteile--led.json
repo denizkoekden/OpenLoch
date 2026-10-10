@@ -1,0 +1,5600 @@
+{
+ "folder": "Elektro/Elektronik/Bauteile",
+ "format": "OpenLoch Schematic Library",
+ "name": "LED\rLED\rLED",
+ "symbols": [
+  {
+   "caption": "Leuchtdiode\rLight-emitting diode\rDiode électroluminescente",
+   "item": {
+    "caption": "Leuchtdiode\rLight-emitting diode\rDiode électroluminescente",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       0
+      ],
+      "pos": [
+       9.76,
+       -2.2
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        4.68,
+        -1.8
+       ],
+       [
+        6.3771,
+        -3.4971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.08,
+        -1.8
+       ],
+       [
+        7.7771,
+        -3.4971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -7.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/Leuchtdiode",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LED"
+   }
+  },
+  {
+   "caption": "Leuchtdiode vertikal\rLED, vertical\rDEL verticale",
+   "item": {
+    "caption": "Leuchtdiode vertikal\rLED, vertical\rDEL verticale",
+    "children": [
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        6.35
+       ],
+       [
+        0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        4.68
+       ],
+       [
+        3.2971,
+        2.9829
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.0,
+        4.68
+       ],
+       [
+        4.6971,
+        2.9829
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.4,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.4,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/Leuchtdiode vertikal",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LED"
+   }
+  },
+  {
+   "caption": "Zweifarbige LED\rBicolour LED\rDEL bicolore",
+   "item": {
+    "caption": "Zweifarbige LED\rBicolour LED\rDEL bicolore",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        3.81,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.81,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        5.08
+       ],
+       [
+        10.16,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        3.58
+       ],
+       [
+        6.35,
+        6.58
+       ],
+       [
+        3.81,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.81,
+        3.58
+       ],
+       [
+        3.81,
+        6.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.28,
+        -1.6
+       ],
+       [
+        7.9771,
+        -3.2971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.68,
+        -1.6
+       ],
+       [
+        9.3771,
+        -3.2971
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       10.16,
+       2.54
+      ],
+      "pos": [
+       9.76,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       -7.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       5.08,
+       7.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/Zweifarbige LED",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "LED"
+   }
+  },
+  {
+   "caption": "RGB-LED (gemeinsame Kathode)\rRGB LED (common cathode)\rDEL RVB (cathode commune)",
+   "item": {
+    "caption": "RGB-LED (gemeinsame Kathode)\rRGB LED (common cathode)\rDEL RVB (cathode commune)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        3.81,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.0
+       ],
+       [
+        10.16,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0.0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       -2.6
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.81,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        5.08
+       ],
+       [
+        10.16,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        3.58
+       ],
+       [
+        3.81,
+        6.58
+       ],
+       [
+        6.35,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        3.58
+       ],
+       [
+        6.35,
+        6.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       2.48
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        3.81,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        8.66
+       ],
+       [
+        3.81,
+        11.66
+       ],
+       [
+        6.35,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        8.66
+       ],
+       [
+        6.35,
+        11.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       7.56
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.3,
+       -1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.3,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/RGB-LED (gemeinsame Kathode)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "RGB"
+   }
+  },
+  {
+   "caption": "Optokoppler\rOptocoupler\rOptocoupleur",
+   "item": {
+    "caption": "Optokoppler\rOptocoupler\rOptocoupleur",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       2.54
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.27
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        3.81
+       ],
+       [
+        5.08,
+        5.08
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.68,
+        1.27
+       ],
+       [
+        6.48,
+        1.27
+       ],
+       [
+        5.08,
+        3.81
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.68,
+        3.81
+       ],
+       [
+        6.48,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        2.032
+       ],
+       [
+        9.76,
+        2.032
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 0.9,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        7.02,
+        3.302
+       ],
+       [
+        9.76,
+        3.302
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        11.684,
+        0.254
+       ],
+       [
+        11.684,
+        4.826
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.684,
+        1.524
+       ],
+       [
+        15.24,
+        -0.508
+       ],
+       [
+        15.24,
+        0
+       ],
+       [
+        20.32,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.2,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        11.684,
+        3.556
+       ],
+       [
+        15.24,
+        5.588
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        5.588
+       ],
+       [
+        15.24,
+        5.08
+       ],
+       [
+        20.32,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       20.32,
+       0
+      ],
+      "pos": [
+       19.92,
+       -2.2
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       20.32,
+       5.08
+      ],
+      "pos": [
+       19.92,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -5.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "U?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/Optokoppler",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "RGB-LED (gemeinsame Anode)\rRGB LED (common anode)\rDEL RVB (anode commune)",
+   "item": {
+    "caption": "RGB-LED (gemeinsame Anode)\rRGB LED (common anode)\rDEL RVB (anode commune)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        6.35
+       ],
+       [
+        0.0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0.0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       7.56
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        6.35
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.58,
+        3.81
+       ],
+       [
+        6.58,
+        3.81
+       ],
+       [
+        5.08,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.58,
+        6.35
+       ],
+       [
+        6.58,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       5.48,
+       7.56
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.48,
+       7.96
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        6.35
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.66,
+        3.81
+       ],
+       [
+        11.66,
+        3.81
+       ],
+       [
+        10.16,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        8.66,
+        6.35
+       ],
+       [
+        11.66,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.56,
+       7.56
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       10.56,
+       7.96
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.56,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.56,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/RGB-LED (gemeinsame Anode)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "RGB"
+   }
+  },
+  {
+   "caption": "RGB-LED farbig (gemeinsame Anode)\rRGB LED, coloured (common anode)\rDEL RVB colorée (anode commune)",
+   "item": {
+    "caption": "RGB-LED farbig (gemeinsame Anode)\rRGB LED, coloured (common anode)\rDEL RVB colorée (anode commune)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ],
+       [
+        10.16,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -2.94
+      ],
+      "text": "A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0
+       ],
+       [
+        0.0,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        6.35
+       ],
+       [
+        0.0,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#d00000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.5,
+        3.81
+       ],
+       [
+        1.5,
+        3.81
+       ],
+       [
+        0.0,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        -1.5,
+        6.35
+       ],
+       [
+        1.5,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       7.56
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0.0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        6.35
+       ],
+       [
+        5.08,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#008000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.58,
+        3.81
+       ],
+       [
+        6.58,
+        3.81
+       ],
+       [
+        5.08,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        3.58,
+        6.35
+       ],
+       [
+        6.58,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       5.48,
+       7.56
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       5.08,
+       10.16
+      ],
+      "pos": [
+       5.48,
+       7.96
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        6.35
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#0040d0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        8.66,
+        3.81
+       ],
+       [
+        11.66,
+        3.81
+       ],
+       [
+        10.16,
+        6.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        8.66,
+        6.35
+       ],
+       [
+        11.66,
+        6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       10.56,
+       7.56
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       10.16,
+       10.16
+      ],
+      "pos": [
+       10.56,
+       7.96
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.56,
+       1.94
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       12.56,
+       5.48
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/RGB-LED farbig (gemeinsame Anode)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "RGB"
+   }
+  },
+  {
+   "caption": "RGB-LED farbig (gemeinsame Kathode)\rRGB LED, coloured (common cathode)\rDEL RVB colorée (cathode commune)",
+   "item": {
+    "caption": "RGB-LED farbig (gemeinsame Kathode)\rRGB LED, coloured (common cathode)\rDEL RVB colorée (cathode commune)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        0.0
+       ],
+       [
+        3.81,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        0.0
+       ],
+       [
+        10.16,
+        0.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#d00000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        -1.5
+       ],
+       [
+        3.81,
+        1.5
+       ],
+       [
+        6.35,
+        0.0
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        -1.5
+       ],
+       [
+        6.35,
+        1.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       -2.6
+      ],
+      "text": "R",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "R",
+      "pin": [
+       0,
+       0.0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "R",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        3.81,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        5.08
+       ],
+       [
+        10.16,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#008000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        3.58
+       ],
+       [
+        3.81,
+        6.58
+       ],
+       [
+        6.35,
+        5.08
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        3.58
+       ],
+       [
+        6.35,
+        6.58
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       2.48
+      ],
+      "text": "G",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        3.81,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        6.35,
+        10.16
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "fill": {
+       "color": "#0040d0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.81,
+        8.66
+       ],
+       [
+        3.81,
+        11.66
+       ],
+       [
+        6.35,
+        10.16
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.35
+      },
+      "points": [
+       [
+        6.35,
+        8.66
+       ],
+       [
+        6.35,
+        11.66
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       0.4,
+       7.56
+      ],
+      "text": "B",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "B",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "B",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        12.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "K",
+      "pin": [
+       12.7,
+       5.08
+      ],
+      "pos": [
+       12.3,
+       2.88
+      ],
+      "text": "K",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.3,
+       -1.0
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       13.3,
+       2.0
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/RGB-LED farbig (gemeinsame Kathode)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "RGB"
+   }
+  },
+  {
+   "caption": "7-Segment-Anzeige\rSeven-segment display\rAfficheur 7 segments",
+   "item": {
+    "caption": "7-Segment-Anzeige\rSeven-segment display\rAfficheur 7 segments",
+    "children": [
+     {
+      "centre": [
+       10.16,
+       11.43
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       15.24,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "a",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "a",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "a",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "b",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "b",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.4,
+       2.88
+      ],
+      "text": "b",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "c",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "c",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.4,
+       5.42
+      ],
+      "text": "c",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "d",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "d",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.4,
+       7.96
+      ],
+      "text": "d",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "e",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "e",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.4,
+       10.5
+      ],
+      "text": "e",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        15.24
+       ],
+       [
+        2.54,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       14.24
+      ],
+      "text": "f",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "f",
+      "pin": [
+       0,
+       15.24
+      ],
+      "pos": [
+       0.4,
+       13.04
+      ],
+      "text": "f",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "g",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "g",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.4,
+       15.58
+      ],
+      "text": "g",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.0
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "dp",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "dp",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.4,
+       18.12
+      ],
+      "text": "dp",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        15.748,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        15.748,
+        5.08
+       ],
+       [
+        15.748,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        15.748,
+        10.16
+       ],
+       [
+        15.748,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        15.24
+       ],
+       [
+        15.748,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        10.16,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        5.08
+       ],
+       [
+        10.16,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        10.16,
+        10.16
+       ],
+       [
+        15.748,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       16.748,
+       15.24
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.8,
+       0.8
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       23.46
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/7-Segment-Anzeige",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Seitenansicht, klar)\rLED 5 mm (side view, clear)\rDEL 5 mm (vue de côté, incolore)",
+   "item": {
+    "caption": "LED 5 mm (Seitenansicht, klar)\rLED 5 mm (side view, clear)\rDEL 5 mm (vue de côté, incolore)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -7.62
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       1.07,
+       -8.12
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.23,
+        -8.62
+       ],
+       [
+        -1.23,
+        -13.82
+       ],
+       [
+        -1.182,
+        -14.3077
+       ],
+       [
+        -1.0397,
+        -14.7767
+       ],
+       [
+        -0.8087,
+        -15.2089
+       ],
+       [
+        -0.4978,
+        -15.5878
+       ],
+       [
+        -0.1189,
+        -15.8987
+       ],
+       [
+        0.3133,
+        -16.1297
+       ],
+       [
+        0.7823,
+        -16.272
+       ],
+       [
+        1.27,
+        -16.32
+       ],
+       [
+        1.7577,
+        -16.272
+       ],
+       [
+        2.2267,
+        -16.1297
+       ],
+       [
+        2.6589,
+        -15.8987
+       ],
+       [
+        3.0378,
+        -15.5878
+       ],
+       [
+        3.3487,
+        -15.2089
+       ],
+       [
+        3.5797,
+        -14.7767
+       ],
+       [
+        3.722,
+        -14.3077
+       ],
+       [
+        3.77,
+        -13.82
+       ],
+       [
+        3.77,
+        -8.62
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       2.94,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -15.62
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -12.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Seitenansicht, klar)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Seitenansicht, grau)\rLED 5 mm (side view, grey)\rDEL 5 mm (vue de côté, grise)",
+   "item": {
+    "caption": "LED 5 mm (Seitenansicht, grau)\rLED 5 mm (side view, grey)\rDEL 5 mm (vue de côté, grise)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -7.62
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       1.07,
+       -8.12
+      ],
+      "fill": {
+       "color": "#b0b0b0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "fill": {
+       "color": "#b0b0b0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.23,
+        -8.62
+       ],
+       [
+        -1.23,
+        -13.82
+       ],
+       [
+        -1.182,
+        -14.3077
+       ],
+       [
+        -1.0397,
+        -14.7767
+       ],
+       [
+        -0.8087,
+        -15.2089
+       ],
+       [
+        -0.4978,
+        -15.5878
+       ],
+       [
+        -0.1189,
+        -15.8987
+       ],
+       [
+        0.3133,
+        -16.1297
+       ],
+       [
+        0.7823,
+        -16.272
+       ],
+       [
+        1.27,
+        -16.32
+       ],
+       [
+        1.7577,
+        -16.272
+       ],
+       [
+        2.2267,
+        -16.1297
+       ],
+       [
+        2.6589,
+        -15.8987
+       ],
+       [
+        3.0378,
+        -15.5878
+       ],
+       [
+        3.3487,
+        -15.2089
+       ],
+       [
+        3.5797,
+        -14.7767
+       ],
+       [
+        3.722,
+        -14.3077
+       ],
+       [
+        3.77,
+        -13.82
+       ],
+       [
+        3.77,
+        -8.62
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       2.94,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -15.62
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -12.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Seitenansicht, grau)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Seitenansicht, rot)\rLED 5 mm (side view, red)\rDEL 5 mm (vue de côté, rouge)",
+   "item": {
+    "caption": "LED 5 mm (Seitenansicht, rot)\rLED 5 mm (side view, red)\rDEL 5 mm (vue de côté, rouge)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -7.62
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       1.07,
+       -8.12
+      ],
+      "fill": {
+       "color": "#ff4040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "fill": {
+       "color": "#ff4040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.23,
+        -8.62
+       ],
+       [
+        -1.23,
+        -13.82
+       ],
+       [
+        -1.182,
+        -14.3077
+       ],
+       [
+        -1.0397,
+        -14.7767
+       ],
+       [
+        -0.8087,
+        -15.2089
+       ],
+       [
+        -0.4978,
+        -15.5878
+       ],
+       [
+        -0.1189,
+        -15.8987
+       ],
+       [
+        0.3133,
+        -16.1297
+       ],
+       [
+        0.7823,
+        -16.272
+       ],
+       [
+        1.27,
+        -16.32
+       ],
+       [
+        1.7577,
+        -16.272
+       ],
+       [
+        2.2267,
+        -16.1297
+       ],
+       [
+        2.6589,
+        -15.8987
+       ],
+       [
+        3.0378,
+        -15.5878
+       ],
+       [
+        3.3487,
+        -15.2089
+       ],
+       [
+        3.5797,
+        -14.7767
+       ],
+       [
+        3.722,
+        -14.3077
+       ],
+       [
+        3.77,
+        -13.82
+       ],
+       [
+        3.77,
+        -8.62
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       2.94,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -15.62
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -12.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Seitenansicht, rot)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Seitenansicht, gelb)\rLED 5 mm (side view, yellow)\rDEL 5 mm (vue de côté, jaune)",
+   "item": {
+    "caption": "LED 5 mm (Seitenansicht, gelb)\rLED 5 mm (side view, yellow)\rDEL 5 mm (vue de côté, jaune)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -7.62
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       1.07,
+       -8.12
+      ],
+      "fill": {
+       "color": "#ffd030",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "fill": {
+       "color": "#ffd030",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.23,
+        -8.62
+       ],
+       [
+        -1.23,
+        -13.82
+       ],
+       [
+        -1.182,
+        -14.3077
+       ],
+       [
+        -1.0397,
+        -14.7767
+       ],
+       [
+        -0.8087,
+        -15.2089
+       ],
+       [
+        -0.4978,
+        -15.5878
+       ],
+       [
+        -0.1189,
+        -15.8987
+       ],
+       [
+        0.3133,
+        -16.1297
+       ],
+       [
+        0.7823,
+        -16.272
+       ],
+       [
+        1.27,
+        -16.32
+       ],
+       [
+        1.7577,
+        -16.272
+       ],
+       [
+        2.2267,
+        -16.1297
+       ],
+       [
+        2.6589,
+        -15.8987
+       ],
+       [
+        3.0378,
+        -15.5878
+       ],
+       [
+        3.3487,
+        -15.2089
+       ],
+       [
+        3.5797,
+        -14.7767
+       ],
+       [
+        3.722,
+        -14.3077
+       ],
+       [
+        3.77,
+        -13.82
+       ],
+       [
+        3.77,
+        -8.62
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       2.94,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -15.62
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -12.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Seitenansicht, gelb)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Seitenansicht, grün)\rLED 5 mm (side view, green)\rDEL 5 mm (vue de côté, verte)",
+   "item": {
+    "caption": "LED 5 mm (Seitenansicht, grün)\rLED 5 mm (side view, green)\rDEL 5 mm (vue de côté, verte)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -7.62
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       1.07,
+       -8.12
+      ],
+      "fill": {
+       "color": "#40c040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "fill": {
+       "color": "#40c040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.23,
+        -8.62
+       ],
+       [
+        -1.23,
+        -13.82
+       ],
+       [
+        -1.182,
+        -14.3077
+       ],
+       [
+        -1.0397,
+        -14.7767
+       ],
+       [
+        -0.8087,
+        -15.2089
+       ],
+       [
+        -0.4978,
+        -15.5878
+       ],
+       [
+        -0.1189,
+        -15.8987
+       ],
+       [
+        0.3133,
+        -16.1297
+       ],
+       [
+        0.7823,
+        -16.272
+       ],
+       [
+        1.27,
+        -16.32
+       ],
+       [
+        1.7577,
+        -16.272
+       ],
+       [
+        2.2267,
+        -16.1297
+       ],
+       [
+        2.6589,
+        -15.8987
+       ],
+       [
+        3.0378,
+        -15.5878
+       ],
+       [
+        3.3487,
+        -15.2089
+       ],
+       [
+        3.5797,
+        -14.7767
+       ],
+       [
+        3.722,
+        -14.3077
+       ],
+       [
+        3.77,
+        -13.82
+       ],
+       [
+        3.77,
+        -8.62
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       2.94,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -15.62
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -12.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Seitenansicht, grün)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Seitenansicht, blau)\rLED 5 mm (side view, blue)\rDEL 5 mm (vue de côté, bleue)",
+   "item": {
+    "caption": "LED 5 mm (Seitenansicht, blau)\rLED 5 mm (side view, blue)\rDEL 5 mm (vue de côté, bleue)",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "color": "#808080",
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.54,
+        -7.62
+       ],
+       [
+        2.54,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       1.07,
+       -8.12
+      ],
+      "fill": {
+       "color": "#4080ff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.4,
+       1.0
+      ],
+      "type": "rectangle"
+     },
+     {
+      "fill": {
+       "color": "#4080ff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.23,
+        -8.62
+       ],
+       [
+        -1.23,
+        -13.82
+       ],
+       [
+        -1.182,
+        -14.3077
+       ],
+       [
+        -1.0397,
+        -14.7767
+       ],
+       [
+        -0.8087,
+        -15.2089
+       ],
+       [
+        -0.4978,
+        -15.5878
+       ],
+       [
+        -0.1189,
+        -15.8987
+       ],
+       [
+        0.3133,
+        -16.1297
+       ],
+       [
+        0.7823,
+        -16.272
+       ],
+       [
+        1.27,
+        -16.32
+       ],
+       [
+        1.7577,
+        -16.272
+       ],
+       [
+        2.2267,
+        -16.1297
+       ],
+       [
+        2.6589,
+        -15.8987
+       ],
+       [
+        3.0378,
+        -15.5878
+       ],
+       [
+        3.3487,
+        -15.2089
+       ],
+       [
+        3.5797,
+        -14.7767
+       ],
+       [
+        3.722,
+        -14.3077
+       ],
+       [
+        3.77,
+        -13.82
+       ],
+       [
+        3.77,
+        -8.62
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.4,
+       -2.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       2.54,
+       -2.54
+      ],
+      "pos": [
+       2.94,
+       -4.74
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -15.62
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.87,
+       -12.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Seitenansicht, blau)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Draufsicht, klar)\rLED 5 mm (top view, clear)\rDEL 5 mm (vue de dessus, incolore)",
+   "item": {
+    "caption": "LED 5 mm (Draufsicht, klar)\rLED 5 mm (top view, clear)\rDEL 5 mm (vue de dessus, incolore)",
+    "children": [
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.5,
+        -1.4697
+       ],
+       [
+        2.1239,
+        -1.9746
+       ],
+       [
+        1.6478,
+        -2.3864
+       ],
+       [
+        1.094,
+        -2.6857
+       ],
+       [
+        0.4886,
+        -2.8585
+       ],
+       [
+        -0.1398,
+        -2.8966
+       ],
+       [
+        -0.7616,
+        -2.7982
+       ],
+       [
+        -1.3475,
+        -2.5679
+       ],
+       [
+        -1.8699,
+        -2.2166
+       ],
+       [
+        -2.3042,
+        -1.7609
+       ],
+       [
+        -2.6299,
+        -1.2221
+       ],
+       [
+        -2.8317,
+        -0.6258
+       ],
+       [
+        -2.9,
+        0.0
+       ],
+       [
+        -2.8317,
+        0.6258
+       ],
+       [
+        -2.6299,
+        1.2221
+       ],
+       [
+        -2.3042,
+        1.7609
+       ],
+       [
+        -1.8699,
+        2.2166
+       ],
+       [
+        -1.3475,
+        2.5679
+       ],
+       [
+        -0.7616,
+        2.7982
+       ],
+       [
+        -0.1398,
+        2.8966
+       ],
+       [
+        0.4886,
+        2.8585
+       ],
+       [
+        1.094,
+        2.6857
+       ],
+       [
+        1.6478,
+        2.3864
+       ],
+       [
+        2.1239,
+        1.9746
+       ],
+       [
+        2.5,
+        1.4697
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "start": 105,
+      "stop": 165,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -0.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Draufsicht, klar)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Draufsicht, grau)\rLED 5 mm (top view, grey)\rDEL 5 mm (vue de dessus, grise)",
+   "item": {
+    "caption": "LED 5 mm (Draufsicht, grau)\rLED 5 mm (top view, grey)\rDEL 5 mm (vue de dessus, grise)",
+    "children": [
+     {
+      "fill": {
+       "color": "#b0b0b0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.5,
+        -1.4697
+       ],
+       [
+        2.1239,
+        -1.9746
+       ],
+       [
+        1.6478,
+        -2.3864
+       ],
+       [
+        1.094,
+        -2.6857
+       ],
+       [
+        0.4886,
+        -2.8585
+       ],
+       [
+        -0.1398,
+        -2.8966
+       ],
+       [
+        -0.7616,
+        -2.7982
+       ],
+       [
+        -1.3475,
+        -2.5679
+       ],
+       [
+        -1.8699,
+        -2.2166
+       ],
+       [
+        -2.3042,
+        -1.7609
+       ],
+       [
+        -2.6299,
+        -1.2221
+       ],
+       [
+        -2.8317,
+        -0.6258
+       ],
+       [
+        -2.9,
+        0.0
+       ],
+       [
+        -2.8317,
+        0.6258
+       ],
+       [
+        -2.6299,
+        1.2221
+       ],
+       [
+        -2.3042,
+        1.7609
+       ],
+       [
+        -1.8699,
+        2.2166
+       ],
+       [
+        -1.3475,
+        2.5679
+       ],
+       [
+        -0.7616,
+        2.7982
+       ],
+       [
+        -0.1398,
+        2.8966
+       ],
+       [
+        0.4886,
+        2.8585
+       ],
+       [
+        1.094,
+        2.6857
+       ],
+       [
+        1.6478,
+        2.3864
+       ],
+       [
+        2.1239,
+        1.9746
+       ],
+       [
+        2.5,
+        1.4697
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#b0b0b0",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.35
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "start": 105,
+      "stop": 165,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -0.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Draufsicht, grau)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Draufsicht, rot)\rLED 5 mm (top view, red)\rDEL 5 mm (vue de dessus, rouge)",
+   "item": {
+    "caption": "LED 5 mm (Draufsicht, rot)\rLED 5 mm (top view, red)\rDEL 5 mm (vue de dessus, rouge)",
+    "children": [
+     {
+      "fill": {
+       "color": "#ff4040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.5,
+        -1.4697
+       ],
+       [
+        2.1239,
+        -1.9746
+       ],
+       [
+        1.6478,
+        -2.3864
+       ],
+       [
+        1.094,
+        -2.6857
+       ],
+       [
+        0.4886,
+        -2.8585
+       ],
+       [
+        -0.1398,
+        -2.8966
+       ],
+       [
+        -0.7616,
+        -2.7982
+       ],
+       [
+        -1.3475,
+        -2.5679
+       ],
+       [
+        -1.8699,
+        -2.2166
+       ],
+       [
+        -2.3042,
+        -1.7609
+       ],
+       [
+        -2.6299,
+        -1.2221
+       ],
+       [
+        -2.8317,
+        -0.6258
+       ],
+       [
+        -2.9,
+        0.0
+       ],
+       [
+        -2.8317,
+        0.6258
+       ],
+       [
+        -2.6299,
+        1.2221
+       ],
+       [
+        -2.3042,
+        1.7609
+       ],
+       [
+        -1.8699,
+        2.2166
+       ],
+       [
+        -1.3475,
+        2.5679
+       ],
+       [
+        -0.7616,
+        2.7982
+       ],
+       [
+        -0.1398,
+        2.8966
+       ],
+       [
+        0.4886,
+        2.8585
+       ],
+       [
+        1.094,
+        2.6857
+       ],
+       [
+        1.6478,
+        2.3864
+       ],
+       [
+        2.1239,
+        1.9746
+       ],
+       [
+        2.5,
+        1.4697
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#ff4040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.35
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "start": 105,
+      "stop": 165,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -0.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Draufsicht, rot)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Draufsicht, gelb)\rLED 5 mm (top view, yellow)\rDEL 5 mm (vue de dessus, jaune)",
+   "item": {
+    "caption": "LED 5 mm (Draufsicht, gelb)\rLED 5 mm (top view, yellow)\rDEL 5 mm (vue de dessus, jaune)",
+    "children": [
+     {
+      "fill": {
+       "color": "#ffd030",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.5,
+        -1.4697
+       ],
+       [
+        2.1239,
+        -1.9746
+       ],
+       [
+        1.6478,
+        -2.3864
+       ],
+       [
+        1.094,
+        -2.6857
+       ],
+       [
+        0.4886,
+        -2.8585
+       ],
+       [
+        -0.1398,
+        -2.8966
+       ],
+       [
+        -0.7616,
+        -2.7982
+       ],
+       [
+        -1.3475,
+        -2.5679
+       ],
+       [
+        -1.8699,
+        -2.2166
+       ],
+       [
+        -2.3042,
+        -1.7609
+       ],
+       [
+        -2.6299,
+        -1.2221
+       ],
+       [
+        -2.8317,
+        -0.6258
+       ],
+       [
+        -2.9,
+        0.0
+       ],
+       [
+        -2.8317,
+        0.6258
+       ],
+       [
+        -2.6299,
+        1.2221
+       ],
+       [
+        -2.3042,
+        1.7609
+       ],
+       [
+        -1.8699,
+        2.2166
+       ],
+       [
+        -1.3475,
+        2.5679
+       ],
+       [
+        -0.7616,
+        2.7982
+       ],
+       [
+        -0.1398,
+        2.8966
+       ],
+       [
+        0.4886,
+        2.8585
+       ],
+       [
+        1.094,
+        2.6857
+       ],
+       [
+        1.6478,
+        2.3864
+       ],
+       [
+        2.1239,
+        1.9746
+       ],
+       [
+        2.5,
+        1.4697
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#ffd030",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.35
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "start": 105,
+      "stop": 165,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -0.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Draufsicht, gelb)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Draufsicht, grün)\rLED 5 mm (top view, green)\rDEL 5 mm (vue de dessus, verte)",
+   "item": {
+    "caption": "LED 5 mm (Draufsicht, grün)\rLED 5 mm (top view, green)\rDEL 5 mm (vue de dessus, verte)",
+    "children": [
+     {
+      "fill": {
+       "color": "#40c040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.5,
+        -1.4697
+       ],
+       [
+        2.1239,
+        -1.9746
+       ],
+       [
+        1.6478,
+        -2.3864
+       ],
+       [
+        1.094,
+        -2.6857
+       ],
+       [
+        0.4886,
+        -2.8585
+       ],
+       [
+        -0.1398,
+        -2.8966
+       ],
+       [
+        -0.7616,
+        -2.7982
+       ],
+       [
+        -1.3475,
+        -2.5679
+       ],
+       [
+        -1.8699,
+        -2.2166
+       ],
+       [
+        -2.3042,
+        -1.7609
+       ],
+       [
+        -2.6299,
+        -1.2221
+       ],
+       [
+        -2.8317,
+        -0.6258
+       ],
+       [
+        -2.9,
+        0.0
+       ],
+       [
+        -2.8317,
+        0.6258
+       ],
+       [
+        -2.6299,
+        1.2221
+       ],
+       [
+        -2.3042,
+        1.7609
+       ],
+       [
+        -1.8699,
+        2.2166
+       ],
+       [
+        -1.3475,
+        2.5679
+       ],
+       [
+        -0.7616,
+        2.7982
+       ],
+       [
+        -0.1398,
+        2.8966
+       ],
+       [
+        0.4886,
+        2.8585
+       ],
+       [
+        1.094,
+        2.6857
+       ],
+       [
+        1.6478,
+        2.3864
+       ],
+       [
+        2.1239,
+        1.9746
+       ],
+       [
+        2.5,
+        1.4697
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#40c040",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.35
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "start": 105,
+      "stop": 165,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -0.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Draufsicht, grün)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "LED 5 mm (Draufsicht, blau)\rLED 5 mm (top view, blue)\rDEL 5 mm (vue de dessus, bleue)",
+   "item": {
+    "caption": "LED 5 mm (Draufsicht, blau)\rLED 5 mm (top view, blue)\rDEL 5 mm (vue de dessus, bleue)",
+    "children": [
+     {
+      "fill": {
+       "color": "#4080ff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.5,
+        -1.4697
+       ],
+       [
+        2.1239,
+        -1.9746
+       ],
+       [
+        1.6478,
+        -2.3864
+       ],
+       [
+        1.094,
+        -2.6857
+       ],
+       [
+        0.4886,
+        -2.8585
+       ],
+       [
+        -0.1398,
+        -2.8966
+       ],
+       [
+        -0.7616,
+        -2.7982
+       ],
+       [
+        -1.3475,
+        -2.5679
+       ],
+       [
+        -1.8699,
+        -2.2166
+       ],
+       [
+        -2.3042,
+        -1.7609
+       ],
+       [
+        -2.6299,
+        -1.2221
+       ],
+       [
+        -2.8317,
+        -0.6258
+       ],
+       [
+        -2.9,
+        0.0
+       ],
+       [
+        -2.8317,
+        0.6258
+       ],
+       [
+        -2.6299,
+        1.2221
+       ],
+       [
+        -2.3042,
+        1.7609
+       ],
+       [
+        -1.8699,
+        2.2166
+       ],
+       [
+        -1.3475,
+        2.5679
+       ],
+       [
+        -0.7616,
+        2.7982
+       ],
+       [
+        -0.1398,
+        2.8966
+       ],
+       [
+        0.4886,
+        2.8585
+       ],
+       [
+        1.094,
+        2.6857
+       ],
+       [
+        1.6478,
+        2.3864
+       ],
+       [
+        2.1239,
+        1.9746
+       ],
+       [
+        2.5,
+        1.4697
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "centre": [
+       0,
+       0
+      ],
+      "fill": {
+       "color": "#4080ff",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       0
+      ],
+      "pen": {
+       "color": "#ffffff",
+       "width": 0.35
+      },
+      "size": [
+       3.4,
+       3.4
+      ],
+      "start": 105,
+      "stop": 165,
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.6,
+       -0.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "D?",
+    "libraryEntry": "OpenLoch/Elektro/Elektronik/Bauteile/LED/LED 5 mm (Draufsicht, blau)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

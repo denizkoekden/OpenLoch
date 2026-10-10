@@ -1,0 +1,1118 @@
+{
+ "folder": "Hydraulik + Pneumatik",
+ "format": "OpenLoch Schematic Library",
+ "name": "Speicher\rAccumulators\rAccumulateurs",
+ "symbols": [
+  {
+   "caption": "Hydrospeicher\rHydraulic accumulator\rAccumulateur hydraulique",
+   "item": {
+    "caption": "Hydrospeicher\rHydraulic accumulator\rAccumulateur hydraulique",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       -6.35
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        -6.35
+       ],
+       [
+        2.54,
+        -6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -10.16
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -7.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Hydrospeicher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Druckluftbehälter\rAir receiver\rRéservoir d’air",
+   "item": {
+    "caption": "Druckluftbehälter\rAir receiver\rRéservoir d’air",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       -5.08
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       10.16,
+       5.08
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -7.62
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -4.62
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Druckluftbehälter",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Hydrospeicher, gasbelastet\rHydraulic accumulator, gas-loaded\rAccumulateur hydraulique à gaz",
+   "item": {
+    "caption": "Hydrospeicher, gasbelastet\rHydraulic accumulator, gas-loaded\rAccumulateur hydraulique à gaz",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       -6.35
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        -6.35
+       ],
+       [
+        2.54,
+        -6.35
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -6.75
+       ],
+       [
+        -0.9,
+        -8.15
+       ],
+       [
+        0.9,
+        -8.15
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -10.16
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -7.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Hydrospeicher, gasbelastet",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Kolbenspeicher\rPiston accumulator\rAccumulateur à piston",
+   "item": {
+    "caption": "Kolbenspeicher\rPiston accumulator\rAccumulateur à piston",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       -6.35
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       0.0,
+       -6.35
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       0.8
+      ],
+      "type": "rectangle"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -7.15
+       ],
+       [
+        -0.9,
+        -8.55
+       ],
+       [
+        0.9,
+        -8.55
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -10.16
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -7.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Kolbenspeicher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Membranspeicher\rDiaphragm accumulator\rAccumulateur à membrane",
+   "item": {
+    "caption": "Membranspeicher\rDiaphragm accumulator\rAccumulateur à membrane",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       -6.35
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -9.0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       6.98,
+       6.98
+      ],
+      "start": 223.3,
+      "stop": 316.7,
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -6.95
+       ],
+       [
+        -0.9,
+        -8.35
+       ],
+       [
+        0.9,
+        -8.35
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -10.16
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -7.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Membranspeicher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Blasenspeicher\rBladder accumulator\rAccumulateur à vessie",
+   "item": {
+    "caption": "Blasenspeicher\rBladder accumulator\rAccumulateur à vessie",
+    "children": [
+     {
+      "centre": [
+       0.0,
+       -6.35
+      ],
+      "corner": 50,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.08,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        -9.58
+       ],
+       [
+        -1.6,
+        -6.95
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        -9.58
+       ],
+       [
+        1.6,
+        -6.95
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "arc": "arc",
+      "centre": [
+       0,
+       -6.95
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       3.2,
+       3.2
+      ],
+      "start": 180,
+      "stop": 360,
+      "type": "ellipse"
+     },
+     {
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -6.75
+       ],
+       [
+        -0.9,
+        -8.15
+       ],
+       [
+        0.9,
+        -8.15
+       ]
+      ],
+      "type": "polygon"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        0,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       0
+      ],
+      "pos": [
+       0.5,
+       0.2
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -10.16
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       3.54,
+       -7.16
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Blasenspeicher",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Behälter, offen\rReservoir, open\rRéservoir ouvert",
+   "item": {
+    "caption": "Behälter, offen\rReservoir, open\rRéservoir ouvert",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        -5.08
+       ],
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Behälter, offen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Behälter, geschlossen\rReservoir, closed\rRéservoir fermé",
+   "item": {
+    "caption": "Behälter, geschlossen\rReservoir, closed\rRéservoir fermé",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        -5.08
+       ],
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        -5.08
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Behälter, geschlossen",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Behälter mit Rücklaufleitung über dem Flüssigkeitsspiegel\rReservoir, return line above fluid level\rRéservoir, retour au-dessus du niveau",
+   "item": {
+    "caption": "Behälter mit Rücklaufleitung über dem Flüssigkeitsspiegel\rReservoir, return line above fluid level\rRéservoir, retour au-dessus du niveau",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        -5.08
+       ],
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        -3.81
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Behälter mit Rücklaufleitung über dem Flüssigkeitsspiegel",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Behälter mit Rücklaufleitung unter dem Flüssigkeitsspiegel\rReservoir, return line below fluid level\rRéservoir, retour sous le niveau",
+   "item": {
+    "caption": "Behälter mit Rücklaufleitung unter dem Flüssigkeitsspiegel\rReservoir, return line below fluid level\rRéservoir, retour sous le niveau",
+    "children": [
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -5.08,
+        -5.08
+       ],
+       [
+        -5.08,
+        0
+       ],
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -7.62
+       ],
+       [
+        0,
+        -1.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       -7.62
+      ],
+      "pos": [
+       0.5,
+       -8.02
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -5.08
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       6.08,
+       -2.08
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "P?",
+    "libraryEntry": "OpenLoch/Hydraulik + Pneumatik/Speicher/Behälter mit Rücklaufleitung unter dem Flüssigkeitsspiegel",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

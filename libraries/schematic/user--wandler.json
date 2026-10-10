@@ -1,0 +1,8625 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "Wandler\rWandler\rConvertisseurs",
+ "symbols": [
+  {
+   "caption": "DC/DC-Wandler 1 W TME\rDC/DC converter 1 W TME\rConvertisseur CC/CC 1 W TME",
+   "item": {
+    "caption": "DC/DC-Wandler 1 W TME\rDC/DC converter 1 W TME\rConvertisseur CC/CC 1 W TME",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        6.61
+       ],
+       [
+        15.5,
+        1.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       1.21
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       4.61
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 1 W TME",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TME 1212"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 1 W TMA (dual)\rDC/DC converter 1 W TMA (dual)\rConvertisseur CC/CC 1 W TMA (double)",
+   "item": {
+    "caption": "DC/DC-Wandler 1 W TMA (dual)\rDC/DC converter 1 W TMA (dual)\rConvertisseur CC/CC 1 W TMA (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 1 W TMA (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TMA 0505"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 2 W TEN 2 (single)\rDC/DC converter 2 W TEN 2 (single)\rConvertisseur CC/CC 2 W TEN 2 (simple)",
+   "item": {
+    "caption": "DC/DC-Wandler 2 W TEN 2 (single)\rDC/DC converter 2 W TEN 2 (single)\rConvertisseur CC/CC 2 W TEN 2 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+E",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "+E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-E",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "−E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+A",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "+A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-A",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "−A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        6.61
+       ],
+       [
+        15.5,
+        1.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       1.21
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       4.61
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 2 W TEN 2 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 2-0511"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 2 W TEN 2 (dual)\rDC/DC converter 2 W TEN 2 (dual)\rConvertisseur CC/CC 2 W TEN 2 (double)",
+   "item": {
+    "caption": "DC/DC-Wandler 2 W TEN 2 (dual)\rDC/DC converter 2 W TEN 2 (dual)\rConvertisseur CC/CC 2 W TEN 2 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+E",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "+E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-E",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "−E",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+A",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "+A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "COM",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "COM",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "-A",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "−A",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 2 W TEN 2 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 2-0521"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 2 W TED 2 (single)\rDC/DC converter 2 W TED 2 (single)\rConvertisseur CC/CC 2 W TED 2 (simple)",
+   "item": {
+    "caption": "DC/DC-Wandler 2 W TED 2 (single)\rDC/DC converter 2 W TED 2 (single)\rConvertisseur CC/CC 2 W TED 2 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "24",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "24",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "10",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "15",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        10.42
+       ],
+       [
+        15.5,
+        4.82
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       5.02
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       8.42
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 2 W TED 2 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TED 2-0511"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 2 W TED 2 (dual)\rDC/DC converter 2 W TED 2 (dual)\rConvertisseur CC/CC 2 W TED 2 (double)",
+   "item": {
+    "caption": "DC/DC-Wandler 2 W TED 2 (dual)\rDC/DC converter 2 W TED 2 (dual)\rConvertisseur CC/CC 2 W TED 2 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       11.43
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       22.86
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "24",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "24",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        17.78
+       ],
+       [
+        2.54,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       16.78
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "12",
+      "pin": [
+       0,
+       17.78
+      ],
+      "pos": [
+       0.2,
+       15.58
+      ],
+      "text": "12",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        20.32
+       ],
+       [
+        2.54,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       19.32
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "13",
+      "pin": [
+       0,
+       20.32
+      ],
+      "pos": [
+       0.2,
+       18.12
+      ],
+      "text": "13",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "+A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "10",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "10",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "−A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "15",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "15",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "+A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        15.24
+       ],
+       [
+        25.4,
+        15.24
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       14.24
+      ],
+      "text": "+A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "22",
+      "pin": [
+       25.4,
+       15.24
+      ],
+      "pos": [
+       25.2,
+       13.04
+      ],
+      "text": "22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        17.78
+       ],
+       [
+        25.4,
+        17.78
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       16.78
+      ],
+      "text": "−A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       25.4,
+       17.78
+      ],
+      "pos": [
+       25.2,
+       15.58
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        20.32
+       ],
+       [
+        25.4,
+        20.32
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       19.32
+      ],
+      "text": "−A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "23",
+      "pin": [
+       25.4,
+       20.32
+      ],
+      "pos": [
+       25.2,
+       18.12
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       11.43
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        14.23
+       ],
+       [
+        15.5,
+        8.63
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       8.83
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       12.23
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       23.46
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 2 W TED 2 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TED 2-0521"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 3 W TEN 3 (single)\rDC/DC converter 3 W TEN 3 (single)\rConvertisseur CC/CC 3 W TEN 3 (simple)",
+   "item": {
+    "caption": "DC/DC-Wandler 3 W TEN 3 (single)\rDC/DC converter 3 W TEN 3 (single)\rConvertisseur CC/CC 3 W TEN 3 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "22",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "23",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "16",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        10.42
+       ],
+       [
+        15.5,
+        4.82
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       5.02
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       8.42
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 3 W TEN 3 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 3-0510"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 3 W TEN 3 (dual)\rDC/DC converter 3 W TEN 3 (dual)\rConvertisseur CC/CC 3 W TEN 3 (double)",
+   "item": {
+    "caption": "DC/DC-Wandler 3 W TEN 3 (dual)\rDC/DC converter 3 W TEN 3 (dual)\rConvertisseur CC/CC 3 W TEN 3 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "22",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "22",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "23",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "23",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "14",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "14",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "9",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "9",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "16",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "16",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "11",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "11",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        10.42
+       ],
+       [
+        15.5,
+        4.82
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       5.02
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       8.42
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 3 W TEN 3 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 3-0521"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 10 W TEN 10 (single)\rDC/DC converter 10 W TEN 10 (single)\rConvertisseur CC/CC 10 W TEN 10 (simple)",
+   "item": {
+    "caption": "DC/DC-Wandler 10 W TEN 10 (single)\rDC/DC converter 10 W TEN 10 (single)\rConvertisseur CC/CC 10 W TEN 10 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        6.61
+       ],
+       [
+        15.5,
+        1.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       1.21
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       4.61
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 10 W TEN 10 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 10-1210"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 10 W TEN 10 (dual)\rDC/DC converter 10 W TEN 10 (dual)\rConvertisseur CC/CC 10 W TEN 10 (double)",
+   "item": {
+    "caption": "DC/DC-Wandler 10 W TEN 10 (dual)\rDC/DC converter 10 W TEN 10 (dual)\rConvertisseur CC/CC 10 W TEN 10 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 10 W TEN 10 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 10-1221"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 12 W TEN 12 (single)\rDC/DC converter 12 W TEN 12 (single)\rConvertisseur CC/CC 12 W TEN 12 (simple)",
+   "item": {
+    "caption": "DC/DC-Wandler 12 W TEN 12 (single)\rDC/DC converter 12 W TEN 12 (single)\rConvertisseur CC/CC 12 W TEN 12 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        6.61
+       ],
+       [
+        15.5,
+        1.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       1.21
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       4.61
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 12 W TEN 12 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 12-2410"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 12 W TEN 12 (dual)\rDC/DC converter 12 W TEN 12 (dual)\rConvertisseur CC/CC 12 W TEN 12 (double)",
+   "item": {
+    "caption": "DC/DC-Wandler 12 W TEN 12 (dual)\rDC/DC converter 12 W TEN 12 (dual)\rConvertisseur CC/CC 12 W TEN 12 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 12 W TEN 12 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TEN 12-2421"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 15 W TAP 15 (dual)\rDC/DC converter 15 W TAP 15 (dual)\rConvertisseur CC/CC 15 W TAP 15 (double)",
+   "item": {
+    "caption": "DC/DC-Wandler 15 W TAP 15 (dual)\rDC/DC converter 15 W TAP 15 (dual)\rConvertisseur CC/CC 15 W TAP 15 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 15 W TAP 15 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TAP 1222"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 5 W TPM 05 (single)\rAC/DC converter 5 W TPM 05 (single)\rConvertisseur CA/CC 5 W TPM 05 (simple)",
+   "item": {
+    "caption": "AC/DC-Wandler 5 W TPM 05 (single)\rAC/DC converter 5 W TPM 05 (single)\rConvertisseur CA/CC 5 W TPM 05 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        6.61
+       ],
+       [
+        15.5,
+        1.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       1.21
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       4.61
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 5 W TPM 05 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 05105"
+   }
+  },
+  {
+   "caption": "DC/DC-Wandler 15 W TAP 15 (single)\rDC/DC converter 15 W TAP 15 (single)\rConvertisseur CC/CC 15 W TAP 15 (simple)",
+   "item": {
+    "caption": "DC/DC-Wandler 15 W TAP 15 (single)\rDC/DC converter 15 W TAP 15 (single)\rConvertisseur CC/CC 15 W TAP 15 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "+E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "−E",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        6.61
+       ],
+       [
+        15.5,
+        1.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       1.21
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       4.61
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/DC/DC-Wandler 15 W TAP 15 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TAP 1211"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 5 W TPM 05 (dual)\rAC/DC converter 5 W TPM 05 (dual)\rConvertisseur CA/CC 5 W TPM 05 (double)",
+   "item": {
+    "caption": "AC/DC-Wandler 5 W TPM 05 (dual)\rAC/DC converter 5 W TPM 05 (dual)\rConvertisseur CA/CC 5 W TPM 05 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 5 W TPM 05 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 05212"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 10/15 W TPM 15 (dual)\rAC/DC converter 10/15 W TPM 15 (dual)\rConvertisseur CA/CC 10/15 W TPM 15 (double)",
+   "item": {
+    "caption": "AC/DC-Wandler 10/15 W TPM 15 (dual)\rAC/DC converter 10/15 W TPM 15 (dual)\rConvertisseur CA/CC 10/15 W TPM 15 (double)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 10/15 W TPM 15 (dual)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 15212"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 10/15 W TPM 15 (triple)\rAC/DC converter 10/15 W TPM 15 (triple)\rConvertisseur CA/CC 10/15 W TPM 15 (triple)",
+   "item": {
+    "caption": "AC/DC-Wandler 10/15 W TPM 15 (triple)\rAC/DC converter 10/15 W TPM 15 (triple)\rConvertisseur CA/CC 10/15 W TPM 15 (triple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "+A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "COM2/3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "−A3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        10.42
+       ],
+       [
+        15.5,
+        4.82
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       5.02
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       8.42
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 10/15 W TPM 15 (triple)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 15512"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 30 W TPM 30 (single)\rAC/DC converter 30 W TPM 30 (single)\rConvertisseur CA/CC 30 W TPM 30 (simple)",
+   "item": {
+    "caption": "AC/DC-Wandler 30 W TPM 30 (single)\rAC/DC converter 30 W TPM 30 (single)\rConvertisseur CA/CC 30 W TPM 30 (simple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       7.62
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        2.54,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       4.08
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       0,
+       5.08
+      ],
+      "pos": [
+       0.2,
+       2.88
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       3.81
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        6.61
+       ],
+       [
+        15.5,
+        1.01
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       1.21
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       4.61
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       8.22
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 30 W TPM 30 (single)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 30105"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 30 W TPM 30 (dual, symmetrisch)\rAC/DC converter 30 W TPM 30 (dual, symmetrical)\rConvertisseur CA/CC 30 W TPM 30 (double, symétrique)",
+   "item": {
+    "caption": "AC/DC-Wandler 30 W TPM 30 (dual, symmetrisch)\rAC/DC converter 30 W TPM 30 (dual, symmetrical)\rConvertisseur CA/CC 30 W TPM 30 (double, symétrique)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        7.62
+       ],
+       [
+        2.54,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       6.62
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       0,
+       7.62
+      ],
+      "pos": [
+       0.2,
+       5.42
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "COM",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "−A",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       5.08
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        7.88
+       ],
+       [
+        15.5,
+        2.28
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       2.48
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       5.88
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       10.76
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 30 W TPM 30 (dual, symmetrisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 30212"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 30 W TPM 30 (dual, asymmetrisch)\rAC/DC converter 30 W TPM 30 (dual, asymmetrical)\rConvertisseur CA/CC 30 W TPM 30 (double, asymétrique)",
+   "item": {
+    "caption": "AC/DC-Wandler 30 W TPM 30 (dual, asymmetrisch)\rAC/DC converter 30 W TPM 30 (dual, asymmetrical)\rConvertisseur CA/CC 30 W TPM 30 (double, asymétrique)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       6.35
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       12.7
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        10.16
+       ],
+       [
+        2.54,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       9.16
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       0,
+       10.16
+      ],
+      "pos": [
+       0.2,
+       7.96
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "+A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "−A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       6.35
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        9.15
+       ],
+       [
+        15.5,
+        3.55
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       3.75
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       7.15
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       13.3
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 30 W TPM 30 (dual, asymmetrisch)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 30 W TPM 30 (triple)\rAC/DC converter 30 W TPM 30 (triple)\rConvertisseur CA/CC 30 W TPM 30 (triple)",
+   "item": {
+    "caption": "AC/DC-Wandler 30 W TPM 30 (triple)\rAC/DC converter 30 W TPM 30 (triple)\rConvertisseur CA/CC 30 W TPM 30 (triple)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "+A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "COM2/3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "−A3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        10.42
+       ],
+       [
+        15.5,
+        4.82
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       5.02
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       8.42
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 30 W TPM 30 (triple)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 30512"
+   }
+  },
+  {
+   "caption": "AC/DC-Wandler 15 W TPM 15 (triple, Variante)\rAC/DC converter 15 W TPM 15 (triple, variant)\rConvertisseur CA/CC 15 W TPM 15 (triple, variante)",
+   "item": {
+    "caption": "AC/DC-Wandler 15 W TPM 15 (triple, Variante)\rAC/DC converter 15 W TPM 15 (triple, variant)\rConvertisseur CA/CC 15 W TPM 15 (triple, variante)",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       20.32,
+       15.24
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.54,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       1.54
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "6",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.2,
+       0.34
+      ],
+      "text": "6",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        12.7
+       ],
+       [
+        2.54,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       3.14,
+       11.7
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "7",
+      "pin": [
+       0,
+       12.7
+      ],
+      "pos": [
+       0.2,
+       10.5
+      ],
+      "text": "7",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        2.54
+       ],
+       [
+        25.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       1.54
+      ],
+      "text": "+A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "4",
+      "pin": [
+       25.4,
+       2.54
+      ],
+      "pos": [
+       25.2,
+       0.34
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        5.08
+       ],
+       [
+        25.4,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       4.08
+      ],
+      "text": "−A1",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "2",
+      "pin": [
+       25.4,
+       5.08
+      ],
+      "pos": [
+       25.2,
+       2.88
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        7.62
+       ],
+       [
+        25.4,
+        7.62
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       6.62
+      ],
+      "text": "+A2",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "5",
+      "pin": [
+       25.4,
+       7.62
+      ],
+      "pos": [
+       25.2,
+       5.42
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        10.16
+       ],
+       [
+        25.4,
+        10.16
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       9.16
+      ],
+      "text": "COM2/3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "3",
+      "pin": [
+       25.4,
+       10.16
+      ],
+      "pos": [
+       25.2,
+       7.96
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        22.86,
+        12.7
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       22.26,
+       11.7
+      ],
+      "text": "−A3",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.8
+      },
+      "name": "1",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.2,
+       10.5
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "centre": [
+       12.7,
+       7.62
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       5.6,
+       5.6
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        9.9,
+        10.42
+       ],
+       [
+        15.5,
+        4.82
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       11.3,
+       5.02
+      ],
+      "text": "~",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "pos": [
+       14.1,
+       8.42
+      ],
+      "text": "=",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       -3.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       2.54,
+       15.84
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "G?",
+    "libraryEntry": "OpenLoch/USER/Wandler/AC/DC-Wandler 15 W TPM 15 (triple, Variante)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "TPM 15515"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

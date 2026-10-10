@@ -1,0 +1,3719 @@
+{
+ "folder": "USER",
+ "format": "OpenLoch Schematic Library",
+ "name": "FET\rFET\rFET",
+ "symbols": [
+  {
+   "caption": "J-FET N-Kanal (v)\rN-channel JFET, vertical\rJFET canal N, vertical",
+   "item": {
+    "caption": "J-FET N-Kanal (v)\rN-channel JFET, vertical\rJFET canal N, vertical",
+    "children": [
+     {
+      "centre": [
+       4.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        3.4,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -3.0
+       ],
+       [
+        3.4,
+        3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.6
+       ],
+       [
+        5.08,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.6
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.6
+       ],
+       [
+        5.08,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.6
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/J-FET N-Kanal (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BF245"
+   }
+  },
+  {
+   "caption": "J-FET P-Kanal (v)\rP-channel JFET, vertical\rJFET canal P, vertical",
+   "item": {
+    "caption": "J-FET P-Kanal (v)\rP-channel JFET, vertical\rJFET canal P, vertical",
+    "children": [
+     {
+      "centre": [
+       4.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        3.4,
+        2.54
+       ]
+      ],
+      "startEnd": "arrow",
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -3.0
+       ],
+       [
+        3.4,
+        3.0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.6
+       ],
+       [
+        5.08,
+        -1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.6
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.6
+       ],
+       [
+        5.08,
+        1.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.6
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/J-FET P-Kanal (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "2N3820"
+   }
+  },
+  {
+   "caption": "MOSFET N-Kanal, Anreicherung (v)\rN-channel MOSFET, enhancement, vertical\rMOSFET canal N, enrichissement, vertical",
+   "item": {
+    "caption": "MOSFET N-Kanal, Anreicherung (v)\rN-channel MOSFET, enhancement, vertical\rMOSFET canal N, enrichissement, vertical",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        -1.9
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -0.5
+       ],
+       [
+        3.4,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        1.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        3.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET N-Kanal, Anreicherung (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET P-Kanal, Anreicherung (v)\rP-channel MOSFET, enhancement, vertical\rMOSFET canal P, enrichissement, vertical",
+   "item": {
+    "caption": "MOSFET P-Kanal, Anreicherung (v)\rP-channel MOSFET, enhancement, vertical\rMOSFET canal P, enrichissement, vertical",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        -1.9
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -0.5
+       ],
+       [
+        3.4,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        1.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET P-Kanal, Anreicherung (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET N-Kanal, Anreicherung, mit Substrat (v)\rN-channel MOSFET, enhancement, substrate to source, vertical\rMOSFET canal N, enrichissement, substrat relié à la source, vertical",
+   "item": {
+    "caption": "MOSFET N-Kanal, Anreicherung, mit Substrat (v)\rN-channel MOSFET, enhancement, substrate to source, vertical\rMOSFET canal N, enrichissement, substrat relié à la source, vertical",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        -1.9
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -0.5
+       ],
+       [
+        3.4,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        1.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        3.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET N-Kanal, Anreicherung, mit Substrat (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET P-Kanal, Anreicherung, mit Substrat (v)\rP-channel MOSFET, enhancement, substrate to source, vertical\rMOSFET canal P, enrichissement, substrat relié à la source, vertical",
+   "item": {
+    "caption": "MOSFET P-Kanal, Anreicherung, mit Substrat (v)\rP-channel MOSFET, enhancement, substrate to source, vertical\rMOSFET canal P, enrichissement, substrat relié à la source, vertical",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.6,
+        -1.9
+       ],
+       [
+        2.6,
+        2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        -1.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -0.5
+       ],
+       [
+        3.4,
+        0.5
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        1.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        0
+       ],
+       [
+        5.08,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET P-Kanal, Anreicherung, mit Substrat (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Dual-Gate-MOSFET N-Kanal (v)\rN-channel dual-gate MOSFET, vertical\rMOSFET double grille canal N, vertical",
+   "item": {
+    "caption": "Dual-Gate-MOSFET N-Kanal (v)\rN-channel dual-gate MOSFET, vertical\rMOSFET double grille canal N, vertical",
+    "children": [
+     {
+      "centre": [
+       4.6,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        -2.54
+       ],
+       [
+        2.6,
+        -2.54
+       ],
+       [
+        2.6,
+        -0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        2.54
+       ],
+       [
+        2.6,
+        2.54
+       ],
+       [
+        2.6,
+        0.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.4,
+        -2.2
+       ],
+       [
+        3.4,
+        2.2
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        -1.7
+       ],
+       [
+        5.08,
+        -1.7
+       ],
+       [
+        5.08,
+        -5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        3.4,
+        1.7
+       ],
+       [
+        5.08,
+        1.7
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        3.4,
+        0
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0
+       ],
+       [
+        5.08,
+        1.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G2",
+      "pin": [
+       0,
+       -2.54
+      ],
+      "pos": [
+       0.4,
+       -4.74
+      ],
+      "text": "G2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       0,
+       2.54
+      ],
+      "pos": [
+       0.4,
+       0.34
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       -5.08
+      ],
+      "pos": [
+       5.48,
+       -7.28
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       5.48,
+       2.88
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       9.2,
+       0.4
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/Dual-Gate-MOSFET N-Kanal (v)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "BF960"
+   }
+  },
+  {
+   "caption": "J-FET N-Kanal (h)\rN-channel JFET, horizontal\rJFET canal N, horizontal",
+   "item": {
+    "caption": "J-FET N-Kanal (h)\rN-channel JFET, horizontal\rJFET canal N, horizontal",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.0,
+        3.4
+       ],
+       [
+        -3.0,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        3.4
+       ],
+       [
+        1.6,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.4
+       ],
+       [
+        -1.6,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        -5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       0.26,
+       -0.6
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       7.88,
+       4.48
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -2.28,
+       4.48
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/J-FET N-Kanal (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "J-FET P-Kanal (h)\rP-channel JFET, horizontal\rJFET canal P, horizontal",
+   "item": {
+    "caption": "J-FET P-Kanal (h)\rP-channel JFET, horizontal\rJFET canal P, horizontal",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.4
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        3.4
+       ]
+      ],
+      "startEnd": "arrow",
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        3.0,
+        3.4
+       ],
+       [
+        -3.0,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        3.4
+       ],
+       [
+        1.6,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.6,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        3.4
+       ],
+       [
+        -1.6,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.6,
+        5.08
+       ],
+       [
+        -5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       0.26,
+       -0.6
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       7.88,
+       4.48
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -2.28,
+       4.48
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/J-FET P-Kanal (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET N-Kanal, Anreicherung (h)\rN-channel MOSFET, enhancement, horizontal\rMOSFET canal N, enrichissement, horizontal",
+   "item": {
+    "caption": "MOSFET N-Kanal, Anreicherung (h)\rN-channel MOSFET, enhancement, horizontal\rMOSFET canal N, enrichissement, horizontal",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.9,
+        2.6
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.2,
+        3.4
+       ],
+       [
+        1.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0.5,
+        3.4
+       ],
+       [
+        -0.5,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.2,
+        3.4
+       ],
+       [
+        -2.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        3.4
+       ],
+       [
+        1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        3.4
+       ],
+       [
+        -1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        5.08
+       ],
+       [
+        -5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       0.26,
+       -0.6
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       7.88,
+       4.48
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -2.28,
+       4.48
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET N-Kanal, Anreicherung (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET P-Kanal, Anreicherung (h)\rP-channel MOSFET, enhancement, horizontal\rMOSFET canal P, enrichissement, horizontal",
+   "item": {
+    "caption": "MOSFET P-Kanal, Anreicherung (h)\rP-channel MOSFET, enhancement, horizontal\rMOSFET canal P, enrichissement, horizontal",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.9,
+        2.6
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.2,
+        3.4
+       ],
+       [
+        1.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0.5,
+        3.4
+       ],
+       [
+        -0.5,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.2,
+        3.4
+       ],
+       [
+        -2.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        3.4
+       ],
+       [
+        1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        3.4
+       ],
+       [
+        -1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        5.08
+       ],
+       [
+        -5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        3.4
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       0.26,
+       -0.6
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       7.88,
+       4.48
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -2.28,
+       4.48
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET P-Kanal, Anreicherung (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET N-Kanal, mit Substrat (h)\rN-channel MOSFET, substrate to source, horizontal\rMOSFET canal N, substrat relié à la source, horizontal",
+   "item": {
+    "caption": "MOSFET N-Kanal, mit Substrat (h)\rN-channel MOSFET, substrate to source, horizontal\rMOSFET canal N, substrat relié à la source, horizontal",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.9,
+        2.6
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.2,
+        3.4
+       ],
+       [
+        1.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0.5,
+        3.4
+       ],
+       [
+        -0.5,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.2,
+        3.4
+       ],
+       [
+        -2.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        3.4
+       ],
+       [
+        1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        3.4
+       ],
+       [
+        -1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        5.08
+       ],
+       [
+        -5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       0.26,
+       -0.6
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       7.88,
+       4.48
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -2.28,
+       4.48
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET N-Kanal, mit Substrat (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "MOSFET P-Kanal, mit Substrat (h)\rP-channel MOSFET, substrate to source, horizontal\rMOSFET canal P, substrat relié à la source, horizontal",
+   "item": {
+    "caption": "MOSFET P-Kanal, mit Substrat (h)\rP-channel MOSFET, substrate to source, horizontal\rMOSFET canal P, substrat relié à la source, horizontal",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.9,
+        2.6
+       ],
+       [
+        -2.54,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.2,
+        3.4
+       ],
+       [
+        1.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        0.5,
+        3.4
+       ],
+       [
+        -0.5,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        -1.2,
+        3.4
+       ],
+       [
+        -2.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        3.4
+       ],
+       [
+        1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        3.4
+       ],
+       [
+        -1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        5.08
+       ],
+       [
+        -5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        3.4
+       ],
+       [
+        0,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       0.26,
+       -0.6
+      ],
+      "text": "G",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       7.88,
+       4.48
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -2.28,
+       4.48
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/MOSFET P-Kanal, mit Substrat (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  },
+  {
+   "caption": "Dual-Gate-MOSFET N-Kanal (h)\rN-channel dual-gate MOSFET, horizontal\rMOSFET double grille canal N, horizontal",
+   "item": {
+    "caption": "Dual-Gate-MOSFET N-Kanal (h)\rN-channel dual-gate MOSFET, horizontal\rMOSFET double grille canal N, horizontal",
+    "children": [
+     {
+      "centre": [
+       0,
+       4.6
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       7.4,
+       7.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        2.54,
+        0
+       ],
+       [
+        2.54,
+        2.6
+       ],
+       [
+        0.4,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -2.54,
+        0
+       ],
+       [
+        -2.54,
+        2.6
+       ],
+       [
+        -0.4,
+        2.6
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.5
+      },
+      "points": [
+       [
+        2.2,
+        3.4
+       ],
+       [
+        -2.2,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        1.7,
+        3.4
+       ],
+       [
+        1.7,
+        5.08
+       ],
+       [
+        5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        -1.7,
+        3.4
+       ],
+       [
+        -1.7,
+        5.08
+       ],
+       [
+        -5.08,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "endEnd": "arrow",
+      "endSize": 1.3,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        0,
+        3.4
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0,
+        5.08
+       ],
+       [
+        -1.7,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G2",
+      "pin": [
+       2.54,
+       0
+      ],
+      "pos": [
+       5.34,
+       -0.6
+      ],
+      "text": "G2",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "G1",
+      "pin": [
+       -2.54,
+       0
+      ],
+      "pos": [
+       0.26,
+       -0.6
+      ],
+      "text": "G1",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "D",
+      "pin": [
+       5.08,
+       5.08
+      ],
+      "pos": [
+       7.88,
+       4.48
+      ],
+      "text": "D",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.8
+      },
+      "name": "S",
+      "pin": [
+       -5.08,
+       5.08
+      ],
+      "pos": [
+       -2.28,
+       4.48
+      ],
+      "text": "S",
+      "type": "contact",
+      "visible": false
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -2.6
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       4.6,
+       -0.2
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "Q?",
+    "libraryEntry": "OpenLoch/USER/FET/Dual-Gate-MOSFET N-Kanal (h)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": ""
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}

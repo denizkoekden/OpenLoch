@@ -1,0 +1,4537 @@
+{
+ "folder": "USER/Misc. (German)/sPlan - EU-Norm",
+ "format": "OpenLoch Schematic Library",
+ "name": "IFM\rIFM\rIFM",
+ "symbols": [
+  {
+   "caption": "AS-i-Modul AC2251 (Klemmen)\rAS-i module AC2251 (terminals)\rModule AS-i AC2251 (bornes)",
+   "item": {
+    "autoNumber": false,
+    "caption": "AS-i-Modul AC2251 (Klemmen)\rAS-i module AC2251 (terminals)\rModule AS-i AC2251 (bornes)",
+    "children": [
+     {
+      "centre": [
+       20.32,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       45.72,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0.7
+       ],
+       [
+        0.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I+",
+      "pin": [
+       0.0,
+       -2.54
+      ],
+      "pos": [
+       0.0,
+       -4.84
+      ],
+      "text": "I+",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.7
+       ],
+       [
+        5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I1",
+      "pin": [
+       5.08,
+       -2.54
+      ],
+      "pos": [
+       5.08,
+       -4.84
+      ],
+      "text": "I1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.7
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I2",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.16,
+       -4.84
+      ],
+      "text": "I2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0.7
+       ],
+       [
+        15.24,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I3",
+      "pin": [
+       15.24,
+       -2.54
+      ],
+      "pos": [
+       15.24,
+       -4.84
+      ],
+      "text": "I3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        0.7
+       ],
+       [
+        20.32,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I4",
+      "pin": [
+       20.32,
+       -2.54
+      ],
+      "pos": [
+       20.32,
+       -4.84
+      ],
+      "text": "I4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        0.7
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I-",
+      "pin": [
+       25.4,
+       -2.54
+      ],
+      "pos": [
+       25.4,
+       -4.84
+      ],
+      "text": "I−",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        9.46
+       ],
+       [
+        0.0,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A+",
+      "pin": [
+       0.0,
+       12.7
+      ],
+      "pos": [
+       0.0,
+       13.0
+      ],
+      "text": "A+",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        9.46
+       ],
+       [
+        5.08,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A-",
+      "pin": [
+       5.08,
+       12.7
+      ],
+      "pos": [
+       5.08,
+       13.0
+      ],
+      "text": "A−",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        9.46
+       ],
+       [
+        10.16,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E+",
+      "pin": [
+       10.16,
+       12.7
+      ],
+      "pos": [
+       10.16,
+       13.0
+      ],
+      "text": "E+",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        9.46
+       ],
+       [
+        15.24,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "E-",
+      "pin": [
+       15.24,
+       12.7
+      ],
+      "pos": [
+       15.24,
+       13.0
+      ],
+      "text": "E−",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        9.46
+       ],
+       [
+        20.32,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O1",
+      "pin": [
+       20.32,
+       12.7
+      ],
+      "pos": [
+       20.32,
+       13.0
+      ],
+      "text": "O1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        9.46
+       ],
+       [
+        25.4,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O2",
+      "pin": [
+       25.4,
+       12.7
+      ],
+      "pos": [
+       25.4,
+       13.0
+      ],
+      "text": "O2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        9.46
+       ],
+       [
+        30.48,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O3",
+      "pin": [
+       30.48,
+       12.7
+      ],
+      "pos": [
+       30.48,
+       13.0
+      ],
+      "text": "O3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        9.46
+       ],
+       [
+        35.56,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O4",
+      "pin": [
+       35.56,
+       12.7
+      ],
+      "pos": [
+       35.56,
+       13.0
+      ],
+      "text": "O4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        9.46
+       ],
+       [
+        40.64,
+        12.7
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       40.64,
+       10.16
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O-",
+      "pin": [
+       40.64,
+       12.7
+      ],
+      "pos": [
+       40.64,
+       13.0
+      ],
+      "text": "O−",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       42.58,
+       4.064
+      ],
+      "text": "AC2251",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       44.18,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       44.18,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "<PARENT_ID>",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/IFM/AS-i-Modul AC2251 (Klemmen)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "<PARENT_VALUE>"
+   }
+  },
+  {
+   "caption": "AS-i-Modul AC5205\rAS-i module AC5205\rModule AS-i AC5205",
+   "item": {
+    "caption": "AS-i-Modul AC5205\rAS-i module AC5205\rModule AS-i AC5205",
+    "children": [
+     {
+      "centre": [
+       11.43,
+       16.51
+      ],
+      "corner": 10,
+      "corners": "round",
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       22.86,
+       33.02
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       6.35,
+       10.16
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       6.35,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       7.45,
+       9.06
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.25,
+       9.06
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.25,
+       11.26
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       7.45,
+       11.26
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       6.35,
+       12.96
+      ],
+      "text": "I-1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       3.15,
+       7.56
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       6.35,
+       22.86
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       6.35,
+       22.86
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       7.45,
+       21.76
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.25,
+       21.76
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       5.25,
+       23.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       7.45,
+       23.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       6.35,
+       25.66
+      ],
+      "text": "I-2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       3.15,
+       20.26
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       16.51,
+       10.16
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       16.51,
+       10.16
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       17.61,
+       9.06
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       15.41,
+       9.06
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       15.41,
+       11.26
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       17.61,
+       11.26
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       16.51,
+       12.96
+      ],
+      "text": "I-3",
+      "type": "text"
+     },
+     {
+      "centre": [
+       13.31,
+       7.56
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       16.51,
+       22.86
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       5.0,
+       5.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       16.51,
+       22.86
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       17.61,
+       21.76
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       15.41,
+       21.76
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       15.41,
+       23.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       17.61,
+       23.96
+      ],
+      "fill": {
+       "color": "#000000",
+       "style": "solid"
+      },
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.6,
+       0.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       16.51,
+       25.66
+      ],
+      "text": "I-4",
+      "type": "text"
+     },
+     {
+      "centre": [
+       13.31,
+       20.26
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "centre": [
+       18.796,
+       3.048
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.0,
+       2.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       17.196,
+       2.248
+      ],
+      "text": "ADDR",
+      "type": "text"
+     },
+     {
+      "centre": [
+       2.54,
+       2.032
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       3.49,
+       1.232
+      ],
+      "text": "PWR",
+      "type": "text"
+     },
+     {
+      "centre": [
+       2.54,
+       4.064
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       0.9,
+       0.9
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       3.49,
+       3.264
+      ],
+      "text": "FAULT",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "bold": true,
+       "height": 1.6
+      },
+      "pos": [
+       11.43,
+       29.464
+      ],
+      "text": "AC5205",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       11.43,
+       31.242
+      ],
+      "text": "AS-i 4DI",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.86,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       23.86,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-A?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/IFM/AS-i-Modul AC5205",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "AC5205"
+   }
+  },
+  {
+   "caption": "AS-i-Modul AC5205 DI4 (Klemmen)\rAS-i module AC5205 DI4 (terminals)\rModule AS-i AC5205 DI4 (bornes)",
+   "item": {
+    "autoNumber": false,
+    "caption": "AS-i-Modul AC5205 DI4 (Klemmen)\rAS-i module AC5205 DI4 (terminals)\rModule AS-i AC5205 DI4 (bornes)",
+    "children": [
+     {
+      "centre": [
+       33.02,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       71.12,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0.7
+       ],
+       [
+        0.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A+",
+      "pin": [
+       0.0,
+       -2.54
+      ],
+      "pos": [
+       0.0,
+       -4.84
+      ],
+      "text": "A+",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.7
+       ],
+       [
+        5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A-",
+      "pin": [
+       5.08,
+       -2.54
+      ],
+      "pos": [
+       5.08,
+       -4.84
+      ],
+      "text": "A−",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.7
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I1.1",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.16,
+       -4.84
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       10.16,
+       1.0
+      ],
+      "text": "L+",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        12.7,
+        0.7
+       ],
+       [
+        12.7,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       12.7,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I1.2",
+      "pin": [
+       12.7,
+       -2.54
+      ],
+      "pos": [
+       12.7,
+       -4.84
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       12.7,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0.7
+       ],
+       [
+        15.24,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I1.3",
+      "pin": [
+       15.24,
+       -2.54
+      ],
+      "pos": [
+       15.24,
+       -4.84
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       15.24,
+       1.0
+      ],
+      "text": "L−",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        17.78,
+        0.7
+       ],
+       [
+        17.78,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       17.78,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I1.4",
+      "pin": [
+       17.78,
+       -2.54
+      ],
+      "pos": [
+       17.78,
+       -4.84
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       17.78,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        0.7
+       ],
+       [
+        20.32,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I1.5",
+      "pin": [
+       20.32,
+       -2.54
+      ],
+      "pos": [
+       20.32,
+       -4.84
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       20.32,
+       1.0
+      ],
+      "text": "n.c.",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        0.7
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I2.1",
+      "pin": [
+       25.4,
+       -2.54
+      ],
+      "pos": [
+       25.4,
+       -4.84
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       25.4,
+       1.0
+      ],
+      "text": "L+",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        27.94,
+        0.7
+       ],
+       [
+        27.94,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       27.94,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I2.2",
+      "pin": [
+       27.94,
+       -2.54
+      ],
+      "pos": [
+       27.94,
+       -4.84
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       27.94,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.7
+       ],
+       [
+        30.48,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I2.3",
+      "pin": [
+       30.48,
+       -2.54
+      ],
+      "pos": [
+       30.48,
+       -4.84
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       30.48,
+       1.0
+      ],
+      "text": "L−",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        33.02,
+        0.7
+       ],
+       [
+        33.02,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       33.02,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I2.4",
+      "pin": [
+       33.02,
+       -2.54
+      ],
+      "pos": [
+       33.02,
+       -4.84
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       33.02,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        0.7
+       ],
+       [
+        35.56,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I2.5",
+      "pin": [
+       35.56,
+       -2.54
+      ],
+      "pos": [
+       35.56,
+       -4.84
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       35.56,
+       1.0
+      ],
+      "text": "n.c.",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        40.64,
+        0.7
+       ],
+       [
+        40.64,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       40.64,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I3.1",
+      "pin": [
+       40.64,
+       -2.54
+      ],
+      "pos": [
+       40.64,
+       -4.84
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       40.64,
+       1.0
+      ],
+      "text": "L+",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        43.18,
+        0.7
+       ],
+       [
+        43.18,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       43.18,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I3.2",
+      "pin": [
+       43.18,
+       -2.54
+      ],
+      "pos": [
+       43.18,
+       -4.84
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       43.18,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        45.72,
+        0.7
+       ],
+       [
+        45.72,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       45.72,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I3.3",
+      "pin": [
+       45.72,
+       -2.54
+      ],
+      "pos": [
+       45.72,
+       -4.84
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       45.72,
+       1.0
+      ],
+      "text": "L−",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        48.26,
+        0.7
+       ],
+       [
+        48.26,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       48.26,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I3.4",
+      "pin": [
+       48.26,
+       -2.54
+      ],
+      "pos": [
+       48.26,
+       -4.84
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       48.26,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        50.8,
+        0.7
+       ],
+       [
+        50.8,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       50.8,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I3.5",
+      "pin": [
+       50.8,
+       -2.54
+      ],
+      "pos": [
+       50.8,
+       -4.84
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       50.8,
+       1.0
+      ],
+      "text": "n.c.",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        55.88,
+        0.7
+       ],
+       [
+        55.88,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       55.88,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I4.1",
+      "pin": [
+       55.88,
+       -2.54
+      ],
+      "pos": [
+       55.88,
+       -4.84
+      ],
+      "text": "1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       55.88,
+       1.0
+      ],
+      "text": "L+",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        58.42,
+        0.7
+       ],
+       [
+        58.42,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       58.42,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I4.2",
+      "pin": [
+       58.42,
+       -2.54
+      ],
+      "pos": [
+       58.42,
+       -4.84
+      ],
+      "text": "2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       58.42,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        60.96,
+        0.7
+       ],
+       [
+        60.96,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       60.96,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I4.3",
+      "pin": [
+       60.96,
+       -2.54
+      ],
+      "pos": [
+       60.96,
+       -4.84
+      ],
+      "text": "3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       60.96,
+       1.0
+      ],
+      "text": "L−",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        63.5,
+        0.7
+       ],
+       [
+        63.5,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       63.5,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I4.4",
+      "pin": [
+       63.5,
+       -2.54
+      ],
+      "pos": [
+       63.5,
+       -4.84
+      ],
+      "text": "4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       63.5,
+       1.0
+      ],
+      "text": "IN",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        66.04,
+        0.7
+       ],
+       [
+        66.04,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       66.04,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "I4.5",
+      "pin": [
+       66.04,
+       -2.54
+      ],
+      "pos": [
+       66.04,
+       -4.84
+      ],
+      "text": "5",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       66.04,
+       1.0
+      ],
+      "text": "n.c.",
+      "type": "text"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       15.24,
+       6.096
+      ],
+      "text": "I-1",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        9.144,
+        5.08
+       ],
+       [
+        21.336,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       30.48,
+       6.096
+      ],
+      "text": "I-2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        24.384,
+        5.08
+       ],
+       [
+        36.576,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       45.72,
+       6.096
+      ],
+      "text": "I-3",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        39.624,
+        5.08
+       ],
+       [
+        51.816,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.4
+      },
+      "pos": [
+       60.96,
+       6.096
+      ],
+      "text": "I-4",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.18
+      },
+      "points": [
+       [
+        54.864,
+        5.08
+       ],
+       [
+        67.056,
+        5.08
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       69.58,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       69.58,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "<PARENT_ID>",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/IFM/AS-i-Modul AC5205 DI4 (Klemmen)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "<PARENT_VALUE>"
+   }
+  },
+  {
+   "caption": "AS-i-Modul AC5205 DO4 (Klemmen)\rAS-i module AC5205 DO4 (terminals)\rModule AS-i AC5205 DO4 (bornes)",
+   "item": {
+    "autoNumber": false,
+    "caption": "AS-i-Modul AC5205 DO4 (Klemmen)\rAS-i module AC5205 DO4 (terminals)\rModule AS-i AC5205 DO4 (bornes)",
+    "children": [
+     {
+      "centre": [
+       17.78,
+       5.08
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       40.64,
+       10.16
+      ],
+      "type": "rectangle"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        0.0,
+        0.7
+       ],
+       [
+        0.0,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       0.0,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A+",
+      "pin": [
+       0.0,
+       -2.54
+      ],
+      "pos": [
+       0.0,
+       -4.84
+      ],
+      "text": "A+",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       0.0,
+       1.0
+      ],
+      "text": "AS-i",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        5.08,
+        0.7
+       ],
+       [
+        5.08,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       5.08,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "A-",
+      "pin": [
+       5.08,
+       -2.54
+      ],
+      "pos": [
+       5.08,
+       -4.84
+      ],
+      "text": "A−",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       5.08,
+       1.0
+      ],
+      "text": "AS-i",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        10.16,
+        0.7
+       ],
+       [
+        10.16,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       10.16,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O1",
+      "pin": [
+       10.16,
+       -2.54
+      ],
+      "pos": [
+       10.16,
+       -4.84
+      ],
+      "text": "O1",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       10.16,
+       1.0
+      ],
+      "text": "O-1/2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        15.24,
+        0.7
+       ],
+       [
+        15.24,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       15.24,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O2",
+      "pin": [
+       15.24,
+       -2.54
+      ],
+      "pos": [
+       15.24,
+       -4.84
+      ],
+      "text": "O2",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       15.24,
+       1.0
+      ],
+      "text": "O-2",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        20.32,
+        0.7
+       ],
+       [
+        20.32,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       20.32,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O3",
+      "pin": [
+       20.32,
+       -2.54
+      ],
+      "pos": [
+       20.32,
+       -4.84
+      ],
+      "text": "O3",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       20.32,
+       1.0
+      ],
+      "text": "O-3/4",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        25.4,
+        0.7
+       ],
+       [
+        25.4,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       25.4,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "O4",
+      "pin": [
+       25.4,
+       -2.54
+      ],
+      "pos": [
+       25.4,
+       -4.84
+      ],
+      "text": "O4",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       25.4,
+       1.0
+      ],
+      "text": "O-4",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        30.48,
+        0.7
+       ],
+       [
+        30.48,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       30.48,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "+24V",
+      "pin": [
+       30.48,
+       -2.54
+      ],
+      "pos": [
+       30.48,
+       -4.84
+      ],
+      "text": "+24V",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       30.48,
+       1.0
+      ],
+      "text": "AUX",
+      "type": "text"
+     },
+     {
+      "electrical": false,
+      "pen": {
+       "width": 0.25
+      },
+      "points": [
+       [
+        35.56,
+        0.7
+       ],
+       [
+        35.56,
+        -2.54
+       ]
+      ],
+      "type": "line"
+     },
+     {
+      "centre": [
+       35.56,
+       0
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.4,
+       1.4
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.8
+      },
+      "name": "0V",
+      "pin": [
+       35.56,
+       -2.54
+      ],
+      "pos": [
+       35.56,
+       -4.84
+      ],
+      "text": "0V",
+      "type": "contact",
+      "visible": true
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       35.56,
+       1.0
+      ],
+      "text": "AUX",
+      "type": "text"
+     },
+     {
+      "align": "right",
+      "font": {
+       "height": 1.6
+      },
+      "pos": [
+       37.5,
+       4.064
+      ],
+      "text": "AC5213 4DO-Y",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       39.1,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       39.1,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "<PARENT_ID>",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/IFM/AS-i-Modul AC5205 DO4 (Klemmen)",
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "<PARENT_VALUE>"
+   }
+  },
+  {
+   "caption": "AS-i-Modul AC2251\rAS-i module AC2251\rModule AS-i AC2251",
+   "item": {
+    "caption": "AS-i-Modul AC2251\rAS-i module AC2251\rModule AS-i AC2251",
+    "children": [
+     {
+      "centre": [
+       12.7,
+       20.32
+      ],
+      "pen": {
+       "width": 0.35
+      },
+      "size": [
+       25.4,
+       40.64
+      ],
+      "type": "rectangle"
+     },
+     {
+      "centre": [
+       3.464,
+       2.159
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       3.464,
+       1.216
+      ],
+      "text": "I−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       8.544,
+       2.159
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       8.544,
+       1.216
+      ],
+      "text": "I−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       13.624,
+       2.159
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       13.624,
+       1.216
+      ],
+      "text": "I−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       18.704,
+       2.159
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       18.704,
+       1.216
+      ],
+      "text": "I−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       4.064,
+       5.207
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       4.064,
+       4.264
+      ],
+      "text": "I1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       9.144,
+       5.207
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       9.144,
+       4.264
+      ],
+      "text": "I2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       14.224,
+       5.207
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.224,
+       4.264
+      ],
+      "text": "I3",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.304,
+       5.207
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       19.304,
+       4.264
+      ],
+      "text": "I4",
+      "type": "text"
+     },
+     {
+      "centre": [
+       4.664,
+       8.255
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       4.664,
+       7.312
+      ],
+      "text": "I+",
+      "type": "text"
+     },
+     {
+      "centre": [
+       9.744,
+       8.255
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       9.744,
+       7.312
+      ],
+      "text": "I+",
+      "type": "text"
+     },
+     {
+      "centre": [
+       14.824,
+       8.255
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.824,
+       7.312
+      ],
+      "text": "I+",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.904,
+       8.255
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       19.904,
+       7.312
+      ],
+      "text": "I+",
+      "type": "text"
+     },
+     {
+      "centre": [
+       3.464,
+       31.623
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       3.464,
+       30.68
+      ],
+      "text": "A+",
+      "type": "text"
+     },
+     {
+      "centre": [
+       8.544,
+       31.623
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       8.544,
+       30.68
+      ],
+      "text": "A−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       13.624,
+       31.623
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       13.624,
+       30.68
+      ],
+      "text": "E+",
+      "type": "text"
+     },
+     {
+      "centre": [
+       18.704,
+       31.623
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       18.704,
+       30.68
+      ],
+      "text": "E−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       4.064,
+       34.671
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       4.064,
+       33.728
+      ],
+      "text": "O1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       9.144,
+       34.671
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       9.144,
+       33.728
+      ],
+      "text": "O2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       14.224,
+       34.671
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.224,
+       33.728
+      ],
+      "text": "O3",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.304,
+       34.671
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       19.304,
+       33.728
+      ],
+      "text": "O4",
+      "type": "text"
+     },
+     {
+      "centre": [
+       4.664,
+       37.719
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       4.664,
+       36.776
+      ],
+      "text": "O−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       9.744,
+       37.719
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       9.744,
+       36.776
+      ],
+      "text": "O−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       14.824,
+       37.719
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.824,
+       36.776
+      ],
+      "text": "O−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.904,
+       37.719
+      ],
+      "pen": {
+       "width": 0.18
+      },
+      "size": [
+       1.8,
+       2.286
+      ],
+      "type": "rectangle"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       19.904,
+       36.776
+      ],
+      "text": "O−",
+      "type": "text"
+     },
+     {
+      "centre": [
+       4.064,
+       11.684
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       4.064,
+       12.384
+      ],
+      "text": "1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       4.064,
+       26.924
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       4.064,
+       24.624
+      ],
+      "text": "O1",
+      "type": "text"
+     },
+     {
+      "centre": [
+       9.144,
+       11.684
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       9.144,
+       12.384
+      ],
+      "text": "2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       9.144,
+       26.924
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       9.144,
+       24.624
+      ],
+      "text": "O2",
+      "type": "text"
+     },
+     {
+      "centre": [
+       14.224,
+       11.684
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.224,
+       12.384
+      ],
+      "text": "3",
+      "type": "text"
+     },
+     {
+      "centre": [
+       14.224,
+       26.924
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       14.224,
+       24.624
+      ],
+      "text": "O3",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.304,
+       11.684
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       19.304,
+       12.384
+      ],
+      "text": "4",
+      "type": "text"
+     },
+     {
+      "centre": [
+       19.304,
+       26.924
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       19.304,
+       24.624
+      ],
+      "text": "O4",
+      "type": "text"
+     },
+     {
+      "centre": [
+       4.064,
+       16.256
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       4.064,
+       16.956
+      ],
+      "text": "AS-i",
+      "type": "text"
+     },
+     {
+      "centre": [
+       10.668,
+       16.256
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       10.668,
+       16.956
+      ],
+      "text": "FAULT",
+      "type": "text"
+     },
+     {
+      "centre": [
+       17.272,
+       16.256
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       1.0,
+       1.0
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "centre",
+      "font": {
+       "height": 1.2
+      },
+      "pos": [
+       17.272,
+       16.956
+      ],
+      "text": "AUX",
+      "type": "text"
+     },
+     {
+      "centre": [
+       12.7,
+       21.844
+      ],
+      "pen": {
+       "width": 0.25
+      },
+      "size": [
+       2.6,
+       2.6
+      ],
+      "type": "ellipse"
+     },
+     {
+      "align": "right",
+      "font": {
+       "bold": true,
+       "height": 1.6
+      },
+      "pos": [
+       24.8,
+       20.828
+      ],
+      "text": "AC2251",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.4,
+       -0.4
+      ],
+      "role": "designator",
+      "text": "",
+      "type": "text"
+     },
+     {
+      "align": "left",
+      "font": {
+       "height": 2.5
+      },
+      "pos": [
+       26.4,
+       2.6
+      ],
+      "role": "value",
+      "text": "",
+      "type": "text"
+     }
+    ],
+    "designator": "-A?",
+    "libraryEntry": "OpenLoch/USER/Misc. (German)/sPlan - EU-Norm/IFM/AS-i-Modul AC2251",
+    "parent": true,
+    "pos": [
+     0,
+     0
+    ],
+    "type": "component",
+    "value": "AC2251"
+   }
+  }
+ ],
+ "unit": "mm",
+ "version": 2
+}
