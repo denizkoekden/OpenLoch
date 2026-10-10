@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="utf-8"><title>Frontplatte – Hilfe</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>Frontplatte – Hilfe</h1>
+<p>Der Frontplatten-Editor entwirft Frontplatten für Gehäuse: Bohrungen, Ausschnitte, Beschriftungen, Skalen und Symbole, zum Drucken, als Grafik und als HPGL-Datei für Fräse und Graviermaschine. Bedienung und Dateien folgen FrontDesigner 3: Projekte (<b>.FPL</b>) und Bibliotheksseiten (<b>.LIB</b>) werden gelesen und geschrieben, das eigene Format ist <b>.olfp</b>. In einem Projekt der Suite gehört die Frontplatte zum Projekt (<b>.openloch</b>).</p>
+<p><a href="#start">Erste Schritte</a> · <a href="#werkzeuge">Werkzeuge</a> · <a href="#bearbeiten">Bearbeiten und Anordnen</a> · <a href="#seitenleiste">Stift, Füllung, Schrift, Ansicht</a> · <a href="#texte">Texte und Strichschriften</a> · <a href="#generatoren">Skalen, Ausschnitte, Bemaßung</a> · <a href="#bibliothek">Bibliothek</a> · <a href="#platinen">Platinen dahinter</a> · <a href="#ausgabe">Drucken und Exportieren</a> · <a href="#dateien">Dateien und Sicherung</a> · <a href="#tasten">Tastenkürzel</a></p>
+
+<h2 id="start">Erste Schritte</h2>
+<ol>
+<li><b>Datei → Neu…</b> fragt nach Name, Größe und Farbe der Frontplatte. Weitere Frontplatten im selben Dokument legt <b>Frontplatte → Hinzufügen…</b> an; jede hat einen Reiter über der Arbeitsfläche.</li>
+<li>Links ein Werkzeug wählen und auf der Frontplatte zeichnen. Alle Punkte rasten auf dem Raster ein, die Umschalttaste hebt den Fang auf. <b>Optionen → Raster einrichten…</b> stellt Rasterweite, Fang und Ursprung ein.</li>
+<li>Symbole kommen aus der Bibliothek rechts: anklicken, das Symbol hängt am Mauszeiger, ein Klick setzt es ab.</li>
+<li><b>Datei → Speichern</b> sichert; <b>Speichern unter…</b> wählt das Format (.olfp oder FrontDesigner-Projekt .FPL).</li>
+</ol>
+
+<h2 id="werkzeuge">Werkzeuge</h2>
+<table>
+<tr><td><b>Markieren</b></td><td>Objekte wählen, verschieben und an den Anfassern strecken. Ein Klick auf ein markiertes Objekt wechselt zu den Drehanfassern. Ecken strecken mit Strg proportional.</td></tr>
+<tr><td><b>Drehen</b>, <b>Lupe</b></td><td>Markierung frei drehen (45°-Fang, Umschalttaste hebt ihn auf); Ausschnitt vergrößern.</td></tr>
+<tr><td><b>Linie</b>, <b>Fläche</b></td><td>Linienzug und geschlossene Fläche Punkt für Punkt; die rechte Maustaste beendet.</td></tr>
+<tr><td><b>Rechteck</b>, <b>Kreis</b>, <b>Bogen</b></td><td>Bogen: Mittelpunkt, Anfang und Ende im Uhrzeigersinn.</td></tr>
+<tr><td><b>Vieleck</b></td><td>Gleichmäßiges Vieleck mit Eckenzahl, Innen- oder Außenradius und Startwinkel.</td></tr>
+<tr><td><b>Text</b>, <b>Bohrung</b></td><td>Beschriftung; Bohrung mit dem eingestellten Durchmesser.</td></tr>
+<tr><td><b>Skalen-Assistent</b>, <b>Frontplattenausschnitt</b></td><td>Siehe <a href="#generatoren">Skalen, Ausschnitte, Bemaßung</a>.</td></tr>
+<tr><td><b>Bemaßung</b></td><td>Zwei Messpunkte, dann die Lage der Maßlinie.</td></tr>
+<tr><td><b>Bild importieren</b>, <b>Ursprung setzen</b></td><td>Bitmap oder Vektorgrafik (EMF) einfügen; Nullpunkt der Koordinaten setzen.</td></tr>
+</table>
+<p>Die rechte Maustaste verlässt ein Zeichenwerkzeug, bricht das Platzieren ab und öffnet sonst das Kontextmenü; auf einem Knoten fügt sie Knoten hinzu oder löscht sie.</p>
+
+<h2 id="bearbeiten">Bearbeiten und Anordnen</h2>
+<ul>
+<li>Die Pfeiltasten verschieben die Markierung um einen Rasterschritt, mit Umschalttaste um 0,1 mm.</li>
+<li><b>Anordnen</b>: Gruppe bilden und auflösen, Kombination bilden und auflösen (Flächen mit Aussparungen), nach vorne oder hinten setzen, ausrichten (am zuletzt markierten Objekt, ein einzelnes an der Frontplatte), verteilen, am Raster ausrichten, spiegeln.</li>
+<li>Die Leisten unten: Ausrichten, Drehen um den eingestellten Winkelschritt, Breite und Höhe (ohne Markierung die der Frontplatte), Kontur (Ecken wie gezeichnet, mit B-Splines geglättet, gefast oder gerundet, mit Maß), Anzeige der Ebenen und Position vom Ursprung.</li>
+<li><b>Bearbeiten → Eigenschaften übernehmen</b> überträgt Stift, Füllung oder Schrift auf die Markierung; <b>Eigenschaften…</b> öffnet den Dialog des Objekts.</li>
+<li>Der <b>Objektbaum</b> (Optionen) zeigt die Teile von Gruppen; dort lassen sie sich einzeln wählen und bearbeiten.</li>
+</ul>
+
+<h2 id="seitenleiste">Stift, Füllung, Schrift, Ansicht</h2>
+<p>Die Seitenleiste rechts hat fünf Seiten: <b>Symbole</b>, <b>Stift</b>, <b>Füllung</b>, <b>Schrift</b> und <b>Ansicht</b>. Ist genau ein Objekt markiert, übernehmen sie seine Einstellungen für die nächsten Objekte.</p>
+<ul>
+<li><b>Stift</b>: Farbe, Breite, Linienstil und Werkzeug. Das Werkzeug (Stift, Fräser, Gravierer) entscheidet, was in die HPGL-Dateien geht.</li>
+<li><b>Füllung</b>: einfarbig, Schraffuren oder Verläufe.</li>
+<li>Jede Seite führt eine Liste gespeicherter Vorgaben zum Aufnehmen, Löschen und Ordnen. <b>Optionen → Vorgaben aus FrontDesigner übernehmen…</b> liest die Listen des Originals.</li>
+<li><b>Ansicht</b>: vergrößern, verkleinern, alles zeigen und gespeicherte Ausschnitte des Dokuments.</li>
+</ul>
+
+<h2 id="texte">Texte und Strichschriften</h2>
+<ul>
+<li>Konturschriften (TrueType) werden gefüllt gezeichnet, Strichschriften (SHX) einlinig, für Gravuren.</li>
+<li>Im Textdialog zeigt <b>SHX…</b> die Zeichen der gewählten Strichschrift; ein Klick setzt das Zeichen an der Schreibmarke ein.</li>
+<li><b>Optionen → Strichschrift installieren…</b> nimmt SHX-, SHP- und FHX-Dateien auf. Wie FrontDesigner liest OpenLoch die Zeichen in der Ordnung von DOS; <b>Zeichenordnung der Strichschriften…</b> stellt einzelne Schriften auf Windows um.</li>
+<li><b>Verwendete Schriftarten…</b> zeigt die Schriften des Dokuments. Fehlt eine, öffnet sich die Übersicht beim Laden von selbst, und die Texte erscheinen bis dahin in einer Ersatzschrift.</li>
+</ul>
+
+<h2 id="generatoren">Skalen, Ausschnitte, Bemaßung</h2>
+<ul>
+<li>Der <b>Skalen-Assistent</b> erzeugt gerade und runde Skalen mit linearer oder logarithmischer Teilung, aus Punkten, empirische und beidseitige Skalen. Einstellungen lassen sich speichern und laden (.SCL).</li>
+<li>Der <b>Frontplattenausschnitt</b> zeichnet Rahmen und Ausschnitt eines Einbauteils: nach DIN 43700 oder mit eigenen Maßen, rund oder rechteckig, innen mit der Fräserbreite gefräst, wahlweise mit Befestigungslöchern. Einstellungen lassen sich als .CUT speichern.</li>
+<li>Die Eigenschaften einer Skala oder eines Ausschnitts öffnen den Assistenten wieder; das Objekt wird an seinem Platz neu erzeugt.</li>
+<li><b>Optionen → Vorgaben Bemaßung…</b> stellt Schrift, Linien, Pfeile und Nachkommastellen der Bemaßung ein.</li>
+</ul>
+
+<h2 id="bibliothek">Bibliothek</h2>
+<ul>
+<li>Die Seite <b>Symbole</b> zeigt eine Bibliotheksseite; die Auswahl darüber wechselt die Seite. Eigene Seiten liegen im Ordner Dokumente/OpenLoch/Frontplattensymbole.</li>
+<li><b>Bibliothek → zur Bibliothek hinzufügen…</b> nimmt die Markierung mit Name und Einfügepunkt auf. Das Kontextmenü eines Symbols bietet Eigenschaften (Name und Einfügepunkt ändern), Umbenennen, Umsortieren und Löschen, dazu Seiten anlegen, umbenennen und löschen.</li>
+</ul>
+
+<h2 id="platinen">Platinen dahinter</h2>
+<p>In einem Projekt der Suite kennt die Frontplatte die Platinen der Lochraster- und Leiterplattendokumente:</p>
+<ul>
+<li><b>Frontplatte → Platinen dahinter…</b> legt Platinen hinter die Frontplatte (Versatz, Drehung, zugewandte Seite).</li>
+<li><b>Platinen anzeigen</b> zeichnet sie zur Kontrolle über die Frontplatte, nie in Druck oder Export.</li>
+<li><b>Bohrungen aus der Platine…</b> setzt Bohrungen über LEDs, Potentiometer, Schalter und Buchsen; <b>Mit Platine vergleichen</b> findet Bohrungen, deren Bauteil nicht mehr darunter liegt.</li>
+</ul>
+
+<h2 id="ausgabe">Drucken und Exportieren</h2>
+<ul>
+<li><b>Datei → Drucken…</b> mit Vorschau: Ebenen, Originalgröße oder Maßstab, normal oder gespiegelt (für Folien), Kacheln, Schnittmarken, ein einzelnes Blatt, Exemplare und Korrekturfaktoren für maßhaltige Ausdrucke.</li>
+<li><b>Datei → Exportieren → Grafik…</b> schreibt PNG, JPG oder BMP in wählbarer Auflösung, EMF oder PDF als Vektoren.</li>
+<li><b>Datei → Exportieren → HPGL-Bearbeitungsdateien…</b> schreibt Bohrungen, Fräsungen und Gravuren für die Maschine.</li>
+</ul>
+
+<h2 id="dateien">Dateien und Sicherung</h2>
+<ul>
+<li>Formate: <b>.olfp</b> (eigenes Format), <b>.FPL</b> (FrontDesigner-Projekt), <b>.LIB</b> (Bibliotheksseite), <b>.BAK</b> (Sicherung; sie öffnet sich als das zugehörige Projekt).</li>
+<li><b>Datei → AutoSpeichern…</b> schreibt in einstellbarem Abstand eine Sicherung neben das Projekt.</li>
+<li>Auf das Fenster gezogene Dateien werden geöffnet oder als Bild eingefügt.</li>
+</ul>
+
+<h2 id="tasten">Tastenkürzel</h2>
+<table>
+<tr><td class="key">F1</td><td>Diese Hilfe</td></tr>
+<tr><td class="key">F2 / F3 / F4</td><td>Speichern / Öffnen / Speichern unter</td></tr>
+<tr><td class="key">F5 / F6 / F7 / F8</td><td>Frontplatte hinzufügen / duplizieren / löschen / aus Datei hinzufügen</td></tr>
+<tr><td class="key">Strg+G / Strg+U</td><td>Gruppe bilden / auflösen</td></tr>
+<tr><td class="key">Strg+K / Strg+L</td><td>Kombination bilden / auflösen</td></tr>
+<tr><td class="key">Strg+D</td><td>Duplizieren</td></tr>
+<tr><td class="key">Strg+F</td><td>Eigenschaften der Frontplatte</td></tr>
+<tr><td class="key">Strg+R / Strg+T</td><td>Raster einrichten / Frontplattenausschnitt</td></tr>
+<tr><td class="key">Strg+Alt+V / Strg+Alt+R</td><td>Verteilen / Am Raster ausrichten</td></tr>
+<tr><td class="key">Strg+B / Strg+E / Strg+I</td><td>AutoSpeichern / Grafik exportieren / Bild importieren</td></tr>
+<tr><td class="key">Pfeiltasten</td><td>Markierung um einen Rasterschritt verschieben, mit Umschalttaste um 0,1 mm</td></tr>
+<tr><td class="key">Umschalttaste</td><td>beim Zeichnen und Verschieben ohne Fang</td></tr>
+</table>
+<p>Strg+Z und Strg+Y (macOS: ⌘Z und ⇧⌘Z) sind Rückgängig und Wiederherstellen; unter macOS steht ⌘ für Strg.</p>
+</body>
+</html>

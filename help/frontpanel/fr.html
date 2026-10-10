@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>Face avant – Aide</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>Face avant – Aide</h1>
+<p>L'éditeur de faces avant conçoit des faces avant de boîtiers : perçages, découpes, inscriptions, échelles graduées et symboles, pour l'impression, comme graphique et comme fichiers HPGL pour fraiseuses et graveuses. L'utilisation et les fichiers suivent FrontDesigner 3 : les projets (<b>.FPL</b>) et les pages de bibliothèque (<b>.LIB</b>) sont lus et écrits ; le format propre est <b>.olfp</b>. Dans un projet de la suite, la face avant appartient au projet (<b>.openloch</b>).</p>
+<p><a href="#debut">Premiers pas</a> · <a href="#outils">Outils</a> · <a href="#edition">Édition et disposition</a> · <a href="#barre">Plume, remplissage, police, affichage</a> · <a href="#textes">Textes et polices à traits</a> · <a href="#generateurs">Échelles, découpes, cotation</a> · <a href="#bibliotheque">Bibliothèque</a> · <a href="#cartes">Cartes derrière</a> · <a href="#sortie">Imprimer et exporter</a> · <a href="#fichiers">Fichiers et sauvegardes</a> · <a href="#touches">Raccourcis clavier</a></p>
+
+<h2 id="debut">Premiers pas</h2>
+<ol>
+<li><b>Fichier → Nouveau…</b> demande le nom, la taille et la couleur de la face avant. <b>Face avant → Ajouter…</b> ajoute d'autres faces avant au même document ; chacune a un onglet au-dessus de la zone de dessin.</li>
+<li>Choisir un outil à gauche et dessiner sur la face avant. Tous les points s'accrochent à la grille ; la touche Maj désactive l'accrochage. <b>Options → Configurer la grille…</b> règle le pas de la grille, l'accrochage et l'origine.</li>
+<li>Les symboles viennent de la bibliothèque à droite : un clic sur un symbole l'accroche au pointeur, un clic le pose.</li>
+<li><b>Fichier → Enregistrer</b> enregistre ; <b>Enregistrer sous…</b> choisit le format (.olfp ou le projet FrontDesigner .FPL).</li>
+</ol>
+
+<h2 id="outils">Outils</h2>
+<table>
+<tr><td><b>Sélectionner</b></td><td>Choisir des objets, les déplacer et les étirer par leurs poignées. Un clic sur un objet sélectionné passe aux poignées de rotation. Avec Ctrl, les coins étirent proportionnellement.</td></tr>
+<tr><td><b>Tourner</b>, <b>Loupe</b></td><td>Tourner librement la sélection (accrochage à 45°, Maj le désactive) ; agrandir une zone.</td></tr>
+<tr><td><b>Ligne</b>, <b>Surface</b></td><td>Polyligne et surface fermée point par point ; le bouton droit de la souris les termine.</td></tr>
+<tr><td><b>Rectangle</b>, <b>Cercle</b>, <b>Arc</b></td><td>Arc : centre, début et fin dans le sens horaire.</td></tr>
+<tr><td><b>Polygone</b></td><td>Polygone régulier avec nombre de coins, rayon intérieur ou extérieur et angle de départ.</td></tr>
+<tr><td><b>Texte</b>, <b>Perçage</b></td><td>Inscription ; perçage au diamètre réglé.</td></tr>
+<tr><td><b>Assistant d'échelle graduée</b>, <b>Découpe de face avant</b></td><td>Voir <a href="#generateurs">Échelles, découpes, cotation</a>.</td></tr>
+<tr><td><b>Cotation</b></td><td>Deux points de mesure, puis la position de la ligne de cote.</td></tr>
+<tr><td><b>Importer une image</b>, <b>Définir l'origine</b></td><td>Insérer une image matricielle ou vectorielle (EMF) ; poser le point zéro des coordonnées.</td></tr>
+</table>
+<p>Le bouton droit de la souris quitte un outil de dessin, annule le placement et ouvre sinon le menu contextuel ; sur un nœud, il ajoute ou supprime des nœuds.</p>
+
+<h2 id="edition">Édition et disposition</h2>
+<ul>
+<li>Les touches fléchées déplacent la sélection d'un pas de grille, avec Maj de 0,1 mm.</li>
+<li><b>Disposer</b> : grouper et dissocier, combiner et défaire les combinaisons (surfaces avec évidements), mettre au premier ou à l'arrière-plan, aligner (sur l'objet sélectionné en dernier, un objet seul sur la face avant), répartir, aligner sur la grille, symétrie.</li>
+<li>Les barres du bas : aligner, tourner du pas d'angle réglé, largeur et hauteur (sans sélection celles de la face avant), contour (coins tels que dessinés, lissés par B-splines, chanfreinés ou arrondis, avec une cote), affichage des couches et position depuis l'origine.</li>
+<li><b>Édition → Appliquer les propriétés</b> reporte plume, remplissage ou police sur la sélection ; <b>Propriétés…</b> ouvre le dialogue de l'objet.</li>
+<li>L'<b>Arborescence des objets</b> (Options) montre les parties des groupes ; on peut les y choisir et les modifier une à une.</li>
+</ul>
+
+<h2 id="barre">Plume, remplissage, police, affichage</h2>
+<p>La barre latérale à droite a cinq pages : <b>Symboles</b>, <b>Plume</b>, <b>Remplissage</b>, <b>Police</b> et <b>Affichage</b>. Quand un seul objet est sélectionné, elles reprennent ses réglages pour les objets suivants.</p>
+<ul>
+<li><b>Plume</b> : couleur, épaisseur, style de ligne et outil. L'outil (plume, fraise, graveur) décide de ce qui va dans les fichiers HPGL.</li>
+<li><b>Remplissage</b> : uni, hachuré ou en dégradé.</li>
+<li>Chaque page tient une liste de préréglages à ajouter, supprimer et ordonner. <b>Options → Reprendre les préréglages de FrontDesigner…</b> lit les listes de l'original.</li>
+<li><b>Affichage</b> : zoomer, dézoomer, tout afficher et les vues enregistrées du document.</li>
+</ul>
+
+<h2 id="textes">Textes et polices à traits</h2>
+<ul>
+<li>Les polices à contour (TrueType) sont dessinées pleines, les polices à traits (SHX) en trait unique, pour la gravure.</li>
+<li>Dans le dialogue de texte, <b>SHX…</b> montre les caractères de la police à traits choisie ; un clic insère le caractère au curseur.</li>
+<li><b>Options → Installer une police à traits…</b> accepte les fichiers SHX, SHP et FHX. Comme FrontDesigner, OpenLoch lit leurs caractères dans l'ordre de DOS ; <b>Ordre des caractères des polices à traits…</b> passe des polices isolées à l'ordre de Windows.</li>
+<li><b>Polices utilisées…</b> liste les polices du document. S'il en manque une, l'aperçu s'ouvre de lui-même au chargement et les textes s'affichent d'ici là dans une police de remplacement.</li>
+</ul>
+
+<h2 id="generateurs">Échelles, découpes, cotation</h2>
+<ul>
+<li>L'<b>Assistant d'échelle graduée</b> crée des échelles droites et rondes à division linéaire ou logarithmique, en points, empiriques et à deux côtés. Ses réglages s'enregistrent et se chargent (.SCL).</li>
+<li>La <b>Découpe de face avant</b> dessine le cadre et l'ouverture d'un instrument : selon DIN 43700 ou à dimensions libres, ronde ou rectangulaire, fraisée à l'intérieur avec la largeur de fraise, avec trous de fixation au besoin. Ses réglages s'enregistrent en .CUT.</li>
+<li>Les propriétés d'une échelle ou d'une découpe rouvrent l'assistant ; l'objet est recréé à sa place.</li>
+<li><b>Options → Paramètres de cotation…</b> règle la police, les lignes, les flèches et les décimales des cotes.</li>
+</ul>
+
+<h2 id="bibliotheque">Bibliothèque</h2>
+<ul>
+<li>La page <b>Symboles</b> montre une page de bibliothèque ; la liste au-dessus change de page. Les pages propres se trouvent dans le dossier Documents/OpenLoch/Frontplattensymbole.</li>
+<li><b>Bibliothèque → Ajouter à la bibliothèque…</b> reprend la sélection avec un nom et un point d'insertion. Le menu contextuel d'un symbole propose les propriétés (changer le nom et le point d'insertion), renommer, réordonner et supprimer, ainsi que créer, renommer et supprimer des pages.</li>
+</ul>
+
+<h2 id="cartes">Cartes derrière</h2>
+<p>Dans un projet de la suite, la face avant connaît les cartes des documents de plaque à trous et de circuit imprimé :</p>
+<ul>
+<li><b>Face avant → Cartes derrière…</b> place des cartes derrière la face avant (décalage, rotation, côté tourné vers elle).</li>
+<li><b>Afficher les cartes</b> les dessine sur la face avant pour contrôle, jamais à l'impression ni à l'export.</li>
+<li><b>Perçages depuis la carte…</b> pose des perçages au-dessus des LED, potentiomètres, interrupteurs et prises ; <b>Comparer avec la carte</b> trouve les perçages dont le composant n'est plus dessous.</li>
+</ul>
+
+<h2 id="sortie">Imprimer et exporter</h2>
+<ul>
+<li><b>Fichier → Imprimer…</b> avec aperçu : couches, taille originale ou échelle, normal ou en miroir (pour films), tuiles, repères de coupe, une seule feuille, exemplaires et facteurs de correction pour des impressions à l'échelle exacte.</li>
+<li><b>Fichier → Exporter → Graphique…</b> écrit du PNG, JPG ou BMP à la résolution choisie, de l'EMF ou du PDF en vectoriel.</li>
+<li><b>Fichier → Exporter → Fichiers d'usinage HPGL…</b> écrit le perçage, le fraisage et la gravure pour la machine.</li>
+</ul>
+
+<h2 id="fichiers">Fichiers et sauvegardes</h2>
+<ul>
+<li>Formats : <b>.olfp</b> (format propre), <b>.FPL</b> (projet FrontDesigner), <b>.LIB</b> (page de bibliothèque), <b>.BAK</b> (sauvegarde ; elle s'ouvre comme le projet auquel elle appartient).</li>
+<li><b>Fichier → Enregistrement automatique…</b> écrit une sauvegarde à côté du projet à l'intervalle choisi.</li>
+<li>Les fichiers déposés sur la fenêtre sont ouverts ou insérés comme image.</li>
+</ul>
+
+<h2 id="touches">Raccourcis clavier</h2>
+<table>
+<tr><td class="key">F1</td><td>Cette aide</td></tr>
+<tr><td class="key">F2 / F3 / F4</td><td>Enregistrer / Ouvrir / Enregistrer sous</td></tr>
+<tr><td class="key">F5 / F6 / F7 / F8</td><td>Ajouter / dupliquer / supprimer une face avant / ajouter depuis un fichier</td></tr>
+<tr><td class="key">Ctrl+G / Ctrl+U</td><td>Grouper / dissocier</td></tr>
+<tr><td class="key">Ctrl+K / Ctrl+L</td><td>Combiner / défaire la combinaison</td></tr>
+<tr><td class="key">Ctrl+D</td><td>Dupliquer</td></tr>
+<tr><td class="key">Ctrl+F</td><td>Propriétés de la face avant</td></tr>
+<tr><td class="key">Ctrl+R / Ctrl+T</td><td>Configurer la grille / Découpe de face avant</td></tr>
+<tr><td class="key">Ctrl+Alt+V / Ctrl+Alt+R</td><td>Répartir / Aligner sur la grille</td></tr>
+<tr><td class="key">Ctrl+B / Ctrl+E / Ctrl+I</td><td>Enregistrement automatique / Exporter un graphique / Importer une image</td></tr>
+<tr><td class="key">Touches fléchées</td><td>Déplacer la sélection d'un pas de grille, avec Maj de 0,1 mm</td></tr>
+<tr><td class="key">Maj</td><td>Dessiner et déplacer sans accrochage</td></tr>
+</table>
+<p>Ctrl+Z et Ctrl+Y (macOS : ⌘Z et ⇧⌘Z) annulent et rétablissent ; sous macOS, ⌘ remplace Ctrl.</p>
+</body>
+</html>

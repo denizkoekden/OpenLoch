@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Front panel – Help</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>Front panel – Help</h1>
+<p>The front panel editor designs front panels for enclosures: holes, cut-outs, lettering, scales and symbols, for printing, as a graphic and as HPGL files for milling and engraving machines. Operation and files follow FrontDesigner 3: projects (<b>.FPL</b>) and library pages (<b>.LIB</b>) are read and written; the own format is <b>.olfp</b>. In a project of the suite the front panel belongs to the project (<b>.openloch</b>).</p>
+<p><a href="#start">First steps</a> · <a href="#tools">Tools</a> · <a href="#edit">Editing and arranging</a> · <a href="#sidebar">Pen, fill, font, view</a> · <a href="#texts">Texts and stroke fonts</a> · <a href="#generators">Scales, cut-outs, dimensions</a> · <a href="#library">Library</a> · <a href="#boards">Boards behind</a> · <a href="#output">Printing and exporting</a> · <a href="#files">Files and backups</a> · <a href="#keys">Keyboard shortcuts</a></p>
+
+<h2 id="start">First steps</h2>
+<ol>
+<li><b>File → New…</b> asks for the name, size and colour of the front panel. <b>Front panel → Add…</b> adds more front panels to the same document; each has a tab above the drawing area.</li>
+<li>Choose a tool on the left and draw on the front panel. All points snap to the grid; Shift turns snapping off. <b>Options → Grid…</b> sets the grid size, snapping and the origin.</li>
+<li>Symbols come from the library on the right: click one, it hangs at the mouse pointer, and a click places it.</li>
+<li><b>File → Save</b> saves; <b>Save as…</b> chooses the format (.olfp or the FrontDesigner project .FPL).</li>
+</ol>
+
+<h2 id="tools">Tools</h2>
+<table>
+<tr><td><b>Select</b></td><td>Select objects, move them and stretch them at their handles. A click on a selected object switches to the rotation handles. Corners stretch proportionally with Ctrl.</td></tr>
+<tr><td><b>Rotate</b>, <b>Zoom</b></td><td>Turn the selection freely (snapping to 45°, Shift turns it off); enlarge an area.</td></tr>
+<tr><td><b>Line</b>, <b>Area</b></td><td>Polyline and closed area point by point; the right mouse button ends them.</td></tr>
+<tr><td><b>Rectangle</b>, <b>Circle</b>, <b>Arc</b></td><td>Arc: centre, start and end clockwise.</td></tr>
+<tr><td><b>Polygon</b></td><td>Regular polygon with number of corners, inner or outer radius and start angle.</td></tr>
+<tr><td><b>Text</b>, <b>Drill hole</b></td><td>Lettering; a hole with the diameter set.</td></tr>
+<tr><td><b>Scale assistant</b>, <b>Panel cut-out</b></td><td>See <a href="#generators">Scales, cut-outs, dimensions</a>.</td></tr>
+<tr><td><b>Dimension</b></td><td>Two measuring points, then the position of the dimension line.</td></tr>
+<tr><td><b>Import picture</b>, <b>Set origin</b></td><td>Insert a bitmap or a vector graphic (EMF); set the zero point of the coordinates.</td></tr>
+</table>
+<p>The right mouse button leaves a drawing tool, cancels placing and otherwise opens the context menu; on a node it adds or deletes nodes.</p>
+
+<h2 id="edit">Editing and arranging</h2>
+<ul>
+<li>The arrow keys move the selection by one grid step, with Shift by 0.1 mm.</li>
+<li><b>Arrange</b>: make and dissolve groups and combinations (areas with cut-outs), bring to front or send to back, align (to the object selected last, a single object to the front panel), distribute, align to the grid, mirror.</li>
+<li>The bars at the bottom: align, rotate by the angle step set, width and height (without a selection those of the front panel), contour (corners as drawn, smoothed with B-splines, chamfered or rounded, with a size), display of the layers and position from the origin.</li>
+<li><b>Edit → Apply properties</b> applies pen, fill or font to the selection; <b>Properties…</b> opens the dialog of the object.</li>
+<li>The <b>Object tree</b> (Options) shows the parts of groups; there they can be selected and edited one by one.</li>
+</ul>
+
+<h2 id="sidebar">Pen, fill, font, view</h2>
+<p>The sidebar on the right has five pages: <b>Symbols</b>, <b>Pen</b>, <b>Fill</b>, <b>Font</b> and <b>View</b>. When exactly one object is selected, they take over its settings for the next objects.</p>
+<ul>
+<li><b>Pen</b>: colour, width, line style and tool. The tool (pen, milling cutter, engraver) decides what goes into the HPGL files.</li>
+<li><b>Fill</b>: plain, hatched or a gradient.</li>
+<li>Each page keeps a list of saved presets to add, delete and order. <b>Options → Take over presets from FrontDesigner…</b> reads the lists of the original.</li>
+<li><b>View</b>: zoom in and out, show everything and the saved views of the document.</li>
+</ul>
+
+<h2 id="texts">Texts and stroke fonts</h2>
+<ul>
+<li>Outline fonts (TrueType) are drawn filled, stroke fonts (SHX) as single lines for engraving.</li>
+<li>In the text dialog, <b>SHX…</b> shows the characters of the chosen stroke font; a click puts the character into the text at the cursor.</li>
+<li><b>Options → Install stroke font…</b> takes SHX, SHP and FHX files. Like FrontDesigner, OpenLoch reads their characters in the DOS order; <b>Character order of the stroke fonts…</b> switches single fonts to Windows.</li>
+<li><b>Fonts used…</b> lists the fonts of the document. When one is missing, the overview opens by itself on loading, and the texts appear in a substitute font until then.</li>
+</ul>
+
+<h2 id="generators">Scales, cut-outs, dimensions</h2>
+<ul>
+<li>The <b>Scale assistant</b> makes straight and round scales with linear or logarithmic division, scales of dots, empirical and two-sided scales. Its settings can be saved and loaded (.SCL).</li>
+<li>The <b>Panel cut-out</b> draws the frame and the opening of a panel instrument: after DIN 43700 or with own sizes, round or rectangular, milled inside with the cutter width, with mounting holes if wanted. Its settings can be saved as .CUT.</li>
+<li>The properties of a scale or a cut-out open the assistant again; the object is made anew in its place.</li>
+<li><b>Options → Dimension defaults…</b> sets the font, lines, arrows and decimals of dimensions.</li>
+</ul>
+
+<h2 id="library">Library</h2>
+<ul>
+<li>The <b>Symbols</b> page shows one library page; the list above it changes the page. Own pages are kept in the folder Documents/OpenLoch/Frontplattensymbole.</li>
+<li><b>Library → Add to library…</b> takes the selection with a name and an insertion point. The context menu of a symbol offers properties (change name and insertion point), renaming, reordering and deleting, and creating, renaming and deleting pages.</li>
+</ul>
+
+<h2 id="boards">Boards behind</h2>
+<p>In a project of the suite the front panel knows the boards of the perfboard and circuit board documents:</p>
+<ul>
+<li><b>Front panel → Boards behind…</b> puts boards behind the front panel (offset, rotation, side facing it).</li>
+<li><b>Show boards</b> draws them over the front panel for checking, never in printing or export.</li>
+<li><b>Holes from the board…</b> places holes above LEDs, potentiometers, switches and sockets; <b>Compare with the board</b> finds holes whose part is no longer under them.</li>
+</ul>
+
+<h2 id="output">Printing and exporting</h2>
+<ul>
+<li><b>File → Print…</b> with a preview: layers, original size or a scale, normal or mirrored (for foils), tiles, cut marks, a single sheet, copies and correction factors for true-to-size prints.</li>
+<li><b>File → Export → Graphic…</b> writes PNG, JPG or BMP at a chosen resolution, EMF or PDF as vectors.</li>
+<li><b>File → Export → HPGL machining files…</b> writes the drilling, milling and engraving for the machine.</li>
+</ul>
+
+<h2 id="files">Files and backups</h2>
+<ul>
+<li>Formats: <b>.olfp</b> (own format), <b>.FPL</b> (FrontDesigner project), <b>.LIB</b> (library page), <b>.BAK</b> (backup; it opens as the project it belongs to).</li>
+<li><b>File → Auto save…</b> writes a backup beside the project at an interval you choose.</li>
+<li>Files dropped on the window are opened or inserted as a picture.</li>
+</ul>
+
+<h2 id="keys">Keyboard shortcuts</h2>
+<table>
+<tr><td class="key">F1</td><td>This help</td></tr>
+<tr><td class="key">F2 / F3 / F4</td><td>Save / Open / Save as</td></tr>
+<tr><td class="key">F5 / F6 / F7 / F8</td><td>Add / duplicate / delete front panel / add from file</td></tr>
+<tr><td class="key">Ctrl+G / Ctrl+U</td><td>Make / dissolve group</td></tr>
+<tr><td class="key">Ctrl+K / Ctrl+L</td><td>Make / dissolve combination</td></tr>
+<tr><td class="key">Ctrl+D</td><td>Duplicate</td></tr>
+<tr><td class="key">Ctrl+F</td><td>Properties of the front panel</td></tr>
+<tr><td class="key">Ctrl+R / Ctrl+T</td><td>Grid / Panel cut-out</td></tr>
+<tr><td class="key">Ctrl+Alt+V / Ctrl+Alt+R</td><td>Distribute / Align to grid</td></tr>
+<tr><td class="key">Ctrl+B / Ctrl+E / Ctrl+I</td><td>Auto save / Export graphic / Import picture</td></tr>
+<tr><td class="key">Arrow keys</td><td>Move the selection by one grid step, with Shift by 0.1 mm</td></tr>
+<tr><td class="key">Shift</td><td>Draw and move without snapping</td></tr>
+</table>
+<p>Ctrl+Z and Ctrl+Y (macOS: ⌘Z and ⇧⌘Z) undo and redo; on macOS ⌘ stands for Ctrl.</p>
+</body>
+</html>
