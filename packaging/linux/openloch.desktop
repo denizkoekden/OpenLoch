@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=OpenLoch
+GenericName=Lochraster-Editor
+GenericName[en]=Perfboard editor
+Comment=Lochraster- und Streifenrasterplatinen entwerfen
+Comment[en]=Design perfboards and stripboards
+Comment[fr]=Concevoir des plaques à trous et à bandes
+Exec=OpenLoch %f
+Icon=openloch
+Terminal=false
+Categories=Science;Electronics;Engineering;

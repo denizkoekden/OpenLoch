@@ -1,0 +1,220 @@
+{
+ "page": "Batterien", "page_en": "Batteries", "position": 18,
+ "parts": [
+  {"name": "Batterie Micro", "name_en": "Battery AAA (Micro)", "description": "Batterie Micro (AAA), liegend", "description_en": "Battery AAA (Micro), lying", "id": "Bat#", "value": "AAA 1,5V", "value_en": "AAA 1.5 V", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 43.7, "h": 10.5, "look": {"form": "cylinder", "axis": "x", "colour": "#25282d", "gloss": 0.55, "ends": 0.018}, "round": 0.525},
+    {"kind": "rect", "x": 33.212, "y": 0.0, "w": 9.701, "h": 10.5, "look": {"form": "cylinder", "axis": "x", "colour": "#b3b8bf", "material": "metal", "gloss": 0.7}},
+    {"kind": "rect", "x": 43.55, "y": 3.35, "w": 0.95, "h": 3.8, "look": {"form": "cylinder", "axis": "x", "colour": "#c3c7cd", "material": "metal", "gloss": 0.8}, "round": 0.2}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [2.185, 4.05], "height": 2.4, "colour": "#ffffff"},
+    {"text": "1,5 V", "at": [18.408, 4.05], "height": 2.4, "colour": "#ffffff"},
+    {"text": "+", "at": [37.592, 3.81], "height": 2.88, "colour": "#2a2c30"}],
+   "source": "Rundzelle LR03 (AAA, Micro): Ø 10,5 × 44,5 mm nach IEC 60086-2"},
+  {"name": "Batterie Mignon", "name_en": "Battery AA (Mignon)", "description": "Batterie Mignon (AA), liegend", "description_en": "Battery AA (Mignon), lying", "id": "Bat#", "value": "1,5 V / AA", "value_en": "1.5 V / AA", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 49.5, "h": 14.5, "look": {"form": "cylinder", "axis": "x", "colour": "#25282d", "gloss": 0.55, "ends": 0.018}, "round": 0.725},
+    {"kind": "rect", "x": 37.62, "y": 0.0, "w": 10.989, "h": 14.5, "look": {"form": "cylinder", "axis": "x", "colour": "#b3b8bf", "material": "metal", "gloss": 0.7}},
+    {"kind": "rect", "x": 49.35, "y": 4.5, "w": 1.15, "h": 5.5, "look": {"form": "cylinder", "axis": "x", "colour": "#c3c7cd", "material": "metal", "gloss": 0.8}, "round": 0.2}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [2.475, 6.05], "height": 2.4, "colour": "#ffffff"},
+    {"text": "1,5 V", "at": [21.192, 6.05], "height": 2.4, "colour": "#ffffff"},
+    {"text": "+", "at": [42.696, 5.81], "height": 2.88, "colour": "#2a2c30"}],
+   "source": "Rundzelle LR6 (AA, Mignon): Ø 14,5 × 50,5 mm nach IEC 60086-2"},
+  {"name": "Batterie Baby", "name_en": "Battery C (Baby)", "description": "Batterie Baby (C), liegend", "description_en": "Battery C (Baby), lying", "id": "Bat#", "value": "1,5 V / LR14", "value_en": "1.5 V / LR14", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 48.5, "h": 26.2, "look": {"form": "cylinder", "axis": "x", "colour": "#25282d", "gloss": 0.55, "ends": 0.018}, "round": 1.31},
+    {"kind": "rect", "x": 36.86, "y": 0.0, "w": 10.767, "h": 26.2, "look": {"form": "cylinder", "axis": "x", "colour": "#b3b8bf", "material": "metal", "gloss": 0.7}},
+    {"kind": "rect", "x": 48.35, "y": 9.35, "w": 1.65, "h": 7.5, "look": {"form": "cylinder", "axis": "x", "colour": "#c3c7cd", "material": "metal", "gloss": 0.8}, "round": 0.2}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [2.425, 11.9], "height": 2.4, "colour": "#ffffff"},
+    {"text": "1,5 V", "at": [20.712, 11.9], "height": 2.4, "colour": "#ffffff"},
+    {"text": "+", "at": [41.816, 11.66], "height": 2.88, "colour": "#2a2c30"}],
+   "source": "Rundzelle LR14 (C, Baby): Ø 26,2 × 50 mm nach IEC 60086-2"},
+  {"name": "Batterie Mono", "name_en": "Battery D (Mono)", "description": "Batterie Mono (D), liegend", "description_en": "Battery D (Mono), lying", "id": "Bat#", "value": "1,5 V / LR20", "value_en": "1.5 V / LR20", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 60.0, "h": 34.2, "look": {"form": "cylinder", "axis": "x", "colour": "#25282d", "gloss": 0.55, "ends": 0.018}, "round": 1.71},
+    {"kind": "rect", "x": 45.6, "y": 0.0, "w": 13.32, "h": 34.2, "look": {"form": "cylinder", "axis": "x", "colour": "#b3b8bf", "material": "metal", "gloss": 0.7}},
+    {"kind": "rect", "x": 59.85, "y": 12.35, "w": 1.65, "h": 9.5, "look": {"form": "cylinder", "axis": "x", "colour": "#c3c7cd", "material": "metal", "gloss": 0.8}, "round": 0.2}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [3.0, 15.9], "height": 2.4, "colour": "#ffffff"},
+    {"text": "1,5 V", "at": [26.232, 15.9], "height": 2.4, "colour": "#ffffff"},
+    {"text": "+", "at": [51.936, 15.66], "height": 2.88, "colour": "#2a2c30"}],
+   "source": "Rundzelle LR20 (D, Mono): Ø 34,2 × 61,5 mm nach IEC 60086-2"},
+  {"name": "Batterie 9V-Block", "name_en": "Battery 9 V block", "description": "Batterie 9V-Block, flach liegend", "description_en": "Battery 9 V block, lying flat", "id": "Bat#", "value": "9V / 6F22R", "value_en": "9 V / 6F22R", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 46.4, "h": 26.5, "look": {"form": "box", "colour": "#25282d", "bevel": 0.06, "gloss": 0.35}, "round": 1.0},
+    {"kind": "rect", "x": 44.0, "y": 0.0, "w": 2.4, "h": 26.5, "look": {"form": "box", "colour": "#151517", "bevel": 0.2, "gloss": 0.3}, "round": 0.6},
+    {"kind": "rect", "x": 46.2, "y": 4.1, "w": 2.3, "h": 5.6, "look": {"form": "cylinder", "axis": "x", "colour": "#c3c7cd", "material": "metal", "gloss": 0.8}, "round": 0.3},
+    {"kind": "rect", "x": 46.2, "y": 15.6, "w": 2.3, "h": 8.0, "look": {"form": "box", "colour": "#c3c7cd", "material": "metal", "bevel": 0.3, "gloss": 0.6}, "round": 0.3}],
+   "lines": [{"points": [[40.6, 19.6], [42.6, 19.6]], "width": 0.45, "colour": "#ffffff"}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [2.0, 2.0], "height": 2.2, "colour": "#ffffff"},
+    {"text": "9V", "at": [17.03, 9.75], "height": 7.0, "colour": "#ffffff"},
+    {"text": "+", "at": [40.7, 5.4], "height": 3.0, "colour": "#ffffff"}],
+   "source": "9-V-Block 6LR61/6F22: 48,5 × 26,5 × 17,5 mm, Anschlüsse im Abstand 12,7 mm (IEC 60086-2)"},
+  {"name": "Batterie 9V-Block", "name_en": "Battery 9 V block", "description": "Batterie 9V-Block, hochkant liegend", "description_en": "Battery 9 V block, lying on its side", "id": "Bat#", "value": "9V / 6F22R", "value_en": "9 V / 6F22R", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 46.4, "h": 17.5, "look": {"form": "box", "colour": "#25282d", "bevel": 0.08, "gloss": 0.35}, "round": 1.0},
+    {"kind": "rect", "x": 44.0, "y": 0.0, "w": 2.4, "h": 17.5, "look": {"form": "box", "colour": "#151517", "bevel": 0.2, "gloss": 0.3}, "round": 0.6},
+    {"kind": "rect", "x": 46.2, "y": 4.75, "w": 2.3, "h": 8.0, "look": {"form": "box", "colour": "#c3c7cd", "material": "metal", "bevel": 0.3, "gloss": 0.6}, "round": 0.3}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [2.0, 1.6], "height": 2.0, "colour": "#ffffff"},
+    {"text": "9V", "at": [17.58, 6.35], "height": 6.0, "colour": "#ffffff"}],
+   "source": "9-V-Block 6LR61/6F22: 48,5 × 26,5 × 17,5 mm, Anschlüsse im Abstand 12,7 mm (IEC 60086-2)"},
+  {"name": "Halteblech f. 9V-Block", "name_en": "Holding bracket for 9 V block", "description": "Halteblech für 9V-Block, zwei Befestigungslöcher M3", "description_en": "Holding bracket for 9 V block, two M3 fixing holes", "id": "", "value": "", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 42.5, "h": 10.0, "look": {"form": "box", "colour": "#bfc4cb", "material": "metal", "bevel": 0.12, "gloss": 0.55}, "round": 2.5},
+    {"kind": "rect", "x": 8.2, "y": 0.0, "w": 26.1, "h": 10.0, "look": {"form": "box", "colour": "#d4d8dd", "material": "metal", "bevel": 0.1, "gloss": 0.7}},
+    {"kind": "circle", "x": 1.2, "y": 2.7, "w": 4.6, "h": 4.6, "look": {"form": "box", "colour": "#bfc4cb", "material": "metal", "bevel": 0.04, "gloss": 0.5, "hole": 0.6956521739130436}},
+    {"kind": "circle", "x": 36.7, "y": 2.7, "w": 4.6, "h": 4.6, "look": {"form": "box", "colour": "#bfc4cb", "material": "metal", "bevel": 0.04, "gloss": 0.5, "hole": 0.6956521739130436}}],
+   "lines": [
+    {"points": [[7.0, 0.15], [7.0, 9.85]], "width": 0.18, "colour": "#80858c"},
+    {"points": [[8.2, 0.15], [8.2, 9.85]], "width": 0.18, "colour": "#80858c"},
+    {"points": [[34.3, 0.15], [34.3, 9.85]], "width": 0.18, "colour": "#80858c"},
+    {"points": [[35.5, 0.15], [35.5, 9.85]], "width": 0.18, "colour": "#80858c"}],
+   "source": "Halteblech aus Stahl für 9-V-Block 6LR61 (überspannt 26,5 mm Breite), Befestigungslöcher 3,2 mm; Maße nach der Batterie (IEC 60086-2)"},
+  {"name": "4,5 V-Block", "name_en": "4.5 V flat battery", "description": "Flachbatterie 4,5 V (3LR12), liegend, Kontaktfahnen eingelötet", "description_en": "Flat battery 4.5 V (3LR12), lying, contact tabs soldered in", "id": "Bat#", "value": "4,5 V", "value_en": "4.5 V", "package": "custom", "lead": 0.8,
+   "pins": [{"at": [0, 0], "kind": 9, "lead": [[0.0, 1.8]]}, {"at": [-8, 0], "kind": 9, "lead": [[-20.32, 1.8]]}],
+   "shapes": [
+    {"kind": "rect", "x": -41.16, "y": 6.0, "w": 62.0, "h": 67.0, "look": {"form": "box", "colour": "#2d4f8a", "bevel": 0.04, "gloss": 0.25}, "round": 1.5},
+    {"kind": "rect", "x": -41.16, "y": 6.0, "w": 62.0, "h": 6.0, "look": {"form": "box", "colour": "#1d1f24", "bevel": 0.15, "gloss": 0.3}, "round": 1.0},
+    {"kind": "rect", "x": -2.5, "y": 0.9, "w": 5.0, "h": 6.6, "look": {"form": "box", "colour": "#c8a24c", "material": "metal", "bevel": 0.22, "gloss": 0.6}, "round": 0.4},
+    {"kind": "rect", "x": -22.32, "y": 0.9, "w": 4.0, "h": 6.6, "look": {"form": "box", "colour": "#c8a24c", "material": "metal", "bevel": 0.22, "gloss": 0.6}, "round": 0.4}],
+   "lines": [{"points": [[-21.72, 16.5], [-18.92, 16.5]], "width": 0.6, "colour": "#ffffff"}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [-38.66, 14.0], "height": 3.0, "colour": "#ffffff"},
+    {"text": "4,5V", "at": [-20.17, 37.0], "height": 11.0, "colour": "#ffffff"},
+    {"text": "+", "at": [-1.2, 14.5], "height": 4.0, "colour": "#ffffff"}],
+   "source": "Flachbatterie 3LR12 (4,5 V): 67 × 62 × 22 mm nach IEC 60086-2, Kontaktfahnen aus Messing"},
+  {"name": "Halteblech f. 4,5V-Block", "name_en": "Holding bracket for 4.5 V battery", "description": "Halteblech für 4,5V-Flachbatterie, zwei Befestigungslöcher", "description_en": "Holding bracket for 4.5 V flat battery, two fixing holes", "id": "", "value": "", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 84.0, "h": 12.0, "look": {"form": "box", "colour": "#bfc4cb", "material": "metal", "bevel": 0.12, "gloss": 0.55}, "round": 3.0},
+    {"kind": "rect", "x": 11.2, "y": 0.0, "w": 61.6, "h": 12.0, "look": {"form": "box", "colour": "#d4d8dd", "material": "metal", "bevel": 0.1, "gloss": 0.7}},
+    {"kind": "circle", "x": 2.55, "y": 3.55, "w": 4.9, "h": 4.9, "look": {"form": "box", "colour": "#bfc4cb", "material": "metal", "bevel": 0.04, "gloss": 0.5, "hole": 0.7142857142857142}},
+    {"kind": "circle", "x": 76.55, "y": 3.55, "w": 4.9, "h": 4.9, "look": {"form": "box", "colour": "#bfc4cb", "material": "metal", "bevel": 0.04, "gloss": 0.5, "hole": 0.7142857142857142}}],
+   "lines": [
+    {"points": [[10.0, 0.15], [10.0, 11.85]], "width": 0.18, "colour": "#80858c"},
+    {"points": [[11.2, 0.15], [11.2, 11.85]], "width": 0.18, "colour": "#80858c"},
+    {"points": [[72.8, 0.15], [72.8, 11.85]], "width": 0.18, "colour": "#80858c"},
+    {"points": [[74.0, 0.15], [74.0, 11.85]], "width": 0.18, "colour": "#80858c"}],
+   "source": "Halteblech aus Stahl für Flachbatterie 3LR12 (überspannt 62 mm Breite), Befestigungslöcher 3,5 mm; Maße nach der Batterie (IEC 60086-2)"},
+  {"name": "Batterieclip f. 9V-Block", "pin_names": ["+", "-"], "name_en": "Battery clip for 9 V block", "description": "Batterieclip für 9V-Block, rote und schwarze Litze", "description_en": "Battery snap for 9 V block, red and black leads", "id": "", "value": "", "package": "custom",
+   "pins": [{"at": [0, 0], "kind": 9, "lead": [[3.0, 0.0], [10.5, -3.38]]}, {"at": [0, -4], "kind": 9, "lead": [[3.0, -10.16], [10.5, -6.78]]}],
+   "shapes": [
+    {"kind": "rect", "x": 9.0, "y": -13.08, "w": 26.5, "h": 16.0, "look": {"form": "box", "colour": "#1a1a1c", "bevel": 0.12, "gloss": 0.35}, "round": 2.0},
+    {"kind": "circle", "x": 12.7, "y": -8.28, "w": 6.4, "h": 6.4, "look": {"form": "elko", "colour": "#a9aeb5", "material": "metal", "gloss": 0.8, "hole": 0.5}},
+    {"kind": "polygon", "x": 24.9, "y": -9.352, "w": 7.4, "h": 8.545, "points": [[32.3, -2.944], [28.6, -0.808], [24.9, -2.944], [24.9, -7.216], [28.6, -9.352], [32.3, -7.216]], "look": {"form": "box", "colour": "#c3c7cd", "material": "metal", "bevel": 0.12, "gloss": 0.6}},
+    {"kind": "circle", "x": 26.1, "y": -7.58, "w": 5.0, "h": 5.0, "look": {"form": "sphere", "colour": "#b9bdc4", "material": "metal", "gloss": 0.6}}],
+   "lines": [
+    {"points": [[1.1, 0.0], [3.0, 0.0], [9.6, -3.38]], "width": 1.3, "colour": "#c62828"},
+    {"points": [[1.1, -10.16], [3.0, -10.16], [9.6, -6.78]], "width": 1.3, "colour": "#202022"}],
+   "source": "Batterieclip für 9-V-Block (Druckknöpfe im Abstand 12,7 mm nach IEC 60086-2), Handelsware"},
+  {"name": "Batterie Mono", "name_en": "Battery D (Mono)", "description": "Batterie Mono (D), stehend, Pluspol oben", "description_en": "Battery D (Mono), standing, positive pole up", "id": "Bat#", "value": "1,5V / LR20", "value_en": "1.5 V / LR20", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 34.2, "h": 34.2, "look": {}},
+    {"kind": "circle", "x": 1.197, "y": 1.197, "w": 31.806, "h": 31.806, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}},
+    {"kind": "circle", "x": 8.93, "y": 8.93, "w": 16.34, "h": 16.34, "look": {"form": "cap", "colour": "#3b3d42", "gloss": 0.3}},
+    {"kind": "circle", "x": 12.35, "y": 12.35, "w": 9.5, "h": 9.5, "look": {"form": "elko", "colour": "#aeb3ba", "material": "metal", "gloss": 0.8}}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"},
+    {"text": "+", "at": [26.664, 15.1], "height": 4.0, "colour": "#3c3f44"}],
+   "source": "Rundzelle LR20 (D, Mono): Ø 34,2 × 61,5 mm nach IEC 60086-2"},
+  {"name": "Batterie Mono", "name_en": "Battery D (Mono)", "description": "Batterie Mono (D), stehend, Minuspol oben", "description_en": "Battery D (Mono), standing, negative pole up", "id": "Bat#", "value": "1,5V / LR20", "value_en": "1.5 V / LR20", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 34.2, "h": 34.2, "look": {}},
+    {"kind": "circle", "x": 1.197, "y": 1.197, "w": 31.806, "h": 31.806, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}}],
+   "lines": [
+    {"points": [[26.676, 17.1], [26.594, 18.35], [26.35, 19.578], [25.947, 20.765], [25.393, 21.888], [24.697, 22.929], [23.871, 23.871], [22.929, 24.697], [21.888, 25.393], [20.765, 25.947], [19.578, 26.35], [18.35, 26.594], [17.1, 26.676], [15.85, 26.594], [14.622, 26.35], [13.435, 25.947], [12.312, 25.393], [11.271, 24.697], [10.329, 23.871], [9.503, 22.929], [8.807, 21.888], [8.253, 20.765], [7.85, 19.578], [7.606, 18.35], [7.524, 17.1], [7.606, 15.85], [7.85, 14.622], [8.253, 13.435], [8.807, 12.312], [9.503, 11.271], [10.329, 10.329], [11.271, 9.503], [12.312, 8.807], [13.435, 8.253], [14.622, 7.85], [15.85, 7.606], [17.1, 7.524], [18.35, 7.606], [19.578, 7.85], [20.765, 8.253], [21.888, 8.807], [22.929, 9.503], [23.871, 10.329], [24.697, 11.271], [25.393, 12.312], [25.947, 13.435], [26.35, 14.622], [26.594, 15.85], [26.676, 17.1]], "width": 0.18, "colour": "#8f939a"},
+    {"points": [[15.7, 17.1], [18.5, 17.1]], "width": 0.56, "colour": "#3c3f44"}],
+   "labels": [{"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"}],
+   "source": "Rundzelle LR20 (D, Mono): Ø 34,2 × 61,5 mm nach IEC 60086-2"},
+  {"name": "Batterie Baby", "name_en": "Battery C (Baby)", "description": "Batterie Baby (C), stehend, Pluspol oben", "description_en": "Battery C (Baby), standing, positive pole up", "id": "Bat#", "value": "1,5V / LR14", "value_en": "1.5 V / LR14", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 26.2, "h": 26.2, "look": {}},
+    {"kind": "circle", "x": 0.917, "y": 0.917, "w": 24.366, "h": 24.366, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}},
+    {"kind": "circle", "x": 6.73, "y": 6.73, "w": 12.74, "h": 12.74, "look": {"form": "cap", "colour": "#3b3d42", "gloss": 0.3}},
+    {"kind": "circle", "x": 9.35, "y": 9.35, "w": 7.5, "h": 7.5, "look": {"form": "elko", "colour": "#aeb3ba", "material": "metal", "gloss": 0.8}}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"},
+    {"text": "+", "at": [20.202, 11.1], "height": 4.0, "colour": "#3c3f44"}],
+   "source": "Rundzelle LR14 (C, Baby): Ø 26,2 × 50 mm nach IEC 60086-2"},
+  {"name": "Batterie Baby", "name_en": "Battery C (Baby)", "description": "Batterie Baby (C), stehend, Minuspol oben", "description_en": "Battery C (Baby), standing, negative pole up", "id": "Bat#", "value": "1,5V / LR14", "value_en": "1.5 V / LR14", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 26.2, "h": 26.2, "look": {}},
+    {"kind": "circle", "x": 0.917, "y": 0.917, "w": 24.366, "h": 24.366, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}}],
+   "lines": [
+    {"points": [[20.436, 13.1], [20.373, 14.058], [20.186, 14.999], [19.878, 15.907], [19.453, 16.768], [18.92, 17.566], [18.287, 18.287], [17.566, 18.92], [16.768, 19.453], [15.907, 19.878], [14.999, 20.186], [14.058, 20.373], [13.1, 20.436], [12.142, 20.373], [11.201, 20.186], [10.293, 19.878], [9.432, 19.453], [8.634, 18.92], [7.913, 18.287], [7.28, 17.566], [6.747, 16.768], [6.322, 15.907], [6.014, 14.999], [5.827, 14.058], [5.764, 13.1], [5.827, 12.142], [6.014, 11.201], [6.322, 10.293], [6.747, 9.432], [7.28, 8.634], [7.913, 7.913], [8.634, 7.28], [9.432, 6.747], [10.293, 6.322], [11.201, 6.014], [12.142, 5.827], [13.1, 5.764], [14.058, 5.827], [14.999, 6.014], [15.907, 6.322], [16.768, 6.747], [17.566, 7.28], [18.287, 7.913], [18.92, 8.634], [19.453, 9.432], [19.878, 10.293], [20.186, 11.201], [20.373, 12.142], [20.436, 13.1]], "width": 0.18, "colour": "#8f939a"},
+    {"points": [[11.7, 13.1], [14.5, 13.1]], "width": 0.56, "colour": "#3c3f44"}],
+   "labels": [{"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"}],
+   "source": "Rundzelle LR14 (C, Baby): Ø 26,2 × 50 mm nach IEC 60086-2"},
+  {"name": "Batterie Mignon", "name_en": "Battery AA (Mignon)", "description": "Batterie Mignon (AA), stehend, Pluspol oben", "description_en": "Battery AA (Mignon), standing, positive pole up", "id": "Bat#", "value": "1,5V / LR6", "value_en": "1.5 V / LR6", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 14.5, "h": 14.5, "look": {}},
+    {"kind": "circle", "x": 0.7, "y": 0.7, "w": 13.1, "h": 13.1, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}},
+    {"kind": "circle", "x": 3.05, "y": 3.05, "w": 8.4, "h": 8.4, "look": {"form": "cap", "colour": "#3b3d42", "gloss": 0.3}},
+    {"kind": "circle", "x": 4.5, "y": 4.5, "w": 5.5, "h": 5.5, "look": {"form": "elko", "colour": "#aeb3ba", "material": "metal", "gloss": 0.8}}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"},
+    {"text": "+", "at": [13.3, -2.6], "height": 2.4, "colour": "#000000"}],
+   "source": "Rundzelle LR6 (AA, Mignon): Ø 14,5 × 50,5 mm nach IEC 60086-2"},
+  {"name": "Batterie Mignon", "name_en": "Battery AA (Mignon)", "description": "Batterie Mignon (AA), stehend, Minuspol oben", "description_en": "Battery AA (Mignon), standing, negative pole up", "id": "Bat#", "value": "1,5V / LR6", "value_en": "1.5 V / LR6", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 14.5, "h": 14.5, "look": {}},
+    {"kind": "circle", "x": 0.7, "y": 0.7, "w": 13.1, "h": 13.1, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}}],
+   "lines": [
+    {"points": [[11.31, 7.25], [11.275, 7.78], [11.172, 8.301], [11.001, 8.804], [10.766, 9.28], [10.471, 9.722], [10.121, 10.121], [9.722, 10.471], [9.28, 10.766], [8.804, 11.001], [8.301, 11.172], [7.78, 11.275], [7.25, 11.31], [6.72, 11.275], [6.199, 11.172], [5.696, 11.001], [5.22, 10.766], [4.778, 10.471], [4.379, 10.121], [4.029, 9.722], [3.734, 9.28], [3.499, 8.804], [3.328, 8.301], [3.225, 7.78], [3.19, 7.25], [3.225, 6.72], [3.328, 6.199], [3.499, 5.696], [3.734, 5.22], [4.029, 4.778], [4.379, 4.379], [4.778, 4.029], [5.22, 3.734], [5.696, 3.499], [6.199, 3.328], [6.72, 3.225], [7.25, 3.19], [7.78, 3.225], [8.301, 3.328], [8.804, 3.499], [9.28, 3.734], [9.722, 4.029], [10.121, 4.379], [10.471, 4.778], [10.766, 5.22], [11.001, 5.696], [11.172, 6.199], [11.275, 6.72], [11.31, 7.25]], "width": 0.18, "colour": "#8f939a"},
+    {"points": [[6.235, 7.25], [8.265, 7.25]], "width": 0.406, "colour": "#3c3f44"}],
+   "labels": [{"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"}],
+   "source": "Rundzelle LR6 (AA, Mignon): Ø 14,5 × 50,5 mm nach IEC 60086-2"},
+  {"name": "Batterie Micro", "name_en": "Battery AAA (Micro)", "description": "Batterie Micro (AAA), stehend, Pluspol oben", "description_en": "Battery AAA (Micro), standing, positive pole up", "id": "Bat#", "value": "1,5V / LR03", "value_en": "1.5 V / LR03", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 10.5, "h": 10.5, "look": {}},
+    {"kind": "circle", "x": 0.7, "y": 0.7, "w": 9.1, "h": 9.1, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}},
+    {"kind": "circle", "x": 2.3, "y": 2.3, "w": 5.9, "h": 5.9, "look": {"form": "cap", "colour": "#3b3d42", "gloss": 0.3}},
+    {"kind": "circle", "x": 3.35, "y": 3.35, "w": 3.8, "h": 3.8, "look": {"form": "elko", "colour": "#aeb3ba", "material": "metal", "gloss": 0.8}}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"},
+    {"text": "+", "at": [9.3, -2.6], "height": 2.4, "colour": "#000000"}],
+   "source": "Rundzelle LR03 (AAA, Micro): Ø 10,5 × 44,5 mm nach IEC 60086-2"},
+  {"name": "Batterie Micro", "name_en": "Battery AAA (Micro)", "description": "Batterie Micro (AAA), stehend, Minuspol oben", "description_en": "Battery AAA (Micro), standing, negative pole up", "id": "Bat#", "value": "1,5V / LR03", "value_en": "1.5 V / LR03", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 10.5, "h": 10.5, "look": {}},
+    {"kind": "circle", "x": 0.7, "y": 0.7, "w": 9.1, "h": 9.1, "look": {"form": "elko", "colour": "#8d939b", "gloss": 0.6, "material": "metal"}}],
+   "lines": [
+    {"points": [[8.19, 5.25], [8.165, 5.634], [8.09, 6.011], [7.966, 6.375], [7.796, 6.72], [7.582, 7.04], [7.329, 7.329], [7.04, 7.582], [6.72, 7.796], [6.375, 7.966], [6.011, 8.09], [5.634, 8.165], [5.25, 8.19], [4.866, 8.165], [4.489, 8.09], [4.125, 7.966], [3.78, 7.796], [3.46, 7.582], [3.171, 7.329], [2.918, 7.04], [2.704, 6.72], [2.534, 6.375], [2.41, 6.011], [2.335, 5.634], [2.31, 5.25], [2.335, 4.866], [2.41, 4.489], [2.534, 4.125], [2.704, 3.78], [2.918, 3.46], [3.171, 3.171], [3.46, 2.918], [3.78, 2.704], [4.125, 2.534], [4.489, 2.41], [4.866, 2.335], [5.25, 2.31], [5.634, 2.335], [6.011, 2.41], [6.375, 2.534], [6.72, 2.704], [7.04, 2.918], [7.329, 3.171], [7.582, 3.46], [7.796, 3.78], [7.966, 4.125], [8.09, 4.489], [8.165, 4.866], [8.19, 5.25]], "width": 0.18, "colour": "#8f939a"},
+    {"points": [[4.515, 5.25], [5.985, 5.25]], "width": 0.294, "colour": "#3c3f44"}],
+   "labels": [{"text": "<BauteilKennung>", "at": [0.0, -2.2], "height": 1.8, "colour": "#000000"}],
+   "source": "Rundzelle LR03 (AAA, Micro): Ø 10,5 × 44,5 mm nach IEC 60086-2"},
+  {"name": "9V-Block, stehend", "name_en": "9 V block, standing", "description": "Batterie 9V-Block, stehend, Anschlüsse oben", "description_en": "Battery 9 V block, standing, terminals up", "id": "Bat#", "value": "9V / 6F22R", "value_en": "9 V / 6F22R", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 26.5, "h": 17.5, "look": {"form": "box", "colour": "#25282d", "bevel": 0.06, "gloss": 0.4, "material": "metal"}, "round": 1.6},
+    {"kind": "rect", "x": 0.7, "y": 0.7, "w": 25.1, "h": 16.1, "look": {"form": "box", "colour": "#151517", "bevel": 0.1, "gloss": 0.25}, "round": 1.2},
+    {"kind": "circle", "x": 4.1, "y": 5.95, "w": 5.6, "h": 5.6, "look": {"form": "elko", "colour": "#a7acb3", "material": "metal", "gloss": 0.8, "hole": 0.38}},
+    {"kind": "polygon", "x": 15.212, "y": 4.95, "w": 8.776, "h": 7.6, "points": [[23.988, 8.75], [21.794, 12.55], [17.406, 12.55], [15.212, 8.75], [17.406, 4.95], [21.794, 4.95]], "look": {"form": "box", "colour": "#c3c7cd", "material": "metal", "bevel": 0.12, "gloss": 0.6}},
+    {"kind": "circle", "x": 16.9, "y": 6.05, "w": 5.4, "h": 5.4, "look": {"form": "elko", "colour": "#a7acb3", "material": "metal", "gloss": 0.7, "hole": 0.62}}],
+   "lines": [{"points": [[18.6, 15.2], [20.6, 15.2]], "width": 0.42, "colour": "#ffffff"}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [0.0, -2.4], "height": 1.8, "colour": "#000000"},
+    {"text": "9V", "at": [12.04, 1.5], "height": 2.2, "colour": "#ffffff"},
+    {"text": "+", "at": [6.12, 13.9], "height": 2.6, "colour": "#ffffff"}],
+   "source": "9-V-Block 6LR61/6F22: 48,5 × 26,5 × 17,5 mm, Anschlüsse im Abstand 12,7 mm (IEC 60086-2)"}
+ ]
+}

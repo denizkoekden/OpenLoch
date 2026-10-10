@@ -1,0 +1,11 @@
+{
+  "name": "01-Zweitransistor-Blinklicht",
+  "components": 13,
+  "terminals": 28,
+  "nets": 8,
+  "straightSegments": 50,
+  "topSegments": 1,
+  "maximumPadDeviationMM": 0,
+  "errors": [],
+  "passed": true
+}

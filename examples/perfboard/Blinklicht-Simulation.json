@@ -1,0 +1,51 @@
+{
+  "simulator": "ngspice 47",
+  "modelScope": "Generic NPN and red LED models; no physical build",
+  "cases": [
+    {
+      "case": "nominal",
+      "supplyV": 5,
+      "resistorScale": 1,
+      "timingCapacitorScale": 1,
+      "periodSeconds": 0.46336723125,
+      "frequencyHz": 2.1581154914695966,
+      "ledPeakMA": [
+        6.063225212765957,
+        6.06282970212766
+      ],
+      "minimumBaseV": -2.56229553,
+      "bothLedsAbove3mAPercent": 7.606651117297419,
+      "persistentOscillation": true
+    },
+    {
+      "case": "fast",
+      "supplyV": 5.25,
+      "resistorScale": 0.95,
+      "timingCapacitorScale": 0.8,
+      "periodSeconds": 0.36334106096774194,
+      "frequencyHz": 2.752235041469155,
+      "ledPeakMA": [
+        6.919923247480404,
+        6.91327686450168
+      ],
+      "minimumBaseV": -2.80744934,
+      "bothLedsAbove3mAPercent": 8.64719166605959,
+      "persistentOscillation": true
+    },
+    {
+      "case": "slow",
+      "supplyV": 4.75,
+      "resistorScale": 1.05,
+      "timingCapacitorScale": 1.2,
+      "periodSeconds": 0.5626706273684211,
+      "frequencyHz": 1.7772386745633832,
+      "ledPeakMA": [
+        5.285976899696049,
+        5.2900342046605875
+      ],
+      "minimumBaseV": -2.31777426,
+      "bothLedsAbove3mAPercent": 6.69980879541109,
+      "persistentOscillation": true
+    }
+  ]
+}

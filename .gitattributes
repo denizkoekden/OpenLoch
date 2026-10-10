@@ -1,0 +1,7 @@
+# Keep native example bytes stable for their geometry-report checksums.
+*.openloch text eol=lf
+
+# Delphi documents and libraries are binary on every platform.
+*.[Ll][Mm]4 binary
+*.[Ll][Mm][Bb] binary
+*.[Ll][Ii][Bb] binary

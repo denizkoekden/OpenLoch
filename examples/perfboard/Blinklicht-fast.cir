@@ -1,0 +1,27 @@
+OpenLoch real blink netlist: fast
+
+* Generic low-power NPN and red LED: plausibility, not manufacturer-qualified models.
+.model NPN_GENERIC NPN(IS=1e-14 BF=200 VAF=100 IKF=.1 ISE=1e-14 NE=1.5 BR=5 CJE=10p CJC=4p TF=.3n TR=10n)
+.model LED_RED D(IS=1e-20 N=2 RS=4 CJO=10p BV=5 IBV=1u)
+
+VSUP VCC 0 PWL(0 0 .005 5.25)
+Q1 C1 B1 0 NPN_GENERIC
+Q2 C2 B2 0 NPN_GENERIC
+R1 VCC LED1_A 446.5
+R2 VCC LED2_A 446.5
+D1 LED1_A C1 LED_RED
+D2 LED2_A C2 LED_RED
+R3 VCC B1 44650.0
+R4 VCC B2 44650.0
+C1 C1 B2 8.000000000000001e-06
+C2 C2 B1 8.000000000000001e-06
+C3 VCC 0 1e-07
+C4 VCC 0 4.7e-05
+.ic V(B1)=.02 V(B2)=0
+.control
+set wr_singlescale
+set wr_vecnames
+tran .0005 8 0 .0005 uic
+wrdata Blinklicht-fast.dat v(VCC) v(LED1_A) v(LED2_A) v(B1) v(B2) v(C1) v(C2)
+.endc
+.end

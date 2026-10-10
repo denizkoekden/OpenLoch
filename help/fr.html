@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>OpenLoch – Aide</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>OpenLoch – Aide</h1>
+<p>OpenLoch sert à concevoir des plaques à trous et des plaques à bandes. Son utilisation et ses fichiers suivent LochMaster 4 : les projets sont enregistrés au format <b>.LM4</b>, les modèles et les bibliothèques sont lus et écrits aux formats <b>.LMB</b> et <b>.LIB</b>.</p>
+<p><a href="#start">Premiers pas</a> · <a href="#carte">Carte</a> · <a href="#dessin">Dessin</a> · <a href="#composants">Composants et bibliothèque</a> · <a href="#edition">Édition et disposition</a> · <a href="#barres">Couleurs, largeur, remplissage, contour</a> · <a href="#affichage">Affichage</a> · <a href="#verifier">Vérifier</a> · <a href="#liste">Nomenclature et remarques</a> · <a href="#fichiers">Impression, export, sauvegardes</a> · <a href="#touches">Raccourcis</a></p>
+
+<h2 id="start">Premiers pas</h2>
+<ol>
+<li><b>Fichier → Nouvelle carte…</b> crée une carte ; <b>Fichier → Ouvrir…</b> charge un projet, un modèle, une bibliothèque ou un fichier de sauvegarde.</li>
+<li>Dans le panneau des composants à gauche, choisissez une page, cliquez sur un composant puis sur la carte, ou faites-le glisser. Les composants s'accrochent à un trou par leur point de référence.</li>
+<li>Les outils à gauche posent des fils, des fils de connexion, des points de soudure, des coupures et des perçages.</li>
+<li><b>Fichier → Enregistrer</b> écrit le projet au format .LM4 comme LochMaster. Le format propre .openloch se choisit sous « Enregistrer sous… ».</li>
+</ol>
+
+<h2 id="carte">Carte</h2>
+<p><b>Carte → Propriétés…</b> contient le nom et la taille, le pas des trous de l'unité N, les grilles d'accrochage des unités mm et pouce, l'origine, le décalage entre la carte et le cuivre ainsi que les champs supplémentaires de la carte. Un projet peut contenir plusieurs cartes ; elles apparaissent sous forme d'onglets sous la zone de dessin. Ajouter, dupliquer, renommer, ordonner, tourner et supprimer se trouvent dans le menu <b>Carte</b> et dans le menu contextuel des onglets.</p>
+<p><b>Modifier le tracé…</b> ouvre le cuivre de la carte (bandes, pastilles, perçages). L'outil <b>Origine</b> place le point zéro des règles et de la grille.</p>
+
+<h2 id="dessin">Dessin</h2>
+<p>La palette d'outils à gauche contient, de haut en bas : sélection, loupe, lignes, cercle, rectangle, polygone, texte, fil, broche, fil de connexion, point de soudure, coupure, perçage, potentiel, testeur de continuité, origine et pastille. Lignes et polygones se posent point par point et se terminent avec Entrée ou un double clic ; <span class="key">Échap</span> ou un clic droit termine l'outil.</p>
+<p>Comme dans l'original, le choix d'un outil règle sa couleur et son épaisseur : fils argentés de 0,4 mm, lignes et surfaces noires de 0,1 mm, broches blanches de 0,6 mm, textes noirs sur fond jaune.</p>
+<p>Les objets s'accrochent à la grille de l'unité choisie, comptée depuis l'origine : en N au pas des trous, en mm et en pouce à leurs grilles. Avec la touche <span class="key">Maj</span> enfoncée, le placement se fait sans grille. Les fils s'accrochent en plus aux connexions et aux trous.</p>
+
+<h2 id="composants">Composants et bibliothèque</h2>
+<p>La bibliothèque contient toutes les pages de la bibliothèque LochMaster, redessinées, et des pages de composants modernes. Les pages personnelles se créent avec <b>Bibliothèque → Nouvelle page…</b> ; <b>Composant → Ajouter à la bibliothèque…</b> ouvre d'abord la fenêtre du composant puis place les objets sélectionnés sur la page courante comme un seul composant. <b>Bibliothèque → Propriétés…</b> montre le nom, le fichier et les champs supplémentaires de la page ; « Propriétés… » dans le menu contextuel de la liste modifie le composant sélectionné.</p>
+<p><b>Composant → Créer un composant…</b> fait de plusieurs objets ou d'un groupe un composant avec nom, repère, valeur, description et champs supplémentaires. Les repères avec <b>#</b> (par exemple <b>R#</b>) reçoivent un numéro ; <b>Composant → Renuméroter</b> les numérote à nouveau dans l'ordre du document, y compris à l'intérieur d'autres composants. Un double clic dans l'<b>arborescence des objets</b> ouvre les propriétés, aussi celles d'un composant imbriqué.</p>
+<p>L'<b>Assistant…</b> crée des composants et des contours à partir de dimensions. Les possesseurs de LochMaster peuvent aussi afficher ses bibliothèques avec <b>Bibliothèque → Intégrer les bibliothèques LochMaster…</b> ; elles sont seulement lues. Le dossier des composants (Documents/OpenLoch/Bauteile) range chaque composant dans un fichier ; les sous-dossiers apparaissent comme des pages.</p>
+
+<h2 id="edition">Édition et disposition</h2>
+<p><b>Édition</b> contient annuler et rétablir, le presse-papiers, dupliquer, tout sélectionner, supprimer, les propriétés et les nœuds de contour. <b>Étapes d'annulation…</b> règle le nombre d'étapes pouvant être annulées (1 à 50).</p>
+<p><b>Disposer</b> contient mettre au premier plan et à l'arrière-plan, placer sur l'autre face de la carte, grouper et dissocier, aligner (à gauche, à droite, en haut, en bas, centrer verticalement, centrer horizontalement, broches des composants sur les trous de la carte), tourner (90° à droite, 90° à gauche, 180°, angle…) et miroir (horizontal, vertical). Un clic droit sur un objet ouvre les mêmes commandes dans un menu contextuel.</p>
+
+<h2 id="barres">Couleurs, largeur, remplissage, contour</h2>
+<p>Les barres d'outils du bas agissent sur les objets sélectionnés et sur les nouveaux :</p>
+<ul>
+<li><b>Couleurs :</b> le bouton gauche de la souris choisit la couleur du trait (AP), le bouton droit la couleur de remplissage (AR).</li>
+<li><b>Largeur :</b> case de la couleur du trait et épaisseur du trait de « invisible » à 2 mm.</li>
+<li><b>Remplir :</b> case de la couleur de remplissage, « Remplir les surfaces » et les boutons BMP (charger un remplissage bitmap, aussi PNG, GIF et JPEG) et ROT (tourner le remplissage bitmap).</li>
+<li><b>Fraisage :</b> contour normal ou contour fraisé.</li>
+<li><b>Contour :</b> contour d'origine, B-splines, chanfreins et arrondis de taille réglable.</li>
+</ul>
+<p><b>Affichage → Afficher les barres d'outils</b> affiche ou masque chaque barre.</p>
+
+<h2 id="affichage">Affichage</h2>
+<p><b>Affichage → Options</b> contient les interrupteurs de chaque carte : affichage N/B, retourner (la carte vue de dessous, basculée de haut en bas), transparence (modifier la face soudure sans miroir), vue rayons X (l'autre face en transparence), rendu BMP (remplissages bitmap et points de soudure en 3D), afficher les potentiels et lisser les polices. <b>Règles / grille</b> choisit l'unité N, pouce ou mm et affiche les règles ; le bouton dans le coin des règles change d'unité (<span class="key">Ctrl+&lt;</span>). <b>Zoom</b> contient zoom avant, zoom arrière, ajuster, zoom sur les objets, zoom sur les objets sélectionnés et taille réelle 1:1.</p>
+
+<h2 id="verifier">Vérifier</h2>
+<p>Le <b>testeur de continuité</b> marque tout ce qui est relié au cuivre cliqué. Les marques de <b>potentiel</b> donnent un nom et une couleur aux réseaux ; « Afficher les potentiels » colore les réseaux. Le bouton <b>Zones libres</b> montre, tant qu'il est appuyé, le cuivre sans connexion. <b>Vérifier → Rechercher les courts-circuits</b> trouve les réseaux qui relient des potentiels différents.</p>
+
+<h2 id="liste">Nomenclature et remarques</h2>
+<p><b>Carte → Nomenclature → Créer…</b> affiche la nomenclature, la liste d'achats et les ponts de fil ; « Créer une feuille Excel… » ouvre le tableau dans le tableur et le place aussi dans le presse-papiers. <b>Carte → Remarques…</b> ouvre un éditeur de texte avec mise en forme ; la nomenclature et la liste d'achats peuvent être insérées au curseur.</p>
+
+<h2 id="fichiers">Impression, export, sauvegardes</h2>
+<p><b>Fichier → Imprimer…</b> ouvre l'aperçu avant impression avec jusqu'à dix vues par carte, couches, échelle, position, mosaïque, traits de coupe et facteurs de correction. <b>Fichier → Exporter</b> écrit des images (BMP, JPG, PNG), du PDF, des fichiers HPGL pour le perçage et le fraisage, des bibliothèques de composants, des modèles de cartes et la nomenclature en CSV.</p>
+<p>À l'ouverture d'un fichier LM4, OpenLoch conserve comme l'original une copie <b>&lt;nom&gt;.OLD</b>. <b>Fichier → Enregistrement automatique…</b> sauvegarde le projet à l'intervalle choisi sous <b>&lt;nom&gt;.BAK</b> à côté de son fichier ; un fichier .BAK ouvert redevient le projet. OpenLoch garde aussi les modifications non enregistrées pour une restauration après un plantage.</p>
+
+<h2 id="touches">Raccourcis</h2>
+<table>
+<tr><td class="key">Ctrl+N / Ctrl+O / Ctrl+S</td><td>Nouvelle carte, ouvrir, enregistrer</td></tr>
+<tr><td class="key">Ctrl+P</td><td>Imprimer</td></tr>
+<tr><td class="key">Ctrl+Z / Ctrl+Maj+Z</td><td>Annuler, rétablir</td></tr>
+<tr><td class="key">Ctrl+X / Ctrl+C / Ctrl+V / Ctrl+D</td><td>Couper, copier, coller, dupliquer</td></tr>
+<tr><td class="key">Suppr</td><td>Supprimer</td></tr>
+<tr><td class="key">R / Maj+R</td><td>Tourner de 90° à droite, à gauche</td></tr>
+<tr><td class="key">M / Maj+M</td><td>Miroir horizontal, vertical</td></tr>
+<tr><td class="key">Ctrl+] / Ctrl+[</td><td>Premier plan, arrière-plan</td></tr>
+<tr><td class="key">Ctrl+G / Ctrl+U</td><td>Grouper, dissocier</td></tr>
+<tr><td class="key">Ctrl+K / Ctrl+J</td><td>Créer, défaire un composant</td></tr>
+<tr><td class="key">Ctrl+I</td><td>Ajouter à la bibliothèque</td></tr>
+<tr><td class="key">Ctrl+E / Ctrl+Y / Ctrl+T / Ctrl+L</td><td>Propriétés de la carte, modifier le tracé, remarques, nomenclature</td></tr>
+<tr><td class="key">F5 / F6 / F</td><td>Zoom avant, zoom arrière, ajuster</td></tr>
+<tr><td class="key">Ctrl+&lt;</td><td>Changer d'unité</td></tr>
+<tr><td class="key">Flèches</td><td>Déplacer les objets sélectionnés d'un pas de grille (dix avec Maj)</td></tr>
+<tr><td class="key">Maj en cliquant</td><td>Placer sans grille</td></tr>
+<tr><td class="key">F1</td><td>Cette aide</td></tr>
+</table>
+<p>Sous macOS, ⌘ remplace Ctrl.</p>
+</body>
+</html>

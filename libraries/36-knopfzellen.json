@@ -1,0 +1,39 @@
+{
+ "page": "Knopfzellen", "page_en": "Button cells", "position": 36,
+ "parts": [
+  {"name": "Knopfzelle 7,9 mm", "name_en": "Button cell 7.9 mm", "description": "Knopfzelle 7,9 mm (LR41/SR41), Pluspol oben", "description_en": "Button cell 7.9 mm (LR41/SR41), positive pole up", "id": "Bat#", "value": "?", "package": "custom",
+   "pins": [],
+   "shapes": [{"kind": "circle", "x": 0.0, "y": 0.0, "w": 7.9, "h": 7.9, "look": {"form": "elko", "colour": "#9ea3aa", "material": "metal", "gloss": 0.7}}],
+   "lines": [{"points": [[6.557, 3.95], [6.535, 4.29], [6.468, 4.625], [6.359, 4.948], [6.208, 5.253], [6.018, 5.537], [5.793, 5.793], [5.537, 6.018], [5.254, 6.208], [4.948, 6.359], [4.625, 6.468], [4.29, 6.535], [3.95, 6.557], [3.61, 6.535], [3.275, 6.468], [2.952, 6.359], [2.647, 6.208], [2.363, 6.018], [2.107, 5.793], [1.882, 5.537], [1.692, 5.253], [1.541, 4.948], [1.432, 4.625], [1.365, 4.29], [1.343, 3.95], [1.365, 3.61], [1.432, 3.275], [1.541, 2.952], [1.692, 2.646], [1.882, 2.363], [2.107, 2.107], [2.363, 1.882], [2.646, 1.692], [2.952, 1.541], [3.275, 1.432], [3.61, 1.365], [3.95, 1.343], [4.29, 1.365], [4.625, 1.432], [4.948, 1.541], [5.254, 1.692], [5.537, 1.882], [5.793, 2.107], [6.018, 2.363], [6.208, 2.646], [6.359, 2.952], [6.468, 3.275], [6.535, 3.61], [6.557, 3.95]], "width": 0.12, "colour": "#8d9198"}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [0.0, -2.0], "height": 1.6, "colour": "#000000"},
+    {"text": "+", "at": [2.955, 2.291], "height": 3.318, "colour": "#5c6066"}],
+   "source": "Knopfzelle LR41/SR41: Ø 7,9 mm nach IEC 60086-2 (Höhe 3,6 mm)"},
+  {"name": "Knopfzelle 11,6 mm", "name_en": "Button cell 11.6 mm", "description": "Knopfzelle 11,6 mm (LR44/SR44), Pluspol oben", "description_en": "Button cell 11.6 mm (LR44/SR44), positive pole up", "id": "Bat#", "value": "?", "package": "custom",
+   "pins": [],
+   "shapes": [{"kind": "circle", "x": 0.0, "y": 0.0, "w": 11.6, "h": 11.6, "look": {"form": "elko", "colour": "#9ea3aa", "material": "metal", "gloss": 0.7}}],
+   "lines": [{"points": [[9.628, 5.8], [9.595, 6.3], [9.498, 6.791], [9.337, 7.265], [9.115, 7.714], [8.837, 8.13], [8.507, 8.507], [8.13, 8.837], [7.714, 9.115], [7.265, 9.337], [6.791, 9.498], [6.3, 9.595], [5.8, 9.628], [5.3, 9.595], [4.809, 9.498], [4.335, 9.337], [3.886, 9.115], [3.47, 8.837], [3.093, 8.507], [2.763, 8.13], [2.485, 7.714], [2.263, 7.265], [2.102, 6.791], [2.005, 6.3], [1.972, 5.8], [2.005, 5.3], [2.102, 4.809], [2.263, 4.335], [2.485, 3.886], [2.763, 3.47], [3.093, 3.093], [3.47, 2.763], [3.886, 2.485], [4.335, 2.263], [4.809, 2.102], [5.3, 2.005], [5.8, 1.972], [6.3, 2.005], [6.791, 2.102], [7.265, 2.263], [7.714, 2.485], [8.13, 2.763], [8.507, 3.093], [8.837, 3.47], [9.115, 3.886], [9.337, 4.335], [9.498, 4.809], [9.595, 5.3], [9.628, 5.8]], "width": 0.12, "colour": "#8d9198"}],
+   "labels": [
+    {"text": "<BauteilKennung>", "at": [0.0, -2.0], "height": 1.6, "colour": "#000000"},
+    {"text": "+", "at": [4.338, 3.364], "height": 4.872, "colour": "#5c6066"}],
+   "source": "Knopfzelle LR44/SR44: Ø 11,6 mm nach IEC 60086-2 (Höhe 5,4 mm)"},
+  {"name": "Knopfzelle 7,9 mm", "name_en": "Button cell 7.9 mm", "description": "Knopfzelle 7,9 mm (LR41/SR41), Minuspol oben", "description_en": "Button cell 7.9 mm (LR41/SR41), negative pole up", "id": "Bat#", "value": "?", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 7.9, "h": 7.9, "look": {"form": "elko", "colour": "#9ea3aa", "material": "metal", "gloss": 0.7}},
+    {"kind": "circle", "x": 0.553, "y": 0.553, "w": 6.794, "h": 6.794, "look": {"form": "cap", "colour": "#2c2d30", "gloss": 0.3}},
+    {"kind": "circle", "x": 1.027, "y": 1.027, "w": 5.846, "h": 5.846, "look": {"form": "elko", "colour": "#a9aeb5", "material": "metal", "gloss": 0.7}}],
+   "lines": [{"points": [[3.002, 3.95], [4.898, 3.95]], "width": 0.474, "colour": "#5c6066"}],
+   "labels": [{"text": "<BauteilKennung>", "at": [0.0, -2.0], "height": 1.6, "colour": "#000000"}],
+   "source": "Knopfzelle LR41/SR41: Ø 7,9 mm nach IEC 60086-2 (Höhe 3,6 mm)"},
+  {"name": "Knopfzelle 11,6 mm", "name_en": "Button cell 11.6 mm", "description": "Knopfzelle 11,6 mm (LR44/SR44), Minuspol oben", "description_en": "Button cell 11.6 mm (LR44/SR44), negative pole up", "id": "Bat#", "value": "?", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "circle", "x": 0.0, "y": 0.0, "w": 11.6, "h": 11.6, "look": {"form": "elko", "colour": "#9ea3aa", "material": "metal", "gloss": 0.7}},
+    {"kind": "circle", "x": 0.812, "y": 0.812, "w": 9.976, "h": 9.976, "look": {"form": "cap", "colour": "#2c2d30", "gloss": 0.3}},
+    {"kind": "circle", "x": 1.508, "y": 1.508, "w": 8.584, "h": 8.584, "look": {"form": "elko", "colour": "#a9aeb5", "material": "metal", "gloss": 0.7}}],
+   "lines": [{"points": [[4.408, 5.8], [7.192, 5.8]], "width": 0.696, "colour": "#5c6066"}],
+   "labels": [{"text": "<BauteilKennung>", "at": [0.0, -2.0], "height": 1.6, "colour": "#000000"}],
+   "source": "Knopfzelle LR44/SR44: Ø 11,6 mm nach IEC 60086-2 (Höhe 5,4 mm)"}
+ ]
+}

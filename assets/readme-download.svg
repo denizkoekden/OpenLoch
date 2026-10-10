@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="38" viewBox="0 0 160 38" role="img" aria-label="Downloads">
+<title>Downloads</title><rect x="1" y="1" width="158" height="36" fill="#c0c0c0"/>
+<path d="M1,36V1H158" fill="none" stroke="#fff" stroke-width="2"/>
+<path d="M158,1V36H1" fill="none" stroke="#000" stroke-width="2"/>
+<path d="M156,3V34H3" fill="none" stroke="#808080" stroke-width="2"/>
+<image x="14" y="10" width="16" height="16" style="image-rendering:pixelated;image-rendering:crisp-edges" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAg0lEQVRYhe2XQQ4AEQxFmczBHO27WW9mFiKZ0AiLKjP9K5T256VdcO7v8q910qh9LS7a6G6PwO5TmgPkfYHL5yvakQCvGKOIAXUCzBSgupL3Aj2w7RTw+mwPDBMAIGLgBAIQNaBOwAws6IH++xMIZBFRNx5CHcdQXnUCZsAMmAH7GZke6ZkXSs7QFU4AAAAASUVORK5CYII="/>
+<text x="90" y="24" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="14" fill="#000">Downloads</text>
+</svg>

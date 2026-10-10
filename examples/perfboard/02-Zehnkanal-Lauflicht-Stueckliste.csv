@@ -1,0 +1,54 @@
+Bauteil,Wert,Gehaeuse,Ursprung X Loch,Ursprung Y Loch,Drehung
+J1,5 V DC,Stiftleiste 2-pol RM2.54,3,35,0
+U1,TLC555CP,DIP8 7.62 mm; Kerbe oben,5,9,0
+U2,CD4017BE,DIP16 7.62 mm; Kerbe oben,5,26,-90
+R1,10k,0207 axial 10.16 mm,4,4,0
+R2,100k,0207 axial 10.16 mm,11,4,90
+C1,1uF/16V,Elko radial D<=6.3 mm; + links,11,14,0
+C2,10nF,Keramik RM5.08 mm,5,15,0
+C3,100nF,Keramik RM5.08 mm,5,7,0
+C4,100nF,Keramik RM5.08 mm,4,21,0
+C5,47uF/16V,Elko radial D<=6.3 mm; + links,10,34,0
+R3,100k,0207 axial 10.16 mm,3,23,90
+C6,100nF,Keramik RM5.08 mm,3,19,0
+J2,RESET-Taster extern,Stiftleiste 2-pol RM2.54,3,30,0
+D1,LED rot 5 mm,"LED 5 mm; A links, K rechts",16,9,0
+R4,1.5k,0207 axial 10.16 mm,16,3,90
+Q1,BC547B,BC547 TO92; flach unten; C B E,17,14,0
+R14,22k,0207 axial 10.16 mm,18,17,90
+D2,LED rot 5 mm,"LED 5 mm; A links, K rechts",20,9,0
+R5,1.5k,0207 axial 10.16 mm,20,3,90
+Q2,BC547B,BC547 TO92; flach unten; C B E,21,14,0
+R15,22k,0207 axial 10.16 mm,22,17,90
+D3,LED rot 5 mm,"LED 5 mm; A links, K rechts",24,9,0
+R6,1.5k,0207 axial 10.16 mm,24,3,90
+Q3,BC547B,BC547 TO92; flach unten; C B E,25,14,0
+R16,22k,0207 axial 10.16 mm,26,17,90
+D4,LED rot 5 mm,"LED 5 mm; A links, K rechts",28,9,0
+R7,1.5k,0207 axial 10.16 mm,28,3,90
+Q4,BC547B,BC547 TO92; flach unten; C B E,29,14,0
+R17,22k,0207 axial 10.16 mm,30,17,90
+D5,LED rot 5 mm,"LED 5 mm; A links, K rechts",32,9,0
+R8,1.5k,0207 axial 10.16 mm,32,3,90
+Q5,BC547B,BC547 TO92; flach unten; C B E,33,14,0
+R18,22k,0207 axial 10.16 mm,34,17,90
+D6,LED rot 5 mm,"LED 5 mm; A links, K rechts",36,9,0
+R9,1.5k,0207 axial 10.16 mm,36,3,90
+Q6,BC547B,BC547 TO92; flach unten; C B E,37,14,0
+R19,22k,0207 axial 10.16 mm,38,17,90
+D7,LED rot 5 mm,"LED 5 mm; A links, K rechts",40,9,0
+R10,1.5k,0207 axial 10.16 mm,40,3,90
+Q7,BC547B,BC547 TO92; flach unten; C B E,41,14,0
+R20,22k,0207 axial 10.16 mm,42,17,90
+D8,LED rot 5 mm,"LED 5 mm; A links, K rechts",44,9,0
+R11,1.5k,0207 axial 10.16 mm,44,3,90
+Q8,BC547B,BC547 TO92; flach unten; C B E,45,14,0
+R21,22k,0207 axial 10.16 mm,46,17,90
+D9,LED rot 5 mm,"LED 5 mm; A links, K rechts",48,9,0
+R12,1.5k,0207 axial 10.16 mm,48,3,90
+Q9,BC547B,BC547 TO92; flach unten; C B E,49,14,0
+R22,22k,0207 axial 10.16 mm,50,17,90
+D10,LED rot 5 mm,"LED 5 mm; A links, K rechts",52,9,0
+R13,1.5k,0207 axial 10.16 mm,52,3,90
+Q10,BC547B,BC547 TO92; flach unten; C B E,53,14,0
+R23,22k,0207 axial 10.16 mm,54,17,90

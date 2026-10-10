@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="de">
+<head><meta charset="utf-8"><title>OpenLoch – Hilfe</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>OpenLoch – Hilfe</h1>
+<p>OpenLoch entwirft Lochraster- und Streifenrasterplatinen. Bedienung und Dateien folgen LochMaster 4: Projekte werden als <b>.LM4</b> gespeichert, Vorlagen und Bibliotheken als <b>.LMB</b> und <b>.LIB</b> gelesen und geschrieben.</p>
+<p><a href="#start">Erste Schritte</a> · <a href="#platine">Platine</a> · <a href="#zeichnen">Zeichnen</a> · <a href="#bauteile">Bauteile und Bibliothek</a> · <a href="#bearbeiten">Bearbeiten und Anordnen</a> · <a href="#leisten">Farben, Breite, Füllen, Kontur</a> · <a href="#ansicht">Ansicht</a> · <a href="#pruefen">Prüfen</a> · <a href="#liste">Stückliste und Anmerkungen</a> · <a href="#dateien">Drucken, Exportieren, Sichern</a> · <a href="#tasten">Tastenkürzel</a></p>
+
+<h2 id="start">Erste Schritte</h2>
+<ol>
+<li><b>Datei → Neue Platine…</b> legt eine Platine an; <b>Datei → Öffnen…</b> lädt ein Projekt, eine Vorlage, eine Bibliothek oder eine Sicherungsdatei.</li>
+<li>Im Bauteilfenster links eine Seite wählen, ein Bauteil anklicken und auf die Platine klicken oder es hinüberziehen. Bauteile rasten mit ihrem Bezugspunkt auf ein Loch.</li>
+<li>Mit den Werkzeugen links Drähte, Anschlussdrähte, Lötstellen, Trennstellen und Bohrungen setzen.</li>
+<li><b>Datei → Speichern</b> schreibt das Projekt wie LochMaster als .LM4. Das eigene Format .openloch steht unter „Speichern unter…“ zur Wahl.</li>
+</ol>
+
+<h2 id="platine">Platine</h2>
+<p><b>Platine → Eigenschaften…</b> enthält Name und Größe, den Lochabstand für die Einheit N, die Fangraster der Einheiten mm und inch, den Ursprung, den Versatz zwischen Platine und Kupfer sowie die Extrafelder der Platine. Ein Projekt kann mehrere Platinen enthalten; sie erscheinen als Reiter unter der Zeichenfläche. Hinzufügen, Duplizieren, Umbenennen, Ordnen, Drehen und Löschen gibt es im Menü <b>Platine</b> und im Kontextmenü der Reiter.</p>
+<p><b>Layout bearbeiten…</b> öffnet die Kupferlage der Platine (Streifen, Lötaugen, Bohrungen). Mit dem Werkzeug <b>Ursprung</b> wird der Nullpunkt der Lineale und des Rasters gesetzt.</p>
+
+<h2 id="zeichnen">Zeichnen</h2>
+<p>Die Werkzeugleiste links enthält von oben nach unten: Auswahl, Lupe, Linien, Kreis, Rechteck, Polygon, Text, Draht, Anschluss-Pin, Anschlussdraht, Lötstelle, Trennstelle, Bohrung, Potenzial, Durchgangsprüfer, Ursprung und Lötpunkt. Linien und Polygone werden Punkt für Punkt gesetzt und mit der Eingabetaste oder einem Doppelklick abgeschlossen; <span class="key">Esc</span> oder ein Rechtsklick beendet das Werkzeug.</p>
+<p>Beim Wählen eines Werkzeugs stellt OpenLoch wie das Original Farbe und Breite ein: Drähte silbern mit 0,4 mm, Linien und Flächen schwarz mit 0,1 mm, Pins weiß mit 0,6 mm, Texte schwarz auf Gelb.</p>
+<p>Gefangen wird im Raster der gewählten Einheit, gezählt vom Ursprung: in N auf den Lochabstand, in mm und inch auf deren Raster. Mit gedrückter <span class="key">Umschalttaste</span> wird ohne Raster platziert. Drähte rasten zusätzlich an Anschlüssen und Löchern.</p>
+
+<h2 id="bauteile">Bauteile und Bibliothek</h2>
+<p>Die Bibliothek enthält alle Seiten der LochMaster-Bibliothek mit eigenen Zeichnungen sowie Seiten mit modernen Bauteilen. Eigene Seiten werden über <b>Bibliothek → Seite anlegen…</b> angelegt; <b>Bauteil → Zur Bibliothek hinzufügen…</b> öffnet zuerst den Bauteil-Dialog und legt die markierten Objekte dann als ein Bauteil auf der aktuellen Seite ab. <b>Bibliothek → Eigenschaften…</b> zeigt Name, Datei und Extrafelder der Seite; „Eigenschaften…“ im Kontextmenü der Liste bearbeitet das markierte Bauteil.</p>
+<p><b>Bauteil → Bauteileinheit bilden…</b> macht aus mehreren Objekten oder einer Gruppe ein Bauteil mit Name, Kennung, Wert, Beschreibung und Extrafeldern. Kennungen mit <b>#</b> (etwa <b>R#</b>) erhalten eine laufende Nummer; <b>Bauteil → Neu nummerieren</b> vergibt sie in der Reihenfolge des Dokuments neu, auch für Bauteile innerhalb anderer Bauteile. Ein Doppelklick im <b>Objektbaum</b> öffnet die Eigenschaften, auch die eines verschachtelten Bauteils.</p>
+<p>Der <b>Assistent…</b> erzeugt Bauteile und Konturen aus Maßen. Wer LochMaster besitzt, kann dessen Bibliotheken über <b>Bibliothek → LochMaster-Bibliotheken einbinden…</b> zusätzlich anzeigen; sie werden nur gelesen. Im Bauteilordner (Dokumente/OpenLoch/Bauteile) wird jedes Bauteil als eigene Datei abgelegt; Unterordner erscheinen als Seiten.</p>
+
+<h2 id="bearbeiten">Bearbeiten und Anordnen</h2>
+<p><b>Bearbeiten</b> enthält Rückgängig und Wiederholen, die Zwischenablage, Duplizieren, Alles auswählen, Löschen, Eigenschaften und Konturknoten. Unter <b>Rückgängig-Aktionen…</b> wird die Zahl der Rückgängig-Schritte (1 bis 50) eingestellt.</p>
+<p><b>Anordnen</b> enthält Nach vorne und Nach hinten setzen, Auf andere Platinenseite setzen, Gruppe bilden und aufheben, Ausrichten (Links, Rechts, Oben, Unten, Mitte senkrecht, Mitte waagerecht, Bauteilanschlüsse an Platinenlöchern), Drehen (90° rechts, 90° links, 180°, Winkel…) und Spiegeln (Horizontal, Vertikal). Ein Rechtsklick auf ein Objekt öffnet dieselben Befehle als Kontextmenü.</p>
+
+<h2 id="leisten">Farben, Breite, Füllen, Kontur</h2>
+<p>Die Leisten unten wirken auf die markierten Objekte und auf neu gezeichnete:</p>
+<ul>
+<li><b>Farben:</b> linke Maustaste wählt die Linienfarbe (VG), rechte Maustaste die Füllfarbe (HG).</li>
+<li><b>Breite:</b> Farbfeld für die Linienfarbe und die Linienbreite von „unsichtbar“ bis 2 mm.</li>
+<li><b>Füllen:</b> Farbfeld für die Füllfarbe, „Flächen füllen“ und die Knöpfe BMP (Bitmapfüllung laden, auch PNG, GIF und JPEG) und ROT (Bitmapfüllung drehen).</li>
+<li><b>Fräsen:</b> Normale Kontur oder Kontur fräsen.</li>
+<li><b>Kontur:</b> ursprüngliche Kontur, B-Splines, Fasen und Rundungen mit einstellbarer Größe.</li>
+</ul>
+<p><b>Ansicht → Werkzeuge anzeigen</b> blendet jede Leiste einzeln ein und aus.</p>
+
+<h2 id="ansicht">Ansicht</h2>
+<p><b>Ansicht → Optionen</b> enthält die Schalter jeder Platine: S/W-Darstellung, Wenden (die Platine von unten, von oben nach unten gekippt), Durchsicht (die Lötseite bearbeiten, ohne zu spiegeln), Röntgenblick (die andere Seite durchscheinend), BMP-Rendering (Bitmapfüllungen und Lötstellen mit 3D-Bild), Potenziale anzeigen und Fonts glätten. <b>Lineale / Raster</b> wählt die Einheit N, inch oder mm und blendet die Lineale ein; der Knopf in der Ecke der Lineale schaltet die Einheit weiter (<span class="key">Strg+&lt;</span>). <b>Zoom</b> enthält Vergrößern, Verkleinern, Einpassen, Zoom Objekte, Markierte Objekte zoomen und die reale Größe.</p>
+
+<h2 id="pruefen">Prüfen</h2>
+<p>Der <b>Durchgangsprüfer</b> markiert alles, was mit dem angeklickten Kupfer verbunden ist. <b>Potenzial</b>-Marken geben Netzen einen Namen und eine Farbe; „Potenziale anzeigen“ färbt die Netze ein. Der Knopf <b>Freie Bereiche</b> zeigt, solange er gedrückt ist, Kupfer ohne Anschluss. <b>Prüfen → Kurzschlüsse prüfen</b> sucht Netze, die verschiedene Potenziale verbinden.</p>
+
+<h2 id="liste">Stückliste und Anmerkungen</h2>
+<p><b>Platine → Stückliste → Erstellen…</b> zeigt Stückliste, Einkaufsliste und Drahtbrücken; „Excel erzeugen…“ öffnet die Tabelle in der Tabellenkalkulation und legt sie zusätzlich in die Zwischenablage. <b>Platine → Anmerkungen…</b> öffnet einen Texteditor mit Formatierung; Stück- und Einkaufsliste lassen sich an der Schreibmarke einfügen.</p>
+
+<h2 id="dateien">Drucken, Exportieren, Sichern</h2>
+<p><b>Datei → Drucken…</b> öffnet die Druckvorschau mit bis zu zehn Ansichten je Platine, Ebenen, Maßstab, Lage, Kacheln, Schnittmarken und Korrekturfaktoren. <b>Datei → Exportieren</b> schreibt Grafiken (BMP, JPG, PNG), PDF, HPGL-Dateien zum Bohren und Fräsen, Bauteilbibliotheken, Platinenvorlagen und die Stückliste als CSV.</p>
+<p>Beim Öffnen einer LM4-Datei legt OpenLoch wie das Original eine Kopie <b>&lt;Name&gt;.OLD</b> an. <b>Datei → AutoSpeichern…</b> sichert das Projekt in einstellbarem Abstand als <b>&lt;Name&gt;.BAK</b> neben der Datei; eine geöffnete .BAK-Datei wird wieder zum Projekt. Zusätzlich hält OpenLoch ungespeicherte Änderungen für die Wiederherstellung nach einem Absturz bereit.</p>
+
+<h2 id="tasten">Tastenkürzel</h2>
+<table>
+<tr><td class="key">Strg+N / Strg+O / Strg+S</td><td>Neue Platine, Öffnen, Speichern</td></tr>
+<tr><td class="key">Strg+P</td><td>Drucken</td></tr>
+<tr><td class="key">Strg+Z / Strg+Umschalt+Z</td><td>Rückgängig, Wiederholen</td></tr>
+<tr><td class="key">Strg+X / Strg+C / Strg+V / Strg+D</td><td>Ausschneiden, Kopieren, Einfügen, Duplizieren</td></tr>
+<tr><td class="key">Entf</td><td>Löschen</td></tr>
+<tr><td class="key">R / Umschalt+R</td><td>90° rechts, 90° links drehen</td></tr>
+<tr><td class="key">M / Umschalt+M</td><td>Horizontal, vertikal spiegeln</td></tr>
+<tr><td class="key">Strg+] / Strg+[</td><td>Nach vorne, nach hinten setzen</td></tr>
+<tr><td class="key">Strg+G / Strg+U</td><td>Gruppe bilden, Gruppe aufheben</td></tr>
+<tr><td class="key">Strg+K / Strg+J</td><td>Bauteileinheit bilden, aufheben</td></tr>
+<tr><td class="key">Strg+I</td><td>Zur Bibliothek hinzufügen</td></tr>
+<tr><td class="key">Strg+E / Strg+Y / Strg+T / Strg+L</td><td>Eigenschaften der Platine, Layout bearbeiten, Anmerkungen, Stückliste</td></tr>
+<tr><td class="key">F5 / F6 / F</td><td>Vergrößern, Verkleinern, Einpassen</td></tr>
+<tr><td class="key">Strg+&lt;</td><td>Einheit umschalten</td></tr>
+<tr><td class="key">Pfeiltasten</td><td>Markierte Objekte um einen Rasterschritt verschieben (mit Umschalt zehn)</td></tr>
+<tr><td class="key">Umschalt beim Klicken</td><td>Ohne Raster platzieren</td></tr>
+<tr><td class="key">F1</td><td>Diese Hilfe</td></tr>
+</table>
+<p>Unter macOS steht ⌘ an Stelle von Strg.</p>
+</body>
+</html>

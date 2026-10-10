@@ -1,0 +1,216 @@
+{
+ "page": "Widerstände",
+ "page_en": "Resistors",
+ "position": 9,
+ "parts": [
+  {
+   "name": "Widerstand 0204",
+   "name_en": "Resistor 0204",
+   "id": "R#",
+   "value": "10k",
+   "package": "axial",
+   "pitch": 5,
+   "length": 3.6,
+   "diameter": 1.6,
+   "bands": true,
+   "look": {
+    "colour": "#7fa9d8",
+    "gloss": 0.45
+   },
+   "source": "Bauform 0204 (Metallschicht, Körper 3,6 × 1,6 mm), z. B. Vishay MBA 0204-Datenblatt"
+  },
+  {
+   "name": "Widerstand 0207",
+   "name_en": "Resistor 0207",
+   "id": "R#",
+   "value": "10k",
+   "package": "axial",
+   "pitch": 5,
+   "length": 6.3,
+   "diameter": 2.5,
+   "bands": true,
+   "caps": true,
+   "look": {
+    "colour": "#d8c79f",
+    "gloss": 0.35
+   },
+   "source": "Bauform 0207 (Körper 6,3 × 2,5 mm), z. B. Vishay MBB 0207-Datenblatt"
+  },
+  {
+   "name": "Widerstand 0411",
+   "name_en": "Resistor 0411",
+   "id": "R#",
+   "value": "10k",
+   "package": "axial",
+   "pitch": 5,
+   "length": 10.0,
+   "diameter": 3.8,
+   "bands": true,
+   "caps": true,
+   "lead": 0.7,
+   "look": {
+    "colour": "#86b0dc",
+    "gloss": 0.45
+   },
+   "source": "Bauform 0411/0414 (Körper ca. 10 × 3,8 mm), z. B. Vishay MBE 0414-Datenblatt"
+  },
+  {
+   "name": "Widerstand 0207",
+   "name_en": "Resistor 0207",
+   "description": "Widerstand 0207, stehend",
+   "description_en": "Resistor 0207, standing",
+   "id": "R#",
+   "value": "10k",
+   "package": "standing",
+   "pitch": 1,
+   "diameter": 2.5,
+   "look": {
+    "colour": "#d8c79f"
+   },
+   "source": "Bauform 0207 stehend (Ø 2,5 mm), Rastermaß 2,54 mm"
+  },
+  {
+   "name": "Widerstand 0411",
+   "name_en": "Resistor 0411",
+   "description": "Widerstand 0411, stehend",
+   "description_en": "Resistor 0411, standing",
+   "id": "R#",
+   "value": "10k",
+   "package": "standing",
+   "pitch": 1,
+   "diameter": 3.8,
+   "lead": 0.7,
+   "look": {
+    "colour": "#86b0dc"
+   },
+   "source": "Bauform 0411/0414 stehend (Ø 3,8 mm), Rastermaß 2,54 mm"
+  },
+  {
+   "name": "5 Watt",
+   "name_en": "5 watt",
+   "description": "Hochlastwiderstand 5 W",
+   "description_en": "Power resistor 5 W",
+   "id": "R#",
+   "value": "10R",
+   "package": "axial",
+   "pitch": 15,
+   "length": 22.0,
+   "diameter": 9.5,
+   "lead": 0.8,
+   "labels": [
+    "id",
+    "value"
+   ],
+   "look": {
+    "form": "box",
+    "colour": "#efece4",
+    "material": "ceramic",
+    "bevel": 0.1,
+    "gloss": 0.1
+   },
+   "source": "Zementwiderstand 5 W (Körper 22 × 9,5 mm), übliche Herstellerangaben",
+   "body": "rect",
+   "round": 0.6
+  },
+  {
+   "name": "4 Watt",
+   "name_en": "4 watt",
+   "description": "Hochlastwiderstand 4 W",
+   "description_en": "Power resistor 4 W",
+   "id": "R#",
+   "value": "10R",
+   "package": "axial",
+   "pitch": 13,
+   "length": 18.0,
+   "diameter": 8.0,
+   "lead": 0.8,
+   "labels": [
+    "id",
+    "value"
+   ],
+   "look": {
+    "form": "box",
+    "colour": "#efece4",
+    "material": "ceramic",
+    "bevel": 0.1,
+    "gloss": 0.1
+   },
+   "source": "Zementwiderstand 3–4 W (Körper 18 × 8 mm), übliche Herstellerangaben",
+   "body": "rect",
+   "round": 0.6
+  },
+  {
+   "name": "Leistungswiderstand",
+   "name_en": "Power resistor",
+   "description": "Hochlastwiderstand stehend",
+   "description_en": "Power resistor, standing",
+   "id": "R#",
+   "value": "10R",
+   "package": "box",
+   "pins": [
+    [
+     0,
+     0
+    ],
+    [
+     -5,
+     0
+    ]
+   ],
+   "width": 7.5,
+   "height": 7.5,
+   "centre": [
+    0,
+    0
+   ],
+   "labels": [
+    "id",
+    "value"
+   ],
+   "look": {
+    "form": "box",
+    "colour": "#efece4",
+    "material": "ceramic",
+    "bevel": 0.12,
+    "gloss": 0.1
+   },
+   "source": "Zementwiderstand stehend (Grundfläche ca. 7,5 × 7,5 mm), übliche Herstellerangaben"
+  },
+  {
+   "name": "R-Netzwerk SIP 4+1",
+   "name_en": "Resistor network SIP 4+1",
+   "id": "RN#",
+   "value": "10k",
+   "package": "inline",
+   "count": 5,
+   "margin": 1.27,
+   "across": 2.5,
+   "look": {
+    "colour": "#24262a",
+    "material": "epoxy",
+    "dot": true,
+    "gloss": 0.2
+   },
+   "source": "SIP-Widerstandsnetzwerk 5 Anschlüsse, Rastermaß 2,54 mm, Dicke 2,5 mm (Herstellerdatenblätter, z. B. Bourns 4600X)",
+   "axis": "y"
+  },
+  {
+   "name": "R-Netzwerk SIP 8+1",
+   "name_en": "Resistor network SIP 8+1",
+   "id": "RN#",
+   "value": "10k",
+   "package": "inline",
+   "count": 9,
+   "margin": 1.27,
+   "across": 2.5,
+   "look": {
+    "colour": "#24262a",
+    "material": "epoxy",
+    "dot": true,
+    "gloss": 0.2
+   },
+   "source": "SIP-Widerstandsnetzwerk 9 Anschlüsse, Rastermaß 2,54 mm, Dicke 2,5 mm (Herstellerdatenblätter, z. B. Bourns 4600X)",
+   "axis": "y"
+  }
+ ]
+}

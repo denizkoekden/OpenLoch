@@ -1,0 +1,29 @@
+{
+  "page": "Kondensatoren (ELKO)", "page_en": "Capacitors (electrolytic)", "position": 11,
+  "parts": [
+    {"name": "Elko 4,5 mm", "name_en": "Electrolytic capacitor 4.5 mm", "id": "C#", "value": "10µ", "package": "round", "pins": [[0, 0], [6, 0]], "diameter": 4.0,
+     "pin_names": ["+", "-"],
+     "polarity": ["+", ""], "labels": ["id", "value"], "labels_inside": false, "look": {"form": "elko", "colour": "#1d3f8f", "stripe": "right", "gloss": 0.45},
+     "source": "Radialer Alu-Elko Ø 4 mm, Bezeichnung 4,5 mm ≈ Hüllmaß D + 0,5 mm (übliche Gehäusedurchmesser nach Herstellerdatenblättern, z. B. Panasonic, Nichicon); Anschlussdrähte auf 15,24 mm gespreizt"},
+    {"name": "Elko 5,5 mm", "name_en": "Electrolytic capacitor 5.5 mm", "id": "C#", "value": "22µ", "package": "round", "pins": [[0, 0], [5, 0]], "diameter": 5.0,
+     "pin_names": ["+", "-"],
+     "polarity": ["+", ""], "labels": ["id", "value"], "labels_inside": false, "look": {"form": "elko", "colour": "#1d3f8f", "stripe": "right", "gloss": 0.45},
+     "source": "Radialer Alu-Elko Ø 5 mm, Bezeichnung 5,5 mm ≈ Hüllmaß D + 0,5 mm (übliche Gehäusedurchmesser nach Herstellerdatenblättern, z. B. Panasonic, Nichicon); Anschlussdrähte auf 12,7 mm gespreizt"},
+    {"name": "Elko 6,5 mm", "name_en": "Electrolytic capacitor 6.5 mm", "id": "C#", "value": "47µ", "package": "round", "pins": [[0, 0], [5, 0]], "diameter": 6.3,
+     "pin_names": ["+", "-"],
+     "polarity": ["+", ""], "labels": ["id", "value"], "labels_inside": false, "look": {"form": "elko", "colour": "#1d3f8f", "stripe": "right", "gloss": 0.45},
+     "source": "Radialer Alu-Elko Ø 6,3 mm, Bezeichnung 6,5 mm ≈ Hüllmaß D + 0,5 mm (übliche Gehäusedurchmesser nach Herstellerdatenblättern, z. B. Panasonic, Nichicon); Anschlussdrähte auf 12,7 mm gespreizt"},
+    {"name": "Elko 8,5 mm", "name_en": "Electrolytic capacitor 8.5 mm", "id": "C#", "value": "100µ", "package": "round", "pins": [[0, 0], [5, 0]], "diameter": 8.0,
+     "pin_names": ["+", "-"],
+     "polarity": ["+", ""], "labels": ["id", "value"], "labels_inside": false, "look": {"form": "elko", "colour": "#1d3f8f", "stripe": "right", "gloss": 0.45},
+     "source": "Radialer Alu-Elko Ø 8 mm, Bezeichnung 8,5 mm ≈ Hüllmaß D + 0,5 mm (übliche Gehäusedurchmesser nach Herstellerdatenblättern, z. B. Panasonic, Nichicon); Anschlussdrähte auf 12,7 mm gespreizt"},
+    {"name": "Elko 10,5 mm", "name_en": "Electrolytic capacitor 10.5 mm", "id": "C#", "value": "220µ", "package": "round", "pins": [[0, 0], [5, 0]], "diameter": 10.0,
+     "pin_names": ["+", "-"],
+     "polarity": ["+", ""], "labels": ["id", "value"], "labels_inside": false, "look": {"form": "elko", "colour": "#1d3f8f", "stripe": "right", "gloss": 0.45},
+     "source": "Radialer Alu-Elko Ø 10 mm, Bezeichnung 10,5 mm ≈ Hüllmaß D + 0,5 mm (übliche Gehäusedurchmesser nach Herstellerdatenblättern, z. B. Panasonic, Nichicon); Anschlussdrähte auf 12,7 mm gespreizt"},
+    {"name": "Elko 13 mm", "name_en": "Electrolytic capacitor 13 mm", "id": "C#", "value": "470µ", "package": "round", "pins": [[0, 0], [5, 0]], "diameter": 12.5,
+     "pin_names": ["+", "-"],
+     "polarity": ["+", ""], "labels": ["id", "value"], "labels_inside": false, "look": {"form": "elko", "colour": "#1d3f8f", "stripe": "right", "gloss": 0.45},
+     "source": "Radialer Alu-Elko Ø 12,5 mm, Bezeichnung 13 mm ≈ Hüllmaß D + 0,5 mm (übliche Gehäusedurchmesser nach Herstellerdatenblättern, z. B. Panasonic, Nichicon); Anschlussdrähte auf 12,7 mm gespreizt"}
+  ]
+}

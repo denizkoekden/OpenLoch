@@ -1,0 +1,97 @@
+name: Native builds
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-14
+            qt: '6.11.2'
+          - os: windows-2022
+            # aqt 3.3 cannot read the Windows Qt 6.11 repository layout yet.
+            qt: '6.8.3'
+          - os: ubuntu-24.04
+            qt: '6.11.2'
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ matrix.qt }}
+          cache: true
+      - name: Configure
+        if: runner.os != 'macOS'
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+      - name: Configure universal macOS
+        if: runner.os == 'macOS'
+        run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release '-DCMAKE_OSX_ARCHITECTURES=arm64;x86_64'
+      - name: Build
+        run: cmake --build build --config Release --parallel 4
+      - name: Test
+        run: ctest --test-dir build -C Release --output-on-failure
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate perfboard examples
+        run: python tools/validate_perfboard_examples.py
+      - name: Diagnose macOS test crash
+        if: failure() && runner.os == 'macOS'
+        timeout-minutes: 2
+        env:
+          QT_QPA_PLATFORM: offscreen
+        run: lldb --batch -o run -k 'thread backtrace all' -- build/openloch_editor_tests
+      - name: Bundle macOS
+        if: runner.os == 'macOS'
+        run: |
+          macdeployqt build/OpenLoch.app
+          codesign --force --deep --sign - build/OpenLoch.app
+          codesign --verify --deep --strict build/OpenLoch.app
+          python3 tools/check_macos_bundle.py build/OpenLoch.app
+          ditto -c -k --sequesterRsrc --keepParent build/OpenLoch.app build/OpenLoch-macOS.zip
+          bash scripts/package-macos.sh build/OpenLoch.app build/OpenLoch-macOS.dmg
+      - name: Bundle Windows
+        if: runner.os == 'Windows'
+        run: |
+          New-Item -ItemType Directory -Force build/package
+          Copy-Item build/Release/OpenLoch.exe build/package/
+          windeployqt --release --no-translations build/package/OpenLoch.exe
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Compress-Archive -Path build/package/* -DestinationPath build/OpenLoch-Windows.zip
+      - name: Archive Linux binary
+        if: runner.os == 'Linux'
+        run: tar -czf build/OpenLoch-Linux.tar.gz -C build OpenLoch
+      # An AppImage with Qt inside; the headless export checks that the bundled libraries and plugins load.
+      - name: Package Linux AppImage
+        if: runner.os == 'Linux'
+        env:
+          APPIMAGE_EXTRACT_AND_RUN: 1
+          EXTRA_PLATFORM_PLUGINS: libqoffscreen.so
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick libxcb-cursor0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-render-util0 libxcb-shape0 libxcb-xinerama0 libxcb-xkb1 libxkbcommon-x11-0
+          export QMAKE="$(command -v qmake6 || command -v qmake)"
+          mkdir -p build/tools AppDir/usr/bin
+          curl -fsSL -o build/tools/linuxdeploy https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+          curl -fsSL -o build/tools/linuxdeploy-plugin-qt https://github.com/linuxdeploy/linuxdeploy-plugin-qt/releases/download/continuous/linuxdeploy-plugin-qt-x86_64.AppImage
+          chmod +x build/tools/linuxdeploy build/tools/linuxdeploy-plugin-qt
+          export PATH="$PWD/build/tools:$PATH"
+          cp build/OpenLoch AppDir/usr/bin/OpenLoch
+          convert assets/openloch.png -resize 256x256 build/openloch.png
+          linuxdeploy --appdir AppDir -e AppDir/usr/bin/OpenLoch -d packaging/linux/openloch.desktop -i build/openloch.png --plugin qt --output appimage
+          mv OpenLoch*.AppImage build/OpenLoch-Linux-x86_64.AppImage
+          QT_QPA_PLATFORM=offscreen build/OpenLoch-Linux-x86_64.AppImage --render build/appimage-check.png examples/perfboard/01-Zweitransistor-Blinklicht.LM4
+          test -s build/appimage-check.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: OpenLoch-${{ matrix.os }}
+          path: |
+            build/OpenLoch-macOS.zip
+            build/OpenLoch-macOS.dmg
+            build/OpenLoch-Windows.zip
+            build/OpenLoch-Linux.tar.gz
+            build/OpenLoch-Linux-x86_64.AppImage
+          if-no-files-found: error

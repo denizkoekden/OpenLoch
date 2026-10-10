@@ -1,0 +1,1074 @@
+{
+    "additions": [
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 762,
+            "x2": 762,
+            "y": 762,
+            "y2": 1270,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 762,
+            "x2": 2540,
+            "y": 762,
+            "y2": 762,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 762,
+            "x2": 762,
+            "y": 1270,
+            "y2": 5334,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 762,
+            "x2": 1270,
+            "y": 1270,
+            "y2": 1270,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 762,
+            "x2": 762,
+            "y": 5334,
+            "y2": 5588,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 762,
+            "x2": 1778,
+            "y": 5334,
+            "y2": 5334,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 762,
+            "x2": 1016,
+            "y": 6096,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 1016,
+            "x2": 1016,
+            "y": 5588,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 1016,
+            "x2": 2032,
+            "y": 6096,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 1270,
+            "x2": 1270,
+            "y": 2286,
+            "y2": 3048,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 1524,
+            "x2": 1524,
+            "y": 3048,
+            "y2": 3810,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 1524,
+            "x2": 1524,
+            "y": 3810,
+            "y2": 4318,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 1524,
+            "x2": 3048,
+            "y": 3810,
+            "y2": 3810,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 1778,
+            "x2": 1778,
+            "y": 4064,
+            "y2": 4318,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 1778,
+            "x2": 3556,
+            "y": 4064,
+            "y2": 4064,
+            "z": 25
+        },
+        {
+            "back": false,
+            "color": "#16843c",
+            "type": "wire",
+            "width": 35,
+            "x": 1778,
+            "x2": 2286,
+            "y": 5334,
+            "y2": 5334,
+            "z": 55
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 2032,
+            "x2": 2032,
+            "y": 4318,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 2032,
+            "x2": 3048,
+            "y": 6096,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 2286,
+            "x2": 2286,
+            "y": 2032,
+            "y2": 2540,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 2286,
+            "x2": 4572,
+            "y": 2032,
+            "y2": 2032,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 2286,
+            "x2": 3302,
+            "y": 2540,
+            "y2": 2540,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 2286,
+            "x2": 2540,
+            "y": 5334,
+            "y2": 5334,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 2540,
+            "x2": 2540,
+            "y": 762,
+            "y2": 1270,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 2540,
+            "x2": 4572,
+            "y": 762,
+            "y2": 762,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 2540,
+            "x2": 3556,
+            "y": 2286,
+            "y2": 2286,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 2540,
+            "x2": 2540,
+            "y": 5080,
+            "y2": 5334,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 2540,
+            "x2": 4826,
+            "y": 5080,
+            "y2": 5080,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 3048,
+            "x2": 3048,
+            "y": 5334,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 3048,
+            "x2": 5080,
+            "y": 6096,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 3302,
+            "x2": 3302,
+            "y": 2540,
+            "y2": 3810,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 3556,
+            "x2": 3556,
+            "y": 2286,
+            "y2": 4064,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 3556,
+            "x2": 4826,
+            "y": 4064,
+            "y2": 4064,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 4572,
+            "x2": 4572,
+            "y": 762,
+            "y2": 1270,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 4572,
+            "x2": 5842,
+            "y": 762,
+            "y2": 762,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 4572,
+            "x2": 4572,
+            "y": 2032,
+            "y2": 2286,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 4572,
+            "x2": 6350,
+            "y": 2032,
+            "y2": 2032,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 4572,
+            "x2": 4572,
+            "y": 3556,
+            "y2": 3810,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 4572,
+            "x2": 6096,
+            "y": 3556,
+            "y2": 3556,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 4826,
+            "x2": 4826,
+            "y": 3810,
+            "y2": 4064,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 4826,
+            "x2": 4826,
+            "y": 5080,
+            "y2": 5334,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 5080,
+            "x2": 5080,
+            "y": 5334,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 5080,
+            "x2": 6604,
+            "y": 6096,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 5842,
+            "x2": 5842,
+            "y": 762,
+            "y2": 1270,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#b52e2e",
+            "type": "wire",
+            "width": 35,
+            "x": 5842,
+            "x2": 7366,
+            "y": 762,
+            "y2": 762,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 5842,
+            "x2": 5842,
+            "y": 2286,
+            "y2": 3048,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 6096,
+            "x2": 6096,
+            "y": 3048,
+            "y2": 3556,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 6096,
+            "x2": 6096,
+            "y": 3556,
+            "y2": 4318,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#287bba",
+            "type": "wire",
+            "width": 35,
+            "x": 6350,
+            "x2": 6350,
+            "y": 2032,
+            "y2": 4318,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 6604,
+            "x2": 6604,
+            "y": 4318,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "back": true,
+            "color": "#333333",
+            "type": "wire",
+            "width": 35,
+            "x": 6604,
+            "x2": 7366,
+            "y": 6096,
+            "y2": 6096,
+            "z": 25
+        },
+        {
+            "angle": 0,
+            "description": "Stiftleiste 2-pol RM2.54",
+            "id": "J1",
+            "index": 5,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "5 V DC",
+            "x": 1016,
+            "y": 5588,
+            "z": 50
+        },
+        {
+            "angle": 0,
+            "description": "BC547 TO92; flach unten; C B E",
+            "id": "Q1",
+            "index": 3,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "BC547B",
+            "x": 1778,
+            "y": 4064,
+            "z": 50.001
+        },
+        {
+            "angle": 0,
+            "description": "BC547 TO92; flach unten; C B E",
+            "id": "Q2",
+            "index": 3,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "BC547B",
+            "x": 6350,
+            "y": 4064,
+            "z": 50.002
+        },
+        {
+            "angle": 90,
+            "description": "0207 axial 10.16 mm",
+            "id": "R1",
+            "index": 0,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "470R",
+            "x": 1270,
+            "y": 1778,
+            "z": 50.003
+        },
+        {
+            "angle": 90,
+            "description": "0207 axial 10.16 mm",
+            "id": "R2",
+            "index": 0,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "470R",
+            "x": 5842,
+            "y": 1778,
+            "z": 50.004
+        },
+        {
+            "angle": 0,
+            "description": "LED 5 mm; A links, K rechts",
+            "id": "D1",
+            "index": 1,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "LED rot 5 mm",
+            "x": 1270,
+            "y": 3048,
+            "z": 50.005
+        },
+        {
+            "angle": 0,
+            "description": "LED 5 mm; A links, K rechts",
+            "id": "D2",
+            "index": 1,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "LED rot 5 mm",
+            "x": 5842,
+            "y": 3048,
+            "z": 50.006
+        },
+        {
+            "angle": 90,
+            "description": "0207 axial 10.16 mm",
+            "id": "R3",
+            "index": 0,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "47k",
+            "x": 2540,
+            "y": 1778,
+            "z": 50.007
+        },
+        {
+            "angle": 90,
+            "description": "0207 axial 10.16 mm",
+            "id": "R4",
+            "index": 0,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "47k",
+            "x": 4572,
+            "y": 1778,
+            "z": 50.008
+        },
+        {
+            "angle": 0,
+            "description": "Bipolar-Elko D<=6.3 mm; RM2.54",
+            "id": "C1",
+            "index": 8,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "10uF bipolar/25V",
+            "x": 3302,
+            "y": 3810,
+            "z": 50.009
+        },
+        {
+            "angle": 0,
+            "description": "Bipolar-Elko D<=6.3 mm; RM2.54",
+            "id": "C2",
+            "index": 8,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "10uF bipolar/25V",
+            "x": 4826,
+            "y": 3810,
+            "z": 50.01
+        },
+        {
+            "angle": 0,
+            "description": "Keramik RM5.08 mm",
+            "id": "C3",
+            "index": 4,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "100nF",
+            "x": 2794,
+            "y": 5334,
+            "z": 50.011
+        },
+        {
+            "angle": 0,
+            "description": "Elko radial D<=6.3 mm; + links",
+            "id": "C4",
+            "index": 2,
+            "library": "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85",
+            "type": "component",
+            "value": "47uF/16V",
+            "x": 5080,
+            "y": 5334,
+            "z": 50.012
+        },
+        {
+            "color": "#151515",
+            "text": "J1",
+            "textSize": 115,
+            "type": "text",
+            "x": 737,
+            "y": 5207,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "Q1",
+            "textSize": 115,
+            "type": "text",
+            "x": 1499,
+            "y": 3683,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "Q2",
+            "textSize": 115,
+            "type": "text",
+            "x": 6071,
+            "y": 3683,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "R1",
+            "textSize": 115,
+            "type": "text",
+            "x": 1460,
+            "y": 1676,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "R2",
+            "textSize": 115,
+            "type": "text",
+            "x": 6032,
+            "y": 1676,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "D1",
+            "textSize": 115,
+            "type": "text",
+            "x": 1245,
+            "y": 2667,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "D2",
+            "textSize": 115,
+            "type": "text",
+            "x": 5817,
+            "y": 2667,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "R3",
+            "textSize": 115,
+            "type": "text",
+            "x": 2730,
+            "y": 1676,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "R4",
+            "textSize": 115,
+            "type": "text",
+            "x": 4762,
+            "y": 1676,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "C1",
+            "textSize": 115,
+            "type": "text",
+            "x": 3023,
+            "y": 3429,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "C2",
+            "textSize": 115,
+            "type": "text",
+            "x": 4547,
+            "y": 3429,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "C3",
+            "textSize": 115,
+            "type": "text",
+            "x": 2515,
+            "y": 4953,
+            "z": 70
+        },
+        {
+            "color": "#151515",
+            "text": "C4",
+            "textSize": 115,
+            "type": "text",
+            "x": 4801,
+            "y": 4953,
+            "z": 70
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 762,
+            "y": 5588,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 1016,
+            "y": 5588,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 1524,
+            "y": 4318,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 1778,
+            "y": 4318,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 2032,
+            "y": 4318,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 6096,
+            "y": 4318,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 6350,
+            "y": 4318,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 6604,
+            "y": 4318,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 1270,
+            "y": 1270,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 1270,
+            "y": 2286,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 5842,
+            "y": 1270,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 5842,
+            "y": 2286,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 1270,
+            "y": 3048,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 1524,
+            "y": 3048,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 5842,
+            "y": 3048,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 6096,
+            "y": 3048,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 2540,
+            "y": 1270,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 2540,
+            "y": 2286,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 4572,
+            "y": 1270,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 4572,
+            "y": 2286,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 3048,
+            "y": 3810,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 3302,
+            "y": 3810,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 4572,
+            "y": 3810,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 4826,
+            "y": 3810,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 2540,
+            "y": 5334,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 3048,
+            "y": 5334,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 4826,
+            "y": 5334,
+            "z": 60
+        },
+        {
+            "color": "#c18435",
+            "type": "pin",
+            "width": 35,
+            "x": 5080,
+            "y": 5334,
+            "z": 60
+        }
+    ],
+    "boardSource": "",
+    "edits": {
+    },
+    "format": "OpenLoch",
+    "height": 8000,
+    "libraries": {
+        "6e0a9c6c7874964f8e972568212a0f5ef4535397f57e750c76981fdb423ebd85": {
+            "data": "Gk9wZW5Mb2NoIFByYXhpcyBGb290cHJpbnRzAAAAAAAAAAAAADMuMDgECQAAABQHAAAAVEdydXBwZQQIAAAABA8AAAAwMDAAzMzMAAgIBAEAAAAAAAAAAAAAAPgDAAAAAAAACAgIBAAAAAAFAAAAAAAAAAAAAAgEAgAAAAJYIwAAAAAAAAAAAT8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATMDIwNyBheGlhbCAxMC4xNiBtbQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACQkUBgAAAFREcmFodAQJAAAABCMAAACgoKAAoKCgAAgIBAAAAAAAAAAAAAAAAAgICAQAAAAABQAAAAAAAAAAAAAIBAEAAAAAAAAAAAAAAMsAAAAAAAAACBQGAAAAVERyYWh0BAkAAAAEIwAAAKCgoACgoKAACAgEAAAAAPgDAAAAAAAACAgIBAAAAAAFAAAAAAAAAAAAAAgEAQAAAPgDAAAAAAAALQMAAAAAAAAIFAYAAABURHJhaHQEBgAAAAQPAAAAODg4AP/05gAJCAT/////CAgIBAAAAAAFAAAAAAAAAAAAAAgEBAAAAMsAAACB////LQMAAIH///8tAwAAfwAAAMsAAAB/AAAAywAAAIH///8IFAcAAABUR3J1cHBlBAgAAAAEDwAAADAwMADMzMwACAgEAQAAAAAAAAAAAAAA/gAAAAAAAAAICAgEAAAAAAUAAAAAAAAAAAAACAQEAAAAAlgjAAAAAAAAAAABPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABtMRUQgNSBtbTsgQSBsaW5rcywgSyByZWNodHMAAAAAAAAAAAAAAAAAAQAJCRQGAAAAVERyYWh0BAYAAAAEDwAAADg4OADdREQACQgE/////wgICAQAAAAABQAAAAAAAAAAAAAIBCAAAAB4AQAAAAAAAHMBAAAxAAAAZQEAAF8AAABOAQAAigAAAC8BAACwAAAACQEAAM8AAADeAAAA5gAAALAAAAD0AAAAfwAAAPkAAABOAAAA9AAAACAAAADmAAAA9f///88AAADP////sAAAALD///+KAAAAmf///18AAACL////MQAAAIb///8AAAAAi////8////+Z////of///7D///92////z////1D////1////Mf///yAAAAAa////TgAAAAz///9/AAAAB////7AAAAAM////3gAAABr///8JAQAAMf///y8BAABQ////TgEAAHb///9lAQAAof///3MBAADP////eAEAAAAAAAAIFAYAAABURHJhaHQECQAAAAQjAAAAoKCgAKCgoAAICAQAAAAAAAAAAAAAAAAICAgEAAAAAAUAAAAAAAAAAAAACAQBAAAAAAAAAAAAAAAAAAAA2v///wgUBgAAAFREcmFodAQJAAAABCMAAACgoKAAoKCgAAgIBAAAAAD+AAAAAAAAAAgICAQAAAAABQAAAAAAAAAAAAAIBAEAAAD+AAAAAAAAAP4AAADa////CBQKAAAAVFRleHRMYWJlbAQKAAAABA8AAAAwMDAAzMzMAAgIBP////8ICAgEAAAAAAUAAAAAAAAAAAAACGj////LAAAAGAQAAEMBAAAEZAAAAAUAAAAAAAAAAAAABQAAAAAAAAAAAAAUAQAAAEEACAgUBQAAAEFyaWFsCAgICBQKAAAAVFRleHRMYWJlbAQKAAAABA8AAAAwMDAAzMzMAAgIBP////8ICAgEAAAAAAUAAAAAAAAAAAAACP4AAADLAAAArgUAAEMBAAAEZAAAAAUAAAAAAAAAAAAABQAAAAAAAAAAAAAUAQAAAEsACAgUBQAAAEFyaWFsCAgICBQHAAAAVEdydXBwZQQIAAAABA8AAAAwMDAAzMzMAAgIBAEAAAAAAAAAAAAAAP4AAAAAAAAACAgIBAAAAAAFAAAAAAAAAAAAAAgEBAAAAAJYIwAAAAAAAAAAAT8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeRWxrbyByYWRpYWwgRDw9Ni4zIG1tOyArIGxpbmtzAAAAAAAAAAAAAAEACQkUBgAAAFREcmFodAQGAAAABA8AAAA4ODgAVVVVAAkIBP////8ICAgEAAAAAAUAAAAAAAAAAAAACAQgAAAAugEAAAAAAAC0AQAAPQAAAKIBAAB5AAAAhQEAAK8AAABeAQAA3wAAAC4BAAAGAQAA+AAAACMBAAC8AAAANQEAAH8AAAA7AQAAQgAAADUBAAAGAAAAIwEAAND///8GAQAAoP///98AAAB5////rwAAAFz///95AAAASv///z0AAABE////AAAAAEr////D////XP///4f///95////Uf///6D///8h////0P////r+//8GAAAA3f7//0IAAADL/v//fwAAAMX+//+8AAAAy/7///gAAADd/v//LgEAAPr+//9eAQAAIf///4UBAABR////ogEAAIf///+0AQAAw////7oBAAAAAAAACBQGAAAAVERyYWh0BAkAAAAEIwAAAKCgoACgoKAACAgEAAAAAAAAAAAAAAAACAgIBAAAAAAFAAAAAAAAAAAAAAgEAQAAAAAAAAAAAAAAAAAAAM3///8IFAYAAABURHJhaHQECQAAAAQjAAAAoKCgAKCgoAAICAQAAAAA/gAAAAAAAAAICAgEAAAAAAUAAAAAAAAAAAAACAQBAAAA/gAAAAAAAAD+AAAAzf///wgUCgAAAFRUZXh0TGFiZWwECgAAAAQPAAAAMDAwAMzMzAAICAT/////CAgIBAAAAAAFAAAAAAAAAAAAAAiB////ywAAADEEAABDAQAABGQAAAAFAAAAAAAAAAAAAAUAAAAAAAAAAAAAFAEAAAArAAgIFAUAAABBcmlhbAgICAgUCgAAAFRUZXh0TGFiZWwECgAAAAQPAAAAMDAwAMzMzAAICAT/////CAgIBAAAAAAFAAAAAAAAAAAAAAj+AAAAywAAAK4FAABDAQAABGQAAAAFAAAAAAAAAAAAAAUAAAAAAAAAAAAAFAEAAAAtAAgIFAUAAABBcmlhbAgICAgUBwAAAFRHcnVwcGUECAAAAAQPAAAAMDAwAMzMzAAICAQCAAAAAAAAAAAAAAD+AAAAAAAAAPwBAAAAAAAACAgIBAAAAAAFAAAAAAAAAAAAAAgEBgAAAAJYIwAAAAAAAAAAAT8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeQkM1NDcgVE85MjsgZmxhY2ggdW50ZW47IEMgQiBFAAAAAAAAAAAAAAEACQkUBgAAAFREcmFodAQGAAAABA8AAAA4ODgAMzMzAAkIBP////8ICAgEAAAAAAUAAAAAAAAAAAAACAQHAAAAAAAAAOn+//9MAAAAHf7///4AAADr/f//sAEAAB3+///8AQAA6f7///wBAACB////AAAAAIH///8AAAAA6f7//wgUBgAAAFREcmFodAQJAAAABCMAAACgoKAAoKCgAAgIBAAAAAAAAAAAAAAAAAgI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AET///8AAAAASv///8P///9c////h////3n///9R////oP///yH////Q////+v7//wYAAADd/v//QgAAAMv+//9/AAAAxf7//7wAAADL/v//+AAAAN3+//8uAQAA+v7//14BAAAh////hQEAAFH///+iAQAAh////7QBAADD////ugEAAAAAAAAIFAYAAABURHJhaHQECQAAAAQjAAAAoKCgAKCgoAAICAQAAAAAAAAAAAAAAAAICAgEAAAAAAUAAAAAAAAAAAAACAQBAAAAAAAAAAAAAAAAAAAAzf///wgUBgAAAFREcmFodAQJAAAABCMAAACgoKAAoKCgAAgIBAAAAAD+AAAAAAAAAAgICAQAAAAABQAAAAAAAAAAAAAIBAEAAAD+AAAAAAAAAP4AAADN////CBQKAAAAVFRleHRMYWJlbAQKAAAABA8AAAAwMDAAzMzMAAgIBP////8ICAgEAAAAAAUAAAAAAAAAAAAACAAAAAClAAAAsAQAAB0BAAAEZAAAAAUAAAAAAAAAAAAABQAAAAAAAAAAAAAUAgAAAEJQAAgIFAUAAABBcmlhbAgICAgEAAAAAAQgTgAABCBOAAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA",
+            "kind": "lib",
+            "name": "OpenLoch-Praxis-Footprints.LIB"
+        }
+    },
+    "mode": "board",
+    "moves": {
+    },
+    "notes": "Astabiler Multivibrator auf 100 x 80 mm Standard-Punktraster, 5 V DC. Zwei rote LEDs mit je 470 Ohm. R3/R4=47 kOhm, C1/C2=10 uF BIPOLAR, Durchmesser maximal 6,3 mm. Versorgung geregelt 5 V, maximal 5,25 V. Nicht durch 9 V ersetzen. Die tatsaechliche Blinkzeit haengt auch von LED und Transistormodell ab, siehe Pruefbericht.\n\nEinseitige Punktrasterplatine mit EINZELNEN isolierten Loetaugen, RM 2,54 mm. Unterseite: gerade verzinnte Draehte, am Knick und Abzweig verloeten. Oberseite: gruene isolierte Drahtbruecken, nur Enden abisolieren. Keine Streifenrasterplatine! Koordinaten immer von der Bestueckungsseite, erste tatsaechliche Lochspalte/-reihe ist 1. Hersteller-Randversatz beachten.\nBC547: C-B-E von links nach rechts bei flacher Seite zum unteren Platinenrand; Beine auf 2,54 mm auffaechern. LED: A links, K rechts. Polare Elkos: Plus links. C1/C2 des Blinklichts sind bipolar. IC-Ausrichtung siehe schaltungsspezifische Hinweise.",
+    "notesEdited": true,
+    "originalBase64": "",
+    "sourceKind": "",
+    "sourceName": "",
+    "title": "01-Zweitransistor-Blinklicht",
+    "version": 1,
+    "width": 10000
+}

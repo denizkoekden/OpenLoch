@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>OpenLoch – Help</title>
+<style>
+body{font-family:sans-serif;line-height:1.45;margin:12px 18px;}
+h1{font-size:20px;}h2{font-size:16px;margin-top:22px;border-bottom:1px solid #ccc;padding-bottom:2px;}
+td,th{padding:2px 10px 2px 0;vertical-align:top;text-align:left;}
+.key{font-family:monospace;white-space:nowrap;}
+</style></head>
+<body>
+<h1>OpenLoch – Help</h1>
+<p>OpenLoch designs perfboards and stripboards. Its handling and files follow LochMaster 4: projects are saved as <b>.LM4</b>, templates and libraries are read and written as <b>.LMB</b> and <b>.LIB</b>.</p>
+<p><a href="#start">Getting started</a> · <a href="#board">Board</a> · <a href="#draw">Drawing</a> · <a href="#parts">Components and library</a> · <a href="#edit">Edit and arrange</a> · <a href="#bars">Colours, width, fill, outline</a> · <a href="#view">View</a> · <a href="#check">Checking</a> · <a href="#list">Components list and notes</a> · <a href="#files">Print, export, backups</a> · <a href="#keys">Shortcuts</a></p>
+
+<h2 id="start">Getting started</h2>
+<ol>
+<li><b>File → New board…</b> creates a board; <b>File → Open…</b> loads a project, a template, a library or a backup file.</li>
+<li>Choose a page in the component panel on the left, click a component and click on the board or drag it there. Components snap with their reference point onto a hole.</li>
+<li>Use the tools on the left for wires, leads, solder joints, strip cuts and drill holes.</li>
+<li><b>File → Save</b> writes the project as .LM4 like LochMaster. OpenLoch's own .openloch format can be chosen under “Save as…”.</li>
+</ol>
+
+<h2 id="board">Board</h2>
+<p><b>Board → Properties…</b> holds the name and size, the hole pitch of the unit N, the snap grids of the units mm and inch, the origin, the offset between board and copper and the board's extra fields. A project can hold several boards; they appear as tabs below the drawing area. Adding, duplicating, renaming, ordering, turning and deleting are in the <b>Board</b> menu and in the tabs' context menu.</p>
+<p><b>Edit layout…</b> opens the board's copper (strips, pads, holes). The <b>Origin</b> tool sets the zero point of the rulers and the grid.</p>
+
+<h2 id="draw">Drawing</h2>
+<p>The tool palette on the left holds, from top to bottom: select, zoom, lines, circle, rectangle, polygon, text, wire, pin, lead, solder joint, strip cut, drill, potential, continuity tester, origin and pad. Lines and polygons are set point by point and finished with Return or a double click; <span class="key">Esc</span> or a right click ends the tool.</p>
+<p>Like the original, choosing a tool sets its colour and width: wires silver at 0.4 mm, lines and areas black at 0.1 mm, pins white at 0.6 mm, texts black on yellow.</p>
+<p>Objects snap to the grid of the chosen unit, counted from the origin: in N to the hole pitch, in mm and inch to their grids. Holding <span class="key">Shift</span> places without snapping. Wires also snap to terminals and holes.</p>
+
+<h2 id="parts">Components and library</h2>
+<p>The library holds all pages of the LochMaster library, drawn anew, and pages with modern components. Own pages are created with <b>Library → New page…</b>; <b>Component → Add to library…</b> first opens the component dialog and then puts the marked objects onto the current page as one component. <b>Library → Properties…</b> shows the page's name, file and extra fields; “Properties…” in the list's context menu edits the marked component.</p>
+<p><b>Component → Create component…</b> turns several objects or a group into a component with name, identifier, value, description and extra fields. Identifiers with <b>#</b> (such as <b>R#</b>) get a running number; <b>Component → Renumber</b> numbers them anew in the order of the document, also inside other components. A double click in the <b>object tree</b> opens the properties, also those of a nested component.</p>
+<p>The <b>Wizard…</b> creates components and outlines from dimensions. Owners of LochMaster can show its libraries as well with <b>Library → Connect LochMaster libraries…</b>; they are only read. The component folder (Documents/OpenLoch/Bauteile) keeps each component as a file of its own; subfolders appear as pages.</p>
+
+<h2 id="edit">Edit and arrange</h2>
+<p><b>Edit</b> holds undo and redo, the clipboard, duplicate, select all, delete, properties and outline nodes. <b>Undo steps…</b> sets how many steps can be undone (1 to 50).</p>
+<p><b>Arrange</b> holds bring to front and send to back, move to the other board side, group and ungroup, align (left, right, top, bottom, centre vertically, centre horizontally, component pins to board holes), rotate (90° right, 90° left, 180°, angle…) and mirror (horizontal, vertical). A right click on an object opens the same commands as a context menu.</p>
+
+<h2 id="bars">Colours, width, fill, outline</h2>
+<p>The toolbars at the bottom act on the marked objects and on new ones:</p>
+<ul>
+<li><b>Colours:</b> the left mouse button chooses the line colour (FG), the right one the fill colour (BG).</li>
+<li><b>Width:</b> swatch for the line colour and the line width from “invisible” to 2 mm.</li>
+<li><b>Fill:</b> swatch for the fill colour, “Fill areas” and the buttons BMP (load a bitmap fill, also PNG, GIF and JPEG) and ROT (turn the bitmap fill).</li>
+<li><b>Milling:</b> normal outline or milled outline.</li>
+<li><b>Outline:</b> original outline, B-splines, chamfers and roundings with a chosen size.</li>
+</ul>
+<p><b>View → Show toolbars</b> shows and hides each toolbar.</p>
+
+<h2 id="view">View</h2>
+<p><b>View → Options</b> holds the switches of each board: B/W display, flip (the board seen from below, turned top to bottom), see-through (edit the solder side without mirroring), x-ray view (the other side shown faintly), BMP rendering (bitmap fills and solder joints with a 3D picture), show potentials and smooth fonts. <b>Rulers / grid</b> chooses the unit N, inch or mm and shows the rulers; the button in the rulers' corner switches the unit (<span class="key">Ctrl+&lt;</span>). <b>Zoom</b> holds zoom in, zoom out, fit, zoom objects, zoom selected objects and real size 1:1.</p>
+
+<h2 id="check">Checking</h2>
+<p>The <b>continuity tester</b> marks everything connected to the clicked copper. <b>Potential</b> markers give nets a name and a colour; “Show potentials” colours the nets. The <b>Free areas</b> button shows copper without any terminal while it is held. <b>Check → Check for shorts</b> finds nets that join different potentials.</p>
+
+<h2 id="list">Components list and notes</h2>
+<p><b>Board → Components list → Create…</b> shows the components list, the shopping list and the jumpers; “Create Excel sheet…” opens the table in the spreadsheet program and also puts it on the clipboard. <b>Board → Notes…</b> opens a text editor with formatting; parts and shopping lists can be inserted at the caret.</p>
+
+<h2 id="files">Print, export, backups</h2>
+<p><b>File → Print…</b> opens the print preview with up to ten views per board, layers, scale, position, tiles, cut marks and correction factors. <b>File → Export</b> writes pictures (BMP, JPG, PNG), PDF, HPGL files for drilling and milling, component libraries, board templates and the components list as CSV.</p>
+<p>When an LM4 file is opened, OpenLoch keeps a copy <b>&lt;name&gt;.OLD</b> like the original. <b>File → Auto save…</b> backs the project up at a chosen interval as <b>&lt;name&gt;.BAK</b> next to its file; an opened .BAK file becomes the project again. OpenLoch also keeps unsaved changes for recovery after a crash.</p>
+
+<h2 id="keys">Shortcuts</h2>
+<table>
+<tr><td class="key">Ctrl+N / Ctrl+O / Ctrl+S</td><td>New board, open, save</td></tr>
+<tr><td class="key">Ctrl+P</td><td>Print</td></tr>
+<tr><td class="key">Ctrl+Z / Ctrl+Shift+Z</td><td>Undo, redo</td></tr>
+<tr><td class="key">Ctrl+X / Ctrl+C / Ctrl+V / Ctrl+D</td><td>Cut, copy, paste, duplicate</td></tr>
+<tr><td class="key">Del</td><td>Delete</td></tr>
+<tr><td class="key">R / Shift+R</td><td>Rotate 90° right, 90° left</td></tr>
+<tr><td class="key">M / Shift+M</td><td>Mirror horizontally, vertically</td></tr>
+<tr><td class="key">Ctrl+] / Ctrl+[</td><td>Bring to front, send to back</td></tr>
+<tr><td class="key">Ctrl+G / Ctrl+U</td><td>Group, ungroup</td></tr>
+<tr><td class="key">Ctrl+K / Ctrl+J</td><td>Create, dissolve component</td></tr>
+<tr><td class="key">Ctrl+I</td><td>Add to library</td></tr>
+<tr><td class="key">Ctrl+E / Ctrl+Y / Ctrl+T / Ctrl+L</td><td>Board properties, edit layout, notes, components list</td></tr>
+<tr><td class="key">F5 / F6 / F</td><td>Zoom in, zoom out, fit</td></tr>
+<tr><td class="key">Ctrl+&lt;</td><td>Switch the unit</td></tr>
+<tr><td class="key">Arrow keys</td><td>Move the marked objects by one grid step (ten with Shift)</td></tr>
+<tr><td class="key">Shift while clicking</td><td>Place without snapping</td></tr>
+<tr><td class="key">F1</td><td>This help</td></tr>
+</table>
+<p>On macOS ⌘ takes the place of Ctrl.</p>
+</body>
+</html>

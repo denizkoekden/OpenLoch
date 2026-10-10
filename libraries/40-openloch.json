@@ -1,0 +1,34 @@
+{
+ "page": "OpenLoch", "page_en": "OpenLoch", "position": 40,
+ "parts": [
+  {"name": "OpenLoch-Logo", "name_en": "OpenLoch logo", "description": "OpenLoch-Logo als Markierung auf der Platine", "description_en": "OpenLoch logo as a marking on the board", "id": "", "value": "", "package": "custom",
+   "pins": [],
+   "shapes": [
+    {"kind": "rect", "x": 0.0, "y": 0.0, "w": 30.0, "h": 10.0, "look": {"form": "box", "colour": "#f4f1ea", "bevel": 0.06, "gloss": 0.2}, "round": 1.2},
+    {"kind": "rect", "x": 1.2, "y": 1.2, "w": 7.6, "h": 7.6, "look": {"form": "box", "colour": "#cfb27a", "bevel": 0.06, "gloss": 0.15}, "round": 0.4},
+    {"kind": "rect", "x": 1.2, "y": 1.6, "w": 7.6, "h": 1.8, "look": {"form": "box", "colour": "#c97e4a", "material": "metal", "bevel": 0.2, "gloss": 0.6}},
+    {"kind": "circle", "x": 2.02, "y": 2.05, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "circle", "x": 4.56, "y": 2.05, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "circle", "x": 7.1, "y": 2.05, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "rect", "x": 1.2, "y": 4.1, "w": 7.6, "h": 1.8, "look": {"form": "box", "colour": "#c97e4a", "material": "metal", "bevel": 0.2, "gloss": 0.6}},
+    {"kind": "circle", "x": 2.02, "y": 4.55, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "circle", "x": 4.56, "y": 4.55, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "circle", "x": 7.1, "y": 4.55, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "rect", "x": 1.2, "y": 6.6, "w": 7.6, "h": 1.8, "look": {"form": "box", "colour": "#c97e4a", "material": "metal", "bevel": 0.2, "gloss": 0.6}},
+    {"kind": "circle", "x": 2.02, "y": 7.05, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "circle", "x": 4.56, "y": 7.05, "w": 0.9, "h": 0.9, "look": {}},
+    {"kind": "circle", "x": 7.1, "y": 7.05, "w": 0.9, "h": 0.9, "look": {}}],
+   "labels": [{"text": "OpenLoch", "at": [10.2, 2.6], "height": 4.6, "colour": "#22313f"}],
+   "source": "Eigener Entwurf (OpenLoch, CC0)"},
+  {"name": "Beschriftungsfeld", "name_en": "Label plate", "description": "Beschriftungsfeld für Projektname, Revision und Datum", "description_en": "Label plate for project name, revision and date", "id": "", "value": "Projektname", "value_en": "Project name", "package": "custom",
+   "pins": [],
+   "shapes": [{"kind": "rect", "x": 0.0, "y": 0.0, "w": 40.0, "h": 12.0, "look": {"form": "box", "colour": "#ffffff", "bevel": 0.05, "gloss": 0.1}, "round": 1.0}],
+   "lines": [
+    {"points": [[0.8, 0.8], [39.2, 0.8], [39.2, 11.2], [0.8, 11.2], [0.8, 0.8]], "width": 0.25, "colour": "#000000"},
+    {"points": [[11.0, 9.6], [38.0, 9.6]], "width": 0.15, "colour": "#666666"}],
+   "labels": [
+    {"text": "<BauteilWertTyp>", "at": [2.0, 2.0], "height": 3.6, "colour": "#000000"},
+    {"text": "Rev./Datum", "at": [2.0, 8.1], "height": 1.5, "colour": "#444444"}],
+   "source": "Eigener Entwurf (OpenLoch, CC0)"}
+ ]
+}

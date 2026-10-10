@@ -1,0 +1,11 @@
+{
+  "name": "02-Zehnkanal-Lauflicht",
+  "components": 53,
+  "terminals": 136,
+  "nets": 47,
+  "straightSegments": 200,
+  "topSegments": 45,
+  "maximumPadDeviationMM": 0,
+  "errors": [],
+  "passed": true
+}

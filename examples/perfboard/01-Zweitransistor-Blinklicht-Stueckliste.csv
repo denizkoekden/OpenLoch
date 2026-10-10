@@ -1,0 +1,14 @@
+Bauteil,Wert,Gehaeuse,Ursprung X Loch,Ursprung Y Loch,Drehung
+J1,5 V DC,Stiftleiste 2-pol RM2.54,3,22,0
+Q1,BC547B,BC547 TO92; flach unten; C B E,6,17,0
+Q2,BC547B,BC547 TO92; flach unten; C B E,24,17,0
+R1,470R,0207 axial 10.16 mm,5,5,90
+R2,470R,0207 axial 10.16 mm,23,5,90
+D1,LED rot 5 mm,"LED 5 mm; A links, K rechts",5,12,0
+D2,LED rot 5 mm,"LED 5 mm; A links, K rechts",23,12,0
+R3,47k,0207 axial 10.16 mm,10,5,90
+R4,47k,0207 axial 10.16 mm,18,5,90
+C1,10uF bipolar/25V,Bipolar-Elko D<=6.3 mm; RM2.54,12,15,0
+C2,10uF bipolar/25V,Bipolar-Elko D<=6.3 mm; RM2.54,18,15,0
+C3,100nF,Keramik RM5.08 mm,10,21,0
+C4,47uF/16V,Elko radial D<=6.3 mm; + links,19,21,0

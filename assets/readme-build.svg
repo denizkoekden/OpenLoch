@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="38" viewBox="0 0 160 38" role="img" aria-label="Selbst bauen">
+<title>Selbst bauen</title><rect x="1" y="1" width="158" height="36" fill="#c0c0c0"/>
+<path d="M1,36V1H158" fill="none" stroke="#fff" stroke-width="2"/>
+<path d="M158,1V36H1" fill="none" stroke="#000" stroke-width="2"/>
+<path d="M156,3V34H3" fill="none" stroke="#808080" stroke-width="2"/>
+<image x="10" y="3" width="32" height="32" style="image-rendering:pixelated;image-rendering:crisp-edges" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABeElEQVR4nO2abW6DMBAFn6sejEPlABwgh+Jm7g/6WrMi5stmAb+RmlQEzEYzIYlaQIinEn9/snydMMilCd4DVCD+3WDyBGefqwrwHqAgE/N4v8f71wvA5xJUgPcABciat9gSVID3AAc4ZJ6oAO8BdlDEPFEB3gNsoKh5ogK8B1hBFfNEBXgPkKGqeaICvAeYYTQfR/chhP+NM+w1T1SA9wAJE/MWW8JR80QFeA+ABfMWloBCs6sAx3O7mifNF/DtcM4IAH3fA0iu7gtXf1SqtfkCzrwGTMxbuN1+AkTlGVXACefImrck+51SpwqouPalzRMVUGHNW5gnKqDgWrcyT1RAgTVuaZ6ogAPH3to8UQE7jnmEeaICNuwbAWAYBgBA13UAlr/fbzzH6aiAFftMzFtsCXcxT1RA5rGseQtLWFjzcqiAmW1NmCcqIPm9KfOk+QI2/23wKeZJ8wUEfHjtJ6bnjnkMKgCr/gXvuTRfQPou0IRxS/MF/AAw9HqppRkHpgAAAABJRU5ErkJggg=="/>
+<text x="90" y="24" text-anchor="middle" font-family="Tahoma, Verdana, sans-serif" font-size="14" fill="#000">Selbst bauen</text>
+</svg>

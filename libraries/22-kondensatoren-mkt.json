@@ -1,0 +1,23 @@
+{
+  "page": "Kondensatoren (MKT)", "page_en": "Capacitors (MKT)", "position": 22,
+  "parts": [
+    {"name": "MKT 9,5 x 4,6", "name_en": "MKT 9.5 x 4.6", "id": "C#", "value": "100n", "package": "box", "pins": [[0, 0], [7, 0]], "width": 9.5, "height": 4.6, "round": 0.72,
+     "labels": ["id", "value"], "look": {"form": "cylinder", "axis": "x", "colour": "#e6bf34", "gloss": 0.3, "ends": 0.04, "ends_colour": "#b0842a"},
+     "source": "Axialer MKT-Folienkondensator, flache Wickelbauform L 9,5 × B 4,6 mm (Maße laut Bezeichnung; Bauart axialer MKT-Kondensatoren, z. B. Vishay Roederstein MKT 1813)"},
+    {"name": "MKT 17,7 x 9", "name_en": "MKT 17.7 x 9", "id": "C#", "value": "1µ", "package": "box", "pins": [[0, 0], [13, 0]], "width": 17.7, "height": 9.0, "round": 0.72,
+     "labels": ["id", "value"], "look": {"form": "cylinder", "axis": "x", "colour": "#e6bf34", "gloss": 0.3, "ends": 0.04, "ends_colour": "#b0842a"},
+     "source": "Axialer MKT-Folienkondensator, flache Wickelbauform L 17,7 × B 9 mm (Maße laut Bezeichnung; Bauart axialer MKT-Kondensatoren, z. B. Vishay Roederstein MKT 1813)"},
+    {"name": "MKT 20,7 x 5,7", "name_en": "MKT 20.7 x 5.7", "id": "C#", "value": "470n", "package": "box", "pins": [[0, 0], [12, 0]], "width": 20.7, "height": 5.7,
+     "round": 0.72, "labels": ["id", "value"], "look": {"form": "cylinder", "axis": "x", "colour": "#e6bf34", "gloss": 0.3, "ends": 0.04, "ends_colour": "#b0842a"},
+     "source": "Axialer MKT-Folienkondensator, flache Wickelbauform L 20,7 × B 5,7 mm (Maße laut Bezeichnung; Bauart axialer MKT-Kondensatoren, z. B. Vishay Roederstein MKT 1813)"},
+    {"name": "MKT 26 x 8", "name_en": "MKT 26 x 8", "id": "C#", "value": "2µ2", "package": "box", "pins": [[0, 0], [13, 0]], "width": 26, "height": 8, "round": 0.72,
+     "labels": ["id", "value"], "look": {"form": "cylinder", "axis": "x", "colour": "#e6bf34", "gloss": 0.3, "ends": 0.04, "ends_colour": "#b0842a"},
+     "source": "Axialer MKT-Folienkondensator, flache Wickelbauform L 26 × B 8 mm (Maße laut Bezeichnung; Bauart axialer MKT-Kondensatoren, z. B. Vishay Roederstein MKT 1813)"},
+    {"name": "MKT 25 x 15", "name_en": "MKT 25 x 15", "id": "C#", "value": "4µ7", "package": "box", "pins": [[0, 0], [14, 0]], "width": 25, "height": 15, "round": 0.72,
+     "labels": ["id", "value"], "look": {"form": "cylinder", "axis": "x", "colour": "#e6bf34", "gloss": 0.3, "ends": 0.04, "ends_colour": "#b0842a"},
+     "source": "Axialer MKT-Folienkondensator, flache Wickelbauform L 25 × B 15 mm (Maße laut Bezeichnung; Bauart axialer MKT-Kondensatoren, z. B. Vishay Roederstein MKT 1813)"},
+    {"name": "MKT 30 x 14,1", "name_en": "MKT 30 x 14.1", "id": "C#", "value": "10µ", "package": "box", "pins": [[0, 0], [18, 0]], "width": 30, "height": 14.1, "round": 0.72,
+     "labels": ["id", "value"], "look": {"form": "cylinder", "axis": "x", "colour": "#e6bf34", "gloss": 0.3, "ends": 0.04, "ends_colour": "#b0842a"},
+     "source": "Axialer MKT-Folienkondensator, flache Wickelbauform L 30 × B 14,1 mm (Maße laut Bezeichnung; Bauart axialer MKT-Kondensatoren, z. B. Vishay Roederstein MKT 1813)"}
+  ]
+}
