@@ -36,6 +36,7 @@ int picturesTests();
 int macroTests();
 int fabricationTests();
 int schematicTests();
+int placementTests();
 
 static void require(bool b,const char *message){if(!b)throw std::runtime_error(message);}
 static void rejects(const std::function<void()> &fn,const char *message){bool rejected=false;try{fn();}catch(const FormatError &){rejected=true;}require(rejected,message);}
@@ -1160,6 +1161,7 @@ int main(int argc,char **argv){
         macroTests();
         fabricationTests();
         schematicTests();
+        placementTests();
     }catch(const std::exception &e){fprintf(stderr,"pcb test failed: %s\n",e.what());return 1;}
     puts("pcb tests passed");
     return 0;

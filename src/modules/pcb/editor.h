@@ -126,8 +126,17 @@ public:
     // "Fehlende Bauteile setzen…": for each component of the schematic the board lacks (and the document has nowhere) a
     // choice from the module's library (partChoices; a fitting footprint of the same kind preselected, else none); the
     // chosen ones laid beside the board (layBeside), named, valued and linked, as one undo step, selected and shown
-    // with the board, the airwires from the schematic switched on to show where they belong.
+    // with the board, the airwires from the schematic switched on to show where they belong. With "Danach auf der
+    // Platine anordnen" (on by default) they are arranged on the board afterwards, as a second undo step.
     void placeMissingParts();
+    // "Bauteile automatisch anordnen…": the components selected, else those outside the board's outline, arranged on it
+    // (arrangeParts) after a dialog for the gap between them and whether they may turn by 90°; nets from the schematic when there is one, else from the
+    // airwires. One undo step; the result shows in the help line (arrangeReport).
+    void arrangeComponents();
+    // The arrangement of these components (by their designators) with the gap, as one undo step, selected and shown;
+    // false when none moved.
+    bool arrangeOnBoard(const QList<int> &designators,double gap);
+    const QString &arrangeReport() const{return lastArrangeReport;}
 
     // Editing (all with one undo step each)
     void undo();
@@ -311,7 +320,7 @@ public:
     // menu), mirror, mirrorVertical, align (a menu of alignLeft, alignRight, alignTop, alignBottom, alignCentreX,
     // alignCentreY), alignGrid, arrange, templates, wizard, preferences, otherSide, group, ungroup, zoomBoard, zoomElements, zoomSelection,
     // zoomPrevious, zoomIn, zoomOut, overview (the overview below the tools shown), fromBelow, photo, drc,
-    // compareSchematic, schematicAirwires, takeOverSchematic, assignPins, placeMissing, removeAirwires, resetSolderMask, specialShape, addBoard, removeBoard, boardProperties, exportGerber, exportDrill,
+    // compareSchematic, schematicAirwires, takeOverSchematic, assignPins, placeMissing, arrangeParts, removeAirwires, resetSolderMask, specialShape, addBoard, removeBoard, boardProperties, exportGerber, exportDrill,
     // exportComponents, exportMilling, millingWide (milling paths as wide as the cutter), removeMilling, importGerber,
     // definePlugins, startPlugin.
     QAction *action(const QString &name) const{return actions.value(name);}
@@ -345,6 +354,9 @@ private:
     QTreeWidget *componentTree=nullptr,*selectorTree=nullptr;
     QFrame *autorouteBar=nullptr,*photoBar=nullptr;
     QLabel *helpLine=nullptr;
+    QString lastArrangeReport;
+    double arrangeGap=2;            // the gap between arranged components, kept for the session
+    bool arrangeTurn=true;          // whether they may lie turned by 90°, kept for the session
     QTimer *helpTimer=nullptr;
     void refreshHelpLine();
     void refreshToolKeys();

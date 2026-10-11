@@ -355,13 +355,21 @@ int schematicTests(){
         require(plain!=labelled,"pad numbers in the photo view");
         // Missing parts: C1 offered with a capacitor preselected, laid beside the board, one undo step.
         QString offeredC1;int choices=0;
-        inDialog([&](QDialog *x){if(auto *box=x->findChild<QComboBox*>("part-C1")){offeredC1=box->currentText();choices=box->count();}});
+        bool arrangeOffered=false;
+        inDialog([&](QDialog *x){if(auto *box=x->findChild<QComboBox*>("part-C1")){offeredC1=box->currentText();choices=box->count();}
+            if(auto *arrange=x->findChild<QCheckBox*>("arrangeAfter")){arrangeOffered=arrange->isChecked();arrange->setChecked(false);}});
         const int count=int(els().size());editor.placeMissingParts();
+        require(arrangeOffered,"arranging afterwards offered, on by default");
         const auto after=editor.compareWithSchematic(false);
         require(!offeredC1.isEmpty()&&offeredC1!=ui("Nicht setzen")&&choices>2&&after.missing.isEmpty()&&int(els().size())>count,"C1 offered, placed and found");
         bool besides=true;for(int i=count;i<els().size();i++)besides=besides&&bounds(els()[i]).left()>100;
         require(besides&&view->selection().size()==int(els().size())-count&&editor.action("schematicAirwires")->isChecked(),"beside the board, selected, the airwires on");
-        editor.undo();require(int(els().size())==count,"one undo step");editor.action("schematicAirwires")->trigger();
+        editor.undo();require(int(els().size())==count,"one undo step");
+        // Arranged afterwards: on the board, a second undo step brings it back beside it.
+        inDialog([](QDialog *){});editor.placeMissingParts();
+        {bool on=true;for(int i=count;i<els().size();i++)on=on&&bounds(els()[i]).right()<=100;require(int(els().size())>count&&on&&!editor.arrangeReport().isEmpty(),"arranged on the board");}
+        editor.undo();{bool besides=true;for(int i=count;i<els().size();i++)besides=besides&&bounds(els()[i]).left()>100;require(int(els().size())>count&&besides,"undo: beside it again");}
+        editor.undo();require(int(els().size())==count,"and gone");editor.action("schematicAirwires")->trigger();
         QString nothing;inDialog([&](QDialog *x){for(auto *l:x->findChildren<QLabel*>())if(!l->text().isEmpty())nothing=l->text();});
         {Board full=editor.document().board();const auto made=missingPart(partChoices(t.components[3]).first(),t.components[3],full);full.elements+=made;
             Document withC1=editor.document();withC1.boards[withC1.activeBoard]=full;editor.setDocument(withC1);}

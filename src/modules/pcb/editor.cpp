@@ -8,6 +8,7 @@
 #include "legacy_reader.h"
 #include "pcbicons.h"
 #include "pictures.h"
+#include "placement.h"
 #include "progress.h"
 #include "shapes.h"
 #include "formats/sprint/sprint.h"
@@ -340,7 +341,7 @@ QList<std::pair<QString,QStringList>> editorMenus(){
             {QStringLiteral("&Bearbeiten"),{"undo","redo","","cut","copy","paste","duplicate","delete","","selectAll"}},
             {QStringLiteral("&Funktionen"),{"rotate","rotateBack","rotationAngle","","mirror","mirrorVertical","","align","alignGrid","","arrange","","otherSide","setLayer","","group","ungroup"}},
             {QStringLiteral("&Ansicht"),{"zoomBoard","zoomElements","zoomSelection","zoomPrevious","","zoomIn","zoomOut","","overview","crosshair","","fromBelow","photo","transparent","","millingWide","removeMilling"}},
-            {QStringLiteral("&Extras"),{"drc","","compareSchematic","schematicAirwires","takeOverSchematic","assignPins","placeMissing","","removeAirwires","resetSolderMask","","holeList","deleteOutside","","specialShape","wizard","","currentCalculator","","templates","","textIoExport","textIoImport","","definePlugins","startPlugin"}},
+            {QStringLiteral("&Extras"),{"drc","","compareSchematic","schematicAirwires","takeOverSchematic","assignPins","placeMissing","arrangeParts","","removeAirwires","resetSolderMask","","holeList","deleteOutside","","specialShape","wizard","","currentCalculator","","templates","","textIoExport","textIoImport","","definePlugins","startPlugin"}},
             {QStringLiteral("&Platine"),{"addBoard","boardProperties","","copyBoard","removeBoard","","boardLast","boardFirst","","insertBoards","saveBoard"}},
             {QStringLiteral("&Optionen"),{"preferences"}}};
 }
@@ -524,6 +525,7 @@ void Editor::createActions(){
     add("takeOverSchematic",ui("Aus Schaltplan übernehmen…"),"",{},[this]{takeOverFromSchematic();});
     add("assignPins",ui("Anschlüsse zuordnen…"),"",{},[this]{assignPinsDialog();});
     add("placeMissing",ui("Fehlende Bauteile setzen…"),"",{},[this]{placeMissingParts();});
+    add("arrangeParts",ui("Bauteile automatisch anordnen…"),"",{},[this]{arrangeComponents();});
     add("removeAirwires",ui("Verbundene &Luftlinien entfernen"),"",{},[this]{
         const int left=[&]{const int before=int(board->airwires().size());const int removed=removeRoutedAirwires();return before-removed;}();
         QMessageBox::information(this,ui("Luftlinien entfernen"),ui("%1 Luftlinien verbleiben.").arg(left));});
@@ -535,7 +537,7 @@ void Editor::createActions(){
                                   {"removeAirwires","pcb-airwires-remove"},{"projectInfo","pcb-info"},{"templates","pcb-template"}})if(auto *a=action(name))a->setIcon(pcbIcon(icon));
     // A command under the pointer, in a menu or the tool bar, shows in the help line with its key for a moment, as the
     // reference's hints do.
-    helpTimer=new QTimer(this);helpTimer->setSingleShot(true);helpTimer->setInterval(4000);connect(helpTimer,&QTimer::timeout,this,[this]{refreshHelpLine();});
+    helpTimer=new QTimer(this);helpTimer->setSingleShot(true);helpTimer->setInterval(4000);connect(helpTimer,&QTimer::timeout,this,[this]{helpTimer->setInterval(4000);refreshHelpLine();});
     for(auto *a:std::as_const(actions))connect(a,&QAction::hovered,this,[this,a]{
         if(!helpLine)return;QString text=a->text();text.remove('&');if(text.isEmpty())return;
         const QString key=a->shortcut().toString(QKeySequence::NativeText),more=commandHelp(a->objectName());
@@ -2409,6 +2411,7 @@ void Editor::placeMissingParts(){
         box->setCurrentIndex(!choices.isEmpty()&&choices.first().sure?1:0);
         form->addRow(QStringLiteral("%1 %2 (%3)").arg(component.designator,component.value,component.pins.join(QStringLiteral(", "))),box);rows<<std::pair{m,box};
     }
+    auto *arrange=new QCheckBox(ui("Danach auf der Platine anordnen"));arrange->setObjectName("arrangeAfter");arrange->setChecked(true);layout->addWidget(arrange);
     auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout->addWidget(buttons);
     connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
     if(dialog.exec()!=QDialog::Accepted)return;
@@ -2422,6 +2425,50 @@ void Editor::placeMissingParts(){
     snapshot();doc.board()=probe;board->documentChanged();touched();board->setSelection(added);
     QRectF area(0,0,probe.width,probe.height);for(int i:added)area=area.united(bounds(probe.elements[i]));board->showArea(area);
     if(!action("schematicAirwires")->isChecked())action("schematicAirwires")->trigger();else compareWithSchematic(false);
+    // Arranged on the board as a step of its own, so that undo first brings them back beside it.
+    if(arrange->isChecked()){QList<int> designators;for(int i:added)if(probe.elements[i].role==TextRole::Designator)designators<<i;arrangeOnBoard(designators,arrangeGap);}
+}
+void Editor::arrangeComponents(){
+    const auto &b=std::as_const(doc).board();const QPainterPath region=arrangeRegion(b);const auto all=components(b);
+    // The components of the selection, else those lying outside the board.
+    QList<int> chosen;const auto sel=board->selection();const QSet<int> marked(sel.begin(),sel.end());
+    for(const auto &c:all)if(std::any_of(c.members.cbegin(),c.members.cend(),[&](int m){return marked.contains(m);}))chosen<<c.designator;
+    const bool selected=!chosen.isEmpty();
+    if(!selected)for(const auto &c:all)if(!region.contains(componentCentre(b,c)))chosen<<c.designator;
+    if(chosen.isEmpty()){QMessageBox::information(this,ui("Bauteile automatisch anordnen"),ui("Kein Bauteil liegt außerhalb der Platine. Die Bauteile markieren, die angeordnet werden sollen."));return;}
+    QDialog dialog(this);dialog.setObjectName("arrangeDialog");dialog.setWindowTitle(ui("Bauteile automatisch anordnen"));auto *form=new QFormLayout(&dialog);
+    auto *what=new QLabel(selected?ui("Die %1 markierten Bauteile werden auf der Platine angeordnet, nach ihren Netzen gruppiert.").arg(chosen.size())
+                                   :ui("Die %1 Bauteile außerhalb der Platine werden auf ihr angeordnet, nach ihren Netzen gruppiert.").arg(chosen.size()));
+    what->setWordWrap(true);form->addRow(what);
+    auto *gap=spin(arrangeGap,0,20,2);gap->setObjectName("arrangeGap");form->addRow(ui("Abstand zwischen den Bauteilen:"),gap);
+    auto *turn=new QCheckBox(ui("Bauteile dürfen um 90° gedreht liegen"));turn->setObjectName("arrangeTurn");turn->setChecked(arrangeTurn);form->addRow(turn);
+    auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);form->addRow(buttons);
+    connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
+    if(dialog.exec()!=QDialog::Accepted)return;
+    arrangeGap=gap->value();arrangeTurn=turn->isChecked();arrangeOnBoard(chosen,arrangeGap);
+}
+bool Editor::arrangeOnBoard(const QList<int> &designators,double gap){
+    QList<QList<int>> nets;
+    if(schematicAvailable()){try{const auto t=schematicForBoard();nets=arrangementNets(doc.board(),&t);}catch(const std::exception &){nets=arrangementNets(doc.board(),nullptr);}}
+    else nets=arrangementNets(doc.board(),nullptr);
+    Board probe=doc.board();ArrangeSettings settings;settings.gap=gap;settings.rotate=arrangeTurn;ArrangeResult result;
+    {ProgressWindow progress(this,ui("Bauteile werden angeordnet …"));result=arrangeParts(probe,designators,nets,settings,progress.report());}
+    auto names=[&](const QList<int> &list){QStringList out;for(int d:list)out<<probe.elements[d].text;return out.join(QStringLiteral(", "));};
+    QStringList report;
+    if(!result.placed.isEmpty())report<<ui("%1 Bauteile angeordnet: Luftlinien %2 mm statt %3 mm, %4 Kreuzungen statt %5.").arg(result.placed.size())
+        .arg(QString::number(result.lengthAfter,'f',0),QString::number(result.lengthBefore,'f',0)).arg(result.crossingsAfter).arg(result.crossingsBefore);
+    if(!result.left.isEmpty())report<<ui("Kein Platz für: %1").arg(names(result.left));
+    if(!result.wired.isEmpty())report<<ui("Schon verdrahtet, nicht verschoben: %1").arg(names(result.wired));
+    if(result.placed.isEmpty()&&report.isEmpty())report<<ui("Kein Bauteil angeordnet.");
+    lastArrangeReport=report.join(QStringLiteral(" "));
+    if(helpLine){helpLine->setText(lastArrangeReport);helpTimer->start(15000);}
+    if(result.placed.isEmpty()||probe==doc.board())return false;
+    snapshot();doc.board()=probe;board->documentChanged();touched();
+    QList<int> members;QRectF area(0,0,probe.width,probe.height);
+    for(const auto &c:components(probe))if(result.placed.contains(c.designator))for(int m:c.members){members<<m;area=area.united(bounds(probe.elements[m]));}
+    board->setSelection(members);board->showArea(area);
+    if(schematicAvailable()&&action("schematicAirwires")->isChecked())compareWithSchematic(false);
+    return true;
 }
 void Editor::specialShape(){
     // The reference's "Spezialformen": a regular polygon, a spiral or a drawing frame, shown in a preview and placed
