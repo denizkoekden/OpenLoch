@@ -148,7 +148,7 @@ int main(int argc,char **argv) {
             for(const auto &part:QJsonDocument::fromJson(list.readAll()).object()["parts"].toArray()){
                 const auto o=part.toObject();for(const auto &pin:o["nets"].toObject().keys()){
                     const auto grid=o["pins"].toObject()[pin].toArray();const QPointF at(grid[0].toDouble()*254,grid[1].toDouble()*254);
-                    const auto value=o["nets"].toObject()[pin];if(value.isNull())unconnected.append(at);else pins[value.toString()].append(at);
+                    const QJsonValue value=o["nets"].toObject()[pin];if(value.isNull())unconnected.append(at);else pins[value.toString()].append(at);
                 }
             }
             auto example=continuityModel(Project::load(base+".openloch"));
@@ -553,7 +553,7 @@ int main(int argc,char **argv) {
                 for(int i=0;i<example.legacy["objects"].toArray().size();i++)if(!parts.contains(i)){auto e=example.edits.value(QString::number(i)).toObject();e["deleted"]=true;example.edits[QString::number(i)]=e;}
                 QFile list(base+"-Netzliste.json");require(list.open(QIODevice::ReadOnly),"example netlist missing");QHash<QPair<int,int>,QString> netAt;
                 for(const auto &part:QJsonDocument::fromJson(list.readAll()).object()["parts"].toArray()){
-                    const auto o=part.toObject();for(const auto &pin:o["nets"].toObject().keys()){const auto at=o["pins"].toObject()[pin].toArray();const auto net=o["nets"].toObject()[pin];if(!net.isNull())netAt[{qRound(at[0].toDouble()),qRound(at[1].toDouble())}]=net.toString();}
+                    const auto o=part.toObject();for(const auto &pin:o["nets"].toObject().keys()){const auto at=o["pins"].toObject()[pin].toArray();const QJsonValue net=o["nets"].toObject()[pin];if(!net.isNull())netAt[{qRound(at[0].toDouble()),qRound(at[1].toDouble())}]=net.toString();}
                 }
                 Targets netlist;QMap<QString,int> byName;
                 for(const auto &c:example.components()){

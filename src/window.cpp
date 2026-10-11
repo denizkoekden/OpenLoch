@@ -978,7 +978,7 @@ void Window::libraryPartProperties(){
     if(row<0||row>=libraryParts->count()||!libraryPages->currentData(Qt::UserRole+1).toBool()||QFileInfo(path).isDir()){libraryPageProperties();return;}
     try{
         const auto page=Project::load(path);const auto key=QString::number(row);const auto node=page.legacyNode(row);if(!node.contains("children")){libraryPageProperties();return;}
-        const auto raw=page.edits.value(key).toObject().contains("id")?page.edits.value(key).toObject()["id"]:page.legacy["objects"].toArray()[row].toObject()["id"];
+        const QJsonValue raw=page.edits.value(key).toObject().contains("id")?page.edits.value(key).toObject()["id"]:page.legacy["objects"].toArray()[row].toObject()["id"];
         QJsonObject values{{"id",raw},{"value",node["value"]},{"description",node["description"]},{"label",node["label"]},{"listed",node["group_flags"].toArray().at(1).toBool(true)},{"extra",node["extra"]}};
         if(!componentDialog(values,false))return;
         changeLibraryPage([&](Project &p){auto edit=p.edits.value(key).toObject();
