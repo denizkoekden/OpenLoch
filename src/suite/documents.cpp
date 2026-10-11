@@ -61,6 +61,7 @@ std::optional<Kind> documentKind(const QString &path){
         const QString format=QJsonDocument::fromJson(bytes).object().value("format").toString();
         if(format=="OpenLoch-Frontplatte")return Kind::FrontPanel;
         if(format=="OpenLoch PCB")return Kind::Pcb;
+        if(format=="OpenLoch Schematic")return Kind::Schematic;
         return Kind::Perfboard;
     }
     for(const bool library:{suffix=="lib",suffix!="lib"}){

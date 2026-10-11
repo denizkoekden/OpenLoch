@@ -289,5 +289,4 @@ Die Suite (`src/suite/componentregister.*`): `Suite::componentsEdited(QMainWindo
 
 ## Noch offen
 
-- Sicherungen des Schaltplans im eigenen Format (`.bak` mit `format: "OpenLoch Schematic"`) erkennt `documentKind` nicht; sie gehen an den Lochraster-Editor.
 - Gemeinsame Bauteile nach der Regel [Dateiformate und Projekte](file-formats.md): ein Bauteilregister, das Bezeichner und Werte in allen Dokumenten in beide Richtungen gleich hält ([Entwurf](#bauteilregister-entwurf)).

@@ -93,8 +93,8 @@ int main(int argc,char **argv){
         const QString fplFile=tmp.filePath("Gehäuse.FPL"),panelLibrary=tmp.filePath("Symbole.LIB");
         write(fplFile,frontdesigner::writeFrontDesigner(panel));write(panelLibrary,frontdesigner::writeFrontDesignerLibrary(panel,0));
         pcb::Document circuit;circuit.boards={pcb::newBoard("Platine",80,50)};const QString pcbFile=tmp.filePath("Platine.olpcb");pcb::save(circuit,pcbFile);
-        const QString panelBackup=tmp.filePath("Gehäuse.BAK"),pcbBackup=tmp.filePath("Platine.BAK"),lochBackup=tmp.filePath("Lauflicht.BAK"),fplBackup=tmp.filePath("Front.BAK");
-        write(panelBackup,panel.encode());write(pcbBackup,QJsonDocument(pcb::toJson(circuit)).toJson());write(lochBackup,fixtures::project());write(fplBackup,frontdesigner::writeFrontDesigner(panel));
+        const QString panelBackup=tmp.filePath("Gehäuse.BAK"),pcbBackup=tmp.filePath("Platine.BAK"),lochBackup=tmp.filePath("Lauflicht.BAK"),fplBackup=tmp.filePath("Front.BAK"),planBackup=tmp.filePath("Plan.bak");
+        write(panelBackup,panel.encode());write(pcbBackup,QJsonDocument(pcb::toJson(circuit)).toJson());write(lochBackup,fixtures::project());write(fplBackup,frontdesigner::writeFrontDesigner(panel));write(planBackup,QJsonDocument(schematic::toJson(schematic::exampleDocument())).toJson());
         const QString splFile=tmp.filePath("Netzteil.spl8"),splLibrary=tmp.filePath("Symbole-sPlan.LIB");
         splan::save(schematic::newDocument("Blatt 1"),splFile,80);schematic::LibraryPage symbols;symbols.name="Symbole";write(splLibrary,splan::writeLibrary(symbols,{},80));
         { // files go to the editor of their kind; LochMaster, FrontDesigner and sPlan share .LIB and .BAK, there the content decides
@@ -103,7 +103,7 @@ int main(int argc,char **argv){
             require(is(pcbFile,Kind::Pcb)&&is("x.lay6",Kind::Pcb)&&is("x.LAY",Kind::Pcb),"circuit board files");
             require(is(panelFile,Kind::FrontPanel)&&is(fplFile,Kind::FrontPanel),"front panel files");
             require(is(lochLibrary,Kind::Perfboard)&&is(panelLibrary,Kind::FrontPanel),"a .LIB goes to the program that wrote it");
-            require(is(panelBackup,Kind::FrontPanel)&&is(pcbBackup,Kind::Pcb)&&is(lochBackup,Kind::Perfboard)&&is(fplBackup,Kind::FrontPanel),"a .BAK goes to the program that wrote it");
+            require(is(panelBackup,Kind::FrontPanel)&&is(pcbBackup,Kind::Pcb)&&is(lochBackup,Kind::Perfboard)&&is(fplBackup,Kind::FrontPanel)&&is(planBackup,Kind::Schematic),"a .BAK goes to the program that wrote it");
             require(is("x.lmk",std::nullopt)&&is("x.png",std::nullopt)&&is("x.txt",std::nullopt),"files no editor opens");
             require(is(splFile,Kind::Schematic)&&is("x.spl7",Kind::Schematic)&&is(splLibrary,std::nullopt),"sPlan plans go to the schematic, its library pages are no documents");
             const QString filter=documentFilter();
