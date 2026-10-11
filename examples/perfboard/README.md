@@ -4,7 +4,7 @@ Beide Entwürfe verwenden handelsübliche **einseitige Punktrasterplatinen mit e
 
 Beide Entwürfe sind am Rechner geprüft: Rasterlage, Gehäuseabstände, Verbindungen und Kurzschlüsse an Drahtenden. Das Blinklicht ist mit generischen SPICE-Modellen simuliert, beim Lauflicht sind Pinbelegung und LED-Treiber einzeln geprüft. Aufgebaut wurden die Schaltungen noch nicht.
 
-## Dateien öffnen
+## Dateien
 
 | Schaltung | Native Datei | LochMaster-Export |
 | :--- | :--- | :--- |
@@ -13,7 +13,7 @@ Beide Entwürfe sind am Rechner geprüft: Rasterlage, Gehäuseabstände, Verbind
 
 Das [sechsseitige Bauheft](OpenLoch-Bauheft.pdf) enthält nummerierte Bestückungsansichten. Die eigenen Footprints sind in den Projekten eingebettet und zusätzlich als [LIB](OpenLoch-Praxis-Footprints.LIB) vorhanden. Zum Öffnen wird keine Herstellerinstallation benötigt.
 
-## Pläne und Koordinaten
+Zu jeder Schaltung gehören:
 
 - `.openloch`: bearbeitbares Projekt einschließlich der selbst gezeichneten Bauteilbibliothek.
 - `.LM4`: dasselbe Projekt für LochMaster.
@@ -23,11 +23,17 @@ Das [sechsseitige Bauheft](OpenLoch-Bauheft.pdf) enthält nummerierte Bestückun
 - `-Netzliste.json`: Bauteile mit Lochposition, Pins und dem Netz jedes Pins.
 - `-Aufbaupruefung.json` und `-Geometriepruefung.json`: nachvollziehbare Prüfergebnisse.
 
+Dazu die Simulationen (siehe [Prüfung reproduzieren](#prüfung-reproduzieren)): `Blinklicht-nominal.cir`, `-fast.cir` und `-slow.cir` mit den Ergebnissen in `Blinklicht-Simulation.json` und `.svg`; `Lauflicht-nominal.cir`, `-low_drive.cir`, `-maximum_current.cir` und `-off.cir` mit den Ergebnissen in `Lauflicht-Elektrikpruefung.json`.
+
+### Koordinaten
+
 **Alle Tabellen zählen von der Bestückungsseite aus:** X nach rechts, Y nach unten. Die erste tatsächlich vorhandene Lochspalte und Lochreihe heißen jeweils 1. Randabstände handelsüblicher Platinen variieren; es zählt das Loch, nicht ein vom Außenrand gemessener Millimeterwert. Beim Blick auf die Unterseite vertauschen sich links und rechts. Die Tabellenkoordinaten bleiben unverändert.
 
 Die PDF-Übersichten sind keine garantierten 1:1-Bohrschablonen. Für maßstäblichen Ausdruck den Druckdialog von OpenLoch verwenden und den Abstand benachbarter Löcher am Ausdruck auf 2,54 mm kontrollieren.
 
-## Gemeinsamer Aufbau
+## Bauanleitung
+
+### Gemeinsamer Aufbau
 
 1. Versorgung ausgeschaltet lassen. Platine von oben markieren: links oben, X/Y-Richtung, J1 Pin 1 = +5 V, Pin 2 = GND.
 2. Alle Anschlüsse zunächst anhand der Anschlussliste markieren. Widerstände axial auf 10,16 mm Raster biegen. BC547-Beine vorsichtig auf 2,54 mm auffächern: bei der eingezeichneten flachen Gehäuseseite nach unten C-B-E von links nach rechts. Pinbelegung des tatsächlich verwendeten Herstellers prüfen.
@@ -38,7 +44,7 @@ Die PDF-Übersichten sind keine garantierten 1:1-Bohrschablonen. Für maßstäbl
 7. Vor dem Einschalten mit dem Durchgangsprüfer jeden Tabellen-Netznamen kontrollieren. VCC und GND dürfen nicht kurzgeschlossen sein; Kondensatoren können beim Messen kurz laden. LEDs, Elko-Polarität und Transistoranschlüsse nochmals prüfen.
 8. Mit geregelten 5 V DC und zunächst etwa 20 mA Strombegrenzung testen. Betrieb nur im Bereich 4,75-5,25 V. Die Entwürfe sind nicht für eine 9-V-Batterie ausgelegt.
 
-## 1. Zweitransistor-Blinklicht
+### 1. Zweitransistor-Blinklicht
 
 Zwei BC547B treiben abwechselnd rote LEDs. R1/R2 = 470 Ohm, R3/R4 = 47 kOhm. C1/C2 sind **10 uF bipolare Kondensatoren**, mindestens 25 V. Normale gepolte Elkos an diesen beiden Positionen nicht ungeprüft einsetzen. C3 = 100 nF, C4 = 47 uF/16 V mit Plus links.
 
@@ -46,7 +52,7 @@ Die beiden geraden Versorgungsschienen liegen bei Y=3 (+5 V) und Y=24 (GND), jew
 
 Die generische SPICE-Simulation ergibt nominal eine Periode von etwa **0,463 s pro LED**, entsprechend **2,16 Hz**. Bei gleichzeitig variierten 5%-Widerständen, 20%-Zeitkondensatoren und 4,75-5,25 V ergeben die geprüften Eckfälle 0,363-0,563 s und Spitzenströme von 5,29-6,92 mA. Kurze Überlappung der LED-Ströme beim Umschalten ist bei dieser einfachen Schaltung vorhanden. Reale Blinkzeit und Helligkeit hängen von den verwendeten Bauteilen ab. Die simulierte negative Basisspannung bleibt oberhalb -2,81 V; diese Aussage ist ein Modellergebnis, kein Messwert.
 
-## 2. Zehnkanal-Lauflicht
+### 2. Zehnkanal-Lauflicht
 
 U1 ist ein **TLC555CP im DIP8-Gehäuse**, U2 ein **CD4017BE im DIP16-Gehäuse**. U1-Kerbe nach oben; **U2-Kerbe nach links**, weil U2 um 90 Grad gedreht eingebaut ist. Beide ICs in Sockel setzen. Einen bipolaren NE555 nicht ohne erneute Prüfung der Logikpegel einsetzen.
 
