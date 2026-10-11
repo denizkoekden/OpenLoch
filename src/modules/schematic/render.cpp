@@ -16,6 +16,8 @@ struct Context {
     const RenderOptions &options;
     const Sheet *sheetData;
     bool highlight=false;
+    const QList<Item> *lines=sheetData?&sheetData->items:nullptr;   // where an automatic junction looks for its conductor
+    QTransform toLines;                                              // and how its position maps there
     QColor colour(const QColor &c) const{
         if(highlight)return options.highlightColor;
         return options.blackAndWhite?QColor(0,0,0):c;
@@ -205,7 +207,7 @@ void paintItem(QPainter &painter,const Item &item,const Context &parent,const It
         break;
     }
     case ItemType::Junction:{
-        const auto [size,colour]=c.sheetData?junctionLook(item,*c.sheetData):std::pair<double,QColor>(item.size.width(),item.pen.color);
+        const auto [size,colour]=c.lines?junctionLook(item,*c.lines,c.toLines):std::pair<double,QColor>(item.size.width(),item.pen.color);
         painter.setPen(Qt::NoPen);painter.setBrush(c.colour(colour));painter.drawEllipse(item.pos,size/2,size/2);
         break;
     }
@@ -250,9 +252,10 @@ void paintItem(QPainter &painter,const Item &item,const Context &parent,const It
             QColor fill=item.parent?QColor(150,190,255):QColor(255,160,160);fill.setAlpha(strong?170:70);
             painter.fillRect(bounds(item).adjusted(-.6,-.6,.6,.6),fill);
         }
+        Context inside=c;inside.toLines=c.options.componentPlacement?*c.options.componentPlacement:placement(item)*c.toLines;
         for(const auto &child:item.children){
             if(isText(child)){paintItem(painter,child,c,&item);continue;}
-            painter.save();painter.setTransform(placement(item),true);paintItem(painter,child,c);painter.restore();
+            painter.save();painter.setTransform(placement(item),true);paintItem(painter,child,inside);painter.restore();
         }
         break;
     }
@@ -274,14 +277,15 @@ QPolygonF linkArrow(const QRectF &box,bool outgoing){
     if(outgoing)return QPolygonF{QPointF(box.right()+.2,y-h/2),QPointF(box.right()+h*.9,y),QPointF(box.right()+.2,y+h/2)};
     return QPolygonF{QPointF(box.left()-h*.9,y-h/2),QPointF(box.left()-.2,y),QPointF(box.left()-h*.9,y+h/2)};
 }
-std::pair<double,QColor> junctionLook(const Item &junction,const Sheet &sheet){
+std::pair<double,QColor> junctionLook(const Item &junction,const Sheet &sheet){return junctionLook(junction,sheet.items);}
+std::pair<double,QColor> junctionLook(const Item &junction,const QList<Item> &lines,const QTransform &toLines){
     if(!junction.autoSize)return {junction.size.width(),junction.pen.color};
     // As the reference: the lines of the sheet (not those in groups or components, no curves) whose stroke covers the
     // junction's centre (on a tenth of a millimetre); the widest gives the size, the last the colour; without one 0.1 mm
     // and black. The size is that width times 3 to 7 for XS to XL.
-    const QPointF at(std::round(junction.pos.x()*10)/10,std::round(junction.pos.y()*10)/10);
+    const QPointF on=toLines.map(junction.pos),at(std::round(on.x()*10)/10,std::round(on.y()*10)/10);
     double width=0;QColor colour(0,0,0);
-    for(const auto &i:sheet.items){
+    for(const auto &i:lines){
         if(i.type!=ItemType::Line)continue;
         for(int k=0;k+1<i.points.size();k++){
             const QPointF a=i.points[k],d=i.points[k+1]-a;const double l=QPointF::dotProduct(d,d);
@@ -305,7 +309,7 @@ void paintSheet(QPainter &painter,const Document &document,int sheet,const Rende
     Context c{document,sheet,options,&s};
     painter.save();painter.setRenderHint(QPainter::Antialiasing);painter.setRenderHint(QPainter::TextAntialiasing);painter.setRenderHint(QPainter::SmoothPixmapTransform);
     if(options.paper)painter.fillRect(QRectF(0,0,s.width,s.height),options.paperColour);
-    if(options.titleBlock){for(const auto &i:s.titleBlock.items)paintItem(painter,i,c);paintTitleGrid(painter,s.titleBlock,c);}
+    if(options.titleBlock){Context form=c;form.lines=&s.titleBlock.items;for(const auto &i:s.titleBlock.items)paintItem(painter,i,form);paintTitleGrid(painter,s.titleBlock,c);}
     if(options.circuit)for(const auto &i:s.items)paintItem(painter,i,c);
     painter.restore();
 }

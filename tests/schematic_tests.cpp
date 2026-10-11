@@ -402,7 +402,15 @@ int main(int argc,char **argv){
             jj.pos=QPointF(40,40.2);require(std::abs(junctionLook(jj,s).first-.5*6)<1e-9,"within the stroke");
             jj.pos=QPointF(10,10);require(std::abs(junctionLook(jj,s).first-.6)<1e-9&&junctionLook(jj,s).second==QColor(0,0,0),"none: 0.1 mm and black");
             Item grouped;grouped.type=ItemType::Group;grouped.children={thin};s.items={grouped};jj.pos=QPointF(40,40);
-            require(std::abs(junctionLook(jj,s).first-.6)<1e-9,"lines in groups do not count");}
+            require(std::abs(junctionLook(jj,s).first-.6)<1e-9,"lines in groups do not count");
+            // A junction in a component looks at the sheet's lines where the component puts it, one in the title block at
+            // the title block's lines; drawn so.
+            {Item local=jj;local.pos=QPointF();local.sizeStep=4;QTransform at;at.translate(40,40);
+                require(std::abs(junctionLook(local,QList<Item>{thin},at).first-.3*7)<1e-9&&std::abs(junctionLook(local,QList<Item>{thin}).first-.7)<1e-9,"a component's junction where the component lies");
+                Document d=newDocument(QStringLiteral("x"));Item wire=thin;wire.pen.width=.5;wire.pen.color=QColor(0,160,0);assignIds(wire);
+                Item part=exampleSymbol();part.pos=QPointF(40,40);part.rotation=0;part.mirrored=false;part.children<<local;assignIds(part);d.sheets[0].items<<wire<<part;
+                RenderOptions o;o.titleBlock=false;const QImage image=renderSheet(d,0,20,o);const QColor dot=image.pixelColor(QPoint(40*20,int(41.4*20)));
+                require(dot.green()>120&&dot.red()<80,"drawn in the line's colour and 3.5 mm wide");}}
 
         // --- Own file format
         {const Document d=everything();const QByteArray bytes=encode(d);
@@ -694,7 +702,7 @@ int main(int argc,char **argv){
             Item image;image.type=ItemType::Image;image.centre=QPointF(1,1);image.size=QSizeF(2,2);image.resource=key;e.symbol.children<<image;e.resources.insert(key,{QStringLiteral("png"),png});
             page.entries<<e;
             const QJsonObject json=pageToJson(page);
-            require(json["version"].toInt()>=2&&json["symbols"].toArray()[0].toObject().contains("resources"),"from version 2 with the pictures of a symbol");
+            require(json["version"].toInt()==2&&json["symbols"].toArray()[0].toObject().contains("resources"),"version 2 with the pictures of a symbol: without children no version 3");
             const LibraryPage back=pageFromJson(json);
             require(back.name==page.name&&back.folder==page.folder&&back.entries.size()==1&&back.entries[0].resources==e.resources&&back.entries[0].caption=="Symbol","read back");
             QJsonObject old=json;old["version"]=1;auto symbols=old["symbols"].toArray();auto first=symbols[0].toObject();first.remove("resources");

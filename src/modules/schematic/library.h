@@ -131,6 +131,8 @@ public:
     bool emptyPage(QString *error=nullptr);
     bool addEntries(const QList<LibraryEntry> &entries,QString *error=nullptr);
     bool replaceEntry(int index,const LibraryEntry &entry,QString *error=nullptr);
+    // All entries of the current page at once, written once; false (the page as it was) if it cannot be written.
+    bool replaceEntries(const QList<LibraryEntry> &entries,QString *error=nullptr);
     bool newEntry(QString *error=nullptr);
     bool duplicateEntry(int index,QString *error=nullptr);
     bool deleteEntry(int index,QString *error=nullptr);

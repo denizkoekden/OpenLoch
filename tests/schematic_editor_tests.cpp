@@ -308,6 +308,15 @@ int schematicEditorTests(){
             require(loadPage(file).entries[index].caption=="Neue Unterschrift","the caption kept on the page");
             auto *value=y.findChild<QLineEdit*>("value");require(value&&value->isEnabled(),"its fields");value->setText(QStringLiteral("4k7"));emit value->editingFinished();QApplication::processEvents();
             require(loadPage(file).entries[index].symbol.value=="4k7"&&!y.isModified(),"a field kept on the page, the document unchanged");
+            // Entries moved or deleted meanwhile: the change goes to the entry shown, or nowhere.
+            {QString err;LibraryEntry spare{QStringLiteral("Anderes"),exampleSymbol(),{}};require(y.library()->addEntries({spare},&err),"another entry");
+                const int count=int(loadPage(file).entries.size());require(y.library()->moveEntry(index,count-1,&err),"the shown entry moved to the end");
+                const LibraryPage before=loadPage(file);value->setText(QStringLiteral("10k"));emit value->editingFinished();QApplication::processEvents();
+                const LibraryPage after=loadPage(file);
+                require(after.entries[count-1].symbol.value=="10k"&&after.entries[count-1].caption=="Neue Unterschrift"&&after.entries[index].caption==before.entries[index].caption&&after.entries[index].symbol.value==before.entries[index].symbol.value,"the moved entry changed, not the one in its old place");
+                require(y.library()->deleteEntry(count-1,&err),"the shown entry deleted");auto bytes=[&]{QFile f(file);return f.open(QIODevice::ReadOnly)?f.readAll():QByteArray();};const QByteArray left=bytes();
+                value->setText(QStringLiteral("22k"));emit value->editingFinished();QApplication::processEvents();QApplication::processEvents();
+                require(bytes()==left&&!y.findChild<QLabel*>("libraryTitle"),"a deleted entry takes no change, the panel ends it");}
             Item mark;mark.type=ItemType::Line;mark.points={QPointF(10,10),QPointF(20,10)};assignIds(mark);y.change([&](Document &d){d.sheet().items<<mark;});y.markSaved();
             y.view()->setSelection({mark.id});QApplication::processEvents();
             require(!y.findChild<QLabel*>("libraryTitle"),"a selection on the sheet ends it");
@@ -486,7 +495,7 @@ int schematicEditorTests(){
         QStringList placeholders;for(const auto &c:x.view()->items())if(c.role!=TextRole::Plain)placeholders<<c.id;
         x.view()->setSelection(placeholders);x.action("delete")->trigger();
         int left=0;for(const auto &c:x.view()->items())left+=c.role!=TextRole::Plain;
-        require(placeholders.size()==2&&left==2,"designator and value cannot be deleted in the component editor");
+        require(placeholders.size()==2&&left==2&&!x.isModified(),"designator and value cannot be deleted in the component editor, and trying is no step");
         auto partsOnSheet=[&]{QList<QPointF> out;const Item &c=x.document().sheet().items[0];for(const auto *k:contacts(c))out<<placement(c).map(k->pin);return out;};
         const QList<QPointF> pinsBefore=partsOnSheet();
         dragOn(x.view(),QPointF(0,0),QPointF(15.24,0));
@@ -759,7 +768,12 @@ int schematicEditorTests(){
             require(rounded.corners==Corners::Round&&std::abs(rounded.corner-25)<1e-6&&near(rounded.centre,{60,120}),"the changer 10 pixels beside the corner rounds from where it was taken");
             v->setSelection({arc.id});dragOn(v,{110,120},{100,130});
             require(std::abs(items().last().start-270)<1e-9&&std::abs(items().last().stop-90)<1e-9,"dragging the start of the arc");
-            x.undo();x.undo();x.undo();}
+            x.undo();x.undo();x.undo();
+            // On a rectangle a few pixels wide the top right corner still sizes it, the changer does not cover it.
+            {Item narrow=box;narrow.id.clear();narrow.size=QSizeF(8/v->scale(),10);narrow.centre=QPointF(60,140);assignIds(narrow);
+                x.change([&](Document &dd){dd.sheet().items<<narrow;});v->setSelection({narrow.id});const QPointF corner(60+4/v->scale(),135);
+                dragOn(v,corner,corner+QPointF(5,0));
+                require(items().last().corner==0&&items().last().size.width()>8/v->scale()+4,"the narrow rectangle's corner sizes it");x.undo();x.undo();}}
         // The eight sizers around the selection stretch it; a second click on a selected element makes them arrows that
         // turn (corners, in steps of the rotation snap) and shear (sides), as in the reference.
         {Item top;top.type=ItemType::Line;top.points={QPointF(200,100),QPointF(220,100)};assignIds(top);
@@ -914,6 +928,17 @@ int schematicEditorTests(){
         require(fontOf(0,0,TextRole::Designator).family=="Courier"&&fontOf(0,0,TextRole::Designator).bold&&std::abs(fontOf(0,0,TextRole::Designator).height-4)<1e-9,"the designators of the current sheet");
         require(fontOf(0,0,TextRole::Value).family!="Courier"&&fontOf(1,int(x.document().sheets[1].items.size())-1,TextRole::Designator).family!="Courier","values and other sheets stay");
         x.applyLettering(none,big,none,LetteringDialog::Project);require(fontOf(1,int(x.document().sheets[1].items.size())-1,TextRole::Value).family=="Courier","the whole project");
+        // A page of a sPlan library: all its components, the page written once, its losses reported once.
+        {QTemporaryDir dir;QDir().mkpath(dir.filePath("Bibliothek"));LibraryPage page;page.name=QStringLiteral("Teile");
+            for(const char *c:{"A","B","C"})page.entries<<LibraryEntry{QString::fromLatin1(c),exampleSymbol(),{}};
+            {QFile f(dir.filePath("Bibliothek/Teile.lib"));require(f.open(QIODevice::WriteOnly)&&f.write(splan::writeLibrary(page,{},80))>0,"the page written");}
+            x.library()->setOwnFolder(dir.filePath("Bibliothek"),QStringLiteral("Bibliothek"));x.library()->setPages(folderPages(dir.filePath("Bibliothek")));
+            int own=-1;for(int k=0;k<x.library()->pages().size();k++)if(x.library()->pages()[k].file.endsWith(u"Teile.lib"))own=k;
+            require(own>=0&&x.library()->showPage(x.library()->pageKey(own)),"the sPlan page");
+            int reports=0;x.library()->lossesReported=[&](const QStringList &){reports++;};
+            x.applyLettering(big,none,none,LetteringDialog::LibraryPage);
+            bool all=true;for(const auto &e:x.library()->pages()[x.library()->currentPage()].entries)for(const auto &c:e.symbol.children)if(c.role==TextRole::Designator)all&=c.font.family=="Courier";
+            require(all&&reports<=1,"every component of the page, one report at most");x.library()->lossesReported=nullptr;}
         x.view()->setSelection({x.document().sheets[0].items[1].id});x.applyLettering(none,none,big,LetteringDialog::Selection);
         bool contactsBig=true,othersSmall=true;
         for(const auto *c:contacts(x.document().sheets[0].items[1]))contactsBig&=c->font.family=="Courier";
@@ -1559,7 +1584,8 @@ int schematicEditorTests(){
         Item line;line.type=ItemType::Line;line.points={QPointF(20,40),QPointF(120,40)};line.pen.width=.5;line.pen.color=QColor(0,0,200);assignIds(line);
         Item j;j.type=ItemType::Junction;j.pos=QPointF(60,40);j.size=QSizeF(1,1);j.autoSize=false;assignIds(j);
         Item t;t.type=ItemType::Text;t.text=QStringLiteral("Schräg");t.pos=QPointF(-5,80);t.rotation=30;t.mirrored=true;assignIds(t);
-        d.sheets[0].items<<line<<j<<t;
+        Item part=exampleSymbol();part.pos=QPointF(100,100);Item label;label.type=ItemType::Text;label.text=QStringLiteral("Teil");label.pos=QPointF(0,-24);label.rotation=30;part.children<<label;assignIds(part);
+        d.sheets[0].items<<line<<j<<t<<part;
         Editor x;x.resize(1400,900);x.setDocument(d);auto *panel=x.findChild<QWidget*>("properties");
         auto get=[&](const QString &id){for(const auto &i:x.document().sheet().items)if(i.id==id)return i;return Item();};
         auto fresh=[]{QApplication::processEvents();QCoreApplication::sendPostedEvents(nullptr,QEvent::DeferredDelete);};
@@ -1574,6 +1600,20 @@ int schematicEditorTests(){
         panel->findChild<QCheckBox*>("reversed")->setChecked(true);require(get(t.id).reversed,"the writing direction reversed");
         fresh();panel->findChild<QPushButton*>("normalise")->click();
         {const Item n=get(t.id);require(n.rotation==0&&!n.mirrored&&bounds(n).left()>=-1e-9&&n.reversed,"upright again and on the sheet, the direction kept");}
+        // In the component editor a text stays where it is around the insertion point.
+        {x.view()->setSelection({part.id});x.editComponent();fresh();
+            QString label;for(const auto &c:x.view()->items())if(c.type==ItemType::Text&&c.text==u"Teil")label=c.id;
+            x.view()->setSelection({label});fresh();panel->findChild<QPushButton*>("normalise")->click();fresh();
+            Item n;for(const auto &c:x.view()->items())if(c.id==label)n=c;
+            require(!label.isEmpty()&&n.rotation==0&&near(n.pos,{0,-24},1e-9),"in the component editor upright, in its place");x.leaveComponentEditor(true);}
+        // In the component editor an element of a group, chosen alone, takes the panel's change.
+        {Item g;g.type=ItemType::Group;Item a;a.type=ItemType::Line;a.points={QPointF(0,5),QPointF(10,5)};g.children<<a;
+            Item c=exampleSymbol();c.pos=QPointF(150,100);c.children<<g;assignIds(c);x.change([&](Document &dd){dd.sheet().items<<c;});
+            const QString lineId=c.children.last().children[0].id;
+            x.view()->setSelection({c.id});x.editComponent();fresh();x.view()->setSelection({lineId});fresh();
+            panel->findChild<QDoubleSpinBox*>("penWidth")->setValue(7);fresh();
+            const Item *changed=nullptr;for(const auto &k:x.view()->items())if(k.type==ItemType::Group)for(const auto &m:k.children)if(m.id==lineId)changed=&m;
+            require(changed&&std::abs(changed->pen.width-.7)<1e-9,"a line in a group of the component changed");x.leaveComponentEditor(true);}
         x.markSaved();}
 
     // --- The list of kinds of a mixed selection: groups taken apart, the kinds chosen are shown and changed
@@ -1650,6 +1690,14 @@ int schematicEditorTests(){
         {auto *description=panel->findChild<QPlainTextEdit*>("sheetDescription");description->setPlainText(QStringLiteral("Erstes"));description->document()->setModified(true);
             x.switchSheet(1);QFocusEvent out(QEvent::FocusOut);QApplication::sendEvent(description,&out);flush();
             require(x.document().sheets[0].description=="Erstes"&&x.document().sheets[1].description!="Erstes","the description stays with its sheet");}
+        // So does a designator typed into a component's field and left by choosing another sheet.
+        {x.switchSheet(0);QString partId;for(const auto &i:x.document().sheets[0].items)if(i.type==ItemType::Component)partId=i.id;
+            x.view()->setSelection({partId});flush();
+            auto *designator=panel->findChild<QLineEdit*>("designator");require(designator,"the designator field");
+            designator->setText(QStringLiteral("Q77"));designator->setModified(true);
+            x.switchSheet(1);QFocusEvent out(QEvent::FocusOut);QApplication::sendEvent(designator,&out);flush();
+            const Item *part=findItem(x.document().sheets[0],partId);
+            require(part&&part->designator=="Q77","the designator kept on its component, on the other sheet");x.switchSheet(0);}
         // Arrow keys with an element of a group chosen alone make no step.
         {Item g;g.type=ItemType::Group;Item a;a.type=ItemType::Line;a.points={QPointF(10,10),QPointF(20,10)};Item b=a;b.points={QPointF(10,20),QPointF(20,20)};g.children={a,b};assignIds(g);
             // A step to redo stays: an empty step would drop it.
@@ -1671,7 +1719,13 @@ int schematicEditorTests(){
             require(x.document().sheet().items.size()==before-1,"the element outside deleted in the title block mode");x.action("editTitleBlock")->trigger();}
         // .blt keeps the sheet's sPlan bytes, the own format not.
         {Document fromSplan=splan::read(splan::write(exampleDocument(),80));Editor y;y.setDocument(fromSplan);
-            require(!y.sheetDocument(true).sheets[0].splan.isEmpty()&&y.sheetDocument().sheets[0].splan.isEmpty(),"the sheet's bytes for an sPlan sheet file only");y.markSaved();}
+            require(!y.sheetDocument(true).sheets[0].splan.isEmpty()&&y.sheetDocument().sheets[0].splan.isEmpty(),"the sheet's bytes for an sPlan sheet file only");
+            // Only the pictures the sheet shows go with it.
+            Document pictured=exampleDocument();QImage dot(4,4,QImage::Format_RGB32);dot.fill(Qt::red);QByteArray png;{QBuffer b(&png);b.open(QIODevice::WriteOnly);dot.save(&b,"PNG");}
+            pictured.resources.insert(QStringLiteral("other"),Resource{QStringLiteral("png"),png});
+            Item photo;photo.type=ItemType::Image;photo.resource=QStringLiteral("other");photo.centre=QPointF(50,50);photo.size=QSizeF(10,10);assignIds(photo);pictured.sheets[1].items<<photo;
+            y.setDocument(pictured);y.switchSheet(0);require(y.sheetDocument().resources.isEmpty(),"no pictures of other sheets");
+            y.switchSheet(1);require(y.sheetDocument().resources.contains(QStringLiteral("other")),"the sheet's own picture");y.markSaved();}
         // The print preview keeps the scale within 10 to 800 %.
         {QList<PrintSettings> settings;PrintSettings tiny;tiny.free=true;tiny.scale=.05;settings<<tiny;PrintPreview preview(x.document(),settings,QString());
             require(std::abs(settings[0].scale-.1)<1e-9,"a stored 5 % shown and printed as 10 %");
@@ -1692,6 +1746,13 @@ int schematicEditorTests(){
                 {"toolPolygon",QKeySequence(Qt::Key_O)},{"toolText",QKeySequence(Qt::Key_T)},{"toolTextBox",QKeySequence(Qt::Key_E)},{"toolZoom",QKeySequence(Qt::Key_Z)}};
             for(const auto &[name,key]:keys){QAction *a=x.action(QString::fromLatin1(name));
                 require(a&&a->shortcuts().contains(key),(std::string("the key of the reference as a shortcut: ")+name).c_str());}}
+        // The full-screen action follows the window, also when the system changes it.
+        {x.setWindowState(Qt::WindowFullScreen);const bool on=x.action("fullScreen")->isChecked();x.setWindowState(Qt::WindowNoState);
+            require(on&&!x.action("fullScreen")->isChecked(),"the full-screen action follows the window's state");}
+        // A change that changes nothing is no step: the document stays unmodified, the step to redo stays.
+        {x.markSaved();x.change([](Document &dd){dd.sheet().name=QStringLiteral("Vorher");});x.change([](Document &dd){dd.sheet().name=QStringLiteral("Nachher");});x.undo();x.markSaved();
+            x.change([](Document &dd){dd.sheet().name=QStringLiteral("Vorher");});
+            require(!x.isModified()&&x.canRedo(),"nothing changed: no step, redo kept");}
         // Zoom and touchpad as in every drawing view of the suite.
         {SheetView *v=x.view();const QPointF at(300,250);QPointF under=v->toSheet(at);double s=v->scale();
             auto wheel=[&](QPoint pixels,QPoint angle,Qt::KeyboardModifiers mods,Qt::ScrollPhase phase){

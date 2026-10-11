@@ -239,6 +239,9 @@ int schematicSplanTests(){
     require(s.horizontalGuides.isEmpty()&&s.verticalGuides.size()==1&&near(s.verticalGuides[0],123.45),"a vertical guide line at x = 123.45 mm");
     require(d.sheets[1].name=="Zweites"&&near(d.sheets[1].width,210)&&near(d.sheets[1].height,297)&&near(d.sheets[1].grid,2.5),"second sheet upright");
     require(s.titleBlock.frame==QRectF(10,10,280,190)&&s.titleBlock.columns==10&&s.titleBlock.rows==8&&s.titleBlock.showGrid,"title block settings");
+    {QStringList losses;splan::write(d,80,&losses);require(!losses.join(' ').contains("ohne Rahmen"),"the grid as read: nothing lost");
+        Document none=d;none.sheets[0].titleBlock.frame=QRectF();none.sheets[0].titleBlock.columns=0;none.sheets[0].titleBlock.rows=0;
+        losses.clear();splan::write(none,80,&losses);require(losses.join(' ').contains("Ein Formblatt ohne Rahmen"),"no frame, columns or rows: sPlan keeps those it had, reported");}
     require(s.titleBlock.items.size()==1&&s.titleBlock.items[0].type==ItemType::Line,"objects marked for the title block go there");
     require(d.variables.size()==2&&d.variables[0].name=="Autor"&&d.variables[0].value=="Jemand"&&d.variables[1].value.isEmpty(),"user variables");
     require(s.items.size()==11,"eleven objects on the sheet");
@@ -354,6 +357,14 @@ int schematicSplanTests(){
         const Pen &kept=seven.sheets[0].items[0].pen;
         require(kept.twoColour&&kept.color2==QColor(0,128,0)&&!kept.inner&&!kept.cross&&seven.sheets[0].items[2].font.strikeOut,"sPlan 7: second colour and struck out text kept");
         require(losses.join(' ').contains("Querstreifen von 2 Elementen"),"its losses: the stripes of two elements");}
+    // sPlan 7 has no text backgrounds, pie or chord shapes and bevelled corners: each reported as lost.
+    {Document d=newDocument(QStringLiteral("x"));Item t;t.type=ItemType::Text;t.text=QStringLiteral("Hinterlegt");t.pos=QPointF(20,20);t.background=true;
+        Item pie;pie.type=ItemType::Ellipse;pie.centre=QPointF(50,50);pie.size=QSizeF(10,10);pie.arc=ArcStyle::Pie;pie.start=0;pie.stop=90;
+        Item box;box.type=ItemType::Rectangle;box.centre=QPointF(80,50);box.size=QSizeF(10,6);box.corners=Corners::Bevel;box.corner=20;
+        for(Item *i:{&t,&pie,&box}){assignIds(*i);d.sheets[0].items<<*i;}
+        QStringList losses;splan::write(d,70,&losses);const QString all=losses.join(' ');
+        require(all.contains("1 Texte verlieren ihren Hintergrund")&&all.contains("1 Tortenstücke und Sehnen")&&all.contains("1 Rechtecke mit abgeschrägten Ecken"),(std::string("sPlan 7: background, pie and bevel lost: ")+all.toStdString()).c_str());
+        losses.clear();splan::write(d,80,&losses);require(!losses.join(' ').contains("Hintergrund")&&!losses.join(' ').contains("Tortenstück")&&!losses.join(' ').contains("abgeschrägt"),"sPlan 8 keeps them");}
     {Document moved=d;Item &k=moved.sheets[0].items[5].children[2];require(k.type==ItemType::Contact,"the contact");k.pin=QPointF(5,0);
         QStringList losses;require(splan::write(moved,80,&losses)==fixture.bytes&&losses.join(' ').contains("Anschlusspunkte"),"another connection point is not written and counts as lost");}
 
@@ -454,6 +465,9 @@ int schematicSplanTests(){
                     "a changed child and parent, the other child unchanged");}
         {LibraryPage more=read;Item third=gate;third.pos=QPointF(50.8,0);more.entries[0].children<<third;
             const LibraryPage back=splan::readLibrary(splan::writeLibrary(more,bytes,0));require(back.entries[0].children.size()==3&&near(back.entries[0].children[2].pos,QPointF(50.8,0)),"a new child hung on its parent");}
+        {LibraryPage copied=read;copied.entries<<read.entries[0];
+            const LibraryPage back=splan::readLibrary(splan::writeLibrary(copied,bytes,0));
+            require(back.entries.size()==3&&back.entries[0].children.size()==2&&back.entries[2].children.size()==2,"a copied parent with its own children, the original keeps its");}
         {LibraryPage fewer=read;fewer.entries.removeFirst();
             const LibraryPage back=splan::readLibrary(splan::writeLibrary(fewer,bytes,0));require(back.entries.size()==1&&back.entries[0].children.isEmpty(),"a parent removed with its children");}
         require(splan::readLibrary(splan::writeLibrary(family,{},70)).entries[0].children.size()==2,"also in sPlan 7");}

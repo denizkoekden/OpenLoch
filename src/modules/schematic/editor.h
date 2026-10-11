@@ -240,6 +240,7 @@ public:
     std::function<void()> titleChanged;
 protected:
     void closeEvent(QCloseEvent *event) override;
+    void changeEvent(QEvent *event) override;
 private:
     Document doc;
     QString path,importedName;

@@ -64,6 +64,7 @@ private:
     QWidget *content=nullptr;
     QVBoxLayout *sections=nullptr;
     bool refreshing=false;
+    int built=0;                     // counts the panel's builds: a field of an earlier one is left over
     bool positionAsGroup=false;     // "Als Gruppe behandeln" as last chosen (off at first, as in the reference)
     // The list of element kinds of a mixed selection (groups taken apart), as the reference's: the kinds chosen there
     // are the ones shown and changed; none chosen, all. It belongs to the selection it was chosen for.
@@ -78,6 +79,9 @@ private:
     QFormLayout *section(const QString &title);
     // Applies `edit` to each selected element (or, in the component editor, to each selected part).
     void edit(const std::function<void(Item&)> &edit);
+    // For a field typed into: the change for the elements shown when the field was made. When the field is left because
+    // the panel is being built anew (a click on a sheet tab), the change follows once that is done, on whatever sheet.
+    std::function<void(const std::function<void(Item&)>&)> typing();
     // The same for changes that also change the document (pictures).
     void edit(const std::function<void(Document&,Item&)> &edit);
     void applyPen(const Pen &pen);

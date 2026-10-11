@@ -92,6 +92,7 @@ const Item *findItem(const Sheet &sheet,const QString &id){
     if(const auto *i=find(sheet.items,id))return i;
     return find(sheet.titleBlock.items,id);
 }
+Item *findItem(QList<Item> &items,const QString &id){return find(items,id);}
 int sheetIndex(const Document &document,const QString &id){
     for(int i=0;i<document.sheets.size();i++)if(document.sheets[i].id==id)return i;
     return -1;

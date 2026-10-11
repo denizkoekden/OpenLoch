@@ -350,6 +350,7 @@ public:
     int stripes=0;                  // elements whose stripes sPlan 7 cannot keep
     int hatches=0;                  // hatches whose spacing or line width sPlan 7 cannot keep
     int reversedTexts=0;            // texts written the other way round, which sPlan 7 cannot keep
+    int backgrounds=0,sectors=0,bevels=0;   // text backgrounds, pie and chord shapes, bevelled corners: none in sPlan 7
     QByteArray targetOf(const Item &item) const{return item.linkTarget.isEmpty()?QByteArray(16,'\0'):guids.value(item.linkTarget,QByteArray(16,'\0'));}
     qint64 parentKey(const Item &item) const{return item.parentId.isEmpty()?0:keys.value(item.parentId,0);}
     Exporter(int v,const Document &d):version(v),document(d){}
@@ -449,6 +450,7 @@ public:
         if(!o||i.backgroundColor!=o->backgroundColor)r.set("backgroundColour",colourRef(i.backgroundColor));
         if(version>=80){if(!o||i.reversed!=o->reversed)r.set("afterBackground",i.reversed?1:0);}
         else if(i.reversed)reversedTexts++;
+        if(version<80&&i.background)backgrounds++;
     }
     Record record(const Item &item,bool inComponent,int mark){
         Record base;bool haveBase=false;Item original;
@@ -497,6 +499,7 @@ public:
                 r.setPoint("rounding",(c[3]+(l>0?along/l*round:QPointF()))*unit);
                 if(item.corners!=Corners::Square)r.set("cornerStyle",item.corners==Corners::Bevel?1:0);
             }
+            if(version<80&&item.corners==Corners::Bevel)bevels++;
             break;
         }
         case ItemType::Ellipse:{
@@ -512,6 +515,7 @@ public:
                 else{r.setReal("start",qDegreesToRadians(std::fmod(item.start+item.rotation+720,360.)));r.setReal("stop",qDegreesToRadians(std::fmod(item.stop+item.rotation+720,360.)));
                     r.set("arc",item.arc==ArcStyle::Pie?1:item.arc==ArcStyle::Chord?2:0);}
             }
+            if(version<80&&(item.arc==ArcStyle::Pie||item.arc==ArcStyle::Chord)&&std::abs(item.stop-item.start)<360)sectors++;
             break;
         }
         case ItemType::Text:case ItemType::NetLabel:case ItemType::Contact:{
@@ -670,6 +674,9 @@ public:
         if(stripes)losses->append(ui("Die Längs- und Querstreifen von %1 Elementen entfallen; sPlan 7 kennt sie nicht.").arg(stripes));
         if(hatches)losses->append(ui("%1 Schraffuren erhalten den Linienabstand 2 mm und die Linienstärke 0,1 mm; sPlan 7 speichert beides nicht.").arg(hatches));
         if(reversedTexts)losses->append(ui("%1 Texte mit umgekehrter Textrichtung werden normal geschrieben; sPlan 7 kennt sie nicht.").arg(reversedTexts));
+        if(backgrounds)losses->append(ui("%1 Texte verlieren ihren Hintergrund; sPlan 7 kennt keine Hintergründe von Texten.").arg(backgrounds));
+        if(sectors)losses->append(ui("%1 Tortenstücke und Sehnen werden als Bögen geschrieben; sPlan 7 kennt nur Bögen.").arg(sectors));
+        if(bevels)losses->append(ui("%1 Rechtecke mit abgeschrägten Ecken werden mit runden Ecken geschrieben; sPlan 7 kennt keine abgeschrägten.").arg(bevels));
     }
     Record partText(const Item &t,const Record &before,bool designator){
         Record r=before;
@@ -725,6 +732,12 @@ Record sheetRecord(const Sheet &s,int version,Exporter &out,QStringList *problem
         if(was!=t.frame){r.setReal("frameX",t.frame.x()*unit);r.setReal("frameY",t.frame.y()*unit);r.setReal("frameWidth",t.frame.width()*unit);r.setReal("frameHeight",t.frame.height()*unit);}
         if(r.integer("columns")!=t.columns&&t.columns>0)r.set("columns",t.columns);
         if(r.integer("rows")!=t.rows&&t.rows>0)r.set("rows",t.rows);
+    }
+    // No frame, no columns or no rows: sPlan's sheets always have them (a new one 10 by 8), the file keeps those it had.
+    if(version>=80&&base&&problems){
+        const QRectF was(r.real("frameX")/unit,r.real("frameY")/unit,r.real("frameWidth")/unit,r.real("frameHeight")/unit);
+        if((t.frame.isEmpty()&&!was.isEmpty())||(t.columns<=0&&r.integer("columns")>0)||(t.rows<=0&&r.integer("rows")>0))
+            problems->append(ui("Ein Formblatt ohne Rahmen, Spalten oder Zeilen gibt es in sPlan nicht; die sPlan-Datei behält Rahmen, Spalten und Zeilen, wie sie gelesen wurden."));
     }
     // The starts of the numbering as read (sPlan also takes 0, OpenLoch counts from 1), unless they were changed.
     if(version>=80){
@@ -913,7 +926,7 @@ QByteArray write(const Document &document,int v,QStringList *losses,bool keepUnc
     readFile(bytes);
     if(losses){
         out.report(losses);
-        if(v<80&&sourceVersion(document)==80)losses->append(ui("Felder, die es erst in sPlan 8 gibt (Linkziele und Hintergründe von Texten), entfallen."));
+        if(v<80&&sourceVersion(document)==80)losses->append(ui("Felder, die es erst in sPlan 8 gibt (Linkziele von Texten), entfallen."));
         if(v<80&&!document.designatorPrefix.isEmpty())losses->append(ui("Der Präfix der Bauteilbezeichner entfällt (erst ab sPlan 8)."));
         problems.removeDuplicates();losses->append(problems);
     }
@@ -942,7 +955,8 @@ LibraryPage readLibrary(const QByteArray &bytes,QStringList *notes){
         const Record &o=objects[k];Item i=importer.item(o,false);
         if(i.type==ItemType::Group)move(i,-fromUnits(referencePoint(o)));
         else if(i.type!=ItemType::Component)continue;
-        if(i.type==ItemType::Component){entryOfKey.insert(o.integer("key"),int(page.entries.size()));placeOfKey.insert(o.integer("key"),i.pos);}
+        // As in a document, children belong to the first parent with their key.
+        if(i.type==ItemType::Component&&!entryOfKey.contains(o.integer("key"))){entryOfKey.insert(o.integer("key"),int(page.entries.size()));placeOfKey.insert(o.integer("key"),i.pos);}
         i.pos=QPointF();
         LibraryEntry e;e.caption=i.caption;e.symbol=i;collectResources(i,scratch.resources,&e.resources);
         page.entries.append(e);
@@ -1005,6 +1019,11 @@ QByteArray writeLibrary(const LibraryPage &page,const QByteArray &original,int v
     // page in the place it had (unchanged as it was, changed written anew), at its place relative to its parent's record
     // and hanging on that parent's key; new children after the page's objects.
     QList<Record> entries;for(qsizetype k=0;k<page.entries.size();k++)entries<<record(page.entries[k],k);
+    // Each key once: a copy of an entry, written from the original's bytes, has the original's key and would take its children.
+    {QSet<qint64> taken;for(int k=0;k<objects.size();k++)if(childSet.contains(k))taken<<objects[k].integer("key");
+        for(auto &r:entries){if(r.type!=Component)continue;qint64 key=r.integer("key");
+            while(key==0||taken.contains(key))key=QRandomGenerator::global()->bounded(1,0x7fffffff);
+            if(key!=r.integer("key"))r.set("key",qint32(key));taken<<key;}}
     QList<Record> childRecordsOut;QHash<int,Record> kept;   // by the index of the original
     for(qsizetype k=0;k<page.entries.size();k++){
         if(entries[k].type!=Component)continue;

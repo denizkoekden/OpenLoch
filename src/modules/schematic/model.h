@@ -268,6 +268,7 @@ void completeIds(Document &document);
 // Finds an item by id on a sheet (also inside groups and components); nullptr if there is none.
 Item *findItem(Sheet &sheet,const QString &id);
 const Item *findItem(const Sheet &sheet,const QString &id);
+Item *findItem(QList<Item> &items,const QString &id);   // in a list and the groups in it, at any depth
 int sheetIndex(const Document &document,const QString &id);
 
 // --- geometry

@@ -2,6 +2,8 @@
 #include "model.h"
 #include <QImage>
 #include <QSet>
+#include <QTransform>
+#include <optional>
 
 class QPainter;
 
@@ -24,6 +26,8 @@ struct RenderOptions {
     QSet<QString> related;
     // Texts that are link targets get an arrow pointing in at the left, links an arrow pointing out at the right.
     bool linkMarks=false;
+    // A component drawn in its own coordinates (the component editor): where it lies on the sheet, for the junctions in it.
+    std::optional<QTransform> componentPlacement;
 };
 // What a picture shows of the current sheet: all of it, all its elements (drawn with the title block) or only the
 // selected ones; the elements, as in the reference, in their bounds and 4 mm around them.
@@ -34,7 +38,10 @@ void paintSheet(QPainter &painter,const Document &document,int sheet,const Rende
 void paintItems(QPainter &painter,const QList<Item> &items,const Document &document,int sheet,const RenderOptions &options={});
 // A sheet as a picture, `pixelsPerMm` fine.
 QImage renderSheet(const Document &document,int sheet,double pixelsPerMm,const RenderOptions &options={});
-// The size a junction is drawn with and its colour: with `autoSize` they follow the conductor it sits on.
+// The size a junction is drawn with and its colour: with `autoSize` they follow the conductor it sits on, a line of
+// `lines` (the sheet's circuit, or its title block for a junction there); `toLines` maps the junction's position there (a
+// component's placement for one of its parts).
+std::pair<double,QColor> junctionLook(const Item &junction,const QList<Item> &lines,const QTransform &toLines=QTransform());
 std::pair<double,QColor> junctionLook(const Item &junction,const Sheet &sheet);
 // The marks of text links ("Text-Verlinkungen") in a text's frame (textFrame), around its box (textRect): the inner arrow
 // at the left of a text others may link to, the outer one at the right of a link with a target (`outgoing`).

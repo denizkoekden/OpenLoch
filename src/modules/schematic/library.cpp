@@ -67,7 +67,9 @@ QJsonObject pageToJson(const LibraryPage &page){
         }
         symbols.append(o);
     }
-    QJsonObject o{{"format","OpenLoch Schematic Library"},{"version",libraryVersion},{"unit","mm"},{"name",page.name},{"symbols",symbols}};
+    // Version 3 only for a page with children, so that a page without them still opens in versions knowing only 2.
+    const bool children=std::any_of(page.entries.cbegin(),page.entries.cend(),[](const LibraryEntry &e){return !e.children.isEmpty();});
+    QJsonObject o{{"format","OpenLoch Schematic Library"},{"version",children?libraryVersion:2},{"unit","mm"},{"name",page.name},{"symbols",symbols}};
     if(!page.folder.isEmpty())o["folder"]=page.folder;
     return o;
 }
@@ -490,6 +492,12 @@ bool LibraryPanel::replaceEntry(int index,const LibraryEntry &entry,QString *err
     if(readOnly(error)||index<0||index>=list[page].entries.size())return false;
     const LibraryEntry before=list[page].entries[index];list[page].entries[index]=entry;
     if(!store(page,error)){list[page].entries[index]=before;return false;}
+    fill();return true;
+}
+bool LibraryPanel::replaceEntries(const QList<LibraryEntry> &entries,QString *error){
+    if(readOnly(error))return false;
+    const QList<LibraryEntry> before=list[page].entries;list[page].entries=entries;
+    if(!store(page,error)){list[page].entries=before;return false;}
     fill();return true;
 }
 bool LibraryPanel::newEntry(QString *error){

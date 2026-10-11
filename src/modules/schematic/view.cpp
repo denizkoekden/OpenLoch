@@ -425,6 +425,9 @@ QList<QPointF> SheetView::handles(const Item &item) const{
 }
 int SheetView::handleAt(const Item &item,QPointF pixel) const{
     const auto list=handles(item);
+    // The corners before the changers: on a narrow rectangle the rounding changer comes near its top right corner.
+    const bool framed=item.type==ItemType::Rectangle||item.type==ItemType::Ellipse||item.type==ItemType::TextBox||item.type==ItemType::Image;
+    if(framed)for(int i=0;i<4&&i<int(list.size());i++)if(distance(toPixel(list[i]),pixel)<=5)return i;
     for(int i=int(list.size())-1;i>=0;i--)if(distance(toPixel(list[i]),pixel)<=5)return i;
     return -1;
 }
@@ -577,7 +580,7 @@ void SheetView::paintEvent(QPaintEvent *){
         paintGrid(painter,sheetRect());
         // The placeholders without the drawing's prefix and sheet number (the lists stay shared, nothing is copied).
         Document plain=*doc;plain.designatorPageNumbers=false;
-        paintItems(painter,{shown},plain,sheetIndex,options);
+        {RenderOptions own=options;own.componentPlacement=placement(*edited);paintItems(painter,{shown},plain,sheetIndex,own);}
         // The insertion point ("roter Punkt"), dragged to another grid point to move it.
         painter.setPen(Qt::NoPen);painter.setBrush(QColor(255,0,0));painter.drawEllipse(drag==Drag::Anchor?anchorAt:QPointF(),4/pixelsPerMm,4/pixelsPerMm);
     }else{

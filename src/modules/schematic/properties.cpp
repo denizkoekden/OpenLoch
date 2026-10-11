@@ -141,7 +141,7 @@ void PropertiesPanel::edit(const std::function<void(Item&)> &fn){
     change([ids,fn,component](Document &d){
         for(const auto &id:ids){
             Item *i=nullptr;
-            if(!component.isEmpty()){if(Item *c=findItem(d.sheet(),component))for(auto &k:c->children)if(k.id==id)i=&k;}
+            if(!component.isEmpty()){if(Item *c=findItem(d.sheet(),component))i=findItem(c->children,id);}
             else i=findItem(d.sheet(),id);
             if(i)fn(*i);
         }
@@ -197,14 +197,31 @@ void PropertiesPanel::edit(const std::function<void(Document&,Item&)> &fn){
     change([ids,fn,component](Document &d){
         for(const auto &id:ids){
             Item *i=nullptr;
-            if(!component.isEmpty()){if(Item *c=findItem(d.sheet(),component))for(auto &k:c->children)if(k.id==id)i=&k;}
+            if(!component.isEmpty()){if(Item *c=findItem(d.sheet(),component))i=findItem(c->children,id);}
             else i=findItem(d.sheet(),id);
             if(i)fn(d,*i);
         }
     });
 }
+std::function<void(const std::function<void(Item&)>&)> PropertiesPanel::typing(){
+    const QStringList ids=presetItem||!sheetView?QStringList():editedIds();const QString component=sheetView?sheetView->componentMode():QString();
+    return [this,ids,component,made=built,preset=presetItem!=nullptr](const std::function<void(Item&)> &fn){
+        // A preset or library symbol shown: as long as the panel shows one.
+        if(preset){if(!refreshing&&presetItem)edit(fn);return;}
+        if(!refreshing&&made==built){edit(fn);return;}
+        if(ids.isEmpty())return;
+        QMetaObject::invokeMethod(this,[this,ids,component,fn]{
+            if(!change||!sheetView||!sheetView->document())return;
+            change([ids,component,fn](Document &d){
+                for(auto &sheet:d.sheets)for(const auto &id:ids){
+                    Item *i=nullptr;
+                    if(!component.isEmpty()){if(Item *c=findItem(sheet,component))i=findItem(c->children,id);}
+                    else i=findItem(sheet,id);
+                    if(i)fn(*i);
+                }});},Qt::QueuedConnection);};
+}
 void PropertiesPanel::refresh(){
-    refreshing=true;
+    refreshing=true;built++;
     content=new QWidget;sections=new QVBoxLayout(content);sections->setContentsMargins(0,0,0,0);sections->setSpacing(0);
     if(sheetView&&filterFor!=sheetView->selection()){typeFilter.clear();filterFor.clear();}
     const auto items=selection();presetItem=nullptr;
@@ -423,7 +440,7 @@ void PropertiesPanel::itemSections(const QList<Item*> &items){
         auto *form=section(ui("Bauteil"));
         auto field=[&](const QString &label,const QString &value,const char *name,std::function<void(Item&,const QString&)> set,bool *visible=nullptr,const char *visibleName=nullptr,std::function<void(Item&,bool)> setVisible={}){
             auto *edit=new QLineEdit(value);edit->setObjectName(name);
-            connect(edit,&QLineEdit::editingFinished,this,[this,edit,set]{const QString v=edit->text();edit->setModified(false);this->edit([v,set](Item &i){set(i,v);});});
+            connect(edit,&QLineEdit::editingFinished,this,[edit,set,commit=typing()]{const QString v=edit->text();edit->setModified(false);commit([v,set](Item &i){set(i,v);});});
             if(visible){
                 auto *row=new QWidget;auto *h=new QHBoxLayout(row);h->setContentsMargins(0,0,0,0);h->addWidget(edit,1);
                 // "…": the extended text input for the field, as in the reference.
@@ -511,7 +528,7 @@ void PropertiesPanel::itemSections(const QList<Item*> &items){
     if(items.size()==1&&first.type==ItemType::Contact){
         auto *form=section(ui("Bauteil-Kontakt"));
         auto *name=new QLineEdit(first.name);name->setObjectName("contactName");form->addRow(ui("Name:"),name);
-        connect(name,&QLineEdit::editingFinished,this,[this,name]{const QString v=name->text();edit([v](Item &i){i.name=v;});});
+        connect(name,&QLineEdit::editingFinished,this,[name,commit=typing()]{const QString v=name->text();commit([v](Item &i){i.name=v;});});
     }
     // Net label.
     if(all([](const Item &i){return i.type==ItemType::NetLabel;})){
@@ -527,12 +544,12 @@ void PropertiesPanel::itemSections(const QList<Item*> &items){
         QWidget *field=nullptr;
         if(first.type==ItemType::TextBox){
             // A text box's text over several lines, as the reference's memo; Strg+Einfg gives the special characters.
-            auto *text=new MemoField(first.text,4,[this](const QString &v){edit([v](Item &i){i.text=v;});});text->setObjectName("text");h->addWidget(text,1);field=text;
+            auto *text=new MemoField(first.text,4,[commit=typing()](const QString &v){commit([v](Item &i){i.text=v;});});text->setObjectName("text");h->addWidget(text,1);field=text;
             const QString family=first.font.family;offerSpecialCharacters(text,[family]{return family;});
             h->addWidget(more,0,Qt::AlignTop);
         }else{
             auto *text=new QLineEdit(first.text);text->setObjectName("text");h->addWidget(text,1);h->addWidget(more);field=text;
-            connect(text,&QLineEdit::editingFinished,this,[this,text]{const QString v=text->text();if(v.trimmed().isEmpty()&&selection().value(0)&&selection()[0]->type==ItemType::NetLabel)return;edit([v](Item &i){i.text=v;});});
+            connect(text,&QLineEdit::editingFinished,this,[text,commit=typing(),netLabel=first.type==ItemType::NetLabel]{const QString v=text->text();if(v.trimmed().isEmpty()&&netLabel)return;commit([v](Item &i){i.text=v;});});
         }
         form->addRow(row);
         // What was typed in the field is taken first, so that the extended text input starts from it.
@@ -549,7 +566,7 @@ void PropertiesPanel::itemSections(const QList<Item*> &items){
         auto *external=new QLineEdit(first.link);external->setObjectName("link");h->addWidget(external,1);
         auto *file=new QToolButton;file->setText(ui("Datei..."));file->setObjectName("linkFile");h->addWidget(file);
         form->addRow(ui("Externer Link:"),row);
-        connect(external,&QLineEdit::editingFinished,this,[this,external]{const QString v=external->text().trimmed();edit([v](Item &i){i.link=v;});});
+        connect(external,&QLineEdit::editingFinished,this,[external,commit=typing()]{const QString v=external->text().trimmed();commit([v](Item &i){i.link=v;});});
         connect(file,&QToolButton::clicked,this,[this]{const QString f=QFileDialog::getOpenFileName(this,ui("Externer Link"));if(!f.isEmpty())edit([f](Item &i){i.link=QUrl::fromLocalFile(f).toString();});});
         auto entry=[&](const PlacedComponent &p){
             return QStringLiteral("%1   %2 %3").arg(expandVariables(p.item->text,{&doc,p.sheet,nullptr,{},p.item}),ui("auf Blatt")).arg(p.sheet+1);};
@@ -588,7 +605,7 @@ void PropertiesPanel::itemSections(const QList<Item*> &items){
         };
         auto line=[&](const QString &label,const QString &value,const char *name,std::function<void(Item&,const QString&)> set){
             auto *e=new QLineEdit(value);e->setObjectName(name);form->addRow(label,e);
-            connect(e,&QLineEdit::editingFinished,this,[this,e,set]{const QString v=e->text();edit([v,set](Item &i){set(i,v);});});
+            connect(e,&QLineEdit::editingFinished,this,[e,set,commit=typing()]{const QString v=e->text();commit([v,set](Item &i){set(i,v);});});
         };
         check(ui("Zeige Ø:"),first.showDiameter,"showDiameter",[](Item &i,bool v){i.showDiameter=v;});
         line(ui("Präfix:"),first.prefix,"prefix",[](Item &i,const QString &v){i.prefix=v;});
@@ -634,7 +651,8 @@ void PropertiesPanel::itemSections(const QList<Item*> &items){
         // and size stay.
         if(!preset&&all([](const Item &i){return i.type==ItemType::Text||i.type==ItemType::Contact||i.type==ItemType::TextBox;})){
             auto *normal=new QPushButton(ui("Normalisieren"));normal->setObjectName("normalise");form->addRow(QString(),normal);
-            const QSizeF sheet=sheetView->document()&&!sheetView->document()->sheets.isEmpty()?QSizeF(sheetView->document()->sheet().width,sheetView->document()->sheet().height):QSizeF();
+            // In the component editor the texts lie around the insertion point, not on the sheet: they keep their place.
+            const QSizeF sheet=sheetView->componentMode().isEmpty()&&sheetView->document()&&!sheetView->document()->sheets.isEmpty()?QSizeF(sheetView->document()->sheet().width,sheetView->document()->sheet().height):QSizeF();
             connect(normal,&QPushButton::clicked,this,[this,sheet]{edit([sheet](Item &i){
                 i.rotation=0;if(i.type==ItemType::TextBox)return;
                 i.mirrored=false;
@@ -722,7 +740,11 @@ void PropertiesPanel::itemSections(const QList<Item*> &items){
         step->setCurrentIndex(std::clamp(first.sizeStep,0,4));step->setEnabled(automaticOn);form->addRow(ui("Auto-Size:"),step);
         connect(step,&QComboBox::activated,this,[this](int v){edit([v](Item &i){i.autoSize=true;i.sizeStep=v;});});
         std::pair<double,QColor> look{first.size.width(),first.pen.color};
-        if(automaticOn&&!preset&&sheetView->document()&&!sheetView->document()->sheets.isEmpty())look=junctionLook(first,sheetView->document()->sheet());
+        if(automaticOn&&!preset&&sheetView->document()&&!sheetView->document()->sheets.isEmpty()){
+            // On the sheet, in its title block, or in the component edited (mapped by its placement).
+            const Sheet &s=sheetView->document()->sheet();const Item *edited=sheetView->editedComponent();
+            look=edited?junctionLook(first,s.items,placement(*edited)):junctionLook(first,sheetView->titleBlockMode()?s.titleBlock.items:s.items);
+        }
         auto *size=numberBox(look.first*10,1,1000,1);size->setObjectName("junctionSize");size->setEnabled(!automaticOn);form->addRow(ui("Größe [1/10 mm]:"),size);
         connect(size,&QDoubleSpinBox::valueChanged,this,[this](double v){edit([v](Item &i){i.size=QSizeF(v/10,v/10);});});
         auto *colour=colourButton(look.second);colour->setObjectName("junctionColour");colour->setEnabled(!automaticOn);form->addRow(ui("Farbe:"),colour);

@@ -43,6 +43,7 @@
 #include <QMenu>
 #include <QMenuBar>
 #include <QMessageBox>
+#include <memory>
 #include <QMimeData>
 #include <QPainter>
 #include <QPushButton>
@@ -228,13 +229,17 @@ Editor::Editor(QWidget *parent):QMainWindow(parent){
     libraryPanel->entryPropertiesRequested=[this](int index){
         const int p=libraryPanel->currentPage();if(p<0||index<0||index>=libraryPanel->pages()[p].entries.size())return;
         const LibraryEntry e=libraryPanel->pages()[p].entries[index];const QString key=libraryPanel->pageKey(p);
-        propertiesPanel->libraryEntryChanged=[this,key,index](Item &symbol,QString &caption){
+        // The entry shown, found again by its content: entries deleted or moved since must not take the change.
+        auto shown=std::make_shared<LibraryEntry>(e);
+        propertiesPanel->libraryEntryChanged=[this,key,index,shown](Item &symbol,QString &caption){
             if(libraryPanel->pageKey(libraryPanel->currentPage())!=key&&!libraryPanel->showPage(key))return;
-            const auto &entries=libraryPanel->pages()[libraryPanel->currentPage()].entries;if(index>=entries.size())return;
-            LibraryEntry changed=entries[index];changed.symbol=symbol;changed.caption=caption;
-            QString error;if(!libraryPanel->replaceEntry(index,changed,&error)){QMessageBox::warning(this,ui("Bibliothek"),error);return;}
+            const auto &entries=libraryPanel->pages()[libraryPanel->currentPage()].entries;
+            const int at=index<entries.size()&&entries[index]==*shown?index:int(entries.indexOf(*shown));
+            if(at<0){QMetaObject::invokeMethod(propertiesPanel,[this]{if(propertiesPanel->showsLibraryEntry())propertiesPanel->clearLibraryEntry();},Qt::QueuedConnection);return;}
+            LibraryEntry changed=entries[at];changed.symbol=symbol;changed.caption=caption;
+            QString error;if(!libraryPanel->replaceEntry(at,changed,&error)){QMessageBox::warning(this,ui("Bibliothek"),error);return;}
             // As stored (a sPlan page gives its entries new bytes).
-            const LibraryEntry &now=libraryPanel->pages()[libraryPanel->currentPage()].entries[index];symbol=now.symbol;caption=now.caption;};
+            const LibraryEntry &now=libraryPanel->pages()[libraryPanel->currentPage()].entries[at];symbol=now.symbol;caption=now.caption;*shown=now;};
         propertiesPanel->showLibraryEntry(e.symbol,e.caption,libraryPanel->writable(p));};
     libraryPanel->reload=[this]{const QString key=libraryPanel->pageKey(libraryPanel->currentPage());if(preferences)reloadLibrary();else libraryPanel->setPages(builtInPages());libraryPanel->showPage(key);};
     propertiesPanel->change=[this](const std::function<void(Document&)> &edit){change(edit);};
@@ -452,7 +457,7 @@ void Editor::createActions(){
         }
         QString error;if(!file.isEmpty()&&!saveSheet(file,&error))QMessageBox::warning(this,ui("Speichern"),error);});
     // The system's key and, as in the reference, Ctrl+F11.
-    {auto *full=add("fullScreen",ui("Vollbildansicht"),"",QKeySequence::FullScreen,[this]{if(action("fullScreen")->isChecked())showFullScreen();else showNormal();});full->setCheckable(true);
+    {auto *full=add("fullScreen",ui("Vollbildansicht"),"",QKeySequence::FullScreen,[this]{if(isFullScreen())showNormal();else showFullScreen();action("fullScreen")->setChecked(isFullScreen());});full->setCheckable(true);
         auto keys=QKeySequence::keyBindings(QKeySequence::FullScreen);if(!keys.contains(QKeySequence(Qt::CTRL|Qt::Key_F11)))keys<<QKeySequence(Qt::CTRL|Qt::Key_F11);full->setShortcuts(keys);}
     // View
     add("zoomSheet",ui("Zoom Blatt"),"zoom-board",QKeySequence(Qt::Key_F5),[this]{sheetView->fitSheet();});
@@ -745,7 +750,7 @@ Document Editor::sheetDocument(bool forSplan) const{
     // The current sheet as a document of its own, with the pictures it shows and the user variables; the sheet's own
     // sPlan bytes stay for an sPlan sheet file (the sheet record stands for itself), the file's never.
     Document one=schematic::newDocument(doc.sheet().name);one.sheets={doc.sheet()};one.variables=doc.variables;
-    for(auto it=doc.resources.cbegin();it!=doc.resources.cend();++it)one.resources.insert(it.key(),it.value());
+    one.resources=doc.resources;dropUnusedResources(one);
     one.splan.clear();if(!forSplan)one.sheets[0].splan.clear();
     return one;
 }
@@ -793,7 +798,8 @@ void Editor::applyLettering(const Lettering &d,const Lettering &v,const Letterin
         const int page=libraryPanel->currentPage();if(!libraryPanel->writable(page))return;
         LibraryPage p=libraryPanel->pages()[page];
         for(auto &e:p.entries)if(e.symbol.type==ItemType::Component)letter(e.symbol,d,v,k);
-        for(int i=0;i<p.entries.size();i++){QString error;if(!libraryPanel->replaceEntry(i,p.entries[i],&error)){QMessageBox::warning(this,ui("Bibliothek"),error);return;}}
+        // Written once, so that a page that cannot keep everything reports it once.
+        QString error;if(!libraryPanel->replaceEntries(p.entries,&error))QMessageBox::warning(this,ui("Bibliothek"),error);
         return;
     }
     const QStringList ids=sheetView->selection();
@@ -996,7 +1002,12 @@ bool Editor::newFromTemplate(const QString &file,QString *error){
 }
 void Editor::snapshot(){past.append(doc);if(past.size()>undoSteps)past.removeFirst();future.clear();}
 void Editor::touched(){modified=true;dropUnusedResources(doc);refresh();}
-void Editor::change(const std::function<void(Document&)> &edit){snapshot();edit(doc);touched();}
+void Editor::change(const std::function<void(Document&)> &edit){
+    // A change that leaves the document as it was is no step: nothing modified, the steps to redo kept.
+    Document before=doc;edit(doc);
+    if(doc==before){refresh();return;}
+    past.append(std::move(before));if(past.size()>undoSteps)past.removeFirst();future.clear();touched();
+}
 void Editor::undo(){if(past.isEmpty())return;future.append(doc);doc=past.takeLast();modified=true;refresh();}
 void Editor::redo(){if(future.isEmpty())return;past.append(doc);doc=future.takeLast();modified=true;refresh();}
 void Editor::refresh(){
@@ -1011,6 +1022,11 @@ void Editor::refreshSheetList(){
     for(int i=0;i<doc.sheets.size();i++){auto *item=new QTableWidgetItem(doc.sheets[i].name);item->setToolTip(doc.sheets[i].description);sheetList->setItem(i,0,item);}
     sheetList->setCurrentCell(doc.activeSheet,0);
     refreshing=false;
+}
+void Editor::changeEvent(QEvent *event){
+    // Full screen left or entered by the system (its window button, a gesture) as well: the action shows the state.
+    if(event->type()==QEvent::WindowStateChange)if(QAction *a=action("fullScreen"))a->setChecked(windowState()&Qt::WindowFullScreen);
+    QMainWindow::changeEvent(event);
 }
 void Editor::refreshProblems(){if(auto *a=action("problems"))a->setVisible(problems().any());}
 Editor::Problems Editor::problems() const{
@@ -1414,10 +1430,9 @@ void Editor::leaveComponentEditor(bool keep){
 // --- editing the selection
 void Editor::deleteSelection(){
     const QStringList ids=sheetView->selection();if(ids.isEmpty())return;
-    snapshot();QList<Item> &list=sheetView->items();
-    // In the component editor, designator and value stay: they can be hidden, not deleted.
-    for(int i=int(list.size())-1;i>=0;i--)if(ids.contains(list[i].id)&&!(editingComponent()&&list[i].role!=TextRole::Plain))list.removeAt(i);
-    touched();
+    // In the component editor, designator and value stay: they can be hidden, not deleted (with only them, no step).
+    change([&](Document &){QList<Item> &list=sheetView->items();
+        for(int i=int(list.size())-1;i>=0;i--)if(ids.contains(list[i].id)&&!(editingComponent()&&list[i].role!=TextRole::Plain))list.removeAt(i);});
 }
 void Editor::copySelection(){
     const auto sel=selectedItems();if(sel.isEmpty())return;
