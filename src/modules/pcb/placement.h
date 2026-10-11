@@ -8,9 +8,7 @@
 // "Bauteile automatisch anordnen" (docs/modules/pcb.md): components distributed on the board as a proposal, grouped by
 // their nets, with short airwires and few crossings, inside the board's outline.
 namespace openloch::pcb {
-// Where components may lie: inside the closed outlines of the outline layer (U), lines and arcs meeting end to end
-// joined, cut-outs left out (even-odd); without a closed outline the working area.
-QPainterPath arrangeRegion(const Board &board);
+// Components lie inside boardRegion() (model.h).
 // The nets the arrangement keeps short, as lists of pads (element indexes), only those with two pads or more: from the
 // schematic's targets when given (the first pad standing for each pin), else the board's airwires joined into nets.
 QList<QList<int>> arrangementNets(const Board &board,const documents::Targets *targets);

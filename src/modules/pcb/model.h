@@ -183,6 +183,9 @@ QPainterPath copperShape(const Element &element);
 // the same; orientedRegion turns any path into such contours by its own fill rule.
 bool crossesItself(const QPolygonF &outline);
 QPainterPath evenOddArea(const QPolygonF &outline);
+// The board as the outline layer (U) draws it: inside its closed outlines, lines and arcs meeting end to end joined,
+// cut-outs left out (even-odd); without a closed outline the working area.
+QPainterPath boardRegion(const Board &board);
 QPainterPath orientedRegion(const QPainterPath &region);
 // The nodes of a track or area without repeated points and without points in the middle of a straight run.
 QPolygonF withoutRedundantNodes(const QPolygonF &nodes,bool closed=false);

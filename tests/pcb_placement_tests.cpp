@@ -59,17 +59,17 @@ int placementTests(){
     {Board b=newBoard("L",80,60);
         auto first=newElement(ElementType::Track);first.layer=Outline;first.points={{10,10},{70,10},{70,30}};
         auto rest=newElement(ElementType::Track);rest.layer=Outline;rest.points={{10,10},{10,50},{35,50},{35,30},{70,30}};
-        b.elements<<first<<rest;const auto l=arrangeRegion(b);
+        b.elements<<first<<rest;const auto l=boardRegion(b);
         require(l.contains(QPointF(20,40))&&l.contains(QPointF(60,20))&&!l.contains(QPointF(50,40)),"an L joined from two lines");
-        NewBoard shape;shape.kind=NewBoard::Round;shape.diameter=50;shape.margin=5;const Board round=newBoard("Rund",shape);const auto r=arrangeRegion(round);
+        NewBoard shape;shape.kind=NewBoard::Round;shape.diameter=50;shape.margin=5;const Board round=newBoard("Rund",shape);const auto r=boardRegion(round);
         require(r.contains(QPointF(30,30))&&!r.contains(QPointF(7,7)),"a round outline");
-        require(arrangeRegion(newBoard("Fläche",40,30)).boundingRect()==QRectF(0,0,40,30),"no outline: the working area");}
+        require(boardRegion(newBoard("Fläche",40,30)).boundingRect()==QRectF(0,0,40,30),"no outline: the working area");}
     // --- The nets from the airwires; the parts arranged inside, apart, on the grid, shorter, the same twice.
     {const Board b=sample();const auto nets=arrangementNets(b,nullptr);
         require(nets.size()==6,"the airwires joined into six nets (R2.2 joins two chains)");
         Board first=b;const auto r=arrangeParts(first,designators(b),nets);
         require(r.placed.size()==8&&r.left.isEmpty()&&r.wired.isEmpty(),"all eight arranged");
-        const auto region=arrangeRegion(first);const auto parts=components(first);bool inside=true,grid=true,apart=true;
+        const auto region=boardRegion(first);const auto parts=components(first);bool inside=true,grid=true,apart=true;
         for(int i=0;i<parts.size();i++){
             const QRectF x=box(first,parts[i]);inside=inside&&region.contains(x.adjusted(-.9,-.9,.9,.9));
             const QPointF p=first.elements[padsOf(first,parts[i].designator).first()].pos-first.origin;
@@ -93,7 +93,7 @@ int placementTests(){
     {Board b=sample();QList<int> outline;for(int i=0;i<b.elements.size();i++)if(b.elements[i].layer==Outline)outline<<i;removeElements(b,outline);
         auto first=newElement(ElementType::Track);first.layer=Outline;first.points={{10,10},{70,10},{70,30}};
         auto rest=newElement(ElementType::Track);rest.layer=Outline;rest.points={{70,30},{35,30},{35,50},{10,50},{10,10}};
-        b.elements<<first<<rest;const auto r=arrangeParts(b,designators(b),arrangementNets(b,nullptr));const auto region=arrangeRegion(b);
+        b.elements<<first<<rest;const auto r=arrangeParts(b,designators(b),arrangementNets(b,nullptr));const auto region=boardRegion(b);
         bool inside=true;for(const auto &c:components(b))if(r.placed.contains(c.designator))inside=inside&&region.contains(box(b,c));
         require(r.placed.size()+r.left.size()==8&&r.placed.size()>=6&&inside,"inside the L, none in its notch");}
     // --- No room: the part stays where it was and is named; copper at a pad keeps a part where it is.
@@ -111,7 +111,7 @@ int placementTests(){
         double gap=0;QString told;inDialog([&](QDialog *x){if(auto *g=x->findChild<QDoubleSpinBox*>("arrangeGap"))gap=g->value();
             for(auto *l:x->findChildren<QLabel*>())if(l->text().contains(QStringLiteral("8")))told=l->text();});
         editor.arrangeComponents();const Board after=editor.document().board();
-        const auto region=arrangeRegion(after);bool inside=true;for(const auto &c:components(after))inside=inside&&region.contains(componentCentre(after,c));
+        const auto region=boardRegion(after);bool inside=true;for(const auto &c:components(after))inside=inside&&region.contains(componentCentre(after,c));
         require(gap==2&&told==ui("Die %1 Bauteile außerhalb der Platine werden auf ihr angeordnet, nach ihren Netzen gruppiert.").arg(8),"the dialog: gap and what moves");
         require(inside&&editor.canUndo()&&editor.arrangeReport().startsWith(ui("%1 Bauteile angeordnet: Luftlinien %2 mm statt %3 mm, %4 Kreuzungen statt %5.").arg(8).section(':',0,0)),
             "arranged, reported");

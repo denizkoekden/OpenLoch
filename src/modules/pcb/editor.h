@@ -137,6 +137,10 @@ public:
     // false when none moved.
     bool arrangeOnBoard(const QList<int> &designators,double gap);
     const QString &arrangeReport() const{return lastArrangeReport;}
+    // "Alle Luftlinien routen": every net routed at once (routeAll) with the width and clearance of the autoroute bar and
+    // its via size, on the raster the point-to-point router uses; nets from the schematic when there is one, else from
+    // the airwires. One undo step, then a report of what was laid and what stayed open.
+    void routeAllAirwires();
 
     // Editing (all with one undo step each)
     void undo();
@@ -320,7 +324,7 @@ public:
     // menu), mirror, mirrorVertical, align (a menu of alignLeft, alignRight, alignTop, alignBottom, alignCentreX,
     // alignCentreY), alignGrid, arrange, templates, wizard, preferences, otherSide, group, ungroup, zoomBoard, zoomElements, zoomSelection,
     // zoomPrevious, zoomIn, zoomOut, overview (the overview below the tools shown), fromBelow, photo, drc,
-    // compareSchematic, schematicAirwires, takeOverSchematic, assignPins, placeMissing, arrangeParts, removeAirwires, resetSolderMask, specialShape, addBoard, removeBoard, boardProperties, exportGerber, exportDrill,
+    // compareSchematic, schematicAirwires, takeOverSchematic, assignPins, placeMissing, arrangeParts, routeAll, removeAirwires, resetSolderMask, specialShape, addBoard, removeBoard, boardProperties, exportGerber, exportDrill,
     // exportComponents, exportMilling, millingWide (milling paths as wide as the cutter), removeMilling, importGerber,
     // definePlugins, startPlugin.
     QAction *action(const QString &name) const{return actions.value(name);}
@@ -353,6 +357,7 @@ private:
     documents::Targets schematicForBoard() const;
     QTreeWidget *componentTree=nullptr,*selectorTree=nullptr;
     QFrame *autorouteBar=nullptr,*photoBar=nullptr;
+    double viaDiameter=1.6,viaDrill=.8;     // the vias "Alle Luftlinien routen" sets, kept for the session
     QLabel *helpLine=nullptr;
     QString lastArrangeReport;
     double arrangeGap=2;            // the gap between arranged components, kept for the session

@@ -690,4 +690,42 @@ Element newElement(ElementType type){
     }
     return e;
 }
+namespace {
+bool meetEnd(QPointF a,QPointF b){return QLineF(a,b).length()<.01;}
+QPolygonF arcLine(const Element &e){
+    const double span=[&]{double s=std::fmod(e.stop-e.start,360.0);if(s<0)s+=360;return s<1e-9?360.0:s;}();
+    const int steps=std::max(8,int(std::ceil(span/2)));QPolygonF out;
+    for(int k=0;k<=steps;k++){const double a=qDegreesToRadians(e.start+span*k/steps);out<<e.pos+QPointF(e.size*std::cos(a),-e.size*std::sin(a));}
+    if(span>=360)out.last()=out.first();
+    return out;
+}
+QPolygonF backwards(QPolygonF p){std::reverse(p.begin(),p.end());return p;}
+}
+QPainterPath boardRegion(const Board &board){
+    QList<QPolygonF> lines;
+    for(const auto &e:board.elements){
+        if(e.layer!=Outline)continue;
+        if(e.type==ElementType::Track&&e.points.size()>1)lines<<e.points;
+        else if(e.type==ElementType::Circle&&e.size>0)lines<<arcLine(e);
+    }
+    QPainterPath region;region.setFillRule(Qt::OddEvenFill);bool closed=false;
+    while(!lines.isEmpty()){
+        QPolygonF line=lines.takeFirst();
+        for(bool joined=true;joined&&!meetEnd(line.first(),line.last());){
+            joined=false;
+            for(int k=0;k<lines.size()&&!joined;k++){
+                const QPolygonF next=lines[k];joined=true;
+                if(meetEnd(line.last(),next.first()))line+=next.mid(1);
+                else if(meetEnd(line.last(),next.last()))line+=backwards(next).mid(1);
+                else if(meetEnd(line.first(),next.last()))line=QPolygonF(next+line.mid(1));
+                else if(meetEnd(line.first(),next.first()))line=QPolygonF(backwards(next)+line.mid(1));
+                else joined=false;
+                if(joined)lines.removeAt(k);
+            }
+        }
+        if(line.size()>3&&meetEnd(line.first(),line.last())){region.addPolygon(line);region.closeSubpath();closed=true;}
+    }
+    if(!closed)region.addRect(QRectF(0,0,board.width,board.height));
+    return region;
+}
 }

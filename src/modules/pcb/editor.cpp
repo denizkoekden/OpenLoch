@@ -10,6 +10,7 @@
 #include "pictures.h"
 #include "placement.h"
 #include "progress.h"
+#include "router.h"
 #include "shapes.h"
 #include "formats/sprint/sprint.h"
 #include "formats/sprint/textio.h"
@@ -32,6 +33,7 @@
 #include <QFileInfo>
 #include <QFontDatabase>
 #include <QFormLayout>
+#include <QHash>
 #include <QFrame>
 #include <QGridLayout>
 #include <QGroupBox>
@@ -341,7 +343,7 @@ QList<std::pair<QString,QStringList>> editorMenus(){
             {QStringLiteral("&Bearbeiten"),{"undo","redo","","cut","copy","paste","duplicate","delete","","selectAll"}},
             {QStringLiteral("&Funktionen"),{"rotate","rotateBack","rotationAngle","","mirror","mirrorVertical","","align","alignGrid","","arrange","","otherSide","setLayer","","group","ungroup"}},
             {QStringLiteral("&Ansicht"),{"zoomBoard","zoomElements","zoomSelection","zoomPrevious","","zoomIn","zoomOut","","overview","crosshair","","fromBelow","photo","transparent","","millingWide","removeMilling"}},
-            {QStringLiteral("&Extras"),{"drc","","compareSchematic","schematicAirwires","takeOverSchematic","assignPins","placeMissing","arrangeParts","","removeAirwires","resetSolderMask","","holeList","deleteOutside","","specialShape","wizard","","currentCalculator","","templates","","textIoExport","textIoImport","","definePlugins","startPlugin"}},
+            {QStringLiteral("&Extras"),{"drc","","compareSchematic","schematicAirwires","takeOverSchematic","assignPins","placeMissing","arrangeParts","","routeAll","removeAirwires","resetSolderMask","","holeList","deleteOutside","","specialShape","wizard","","currentCalculator","","templates","","textIoExport","textIoImport","","definePlugins","startPlugin"}},
             {QStringLiteral("&Platine"),{"addBoard","boardProperties","","copyBoard","removeBoard","","boardLast","boardFirst","","insertBoards","saveBoard"}},
             {QStringLiteral("&Optionen"),{"preferences"}}};
 }
@@ -526,6 +528,7 @@ void Editor::createActions(){
     add("assignPins",ui("Anschlüsse zuordnen…"),"",{},[this]{assignPinsDialog();});
     add("placeMissing",ui("Fehlende Bauteile setzen…"),"",{},[this]{placeMissingParts();});
     add("arrangeParts",ui("Bauteile automatisch anordnen…"),"",{},[this]{arrangeComponents();});
+    add("routeAll",ui("Alle Luftlinien routen"),"",{},[this]{routeAllAirwires();});
     add("removeAirwires",ui("Verbundene &Luftlinien entfernen"),"",{},[this]{
         const int left=[&]{const int before=int(board->airwires().size());const int removed=removeRoutedAirwires();return before-removed;}();
         QMessageBox::information(this,ui("Luftlinien entfernen"),ui("%1 Luftlinien verbleiben.").arg(left));});
@@ -741,7 +744,14 @@ QWidget *Editor::createAutorouteBar(){
     auto *width=spin(board->autorouteWidth,.05,20,2),*distance=spin(board->autorouteClearance,0,20,2);auto *onGrid=new QCheckBox(ui("Am Raster orientieren"));onGrid->setChecked(board->autorouteOnGrid);
     auto *gridText=new QLabel;auto *status=new QLabel;status->setObjectName("autorouteStatus");
     h->addWidget(new QLabel(ui("Breite der Leiterbahn")));h->addWidget(width);h->addSpacing(12);h->addWidget(new QLabel(ui("Mindestabstand")));h->addWidget(distance);
-    h->addSpacing(12);h->addWidget(onGrid);h->addWidget(gridText);h->addSpacing(12);h->addWidget(status,1);
+    h->addSpacing(12);h->addWidget(onGrid);h->addWidget(gridText);
+    // The vias of "Alle Luftlinien routen" and its button; the point-to-point router never sets vias.
+    auto *viaSize=spin(viaDiameter,.3,10,2),*viaHole=spin(viaDrill,.1,8,2);viaSize->setObjectName("viaDiameter");viaHole->setObjectName("viaDrill");
+    auto *all=new QPushButton(ui("Alle routen"));all->setObjectName("routeAllButton");
+    h->addSpacing(12);h->addWidget(new QLabel(ui("Durchkontaktierung")));h->addWidget(viaSize);h->addWidget(new QLabel(ui("Bohrung")));h->addWidget(viaHole);h->addWidget(all);
+    h->addSpacing(12);h->addWidget(status,1);
+    connect(viaSize,&QDoubleSpinBox::valueChanged,this,[this](double v){viaDiameter=v;});connect(viaHole,&QDoubleSpinBox::valueChanged,this,[this](double v){viaDrill=v;});
+    connect(all,&QPushButton::clicked,this,[this]{action("routeAll")->trigger();});
     connect(width,&QDoubleSpinBox::valueChanged,this,[this](double v){board->autorouteWidth=v;});
     connect(distance,&QDoubleSpinBox::valueChanged,this,[this](double v){board->autorouteClearance=v;});
     connect(onGrid,&QCheckBox::toggled,this,[this](bool on){board->autorouteOnGrid=on;});
@@ -2429,7 +2439,7 @@ void Editor::placeMissingParts(){
     if(arrange->isChecked()){QList<int> designators;for(int i:added)if(probe.elements[i].role==TextRole::Designator)designators<<i;arrangeOnBoard(designators,arrangeGap);}
 }
 void Editor::arrangeComponents(){
-    const auto &b=std::as_const(doc).board();const QPainterPath region=arrangeRegion(b);const auto all=components(b);
+    const auto &b=std::as_const(doc).board();const QPainterPath region=boardRegion(b);const auto all=components(b);
     // The components of the selection, else those lying outside the board.
     QList<int> chosen;const auto sel=board->selection();const QSet<int> marked(sel.begin(),sel.end());
     for(const auto &c:all)if(std::any_of(c.members.cbegin(),c.members.cend(),[&](int m){return marked.contains(m);}))chosen<<c.designator;
@@ -2469,6 +2479,34 @@ bool Editor::arrangeOnBoard(const QList<int> &designators,double gap){
     board->setSelection(members);board->showArea(area);
     if(schematicAvailable()&&action("schematicAirwires")->isChecked())compareWithSchematic(false);
     return true;
+}
+void Editor::routeAllAirwires(){
+    QList<RouteNet> nets;
+    if(schematicAvailable()){
+        try{const auto t=schematicForBoard();nets=routingNets(doc.board(),&t);}
+        catch(const std::exception &e){QMessageBox::warning(this,ui("Alle Luftlinien routen"),QString::fromUtf8(e.what()));return;}
+    }else nets=routingNets(doc.board(),nullptr);
+    if(nets.isEmpty()){QMessageBox::information(this,ui("Alle Luftlinien routen"),ui("Es gibt keine Luftlinien zu routen."));return;}
+    RouteSettings settings;settings.width=board->autorouteWidth;settings.clearance=board->autorouteClearance;
+    settings.step=board->autorouteOnGrid?doc.board().grid:std::max(.2,std::min(settings.width,settings.clearance)/2);
+    settings.viaDiameter=viaDiameter;settings.viaDrill=std::min(viaDrill,viaDiameter-.1);settings.padClearance=board->clearance;
+    Board probe=doc.board();RouteResult result;
+    {ProgressWindow progress(this,ui("Luftlinien werden geroutet …"));result=routeAll(probe,nets,settings,progress.report());}
+    if(probe!=doc.board()){snapshot();doc.board()=probe;board->documentChanged();touched();board->setSelection(result.added);}
+    if(schematicAvailable()&&action("schematicAirwires")->isChecked())compareWithSchematic(false);
+    // The report: what was laid, and each join that stayed open by its pads.
+    QHash<int,QString> names;for(const auto &c:components(probe))names[probe.elements[c.designator].part]=probe.elements[c.designator].text;
+    auto padName=[&](int i){const auto &e=probe.elements[i];const QString part=names.value(e.part);return part.isEmpty()?e.name:part+'.'+e.name;};
+    QDialog dialog(this);dialog.setObjectName("routeReport");dialog.setWindowTitle(ui("Alle Luftlinien routen"));auto *v=new QVBoxLayout(&dialog);
+    auto *summary=new QLabel(ui("%1 von %2 Verbindungen verlegt, %3 Durchkontaktierungen.").arg(result.routed).arg(result.connections).arg(result.vias));
+    summary->setObjectName("routeSummary");v->addWidget(summary);
+    if(!result.open.isEmpty()){
+        v->addWidget(new QLabel(ui("Offen geblieben:")));auto *list=new QListWidget;list->setObjectName("routeOpen");
+        for(const auto &o:result.open){const QString join=QStringLiteral("%1 – %2").arg(padName(o.from),padName(o.to));list->addItem(o.net.isEmpty()?join:ui("%1 (%2)").arg(join,o.net));}
+        v->addWidget(list);
+    }
+    auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok);v->addWidget(buttons);connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);
+    dialog.exec();
 }
 void Editor::specialShape(){
     // The reference's "Spezialformen": a regular polygon, a spiral or a drawing frame, shown in a preview and placed

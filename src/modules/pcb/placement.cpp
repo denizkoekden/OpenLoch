@@ -19,43 +19,6 @@ namespace {
 constexpr double cell=.25;          // the raster of free room, in mm
 bool copperLayer(int layer){return layer==CopperTop||layer==CopperBottom||layer==Inner1||layer==Inner2;}
 bool padElement(const Element &e){return e.type==ElementType::Pad||e.type==ElementType::SmdPad;}
-bool meet(QPointF a,QPointF b){return QLineF(a,b).length()<.01;}
-QPolygonF arcPoints(const Element &e){
-    const double span=[&]{double s=std::fmod(e.stop-e.start,360.0);if(s<0)s+=360;return s<1e-9?360.0:s;}();
-    const int steps=std::max(8,int(std::ceil(span/2)));QPolygonF out;
-    for(int k=0;k<=steps;k++){const double a=qDegreesToRadians(e.start+span*k/steps);out<<e.pos+QPointF(e.size*std::cos(a),-e.size*std::sin(a));}
-    if(span>=360)out.last()=out.first();
-    return out;
-}
-QPolygonF reversed(QPolygonF p){std::reverse(p.begin(),p.end());return p;}
-}
-
-QPainterPath arrangeRegion(const Board &board){
-    QList<QPolygonF> lines;
-    for(const auto &e:board.elements){
-        if(e.layer!=Outline)continue;
-        if(e.type==ElementType::Track&&e.points.size()>1)lines<<e.points;
-        else if(e.type==ElementType::Circle&&e.size>0)lines<<arcPoints(e);
-    }
-    QPainterPath region;region.setFillRule(Qt::OddEvenFill);bool closed=false;
-    while(!lines.isEmpty()){
-        QPolygonF line=lines.takeFirst();
-        for(bool joined=true;joined&&!meet(line.first(),line.last());){
-            joined=false;
-            for(int k=0;k<lines.size()&&!joined;k++){
-                const QPolygonF next=lines[k];joined=true;
-                if(meet(line.last(),next.first()))line+=next.mid(1);
-                else if(meet(line.last(),next.last()))line+=reversed(next).mid(1);
-                else if(meet(line.first(),next.last()))line=QPolygonF(next+line.mid(1));
-                else if(meet(line.first(),next.first()))line=QPolygonF(reversed(next)+line.mid(1));
-                else joined=false;
-                if(joined)lines.removeAt(k);
-            }
-        }
-        if(line.size()>3&&meet(line.first(),line.last())){region.addPolygon(line);region.closeSubpath();closed=true;}
-    }
-    if(!closed)region.addRect(QRectF(0,0,board.width,board.height));
-    return region;
 }
 
 QList<QList<int>> arrangementNets(const Board &board,const documents::Targets *targets){
@@ -164,7 +127,7 @@ struct Arrangement {
         for(const auto &i:items)at<<Spot{i.anchor,0};placed=QList<char>(items.size(),0);
         length=QList<double>(nets.size(),0);edges=QList<QList<QLineF>>(nets.size());
         // The raster: blocked outside the region and within half the gap of its edge, and where the rest of the board lies.
-        const QPainterPath region=arrangeRegion(b);
+        const QPainterPath region=boardRegion(b);
         frame=region.boundingRect().adjusted(-2*cell,-2*cell,2*cell,2*cell);
         columns=std::max(1,int(std::ceil(frame.width()/cell)));rows=std::max(1,int(std::ceil(frame.height()/cell)));
         QImage raster(columns,rows,QImage::Format_Grayscale8);raster.fill(255);
