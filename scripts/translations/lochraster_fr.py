@@ -807,4 +807,9 @@ FR = {
     'Danach verdrahten': 'Puis câbler',
     '%1 Draht/Drähte gezogen, davon %2 Drahtbrücke(n), %3 mm': '%1 fil(s) posé(s), dont %2 pont(s), %3 mm',
     '%1 Anschluss/Anschlüsse ließen sich nicht verbinden: %2': '%1 broche(s) n’ont pas pu être reliée(s) : %2',
+    '%1 Bauteil(e) fehlen auf der Platine – Prüfen → Fehlende Bauteile setzen…': '%1 composant(s) manquant(s) sur la carte – Vérifier → Placer les composants manquants…',
+    '%1 Bauteil(e) nicht im Schaltplan': '%1 composant(s) absent(s) du schéma',
+    '%1 Bauteil(e) mit Anschlüssen zum Zuordnen – Prüfen → Anschlüsse zuordnen…': '%1 composant(s) aux broches à affecter – Vérifier → Affecter les broches…',
+    '%1 (im Schaltplan %2)': '%1 (dans le schéma %2)',
+    ' … und %1 weitere': ' … et %1 autres',
 }

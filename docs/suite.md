@@ -145,6 +145,17 @@ Ein Pinch ist ein Ereignis mit einem Zoomfaktor (`QNativeGestureEvent`, `ZoomNat
 
 Zoomgrenzen und Schrittweite bleiben die des jeweiligen Vorbilds: Der Schaltplan folgt sPlan, das Lochraster LochMaster 4, die Frontplatte FrontDesigner 3 und die Leiterplatte Sprint-Layout. Ein Pinch verändert den Zoom stetig, ein Schritt des Mausrads die Stufe des Vorbilds.
 
+## Lange Listen in Dialogen (alle Module)
+
+Ein großes Projekt (ein übernommener Schaltplan mit Dutzenden Bauteilen und noch leerer Platine) darf keinen Dialog höher als den Bildschirm machen. Regeln, mit `src/longlists.h` für das Programm und jedes Modul:
+
+- Was mit dem Projekt wächst, steht in einer Liste oder einem Bereich, der rollt (`reportList`, `scrolling`): Befunde, eine Zeile je fehlendes Bauteil, eine Zeile je Anschluss.
+- Gleichartige Zeilen stehen unter einer fetten Kopfzeile mit ihrer Zahl und dem nächsten Schritt, darunter eingerückt die Bauteile: „67 Bauteil(e) fehlen auf der Platine – Prüfen → Fehlende Bauteile setzen…“.
+- Ein Dialog wird höchstens so groß wie der verfügbare Bereich des Bildschirms seines Fensters, abzüglich Rahmen und Titelleiste (`fitToScreen`, `screenRoom`); die Knöpfe bleiben immer sichtbar.
+- Meldungsfenster nennen höchstens acht Kennungen im Text, den Rest gezählt („… und 59 weitere“), die ganze Liste unter „Details“ (`listInBrief`).
+
+Im Lochraster gilt das für „Aus Schaltplan übernehmen“, „Fehlende Bauteile setzen“, „Anschlüsse zuordnen“, die Übersicht von „Bauteile anordnen…“, die Meldung offener Anschlüsse nach „Verdrahten“ und die Liste „Vergleich mit Schaltplan“ (fehlende und überzählige Bauteile je unter einer Kopfzeile); in der Leiterplatte für „Aus Schaltplan übernehmen“, „Fehlende Bauteile setzen“, „Anschlüsse zuordnen“, den Bericht von „Alle Luftlinien routen“, die Hilfezeile nach „Bauteile automatisch anordnen“ (`listInBrief`) und die Liste des Schaltplanvergleichs (fehlende und überzählige Bauteile je unter einer Kopfzeile); in der Suite für die Projektübersicht. Ein Fenstertest öffnet „Aus Schaltplan übernehmen“ und „Fehlende Bauteile setzen“ mit 200 fehlenden Bauteilen auf dem Bildschirm der Testplattform (800 × 600) und verlangt, dass beide hineinpassen und ihre Knöpfe sichtbar sind.
+
 ## Dateidialoge und Bibliotheken
 
 Verhalten und Schnittstellen sind so festgelegt, dass jedes Modul seinen Teil unabhängig umsetzt. Alle vier Module sind angebunden.

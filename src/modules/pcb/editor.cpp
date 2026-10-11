@@ -3,6 +3,7 @@
 #include "footprints.h"
 #include "macropanel.h"
 #include "language.h"
+#include "longlists.h"
 #include "outputs.h"
 #include "overview.h"
 #include "legacy_reader.h"
@@ -2307,7 +2308,10 @@ NetCheck Editor::compareWithSchematic(bool reveal){
         };
         if(t.isEmpty())add(ui("Der Schaltplan enthält keine Bauteile."));
         else add(c.passed()?ui("Die Platine stimmt mit dem Schaltplan überein."):ui("%1 Abweichung(en) vom Schaltplan").arg(problems));
-        for(int m:c.missing)add(ui("Fehlt auf der Platine: %1 (%2)").arg(t.components[m].designator,t.components[m].value));
+        // Parts of one kind under one heading with their count and the next step (docs/suite.md, "Lange Listen in Dialogen").
+        auto heading=[&](const QString &text){auto *item=new QListWidgetItem(text,schematicList);QFont bold=schematicList->font();bold.setBold(true);item->setFont(bold);item->setFlags(Qt::ItemIsEnabled);};
+        if(!c.missing.isEmpty()){heading(ui("%1 Bauteil(e) fehlen auf der Platine – Extras → Fehlende Bauteile setzen…").arg(c.missing.size()));
+            for(int m:c.missing)add(QStringLiteral("    ")+ui("%1 (%2)").arg(t.components[m].designator,t.components[m].value));}
         for(const auto &d:c.ambiguous){
             QList<int> found;for(const auto &x:parts)if(b.elements[x.designator].text.trimmed().compare(d.trimmed(),Qt::CaseInsensitive)==0)found+=x.members;
             add(ui("Bezeichner mehrfach auf der Platine: %1").arg(d),found);
@@ -2322,7 +2326,7 @@ NetCheck Editor::compareWithSchematic(bool reveal){
             add(called.isEmpty()?ui("Offen: %1").arg(list):ui("Offen in %1: %2").arg(called,list),pads,at);
         }
         for(const auto &j:c.joined)add(ui("Verbunden: %1 mit %2").arg(net(j.first),net(j.second)),j.elements,j.at);
-        for(int d:c.extra)add(ui("Nicht im Schaltplan: %1").arg(name(d)),members(d));
+        if(!c.extra.isEmpty()){heading(ui("%1 Bauteil(e) nicht im Schaltplan").arg(c.extra.size()));for(int d:c.extra)add(QStringLiteral("    ")+name(d),members(d));}
         for(const auto &change:netChanges(b,c,t))if(change.text)for(const auto *list:{&c.parts,&c.unassigned})for(const auto &p:*list)if(p.designator==change.designator)
             add(ui("Im Schaltplan %1 (%2): %3 (%4) auf der Platine").arg(change.designatorText,change.value,b.elements[p.designator].text,p.value>=0?b.elements[p.value].text:QString()),p.members);
         schematicList->setCurrentRow(std::min(previous,schematicList->count()-1));
@@ -2344,16 +2348,19 @@ void Editor::takeOverFromSchematic(){
         if(change.swapPins)what<<ui("Anschlüsse getauscht");
         lines<<QStringLiteral("%1: %2").arg(name(p.designator),what.join(QStringLiteral(" · ")));
     }
-    QStringList later;for(int m:check.missing)later<<ui("Fehlt auf der Platine: %1 (%2) – Extras → Fehlende Bauteile setzen…").arg(t.components[m].designator,t.components[m].value);
-    for(const auto &p:check.unassigned)later<<ui("Anschlüsse zuordnen: %1 (im Schaltplan %2)").arg(name(p.designator),t.components[p.target].pins.join(QStringLiteral(", ")));
+    // What is left to do, each kind under a heading with its count and the next step.
+    ReportGroup missing{ui("%1 Bauteil(e) fehlen auf der Platine – Extras → Fehlende Bauteile setzen…").arg(check.missing.size()),{}};
+    for(int m:check.missing)missing.rows<<ui("%1 (%2)").arg(t.components[m].designator,t.components[m].value);
+    ReportGroup pins{ui("%1 Bauteil(e) mit Anschlüssen zum Zuordnen – Extras → Anschlüsse zuordnen…").arg(check.unassigned.size()),{}};
+    for(const auto &p:check.unassigned)pins.rows<<ui("%1 (im Schaltplan %2)").arg(name(p.designator),t.components[p.target].pins.join(QStringLiteral(", ")));
     QDialog dialog(this);dialog.setObjectName("takeOverDialog");dialog.setWindowTitle(ui("Aus Schaltplan übernehmen"));auto *layout=new QVBoxLayout(&dialog);
     auto *intro=new QLabel(changes.isEmpty()?ui("Auf der Platine ist nichts zu übernehmen."):ui("Diese Bauteile der Platine übernehmen Bezeichner, Wert und Zuordnung aus dem Schaltplan:"));
     intro->setWordWrap(true);layout->addWidget(intro);
     if(!lines.isEmpty()){auto *list=new QListWidget;list->setObjectName("takeOverChanges");list->addItems(lines);layout->addWidget(list);}
-    if(!later.isEmpty()){auto *rest=new QLabel(later.join('\n'));rest->setObjectName("takeOverLater");rest->setWordWrap(true);layout->addWidget(rest);}
+    if(!missing.rows.isEmpty()||!pins.rows.isEmpty()){auto *rest=reportList({missing,pins});rest->setObjectName("takeOverLater");layout->addWidget(rest);}
     auto *buttons=new QDialogButtonBox(changes.isEmpty()?QDialogButtonBox::Close:QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout->addWidget(buttons);
     connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
-    if(dialog.exec()!=QDialog::Accepted||changes.isEmpty())return;
+    fitToScreen(dialog);if(dialog.exec()!=QDialog::Accepted||changes.isEmpty())return;
     Document probe=doc;if(!applyNetChanges(probe.board(),changes))return;
     snapshot();doc=probe;board->documentChanged();touched();
 }
@@ -2368,7 +2375,8 @@ void Editor::assignPinsDialog(){
     if(!chosen){QMessageBox::information(this,ui("Anschlüsse zuordnen"),ui("Ein Bauteil markieren, das zu einem Bauteil des Schaltplans gehört."));return;}
     const auto part=*chosen;const auto &target=t.components[part.target];const auto pads=padsOf(b,part.designator);
     QDialog dialog(this);dialog.setObjectName("assignPinsDialog");dialog.setWindowTitle(ui("Anschlüsse zuordnen – %1").arg(b.elements[part.designator].text));
-    auto *form=new QFormLayout(&dialog);QList<QComboBox*> boxes;QList<std::pair<int,QString>> labels;QList<int> standing;   // the pin each pad stands for now
+    auto *outer=new QVBoxLayout(&dialog);auto *rows=new QWidget;auto *form=new QFormLayout(rows);   // a row per pad, in an area that scrolls
+    QList<QComboBox*> boxes;QList<std::pair<int,QString>> labels;QList<int> standing;   // the pin each pad stands for now
     // Three through-hole pads of a transistor: the lead order of its type in a TO-92 (usualLeads), lead 1 at the pad
     // numbered 1, else at the first.
     bool leaded=pads.size()==3;for(int i:pads)leaded=leaded&&b.elements[i].type==ElementType::Pad;
@@ -2388,12 +2396,13 @@ void Editor::assignPinsDialog(){
     }
     if(!usual.isEmpty()){
         auto *take=new QPushButton(ui("Übernehmen"));take->setObjectName("usualLeads");
-        form->addRow(new QLabel(ui("Übliche Anschlussfolge für %1 im TO-92: %2").arg(target.value.trimmed(),usual.join(u'-'))),take);
+        auto *row=new QHBoxLayout;row->addWidget(new QLabel(ui("Übliche Anschlussfolge für %1 im TO-92: %2").arg(target.value.trimmed(),usual.join(u'-'))),1);row->addWidget(take);outer->addLayout(row);
         connect(take,&QPushButton::clicked,&dialog,[&]{for(int k=0;k<boxes.size();k++)boxes[k]->setCurrentIndex(pinIndex(usual[lead(k)])+1);});
     }
-    auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);form->addRow(buttons);
+    outer->insertWidget(0,scrolling(rows));
+    auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);outer->addWidget(buttons);
     connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
-    board->setPadLabels(labels);const bool accepted=dialog.exec()==QDialog::Accepted;board->setPadLabels({});
+    fitToScreen(dialog);board->setPadLabels(labels);const bool accepted=dialog.exec()==QDialog::Accepted;board->setPadLabels({});
     if(!accepted)return;
     // A pad left at the pin it stands for keeps its own name (A, K, +, -), so that the shared rules still read it.
     QStringList pins;
@@ -2412,7 +2421,7 @@ void Editor::placeMissingParts(){
     if(missing.isEmpty()){QMessageBox::information(this,ui("Fehlende Bauteile setzen"),ui("Auf der Platine fehlt kein Bauteil des Schaltplans."));return;}
     QDialog dialog(this);dialog.setObjectName("placeMissingDialog");dialog.setWindowTitle(ui("Fehlende Bauteile setzen"));auto *layout=new QVBoxLayout(&dialog);
     auto *intro=new QLabel(ui("Diese Bauteile des Schaltplans fehlen auf der Platine. OpenLoch legt die gewählten Footprints neben die Platine, benannt und zugeordnet:"));
-    intro->setWordWrap(true);layout->addWidget(intro);auto *form=new QFormLayout;layout->addLayout(form);
+    intro->setWordWrap(true);layout->addWidget(intro);auto *rowsWidget=new QWidget;auto *form=new QFormLayout(rowsWidget);   // a row per part, in an area that scrolls
     QList<std::pair<int,QComboBox*>> rows;QList<QList<PartChoice>> offers;
     for(int m:missing){
         const auto &component=t.components[m];const auto choices=partChoices(component,doc.board().grid);offers<<choices;
@@ -2421,10 +2430,11 @@ void Editor::placeMissingParts(){
         box->setCurrentIndex(!choices.isEmpty()&&choices.first().sure?1:0);
         form->addRow(QStringLiteral("%1 %2 (%3)").arg(component.designator,component.value,component.pins.join(QStringLiteral(", "))),box);rows<<std::pair{m,box};
     }
+    layout->addWidget(scrolling(rowsWidget));
     auto *arrange=new QCheckBox(ui("Danach auf der Platine anordnen"));arrange->setObjectName("arrangeAfter");arrange->setChecked(true);layout->addWidget(arrange);
     auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout->addWidget(buttons);
     connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
-    if(dialog.exec()!=QDialog::Accepted)return;
+    fitToScreen(dialog);if(dialog.exec()!=QDialog::Accepted)return;
     Board probe=doc.board(),scratch=probe;QList<QList<Element>> parts;
     for(int i=0;i<rows.size();i++){
         const int pick=rows[i].second->currentIndex()-1;if(pick<0||pick>=offers[i].size())continue;
@@ -2463,7 +2473,7 @@ bool Editor::arrangeOnBoard(const QList<int> &designators,double gap){
     else nets=arrangementNets(doc.board(),nullptr);
     Board probe=doc.board();ArrangeSettings settings;settings.gap=gap;settings.rotate=arrangeTurn;ArrangeResult result;
     {ProgressWindow progress(this,ui("Bauteile werden angeordnet …"));result=arrangeParts(probe,designators,nets,settings,progress.report());}
-    auto names=[&](const QList<int> &list){QStringList out;for(int d:list)out<<probe.elements[d].text;return out.join(QStringLiteral(", "));};
+    auto names=[&](const QList<int> &list){QStringList out;for(int d:list)out<<probe.elements[d].text;return listInBrief(out);};
     QStringList report;
     if(!result.placed.isEmpty())report<<ui("%1 Bauteile angeordnet: Luftlinien %2 mm statt %3 mm, %4 Kreuzungen statt %5.").arg(result.placed.size())
         .arg(QString::number(result.lengthAfter,'f',0),QString::number(result.lengthBefore,'f',0)).arg(result.crossingsAfter).arg(result.crossingsBefore);
@@ -2506,7 +2516,7 @@ void Editor::routeAllAirwires(){
         v->addWidget(list);
     }
     auto *buttons=new QDialogButtonBox(QDialogButtonBox::Ok);v->addWidget(buttons);connect(buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);
-    dialog.exec();
+    fitToScreen(dialog);dialog.exec();
 }
 void Editor::specialShape(){
     // The reference's "Spezialformen": a regular polygon, a spiral or a drawing frame, shown in a preview and placed

@@ -5,6 +5,7 @@
 #include "printdialog.h"
 #include "picturefill.h"
 #include "geometry.h"
+#include "longlists.h"
 #include "legacy_reader.h"
 #include "legacy_writer.h"
 #include <QActionGroup>
@@ -1541,7 +1542,10 @@ void Window::compareWithSchematic(bool reveal){
         auto *item=new QListWidgetItem(text,schematicList);if(where)item->setData(Qt::UserRole,*where);if(part)item->setData(Qt::UserRole+1,part->kind+'/'+QString::number(part->index));return item;};
     if(t.isEmpty())add(ui("Der Schaltplan enthält keine Bauteile."));
     else add(c.passed()?ui("Die Platine stimmt mit dem Schaltplan überein."):QString(ui("%1 Abweichung(en) vom Schaltplan")).arg(problems));
-    for(int m:c.missing)add(QString(ui("Fehlt auf der Platine: %1 (%2)")).arg(t.components[m].designator,t.components[m].value));
+    // Rows of the same kind under one heading with their count (a large project misses dozens of parts at first).
+    auto heading=[&](const QString &text){auto *item=add(text);QFont bold=schematicList->font();bold.setBold(true);item->setFont(bold);};
+    if(!c.missing.isEmpty())heading(QString(ui("%1 Bauteil(e) fehlen auf der Platine – Prüfen → Fehlende Bauteile setzen…")).arg(c.missing.size()));
+    for(int m:c.missing)add(QString("    %1 (%2)").arg(t.components[m].designator,t.components[m].value));
     for(const auto &d:c.ambiguous)add(QString(ui("Kennung mehrfach auf der Platine: %1")).arg(d));
     for(const auto &p:c.unassigned)add(QString(ui("Anschlüsse zuordnen: %1 (im Schaltplan %2)")).arg(p.part.designator,t.components[p.target].pins.join(", ")),p.at.value(0),&p.part);
     // An open net as its pieces: pins joined on the board together, the pieces apart.
@@ -1550,7 +1554,8 @@ void Window::compareWithSchematic(bool reveal){
         const auto &name=t.nets[o.net].name;add(name.isEmpty()?QString(ui("Offen: %1")).arg(pieces.join(" | ")):QString(ui("Offen in %1: %2")).arg(name,pieces.join(" | ")),at(o.pins.first()));
     }
     for(const auto &j:c.joined)add(QString(ui("Verbunden: %1 mit %2")).arg(net(j.first),net(j.second)),j.at);
-    for(const auto &p:c.extra)add(QString(ui("Nicht im Schaltplan: %1")).arg(p.designator.isEmpty()?ui("Bauteil ohne Kennung"):p.designator),pinPositions(project,p).value(0),&p);
+    if(!c.extra.isEmpty())heading(QString(ui("%1 Bauteil(e) nicht im Schaltplan")).arg(c.extra.size()));
+    for(const auto &p:c.extra)add("    "+(p.designator.isEmpty()?ui("Bauteil ohne Kennung"):p.designator),pinPositions(project,p).value(0),&p);
     for(const auto &change:targetChanges(c,t))if(change.text)for(const auto &p:c.parts+c.unassigned)if(p.part.uid==change.uid)
         add(QString(ui("Im Schaltplan %1 (%2): %3 (%4) auf der Platine")).arg(change.designator,change.value,p.part.designator,p.part.value),p.at.value(0),&p.part);
     }
@@ -1571,14 +1576,18 @@ void Window::takeOverFromSchematic(){
         if(!change.pins.isEmpty())what<<ui("Anschlüsse getauscht");
         lines<<QString("%1: %2").arg(p.part.designator.isEmpty()?ui("Bauteil ohne Kennung"):p.part.designator,what.join(" · "));
     }
-    QStringList later;for(int m:check.missing)later<<QString(ui("Fehlt auf der Platine: %1 (%2) – Prüfen → Fehlende Bauteile setzen…")).arg(t.components[m].designator,t.components[m].value);
-    for(const auto &p:check.unassigned)later<<QString(ui("Anschlüsse zuordnen: %1 (im Schaltplan %2)")).arg(p.part.designator,t.components[p.target].pins.join(", "));
+    ReportGroup missing{QString(ui("%1 Bauteil(e) fehlen auf der Platine – Prüfen → Fehlende Bauteile setzen…")).arg(check.missing.size()),{}};
+    for(int m:check.missing)missing.rows<<QString("%1 (%2)").arg(t.components[m].designator,t.components[m].value);
+    ReportGroup unassigned{QString(ui("%1 Bauteil(e) mit Anschlüssen zum Zuordnen – Prüfen → Anschlüsse zuordnen…")).arg(check.unassigned.size()),{}};
+    for(const auto &p:check.unassigned)unassigned.rows<<QString(ui("%1 (im Schaltplan %2)")).arg(p.part.designator,t.components[p.target].pins.join(", "));
     QDialog dialog(this);dialog.setObjectName("takeOverDialog");dialog.setWindowTitle(ui("Aus Schaltplan übernehmen"));QVBoxLayout layout(&dialog);
     QLabel intro(changes.isEmpty()?ui("Auf der Platine ist nichts zu übernehmen."):ui("Diese Bauteile der Platine übernehmen Kennung, Wert und Zuordnung aus dem Schaltplan:"));intro.setWordWrap(true);layout.addWidget(&intro);
     QListWidget list;list.setObjectName("takeOverChanges");list.addItems(lines);if(!lines.isEmpty())layout.addWidget(&list);
-    QLabel rest(later.join("\n"));rest.setWordWrap(true);if(!later.isEmpty())layout.addWidget(&rest);
+    // What taking over leaves to do, grouped and scrolling: a large project starts with every part missing.
+    auto *rest=reportList({missing,unassigned},&dialog);rest->setObjectName("takeOverLater");if(rest->count()>0)layout.addWidget(rest);else rest->hide();
     QDialogButtonBox buttons(changes.isEmpty()?QDialogButtonBox::Close:QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout.addWidget(&buttons);
     connect(&buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(&buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
+    fitToScreen(dialog);
     if(dialog.exec()!=QDialog::Accepted||changes.isEmpty())return;
     canvas->beforeChange();applyTargetChanges(project,changes);canvas->rebuild();canvas->changed();
     statusBar()->showMessage(QString(ui("%1 Bauteil(e) aus dem Schaltplan übernommen")).arg(changes.size()),8000);
@@ -1594,16 +1603,18 @@ void Window::assignPins(){
     if(!part&&!schematicCheck.unassigned.isEmpty())for(const auto &p:all)if(p.part.uid==schematicCheck.unassigned.first().part.uid)part=&p;
     if(!part){QMessageBox::information(this,ui("Anschlüsse zuordnen"),ui("Ein Bauteil markieren, das zu einem Bauteil des Schaltplans gehört."));return;}
     const auto &target=schematicTargets.components[part->target];const auto p=*part;
-    QDialog dialog(this);dialog.setObjectName("assignPinsDialog");dialog.setWindowTitle(QString(ui("Anschlüsse zuordnen – %1")).arg(p.part.designator));QFormLayout form(&dialog);
+    QDialog dialog(this);dialog.setObjectName("assignPinsDialog");dialog.setWindowTitle(QString(ui("Anschlüsse zuordnen – %1")).arg(p.part.designator));QVBoxLayout layout(&dialog);
+    // A part with many pins: the pins scroll, the buttons stay.
+    auto *pinsPage=new QWidget;auto &form=*new QFormLayout(pinsPage);layout.addWidget(scrolling(pinsPage,&dialog));
     QList<QComboBox*> boxes;QList<QPair<QPointF,QString>> names;
     for(int k=0;k<p.at.size();k++){
         auto *box=new QComboBox(&dialog);box->setObjectName(QString("pin%1").arg(k+1));box->addItems(target.pins);
         box->setCurrentIndex(p.pins.value(k,-1)>=0?p.pins[k]:qMin(k,int(target.pins.size())-1));boxes<<box;
         form.addRow(QString(ui("Anschluss %1")).arg(k+1),box);names<<qMakePair(p.at[k],QString::number(k+1));
     }
-    QDialogButtonBox buttons(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);form.addRow(&buttons);
+    QDialogButtonBox buttons(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout.addWidget(&buttons);
     connect(&buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(&buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
-    canvas->setPinNames(names);const bool accepted=dialog.exec()==QDialog::Accepted;canvas->setPinNames({});
+    fitToScreen(dialog);canvas->setPinNames(names);const bool accepted=dialog.exec()==QDialog::Accepted;canvas->setPinNames({});
     if(!accepted)return;
     // A pin left at the one its own name stands for keeps that name: + and - of an electrolytic stay.
     QStringList pins;QSet<int> picked;const auto byName=assignedPins(p.part.pins,target.pins);
@@ -1627,7 +1638,8 @@ void Window::placeMissingParts(){
     for(const auto &file:openLibraryFiles){files.insert(QFileInfo(file).fileName(),file);titles.insert(QFileInfo(file).fileName(),openLibraryTitle(openLibraryPages.value(file),uiLanguage()!="de"));}
     QDialog dialog(this);dialog.setObjectName("placeMissingDialog");dialog.setWindowTitle(ui("Fehlende Bauteile setzen"));QVBoxLayout layout(&dialog);
     QLabel intro(ui("Diese Bauteile des Schaltplans fehlen auf der Platine. OpenLoch legt die gewählten Teile der OpenLoch-Bibliothek neben die Platine, benannt und zugeordnet:"));intro.setWordWrap(true);layout.addWidget(&intro);
-    QFormLayout form;layout.addLayout(&form);QList<std::pair<int,QComboBox*>> rows;QList<QList<LibraryChoice>> offers;
+    // A row per missing part, scrolling: a large project starts with all of them missing.
+    auto *rowsPage=new QWidget;auto &form=*new QFormLayout(rowsPage);layout.addWidget(scrolling(rowsPage,&dialog));QList<std::pair<int,QComboBox*>> rows;QList<QList<LibraryChoice>> offers;
     for(int m:check.missing){
         const auto &component=t.components[m];const auto fitting=fittingParts(component,library);offers<<fitting;
         auto *box=new QComboBox(&dialog);box->setObjectName("part-"+component.designator);box->addItem(fitting.isEmpty()?ui("Kein passendes Bauteil"):ui("Nicht setzen"));
@@ -1640,6 +1652,7 @@ void Window::placeMissingParts(){
     }
     QDialogButtonBox buttons(QDialogButtonBox::Ok|QDialogButtonBox::Cancel);layout.addWidget(&buttons);
     connect(&buttons,&QDialogButtonBox::accepted,&dialog,&QDialog::accept);connect(&buttons,&QDialogButtonBox::rejected,&dialog,&QDialog::reject);
+    fitToScreen(dialog);
     if(dialog.exec()!=QDialog::Accepted)return;
     QList<std::pair<documents::TargetComponent,LibraryChoice>> chosen;QMap<QString,QByteArray> pages;
     for(int i=0;i<rows.size();i++){
@@ -1671,14 +1684,20 @@ void Window::arrangeBoardParts(){
         lines<<QString(ui("Länge der Verbindungen: %1 mm (vorher %2 mm)")).arg(proposal.score.length,0,'f',0).arg(before.length,0,'f',0);
         lines<<QString(ui("Kreuzungen: %1 (vorher %2)")).arg(proposal.score.crossings).arg(before.crossings);
     }
-    if(!proposal.fixed.isEmpty())lines<<ui("Bleiben liegen, Anschlüsse nicht im Lochraster: ")+proposal.fixed.join(", ");
-    if(!proposal.beside.isEmpty())lines<<ui("Passen nicht auf die Platine und bleiben liegen: ")+proposal.beside.join(", ");
+    // Long lists of Kennungen short in the text, in full under Details.
+    QStringList details;
+    auto list=[&](const QString &title,const QStringList &names){
+        if(names.isEmpty())return;lines<<title+listInBrief(names);if(names.size()>briefListLength)details<<title+names.join(", ");
+    };
+    list(ui("Bleiben liegen, Anschlüsse nicht im Lochraster: "),proposal.fixed);
+    list(ui("Passen nicht auf die Platine und bleiben liegen: "),proposal.beside);
     QStringList missing;for(int m:check.missing)missing<<t.components[m].designator;for(const auto &p:check.unassigned)missing<<p.part.designator;
-    if(!missing.isEmpty())lines<<ui("Nicht auf der Platine oder ohne zugeordnete Anschlüsse: ")+missing.join(", ");
+    list(ui("Nicht auf der Platine oder ohne zugeordnete Anschlüsse: "),missing);
     int parts=0;for(const auto &c:project.components())parts+=c.board==project.activeBoard;
     if(project.placedObjects().size()>parts)lines<<ui("Drähte, Leiterbahnen und andere Objekte bleiben, wo sie sind.");
-    if(proposal.parts.isEmpty()){QMessageBox::information(this,title,lines.join('\n'));return;}
+    if(proposal.parts.isEmpty()){QMessageBox note(QMessageBox::Information,title,lines.join('\n'),QMessageBox::Ok,this);note.setDetailedText(details.join("\n\n"));note.exec();return;}
     QMessageBox box(QMessageBox::Question,title,lines.join('\n'),QMessageBox::Ok|QMessageBox::Cancel,this);box.setObjectName("arrangeDialog");box.button(QMessageBox::Ok)->setText(ui("Anordnen"));
+    box.setDetailedText(details.join("\n\n"));
     auto *wire=new QCheckBox(ui("Danach verdrahten"));wire->setObjectName("arrangeAndRoute");box.setCheckBox(wire);
     if(box.exec()!=QMessageBox::Ok)return;
     // Arranged and wired: one undo step for both.
@@ -1704,7 +1723,10 @@ void Window::routeBoardNets(){
 }
 void Window::reportRouting(const Routing &routing){
     statusBar()->showMessage(QString(ui("%1 Draht/Drähte gezogen, davon %2 Drahtbrücke(n), %3 mm")).arg(routing.objects.size()).arg(routing.bridges).arg(routing.length,0,'f',0),8000);
-    if(routing.open>0)QMessageBox::warning(this,ui("Verdrahten"),QString(ui("%1 Anschluss/Anschlüsse ließen sich nicht verbinden: %2")).arg(routing.open).arg(routing.unrouted.join(", ")));
+    if(routing.open>0){
+        QMessageBox box(QMessageBox::Warning,ui("Verdrahten"),QString(ui("%1 Anschluss/Anschlüsse ließen sich nicht verbinden: %2")).arg(routing.open).arg(listInBrief(routing.unrouted)),QMessageBox::Ok,this);
+        box.setObjectName("routingOpen");if(routing.unrouted.size()>briefListLength)box.setDetailedText(routing.unrouted.join("\n"));box.exec();
+    }
 }
 // A change in the Farben, Breite or Füllen toolbar: applied to the selection (one undo step) and to new objects.
 void Window::setDrawStyle(int mode,const QVariant &value){

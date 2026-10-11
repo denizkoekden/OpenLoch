@@ -616,6 +616,24 @@ int main(int argc,char **argv){
             action(arranging,"arrangeParts")->trigger();require(positions()==after&&wires()==laid,"arranging with wiring differs from both one after the other");
             action(arranging,"Rückgängig")->trigger();require(positions()==before&&wires()==0,"arranging and wiring are not one undo step");
         }
+        {   // Long reports (a project with hundreds of parts, none on the board yet): no dialog higher than the screen, the
+            // buttons in reach, the missing parts under one heading in a list that scrolls.
+            documents::Targets many;for(int i=1;i<=200;i++)many.components<<documents::TargetComponent{documents::newId(),QString("R%1").arg(i),"10k",{"1","2"},"R"};
+            Window large(tmp.path());large.hasSchematic=[]{return true;};large.targets=[many]{return many;};Project empty;empty.width=5080;empty.height=5080;
+            large.setDocumentData(QJsonDocument::fromJson(empty.encode()).object());large.show();large.projectChanged();
+            const QRect screen=large.screen()->availableGeometry();
+            auto fits=[&](const QString &which){
+                QString seen;
+                whenDialogOpen([&,which](QDialog *d){
+                    auto *buttons=d->findChild<QDialogButtonBox*>();const QRect inside=buttons?buttons->geometry():QRect();
+                    if(d->frameGeometry().height()<=screen.height()&&buttons&&buttons->isVisible()&&inside.bottom()<=d->height()&&inside.top()>=0)seen="fits";else seen=QString("%1 high on %2").arg(d->frameGeometry().height()).arg(screen.height());
+                    if(which=="takeOverSchematic"){auto *later=d->findChild<QListWidget*>("takeOverLater");if(!later||later->count()!=201||!later->item(0)->text().startsWith("200 Bauteil(e) fehlen"))seen+=" ungrouped";}
+                    d->reject();});
+                action(large,which)->trigger();return seen;
+            };
+            for(const QString which:{"takeOverSchematic","placeMissing"}){const auto seen=fits(which);require(seen=="fits",qPrintable(which+": "+seen));}
+            large.close();
+        }
         if(argc==3&&QString::fromLocal8Bit(argv[1])=="--screenshot"){QApplication::processEvents();require(window.grab().save(QString::fromLocal8Bit(argv[2])),"window screenshot failed");}
         QTextStream(stdout)<<"Window library panel, drag placement, properties, template and undo/redo workflows passed\n";return 0;
     }catch(const std::exception &e){QTextStream(stderr)<<e.what()<<"\n";return 1;}

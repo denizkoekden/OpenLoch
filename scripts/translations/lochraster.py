@@ -807,4 +807,9 @@ T = {
     'Danach verdrahten': 'Then wire',
     '%1 Draht/Drähte gezogen, davon %2 Drahtbrücke(n), %3 mm': '%1 wire(s) laid, %2 of them wire bridge(s), %3 mm',
     '%1 Anschluss/Anschlüsse ließen sich nicht verbinden: %2': '%1 pin(s) could not be connected: %2',
+    '%1 Bauteil(e) fehlen auf der Platine – Prüfen → Fehlende Bauteile setzen…': '%1 part(s) missing on the board – Check → Place missing parts…',
+    '%1 Bauteil(e) nicht im Schaltplan': '%1 part(s) not in the schematic',
+    '%1 Bauteil(e) mit Anschlüssen zum Zuordnen – Prüfen → Anschlüsse zuordnen…': '%1 part(s) with pins to assign – Check → Assign pins…',
+    '%1 (im Schaltplan %2)': '%1 (in the schematic %2)',
+    ' … und %1 weitere': ' … and %1 more',
 }

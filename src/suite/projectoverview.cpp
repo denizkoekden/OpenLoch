@@ -2,6 +2,7 @@
 #include "suite.h"
 #include "documents.h"
 #include "language.h"
+#include "longlists.h"
 #include <QDialog>
 #include <QDialogButtonBox>
 #include <QDir>
@@ -103,6 +104,6 @@ void Suite::showProjectOverview(QMainWindow *window){
         if(!out.open(QIODevice::WriteOnly)||out.write(partsListCsv(partsList(projectPartsOf(window),project->file)))<0||!out.commit())
             QMessageBox::warning(&dialog,ui("Stückliste exportieren"),ui("%1 kann nicht gespeichert werden:\n%2").arg(QFileInfo(file).fileName(),out.errorString()));
     });
-    refresh();dialog.resize(760,480);dialog.exec();
+    refresh();dialog.setMaximumSize(screenRoom(&dialog));dialog.resize(QSize(760,480).boundedTo(screenRoom(&dialog)));dialog.exec();
 }
 }

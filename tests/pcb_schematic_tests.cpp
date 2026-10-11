@@ -10,6 +10,9 @@
 #include <QCheckBox>
 #include <QComboBox>
 #include <QDialog>
+#include <QDialogButtonBox>
+#include <QGuiApplication>
+#include <QScreen>
 #include <QFile>
 #include <QHash>
 #include <QJsonArray>
@@ -291,7 +294,8 @@ int schematicTests(){
         auto c=editor.compareWithSchematic();
         require(tabs->currentWidget()==page&&c.missing==QList<int>{3}&&c.unassigned.size()==1&&c.open.size()==1,"compared: C1 missing, T1 unassigned, the second net open");
         const auto shown=lines(list);
-        require(shown.size()==5&&shown[0]==ui("%1 Abweichung(en) vom Schaltplan").arg(3)&&shown.contains(ui("Fehlt auf der Platine: %1 (%2)").arg("C1","100n"))
+        require(shown.size()==6&&shown[0]==ui("%1 Abweichung(en) vom Schaltplan").arg(3)
+                &&shown.contains(ui("%1 Bauteil(e) fehlen auf der Platine – Extras → Fehlende Bauteile setzen…").arg(1))&&shown.contains(QStringLiteral("    ")+ui("%1 (%2)").arg("C1","100n"))
                 &&shown.contains(ui("Anschlüsse zuordnen: %1 (im Schaltplan %2)").arg("T1","E, B, C"))&&shown.contains(ui("Offen: %1").arg("R1.2 | R2.2"))
                 &&shown.contains(ui("Im Schaltplan %1 (%2): %3 (%4) auf der Platine").arg("R2","2,2k","r2","2k")),"the lines of the comparison");
         int open=-1;for(int k=0;k<list->count();k++)if(list->item(k)->text().startsWith(ui("Offen: %1").arg("")))open=k;
@@ -313,10 +317,11 @@ int schematicTests(){
         require(warned.contains("kaputt"),"and a message when asked for");broken=false;
         // The take-over: R2 linked, named and valued as in the schematic, one undo step; what is left is named.
         QStringList changes,later;const QString ownId=els()[r2].component;require(!ownId.isEmpty()&&ownId!="r2","the editor gave R2 an identifier of its own");
-        inDialog([&](QDialog *x){if(auto *l=x->findChild<QListWidget*>("takeOverChanges"))changes=lines(l);if(auto *l=x->findChild<QLabel*>("takeOverLater"))later=l->text().split('\n');});
+        inDialog([&](QDialog *x){if(auto *l=x->findChild<QListWidget*>("takeOverChanges"))changes=lines(l);if(auto *l=x->findChild<QListWidget*>("takeOverLater"))later=lines(l);});
         editor.takeOverFromSchematic();
         require(changes==QStringList{QStringLiteral("r2: %1 · %2").arg(ui("gehört zu %1 im Schaltplan").arg("R2"),ui("Bezeichner und Wert %1 (%2)").arg("R2","2,2k"))},"the list of changes");
-        require(later.size()==2&&later[0]==ui("Fehlt auf der Platine: %1 (%2) – Extras → Fehlende Bauteile setzen…").arg("C1","100n"),"what is left to do");
+        require(later.size()==4&&later[0]==ui("%1 Bauteil(e) fehlen auf der Platine – Extras → Fehlende Bauteile setzen…").arg(1)&&later[1]==QStringLiteral("    ")+ui("%1 (%2)").arg("C1","100n")
+            &&later[2]==ui("%1 Bauteil(e) mit Anschlüssen zum Zuordnen – Extras → Anschlüsse zuordnen…").arg(1),"what is left to do, each kind under a heading");
         require(els()[r2].text=="R2"&&els()[r2].component=="r2"&&editor.canUndo(),"taken over");
         {bool valued=false;for(const auto &x:components(editor.document().board()))if(x.designator==r2&&x.value>=0)valued=els()[x.value].text=="2,2k";require(valued,"the value as well");}
         editor.undo();require(els()[r2].text=="r2"&&els()[r2].component==ownId,"one undo step for the take-over");
@@ -386,5 +391,27 @@ int schematicTests(){
         schematic=true;editor.projectChanged();require(tabs->isTabVisible(tabs->indexOf(page))&&editor.action("compareSchematic")->isEnabled(),"projectChanged: the schematic back");
         // Without the schematic again, the tab goes.
         schematic=false;view->setSelection({0});view->setSelection({});QApplication::processEvents();require(!tabs->isTabVisible(tabs->indexOf(page))&&!editor.action("assignPins")->isEnabled(),"the schematic gone");}
+    // --- Long lists (docs/suite.md, "Lange Listen in Dialogen"): a schematic of 200 parts and an empty board. Taking over,
+    // placing missing parts and assigning 200 pins stay within the screen of the test platform (800 × 600), their
+    // buttons in reach; the missing parts stand under one heading.
+    {Editor editor;editor.resize(780,560);editor.show();QApplication::processEvents();
+        documents::Targets t;for(int k=1;k<=200;k++)t.components<<part(QStringLiteral("r%1").arg(k),QStringLiteral("R%1").arg(k),"1k",{"1","2"});
+        QStringList many;for(int k=1;k<=200;k++)many<<QString::number(k);t.components<<part("u1","U1","BUS",many);
+        Board b=newBoard("Leer",100,60);{Board scratch=b;auto els=missingPart(partChoices(t.components.last()).last(),t.components.last(),scratch);b.elements+=els;}
+        Document d;d.boards={b};editor.setDocument(d);editor.hasSchematic=[]{return true;};editor.targets=[&]{return t;};QApplication::processEvents();
+        // Within the screen and within 800 × 600, whatever screen the test platform offers.
+        const QRect screen=QGuiApplication::primaryScreen()->availableGeometry().intersected(QRect(0,0,800,600));
+        auto fits=[&](QDialog *x){auto *buttons=x->findChild<QDialogButtonBox*>();const QRect inside=buttons?buttons->geometry():QRect();
+            return x->frameGeometry().height()<=screen.height()&&x->frameGeometry().width()<=screen.width()&&buttons&&buttons->isVisible()&&inside.top()>=0&&inside.bottom()<=x->height();};
+        bool takeOver=false,placing=false,assigning=false;QStringList later;
+        inDialog([&](QDialog *x){takeOver=fits(x);if(auto *l=x->findChild<QListWidget*>("takeOverLater"))later=lines(l);});editor.takeOverFromSchematic();
+        require(takeOver,"taking over 200 missing parts: the dialog fits the screen, its buttons in reach");
+        require(later.size()==201&&later[0]==ui("%1 Bauteil(e) fehlen auf der Platine – Extras → Fehlende Bauteile setzen…").arg(200),"the missing parts under one heading");
+        const Board before=editor.document().board();
+        inDialog([&](QDialog *x){placing=fits(x);for(auto *box:x->findChildren<QComboBox*>())box->setCurrentIndex(0);});editor.placeMissingParts();
+        require(placing&&editor.document().board()==before,"placing 200 missing parts: the dialog fits the screen, nothing chosen, nothing placed");
+        int u1=-1;for(const auto &c:components(editor.document().board()))u1=c.designator;editor.view()->setSelection({u1});
+        inDialog([&](QDialog *x){assigning=fits(x);});editor.assignPinsDialog();
+        require(assigning,"assigning 200 pins: the dialog fits the screen");}
     return 0;
 }
