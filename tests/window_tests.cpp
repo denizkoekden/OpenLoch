@@ -4,6 +4,8 @@
 #include "geometry.h"
 #include "canvas.h"
 #include "fixtures.h"
+#include "astable.h"
+#include "autoplace.h"
 #include "openlibrary.h"
 #include "printdialog.h"
 #include "printing.h"
@@ -78,6 +80,15 @@ static void whenMenuOpen(std::function<void(QMenu*)> act){
         auto *menu=qobject_cast<QMenu*>(QApplication::activePopupWidget());
         if(!menu&&started->elapsed()<30000)return;
         timer->stop();timer->deleteLater();if(menu)act(menu);});
+    timer->start();
+}
+// Acts on a dialog once it is open, as whenMenuOpen does for menus.
+static void whenDialogOpen(std::function<void(QDialog*)> act){
+    auto *timer=new QTimer;timer->setInterval(5);auto started=std::make_shared<QElapsedTimer>();started->start();
+    QObject::connect(timer,&QTimer::timeout,[timer,act,started]{
+        auto *dialog=qobject_cast<QDialog*>(QApplication::activeModalWidget());
+        if(!dialog&&started->elapsed()<30000)return;
+        timer->stop();timer->deleteLater();if(dialog)act(dialog);});
     timer->start();
 }
 static void write(const QString &path,const QByteArray &bytes){QDir().mkpath(QFileInfo(path).absolutePath());QFile file(path);require(file.open(QIODevice::WriteOnly)&&file.write(bytes)==bytes.size(),"fixture could not be written");}
@@ -576,6 +587,34 @@ int main(int argc,char **argv){
                 dialog.findChild<QRadioButton*>("landscape")->setChecked(true);require(dialog.sheets()==QSize(1,1),"landscape does not fit the wide board on one sheet");
                 dialog.findChild<QWidget*>("printPreview")->grab();dialog.reject();
             }
+        }
+        {   // "Bauteile anordnen": the overview first, then the proposal in one undo step; cancelled, nothing moves.
+            auto [hand,astable]=fixtures::astableByHand();
+            Window arranging(tmp.path());arranging.hasSchematic=[]{return true;};arranging.targets=[astable]{return astable;};
+            arranging.setDocumentData(QJsonDocument::fromJson(hand.encode()).object());arranging.projectChanged();
+            auto positions=[&]{QList<QJsonValue> at;for(const auto &v:Project::decode(QJsonDocument(arranging.documentData()).toJson()).additions)if(v.toObject()["type"]=="component")at<<QJsonValue(QJsonArray{v.toObject()["x"],v.toObject()["y"],v.toObject()["angle"]});return at;};
+            const auto before=positions();QString overview;
+            require(action(arranging,"arrangeParts")->isEnabled(),"arranging needs the schematic");
+            whenDialogOpen([&](QDialog *d){if(auto *box=qobject_cast<QMessageBox*>(d)){overview=box->text();box->button(QMessageBox::Cancel)->click();}else d->reject();});
+            action(arranging,"arrangeParts")->trigger();
+            require(overview.contains("11 Bauteil(e) werden angeordnet.")&&overview.contains("Kreuzungen:")&&positions()==before,"the overview of the arrangement, cancelled");
+            whenDialogOpen([&](QDialog *d){if(auto *box=qobject_cast<QMessageBox*>(d))box->button(QMessageBox::Ok)->click();else d->reject();});
+            action(arranging,"arrangeParts")->trigger();
+            const auto after=positions();require(after!=before,"the parts were not arranged");
+            const auto board=Project::decode(QJsonDocument(arranging.documentData()).toJson());require(scoreArrangement(board,astable).fits,"the arranged parts do not fit the board");
+            action(arranging,"Rückgängig")->trigger();require(positions()==before,"one undo step does not bring the parts back");
+            action(arranging,"Wiederholen")->trigger();require(positions()==after,"redo does not arrange them again");
+            // Verdrahten: wires for every net, one undo step.
+            auto shown=[&]{return Project::decode(QJsonDocument(arranging.documentData()).toJson());};
+            auto wires=[&]{int n=0;for(const auto &v:shown().additions)n+=v.toObject()["type"]=="wire";return n;};
+            action(arranging,"routeNets")->trigger();const int laid=wires();
+            require(laid>0&&checkTargets(shown(),astable).passed(),"Verdrahten did not wire the arranged board");
+            action(arranging,"Rückgängig")->trigger();require(wires()==0&&positions()==after,"one undo step does not take the wires away");
+            // Arranged and wired at once, from the hand arrangement: one undo step for both.
+            action(arranging,"Rückgängig")->trigger();require(positions()==before,"back to the hand arrangement");
+            whenDialogOpen([&](QDialog *d){if(auto *box=qobject_cast<QMessageBox*>(d)){if(auto *c=box->findChild<QCheckBox*>("arrangeAndRoute"))c->setChecked(true);box->button(QMessageBox::Ok)->click();}else d->reject();});
+            action(arranging,"arrangeParts")->trigger();require(positions()==after&&wires()==laid,"arranging with wiring differs from both one after the other");
+            action(arranging,"Rückgängig")->trigger();require(positions()==before&&wires()==0,"arranging and wiring are not one undo step");
         }
         if(argc==3&&QString::fromLocal8Bit(argv[1])=="--screenshot"){QApplication::processEvents();require(window.grab().save(QString::fromLocal8Bit(argv[2])),"window screenshot failed");}
         QTextStream(stdout)<<"Window library panel, drag placement, properties, template and undo/redo workflows passed\n";return 0;

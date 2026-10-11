@@ -5,6 +5,7 @@
 #include "history.h"
 #include "geometry.h"
 #include "fixtures.h"
+#include "astable.h"
 #include "continuity.h"
 #include "hpgl.h"
 #include "installation.h"
@@ -13,6 +14,7 @@
 #include "picturefill.h"
 #include "legacy_writer.h"
 #include "targetcheck.h"
+#include "autoplace.h"
 #include "documents/projectfile.h"
 #include "documents/libraryfolders.h"
 #include "emfwriter.h"
@@ -21,6 +23,7 @@
 #include <QtEndian>
 #include <QMap>
 #include <QPolygonF>
+#include <QLineF>
 #include <QGuiApplication>
 #include <QTemporaryDir>
 #include <QFile>
@@ -470,6 +473,104 @@ int main(int argc,char **argv) {
                 placeBeside(column,row,{{"LIB9.LIB",openLibraryPage(pageOf("09-widerstaende.json"))}});QList<QRectF> boxes;for(const auto &p:column.placedObjects())boxes<<p.transform.mapRect(legacyBounds(p.node));
                 require(boxes.size()==4,"four parts set beside the board");
                 for(int i=0;i<boxes.size();i++)for(int j=i+1;j<boxes.size();j++)require(!boxes[i].intersects(boxes[j]),"parts set beside the board overlap");
+            }
+        }
+        {   // Bauteile anordnen (docs/suite.md): the astable multivibrator of the example, arranged by hand and by the program.
+            using documents::Targets;
+            auto [board,astable]=fixtures::astableByHand();
+            require(checkTargets(board,astable).parts.size()==11,"the parts of the multivibrator stand for its components");
+            require(supplyNets(board,astable)==std::pair{0,7},"supply and ground by the pins + and - of the battery clip");
+            const auto byHand=scoreArrangement(board,astable);require(byHand.length>0&&!byHand.fits,"the battery clip by hand hangs over the edge");
+            const auto arranged=arrangeParts(board,astable);
+            require(arranged.parts.size()==11&&arranged.beside.isEmpty()&&arranged.fixed.isEmpty()&&arranged.score.fits,"all parts of the multivibrator arranged on the board");
+            require(arranged.score.length<=1.2*byHand.length,"the arrangement is more than 20 % longer than by hand");
+            Project after=board;require(applyArrangement(after,arranged),"the arrangement could not be applied");
+            const auto score=scoreArrangement(after,astable);require(std::abs(score.length-arranged.score.length)<1e-6&&score.crossings==arranged.score.crossings&&score.fits,"the arranged board scores otherwise");
+            const auto check=checkTargets(after,astable);require(check.parts.size()==11,"arranging lost a part");
+            QHash<QString,QList<QPointF>> pins;QSet<QPair<double,double>> holes;int count=0;
+            for(const auto &p:check.parts){
+                pins[astable.components[p.target].designator]=p.at;
+                for(auto at:p.at){
+                    require(std::fmod(at.x(),254)==0&&std::fmod(at.y(),254)==0,"an arranged pin is off the hole grid");
+                    require(at.x()>=254&&at.y()>=254&&at.x()<=after.width-254&&at.y()<=after.height-254,"an arranged pin lies in the outer row of holes or off the board");
+                    holes.insert({at.x(),at.y()});count++;
+                }
+            }
+            require(holes.size()==count,"two arranged pins share a hole");
+            QList<QRectF> bodies;for(const auto &p:after.placedObjects())bodies<<p.transform.mapRect(drawingBounds(p.node));
+            for(int i=0;i<bodies.size();i++)for(int j=i+1;j<bodies.size();j++)require(!bodies[i].intersects(bodies[j]),"arranged parts overlap");
+            double top=1e9,bottom=-1e9;for(const auto &at:pins)for(auto p:at){top=qMin(top,p.y());bottom=qMax(bottom,p.y());}
+            require(arranged.supplyRow>=1&&arranged.supplyRow*254<top&&arranged.groundRow*254>bottom&&arranged.groundRow*254<=after.height-254,"supply and ground run above and below the parts");
+            double lowest=1e9;for(const QString d:{"T1","T2"})for(auto p:pins[d])lowest=qMin(lowest,p.y());
+            for(const QString d:{"LED1","LED2","R1","R2","R3","R4"})for(auto p:pins[d])require(p.y()<lowest,"LEDs and resistors above the transistors");
+            // Mirror-symmetric: the anodes of the LEDs, the supply pins of R2 and R3 and the emitters about the same axis.
+            const double axis=pins["LED1"][0].x()+pins["LED2"][0].x();
+            require(pins["R2"][0].x()+pins["R3"][0].x()==axis&&pins["T1"][1].x()+pins["T2"][1].x()==axis&&pins["LED1"][0].y()==pins["LED2"][0].y(),"the halves of the multivibrator are not mirrored");
+            {   // The same project and seed give the same proposal.
+                ArrangeOptions quick;quick.passes=1;quick.steps=6000;const auto a=arrangeParts(board,astable,quick),b=arrangeParts(board,astable,quick);
+                bool same=a.parts.size()==b.parts.size();for(int i=0;same&&i<a.parts.size();i++)same=a.parts[i].uid==b.parts[i].uid&&a.parts[i].at==b.parts[i].at&&a.parts[i].angle==b.parts[i].angle;
+                require(same,"the same project gives another proposal");
+                // An electrolytic with its pins off the grid stays where it is, and the others keep clear of it.
+                Project offGrid=board;auto c1=offGrid.additions[6].toObject();c1["index"]=0;c1["x"]=5080;c1["y"]=4064;offGrid.additions[6]=c1;
+                const auto rest=arrangeParts(offGrid,astable,quick);require(rest.fixed==QStringList{"C1"}&&rest.parts.size()==10&&rest.score.fits,"a part with pins off the grid was arranged");
+                // A board too small for the battery clip: it stays beside the board, the others are arranged.
+                Project small=board;small.width=2540;small.height=2540;QJsonArray few;for(int i:{2,3,10})few<<small.additions[i];small.additions=few;
+                const auto fewer=arrangeParts(small,astable,quick);require(fewer.beside==QStringList{"BAT1"}&&fewer.parts.size()==2&&fewer.score.fits,"a part too large for the board was not left beside it");
+            }
+            {   // Supply and ground by name.
+                Targets named=astable;named.nets[0].name="VCC";named.nets[7].name="GND";named.nets[1].name="+";
+                require(supplyNets(board,named)==std::pair{0,7},"supply and ground by their names");
+            }
+            {   // Verdrahten: the arranged and the hand-arranged board, every net joined, none to another, wires along rows and
+                // columns and no pin inside a wire (a wire joins only at its ends).
+                auto wired=[&](Project p,const Targets &t,const char *what){
+                    const auto routing=routeNets(p,t);require(routing.open==0&&routing.unrouted.isEmpty()&&!routing.objects.isEmpty(),what);
+                    QSet<QPair<double,double>> pinHoles;for(const auto &c:p.components())for(auto at:pinPositions(p,c))pinHoles.insert({at.x(),at.y()});
+                    for(const auto &v:routing.objects){
+                        const auto o=v.toObject();require(o["type"]=="wire","routing adds wires only");
+                        const QPointF a(o["x"].toDouble(),o["y"].toDouble()),b(o["x2"].toDouble(),o["y2"].toDouble());
+                        require((a.x()==b.x()||a.y()==b.y())&&a!=b&&std::fmod(a.x(),254)==0&&std::fmod(a.y(),254)==0&&std::fmod(b.x(),254)==0&&std::fmod(b.y(),254)==0,"a wire off the rows and columns of holes");
+                        const QPointF step=(b-a)/(QLineF(a,b).length()/254);for(QPointF h=a+step;QLineF(h,b).length()>1;h+=step)require(!pinHoles.contains({h.x(),h.y()}),"a pin inside a wire");
+                        p.additions<<o;
+                    }
+                    const auto result=checkTargets(p,t);require(result.passed(),what);return routing;
+                };
+                const auto routed=wired(after,astable,"the arranged multivibrator is not wired completely");require(routed.bridges<=2,"too many wire bridges on the arranged multivibrator");
+                wired(board,astable,"the multivibrator arranged by hand is not wired completely");
+                // Pins off the grid stay open, the rest is wired without joining nets.
+                Project offGrid=after;for(int i=0;i<offGrid.additions.size();i++){auto o=offGrid.additions[i].toObject();if(o["component"]==astable.components[6].id){o["index"]=0;offGrid.additions[i]=o;}}
+                const auto partly=routeNets(offGrid,astable);require(partly.open==2&&partly.unrouted.size()==2&&partly.unrouted[0].startsWith("C1."),"the pins of a part off the grid are not reported open");
+                for(const auto &v:partly.objects)offGrid.additions<<v;require(checkTargets(offGrid,astable).joined.isEmpty(),"wiring around a part off the grid joins nets");
+                // Only on single pads: strips of a template join holes.
+                Project strips=board;strips.legacy=QJsonObject{{"board",QJsonObject{{"objects",QJsonArray{QJsonObject{{"type","TLeiterbahn"},{"path",QJsonArray{QJsonArray{254,254},QJsonArray{2540,254}}},{"width",80}}}}}}};
+                require(singleHoleGrid(board)&&!singleHoleGrid(strips),"a board of strips is taken for single pads");
+            }
+            {   // An imported LochMaster board (the published example): its wiring removed, its parts arranged and wired again
+                // with the nets of its netlist; the parts move and turn by their moves and edits.
+                const QString base=QStringLiteral(OPENLOCH_SOURCE_DIR "/examples/perfboard/01-Zweitransistor-Blinklicht");
+                auto example=Project::load(base+".LM4");QSet<int> parts;for(const auto &c:example.components())if(c.kind=="legacy")parts.insert(c.index);
+                require(parts.size()==13&&singleHoleGrid(example),"the example's parts and pads");
+                for(int i=0;i<example.legacy["objects"].toArray().size();i++)if(!parts.contains(i)){auto e=example.edits.value(QString::number(i)).toObject();e["deleted"]=true;example.edits[QString::number(i)]=e;}
+                QFile list(base+"-Netzliste.json");require(list.open(QIODevice::ReadOnly),"example netlist missing");QHash<QPair<int,int>,QString> netAt;
+                for(const auto &part:QJsonDocument::fromJson(list.readAll()).object()["parts"].toArray()){
+                    const auto o=part.toObject();for(const auto &pin:o["nets"].toObject().keys()){const auto at=o["pins"].toObject()[pin].toArray();const auto net=o["nets"].toObject()[pin];if(!net.isNull())netAt[{qRound(at[0].toDouble()),qRound(at[1].toDouble())}]=net.toString();}
+                }
+                Targets netlist;QMap<QString,int> byName;
+                for(const auto &c:example.components()){
+                    netlist.components<<documents::TargetComponent{c.id,c.designator,c.value,c.pins,{}};const auto at=pinPositions(example,c);
+                    for(int i=0;i<at.size()&&i<c.pins.size();i++){
+                        const auto name=netAt.value({qRound(at[i].x()/254),qRound(at[i].y()/254)});if(name.isEmpty())continue;
+                        if(!byName.contains(name)){byName[name]=int(netlist.nets.size());netlist.nets<<documents::TargetNet{name,{}};}netlist.nets[byName[name]].pins<<documents::TargetPin{c.id,c.pins[i]};
+                    }
+                }
+                require(supplyNets(example,netlist)==std::pair{byName["VCC"],byName["GND"]},"supply and ground of the example by name");
+                ArrangeOptions quick;quick.passes=1;quick.steps=20000;const auto proposal=arrangeParts(example,netlist,quick);
+                require(proposal.parts.size()==13&&proposal.beside.isEmpty()&&proposal.score.fits,"the imported parts are not all arranged");
+                Project moved=example;require(applyArrangement(moved,proposal),"the arrangement of imported parts could not be applied");
+                const auto score=scoreArrangement(moved,netlist);require(score.fits&&std::abs(score.length-proposal.score.length)<1e-6,"imported parts lie elsewhere than proposed");
+                for(const auto &c:moved.components())for(auto at:pinPositions(moved,c))require(std::fmod(at.x(),254)==0&&std::fmod(at.y(),254)==0,"an imported part's pin is off the grid after arranging");
+                const auto routing=routeNets(moved,netlist);require(routing.open==0,"the imported board is not wired completely");
+                for(const auto &v:routing.objects)moved.additions<<v;require(checkTargets(moved,netlist).passed(),"the rewired imported board does not match its netlist");
             }
         }
         { // Qt's standard buttons in the interface language

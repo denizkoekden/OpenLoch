@@ -4,6 +4,7 @@
 #include "history.h"
 #include "continuity.h"
 #include "targetcheck.h"
+#include "autoplace.h"
 #include "assistant.h"
 #include "notes.h"
 #include "hpgl.h"
@@ -114,6 +115,9 @@ private:
     void takeOverFromSchematic();
     void assignPins();
     void placeMissingParts();
+    void arrangeBoardParts();
+    void routeBoardNets();
+    void reportRouting(const Routing &routing);
     QTimer *recoveryTimer=nullptr;
     QString recoveryFile;
     bool maybeSave();

@@ -336,6 +336,8 @@ Window::Window(const QString &a,QWidget *parent):QMainWindow(parent),assets(a) {
     action(check,ui("Aus Schaltplan übernehmen…"),{},[this]{takeOverFromSchematic();})->setObjectName("takeOverSchematic");
     action(check,ui("Anschlüsse zuordnen…"),{},[this]{assignPins();})->setObjectName("assignPins");
     action(check,ui("Fehlende Bauteile setzen…"),{},[this]{placeMissingParts();})->setObjectName("placeMissing");
+    action(check,ui("Bauteile anordnen…"),{},[this]{arrangeBoardParts();})->setObjectName("arrangeParts");
+    action(check,ui("Verdrahten"),{},[this]{routeBoardNets();})->setObjectName("routeNets");
     connect(check,&QMenu::aboutToShow,this,[this]{projectChanged();});
     // The original's unit button in the corner of the rulers ("Raster umschalten", Ctrl+<): mm, inch, N in turn.
     {
@@ -1511,7 +1513,7 @@ void Window::checkShorts(bool reveal){
 bool Window::schematicAvailable() const{return project.mode=="board"&&targets&&hasSchematic&&hasSchematic();}
 // The comparison follows every change, undo and redo while its findings or the airwires are shown.
 void Window::projectChanged(){
-    const bool schematic=schematicAvailable();for(const char *name:{"compareSchematic","showAirwires","takeOverSchematic","assignPins","placeMissing"})if(auto *a=findChild<QAction*>(name))a->setEnabled(schematic);
+    const bool schematic=schematicAvailable();for(const char *name:{"compareSchematic","showAirwires","takeOverSchematic","assignPins","placeMissing","arrangeParts","routeNets"})if(auto *a=findChild<QAction*>(name))a->setEnabled(schematic);
     if(schematic&&((schematicDock&&schematicDock->isVisible())||(airwiresAction&&airwiresAction->isChecked())))compareWithSchematic(false);
     else if(!schematic&&canvas)canvas->setAirwires({});
 }
@@ -1651,6 +1653,58 @@ void Window::placeMissingParts(){
     for(int index:added)placed<<std::pair{QString("new"),index};canvas->selectObjects(placed);
     for(const auto &p:project.placedObjects())if(p.kind=="new"&&added.contains(p.index))area|=p.transform.mapRect(legacyBounds(p.node));
     canvas->fitArea(area);statusBar()->showMessage(QString(ui("%1 Bauteil(e) neben die Platine gelegt")).arg(added.size()),8000);
+}
+// "Bauteile anordnen" (docs/suite.md): the parts that stand for components of the schematic placed and turned so that
+// the nets stay short and cross little, after an overview, in one undo step.
+void Window::arrangeBoardParts(){
+    if(!schematicAvailable())return;
+    const QString title=ui("Bauteile anordnen");
+    documents::Targets t;try{t=targetsForBoard(project,targets());}catch(const std::exception &e){QMessageBox::warning(this,title,QString::fromUtf8(e.what()));return;}
+    const auto check=checkTargets(project,t);
+    if(check.parts.isEmpty()){QMessageBox::information(this,title,ui("Auf der Platine steht kein Bauteil des Schaltplans. Zuerst Prüfen → Fehlende Bauteile setzen…"));return;}
+    if(!singleHoleGrid(project)){QMessageBox::information(this,title,ui("Anordnen und Verdrahten gehen nur auf einer Lochrasterplatine mit einzelnen Lötpunkten; auf dieser Platine verbinden Streifen oder größere Kupferflächen mehrere Löcher."));return;}
+    QApplication::setOverrideCursor(Qt::WaitCursor);const auto before=scoreArrangement(project,t);const auto proposal=arrangeParts(project,t);QApplication::restoreOverrideCursor();
+    QStringList lines;
+    if(proposal.parts.isEmpty())lines<<ui("Kein Bauteil lässt sich anordnen.");
+    else{
+        lines<<QString(ui("%1 Bauteil(e) werden angeordnet.")).arg(proposal.parts.size());
+        lines<<QString(ui("Länge der Verbindungen: %1 mm (vorher %2 mm)")).arg(proposal.score.length,0,'f',0).arg(before.length,0,'f',0);
+        lines<<QString(ui("Kreuzungen: %1 (vorher %2)")).arg(proposal.score.crossings).arg(before.crossings);
+    }
+    if(!proposal.fixed.isEmpty())lines<<ui("Bleiben liegen, Anschlüsse nicht im Lochraster: ")+proposal.fixed.join(", ");
+    if(!proposal.beside.isEmpty())lines<<ui("Passen nicht auf die Platine und bleiben liegen: ")+proposal.beside.join(", ");
+    QStringList missing;for(int m:check.missing)missing<<t.components[m].designator;for(const auto &p:check.unassigned)missing<<p.part.designator;
+    if(!missing.isEmpty())lines<<ui("Nicht auf der Platine oder ohne zugeordnete Anschlüsse: ")+missing.join(", ");
+    int parts=0;for(const auto &c:project.components())parts+=c.board==project.activeBoard;
+    if(project.placedObjects().size()>parts)lines<<ui("Drähte, Leiterbahnen und andere Objekte bleiben, wo sie sind.");
+    if(proposal.parts.isEmpty()){QMessageBox::information(this,title,lines.join('\n'));return;}
+    QMessageBox box(QMessageBox::Question,title,lines.join('\n'),QMessageBox::Ok|QMessageBox::Cancel,this);box.setObjectName("arrangeDialog");box.button(QMessageBox::Ok)->setText(ui("Anordnen"));
+    auto *wire=new QCheckBox(ui("Danach verdrahten"));wire->setObjectName("arrangeAndRoute");box.setCheckBox(wire);
+    if(box.exec()!=QMessageBox::Ok)return;
+    // Arranged and wired: one undo step for both.
+    canvas->beforeChange();applyArrangement(project,proposal);Routing routing;
+    if(wire->isChecked()){routing=routeNets(project,t);for(const auto &v:routing.objects)project.additions.append(v);}
+    canvas->rebuild();canvas->changed();
+    QSet<QString> moved;for(const auto &p:proposal.parts)moved.insert(p.uid);QList<std::pair<QString,int>> selected;
+    for(const auto &c:project.components())if(c.board==project.activeBoard&&moved.contains(c.uid))selected<<std::pair{c.kind,c.index};
+    canvas->selectObjects(selected);statusBar()->showMessage(QString(ui("%1 Bauteil(e) angeordnet")).arg(proposal.parts.size()),8000);
+    if(wire->isChecked())reportRouting(routing);
+}
+// "Verdrahten" (docs/suite.md, rule 7): wires for every net of the schematic between the pins of the parts, in one undo
+// step; what stays open is said.
+void Window::routeBoardNets(){
+    if(!schematicAvailable())return;
+    const QString title=ui("Verdrahten");
+    documents::Targets t;try{t=targetsForBoard(project,targets());}catch(const std::exception &e){QMessageBox::warning(this,title,QString::fromUtf8(e.what()));return;}
+    if(checkTargets(project,t).parts.isEmpty()){QMessageBox::information(this,title,ui("Auf der Platine steht kein Bauteil des Schaltplans. Zuerst Prüfen → Fehlende Bauteile setzen…"));return;}
+    if(!singleHoleGrid(project)){QMessageBox::information(this,title,ui("Anordnen und Verdrahten gehen nur auf einer Lochrasterplatine mit einzelnen Lötpunkten; auf dieser Platine verbinden Streifen oder größere Kupferflächen mehrere Löcher."));return;}
+    QApplication::setOverrideCursor(Qt::WaitCursor);const auto routing=routeNets(project,t);QApplication::restoreOverrideCursor();
+    if(!routing.objects.isEmpty()){canvas->beforeChange();for(const auto &v:routing.objects)project.additions.append(v);canvas->rebuild();canvas->changed();}
+    reportRouting(routing);
+}
+void Window::reportRouting(const Routing &routing){
+    statusBar()->showMessage(QString(ui("%1 Draht/Drähte gezogen, davon %2 Drahtbrücke(n), %3 mm")).arg(routing.objects.size()).arg(routing.bridges).arg(routing.length,0,'f',0),8000);
+    if(routing.open>0)QMessageBox::warning(this,ui("Verdrahten"),QString(ui("%1 Anschluss/Anschlüsse ließen sich nicht verbinden: %2")).arg(routing.open).arg(routing.unrouted.join(", ")));
 }
 // A change in the Farben, Breite or Füllen toolbar: applied to the selection (one undo step) and to new objects.
 void Window::setDrawStyle(int mode,const QVariant &value){
