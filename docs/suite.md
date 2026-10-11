@@ -2,12 +2,12 @@
 
 OpenLoch vereint die Dokumentarten Schaltplan, Lochraster, Leiterplatte und Frontplatte in einem Programm. Jede Dokumentart ist ein eigenes Modul mit eigenem Modell, Editor und Dateiformat; die Suite in `src/suite/` verbindet sie: Startbildschirm, Zuordnung von Dateien zu Editoren, das Menü „Fenster“ und die zuletzt verwendeten Dokumente.
 
-| Dokumentart | Kennung | Editor | Stand |
-| --- | --- | --- | --- |
-| Schaltplan | `schematic` | `openloch::schematic::Editor` ([Moduldoku](modules/schematic.md)) | eingebunden, auch für sPlan-Dateien |
-| Lochraster | `perfboard` | `openloch::Window` (`src/window.*`) | eingebunden |
-| Leiterplatte | `pcb` | `openloch::pcb::Editor` in `PcbWindow` ([Moduldoku](modules/pcb.md)) | eingebunden |
-| Frontplatte | `frontpanel` | `openloch::frontpanel::PanelEditor` ([Moduldoku](modules/frontpanel.md)) | eingebunden |
+| Dokumentart | Kennung | Editor |
+| --- | --- | --- |
+| Schaltplan | `schematic` | `openloch::schematic::Editor` ([Moduldoku](modules/schematic.md)) |
+| Lochraster | `perfboard` | `openloch::Window` (`src/window.*`, [Vergleich mit LochMaster](lochmaster-compatibility.md)) |
+| Leiterplatte | `pcb` | `openloch::pcb::Editor` in `PcbWindow` ([Moduldoku](modules/pcb.md)) |
+| Frontplatte | `frontpanel` | `openloch::frontpanel::PanelEditor` ([Moduldoku](modules/frontpanel.md)) |
 
 ## Bedienung
 
@@ -15,11 +15,11 @@ OpenLoch vereint die Dokumentarten Schaltplan, Lochraster, Leiterplatte und Fron
 - **Neu:** Die Kachel öffnet den kurzen Neu-Dialog der Dokumentart und danach ihren Editor. Lochraster: Breite und Höhe (100 × 80 mm). Leiterplatte: der Neu-Dialog des Moduls wie in Sprint-Layout, nur Arbeitsfläche (160 × 100 mm) oder rechteckige bzw. runde Platine mit Kontur und Rand, dazu der Name; der Ursprung folgt den Grundeinstellungen des Moduls. Frontplatte: der Eigenschaftendialog der Frontplatte. Schaltplan: ohne Dialog ein Blatt DIN A4 quer. Abbrechen legt nichts an.
 - **Fenster:** Jedes Dokument hat ein eigenes Fenster mit den Menüs seines Vorbilds. Die Suite ergänzt nur das Menü **Fenster** (vor „Hilfe“, sonst am Ende): Neues Dokument ▸, Zum Projekt hinzufügen ▸, Projektübersicht…, Bibliotheken…, Dokument öffnen…, Zuletzt verwendet ▸, Startbildschirm und die Dokumente, nach Projekten geordnet; ein Dokument ohne Fenster öffnet sich von dort.
 - **Projektübersicht:** zeigt die Dokumente des Projekts mit Art, Herkunft (die Datei eines Vorbilds, aus der ein Dokument stammt) und ob es geöffnet ist. Ein Dokument lässt sich öffnen (auch per Doppelklick), umbenennen, entfernen oder hinzufügen; Umbenennen und Entfernen speichern das Projekt sofort, wie das Hinzufügen. Lochraster und Frontplatte nehmen einen neuen Namen als ihren Titel an (als Bearbeitungsschritt, wenn sie geöffnet sind), Schaltplan und Leiterplatte behalten ihn im Projekt. Entfernt werden kann weder das letzte Dokument noch das des Fensters, aus dem die Übersicht stammt; das Fenster eines entfernten Dokuments schließt sich ohne Rückfrage. Die Seite **Bauteile** zeigt die Bauteile aller Dokumente, verbunden über ihre Kennung (`suite::projectParts()` in `src/suite/projectparts.h`): Bezeichner und Wert aus dem Schaltplan, wenn er das Bauteil hat, sonst aus dem ersten Dokument, und je Dokument, ob es das Bauteil enthält. **Stückliste exportieren…** schreibt die Bauteile des Schaltplans und der Platinen (ohne die Bohrungen der Frontplatten) gruppiert nach Wert und Buchstaben des Bezeichners als CSV: Menge, Bezeichner, Wert, UTF-8 mit Byte-Order-Mark, Semikolon als Trennzeichen.
-- **Projekte** ([Dateiformate und Projekte](file-formats.md)): Ein neues Dokument ist ein Projekt; „Speichern“ fragt beim ersten Mal nach einer Datei `.openloch` und schreibt danach das ganze Projekt mit dem Stand aller seiner Fenster, aus welchem Fenster auch immer. „Zum Projekt hinzufügen“ legt ein weiteres Dokument an und speichert das Projekt sofort. Eine einzelne Datei eines Vorbilds (`.LM4`, `.FPL`, …) speichert ihr Editor wie bisher in diese Datei zurück; kommt ein zweites Dokument dazu, wird daraus ein Projekt, und die Originaldatei bleibt unverändert. Alle vier Dokumentarten können sich ein Projekt teilen.
+- **Projekte** ([Dateiformate und Projekte](file-formats.md)): Ein neues Dokument ist ein Projekt; „Speichern“ fragt beim ersten Mal nach einer Datei `.openloch` und schreibt danach das ganze Projekt mit dem Stand aller seiner Fenster, aus welchem Fenster auch immer. „Zum Projekt hinzufügen“ legt ein weiteres Dokument an und speichert das Projekt sofort. Eine einzelne Datei eines Vorbilds (`.LM4`, `.FPL`, …) speichert ihr Editor in diese Datei zurück; kommt ein zweites Dokument dazu, wird daraus ein Projekt, und die Originaldatei bleibt unverändert. Alle vier Dokumentarten können sich ein Projekt teilen.
 - **Öffnen:** Dateien von der Kommandozeile, aus dem Finder (macOS) oder aus der Liste öffnen direkt in ihrem Editor. Eine schon offene Datei kommt nach vorn; ein unberührtes neues Dokument derselben Art überlässt sein Fenster der geöffneten Datei. „Öffnen…“ im Datei-Menü jedes Editors geht über den Dialog der Suite, in dem die eigene Art zuerst steht: eine Datei einer anderen Art öffnet in deren Editor, ein Projekt als Projekt, und im selben Fenster nur, wenn es ein unberührtes Dokument zeigt.
 - **Schließen und Beenden:** Schließt das letzte Dokument, erscheint wieder der Startbildschirm. Schließen des Startbildschirms oder **Beenden** in einem Fenster beendet das Programm; jedes Fenster fragt nach ungespeicherten Änderungen, „Abbrechen“ hält das Beenden an.
 - **Wiederherstellen:** Sicherungen ungespeicherter Lochraster-Projekte aus einem früheren Lauf bietet OpenLoch einmal beim Start an.
-- **Kommandozeile:** `OpenLoch datei…` öffnet Dateien jeder Art, `OpenLoch --render bild.png datei` zeichnet ein Dokument ohne Fenster (Frontplatte mit 300 dpi, Leiterplatte 1600 Pixel breit).
+- **Kommandozeile:** `OpenLoch datei…` öffnet Dateien jeder Art, `OpenLoch --render bild.png datei` zeichnet ein Dokument ohne Fenster (Schaltplan und Frontplatte mit 300 dpi, Leiterplatte 1600 Pixel breit).
 
 ## Welche Datei öffnet welcher Editor
 
@@ -35,7 +35,7 @@ OpenLoch vereint die Dokumentarten Schaltplan, Lochraster, Leiterplatte und Fron
 
 Die macOS-App meldet diese Dateien beim Finder an (`assets/Info.plist.in`, Qts Vorlage mit Dokumenttypen): ihre eigenen Formate `.openloch`, `.olsch`, `.olpcb` und `.olfp` als deren Besitzer, die Dateien der Vorbilder (`.spl8`, `.spl7`, `.lm4`, `.lmb`, `.lay6`, `.lay`, `.fpl`) als Standardprogramm, Bibliotheksseiten (`.lib`, eine Endung, die auch andere Programme verwenden) nur als Alternative unter „Öffnen mit“. Die Typkennungen liegen im eigenen Namensraum `org.openloch.*`. Ein Doppelklick im Finder öffnet die Datei über das Öffnen-Ereignis des Systems in ihrem Editor. Der Suite-Test prüft, dass die Vorlage jede Endung der Zuordnung nennt, `tools/check_macos_bundle.py` im gebauten Bündel, dass jeder Typ erklärt ist und geöffnet wird.
 
-LochMaster, FrontDesigner und sPlan verwenden alle `.LIB` für Bibliotheksseiten und `.BAK` für Sicherungen. sPlans Dateien beginnen mit einem eigenen Kopf (`SPLAN70`, `SPLAN80`); LochMaster und FrontDesigner schreiben denselben 41-Byte-Kopf, und LochMaster-Dateien tragen Versionen von 3 bis 4. Deshalb entscheidet der Inhalt: Eine Sicherung mit sPlans Kopf gehört zum Schaltplan, was der FrontDesigner-Leser annimmt, ist eine Frontplatte, JSON-Sicherungen gehen nach ihrem Feld `format`, alles andere an den Lochraster-Editor, der ein Problem dann benennt.
+LochMaster, FrontDesigner und sPlan verwenden alle `.LIB` für Bibliotheksseiten und `.BAK` für Sicherungen. sPlans Dateien beginnen mit einem eigenen Kopf (`SPLAN70`, `SPLAN80`); LochMaster und FrontDesigner schreiben denselben 41-Byte-Kopf, und LochMaster-Dateien tragen Versionen von 3 bis 4. Deshalb entscheidet der Inhalt: Eine Sicherung mit sPlans Kopf gehört zum Schaltplan, was der FrontDesigner-Leser annimmt, ist eine Frontplatte, JSON-Sicherungen von Frontplatte und Leiterplatte gehen nach ihrem Feld `format`, alles andere an den Lochraster-Editor, der ein Problem dann benennt.
 
 ## Code
 
@@ -50,6 +50,8 @@ LochMaster, FrontDesigner und sPlan verwenden alle `.LIB` für Bibliotheksseiten
 | `src/suite/boardsources.*` | Die Platinen eines Projekts für die Frontplatte: Lochraster und Leiterplatte mit den Mitten, Umrissen und Seiten ihrer Bauteile |
 | `src/suite/pcbwindow.*` | Hauptfenster um den Leiterplatten-Editor mit der Menütabelle des Moduls und seiner Werkzeugleiste |
 | `src/main.cpp` | Kommandozeile, Sprache, Öffnen- und Beenden-Ereignisse des Systems |
+| `src/longlists.h` | Lange Listen in Dialogen für alle Module: `reportList`, `scrolling`, `fitToScreen`, `screenRoom`, `listInBrief` |
+| `src/autoplace.*` | Bauteile anordnen und Verdrahten im Lochraster |
 | `src/emfwriter.*` | `openloch::EmfDevice`: Vektorgrafik als EMF für alle Module (eine Einheit ein Hundertstel Millimeter, Titel im Dateikopf), in `openloch_core` |
 | `tests/suite_tests.cpp` | CTest `suite` |
 
@@ -60,6 +62,7 @@ Einen abstrakten Dokumentvertrag oder Plug-ins gibt es nicht: `Suite` behandelt 
 - **Menüs der Leiterplatte:** `PcbWindow` zeigt die Menütabelle des Moduls, `openloch::pcb::editorMenus()`, und hängt „Beenden“ an „Datei“. Neue Menüaktionen trägt das Modul nur dort ein; der Test `suite` prüft, dass das Fenster der Suite genau diese Tabelle zeigt.
 - **Frontplatte:** `PanelEditor` wird unverändert als Fenster verwendet; Menüs und Werkzeugleisten bleiben Sache des Moduls.
 - **Neue Dateiendungen** eines Moduls brauchen einen Eintrag in `documentKind` und `documentFilter` (`src/suite/documents.cpp`).
+- **Tastenkürzel in Tooltips:** Ein Befehl mit Kürzel zeigt es im Tooltip in Klammern, etwa „Drehen (Strg+R)“, unter macOS mit ⌘. Ein Befehl, dessen Tasten das Modul selbst verarbeitet (Werkzeuge der Zeichenfläche), setzt die Eigenschaft `toolTipShortcut`; sie erscheint dann ebenso. Die Suite ergänzt die Tooltips beim Anzeigen, eine geänderte Taste gilt also sofort.
 - **Übersetzungen:** Die Texte der Suite stehen in `scripts/translations/suite.py` und `suite_fr.py`. Qts eigene Texte der Standardknöpfe und Meldungsfenster (OK, Abbrechen, Ja, Nein, Schließen, Details einblenden …) übersetzt `installStandardTexts()` aus `src/language.h` über dieselben Tabellen in die Oberflächensprache. `suite_fr.py` übersetzt auch „Frontplatte“ („Face avant“), weil der Startbildschirm das Wort zeigt; die französische Tabelle des Frontplattenmoduls verwendet es von dort. Der Core-Test prüft die `ui()`-Texte in allen Unterordnern von `src/`.
 
 ## Ein Modul einbinden
@@ -71,15 +74,16 @@ Für ein neues Modul und für die Projekte nach [Dateiformate und Projekte](file
 3. **Dokument:** ein eigenes Modell mit Kodieren und Lesen als JSON-Objekt mit eigenem `format` und eigener `version`, vollständiger Prüfung beim Lesen und atomarem Speichern. Dieses Objekt ist später unverändert der Inhalt des Dokuments im Projekt.
 4. **Kennungen:** stabile Kennungen für Bauteile und ihre Anschlüsse von Anfang an, damit Bauteile zwischen Dokumenten geteilt werden können.
 5. **Formate des Vorbilds:** Leser und Schreiber mit verlustfreiem Rundlauf; der Export nennt, was entfällt.
+6. **In der Suite:** Dokumentart in `src/suite/documents.cpp` freischalten und ihre Endungen eintragen, Fenster in `Suite::makeWindow`, `openIn`, `documentPath` und `create`, Neu-Dialog, Tests in `tests/suite_tests.cpp`.
 
-Für Projekte kommt hinzu, sobald der Projektbehälter umgesetzt wird; jetzt schon einplanen:
+Für Projekte braucht ein Modul außerdem:
 
 - **Speichern über die Suite:** Die Suite kann dem Editor eine Funktion geben, die sein eigenes Schreiben bei „Speichern“ und „Speichern unter“ ersetzt; dann speichert jedes Fenster das ganze Projekt. Sie holt die aktuellen Dokumentdaten jederzeit ab und meldet dem Editor, dass gespeichert ist.
 - **Bauteil-Schnittstelle:** Bauteile mit Kennung, Wert und Anschlüssen aufzählen, ein Bauteil aus einem Bibliothekseintrag platzieren, Kennung und Wert aus dem Projekt übernehmen und zu einem Element sein Bauteil nennen.
 - **Originale im Projekt:** ein Original als Dokumentdaten einlesen und Dokumentdaten in ein Original schreiben, mit der Liste der Verluste.
-- **Soll-Verbindungen:** Platinen-Module vergleichen sich mit dem Schaltplan ihres Projekts (siehe unten).
+- **Soll-Verbindungen:** Platinen-Module vergleichen sich mit dem Schaltplan ihres Projekts ([Soll-Verbindungen](#soll-verbindungen-aus-dem-schaltplan)).
 
-### Soll-Verbindungen aus dem Schaltplan
+## Soll-Verbindungen aus dem Schaltplan
 
 Die Suite leitet aus dem ersten Schaltplan eines Projekts dessen Bauteile und Netze ab, jedes Mal neu und nie gespeichert: `documents::Targets` in `src/documents/targets.h`, gelesen von `suite::schematicTargets()` (`src/suite/schematictargets.h`). Ist der Schaltplan geöffnet, zählt sein aktueller Stand. Kommt ein Fenster zu einem Projekt oder ein Dokument hinzu, ruft die Suite `projectChanged()` der Lochraster- und Leiterplattenfenster des Projekts auf: Ihre Befehle zum Schaltplan folgen sofort, und ein angezeigter Vergleich rechnet neu.
 
@@ -96,7 +100,15 @@ Die Suite leitet aus dem ersten Schaltplan eines Projekts dessen Bauteile und Ne
 - Ein Anschluss heißt wie sein Kontakt im Schaltplan („1“, „A“, „E“). Fehlt ein Name oder kommt er in einem Bauteil doppelt vor, heißen alle Anschlüsse dieses Bauteils nach ihrer Stelle „1“, „2“, ….
 - Ein Netz ohne Netzbezeichnung hat keinen Namen. Ein Netz mit nur einem Anschluss verlangt keine Verbindung, darf aber mit keinem anderen Netz verbunden sein.
 
-Ein Platinen-Modul findet zu jedem Bauteil sein Gegenstück zuerst über die Kennung des Bauteils (Feld `component`), sonst über den gleichen Bezeichner ohne Rücksicht auf Groß- und Kleinschreibung; ein Bezeichner, den mehrere Bauteile tragen, wird nicht genommen. Anschlüsse werden über ihren Namen zugeordnet, ebenfalls ohne Rücksicht auf Groß- und Kleinschreibung. Der Schaltplan nummeriert die beiden Kontakte von Dioden, LEDs und Elkos: `1` ist die Anode bzw. Plus, `2` die Kathode bzw. Minus; sie gelten für Anschlüsse namens `A`/`K` bzw. `+`/`-`. Nur die Anschlüsse `1` und `2` von Widerständen, Kondensatoren und Spulen (Bauteilart `kind` `R`, `C`, `L`) dürfen andersherum stecken, wenn beide Seiten sie so nummerieren; eine Diode mit nummerierten Anschlüssen nie. Ob ein solches Bauteil gedreht steckt, wird Bauteil für Bauteil entschieden, jedes mit den Drehungen davor: Von zwei über Kreuz verbundenen Widerständen dreht sich einer, nicht beide. Ein Bauteil, das das Dokument auf einer anderen seiner Platinen einem Bauteil des Schaltplans zugeordnet hat, gehört dorthin: Die angezeigte Platine wird ohne dieses Bauteil und seine Anschlüsse verglichen, und nichts auf ihr wird ihm zugeordnet oder für es gesetzt. Lochraster und Leiterplatte zeigen danach offene Verbindungen als Luftlinien und listen fehlende und überzählige Bauteile, offene Netze und verbundene Netze („Mit Schaltplan vergleichen“, im Lochraster im Menü Prüfen, in der Leiterplatte unter Extras); „Aus Schaltplan übernehmen“ verknüpft gefundene Bauteile und übernimmt Bezeichner und Wert, erst nach einer Übersicht. „Anschlüsse zuordnen“ benennt die Anschlüsse eines Bauteils nach denen des Schaltplans; ein Anschluss, der bei dem Anschluss bleibt, für den sein eigener Name steht, behält seinen Namen (`+` und `-` eines Elkos bleiben). „Fehlende Bauteile setzen“ schlägt für jedes fehlende Bauteil Teile vor, deren Anschlüsse passen: im Lochraster Teile mit allen Anschlüssen in Löchern des Rasters vor den anderen (die anderen tragen den Hinweis „Anschlüsse nicht im Lochraster“), dann Teile derselben Art (nach `kind`: R, C, L, D und LED, T und Q, IC und U …), vorausgewählt nur ein Teil derselben Art im Raster: das Lochraster Teile der OpenLoch-Bibliothek, die es rechts neben die Platine auf das Lochraster legt, die Leiterplatte Footprints ihrer Modulbibliothek rechts neben der Arbeitsfläche ([Leiterplatte](modules/pcb.md)). Die gesetzten Teile sind benannt und dem Bauteil des Schaltplans zugeordnet, sodass ihre Luftlinien zeigen, wohin sie gehören.
+Ein Platinen-Modul findet zu jedem Bauteil sein Gegenstück zuerst über die Kennung des Bauteils (Feld `component`), sonst über den gleichen Bezeichner ohne Rücksicht auf Groß- und Kleinschreibung; ein Bezeichner, den mehrere Bauteile tragen, wird nicht genommen. Anschlüsse werden über ihren Namen zugeordnet, ebenfalls ohne Rücksicht auf Groß- und Kleinschreibung. Der Schaltplan nummeriert die beiden Kontakte von Dioden, LEDs und Elkos: `1` ist die Anode bzw. Plus, `2` die Kathode bzw. Minus; sie gelten für Anschlüsse namens `A`/`K` bzw. `+`/`-`. Nur die Anschlüsse `1` und `2` von Widerständen, Kondensatoren und Spulen (Bauteilart `kind` `R`, `C`, `L`) dürfen andersherum stecken, wenn beide Seiten sie so nummerieren; eine Diode mit nummerierten Anschlüssen nie. Ob ein solches Bauteil gedreht steckt, wird Bauteil für Bauteil entschieden, jedes mit den Drehungen davor: Von zwei über Kreuz verbundenen Widerständen dreht sich einer, nicht beide.
+
+Ein Bauteil, das das Dokument auf einer anderen seiner Platinen einem Bauteil des Schaltplans zugeordnet hat, gehört dorthin: Die angezeigte Platine wird ohne dieses Bauteil und seine Anschlüsse verglichen, und nichts auf ihr wird ihm zugeordnet oder für es gesetzt.
+
+Lochraster und Leiterplatte zeigen danach offene Verbindungen als Luftlinien und listen fehlende und überzählige Bauteile, offene Netze und verbundene Netze („Mit Schaltplan vergleichen“, im Lochraster im Menü Prüfen, in der Leiterplatte im Menü Extras); „Aus Schaltplan übernehmen“ verknüpft gefundene Bauteile und übernimmt Bezeichner und Wert, erst nach einer Übersicht. „Anschlüsse zuordnen“ benennt die Anschlüsse eines Bauteils nach denen des Schaltplans; ein Anschluss, der bei dem Anschluss bleibt, für den sein eigener Name steht, behält seinen Namen (`+` und `-` eines Elkos bleiben).
+
+„Fehlende Bauteile setzen“ schlägt für jedes fehlende Bauteil Teile vor, deren Anschlüsse passen: das Lochraster Teile der OpenLoch-Bibliothek, die es rechts neben die Platine auf das Lochraster legt, die Leiterplatte Footprints ihrer Modulbibliothek rechts neben der Arbeitsfläche ([Leiterplatte](modules/pcb.md#abgleich-mit-dem-schaltplan)). Im Lochraster stehen Teile mit allen Anschlüssen in Löchern des Rasters vor den anderen (die anderen tragen den Hinweis „Anschlüsse nicht im Lochraster“), dann Teile derselben Art (nach `kind`: R, C, L, D und LED, T und Q, IC und U …); vorausgewählt ist nur ein Teil derselben Art im Raster. Die gesetzten Teile sind benannt und dem Bauteil des Schaltplans zugeordnet, sodass ihre Luftlinien zeigen, wohin sie gehören.
+
+Danach schlagen beide Platinen einen ersten Entwurf vor: das Lochraster mit „Bauteile anordnen…“ und „Verdrahten“ (nächster Abschnitt), die Leiterplatte mit „Bauteile automatisch anordnen…“ und „Alle Luftlinien routen“ im Menü Extras ([Abgleich mit dem Schaltplan](modules/pcb.md#abgleich-mit-dem-schaltplan)).
 
 ### Bauteile anordnen im Lochraster
 
@@ -118,7 +130,7 @@ Beides geht nur auf einer Lochrasterplatine mit einzelnen Lötpunkten: OpenLochs
 
 **Prüfung** (`openloch_tests`, `openloch_window_tests`): die Kippstufe aus den offenen Bibliotheken, von Hand angeordnet wie im Muster, wird angeordnet: alle Anschlüsse im Raster und nicht in der äußeren Lochreihe, kein Loch doppelt, keine Körper übereinander, die Reihen von Versorgung und Masse über und unter allen Anschlüssen, LEDs und Widerstände über den Transistoren, die Hälften spiegelgleich, die Länge höchstens 20 % über der Handanordnung (sie liegt deutlich darunter, weil der Batterieclip von Hand über den Rand ragt und lange Zuleitungen hat); derselbe Vorschlag bei jedem Lauf; ein Elko mit Anschlüssen außerhalb des Rasters bleibt liegen; auf einer zu kleinen Platine bleibt der Batterieclip liegen. Verdrahtet, angeordnet wie von Hand: alle acht Netze verbunden, keine zwei Netze verbunden, höchstens zwei Brücken, jeder Draht entlang der Löcher und ohne Anschluss in seiner Mitte; mit einem Elko außerhalb des Rasters bleiben genau dessen Anschlüsse offen, ohne dass Netze zusammenkommen; eine Vorlage aus Streifen gilt nicht als einzelne Lötpunkte. Das veröffentlichte Beispiel `01-Zweitransistor-Blinklicht.LM4` ohne seine Drähte wird mit den Netzen seiner Netzliste angeordnet und verdrahtet und stimmt danach mit ihr überein. Im Fenster: erst die Übersicht, Abbrechen ändert nichts, Anordnen ist ein Rückgängig-Schritt, Verdrahten auch, und Anordnen mit „Danach verdrahten“ ist ein einziger.
 
-### Frontplatte und Platine
+## Frontplatte und Platine
 
 Hinter einer Frontplatte können Platinen des Projekts sitzen. Die Lage speichert die Frontplatte selbst (Feld `boards` ihrer Platte: Dokument und Platine über ihre Kennungen, Versatz, Drehung und Seite), damit sie mit der Frontplatte bearbeitet und rückgängig gemacht wird; Bohrungen und Symbole von Bauteilen tragen die Kennung des Bauteils (`component`). Was die Frontplatte über die Platinen weiß, liefert die Suite bei jeder Anfrage neu (`PanelEditor::boardSources`, `src/suite/boardsources.*`), aus offenen Fenstern mit ihrem aktuellen Stand:
 
@@ -127,10 +139,6 @@ Hinter einer Frontplatte können Platinen des Projekts sitzen. Die Lage speicher
 
 Ein älteres Dokument ohne Kennungen erhält sie dabei einmal und behält sie im Projekt, damit eine Frontplatte seine Platinen und Bauteile dauerhaft nennen kann. Die Leiterplatte liest die Suite nur über die öffentliche Schnittstelle ihres Modells (`pcb::fromJson`, `components`, `pickPlaceCentre`, `componentOnTop`, `bounds`). Was die Frontplatte daraus macht (Platinen dahinter, Unterlage, Bohrungen, Vergleich), beschreibt [Frontplatte](modules/frontpanel.md).
 
-Die Suite nimmt das Modul auf, sobald sein Editor baut: Dokumentart in `src/suite/documents.cpp` freischalten und ihre Endungen eintragen, Fenster in `Suite::makeWindow`, `openIn`, `documentPath` und `create`, Neu-Dialog, Tests in `tests/suite_tests.cpp`.
-
-- **Tastenkürzel in Tooltips:** Ein Befehl mit Kürzel zeigt es im Tooltip in Klammern, etwa „Drehen (Strg+R)“, unter macOS mit ⌘. Ein Befehl, dessen Tasten das Modul selbst verarbeitet (Werkzeuge der Zeichenfläche), setzt die Eigenschaft `toolTipShortcut`; sie erscheint dann ebenso. Die Suite ergänzt die Tooltips beim Anzeigen, also gilt eine geänderte Taste sofort.
-
 ## Zoom und Touchpad (alle Module)
 
 Gilt für jede Zeichenfläche (Lochraster, Leiterplatte, Frontplatte, Schaltplan) gleich:
@@ -138,7 +146,7 @@ Gilt für jede Zeichenfläche (Lochraster, Leiterplatte, Frontplatte, Schaltplan
 - **Pinch** (zwei Finger auseinander oder zusammen) zoomt um die Mausposition.
 - **Zwei-Finger-Scrollen** verschiebt die Ansicht, zoomt nicht.
 - **Strg (macOS ⌘) und Scrollen** zoomt um die Mausposition, auch mit einer Maus.
-- **Mausrad ohne Taste** wie im jeweiligen Vorbild: im Schaltplan zoomt es um die Mausposition wie in sPlan, in Lochraster und Frontplatte verschiebt es. Ein Touchpad, das mit Pixelschritten scrollt, verschiebt überall.
+- **Mausrad ohne Taste** wie im jeweiligen Vorbild: in Schaltplan und Leiterplatte zoomt es um die Mausposition wie in sPlan und Sprint-Layout, in Lochraster und Frontplatte verschiebt es. Ein Touchpad, das mit Pixelschritten scrollt, verschiebt überall.
 - Der Punkt unter der Maus bleibt stehen, soweit die Bildlaufleisten es zulassen (eine ganz eingepasste Platte hat am Rand keinen Platz zum Verschieben).
 
 Ein Pinch ist ein Ereignis mit einem Zoomfaktor (`QNativeGestureEvent`, `ZoomNativeGesture`); die Ansicht rechnet Faktor und Mausposition wie beim Mausrad.
@@ -158,7 +166,7 @@ Im Lochraster gilt das für „Aus Schaltplan übernehmen“, „Fehlende Bautei
 
 ## Dateidialoge und Bibliotheken
 
-Verhalten und Schnittstellen sind so festgelegt, dass jedes Modul seinen Teil unabhängig umsetzt. Alle vier Module sind angebunden.
+Jedes Modul setzt seinen Teil über die folgenden Schnittstellen um; alle vier sind angebunden.
 
 ### Öffnen in jedem Fenster
 
@@ -166,7 +174,7 @@ Verhalten und Schnittstellen sind so festgelegt, dass jedes Modul seinen Teil un
 
 **Suite.** Ein Dialog für alle: `QFileDialog` mit `documentFilter()`, der Eintrag der Art des aufrufenden Fensters zuerst. Startordner ist der vom Modul übergebene, sonst der zuletzt benutzte (`dialogs/lastDirectory`), sonst `Dokumente/OpenLoch`, sonst der Ordner des Benutzers.
 
-**Schnittstelle je Modul.** Nach dem Muster von `saveHandler` hat jeder Editor ein `std::function<bool(const QString &folder)> openHandler`, das nur die Suite setzt. Ist es gesetzt, ruft die Aktion „Öffnen“ des Editors es mit ihrem eigenen Startordner auf, statt selbst einen Dialog zu zeigen; der Rückgabewert sagt, ob etwas geöffnet wurde. Ohne Suite (eigene Programme der Module, Tests) bleibt alles wie heute.
+**Schnittstelle je Modul.** Nach dem Muster von `saveHandler` hat jeder Editor ein `std::function<bool(const QString &folder)> openHandler`, das nur die Suite setzt. Ist es gesetzt, ruft die Aktion „Öffnen“ des Editors es mit ihrem eigenen Startordner auf, statt selbst einen Dialog zu zeigen; der Rückgabewert sagt, ob etwas geöffnet wurde. Ohne Suite (eigene Programme der Module, Tests) zeigt der Editor seinen eigenen Dialog.
 
 | Modul | Editor | Startordner, den das Modul übergibt |
 | --- | --- | --- |
@@ -196,7 +204,7 @@ Eigene Ordnereinstellungen eines Moduls, die seinem Vorbild folgen, haben Vorran
 | Schaltplan | `schematic::libraryFolders()` / `setLibraryFolders()` | `schematic/libraryFolder`; weitere: `schematic/extraLibraryFolders` | `schematic::Editor::librariesChanged()` |
 | Leiterplatte | `pcb::libraryFolders()` / `setLibraryFolders()` | `macroFolder` in den Einstellungen des Moduls; weitere: `macroFolders/extra` | `pcb::Editor::librariesChanged()` |
 
-**Prüfung:** Die Übersicht zeigt eine Zeile je Art mit den Ordnern aus diesen Funktionen; ein geänderter Ordner kommt in der Einstellung des Moduls an und im offenen Fenster an.
+**Prüfung:** Die Übersicht zeigt eine Zeile je Art mit den Ordnern aus diesen Funktionen; ein geänderter Ordner kommt in der Einstellung des Moduls und im offenen Fenster an.
 
 ## Bauteilregister (Entwurf)
 
@@ -205,7 +213,7 @@ Dieser Abschnitt ist ein Entwurf und legt noch nichts fest. Er beschreibt, wie d
 ### Verhalten
 
 - **Was gleich gehalten wird:** zunächst Bezeichner (wie angezeigt) und Wert. Beschreibung, Felder und logische Anschlüsse stehen schon im Register, werden aber erst in einem zweiten Schritt abgeglichen.
-- **Welche Bauteile:** jedes Bauteil, das ein Dokument nennt, unter der Kennung, über die das Projekt verbindet: bei einem verknüpften Platinenbauteil die Kennung des Schaltplanbauteils (Feld `component`), sonst die eigene; bei einer Bohrung der Frontplatte die des Platinenbauteils. Children eines Parents im Schaltplan sind kein eigenes Bauteil (wie bei den [Soll-Verbindungen](#soll-verbindungen-aus-dem-schaltplan)), auch nicht mit eigenem Bezeichner ohne `<PARENT_ID>`; sie werden nie abgeglichen. Bauteile in Gruppen und Clips zählen, Bauteile innerhalb eines Bauteils nicht. Doppelte Bezeichner sind im Register erlaubt (Kopieren, Duplizieren, Blatt kopieren oder laden ergeben neue Kennungen mit gleichem Bezeichner); die Stückliste zählt sie wie heute einzeln.
+- **Welche Bauteile:** jedes Bauteil, das ein Dokument nennt, unter der Kennung, über die das Projekt verbindet: bei einem verknüpften Platinenbauteil die Kennung des Schaltplanbauteils (Feld `component`), sonst die eigene; bei einer Bohrung der Frontplatte die des Platinenbauteils. Children eines Parents im Schaltplan sind kein eigenes Bauteil (wie bei den [Soll-Verbindungen](#soll-verbindungen-aus-dem-schaltplan)), auch nicht mit eigenem Bezeichner ohne `<PARENT_ID>`; sie werden nie abgeglichen. Bauteile in Gruppen und Clips zählen, Bauteile innerhalb eines Bauteils nicht. Doppelte Bezeichner sind im Register erlaubt (Kopieren, Duplizieren, Blatt kopieren oder laden ergeben neue Kennungen mit gleichem Bezeichner); die Stückliste zählt sie einzeln.
 - **Ändern:** Ändert der Benutzer in einem Dokument Bezeichner oder Wert eines Bauteils (Bearbeiten, Rückgängig, Wiederholen), übernimmt die Suite den neuen Stand ins Register und gibt ihn sofort an die anderen Dokumente des Projekts weiter: an geöffnete über ihren Editor, an geschlossene in ihren gespeicherten Daten. Das Projekt gilt danach als geändert. Die letzte Änderung gilt; gleichzeitige Änderungen gibt es in einem Programm mit einer Oberfläche nicht.
 - **Rückgängig:** Die Weitergabe ist in den anderen Dokumenten kein eigener Schritt. Damit ein Rückgängig dort keinen alten Bezeichner zurückholt, gilt der Stand aus dem Register auch in allen dort aufbewahrten Rückgängig- und Wiederholen-Schritten (alle vier Editoren bewahren ganze Stände auf). Rückgängig im Dokument, in dem geändert wurde, ist eine neue Änderung und wird ebenso weitergegeben.
 - **Öffnen:** Das Register gilt. Weicht die Kopie eines Dokuments ab (etwa nach einem Import), erhält es beim Öffnen den Stand des Registers; die Projektübersicht nennt die angeglichenen Bauteile. Fehlt das Register (ältere Projekte), entsteht es beim Öffnen aus den Dokumenten, zuerst aus dem Schaltplan, dann aus den übrigen in der Reihenfolge des Projekts; wie dabei abweichende verknüpfte Bauteile behandelt werden, steht unten zur Entscheidung.
@@ -270,7 +278,7 @@ Die Suite (`src/suite/componentregister.*`): `Suite::componentsEdited(QMainWindo
 
 ### Zur Entscheidung
 
-- **Ältere Projekte ohne Register:** (a) Beim Öffnen erhalten verknüpfte Bauteile, die vom Schaltplan abweichen, still dessen Stand; das Öffnen kann dann Bezeichner auf Platinen ändern. (b) Das Register entsteht aus den Dokumenten, wie sie sind; die Projektübersicht nennt die Abweichungen, und der Benutzer übernimmt sie mit „Aus Schaltplan übernehmen“ nach der Übersicht wie heute. Vorschlag: (b), weil Öffnen nichts ungefragt ändern soll.
+- **Ältere Projekte ohne Register:** (a) Beim Öffnen erhalten verknüpfte Bauteile, die vom Schaltplan abweichen, still dessen Stand; das Öffnen kann dann Bezeichner auf Platinen ändern. (b) Das Register entsteht aus den Dokumenten, wie sie sind; die Projektübersicht nennt die Abweichungen, und der Benutzer übernimmt sie nach der Übersicht mit „Aus Schaltplan übernehmen“. Vorschlag: (b), weil Öffnen nichts ungefragt ändern soll.
 
 ### Reihenfolge und Prüfung
 
@@ -281,4 +289,5 @@ Die Suite (`src/suite/componentregister.*`): `Suite::componentsEdited(QMainWindo
 
 ## Noch offen
 
+- Sicherungen des Schaltplans im eigenen Format (`.bak` mit `format: "OpenLoch Schematic"`) erkennt `documentKind` nicht; sie gehen an den Lochraster-Editor.
 - Gemeinsame Bauteile nach der Regel [Dateiformate und Projekte](file-formats.md): ein Bauteilregister, das Bezeichner und Werte in allen Dokumenten in beide Richtungen gleich hält ([Entwurf](#bauteilregister-entwurf)).

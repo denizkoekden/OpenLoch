@@ -16,11 +16,11 @@
 
 # OpenLoch
 
-OpenLoch ist eine freie Elektronik-Werkstatt: Schaltplan, Lochrasterplatine, Leiterplatte und Frontplatte in einem Programm. Jedes der vier Module folgt eng einem bewährten Vorbild, mit denselben Werkzeugen und derselben Bedienung, und öffnet und speichert dessen Dateien. Anders als die Originale läuft OpenLoch nativ auf macOS, Windows und Linux.
+OpenLoch ist eine freie Elektronik-Werkstatt: Schaltplan, Lochrasterplatine, Leiterplatte und Frontplatte in einem Programm. Jedes der vier Module folgt einem Programm von ABACOM, mit denselben Werkzeugen und derselben Bedienung, und öffnet und speichert dessen Dateien. Anders als die Originale läuft OpenLoch nativ auf macOS, Windows und Linux.
 
-Ein Projekt hält die Dokumente einer Schaltung zusammen. Aus dem Schaltplan entstehen Lochraster- und Leiterplatte: Fehlende Bauteile legt OpenLoch neben die Platine, Luftlinien zeigen, was noch zu verbinden ist, und eine Prüfung vergleicht die Platine mit den Netzen des Schaltplans. Die Frontplatte gehört mit ins Projekt: Sie zeigt die Platinen dahinter und setzt Bohrungen für LEDs, Potis, Schalter und Buchsen über ihre Bauteile.
+Ein Projekt hält die Dokumente einer Schaltung zusammen. Aus dem Schaltplan entstehen Lochraster- und Leiterplatte: OpenLoch legt fehlende Bauteile neben die Platine, ordnet sie auf Wunsch an, verdrahtet die Lochrasterplatine und routet die Leiterplatte. Luftlinien zeigen, was noch zu verbinden ist, und eine Prüfung vergleicht die Platine mit den Netzen des Schaltplans. Die Frontplatte gehört mit ins Projekt: Sie zeigt die Platinen dahinter und setzt Bohrungen für LEDs, Potis, Schalter und Buchsen über ihre Bauteile.
 
-> **Stand:** Version 0.1. Alle vier Module sind benutzbar und lesen und schreiben die Dateien ihrer Vorbilder. Jedes Modul ist Menü für Menü und Dialog für Dialog mit seinem Vorbild abgeglichen; die dabei gefundenen Lücken sind geschlossen, bewusste Abweichungen stehen auf den Seiten der Module. Offen sind vor allem Abnahmen mit den Originalen selbst. Was als Nächstes kommt, steht in der [Roadmap](docs/roadmap.md).
+> **Stand:** Version 0.1. Alle vier Module sind benutzbar und lesen und schreiben die Dateien ihrer Vorbilder. Jedes Modul ist Menü für Menü und Dialog für Dialog mit seinem Vorbild abgeglichen; bewusste Abweichungen stehen auf den Seiten der Module. Offen sind vor allem Abnahmen mit den Originalen selbst. Was als Nächstes kommt, steht in der [Roadmap](docs/roadmap.md).
 
 ## Die vier Module
 
@@ -36,11 +36,11 @@ Daneben hat OpenLoch ein eigenes, offenes Format: ein Projekt (`.openloch`) mit 
 ## Funktionen
 
 - **Schaltplan:** Blätter mit Formblatt, Bauteile mit Bezeichner, Wert und Kontakten aus einer mitgelieferten Symbolbibliothek, Netze mit Netznamen auch über Blätter hinweg, Texte mit Variablen und Verlinkungen, Suchen und Ersetzen, Stückliste, Druck, Export als Bild, SVG und EMF, Hilfe.
-- **Lochraster:** Leitungen, Lötpunkte, Trennstellen und Bohrungen auf Loch- und Streifenraster, Bauteileinheiten, Vorlagen und Layout-Editor, Durchgangsprüfer, Potentiale, freie Bereiche und Kurzschlussprüfung, Druckvorschau wie im Original, HPGL zum Bohren und Fräsen, Stückliste als CSV oder Excel-Tabelle.
-- **Leiterplatte:** Kupfer oben, unten und innen, Bestückungsdruck und Umriss, Leiterbahnen, Lötaugen, SMD-Pads und Flächen, AutoMasse, Autorouter, Design Rule Check, Spezialformen, Makros und Bauteil-Assistent, Autorouten auch entlang der Luftlinien aus dem Schaltplan, Druck mit Kacheln und Korrekturfaktoren, Gerber- und Excellon-Ausgabe, Gerber-Import, Isolationsfräsen und Bestückungsdaten.
+- **Lochraster:** Leitungen, Lötpunkte, Trennstellen und Bohrungen auf Loch- und Streifenraster, Bauteileinheiten, Vorlagen und Layout-Editor, Durchgangsprüfer, Potentiale, freie Bereiche und Kurzschlussprüfung, Druckvorschau wie im Original, HPGL zum Bohren und Fräsen, Stückliste als CSV oder Excel-Tabelle. Mit einem Schaltplan im Projekt: Bauteile anordnen (Versorgung und Masse als Schienen, spiegelgleiche Hälften) und Drähte auf der Lötseite ziehen, mit Drahtbrücken, wo Netze sich kreuzen.
+- **Leiterplatte:** Kupfer oben, unten und innen, Bestückungsdruck und Umriss, Leiterbahnen, Lötaugen, SMD-Pads und Flächen, AutoMasse, Punkt-zu-Punkt-Autorouter (auch entlang der Luftlinien aus dem Schaltplan), Design Rule Check, Spezialformen, Makros und Bauteil-Assistent, Druck mit Kacheln und Korrekturfaktoren, Gerber- und Excellon-Ausgabe, Gerber-Import, Isolationsfräsen und Bestückungsdaten. Über Sprint-Layout hinaus: Bauteile automatisch in der Platinenkontur anordnen und alle Luftlinien auf einmal routen, auf zwei Lagen mit Durchkontaktierungen.
 - **Frontplatte:** Konturen, Beschriftungen, Skalen und Bemaßungen, Bohrungen, Fräsungen und Gravuren mit Strichschriften samt Zeichentabelle, Bilder, Druck und Bildexport, HPGL-Bearbeitungsdateien, die Platinen des Projekts hinter der Frontplatte.
-- **Projekt:** ein Startbildschirm für alle vier Arten, ein Fenster je Dokument, jede Datei aus jedem Fenster öffnen, eine Übersicht der Bibliotheksordner aller Arten, Vergleich der Platinen mit dem Schaltplan, Luftlinien, Übernahme von Bezeichnern und Werten, fehlende Bauteile neben die Platine setzen.
-- **Oberfläche:** Symbolleisten und Mauszeiger im Stil der Vorbilder, deutsch, englisch und französisch.
+- **Projekt:** ein Startbildschirm für alle vier Arten, ein Fenster je Dokument, jede Datei aus jedem Fenster öffnen, eine Übersicht der Bibliotheksordner aller Arten, Vergleich der Platinen mit dem Schaltplan, Luftlinien, Übernahme von Bezeichnern und Werten, fehlende Bauteile neben die Platine setzen, eine Projektübersicht mit Stückliste über alle Dokumente.
+- **Oberfläche:** Symbolleisten und Mauszeiger im Stil der Vorbilder, Tastenkürzel in den Tooltips, Pinch-Zoom auf dem Touchpad, deutsch, englisch und französisch.
 
 Eine Gegenüberstellung mit LochMaster, Punkt für Punkt, steht in [docs/lochmaster-compatibility.md](docs/lochmaster-compatibility.md); die Seiten der anderen Module beschreiben ihren Umfang ebenso genau.
 
@@ -50,7 +50,7 @@ Eine Gegenüberstellung mit LochMaster, Punkt für Punkt, steht in [docs/lochmas
 
 Die Lochraster-Bibliothek enthält alle 46 Seiten der LochMaster-Bibliothek mit denselben 506 Bauteilen, in derselben Reihenfolge und mit denselben Lochbildern. So bleiben Platinen zwischen beiden Programmen austauschbar. Dazu kommen acht eigene Seiten mit 187 modernen Bauteilen: ESP32- und ESP8266-Boards, Raspberry Pi Pico, Arduino, STM32 und Teensy, Sensor-, Anzeige-, Funk-, Stromversorgungs- und Treibermodule sowie aktuelle Steckverbinder und Halbleiter. Jedes Bauteil ist als Textbeschreibung in [`libraries/`](libraries) abgelegt, das Programm zeichnet daraus die Bilder. Die Bibliothek steht unter CC0.
 
-Der Schaltplan bringt eine eigene Symbolbibliothek mit: alle 142 Seiten der sPlan-Bibliothek mit gut 2800 Symbolen, jedes neu gezeichnet und gegen Herstellerunterlagen und IEC 617 geprüft, Bausteine mit Gattern als Parent und Children wie in sPlan. Die Leiterplatte Gehäuse wie DIL, SOIC, SOT-23, TO-92 und TO-220 samt Bauteil-Assistent. Die Teile der Lochraster-Bibliothek benennen ihre Anschlüsse, gepolte Bauteile etwa mit Anode und Kathode, damit sie beim Vergleich mit dem Schaltplan von selbst passen.
+Der Schaltplan bringt eine eigene Symbolbibliothek mit: alle 142 Seiten der sPlan-Bibliothek mit gut 2800 Symbolen, jedes neu gezeichnet und gegen Herstellerunterlagen und IEC 617 geprüft, Bausteine mit Gattern als Parent und Children wie in sPlan. Die Leiterplatte bringt Gehäuse wie DIL, SOIC, SOT-23, TO-92 und TO-220 mit, dazu den Bauteil-Assistenten; für gängige Transistoren kennt sie die Anschlussfolge aus den Datenblättern (BC548 C-B-E, 2N3904 E-B-C, BS170 D-G-S …). Die Teile der Lochraster-Bibliothek benennen ihre Anschlüsse, gepolte Bauteile etwa mit Anode und Kathode, damit sie beim Vergleich mit dem Schaltplan von selbst passen.
 
 Alle Bauteilbilder, Symbole, Mauszeiger und das Logo sind eigene Arbeit. Aus den Vorbildern stammen keine Grafiken, Bitmaps, Bibliotheksdateien oder sonstigen Ressourcen. Übernommen sind nur sachliche Angaben wie Seitenaufteilung, Bauteilnamen und Lochbilder. Wer LochMaster besitzt, kann dessen Bibliotheken zusätzlich einbinden (**Bibliothek → LochMaster-Bibliotheken einbinden…**). Sie werden nur gelesen.
 
@@ -72,8 +72,9 @@ Bei jedem Build entstehen Pakete für alle drei Plattformen. Sie liegen in den [
 
 1. Auf dem Startbildschirm eine Dokumentart wählen, also Schaltplan, Lochraster, Leiterplatte oder Frontplatte, oder mit **Öffnen…** eine Datei laden. OpenLoch erkennt die Dateien aller vier Vorbilder und öffnet sie im passenden Fenster.
 2. **Fenster → Zum Projekt hinzufügen** legt im selben Projekt ein weiteres Dokument an, etwa zum Schaltplan eine Lochrasterplatine oder eine Leiterplatte.
-3. In einer Platine des Projekts legt **Fehlende Bauteile setzen…** die Bauteile des Schaltplans neben die Platine (im Lochraster im Menü **Prüfen**, in der Leiterplatte unter **Extras**). Die Luftlinien zeigen, wohin sie gehören; **Mit Schaltplan vergleichen** prüft die fertige Platine gegen die Netze.
-4. **Datei → Speichern** schreibt ein Projekt als `.openloch`. Eine geöffnete Datei eines Vorbilds speichert OpenLoch in ihr Format zurück, solange sie das einzige Dokument ist; mit einem zweiten Dokument wird daraus ein Projekt.
+3. In einer Platine des Projekts legt **Fehlende Bauteile setzen…** die Bauteile des Schaltplans neben die Platine (im Lochraster im Menü **Prüfen**, in der Leiterplatte unter **Extras**). Die Luftlinien zeigen, wohin sie gehören.
+4. Einen ersten Entwurf machen im Lochraster **Prüfen → Bauteile anordnen…** und **Prüfen → Verdrahten**, in der Leiterplatte **Extras → Bauteile automatisch anordnen…** und **Extras → Alle Luftlinien routen**. Jeder Schritt lässt sich rückgängig machen und von Hand weiterbearbeiten; **Mit Schaltplan vergleichen** prüft die fertige Platine gegen die Netze.
+5. **Datei → Speichern** schreibt ein Projekt als `.openloch`. Eine geöffnete Datei eines Vorbilds speichert OpenLoch in ihr Format zurück, solange sie das einzige Dokument ist; mit einem zweiten Dokument wird daraus ein Projekt.
 
 In Schaltplan, Lochraster und Frontplatte öffnet **F1** die Hilfe des Moduls mit seinen Funktionen und Tastenkürzeln. Ungespeicherte Änderungen einer Lochrasterplatine sichert OpenLoch nach kurzer Zeit und bietet sie beim nächsten Start zur Wiederherstellung an.
 
@@ -103,7 +104,7 @@ Fehler und Vorschläge gerne als [Issue](https://github.com/denizkoekden/OpenLoc
 | Dokument | Inhalt |
 | :--- | :--- |
 | [Roadmap](docs/roadmap.md) | Was als Nächstes kommt |
-| [Ein Programm, vier Dokumentarten](docs/suite.md) | Startbildschirm, Fenster, Projekte und Soll-Verbindungen aus dem Schaltplan |
+| [Ein Programm, vier Dokumentarten](docs/suite.md) | Startbildschirm, Fenster, Projekte, Soll-Verbindungen aus dem Schaltplan, Anordnen und Verdrahten im Lochraster, gemeinsame Regeln für Zoom, Tooltips und lange Listen |
 | [Dateiformate und Projekte](docs/file-formats.md) | Welche Dateien OpenLoch liest und schreibt, und wie Projekte Dokumente verbinden |
 | [Schaltplan](docs/modules/schematic.md), [Leiterplatte](docs/modules/pcb.md), [Frontplatte](docs/modules/frontpanel.md) | Die Module mit Funktionen und Dateiformaten ihrer Vorbilder |
 | [Vergleich mit LochMaster](docs/lochmaster-compatibility.md) | Das Lochraster Punkt für Punkt neben dem Original |

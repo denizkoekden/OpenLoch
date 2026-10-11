@@ -1,6 +1,6 @@
 # OpenLoch-Projektformat
 
-Eine Datei mit der Endung `.openloch` enthält UTF-8-JSON mit Zeilenende LF. **Version 2** ist das Projekt mit mehreren Dokumenten nach der Regel [Dateiformate und Projekte](file-formats.md); **Version 1** ist das bisherige Format des Lochrasters, das im Projekt als Lochraster-Dokument weiterlebt. OpenLoch liest und schreibt Version 2 für Projekte aus Schaltplan-, Lochraster-, Leiterplatten- und Frontplattendokumenten. Bauteilregister, Bibliothek und Verknüpfungen werden gelesen und unverändert erhalten, aber noch nicht bearbeitet.
+Eine Datei mit der Endung `.openloch` enthält UTF-8-JSON mit Zeilenende LF. **Version 2** ist das Projekt mit mehreren Dokumenten nach der Regel [Dateiformate und Projekte](file-formats.md); **Version 1** ist das frühere Format des Lochrasters, das im Projekt als Lochraster-Dokument weiterlebt. OpenLoch liest und schreibt Version 2 für Projekte aus Schaltplan-, Lochraster-, Leiterplatten- und Frontplattendokumenten. Bauteilregister, Bibliothek und Verknüpfungen werden gelesen und unverändert erhalten, aber noch nicht bearbeitet.
 
 ## Projekt (Version 2)
 
@@ -30,7 +30,7 @@ Kennungen von Projekt, Dokumenten, Bauteilen und Bibliothekseinträgen sind 32 z
 | `data` | die Daten des Moduls, unverändert so, wie es sie als eigene Datei schreiben würde |
 | `origin` | optional, bei importierten Dokumenten: `format` (`lm4`, `lmb`, `lib`, `lay6`, `lay`, `fpl`, `spl7`, `spl8`), `file` (Dateiname beim Import) und `resource` (Schlüssel der Originaldatei in `resources`, wenn sie erhalten bleiben soll) |
 
-`data` trägt die eigenen Felder `format` und `version` des Moduls; Leser wählen das Modul nach `kind`, nie nach `data.format`. Ein Lochraster-Dokument trägt darin also `format: "OpenLoch"` und `version: 1`: Das ist die Version des Lochraster-Dokuments, nicht die des Projekts. Ebenso ist die Version einer Leiterplatte die ihres Moduls. Die Schemata: Lochraster im Abschnitt [Lochraster-Dokument](#lochraster-dokument-version-1), Leiterplatte wie `.olpcb` ([Moduldoku](modules/pcb.md)), Frontplatte wie `.olfp` ([Moduldoku](modules/frontpanel.md)), Schaltplan mit seinem Modul. Ressourcen eines Moduls, etwa Bilder oder eingebettete Originaldateien, bleiben in seinen Daten.
+`data` trägt die eigenen Felder `format` und `version` des Moduls; Leser wählen das Modul nach `kind`, nie nach `data.format`. Ein Lochraster-Dokument trägt darin also `format: "OpenLoch"` und `version: 1`: Das ist die Version des Lochraster-Dokuments, nicht die des Projekts. Ebenso ist die Version einer Leiterplatte die ihres Moduls. Die Schemata: Lochraster im Abschnitt [Lochraster-Dokument](#lochraster-dokument-version-1), Leiterplatte wie `.olpcb` ([Moduldoku](modules/pcb.md#eigenes-dateiformat-olpcb)), Frontplatte wie `.olfp` ([Moduldoku](modules/frontpanel.md#eigenes-dateiformat)), Schaltplan wie `.olsch` ([Moduldoku](modules/schematic.md#eigenes-dateiformat-olsch)). Ressourcen eines Moduls, etwa Bilder oder eingebettete Originaldateien, bleiben in seinen Daten.
 
 **Unbekanntes bleibt erhalten.** Ein Dokument einer Art, die das laufende Programm nicht kennt, etwa ein Schaltplan in einer Fassung ohne Schaltplanmodul, erscheint in der Projektübersicht als nicht zu öffnen und wird beim Speichern unverändert zurückgeschrieben. Dasselbe gilt für unbekannte Felder des Projekts, seiner Dokumenteinträge und Bauteile.
 
@@ -56,7 +56,7 @@ Kennung, Wert, Beschreibung und Felder gelten aus dem Register. Die Dokumente tr
 - `links`: Jede Verknüpfung hat eine Art (`kind`) und nennt die beteiligten Dokumente und Objekte über ihre Kennungen; sie ist für Beziehungen gedacht, die keinem einzelnen Dokument gehören. Die Lage einer Platine hinter einer Frontplatte (Versatz, Drehung, Seite) speichert dagegen die Frontplatte selbst, im Feld `boards` ihrer Platte ([Frontplatte](modules/frontpanel.md)), weil sie dort bearbeitet und mit der Frontplatte rückgängig gemacht wird; sie nennt das Dokument und die Platine über ihre Kennungen.
 - `resources`: SHA-256 des Inhalts in Kleinbuchstaben → `kind` (etwa `lm4`, `lay6`, `fpl`, `spl8`, `png`), `name` und Base64-`data`. Nicht mehr verwendete Ressourcen entfallen beim Speichern.
 
-Nicht in die Datei gehören Fenster und ihre Lage, Netze (sie folgen aus dem Schaltplan) und abgeleitete Listen wie Stückliste oder Prüfergebnisse. Ansichtseinstellungen, die ein Modul heute in seinem Dokument speichert, bleiben dort.
+Nicht in die Datei gehören Fenster und ihre Lage, Netze (sie folgen aus dem Schaltplan) und abgeleitete Listen wie Stückliste oder Prüfergebnisse. Ansichtseinstellungen, die ein Modul in seinem Dokument speichert, bleiben dort.
 
 ### Speichern
 
@@ -68,8 +68,8 @@ Ein Projekt mit genau einem Dokument, das aus einer Datei eines Vorbilds stammt 
 
 - `version` 2: das Projekt; jedes Dokument liest sein Modul.
 - `version` 1: ein Projekt mit einem Lochraster-Dokument, dessen `data` die ganze Datei ist.
-- `.olpcb` und `.olfp`: ein Projekt mit einem Dokument dieser Art.
-- Fehlende Kennungen von Projekt und Dokumenten werden beim ersten Lesen vergeben. Beim nächsten Speichern entsteht eine Datei der Version 2; aus `.olpcb` und `.olfp` wird dabei eine neue Datei `.openloch`, die alte bleibt liegen.
+- `.olsch`, `.olpcb` und `.olfp`: ein Projekt mit einem Dokument dieser Art.
+- Fehlende Kennungen von Projekt und Dokumenten werden beim ersten Lesen vergeben. Beim nächsten Speichern entsteht eine Datei der Version 2; aus `.olsch`, `.olpcb` und `.olfp` wird dabei eine neue Datei `.openloch`, die alte bleibt liegen.
 - Eine höhere `version` wird mit einer Meldung abgewiesen, ebenso ungültige Werte, mit Angabe des Feldes.
 
 ## Lochraster-Dokument (Version 1)
@@ -157,6 +157,6 @@ Version-1-Dokumente werden umgewandelt: Änderungen auf die gelesenen Objekte an
 
 Stand: Das Modell und sein Format sind umgesetzt (`src/board.*`) und schreiben dieselbe LM4-Datei wie Version 1; die Tests prüfen das bei jedem LM4-Schreiben, auch nach dem Weg durch das Format. Gespeichert wird noch Version 1, bis Zeichenfläche und Fenster mit dem Modell arbeiten.
 
-## Ziel der Weiterentwicklung
+## Weiterentwicklung
 
-Das Ziel umfasst offen dokumentierte Bauteile, Pins, Geometrie und Zuordnungen zwischen Dokumenten, klare Einheiten sowie reproduzierbare Verweise auf Bibliotheken, Simulationsmodelle und Fertigungsdaten. Schemaänderungen benötigen eine definierte neue Version und einen geprüften Migrationsweg für vorhandene Dateien.
+Offen dokumentiert werden sollen auch Bauteile mit ihren Pins, Geometrie und Zuordnungen zwischen Dokumenten, mit klaren Einheiten, und nachvollziehbare Verweise auf Bibliotheken, Simulationsmodelle und Fertigungsdaten. Jede Schemaänderung braucht eine neue Version und einen geprüften Migrationsweg für vorhandene Dateien.

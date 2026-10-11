@@ -1,6 +1,6 @@
 # Vergleich mit LochMaster 4
 
-OpenLoch soll alles können, was LochMaster 4.0 kann, und sich dabei genauso bedienen lassen. Diese Übersicht zeigt, was vorhanden ist und was noch fehlt. Die Liste der offenen Punkte ist zugleich der Arbeitsplan für den Lochraster-Teil (siehe [Roadmap](roadmap.md)).
+Das Lochraster von OpenLoch soll alles können, was LochMaster 4.0 kann, und sich genauso bedienen lassen. Die Tabelle zeigt je Bereich, was vorhanden und was offen ist; die offenen Punkte gehen in die [Roadmap](roadmap.md) ein.
 
 ## Funktionen
 
@@ -13,11 +13,11 @@ OpenLoch soll alles können, was LochMaster 4.0 kann, und sich dabei genauso bed
 | Zeichnen | Leitungen, Lötpunkte, Trennstellen, Bohrungen, Texte, Rechtecke, Ellipsen, Polygone, offene Konturen, Pins, Anschlussdrähte, Lötstellen, Potentialmarken, Linien- und Füllfarben, Linienbreiten bis „unsichtbar“, Füllungen, Konturglättung (B-Spline, Fase, Rundung), Fräskonturen, Bitmapfüllungen auch für Kreise, Lötstellen mit 3D-Bild (eigene Zeichnung) | – |
 | Bearbeiten | Auswahl, Verschieben, Drehen (90°, 180°, beliebig), Spiegeln, andere Platinenseite, Ausrichten, Ebenenfolge, Duplizieren, Zwischenablage, Knotengriffe, Rückgängig und Wiederholen mit wählbarer Zahl der Schritte | – |
 | Platine | Vorlagen, Layout-Editor mit Kupferflächen, Leiterbahnen, Lötaugen und Bohrungen, Platine drehen, mehrere Platinen, Eigenschaften mit Größe, Lochabstand, Fangrastern, Ursprung, Versatz und Extrafeldern, Ursprung setzen, Anmerkungen mit Formatierung, Lineal und Einzügen sowie eingefügter Stück- und Einkaufsliste, Objektbaum | – |
-| Ansichten | Wenden, Durchsicht, Röntgenblick mit Kontrast, BMP-Rendering (auch für die Bauteilvorschau der Bibliothek), S/W, Zoom, Einheiten mm, inch und N mit ihren Fangrastern (Umschalt fängt nicht), Lineale, Ansicht und Einheit je Platine, Platinenfarben des Originals | – |
+| Ansichten | Wenden, Durchsicht, Röntgenblick mit Kontrast, BMP-Rendering (auch für die Bauteilvorschau der Bibliothek), S/W, Zoom (das Mausrad verschiebt wie im Original, Strg bzw. ⌘ mit Mausrad und ein Pinch auf dem Touchpad zoomen um die Mausposition), Einheiten mm, inch und N mit ihren Fangrastern (Umschalt fängt nicht), Lineale, Ansicht und Einheit je Platine, Platinenfarben des Originals | – |
 | Prüfen | Durchgangsprüfer, Potentialanzeige, freie Bereiche | – |
 | Stückliste | Stückliste und Einkaufsliste wie im Original, „Excel erzeugen…“ öffnet die Tabelle in der Tabellenkalkulation (CSV) und legt sie in die Zwischenablage | – |
 | Ausgabe | Druckvorschau mit bis zu zehn Ansichten je Platine, Ebenen, Maßstab, Lage, Kacheln, mehreren Blättern, Schnittmarken, Datenfeld, Exemplaren und Korrekturfaktoren; Export als PNG, BMP, JPG und PDF; HPGL-Dateien zum Bohren und Fräsen | Ausdrucke und HPGL-Dateien mit denen des Originals vergleichen, Maßhaltigkeit auf Papier prüfen |
-| Oberfläche | Menüs, Kontextmenüs, Symbolleisten (auch „Farben“, „Breite“, „Füllen“ und „Fräsen“), Werkzeugpalette und Mauszeiger wie im Original (eigene Symbole), Werkzeuge ein- und ausblenden, Platinen als Reiter, Einheitenknopf an den Linealen, eigene Hilfe (F1), deutsch, englisch und französisch | – |
+| Oberfläche | Menüs, Kontextmenüs, Symbolleisten (auch „Farben“, „Breite“, „Füllen“ und „Fräsen“), Werkzeugpalette und Mauszeiger wie im Original (eigene Symbole), Werkzeuge ein- und ausblenden, Platinen als Reiter, Einheitenknopf an den Linealen, Tastenkürzel in den Tooltips, eigene Hilfe (F1), deutsch, englisch und französisch | – |
 | Plattformen | macOS, Windows und Linux aus demselben Code, automatische Builds und Tests, Pakete als DMG, ZIP und AppImage | Abnahme auf Windows 10/11, Intel-Macs und Linux, Notarisierung für macOS |
 
 Registrierung, Hersteller-Updates und der Info-Dialog des Herstellers werden nicht nachgebaut.
@@ -29,7 +29,9 @@ Registrierung, Hersteller-Updates und der Info-Dialog des Herstellers werden nic
 - Bitmapfüllungen aus PNG, GIF und JPEG; durchsichtige Stellen werden zum Umriss der Fläche, damit das Bild weder Kupfer noch Bohrungen verdeckt
 - Ein beliebiger Anschluss als Bezugspunkt eines Bauteils; er wird dessen erster Anschluss und bleibt so auch in LM4-Dateien erhalten
 - Kurzschlussprüfung zwischen Netzen mit verschiedenen Potentialen
-- Englische Oberfläche, dunkler Modus, PDF-Ausgabe
+- Englische und französische Oberfläche, dunkler Modus, PDF-Ausgabe
+- Mit einem Schaltplan im Projekt (Menü Prüfen): „Mit Schaltplan vergleichen“ mit Luftlinien für offene Verbindungen, „Aus Schaltplan übernehmen…“, „Anschlüsse zuordnen…“ und „Fehlende Bauteile setzen…“ ([Soll-Verbindungen](suite.md#soll-verbindungen-aus-dem-schaltplan))
+- „Bauteile anordnen…“ legt die Bauteile des Schaltplans mit Versorgungs- und Masseschiene auf die Platine, „Verdrahten“ zieht die Drähte auf der Lötseite, mit Drahtbrücken, wo Netze sich kreuzen ([Bauteile anordnen im Lochraster](suite.md#bauteile-anordnen-im-lochraster))
 
 ## Bewusste Abweichungen
 

@@ -20,6 +20,7 @@ Das [sechsseitige Bauheft](OpenLoch-Bauheft.pdf) enthält nummerierte Bestückun
 - `-Bestueckung.png/.pdf`: Bestückungsansicht; beide Drahtseiten sind sichtbar.
 - `-Loetseite.png/.pdf`: gespiegelte Ansicht von unten. Grüne isolierte Brücken sind dort nur an ihren Anschlüssen relevant.
 - `-Stueckliste.csv`, `-Anschlussliste.csv`, `-Drahtliste.csv`: Bauteile, einzelne Pins und jede gerade Drahtstrecke.
+- `-Netzliste.json`: Bauteile mit Lochposition, Pins und dem Netz jedes Pins.
 - `-Aufbaupruefung.json` und `-Geometriepruefung.json`: nachvollziehbare Prüfergebnisse.
 
 **Alle Tabellen zählen von der Bestückungsseite aus:** X nach rechts, Y nach unten. Die erste tatsächlich vorhandene Lochspalte und Lochreihe heißen jeweils 1. Randabstände handelsüblicher Platinen variieren; es zählt das Loch, nicht ein vom Außenrand gemessener Millimeterwert. Beim Blick auf die Unterseite vertauschen sich links und rechts. Die Tabellenkoordinaten bleiben unverändert.
