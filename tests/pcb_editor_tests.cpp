@@ -16,8 +16,12 @@
 #include <QKeyEvent>
 #include <QLabel>
 #include <QLineEdit>
+#include <QLineF>
 #include <QMessageBox>
 #include <QMouseEvent>
+#include <QNativeGestureEvent>
+#include <QPointingDevice>
+#include <QWheelEvent>
 #include <QRegularExpression>
 #include <QSet>
 #include <QTimer>
@@ -513,5 +517,23 @@ int editorTests(){
         require(run(7)==7&&message.contains("7"),"unknown exit code");
         require(plugged.runPlugin(dir.filePath("missing-plugin"),&message)==-1&&!message.isEmpty(),"a plugin that does not start");
         qunsetenv("OPENLOCH_PCB_TEST_PLUGIN");qunsetenv("OPENLOCH_PCB_TEST_PLUGIN_LOG");}
+    // --- Zoom and touchpad (docs/suite.md): a pinch zooms steadily about the pointer, two fingers move, Strg (⌘) and
+    // scrolling zoom about the pointer, the mouse wheel zooms by its step as in the reference.
+    {Editor editor;editor.resize(900,600);editor.show();QApplication::processEvents();auto *view=editor.view();
+        const QPointF at(300,200);const QPointF global=view->mapToGlobal(at);
+        auto still=[&](QPointF mm){return QLineF(view->toBoard(at),mm).length()*view->scale()<1e-6;};
+        QPointF mm=view->toBoard(at);double scale=view->scale();
+        QNativeGestureEvent pinch(Qt::ZoomNativeGesture,QPointingDevice::primaryPointingDevice(),2,at,at,global,.5,QPointF(),0);
+        QApplication::sendEvent(view,&pinch);
+        require(std::abs(view->scale()-scale*1.5)<1e-9&&still(mm)&&view->canZoomBack(),"a pinch zooms about the pointer, and back is possible");
+        scale=view->scale();const QPointF pixel=view->toPixel(mm);
+        QWheelEvent fingers(at,global,QPoint(30,-20),QPoint(0,0),Qt::NoButton,Qt::NoModifier,Qt::ScrollUpdate,false);QApplication::sendEvent(view,&fingers);
+        require(view->scale()==scale&&QLineF(view->toPixel(mm),pixel+QPointF(30,-20)).length()<1e-9,"two fingers move the view, never zoom");
+        mm=view->toBoard(at);
+        QWheelEvent command(at,global,QPoint(0,60),QPoint(0,120),Qt::NoButton,Qt::ControlModifier,Qt::ScrollUpdate,false);QApplication::sendEvent(view,&command);
+        require(std::abs(view->scale()-scale*1.25)<1e-9&&still(mm),"Strg (⌘) and two fingers zoom about the pointer");
+        scale=view->scale();
+        QWheelEvent wheel(at,global,QPoint(),QPoint(0,-120),Qt::NoButton,Qt::NoModifier,Qt::NoScrollPhase,false);QApplication::sendEvent(view,&wheel);
+        require(std::abs(view->scale()-scale/1.25)<1e-9&&still(mm),"a mouse wheel step zooms about the pointer");}
     return 0;
 }

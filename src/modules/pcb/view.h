@@ -252,6 +252,7 @@ protected:
     void mouseMoveEvent(QMouseEvent *) override;
     void mouseReleaseEvent(QMouseEvent *) override;
     void mouseDoubleClickEvent(QMouseEvent *) override;
+    bool event(QEvent *) override;
     void wheelEvent(QWheelEvent *) override;
     void keyPressEvent(QKeyEvent *) override;
     void resizeEvent(QResizeEvent *) override;

@@ -5,6 +5,7 @@
 #include <QDateTime>
 #include <QDir>
 #include <QGuiApplication>
+#include <QNativeGestureEvent>
 #include <QRegularExpression>
 #include <QHash>
 #include <QDropEvent>
@@ -881,10 +882,24 @@ void BoardView::mouseDoubleClickEvent(QMouseEvent *event){
     }
     if(sizesTaken)sizesTaken(e);
 }
+// The suite's rule for zoom and touchpad (docs/suite.md, "Zoom und Touchpad"): a pinch zooms steadily about the
+// pointer, two fingers move the view, Strg (⌘) and scrolling zoom about the pointer, a mouse wheel zooms as in the
+// reference.
+bool BoardView::event(QEvent *e){
+    if(e->type()==QEvent::NativeGesture){
+        auto *g=static_cast<QNativeGestureEvent*>(e);
+        if(g->gestureType()==Qt::ZoomNativeGesture){
+            // A pinch in quick succession is one zoom for going back, as steps of the wheel are.
+            const qint64 now=QDateTime::currentMSecsSinceEpoch();if(now-lastWheel>600)rememberView();lastWheel=now;
+            zoomBy(1+g->value(),g->position());return true;
+        }
+    }
+    return QWidget::event(e);
+}
 void BoardView::wheelEvent(QWheelEvent *event){
     // A mouse wheel zooms about the pointer as in the reference; a trackpad scrolls, and zooms with Ctrl (Cmd).
-    const QPoint pixels=event->pixelDelta();
-    if(!pixels.isNull()&&!(event->modifiers()&Qt::ControlModifier)){offset+=QPointF(pixels);viewMoved();return;}
+    const QPoint pixels=event->pixelDelta();const bool zoom=event->modifiers()&(Qt::ControlModifier|Qt::MetaModifier);
+    if(!pixels.isNull()&&!zoom){offset+=QPointF(pixels);viewMoved();return;}
     const double steps=(pixels.isNull()?event->angleDelta().y()/120.0:pixels.y()/60.0);if(steps==0)return;
     // Steps of the wheel in quick succession are one zoom for going back.
     const qint64 now=QDateTime::currentMSecsSinceEpoch();if(now-lastWheel>600)rememberView();lastWheel=now;
